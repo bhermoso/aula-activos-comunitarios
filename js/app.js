@@ -57,7 +57,8 @@ function render(i,{updateUrl=false}={}){
  window.scrollTo({top:0,left:0,behavior:'instant'});
 }
 function route(){const id=decodeURIComponent(location.hash.slice(1));const i=indexOfPage(id);render(i>=0?i:0)}
-function go(i){const next=Math.max(0,Math.min(pages.length-1,i));render(next,{updateUrl:true})}
+const visitStack=[];
+function go(i){if(pages[current] && pages[current].id!==pages[Math.max(0,Math.min(pages.length-1,i))].id)visitStack.push(pages[current].id);const next=Math.max(0,Math.min(pages.length-1,i));render(next,{updateUrl:true})}
 function toggle(on){
  mode=on;document.body.classList.toggle('presenting',on);controls.hidden=!on;
  present.setAttribute('aria-pressed',String(on));present.textContent=on?'▣ Consultar':'◫ Presentar';
@@ -73,6 +74,7 @@ document.addEventListener('click',e=>{
  if(i<0)return;
  e.preventDefault();go(i);
 });
+document.querySelector('#back-page').addEventListener('click',()=>{const prior=visitStack.pop();if(prior&&indexOfPage(prior)>=0){render(indexOfPage(prior),{updateUrl:true});return;}if(current!==indexOfPage('inicio'))go(indexOfPage('panel'));else go(indexOfPage('inicio'));});
 window.addEventListener('popstate',route);
 window.addEventListener('hashchange',route);
 window.addEventListener('keydown',e=>{
