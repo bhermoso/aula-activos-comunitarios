@@ -1,4 +1,4 @@
-import {addTechniquePages} from './techniques.js';
+import {addTechniquePages,initTechniqueLearning} from './techniques.js';
 import {initTeaching,setupTeachingUI} from './teaching.js';
 import {enhanceSession} from './session.js';
 import {materials,localiza,mapeo,decisions} from '../content/data.js';
@@ -47,6 +47,7 @@ document.querySelector('#print-plan').addEventListener('click',()=>window.print(
 
 enhanceSession();
 addTechniquePages(section);
+initTechniqueLearning();
 setupTeachingUI();
 const pages=[...document.querySelectorAll('[data-slide]')];
 const controls=document.querySelector('#controls'),present=document.querySelector('#present');
