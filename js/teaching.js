@@ -13,10 +13,19 @@ export function initTeaching({navigate,currentId,setMode}){
  const ids=Object.values(sequences).flat().map(([id])=>id);
  const stage=document.querySelector('#teaching-stage');
  const timer=document.querySelector('#timer-widget');
+ document.body.appendChild(timer);
  const choices=document.querySelector('#timer-minutes');
  let deadline=null,remaining=0,interval=null,active=false,started=false,viewId=currentId();
  const toggleBtn=document.querySelector('#timer-toggle');
- function refreshVisibility(){const landing=viewId==='localiza'||viewId==='mapeo';timer.hidden=!(started||landing);toggleBtn.setAttribute('aria-expanded',String(!timer.hidden));}
+ function refreshVisibility(){
+  const landing=viewId==='localiza'||viewId==='mapeo';
+  const visible=started||landing;
+  timer.hidden=!visible;
+  timer.classList.toggle('is-visible',visible);
+  timer.style.setProperty('display',visible?'block':'none','important');
+  timer.setAttribute('aria-hidden',String(!visible));
+  toggleBtn.setAttribute('aria-expanded',String(visible));
+ }
  const format=ms=>{const seconds=Math.max(0,Math.ceil(ms/1000));return String(Math.floor(seconds/60)).padStart(2,'0')+':'+String(seconds%60).padStart(2,'0')};
  function tick(){
   if(active) remaining=Math.max(0,deadline-Date.now());
@@ -32,8 +41,8 @@ export function initTeaching({navigate,currentId,setMode}){
   else{started=true;if(remaining<=0)remaining=Number(choices.value)*60000;deadline=Date.now()+remaining;active=true;document.querySelector('#timer-play').textContent='Pausar';document.querySelector('#timer-state').textContent='En marcha';interval=setInterval(tick,250)}
   tick();refreshVisibility();
  });
- document.querySelector('#timer-reset').addEventListener('click',reset);
- document.querySelector('#timer-toggle').addEventListener('click',()=>{timer.hidden=false;toggleBtn.setAttribute('aria-expanded','true')});
+ document.querySelector('#timer-reset').addEventListener('click',()=>{reset();refreshVisibility()});
+ document.querySelector('#timer-toggle').addEventListener('click',()=>{started=true;refreshVisibility()});
  const fs=document.querySelector('#screen-full');
  fs.addEventListener('click',async()=>{
   try{
