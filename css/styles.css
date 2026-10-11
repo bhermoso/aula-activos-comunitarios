@@ -78,3 +78,7 @@ body.presenting .timer-widget{bottom:118px;right:22px;z-index:250}
 @media(max-width:900px){.tech-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.tech-grid,.tech-detail{grid-template-columns:1fr}.tech-detail article:nth-child(2){grid-row:auto}}
 @media(prefers-reduced-motion:reduce){.tech-card{transition:none}}
+
+/* Materiales y autoaprendizaje por técnica */
+.learning-source{padding:17px 0;border-bottom:1px solid var(--line)}.learning-source:last-child{border-bottom:0}.learning-source>b{display:block;font-size:12px;letter-spacing:.07em;color:var(--accent)}.learning-source p{margin:8px 0;font-size:15px}.learning-source a{display:inline-block;line-height:1.4}.learning-source small{display:block;color:var(--muted);font-size:12px;margin-top:7px}
+.learning-workshop{background:var(--paper);padding:28px;margin:24px 0;border-left:5px solid var(--accent)}.learning-workshop h3{font:normal 28px/1.2 Georgia,serif;color:var(--ink)}.learning-workshop details{margin-top:15px;border:1px solid var(--line);padding:15px}.learning-workshop summary{cursor:pointer;font-weight:700}.learning-actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:20px}.learning-actions button,.learning-actions a{border:1px solid var(--ink);padding:11px 15px;font-size:14px;text-decoration:none}.learning-actions a{color:var(--ink)}.learning-note{font-size:12px;color:var(--muted)}@media(max-width:650px){.learning-workshop{padding:18px}.learning-actions button,.learning-actions a{width:100%}}
