@@ -1,3 +1,4 @@
+import {addTechniquePages} from './techniques.js';
 import {initTeaching,setupTeachingUI} from './teaching.js';
 import {enhanceSession} from './session.js';
 import {materials,localiza,mapeo,decisions} from '../content/data.js';
@@ -45,6 +46,7 @@ document.querySelector('#download-plan').addEventListener('click',()=>{
 document.querySelector('#print-plan').addEventListener('click',()=>window.print());
 
 enhanceSession();
+addTechniquePages(section);
 setupTeachingUI();
 const pages=[...document.querySelectorAll('[data-slide]')];
 const controls=document.querySelector('#controls'),present=document.querySelector('#present');
@@ -60,7 +62,7 @@ function render(i,{updateUrl=false}={}){
  if(updateUrl)history.pushState({page:pages[current].id},'', '#'+pages[current].id);
  window.scrollTo({top:0,left:0,behavior:'instant'});
 }
-function route(){const id=decodeURIComponent(location.hash.slice(1));const i=indexOfPage(id);render(i>=0?i:0)}
+function route(){let id='inicio';try{id=decodeURIComponent(location.hash.slice(1))||'inicio'}catch(e){id='inicio'}const i=indexOfPage(id);render(i>=0?i:indexOfPage('inicio'))}
 const visitStack=[];
 function go(i){if(pages[current] && pages[current].id!==pages[Math.max(0,Math.min(pages.length-1,i))].id)visitStack.push(pages[current].id);const next=Math.max(0,Math.min(pages.length-1,i));render(next,{updateUrl:true})}
 function toggle(on){
