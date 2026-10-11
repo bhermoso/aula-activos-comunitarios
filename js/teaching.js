@@ -1,3 +1,9 @@
+export function setupTeachingUI(){
+ const main=document.querySelector('#main');
+ main.insertAdjacentHTML('beforebegin','<div id="teaching-stage" class="teaching-stage" aria-label="Etapas del taller" hidden></div>');
+ main.insertAdjacentHTML('afterend','<div class="teacher-tools" hidden aria-label="Herramientas docentes"><button id="screen-full" type="button">Pantalla completa</button><button id="timer-toggle" type="button" aria-expanded="false" aria-controls="timer-widget">◷ Cronómetro</button><button id="teacher-home" type="button">⌂ Panel</button><button id="teacher-exit" type="button">Salir del modo docente</button><span id="teacher-status" role="status" aria-live="polite"></span></div><div class="timer-widget" id="timer-widget" hidden><div class="timer-head"><strong>Cronómetro de actividad</strong><span id="timer-state" role="status">Preparado</span></div><output id="timer-display" aria-label="Tiempo restante">05:00</output><label for="timer-minutes">Duración</label><select id="timer-minutes"><option value="3">3 min</option><option value="5" selected>5 min</option><option value="10">10 min</option><option value="15">15 min</option><option value="20">20 min</option><option value="25">25 min</option><option value="30">30 min</option><option value="35">35 min</option><option value="45">45 min</option><option value="60">60 min</option><option value="100">100 min</option></select><div class="timer-actions"><button id="timer-play" type="button">Iniciar</button><button id="timer-reset" type="button">Reiniciar</button></div></div>');
+}
+
 // Controles docentes independientes del contenido y de la navegación.
 export function initTeaching({navigate,currentId,setMode}){
  const sequences={
