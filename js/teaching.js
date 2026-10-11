@@ -14,26 +14,26 @@ export function initTeaching({navigate,currentId,setMode}){
  const stage=document.querySelector('#teaching-stage');
  const timer=document.querySelector('#timer-widget');
  const choices=document.querySelector('#timer-minutes');
- let deadline=null,remaining=0,interval=null,active=false;
+ let deadline=null,remaining=0,interval=null,active=false,started=false,viewId=currentId();
+ const toggleBtn=document.querySelector('#timer-toggle');
+ function refreshVisibility(){const landing=viewId==='localiza'||viewId==='mapeo';timer.hidden=!(started||landing);toggleBtn.setAttribute('aria-expanded',String(!timer.hidden));}
  const format=ms=>{const seconds=Math.max(0,Math.ceil(ms/1000));return String(Math.floor(seconds/60)).padStart(2,'0')+':'+String(seconds%60).padStart(2,'0')};
  function tick(){
   if(active) remaining=Math.max(0,deadline-Date.now());
   const face=document.querySelector('#timer-display');face.textContent=format(remaining);
   timer.classList.toggle('timer-done',remaining===0&&active);
-  if(remaining===0&&active){active=false;clearInterval(interval);interval=null;document.querySelector('#timer-play').textContent='Iniciar';document.querySelector('#timer-state').textContent='Tiempo terminado';}
+  if(remaining===0&&active){active=false;started=true;clearInterval(interval);interval=null;document.querySelector('#timer-play').textContent='Iniciar';document.querySelector('#timer-state').textContent='Tiempo terminado';}
  }
  function stop(){if(active)remaining=Math.max(0,deadline-Date.now());active=false;clearInterval(interval);interval=null;}
  function reset(){stop();remaining=Number(choices.value)*60000;timer.classList.remove('timer-done');document.querySelector('#timer-play').textContent='Iniciar';document.querySelector('#timer-state').textContent='Preparado';tick();}
  choices.addEventListener('change',reset);
  document.querySelector('#timer-play').addEventListener('click',()=>{
-  if(active){stop();document.querySelector('#timer-play').textContent='Continuar';document.querySelector('#timer-state').textContent='En pausa'}
-  else{if(remaining<=0)remaining=Number(choices.value)*60000;deadline=Date.now()+remaining;active=true;document.querySelector('#timer-play').textContent='Pausar';document.querySelector('#timer-state').textContent='En marcha';interval=setInterval(tick,250)}
-  tick();
+  if(active){stop();started=true;document.querySelector('#timer-play').textContent='Continuar';document.querySelector('#timer-state').textContent='En pausa'}
+  else{started=true;if(remaining<=0)remaining=Number(choices.value)*60000;deadline=Date.now()+remaining;active=true;document.querySelector('#timer-play').textContent='Pausar';document.querySelector('#timer-state').textContent='En marcha';interval=setInterval(tick,250)}
+  tick();refreshVisibility();
  });
  document.querySelector('#timer-reset').addEventListener('click',reset);
- document.querySelector('#timer-toggle').addEventListener('click',()=>{
-  const hidden=timer.hidden;timer.hidden=!hidden;document.querySelector('#timer-toggle').setAttribute('aria-expanded',String(hidden));
- });
+ document.querySelector('#timer-toggle').addEventListener('click',()=>{timer.hidden=false;toggleBtn.setAttribute('aria-expanded','true')});
  const fs=document.querySelector('#screen-full');
  fs.addEventListener('click',async()=>{
   try{
@@ -45,6 +45,7 @@ export function initTeaching({navigate,currentId,setMode}){
  document.querySelector('#teacher-home').addEventListener('click',()=>navigate('panel'));
  document.querySelector('#teacher-exit').addEventListener('click',async()=>{if(document.fullscreenElement)await document.exitFullscreen().catch(()=>{});setMode(false)});
  function update(id){
+  viewId=id;refreshVisibility();
   let key=id==='localiza'||['maracena','chrysallis','registro'].includes(id)?'localiza':id==='mapeo'||['tecnicas','decisiones','ficha'].includes(id)?'mapeo':null;
   if(!key){stage.hidden=true;return;}
   const seq=sequences[key],index=seq.findIndex(([v])=>v===id);
