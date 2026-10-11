@@ -20,10 +20,41 @@ section('tecnicas','Metodologías participativas','De la consulta a la construcc
 section('decisiones','Actividad en equipos','Las seis decisiones del plan',grid(decisions)+'<h3>Comprobar viabilidad</h3>'+checklist(['Finalidad delimitada','Territorio acotado','Participación vecinal real','Inclusión y equidad','Técnicas adecuadas','Calendario y responsables','Registro de hallazgos','Devolución comunitaria'])+'<p><strong>Producto esperado:</strong> propuesta de mapeo presentada en aproximadamente cinco minutos por equipo; después se desarrollará el trabajo de campo.</p>');
 section('biblioteca','04 / Materiales','Biblioteca de recursos','<p class="lead">Los vídeos son materiales opcionales de consulta autónoma, no tareas obligatorias durante la sesión.</p><div class="timeline">'+materials.map(x=>'<a class="resource" href="'+x[2]+'" target="_blank" rel="noopener noreferrer"><strong>'+x[0]+' ↗</strong><small>'+x[1]+'</small></a>').join('')+'</div><div class="notice">El documento de criterios andaluces enlaza al Google Drive facilitado. Su acceso depende de los permisos del archivo.</div>');
 section('cierre','Continuidad','Del aula al territorio','<p class="lead">Cada equipo revisa su propuesta, prepara el proceso comunitario y documenta el trabajo de campo posterior. No se atribuirán datos de encuestas o actividades que no se hayan realizado.</p><div class="actions"><a href="#decisiones">Revisar seis decisiones →</a> <a href="#biblioteca">Abrir materiales →</a></div>');
-const pages=[...document.querySelectorAll('[data-slide]')],controls=document.querySelector('#controls'),present=document.querySelector('#present');
+const pages=[...document.querySelectorAll('[data-slide]')];
+const controls=document.querySelector('#controls'),present=document.querySelector('#present');
 let current=0,mode=false;
-function show(i){current=Math.max(0,Math.min(pages.length-1,i));pages.forEach((p,j)=>p.classList.toggle('current',i===j));document.querySelector('#count').textContent=(current+1)+' / '+pages.length;history.replaceState(null,'','#'+pages[current].id);}
-function toggle(on){mode=on;document.body.classList.toggle('presenting',on);controls.hidden=!on;present.setAttribute('aria-pressed',String(on));present.textContent=on?'▣ Consultar':'◫ Presentar';if(on)show(Math.max(0,pages.findIndex(p=>p.id===location.hash.slice(1))));else pages.forEach(p=>p.classList.remove('current'));}
-present.onclick=()=>toggle(!mode);document.querySelector('#exit').onclick=()=>toggle(false);document.querySelector('#prev').onclick=()=>show(current-1);document.querySelector('#next').onclick=()=>show(current+1);
-window.addEventListener('keydown',e=>{if(!mode||/input|textarea|select/i.test(document.activeElement.tagName))return;if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();show(current+1)}else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();show(current-1)}else if(e.key==='Escape')toggle(false)});
-window.addEventListener('hashchange',()=>{if(mode){const j=pages.findIndex(p=>p.id===location.hash.slice(1));if(j>=0){current=j;show(j)}}});
+function indexOfPage(id){return pages.findIndex(p=>p.id===id)}
+function render(i,{updateUrl=false}={}){
+ current=Math.max(0,Math.min(pages.length-1,i));
+ pages.forEach((p,j)=>{p.classList.toggle('current',j===current);p.hidden=j!==current;p.setAttribute('aria-hidden',String(j!==current))});
+ document.querySelector('#count').textContent=(current+1)+' / '+pages.length;
+ document.title=(pages[current].querySelector('h2')?.textContent||'Aula de Activos Comunitarios')+' · Aula de Activos Comunitarios';
+ if(updateUrl)history.pushState({page:pages[current].id},'', '#'+pages[current].id);
+ window.scrollTo({top:0,left:0,behavior:'instant'});
+}
+function route(){const id=decodeURIComponent(location.hash.slice(1));const i=indexOfPage(id);render(i>=0?i:0)}
+function go(i){const next=Math.max(0,Math.min(pages.length-1,i));render(next,{updateUrl:true})}
+function toggle(on){
+ mode=on;document.body.classList.toggle('presenting',on);controls.hidden=!on;
+ present.setAttribute('aria-pressed',String(on));present.textContent=on?'▣ Consultar':'◫ Presentar';
+}
+present.onclick=()=>toggle(!mode);
+document.querySelector('#exit').onclick=()=>toggle(false);
+document.querySelector('#prev').onclick=()=>go(current-1);
+document.querySelector('#next').onclick=()=>go(current+1);
+document.addEventListener('click',e=>{
+ const a=e.target.closest('a[href^="#"]');
+ if(!a)return;
+ const id=a.getAttribute('href').slice(1),i=indexOfPage(id);
+ if(i<0)return;
+ e.preventDefault();go(i);
+});
+window.addEventListener('popstate',route);
+window.addEventListener('hashchange',route);
+window.addEventListener('keydown',e=>{
+ if(!mode||/input|textarea|select/i.test(document.activeElement.tagName))return;
+ if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();go(current+1)}
+ else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();go(current-1)}
+ else if(e.key==='Escape')toggle(false);
+});
+route();
