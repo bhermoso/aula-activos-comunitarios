@@ -50,3 +50,8 @@ body.presenting main>.section.current{top:156px;bottom:65px;inset-inline:0}
 body.presenting .global-navigation{display:none}
 @media(max-width:760px){.teaching-stage{padding:10px 16px}.stage-links{grid-template-columns:repeat(2,minmax(0,1fr))}body.presenting main>.section.current{top:225px;bottom:65px}.teacher-tools button{flex:1 1 auto}.teacher-tools #teacher-exit{margin-left:0}.timer-widget{bottom:110px;right:10px}.teacher-tools{padding:5px}}
 @media(prefers-reduced-motion:reduce){.timer-widget{transition:none}}
+
+/* Cronómetro flotante: siempre accesible en la portada del taller y durante su ejecución */
+body:not(.presenting) .timer-widget{bottom:22px;right:22px;z-index:250}
+body.presenting .timer-widget{bottom:118px;right:22px;z-index:250}
+@media(max-width:760px){body:not(.presenting) .timer-widget{bottom:12px;right:12px}body.presenting .timer-widget{bottom:135px;right:12px}}
