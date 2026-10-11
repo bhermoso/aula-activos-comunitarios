@@ -1,3 +1,4 @@
+import {initTeaching} from './teaching.js';
 import {enhanceSession} from './session.js';
 import {materials,localiza,mapeo,decisions} from '../content/data.js';
 const root=document.querySelector('#main');
@@ -47,11 +48,13 @@ enhanceSession();
 const pages=[...document.querySelectorAll('[data-slide]')];
 const controls=document.querySelector('#controls'),present=document.querySelector('#present');
 let current=0,mode=false;
+let teaching=null;
 function indexOfPage(id){return pages.findIndex(p=>p.id===id)}
 function render(i,{updateUrl=false}={}){
  current=Math.max(0,Math.min(pages.length-1,i));
  pages.forEach((p,j)=>{p.classList.toggle('current',j===current);p.hidden=j!==current;p.setAttribute('aria-hidden',String(j!==current))});
  document.querySelector('#count').textContent=(current+1)+' / '+pages.length;
+ teaching?.update(pages[current].id);
  document.title=(pages[current].querySelector('h2')?.textContent||'Aula de Activos Comunitarios')+' · Aula de Activos Comunitarios';
  if(updateUrl)history.pushState({page:pages[current].id},'', '#'+pages[current].id);
  window.scrollTo({top:0,left:0,behavior:'instant'});
@@ -61,6 +64,7 @@ const visitStack=[];
 function go(i){if(pages[current] && pages[current].id!==pages[Math.max(0,Math.min(pages.length-1,i))].id)visitStack.push(pages[current].id);const next=Math.max(0,Math.min(pages.length-1,i));render(next,{updateUrl:true})}
 function toggle(on){
  mode=on;document.body.classList.toggle('presenting',on);controls.hidden=!on;
+ document.querySelector('.teacher-tools').hidden=!on;
  present.setAttribute('aria-pressed',String(on));present.textContent=on?'▣ Consultar':'◫ Presentar';
 }
 present.onclick=()=>toggle(!mode);
@@ -84,3 +88,4 @@ window.addEventListener('keydown',e=>{
  else if(e.key==='Escape')toggle(false);
 });
 route();
+teaching=initTeaching({navigate:id=>{const i=indexOfPage(id);if(i>=0)go(i)},currentId:()=>pages[current].id,setMode:toggle});
