@@ -23,3 +23,30 @@ body.presenting main > section.current {display:block}
 
 /* Persistent, explicit page navigation */
 .global-navigation{position:sticky;top:65px;z-index:19;display:flex;justify-content:flex-end;align-items:center;gap:10px;padding:9px 4%;background:var(--cream);border-bottom:1px solid var(--line)}.global-navigation button,.global-navigation a{display:inline-flex;align-items:center;justify-content:center;min-width:108px;min-height:42px;padding:10px 18px;text-decoration:none;font-size:15px;font-weight:700;border:1px solid var(--ink);border-radius:4px}.global-navigation button{color:var(--ink);background:var(--paper)}.global-navigation a{color:#fff;background:var(--ink)}.global-navigation button:hover{background:#e5e8e2}.global-navigation a:hover{background:#245b50;color:#fff}body.presenting .global-navigation{display:flex}main>.section{scroll-margin-top:130px}@media(max-width:760px){.global-navigation{top:105px;padding:8px 15px}.global-navigation button,.global-navigation a{flex:1;min-width:0}}
+
+/* Herramientas del modo docente: visibles únicamente en presentación */
+.teacher-tools[hidden],.timer-widget[hidden],.teaching-stage[hidden]{display:none!important}
+.teacher-tools{display:none;position:fixed;bottom:0;left:0;right:0;background:#173b36;color:white;z-index:200;padding:10px max(14px,3%);gap:8px;flex-wrap:wrap;box-shadow:0 -3px 15px #0003}
+body.presenting .teacher-tools:not([hidden]){display:flex}
+.teacher-tools button{color:white;background:#31584e;border-color:#698e7f;font-size:13px;min-height:38px}
+.teacher-tools button:hover{background:#457365}
+.teacher-tools #teacher-exit{margin-left:auto}
+#teacher-status{font-size:12px;align-self:center}
+body.presenting #controls{bottom:65px}
+.teaching-stage{max-width:1160px;margin:0 auto;padding:13px 40px;background:var(--paper);border-bottom:1px solid var(--line)}
+.stage-title{display:flex;justify-content:space-between;font-size:13px;color:var(--ink);gap:12px}
+.stage-links{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;margin-top:8px}
+.stage-link{padding:9px 6px;background:#e6e9e2;text-align:left;border:0;border-top:4px solid transparent;font-size:12px;min-height:50px}
+.stage-link span{font-weight:800;margin-right:7px;color:var(--accent)}
+.stage-link.active{background:#d5e2da;border-color:var(--ink);font-weight:750}
+.timer-widget{position:fixed;bottom:68px;right:20px;width:280px;max-width:calc(100vw - 30px);background:var(--paper);box-shadow:0 10px 36px #0004;z-index:210;padding:18px 22px;border-top:4px solid var(--ink)}
+.timer-head{display:flex;justify-content:space-between;gap:12px;align-items:center}.timer-head span{font-size:11px;color:var(--muted)}
+.timer-widget output{display:block;text-align:center;font:normal 64px/1.2 Georgia,serif;font-variant-numeric:tabular-nums;color:var(--ink);margin:14px 0}
+.timer-widget label{display:block;font-size:12px}.timer-widget select{width:100%;padding:8px;margin:6px 0 12px;border:1px solid var(--line);background:white}
+.timer-actions{display:flex;gap:9px}.timer-actions button{flex:1}
+.timer-widget.timer-done{border-color:var(--accent)}.timer-widget.timer-done output{color:#b64e2e}
+body.presenting .teaching-stage{position:fixed;left:0;right:0;top:66px;z-index:21;max-width:none;padding:9px 4%}
+body.presenting main>.section.current{top:156px;bottom:65px;inset-inline:0}
+body.presenting .global-navigation{display:none}
+@media(max-width:760px){.teaching-stage{padding:10px 16px}.stage-links{grid-template-columns:repeat(2,minmax(0,1fr))}body.presenting main>.section.current{top:225px;bottom:65px}.teacher-tools button{flex:1 1 auto}.teacher-tools #teacher-exit{margin-left:0}.timer-widget{bottom:110px;right:10px}.teacher-tools{padding:5px}}
+@media(prefers-reduced-motion:reduce){.timer-widget{transition:none}}
