@@ -7,3 +7,5 @@ main > section[data-slide].hero.current {display:block}
 body:not(.presenting) main > section.current { min-height:calc(100vh - 135px) }
 body:not(.presenting) main > section.hero.current { min-height:calc(100vh - 105px) }
 body.presenting main > section.current {display:block}
+
+.criteria-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;list-style:none;padding:0;margin:28px 0}.criteria-list li{background:var(--paper);padding:14px 17px;border-left:3px solid var(--accent);font-size:15px}@media(max-width:760px){.criteria-list{grid-template-columns:1fr}}
