@@ -1,3 +1,4 @@
+import {enhanceSession} from './session.js';
 import {materials,localiza,mapeo,decisions} from '../content/data.js';
 const root=document.querySelector('#main');
 function section(id,kicker,title,content){
@@ -42,6 +43,7 @@ document.querySelector('#download-plan').addEventListener('click',()=>{
 });
 document.querySelector('#print-plan').addEventListener('click',()=>window.print());
 
+enhanceSession();
 const pages=[...document.querySelectorAll('[data-slide]')];
 const controls=document.querySelector('#controls'),present=document.querySelector('#present');
 let current=0,mode=false;
