@@ -24,3 +24,31 @@ export function addTechniquePages(section){
  const page=document.querySelector('#mapeo');
  page?.querySelector('.lead')?.insertAdjacentHTML('afterend','<p><a class="worksheet-link" href="#tecnicas-catalogo">Biblioteca de técnicas participativas →</a></p>');
 }
+
+
+const study={
+ 'tecnica-mapa':{read:'Guía breve EASP, anexo «Técnicas para la recogida de información»: Mapeo directo de activos, página impresa 22.',pdf:guia+'#page=22',task:'Dibuja un plano sencillo de un barrio e identifica con tres personas cinco lugares que contribuyan al bienestar. Anota quién los reconoce y el motivo.',question:'¿Qué información faltaría para afirmar que los lugares son activos y no solo recursos localizados?',template:'Lugar | Quién lo identifica | Beneficio para la salud | Evidencia | Accesibilidad'},
+ 'tecnica-paseos':{read:'Guía breve EASP, anexo: Paseos de Jane, página impresa 22. Complementar con la fase 4, páginas 14–15.',pdf:guia+'#page=22',task:'Planifica un paseo accesible de 30 minutos, con cuatro paradas y una pregunta abierta por parada. Prevé cómo participar sin caminar.',question:'¿Cómo evitarás que el itinerario seleccionado silencie activos de otros sectores del barrio?',template:'Parada | Observación | Relato del grupo | Posible activo | Barrera | Próximo contraste'},
+ 'tecnica-fotovoz':{read:'Guía breve EASP, anexo: Photovoice/Fotovoz, páginas impresas 22–23. La guía propone reflexionar colectivamente a partir de una fotografía.',pdf:guia+'#page=22',task:'Elige una imagen autorizada de un lugar comunitario y redacta tres preguntas para conversar sobre su relación con el bienestar. Prevé cómo recoger interpretaciones diferentes.',question:'¿Qué cambiaría si la fotografía la elige la persona participante y no el equipo profesional?',template:'Imagen autorizada | Quién interpreta | Qué significa | Activo posible | Acuerdo / desacuerdo'},
+ 'tecnica-entrevistas':{read:'Guía breve EASP, anexo: entrevista individual a población y profesionales, página impresa 21.',pdf:guia+'#page=21',task:'Prepara una entrevista de diez minutos con cinco preguntas abiertas sobre lugares, actividades, personas y relaciones que ayudan a vivir mejor.',question:'¿A quién no escucharías si solo entrevistaras a responsables de asociaciones y profesionales?',template:'Perfil participante (sin datos personales) | Pregunta | Activo citado | Motivo | Pendiente de contraste'},
+ 'tecnica-talleres':{read:'Guía breve EASP, anexo: grupos de discusión y focales, páginas impresas 21–22. Complementar con las técnicas educativas del anexo I del Ministerio.',pdf:guia+'#page=21',task:'Diseña una sesión de 40 minutos: reflexión individual, puesta en común en grupos pequeños, mapa compartido y validación final. Define roles de facilitación.',question:'¿Cómo sabrás si se han escuchado voces minoritarias y no solo se ha alcanzado un acuerdo aparente?',template:'Participantes / diversidad | Pregunta | Dinámica | Activos propuestos | Discrepancias | Devolución'},
+ 'tecnica-fichas':{read:'Guía breve EASP, anexo: registro mediante fichas, página impresa 23, y modelos de recogida de información del anexo.',pdf:guia+'#page=22',task:'Rellena una ficha de un recurso real sin inventar datos. Distingue campos comprobados, pendientes de confirmación y aportaciones de la comunidad.',question:'¿Por qué una ficha cumplimentada no equivale a un activo validado o identificado participativamente?',template:'Nombre | Localización | Contacto autorizado | Acceso | Beneficio | Origen de la identificación | Verificación'}
+};
+export function initTechniqueLearning(){
+ document.querySelectorAll('[id^="tecnica-"]').forEach(page=>{
+  const t=techniques.find(v=>v.id===page.id);
+  const d=study[page.id];if(!t||!d)return;
+  const sources=page.querySelector('.tech-sources');
+  if(sources){
+   sources.innerHTML='<div class="learning-source"><b>LECTURA ESPECÍFICA · EASP</b><p>'+d.read+'</p><a href="'+d.pdf+'" target="_blank" rel="noopener noreferrer">Abrir directamente el apartado de la guía (PDF) ↗</a><small>El visor PDF puede ignorar el salto de página; en ese caso, busca el anexo de técnicas.</small></div>'
+   +'<div class="learning-source"><b>REFERENCIA AMPLIADA</b><p>'+ (page.id==='tecnica-talleres'?'Orientaciones didácticas para la acción comunitaria (Ministerio de Sanidad, 2023), anexo I de técnicas educativas.':page.id==='tecnica-fichas'?'Guía completa EASP y criterios de registro en Localiza Salud.':'Documento completo EASP sobre salud comunitaria basada en activos.') +'</p><a href="'+(page.id==='tecnica-talleres'?ministerio:easp)+'" target="_blank" rel="noopener noreferrer">Consultar material complementario ↗</a></div>';
+  }
+  const block=document.createElement('section');block.className='learning-workshop';
+  block.innerHTML='<p class="eyebrow">Actividad de autoaprendizaje · aplicación práctica</p><h3>Practica esta técnica</h3><p>'+d.task+'</p><p><strong>Plantilla de trabajo:</strong> '+d.template+'</p><details><summary>Pregunta de reflexión y comprobación</summary><p>'+d.question+'</p><p>Contrasta la respuesta con las precauciones metodológicas y el papel de la participación comunitaria.</p></details><div class="learning-actions"><button type="button" class="learning-download">Descargar guion de práctica (.md)</button><a href="#ficha">Trasladar la técnica al plan del equipo →</a></div><p class="learning-note">Actividad elaborada para el aula; no es una ficha oficial de la EASP ni sustituye la documentación de origen.</p>';
+  const tail=page.querySelector('.tech-bottom');tail?.insertAdjacentElement('beforebegin',block);
+  block.querySelector('.learning-download').addEventListener('click',()=>{
+   const body=['# '+t.title,'','Fuente: EASP, Guía breve Salud Comunitaria basada en activos','Lectura: '+d.read,'PDF: '+d.pdf,'','## Actividad','',d.task,'','## Plantilla','',d.template,'','## Autoevaluación','',d.question,'','## Precauciones','',t.risks,'','Ficha didáctica elaborada para el Aula de Activos Comunitarios.'].join('\n');
+   const blob=new Blob([body],{type:'text/markdown;charset=utf-8'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=t.id+'-guion.md';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500);
+  });
+ });
+}
