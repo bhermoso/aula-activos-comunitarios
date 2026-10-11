@@ -1,4 +1,4 @@
-import {initTeaching} from './teaching.js';
+import {initTeaching,setupTeachingUI} from './teaching.js';
 import {enhanceSession} from './session.js';
 import {materials,localiza,mapeo,decisions} from '../content/data.js';
 const root=document.querySelector('#main');
@@ -45,6 +45,7 @@ document.querySelector('#download-plan').addEventListener('click',()=>{
 document.querySelector('#print-plan').addEventListener('click',()=>window.print());
 
 enhanceSession();
+setupTeachingUI();
 const pages=[...document.querySelectorAll('[data-slide]')];
 const controls=document.querySelector('#controls'),present=document.querySelector('#present');
 let current=0,mode=false;
