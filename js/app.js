@@ -136,8 +136,19 @@ function toggle(on){
 }
 present.onclick=()=>toggle(!mode);
 document.querySelector('#exit').onclick=()=>toggle(false);
-document.querySelector('#prev').onclick=()=>go(current-1);
-document.querySelector('#next').onclick=()=>go(current+1);
+const teachingOrder=localizaSequence.map(x=>x.id);
+function advancePresentation(direction){
+ const id=pages[current]?.id,index=teachingOrder.indexOf(id);
+ if(index>=0){
+  const next=teachingOrder[index+direction];
+  if(next){const target=indexOfPage(next);if(target>=0){go(target);return;}}
+  if(direction>0){go(indexOfPage('localiza'));return;}
+  if(direction<0){go(indexOfPage('localiza'));return;}
+ }
+ go(current+direction);
+}
+document.querySelector('#prev').onclick=()=>advancePresentation(-1);
+document.querySelector('#next').onclick=()=>advancePresentation(1);
 document.addEventListener('click',e=>{
  const a=e.target.closest('a[href^="#"]');
  if(!a)return;
@@ -150,8 +161,8 @@ window.addEventListener('popstate',()=>route({external:true}));
 window.addEventListener('hashchange',()=>route({external:true}));
 window.addEventListener('keydown',e=>{
  if(!mode||/input|textarea|select/i.test(document.activeElement.tagName))return;
- if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();go(current+1)}
- else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();go(current-1)}
+ if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();advancePresentation(1)}
+ else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();advancePresentation(-1)}
  else if(e.key==='Escape')toggle(false);
 });
 route();
