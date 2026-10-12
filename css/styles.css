@@ -230,3 +230,20 @@ body.presenting .timer-widget{bottom:118px;right:22px;z-index:250}
 body.presenting #timer-activate{bottom:68px}
 body.presenting #timer-widget{bottom:122px!important}
 @media(max-width:650px){#timer-widget{width:240px}}
+
+/* Estados inequívocos y uniformes de incorporación de técnicas */
+.tech-final-choice [data-method-select]:disabled,
+.tech-selection [data-method-select]:disabled,
+.method-node [data-method-select]:disabled{
+ background:#f0f1ed;color:#677a71;border:1px solid #cbd2ca;cursor:not-allowed;opacity:1;
+}
+.tech-final-choice [data-method-select]:not(:disabled):not([aria-pressed="true"]),
+.tech-selection [data-method-select]:not(:disabled):not([aria-pressed="true"]),
+.method-node [data-method-select]:not(:disabled):not([aria-pressed="true"]){
+ background:var(--ink);color:#fff;border:1px solid var(--ink);cursor:pointer;
+}
+.tech-final-choice [data-method-select][aria-pressed="true"],
+.tech-selection [data-method-select][aria-pressed="true"],
+.method-node [data-method-select][aria-pressed="true"]{
+ background:#dfebe3;color:var(--ink);border:1px solid var(--ink);
+}
