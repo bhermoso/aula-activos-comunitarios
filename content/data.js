@@ -14,7 +14,7 @@ export const localiza=[
 ["23–37","Maracena: inventario y participación","Buscar Maracena sin filtro participativo: 38 registros. Activar «Ha sido identificado de forma participativa»: 7 registros. Diferenciar inventario de identificación comunitaria."],
 ["37–59","Chrysallis: ampliar territorio","Buscar Albolote: 2 registros; no aparece Chrysallis. Como no hay búsqueda por Distrito Sanitario Granada-Metropolitano, ampliar al nivel provincial: «Provincia: Granada» y «Temática: Salud sexual y reproductiva». El mapa aparece automáticamente, sin pulsar «Mostrar listado» ni «Localizar». Hacer zoom hacia Albolote y buscar marcadores amarillos (asociaciones); localizar Chrysallis y comprobar que figura validada como activo."],
 ["59–70","Granada: por qué importa la nomenclatura","Explorar en Localiza Salud ejemplos de Centros de Participación Activa, Puntos Vuela, GRUSE y GRAFA. Abrir las fichas disponibles, observar cómo están denominadas y contrastarlas con los literales recomendados por los criterios andaluces del 9 de junio de 2026 (apartado 3.3.1 y anexo). Utilizar el Centro de Participación Activa Buenos Aires como ejemplo conocido; no inventar resultados para las restantes búsquedas. Concluir por qué un nombre claro y homogéneo ayuda a reconocer y localizar los registros."],
-["70–95","Alta ciudadana y validación","Antes de proponer un alta, comprobar que no existe ya el recurso o la actividad. Mostrar los datos que solicita el formulario oficial: descripción, ubicación, población destinataria, temática, gratuidad, periodicidad cuando proceda, participación, contacto y consentimiento. Distinguir claramente propuesta ciudadana, validación por perfil autorizado y posible visibilidad clínica."],
+["70–95","Registro práctico de un activo: propuesta y validación","Práctica guiada de 25 minutos, sin registros ficticios: 70–74 elegir candidato real y comprobar duplicados (4 min); 74–80 comprobar criterios de registro y participación documentada (6 min); 80–90 recorrer y cumplimentar el formulario oficial con datos reales, o demostrarlo mediante el manual y una ficha existente si falta autorización (10 min); 90–95 revisar campos, consentimiento y decidir si procede el envío (5 min). Solo enviar una propuesta real con autorización y datos contrastados. Diferenciar propuesta ciudadana, validación autorizada y eventual visibilidad en DIRAYA."],
 ["95–100","Síntesis del taller","Recapitular tres aprendizajes: el resultado depende de los filtros; un recurso registrado no equivale por sí solo a un activo identificado participativamente; y las actividades deben buscarse también directamente, aunque puedan figurar dentro de fichas de recursos. Recordar que proponer un registro no equivale a validarlo."]];
 // Fuente única para las tarjetas, el orden y el guion minutado.
 // Cada entrada: [intervalo, título, indicaciones docentes, destino de consulta, resumen].
@@ -27,7 +27,7 @@ export const localizaSequence=localiza.map(([time,title,detail],i)=>({
  '38 registros frente a 7 identificados participativamente',
  'De Albolote a la provincia de Granada',
  'Buscar y comparar denominaciones de CPA, Punto Vuela, GRUSE y GRAFA',
- 'Duplicados, propuesta ciudadana y validación',
+ 'Práctica de alta real · 4 + 6 + 10 + 5 min',
  'Filtros, participación y búsqueda de actividades'
  ][i]
 }));
