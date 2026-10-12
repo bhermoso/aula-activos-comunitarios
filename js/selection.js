@@ -35,7 +35,7 @@ export function initMethodSelection(){
    box.querySelectorAll('input[name="metodos"]').forEach(input=>{
     const id=methodChoices.find(([,name])=>name===input.value)?.[0];
     if(!id)return;
-    input.disabled=true;
+    input.disabled=!visited.has(id);
     input.addEventListener('change',()=>{
      if(!visited.has(id))return;
      if(input.checked)selected.add(id);else selected.delete(id);
@@ -51,7 +51,7 @@ export function refreshMethodSelection(){
  document.querySelectorAll('[data-method-select]').forEach(btn=>{
   const id=btn.dataset.methodSelect,on=selected.has(id),seen=visited.has(id);
   btn.disabled=!seen;
-  btn.textContent=on?'✓ Técnica seleccionada · quitar':seen?'Seleccionar esta técnica para el plan':'Abre primero la ficha de esta técnica';
+  btn.textContent=on?'✓ Incorporada al plan · retirar':seen?'Incorporar a la planificación del mapeo':'Consulta primero la ficha para incorporarla';
   btn.setAttribute('aria-pressed',String(on));
  });
  document.querySelectorAll('[data-method-status]').forEach(el=>{
@@ -62,12 +62,13 @@ export function refreshMethodSelection(){
  document.querySelectorAll('[data-selection-count]').forEach(el=>{el.textContent=count+' técnica'+(count===1?'':'s')+' seleccionada'+(count===1?'':'s');});
  document.querySelectorAll('#plan-form input[name="metodos"]').forEach(input=>{
   const id=methodChoices.find(([,name])=>name===input.value)?.[0];
-  input.checked=selected.has(id);input.disabled=true;
+  input.checked=selected.has(id);input.disabled=!visited.has(id);
  });
+ document.querySelectorAll('[data-plan-continue]').forEach(link=>{link.hidden=!canOpenPlan();});
  const gate=document.querySelector('#plan-prerequisite');
  if(gate){
   gate.hidden=canOpenPlan();
-  gate.textContent=count?'Completa la consulta de las técnicas elegidas para acceder a la ficha única.':'Consulta al menos una técnica y selecciónala para preparar la ficha única del equipo.';
+  gate.textContent=count?'Consulta las técnicas elegidas antes de pasar a la ficha única.':'Consulta al menos una técnica e incorpórala a la planificación desde su ficha.';
  }
  document.querySelectorAll('[data-plan-shortcut]').forEach(link=>{
   link.setAttribute('aria-label',canOpenPlan()?'Abrir ficha única del equipo':'Primero consulta y selecciona una técnica');
