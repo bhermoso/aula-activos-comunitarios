@@ -30,10 +30,10 @@ export function enhanceSession(){
  }
  guide(loc,'Actividades del taller · mismo orden que el guion docente',[
  ['entrada-localiza','00–08 · Orientarse en Localiza Salud','Menú, modalidades y filtros · acceso público'],
- ['maracena','08–22 · Maracena: inventario y participación','38 recursos encontrados; 7 con identificación participativa'],
- ['chrysallis','22–44 · Chrysallis: ampliar territorio','De Albolote a provincia de Granada para encontrar el activo'],
- ['denominaciones','44–55 · Granada: identificar y denominar','CPA Buenos Aires; nombres de recursos y fichas'],
- ['modalidades','55–70 · Almuñécar: recursos y actividades','Receta de Pasos visible directamente o dentro de la ficha del centro'],
+ ['modalidades','08–23 · Almuñécar: recursos y actividades','Receta de Pasos visible directamente o dentro de la ficha del centro'],
+ ['maracena','23–37 · Maracena: inventario y participación','38 recursos encontrados; 7 con identificación participativa'],
+ ['chrysallis','37–59 · Chrysallis: ampliar territorio','De Albolote a provincia de Granada para encontrar el activo'],
+ ['denominaciones','59–70 · Granada: identificar y denominar','CPA Buenos Aires; nombres de recursos y fichas'],
  ['registro','70–95 · Alta ciudadana y validación','Comprobar duplicados, cumplimentar y distinguir propuesta de validación'],
  ['cierre-localiza','95–100 · Síntesis del taller','Filtros, participación y búsqueda de actividades']
  ]);
