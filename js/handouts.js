@@ -59,3 +59,73 @@ export function buildTechniqueHandout(id,t,d){
   '---','Esquema de elaboración propia para el Aula de Activos Comunitarios. Consultar la fuente original de la EASP.'
  ].join('\n');
 }
+
+
+// Generación PDF local, sin servidor ni dependencias externas.
+// PDF 1.4, texto WinAnsi compatible con Helvetica; paginación automática.
+export function buildTechniquePdf(id,t,d){
+ const markdown=buildTechniqueHandout(id,t,d);
+ const norm=x=>x.replace(/[→←]/g,'->').replace(/[–—]/g,'-').replace(/[“”]/g,'"').replace(/[’]/g,"'").replace(/•/g,'-').replace(/[\u0100-\uffff]/g,c=>({'…':'...','≥':'>=','≤':'<=','€':'EUR'}[c]||'?'));
+ const wrap=(line,max=89)=>{
+  const out=[];let str=norm(line);
+  while(str.length>max){
+   let n=str.lastIndexOf(' ',max);if(n<25)n=max;
+   out.push(str.slice(0,n));str=str.slice(n).trimStart();
+  }
+  out.push(str);return out;
+ };
+ const rows=[];
+ for(const raw of markdown.split('\n')){
+  const level=raw.startsWith('# ')?1:raw.startsWith('## ')?2:0;
+  let line=raw.replace(/^#{1,3}\s*/,'').replace(/\*\*/g,'').replace(/^>\s*/, '  ');
+  const width=level===1?55:level===2?73:91;
+  wrap(line,width).forEach((v,i)=>rows.push({text:v,bold:level>0,space:level>0&&i===0?8:0,size:level===1?16:level===2?12:9.2}));
+ }
+ const pages=[];let page=[],y=767;
+ for(const row of rows){
+  const need=(row.size===16?23:row.size===12?18:13)+row.space;
+  if(y-need<65){pages.push(page);page=[];y=767;}
+  y-=row.space;
+  page.push({...row,y});y-=need-row.space;
+ }
+ if(page.length)pages.push(page);
+ const bytes=[];const push=s=>{for(let i=0;i<s.length;i++)bytes.push(s.charCodeAt(i)&255)};
+ const esc=text=>{
+  let v='';
+  for(const ch of text){
+   const cp=ch.charCodeAt(0);
+   if(ch==='\\'||ch==='('||ch===')'){v+='\\'+ch;continue;}
+   if(cp>255){v+='?';continue;}
+   if(cp<32||cp>126)v+='\\'+cp.toString(8).padStart(3,'0');else v+=ch;
+  }
+  return v;
+ };
+ const objects=[];const add=s=>{objects.push(s);return objects.length};
+ const catalog=add('');const pagesId=add('');
+ const fontNormal=add('<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>');
+ const fontBold=add('<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>');
+ const pageIds=[];
+ pages.forEach((rows,i)=>{
+  const commands=['BT'];
+  rows.forEach(row=>{
+   commands.push('/'+(row.bold?'F2':'F1')+' '+row.size+' Tf');
+   commands.push('1 0 0 1 48 '+row.y.toFixed(1)+' Tm');
+   commands.push('('+esc(row.text)+') Tj');
+  });
+  commands.push('/F1 8 Tf','1 0 0 1 48 35 Tm','('+esc('Aula de Activos Comunitarios - Material docente')+') Tj',
+    '1 0 0 1 510 35 Tm','('+String(i+1)+' / '+pages.length+') Tj','ET');
+  const stream=commands.join('\n')+'\n';
+  const streamId=add('<< /Length '+stream.length+' >>\nstream\n'+stream+'endstream');
+  const pageId=add('<< /Type /Page /Parent '+pagesId+' 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 '+fontNormal+' 0 R /F2 '+fontBold+' 0 R >> >> /Contents '+streamId+' 0 R >>');
+  pageIds.push(pageId);
+ });
+ objects[catalog-1]='<< /Type /Catalog /Pages '+pagesId+' 0 R >>';
+ objects[pagesId-1]='<< /Type /Pages /Kids ['+pageIds.map(n=>n+' 0 R').join(' ')+'] /Count '+pageIds.length+' >>';
+ push('%PDF-1.4\n');
+ const offsets=[0];
+ objects.forEach((o,i)=>{offsets.push(bytes.length);push((i+1)+' 0 obj\n'+o+'\nendobj\n');});
+ const xref=bytes.length;push('xref\n0 '+(objects.length+1)+'\n0000000000 65535 f \n');
+ offsets.slice(1).forEach(offset=>push(String(offset).padStart(10,'0')+' 00000 n \n'));
+ push('trailer\n<< /Size '+(objects.length+1)+' /Root '+catalog+' 0 R >>\nstartxref\n'+xref+'\n%%EOF');
+ return new Blob([new Uint8Array(bytes)],{type:'application/pdf'});
+}
