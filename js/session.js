@@ -34,6 +34,10 @@ export function enhanceSession(){
  ['registro','Modalidades y registro','Granada, Almuñécar y alta ciudadana'],
  ['biblioteca','Consultar criterios','Documentación y normativa de referencia']
  ]);
+ if(map){
+  const lead=map.querySelector('.lead');
+  lead?.insertAdjacentHTML('afterend','<div class="notice"><strong>Perspectiva de género en el mapeo:</strong> al convocar, recoger e interpretar información, considerar si las oportunidades de participación y acceso presentan diferencias entre mujeres y hombres. Revisar horarios, tareas de cuidados, seguridad y accesibilidad. Describir los hallazgos y contrastarlos con la comunidad, sin presuponer diferencias.</div>');
+ }
  guide(map,'Itinerario de trabajo',[
  ['tecnicas','Escoger la metodología','Paseos, mapas, talleres y fotovoz'],
  ['decisiones','Tomar seis decisiones','De la finalidad a la devolución'],
