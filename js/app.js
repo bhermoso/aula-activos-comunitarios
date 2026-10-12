@@ -141,12 +141,24 @@ present.onclick=()=>toggle(!mode);
 document.querySelector('#exit').onclick=()=>toggle(false);
 const teachingOrder=localizaSequence.map(x=>x.id);
 function advancePresentation(direction){
- const id=pages[current]?.id,index=teachingOrder.indexOf(id);
- if(index>=0){
-  const next=teachingOrder[index+direction];
-  if(next){const target=indexOfPage(next);if(target>=0){go(target);return;}}
+ const id=pages[current]?.id;
+ const idx=teachingOrder.indexOf(id);
+ if(id==='localiza'&&direction>0){go(indexOfPage(teachingOrder[0]));return;}
+ if(id==='localiza'&&direction<0){go(indexOfPage('programa'));return;}
+ if(idx>=0){
+  const next=teachingOrder[idx+direction];
+  if(next){go(indexOfPage(next));return;}
+  // Al final no saltar a páginas ajenas al taller.
   if(direction>0){go(indexOfPage('localiza'));return;}
-  if(direction<0){go(indexOfPage('localiza'));return;}
+  go(indexOfPage('localiza'));return;
+ }
+ // Si se abrió una ficha auxiliar desde el itinerario, las flechas
+ // continúan desde la actividad de origen en lugar del orden interno del DOM.
+ const origin=[...visitStack].reverse().find(x=>teachingOrder.includes(x));
+ if(mode&&origin){
+  const at=teachingOrder.indexOf(origin)+direction;
+  const next=teachingOrder[at]||'localiza';
+  go(indexOfPage(next));return;
  }
  go(current+direction);
 }
