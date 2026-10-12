@@ -149,7 +149,7 @@ function advancePresentation(direction){
  if(id==='mapeo'){if(direction>0){go(indexOfPage(planningOrder[0]));return;}go(indexOfPage('programa'));return;}
  if(localizaOrder.includes(id)){order=localizaOrder;home='localiza';idx=order.indexOf(id);}
  else if(planningOrder.includes(id)){order=planningOrder;home='mapeo';idx=order.indexOf(id);}
- else if(planningAux.has(id)){order=planningOrder;home='mapeo';idx=1;}
+ else if(planningAux.has(id)){if(direction<0){go(indexOfPage('tecnicas-catalogo'));return;}order=planningOrder;home='mapeo';idx=1;}
  else if(mode){
   const origin=[...visitStack].reverse().find(x=>localizaOrder.includes(x)||planningOrder.includes(x));
   if(origin){order=localizaOrder.includes(origin)?localizaOrder:planningOrder;home=order===localizaOrder?'localiza':'mapeo';idx=order.indexOf(origin);}
