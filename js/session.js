@@ -46,7 +46,7 @@ export function enhanceSession(){
  ['tecnicas','Escoger la metodología','Paseos, mapas, talleres y fotovoz'],
  ['decisiones','Tomar seis decisiones','De la finalidad a la devolución'],
  ['ficha','Redactar la propuesta','Ficha editable para cada equipo'],
- ['biblioteca','Consultar experiencias','Guías y audiovisuales voluntarios']
+ ['biblioteca','Consultar fuentes y documentos','Guías, criterios oficiales, normativa y recursos audiovisuales']
  ]);
  const m=$('maracena');if(m){const metric=m.querySelector('.metrics');metric?.insertAdjacentHTML('afterend','<div class="ratio-track" role="img" aria-label="7 de 38 registros cumplen el filtro participativo"><span></span></div><p class="ratio-caption">7 de 38 registros de la búsqueda observada · cifra para ejercicio, no indicador poblacional.</p>');}
  const c=$('chrysallis');if(c){c.querySelector('.notice')?.insertAdjacentHTML('afterend','<div class="question-prompt"><strong>Pregunta para el grupo</strong><p>¿Qué perdemos al limitar una búsqueda al municipio de la consulta, cuando un activo presta servicio a toda la provincia?</p></div>');}
