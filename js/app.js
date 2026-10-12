@@ -1,3 +1,4 @@
+import {addNarrativePaths} from './narrative.js';
 import {attachTechniqueVideos} from './videos.js';
 import {addSearchPages} from './search-learning.js';
 import {addTechniquePages,initTechniqueLearning} from './techniques.js';
@@ -54,6 +55,7 @@ addTechniquePages(section);
 addSearchPages(section);
 initTechniqueLearning();
 attachTechniqueVideos();
+addNarrativePaths();
 setupTeachingUI();
 const pages=[...document.querySelectorAll('[data-slide]')];
 const controls=document.querySelector('#controls'),present=document.querySelector('#present');
