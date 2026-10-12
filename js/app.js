@@ -1,3 +1,4 @@
+import {initMethodSelection,markMethodVisited,redirectForPlan,canOpenPlan} from './selection.js';
 import {addNarrativePaths} from './narrative.js';
 import {attachTechniqueVideos} from './videos.js';
 import {addSearchPages} from './search-learning.js';
@@ -33,14 +34,14 @@ const techniqueRoutes=[
 section('tecnicas','Metodologías participativas','De la consulta a la construcción colectiva',
  '<p class="lead">Cada técnica aporta una perspectiva distinta del territorio. Selecciona una caja para estudiar cómo funciona, qué información obtiene y cómo se conecta con el plan del equipo.</p>'
  +'<div class="method-network">'+techniqueRoutes.map(([id,title,description,role],i)=>'<a class="method-node" href="#'+id+'"><span class="method-node-number">'+String(i+1).padStart(2,'0')+' · '+role+'</span><h3>'+title+'</h3><p>'+description+'</p><strong>Explorar y conectar →</strong></a>').join('')+'</div>'
- +'<div class="method-bridge"><p><strong>La selección no es excluyente.</strong> Un paseo puede identificar lugares; las entrevistas profundizan en sus significados; un mapa colectivo sitúa los hallazgos; los talleres los contrastan, y la devolución permite revisar lo aprendido.</p><div class="story-links"><a href="#tecnicas-catalogo">Comparar las seis técnicas →</a><a href="#ficha">Combinarlas en la ficha única del equipo →</a><a href="#biblioteca">Consultar fuentes metodológicas →</a></div></div>');
+ +'<div class="method-bridge"><p><strong>La selección no es excluyente.</strong> Un paseo puede identificar lugares; las entrevistas profundizan en sus significados; un mapa colectivo sitúa los hallazgos; los talleres los contrastan, y la devolución permite revisar lo aprendido.</p><div class="story-links"><a href="#tecnicas-catalogo">Comparar las seis técnicas →</a><a href="#tecnicas-catalogo">Elegir técnicas antes de planificar →</a><a href="#biblioteca">Consultar fuentes metodológicas →</a></div></div>');
 section('decisiones','Actividad en equipos','Las seis decisiones del plan',grid(decisions)+'<h3>Guía para revisar la viabilidad</h3>'+checklist(['Finalidad delimitada','Territorio acotado','Participación vecinal real','Equidad y perspectiva de género','Técnicas adecuadas','Calendario y responsables','Registro de hallazgos','Devolución comunitaria'])+'<p><a class="worksheet-link" href="#ficha">Abrir ficha editable del equipo →</a></p><p><strong>Producto esperado:</strong> propuesta de mapeo presentada en aproximadamente cinco minutos por equipo; después se desarrollará el trabajo de campo.</p>');
 section('biblioteca','04 / Documentación','Fuentes y documentos de referencia','<p class="lead">Los vídeos son materiales opcionales de consulta autónoma, no tareas obligatorias durante la sesión.</p><div class="timeline">'+materials.map(x=>'<a class="resource" href="'+x[2]+'" target="_blank" rel="noopener noreferrer"><strong>'+x[0]+' ↗</strong><small>'+x[1]+'</small></a>').join('')+'</div><div class="notice">El documento de criterios andaluces enlaza al Google Drive facilitado. Su acceso depende de los permisos del archivo.</div>');
 section('cierre','Continuidad','Del aula al territorio','<p class="lead">Cada equipo revisa su propuesta, prepara el proceso comunitario y documenta el trabajo de campo posterior. No se atribuirán datos de encuestas o actividades que no se hayan realizado.</p><div class="actions"><a href="#decisiones">Revisar seis decisiones →</a> <a href="#biblioteca">Abrir materiales →</a></div>');
 
 /* Ficha editable: toda la información permanece en el navegador hasta descargar. */
 section('ficha','Actividad práctica · Planificación','Ficha de trabajo en equipos',
- '<p class="lead">Redactad una primera propuesta de mapeo participativo. Al finalizar, descargadla en formato de texto editable (.txt) o guardadla en PDF. No se envían respuestas a ningún servidor.</p>'
+ '<p id="plan-prerequisite" class="notice">Antes de completar esta ficha, consulta y selecciona al menos una técnica de mapeo.</p><p class="lead">Redactad una primera propuesta de mapeo participativo. Al finalizar, descargadla en formato de texto editable (.txt) o guardadla en PDF. No se envían respuestas a ningún servidor.</p>'
  +'<form id="plan-form" class="worksheet">'
  +'<div class="worksheet-meta"><label>Identificación del equipo<input name="equipo" type="text" placeholder="Ej. Grupo A · Equipo 1"></label><label>Municipio o territorio<input name="territorio" type="text" placeholder="Barrio, zona básica de salud, municipio…"></label></div>'
  +decisions.map((d,i)=>'<label class="worksheet-field"><span class="worksheet-number">'+String(i+1).padStart(2,'0')+'</span><strong>'+d[0]+'</strong><small>'+d[1]+'</small><textarea name="decision'+(i+1)+'" rows="4" placeholder="Anotad los acuerdos, participantes y aspectos pendientes…"></textarea></label>').join('')
@@ -66,6 +67,7 @@ addTechniquePages(section);
 addSearchPages(section);
 initTechniqueLearning();
 attachTechniqueVideos();
+initMethodSelection();
 addNarrativePaths();
 setupTeachingUI();
 const pages=[...document.querySelectorAll('[data-slide]')];
@@ -76,6 +78,7 @@ const visitStack=[];
 function indexOfPage(id){return pages.findIndex(p=>p.id===id)}
 function render(i,{updateUrl=false}={}){
  current=Math.max(0,Math.min(pages.length-1,i));
+ markMethodVisited(pages[current].id);
  pages.forEach((p,j)=>{p.classList.toggle('current',j===current);p.hidden=j!==current;p.setAttribute('aria-hidden',String(j!==current))});
  document.querySelector('#count').textContent=(current+1)+' / '+pages.length;
  const back=document.querySelector('#back-page');back.disabled=visitStack.length===0;back.setAttribute('aria-label',visitStack.length?'Volver a la vista anterior':'Sin vista anterior');
@@ -87,7 +90,8 @@ function render(i,{updateUrl=false}={}){
 function route({external=false}={}){
  let id='inicio';
  try{id=decodeURIComponent(location.hash.slice(1))||'inicio'}catch(e){id='inicio'}
- const target=indexOfPage(id),next=target>=0?target:indexOfPage('inicio');
+ const target=indexOfPage(id);let next=target>=0?target:indexOfPage('inicio');
+ if(pages[next].id==='ficha'&&!canOpenPlan())next=indexOfPage(redirectForPlan());
  if(external&&next!==current){
   const prior=visitStack[visitStack.length-1];
   if(prior===pages[next].id)visitStack.pop();
@@ -96,7 +100,8 @@ function route({external=false}={}){
  render(next);
 }
 function go(i){
- const next=Math.max(0,Math.min(pages.length-1,i));
+ let next=Math.max(0,Math.min(pages.length-1,i));
+ if(pages[next].id==='ficha'&&!canOpenPlan())next=indexOfPage(redirectForPlan());
  if(next===current)return;
  visitStack.push(pages[current].id);
  render(next,{updateUrl:true});
@@ -106,7 +111,7 @@ function backOne(){
  if(!prior)return;
  const i=indexOfPage(prior);
  if(i<0){render(current);return;}
- render(i,{updateUrl:true});
+ render(pages[i].id==='ficha'&&!canOpenPlan()?indexOfPage(redirectForPlan()):i,{updateUrl:true});
 }
 function toggle(on){
  mode=on;document.body.classList.toggle('presenting',on);controls.hidden=!on;
