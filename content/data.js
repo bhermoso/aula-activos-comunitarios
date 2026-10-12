@@ -14,7 +14,7 @@ export const localiza=[
 ["22–44","Caso Chrysallis","Buscar Albolote: 2 registros; no aparece Chrysallis. Como no hay búsqueda por Distrito Sanitario Granada-Metropolitano, ampliar al nivel provincial: «Provincia: Granada» y «Temática: Salud sexual y reproductiva». El mapa aparece automáticamente, sin pulsar «Mostrar listado» ni «Localizar». Hacer zoom hacia Albolote y buscar marcadores amarillos (asociaciones); localizar Chrysallis y comprobar que figura validada como activo."],
 ["44–55","Denominaciones","Granada capital + «Envejecimiento saludable» + filtro participativo: 28 registros. Examinar Centro de Participación Activa Buenos Aires. Revisar nombres de CPA, Punto Vuela, GRUSE y GRAFA."],
 ["55–70","Recursos y actividades","Probar las modalidades «Recursos/Activos» y «Actividades». «Nombre de actividad» no es un buscador nominal de recursos. Localizar «Receta de Pasos en CS Almuñécar» por municipio + Actividad física + Gratuito y en Actividades."],
-["70–95","Alta ciudadana y validación","Demostrar descripción, ubicación, destinatarios, temática, gratuidad, periodicidad, participación, contactos y consentimiento. Diferenciar envío, validación y posible visibilidad en DIRAYA."],
+["70–95","Alta ciudadana y validación","Demostrar descripción, ubicación, población destinataria, temática, gratuidad, periodicidad, participación, contactos y consentimiento. Diferenciar envío, validación y posible visibilidad en DIRAYA."],
 ["95–100","Síntesis","Recapitular posibilidades y límites del buscador y los criterios para reconocer un activo. Las actividades pueden registrarse independientemente; las normas no lo imponen."]];
 export const mapeo=[
 ["00–15","Propósito","Del inventario al mapeo con participación comunitaria. El producto de la sesión es un plan viable, no un mapa terminado."],
@@ -22,7 +22,7 @@ export const mapeo=[
 ["32–43","Equipos","Tres equipos de aproximadamente cinco profesionales; elegir territorio, población y finalidad."],
 ["43–73","Planificación","Completar las seis decisiones: finalidad, ámbito, participantes, métodos, calendario y activos/documentación/devolución."],
 ["73–88","Exposición","Cada equipo presenta su propuesta en unos cinco minutos."],
-["88–95","Viabilidad","Revisar equidad, participación ciudadana, recursos, plazos, responsables y devolución."],
+["88–95","Viabilidad","Revisar equidad, participación ciudadana, recursos, plazos, personas responsables y devolución."],
 ["95–100","Cierre","Conectar el plan con el trabajo de campo posterior y su memoria."]];
 export const decisions=[
 ["¿Para qué?","Finalidad y necesidad de salud"],["¿Dónde?","Delimitación territorial"],["¿Con quién?","Personas, asociaciones, colectivos y convocatoria"],["¿Cómo?","Técnicas participativas adecuadas"],["¿Cuándo?","Calendario, responsables y recursos"],["¿Qué activos?","Documentar, contrastar y devolver hallazgos"]];
