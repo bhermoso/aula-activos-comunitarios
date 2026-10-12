@@ -59,19 +59,42 @@ const pages=[...document.querySelectorAll('[data-slide]')];
 const controls=document.querySelector('#controls'),present=document.querySelector('#present');
 let current=0,mode=false;
 let teaching=null;
+const visitStack=[];
 function indexOfPage(id){return pages.findIndex(p=>p.id===id)}
 function render(i,{updateUrl=false}={}){
  current=Math.max(0,Math.min(pages.length-1,i));
  pages.forEach((p,j)=>{p.classList.toggle('current',j===current);p.hidden=j!==current;p.setAttribute('aria-hidden',String(j!==current))});
  document.querySelector('#count').textContent=(current+1)+' / '+pages.length;
+ const back=document.querySelector('#back-page');back.disabled=visitStack.length===0;back.setAttribute('aria-label',visitStack.length?'Volver a la vista anterior':'Sin vista anterior');
  teaching?.update(pages[current].id);
  document.title=(pages[current].querySelector('h2')?.textContent||'Aula de Activos Comunitarios')+' · Aula de Activos Comunitarios';
  if(updateUrl)history.pushState({page:pages[current].id},'', '#'+pages[current].id);
  window.scrollTo({top:0,left:0,behavior:'instant'});
 }
-function route(){let id='inicio';try{id=decodeURIComponent(location.hash.slice(1))||'inicio'}catch(e){id='inicio'}const i=indexOfPage(id);render(i>=0?i:indexOfPage('inicio'))}
-const visitStack=[];
-function go(i){if(pages[current] && pages[current].id!==pages[Math.max(0,Math.min(pages.length-1,i))].id)visitStack.push(pages[current].id);const next=Math.max(0,Math.min(pages.length-1,i));render(next,{updateUrl:true})}
+function route({external=false}={}){
+ let id='inicio';
+ try{id=decodeURIComponent(location.hash.slice(1))||'inicio'}catch(e){id='inicio'}
+ const target=indexOfPage(id),next=target>=0?target:indexOfPage('inicio');
+ if(external&&next!==current){
+  const prior=visitStack[visitStack.length-1];
+  if(prior===pages[next].id)visitStack.pop();
+  else if(pages[current])visitStack.push(pages[current].id);
+ }
+ render(next);
+}
+function go(i){
+ const next=Math.max(0,Math.min(pages.length-1,i));
+ if(next===current)return;
+ visitStack.push(pages[current].id);
+ render(next,{updateUrl:true});
+}
+function backOne(){
+ const prior=visitStack.pop();
+ if(!prior)return;
+ const i=indexOfPage(prior);
+ if(i<0){render(current);return;}
+ render(i,{updateUrl:true});
+}
 function toggle(on){
  mode=on;document.body.classList.toggle('presenting',on);controls.hidden=!on;
  document.querySelector('.teacher-tools').hidden=!on;
@@ -88,9 +111,9 @@ document.addEventListener('click',e=>{
  if(i<0)return;
  e.preventDefault();go(i);
 });
-document.querySelector('#back-page').addEventListener('click',()=>{const prior=visitStack.pop();if(prior&&indexOfPage(prior)>=0){render(indexOfPage(prior),{updateUrl:true});return;}if(current!==indexOfPage('inicio'))go(indexOfPage('panel'));else go(indexOfPage('inicio'));});
-window.addEventListener('popstate',route);
-window.addEventListener('hashchange',route);
+document.querySelector('#back-page').addEventListener('click',backOne);
+window.addEventListener('popstate',()=>route({external:true}));
+window.addEventListener('hashchange',()=>route({external:true}));
 window.addEventListener('keydown',e=>{
  if(!mode||/input|textarea|select/i.test(document.activeElement.tagName))return;
  if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();go(current+1)}
