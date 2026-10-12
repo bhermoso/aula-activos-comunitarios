@@ -35,11 +35,12 @@ export function enhanceSession(){
   const lead=map.querySelector('.lead');
   lead?.insertAdjacentHTML('afterend','<div class="notice"><strong>Perspectiva de género en el mapeo:</strong> al convocar, recoger e interpretar información, considerar si las oportunidades de participación y acceso presentan diferencias entre mujeres y hombres. Revisar horarios, tareas de cuidados, seguridad y accesibilidad. Describir los hallazgos y contrastarlos con la comunidad, sin presuponer diferencias.</div>');
  }
- guide(map,'Itinerario de trabajo',[
- ['tecnicas','Escoger la metodología','Paseos, mapas, talleres y fotovoz'],
- ['decisiones','Tomar seis decisiones','De la finalidad a la devolución'],
- ['ficha','Redactar la propuesta','Ficha editable para cada equipo'],
- ['biblioteca','Consultar fuentes y documentos','Guías, criterios oficiales, normativa y recursos audiovisuales']
+ if(map){map.querySelector('.lead')?.insertAdjacentHTML('afterend','<p class="workshop-guidance"><strong>Orientación para la dinamización:</strong> los tiempos y fases los marca el guion docente. Los enlaces siguientes son herramientas de apoyo, no actividades adicionales. Tras la planificación (43–73), cada equipo expone su propuesta (73–88), contrasta su viabilidad (88–95) y cierra con los próximos pasos (95–100).</p>');}
+ guide(map,'Materiales y herramientas para desarrollar el taller',[
+ ['tecnicas','Consultar técnicas · min 15–32','Fichas para conocer las metodologías antes de elegirlas'],
+ ['decisiones','Preparar seis decisiones · min 43–73','Guía para elaborar el plan de cada equipo'],
+ ['ficha','Completar la ficha · min 43–73','Formulario único; incorporar primero las técnicas consultadas'],
+ ['biblioteca','Fuentes y documentos · consulta transversal','Referencias de apoyo, no una fase adicional del horario']
  ]);
  const m=$('maracena');if(m){const metric=m.querySelector('.metrics');metric?.insertAdjacentHTML('afterend','<div class="ratio-track" role="img" aria-label="7 de 38 registros cumplen el filtro participativo"><span></span></div><p class="ratio-caption">7 de 38 registros de la búsqueda observada · cifra para ejercicio, no indicador poblacional.</p>');}
  const c=$('chrysallis');if(c){c.querySelector('.notice')?.insertAdjacentHTML('afterend','<div class="question-prompt"><strong>Pregunta para el grupo</strong><p>¿Qué perdemos al limitar una búsqueda al municipio de la consulta, cuando un activo presta servicio a toda la provincia?</p></div>');}
