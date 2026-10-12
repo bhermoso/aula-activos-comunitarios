@@ -16,6 +16,21 @@ export const localiza=[
 ["59–70","Granada: identificar y denominar","Recuperar la consulta documentada de Granada capital sobre envejecimiento con filtro «Ha sido identificado de forma participativa» (28 resultados observados). Comprobar en pantalla el nombre exacto de la temática antes de seleccionarla. Abrir la ficha del Centro de Participación Activa Buenos Aires y contrastar la denominación de CPA, Punto Vuela, GRUSE y GRAFA con los criterios de registro."],
 ["70–95","Alta ciudadana y validación","Antes de proponer un alta, comprobar que no existe ya el recurso o la actividad. Mostrar los datos que solicita el formulario oficial: descripción, ubicación, población destinataria, temática, gratuidad, periodicidad cuando proceda, participación, contacto y consentimiento. Distinguir claramente propuesta ciudadana, validación por perfil autorizado y posible visibilidad clínica."],
 ["95–100","Síntesis del taller","Recapitular tres aprendizajes: el resultado depende de los filtros; un recurso registrado no equivale por sí solo a un activo identificado participativamente; y las actividades deben buscarse también directamente, aunque puedan figurar dentro de fichas de recursos. Recordar que proponer un registro no equivale a validarlo."]];
+// Fuente única para las tarjetas, el orden y el guion minutado.
+// Cada entrada: [intervalo, título, indicaciones docentes, destino de consulta, resumen].
+export const localizaSequence=localiza.map(([time,title,detail],i)=>({
+ time,title,detail,
+ id:['entrada-localiza','modalidades','maracena','chrysallis','denominaciones','registro','cierre-localiza'][i],
+ summary:[
+ 'Menú, modalidades y filtros · acceso público',
+ 'Receta de Pasos: resultado directo en Actividades, indirecto en la ficha del centro',
+ '38 registros frente a 7 identificados participativamente',
+ 'De Albolote a la provincia de Granada',
+ 'CPA Buenos Aires, Punto Vuela, GRUSE y GRAFA',
+ 'Duplicados, propuesta ciudadana y validación',
+ 'Filtros, participación y búsqueda de actividades'
+ ][i]
+}));
 export const mapeo=[
 ["00–15","Propósito","Del inventario al mapeo con participación comunitaria. El producto de la sesión es un plan viable, no un mapa terminado."],
 ["15–32","Técnicas","Paseos comunitarios, mapas colectivos, entrevistas, grupos focales, fotovoz y talleres participativos."],
