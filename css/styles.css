@@ -82,3 +82,20 @@ body.presenting .timer-widget{bottom:118px;right:22px;z-index:250}
 /* Materiales y autoaprendizaje por técnica */
 .learning-source{padding:17px 0;border-bottom:1px solid var(--line)}.learning-source:last-child{border-bottom:0}.learning-source>b{display:block;font-size:12px;letter-spacing:.07em;color:var(--accent)}.learning-source p{margin:8px 0;font-size:15px}.learning-source a{display:inline-block;line-height:1.4}.learning-source small{display:block;color:var(--muted);font-size:12px;margin-top:7px}
 .learning-workshop{background:var(--paper);padding:28px;margin:24px 0;border-left:5px solid var(--accent)}.learning-workshop h3{font:normal 28px/1.2 Georgia,serif;color:var(--ink)}.learning-workshop details{margin-top:15px;border:1px solid var(--line);padding:15px}.learning-workshop summary{cursor:pointer;font-weight:700}.learning-actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:20px}.learning-actions button,.learning-actions a{border:1px solid var(--ink);padding:11px 15px;font-size:14px;text-decoration:none}.learning-actions a{color:var(--ink)}.learning-note{font-size:12px;color:var(--muted)}@media(max-width:650px){.learning-workshop{padding:18px}.learning-actions button,.learning-actions a{width:100%}}
+
+/* Búsqueda guiada en Localiza Salud */
+.search-entry{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:22px 0}
+.search-entry a{display:flex;flex-direction:column;gap:5px;padding:17px;background:var(--paper);border-left:4px solid var(--ink);color:var(--ink);text-decoration:none}
+.search-entry span{color:var(--muted);font-size:13px}
+.search-compare{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:26px 0}
+.search-compare article,.criteria-sequence article,.search-combos article{background:var(--paper);padding:24px;border-top:3px solid var(--ink)}
+.search-compare article span{font-weight:800;font-size:12px;letter-spacing:.06em;color:var(--accent)}
+.search-compare h3,.criteria-sequence h3{color:var(--ink)}
+.search-callout{background:#e3eae2;padding:22px 25px;margin:25px 0;border-left:5px solid var(--ink)}
+.search-callout p{margin:7px 0 0}
+.criteria-sequence{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:28px 0}
+.criteria-sequence article>b{font:30px Georgia,serif;color:var(--accent)}
+.search-combos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin:22px 0}
+.search-combos h4{font-size:18px;margin:0 0 12px;color:var(--ink)}
+.search-combos a{font-weight:700;color:var(--ink)}
+@media(max-width:680px){.search-entry,.search-compare,.criteria-sequence,.search-combos{grid-template-columns:1fr}}
