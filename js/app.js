@@ -28,21 +28,23 @@ section('cierre','Continuidad','Del aula al territorio','<p class="lead">Cada eq
 
 /* Ficha editable: toda la información permanece en el navegador hasta descargar. */
 section('ficha','Actividad práctica · Planificación','Ficha de trabajo en equipos',
- '<p class="lead">Redactad una primera propuesta de mapeo participativo. Al finalizar, descargadla en formato editable (.md). No se envían respuestas a ningún servidor.</p>'
+ '<p class="lead">Redactad una primera propuesta de mapeo participativo. Al finalizar, descargadla en formato de texto editable (.txt) o guardadla en PDF. No se envían respuestas a ningún servidor.</p>'
  +'<form id="plan-form" class="worksheet">'
  +'<div class="worksheet-meta"><label>Identificación del equipo<input name="equipo" type="text" placeholder="Ej. Grupo A · Equipo 1"></label><label>Municipio o territorio<input name="territorio" type="text" placeholder="Barrio, zona básica de salud, municipio…"></label></div>'
  +decisions.map((d,i)=>'<label class="worksheet-field"><span class="worksheet-number">'+String(i+1).padStart(2,'0')+'</span><strong>'+d[0]+'</strong><small>'+d[1]+'</small><textarea name="decision'+(i+1)+'" rows="4" placeholder="Anotad los acuerdos, participantes y aspectos pendientes…"></textarea></label>').join('')
- +'<label class="worksheet-field"><strong>Observaciones y cuestiones pendientes</strong><textarea name="observaciones" rows="3" placeholder="Dificultades, recursos necesarios, alternativas…"></textarea></label>'
- +'<div class="worksheet-actions"><button type="button" id="download-plan">Descargar propuesta (.md)</button><button type="button" id="print-plan">Imprimir / Guardar en PDF</button><button type="reset">Vaciar ficha</button></div>'
+ +'<fieldset class="methods-selection"><legend>Técnicas que combinará el equipo</legend><p>Seleccionad las técnicas previstas y describid la función de cada una en el apartado 4. La combinación debe responder a la finalidad del mapeo.</p><div class="method-options">'+[['mapa','Mapeo colectivo'],['paseos','Paseos comunitarios'],['fotovoz','Fotovoz'],['entrevistas','Entrevistas abiertas'],['talleres','Talleres participativos'],['fichas','Registro mediante fichas']].map(([v,label])=>'<label><input type="checkbox" name="metodos" value="'+label+'"> '+label+'</label>').join('')+'</div><label>Función y secuencia de las técnicas elegidas<textarea name="secuencia_metodos" rows="4" placeholder="Qué aportará cada técnica, cómo se combinarán y en qué orden…"></textarea></label></fieldset>'
++'<label class="worksheet-field"><strong>Observaciones y cuestiones pendientes</strong><textarea name="observaciones" rows="3" placeholder="Dificultades, recursos necesarios, alternativas…"></textarea></label>'
+ +'<div class="worksheet-actions"><button type="button" id="download-plan">Descargar propuesta (.txt)</button><button type="button" id="print-plan">Imprimir / Guardar en PDF</button><button type="reset">Vaciar ficha</button></div>'
  +'<p id="worksheet-status" role="status" aria-live="polite"></p><p class="worksheet-privacy">Las respuestas no se guardan en la web ni se transmiten a GitHub. Descargad la propuesta antes de cerrar la página.</p></form>');
 document.querySelector('#download-plan').addEventListener('click',()=>{
  const form=document.querySelector('#plan-form'),data=new FormData(form);
  const clean=x=>String(data.get(x)||'').trim();
  const lines=['# Propuesta de mapeo comunitario','','**Equipo:** '+(clean('equipo')||'Sin indicar'),'**Territorio:** '+(clean('territorio')||'Sin indicar'),''];
  decisions.forEach((d,i)=>lines.push('## '+(i+1)+'. '+d[0]+' — '+d[1],'',clean('decision'+(i+1))||'(Pendiente de completar)',''));
+ lines.push('## Técnicas seleccionadas','',data.getAll('metodos').join(', ')||'(Pendiente de seleccionar)','', '## Función y secuencia', '',clean('secuencia_metodos')||'(Pendiente de completar)','');
  lines.push('## Observaciones y cuestiones pendientes','',clean('observaciones')||'(Sin observaciones)','');
- const blob=new Blob([lines.join('\n')],{type:'text/markdown;charset=utf-8'});
- const url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download='propuesta-mapeo-comunitario.md';document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+ const blob=new Blob([lines.join('\n')],{type:'text/plain;charset=utf-8'});
+ const url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download='propuesta-mapeo-comunitario.txt';document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
  document.querySelector('#worksheet-status').textContent='Propuesta descargada. Podéis seguir editando esta ficha.';
 });
 document.querySelector('#print-plan').addEventListener('click',()=>window.print());
