@@ -3,7 +3,7 @@
 const paths=[
  {name:'Itinerario Localiza Salud',steps:[
  ['entrada-localiza','Orientarse en Localiza Salud','Menú y filtros iniciales'],
- ['almunecar','Almuñécar: recursos y actividades','Receta de Pasos visible directamente o en la ficha del centro'],
+ ['almunecar','Recursos/Activos vs. Actividades · Almuñécar','Centro de Salud y Receta de Pasos: dos búsquedas diferentes'],
  ['maracena','Maracena: inventario y participación','38 registros y 7 con identificación participativa'],
  ['chrysallis','Chrysallis: ampliar territorio','Explorar en el mapa cerca de Albolote'],
  ['denominaciones','Granada: identificar y denominar','CPA Buenos Aires y criterios de nombres'],
