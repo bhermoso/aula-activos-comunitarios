@@ -28,15 +28,14 @@ export function enhanceSession(){
   item.innerHTML='<p class="eyebrow">'+kicker+'</p><div class="activity-grid">'+links.map(([id,title,desc],i)=>'<a class="activity-link" href="#'+id+'"><span class="activity-number">'+String(i+1).padStart(2,'0')+'</span><strong>'+title+'</strong><small>'+desc+'</small><span class="activity-arrow" aria-hidden="true">→</span></a>').join('')+'</div>';
   container.querySelector('.lead')?.insertAdjacentElement('afterend',item);
  }
- guide(loc,'Actividades del taller',[
- ['entrada-localiza','Comprender el menú','Modalidad, territorio y lectura de resultados'],
- ['modalidades','Elegir qué buscar','Recursos/Activos o Actividades'],
- ['criterios-busqueda','Construir la consulta','Filtros y sus combinaciones'],
- ['maracena','Inventario y participación','Maracena: 38 resultados frente a 7'],
- ['chrysallis','El territorio no es una frontera','De Albolote a la provincia de Granada'],
- ['denominaciones','Entender los nombres','Recurso, actividad e identificación'],
- ['registro','Revisión y registro','Granada, Almuñécar y alta ciudadana'],
- ['biblioteca','Consultar criterios','Documentación y normativa de referencia']
+ guide(loc,'Actividades del taller · mismo orden que el guion docente',[
+ ['entrada-localiza','00–08 · Acceso y buscador','Menú, modalidades y criterios básicos'],
+ ['maracena','08–22 · Inventario y participación','Maracena: 38 resultados frente a 7'],
+ ['chrysallis','22–44 · Ampliar el territorio','Chrysallis: de Albolote a la provincia'],
+ ['denominaciones','44–55 · Granada y denominaciones','CPA Buenos Aires, Punto Vuela, GRUSE y GRAFA'],
+ ['modalidades','55–70 · Recursos y actividades','Almuñécar: Receta de Pasos y ficha del centro'],
+ ['registro','70–95 · Registro y validación','Alta ciudadana, duplicados y criterios de calidad'],
+ ['cierre-localiza','95–100 · Síntesis','Tres aprendizajes y cierre del taller']
  ]);
  if(map){
   const lead=map.querySelector('.lead');
