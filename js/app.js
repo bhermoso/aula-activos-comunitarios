@@ -1,11 +1,11 @@
-import {initMethodSelection,markMethodVisited,redirectForPlan,canOpenPlan} from './selection.js?v=20261012-flow-audit18';
-import {addNarrativePaths} from './narrative.js?v=20261012-flow-audit18';
-import {attachTechniqueVideos} from './videos.js?v=20261012-flow-audit18';
-import {addSearchPages} from './search-learning.js?v=20261012-flow-audit18';
-import {addTechniquePages,initTechniqueLearning} from './techniques.js?v=20261012-flow-audit18';
-import {initTeaching,setupTeachingUI} from './teaching.js?v=20261012-flow-audit18';
-import {enhanceSession} from './session.js?v=20261012-flow-audit18';
-import {materials,localizaSequence,mapeo,decisions} from '../content/data.js?v=20261012-flow-audit18';
+import {initMethodSelection,markMethodVisited,redirectForPlan,canOpenPlan} from './selection.js?v=20261012-flow-audit19';
+import {addNarrativePaths} from './narrative.js?v=20261012-flow-audit19';
+import {attachTechniqueVideos} from './videos.js?v=20261012-flow-audit19';
+import {addSearchPages} from './search-learning.js?v=20261012-flow-audit19';
+import {addTechniquePages,initTechniqueLearning} from './techniques.js?v=20261012-flow-audit19';
+import {initTeaching,setupTeachingUI} from './teaching.js?v=20261012-flow-audit19';
+import {enhanceSession} from './session.js?v=20261012-flow-audit19';
+import {materials,localizaSequence,mapeo,decisions} from '../content/data.js?v=20261012-flow-audit19';
 const root=document.querySelector('#main');
 function section(id,kicker,title,content){
  const s=document.createElement('section');s.className='section';s.id=id;s.dataset.slide='1';
