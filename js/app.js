@@ -1,11 +1,11 @@
-import {initMethodSelection,markMethodVisited} from './selection.js?v=20261012-ficha-links22';
-import {addNarrativePaths} from './narrative.js?v=20261012-ficha-links22';
-import {attachTechniqueVideos} from './videos.js?v=20261012-ficha-links22';
-import {addSearchPages} from './search-learning.js?v=20261012-ficha-links22';
-import {addTechniquePages,initTechniqueLearning} from './techniques.js?v=20261012-ficha-links22';
-import {initTeaching,setupTeachingUI} from './teaching.js?v=20261012-ficha-links22';
-import {enhanceSession} from './session.js?v=20261012-ficha-links22';
-import {materials,localizaSequence,mapeo,decisions} from '../content/data.js?v=20261012-ficha-links22';
+import {initMethodSelection,markMethodVisited} from './selection.js?v=20261012-hotfix23';
+import {addNarrativePaths} from './narrative.js?v=20261012-hotfix23';
+import {attachTechniqueVideos} from './videos.js?v=20261012-hotfix23';
+import {addSearchPages} from './search-learning.js?v=20261012-hotfix23';
+import {addTechniquePages,initTechniqueLearning} from './techniques.js?v=20261012-hotfix23';
+import {initTeaching,setupTeachingUI} from './teaching.js?v=20261012-hotfix23';
+import {enhanceSession} from './session.js?v=20261012-hotfix23';
+import {materials,localizaSequence,mapeo,decisions} from '../content/data.js?v=20261012-hotfix23';
 const root=document.querySelector('#main');
 function section(id,kicker,title,content){
  const s=document.createElement('section');s.className='section';s.id=id;s.dataset.slide='1';
