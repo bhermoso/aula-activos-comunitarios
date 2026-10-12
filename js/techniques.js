@@ -48,6 +48,11 @@ export function initTechniqueLearning(){
   const block=document.createElement('section');block.className='learning-workshop';
   block.innerHTML='<p class="eyebrow">Actividad de autoaprendizaje · aplicación práctica</p><h3>Practica esta técnica</h3><p>'+d.task+'</p><p><strong>Plantilla de trabajo:</strong> '+d.template+'</p><details><summary>Pregunta de reflexión y comprobación</summary><p>'+d.question+'</p><p>Contrasta la respuesta con las precauciones metodológicas y el papel de la participación comunitaria.</p></details><div class="learning-actions"><button type="button" class="learning-download">Descargar material de estudio (PDF)</button><a href="#ficha" data-plan-continue hidden>Continuar a la planificación del equipo →</a></div><p class="learning-note">Actividad elaborada para el aula; no es una ficha oficial de la EASP ni sustituye la documentación de origen.</p>';
   const tail=page.querySelector('.tech-bottom');tail?.insertAdjacentElement('beforebegin',block);
+  const conclude=document.createElement('section');
+  conclude.className='tech-final-choice';
+  conclude.innerHTML='<p class="eyebrow">Después de consultar la técnica</p><h3>¿La incorporamos al plan de mapeo?</h3><p>La selección se añadirá a la ficha única de planificación del equipo. Puedes incorporar varias técnicas.</p><button type="button" data-method-select="'+page.id+'">Incorporar esta técnica a la planificación del mapeo</button><p data-method-status="'+page.id+'" aria-live="polite">Pendiente de consultar</p><a href="#ficha" data-plan-continue hidden>Continuar a la ficha única del equipo →</a><p><a href="#tecnicas-catalogo">Comparar con otras técnicas →</a></p>';
+  block.insertAdjacentElement('afterend',conclude);
+
   block.querySelector('.learning-download').addEventListener('click',()=>{
    const blob=buildTechniquePdf(page.id,t,d);
    const url=URL.createObjectURL(blob);
