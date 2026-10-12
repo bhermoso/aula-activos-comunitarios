@@ -140,3 +140,17 @@ body.presenting .timer-widget{bottom:118px;right:22px;z-index:250}
 .reading-checklist>p{margin:0 0 14px}.reading-checklist small{display:block;font-size:13px;color:var(--muted)}
 .reading-checklist .criteria-list{margin:0}.reading-checklist .criteria-list li{cursor:default}
 @media(max-width:650px){.story-trail{padding:17px}.story-trail-head{flex-direction:column}.story-trail-links{flex-direction:column;gap:9px}}
+
+/* Red de técnicas: toda la caja es un enlace con siguiente acción explícita */
+.method-network{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:29px 0}
+.method-node{position:relative;display:flex;flex-direction:column;min-height:238px;padding:24px;border:1px solid var(--line);border-top:4px solid var(--ink);background:var(--paper);color:inherit;text-decoration:none;transition:transform .16s ease,border-color .16s ease,box-shadow .16s ease}
+.method-node:nth-child(3n+2){border-top-color:var(--accent)}
+.method-node:hover,.method-node:focus-visible{transform:translateY(-3px);border-color:var(--accent);box-shadow:0 8px 22px #173b361c;color:inherit}
+.method-node:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.method-node-number{font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:800;color:var(--muted)}
+.method-node h3{margin:18px 0 9px}
+.method-node p{margin:0 0 16px;font-size:15px}
+.method-node strong{margin-top:auto;font-size:13px;color:var(--ink);text-decoration:underline;text-underline-offset:4px}
+.method-bridge{border-left:4px solid var(--accent);padding:20px 24px;background:var(--paper);margin:15px 0 26px}
+@media(max-width:950px){.method-network{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.method-network{grid-template-columns:1fr}.method-node{min-height:0}}
