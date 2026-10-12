@@ -1,4 +1,4 @@
-import {localizaSequence} from '../content/data.js';
+import {localizaSequence} from '../content/data.js?v=20261012-unified3';
 // Mejoras de la primera sesión. Este módulo no depende de Moodle.
 export function enhanceSession(){
  const $=id=>document.getElementById(id);
