@@ -2,15 +2,6 @@
 export function enhanceSession(){
  const $=id=>document.getElementById(id);
  const panel=$('panel'),program=$('programa'),loc=$('localiza'),map=$('mapeo');
- // Apertura y cierre comunes, visibles en los dos guiones sin alterar los 100 minutos de rotación.
- for(const [id,theme] of [['localiza','búsqueda y registro en Localiza Salud'],['mapeo','planificación participativa del mapeo']]){
-  const page=$(id);
-  if(!page)continue;
-  const timing=document.createElement('div');
-  timing.className='common-session-times';
-  timing.innerHTML='<h3>Marco común de la jornada</h3><div class="common-session-grid"><article><time>09:00–09:15</time><strong>Ronda de presentación</strong><p>Presentación de participantes, equipos docentes y objetivos de la jornada. Introducción a '+theme+'.</p></article><article><time>13:50–14:00</time><strong>Conclusiones del taller</strong><p>Puesta en común de aprendizajes, dudas y próximos pasos del trabajo comunitario.</p></article></div><p class="common-session-note">Estos intervalos corresponden a la apertura y cierre conjuntos de la jornada; cada grupo realiza los 100 minutos propios de este taller en su rotación asignada.</p>';
-  page.querySelector('.lead')?.insertAdjacentElement('afterend',timing);
- }
  const menu=[
  ['programa','01','Programa','Horario · grupos · rotaciones'],
  ['localiza','02','Localiza Salud','Buscar, interpretar y registrar'],
