@@ -1,11 +1,11 @@
-import {initMethodSelection,markMethodVisited,redirectForPlan,canOpenPlan} from './selection.js?v=20261012-planning-nav16';
-import {addNarrativePaths} from './narrative.js?v=20261012-planning-nav16';
-import {attachTechniqueVideos} from './videos.js?v=20261012-planning-nav16';
-import {addSearchPages} from './search-learning.js?v=20261012-planning-nav16';
-import {addTechniquePages,initTechniqueLearning} from './techniques.js?v=20261012-planning-nav16';
-import {initTeaching,setupTeachingUI} from './teaching.js?v=20261012-planning-nav16';
-import {enhanceSession} from './session.js?v=20261012-planning-nav16';
-import {materials,localizaSequence,mapeo,decisions} from '../content/data.js?v=20261012-planning-nav16';
+import {initMethodSelection,markMethodVisited,redirectForPlan,canOpenPlan} from './selection.js?v=20261012-planning-end17';
+import {addNarrativePaths} from './narrative.js?v=20261012-planning-end17';
+import {attachTechniqueVideos} from './videos.js?v=20261012-planning-end17';
+import {addSearchPages} from './search-learning.js?v=20261012-planning-end17';
+import {addTechniquePages,initTechniqueLearning} from './techniques.js?v=20261012-planning-end17';
+import {initTeaching,setupTeachingUI} from './teaching.js?v=20261012-planning-end17';
+import {enhanceSession} from './session.js?v=20261012-planning-end17';
+import {materials,localizaSequence,mapeo,decisions} from '../content/data.js?v=20261012-planning-end17';
 const root=document.querySelector('#main');
 function section(id,kicker,title,content){
  const s=document.createElement('section');s.className='section';s.id=id;s.dataset.slide='1';
