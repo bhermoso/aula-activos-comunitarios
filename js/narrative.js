@@ -7,7 +7,7 @@ const paths=[
  ['maracena','Maracena: inventario y participación','38 registros y 7 con identificación participativa'],
  ['chrysallis','Chrysallis: ampliar territorio','Explorar en el mapa cerca de Albolote'],
  ['denominaciones','Granada: nomenclatura de activos','Buscar y contrastar CPA, Punto Vuela, GRUSE y GRAFA'],
- ['registro','Alta ciudadana y validación','Comprobar duplicados, proponer y validar'],
+ ['registro','Registro práctico de un activo','Candidato, criterios, formulario y revisión en 25 minutos'],
  ['cierre-localiza','Síntesis','Lecciones y cierre del taller']
  ]},
  {name:'Itinerario del equipo',steps:[
