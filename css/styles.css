@@ -120,3 +120,6 @@ body.presenting .timer-widget{bottom:118px;right:22px;z-index:250}
 .tech-specific-form label span{display:block;font-weight:650;margin-bottom:8px}
 .tech-specific-form textarea{width:100%;min-height:85px;padding:12px;border:1px solid var(--line);background:#fff}
 @media(max-width:650px){.tech-specific-form{padding:18px}}
+
+/* Ficha única de equipo: selección y combinación de técnicas */
+.methods-selection{border:1px solid var(--line);padding:20px;margin:18px 0;background:var(--paper)}.methods-selection legend{font-weight:800;color:var(--ink);padding:0 8px}.methods-selection>p{font-size:14px;color:var(--muted)}.method-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:16px 0}.method-options label{display:flex;gap:9px;align-items:center;font-size:15px}.method-options input{width:18px;height:18px;accent-color:var(--ink)}.methods-selection>label{display:block;font-weight:650}.methods-selection textarea{display:block;width:100%;padding:10px;margin-top:8px;border:1px solid var(--line)}@media(max-width:650px){.method-options{grid-template-columns:1fr}}
