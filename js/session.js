@@ -1,3 +1,4 @@
+import {localizaSequence} from '../content/data.js';
 // Mejoras de la primera sesión. Este módulo no depende de Moodle.
 export function enhanceSession(){
  const $=id=>document.getElementById(id);
@@ -28,15 +29,8 @@ export function enhanceSession(){
   item.innerHTML='<p class="eyebrow">'+kicker+'</p><div class="activity-grid">'+links.map(([id,title,desc],i)=>'<a class="activity-link" href="#'+id+'"><span class="activity-number">'+String(i+1).padStart(2,'0')+'</span><strong>'+title+'</strong><small>'+desc+'</small><span class="activity-arrow" aria-hidden="true">→</span></a>').join('')+'</div>';
   container.querySelector('.lead')?.insertAdjacentElement('afterend',item);
  }
- guide(loc,'Actividades del taller · mismo orden que el guion docente',[
- ['entrada-localiza','00–08 · Orientarse en Localiza Salud','Menú, modalidades y filtros · acceso público'],
- ['modalidades','08–23 · Almuñécar: recursos y actividades','Receta de Pasos visible directamente o dentro de la ficha del centro'],
- ['maracena','23–37 · Maracena: inventario y participación','38 recursos encontrados; 7 con identificación participativa'],
- ['chrysallis','37–59 · Chrysallis: ampliar territorio','De Albolote a provincia de Granada para encontrar el activo'],
- ['denominaciones','59–70 · Granada: identificar y denominar','CPA Buenos Aires; nombres de recursos y fichas'],
- ['registro','70–95 · Alta ciudadana y validación','Comprobar duplicados, cumplimentar y distinguir propuesta de validación'],
- ['cierre-localiza','95–100 · Síntesis del taller','Filtros, participación y búsqueda de actividades']
- ]);
+ guide(loc,'Actividades del taller · mismo orden que el guion docente',
+  localizaSequence.map(({id,time,title,summary})=>[id,time+' · '+title,summary]));
  if(map){
   const lead=map.querySelector('.lead');
   lead?.insertAdjacentHTML('afterend','<div class="notice"><strong>Perspectiva de género en el mapeo:</strong> al convocar, recoger e interpretar información, considerar si las oportunidades de participación y acceso presentan diferencias entre mujeres y hombres. Revisar horarios, tareas de cuidados, seguridad y accesibilidad. Describir los hallazgos y contrastarlos con la comunidad, sin presuponer diferencias.</div>');
