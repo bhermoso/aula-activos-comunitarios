@@ -139,26 +139,25 @@ function toggle(on){
 }
 present.onclick=()=>toggle(!mode);
 document.querySelector('#exit').onclick=()=>toggle(false);
-const teachingOrder=localizaSequence.map(x=>x.id);
+const localizaOrder=localizaSequence.map(x=>x.id);
+const planningOrder=['tecnicas','tecnicas-catalogo','decisiones','ficha','cierre'];
+const planningAux=new Set(['tecnicas-comparar','tecnica-mapa','tecnica-paseos','tecnica-entrevistas','tecnica-talleres','tecnica-fotovoz','tecnica-fichas']);
 function advancePresentation(direction){
  const id=pages[current]?.id;
- const idx=teachingOrder.indexOf(id);
- if(id==='localiza'&&direction>0){go(indexOfPage(teachingOrder[0]));return;}
- if(id==='localiza'&&direction<0){go(indexOfPage('programa'));return;}
- if(idx>=0){
-  const next=teachingOrder[idx+direction];
-  if(next){go(indexOfPage(next));return;}
-  // Al final no saltar a páginas ajenas al taller.
-  if(direction>0){go(indexOfPage('localiza'));return;}
-  go(indexOfPage('localiza'));return;
+ let order=null,idx=-1,home=null;
+ if(id==='localiza'){if(direction>0){go(indexOfPage(localizaOrder[0]));return;}go(indexOfPage('programa'));return;}
+ if(id==='mapeo'){if(direction>0){go(indexOfPage(planningOrder[0]));return;}go(indexOfPage('programa'));return;}
+ if(localizaOrder.includes(id)){order=localizaOrder;home='localiza';idx=order.indexOf(id);}
+ else if(planningOrder.includes(id)){order=planningOrder;home='mapeo';idx=order.indexOf(id);}
+ else if(planningAux.has(id)){order=planningOrder;home='mapeo';idx=1;}
+ else if(mode){
+  const origin=[...visitStack].reverse().find(x=>localizaOrder.includes(x)||planningOrder.includes(x));
+  if(origin){order=localizaOrder.includes(origin)?localizaOrder:planningOrder;home=order===localizaOrder?'localiza':'mapeo';idx=order.indexOf(origin);}
  }
- // Si se abrió una ficha auxiliar desde el itinerario, las flechas
- // continúan desde la actividad de origen en lugar del orden interno del DOM.
- const origin=[...visitStack].reverse().find(x=>teachingOrder.includes(x));
- if(mode&&origin){
-  const at=teachingOrder.indexOf(origin)+direction;
-  const next=teachingOrder[at]||'localiza';
-  go(indexOfPage(next));return;
+ if(order){
+  const next=order[idx+direction];
+  if(next){go(indexOfPage(next));return;}
+  go(indexOfPage(home));return;
  }
  go(current+direction);
 }
