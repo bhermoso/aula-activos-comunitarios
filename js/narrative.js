@@ -39,7 +39,7 @@ export function addNarrativePaths(){
  // Orientación visible al entrar en cada pantalla clave; no sustituye al guion de 100 minutos.
  const planningSteps=[
   ['mapeo','Guion docente y propósito','00–15 · Situar la tarea','tecnicas','Siguiente: consultar técnicas participativas (15–32)'],
-  ['tecnicas','Técnicas disponibles','15–32 · Consultar y elegir','decisiones','Siguiente: preparar las seis decisiones (43–73)'],
+  ['tecnicas','Técnicas disponibles','15–32 · Consultar y elegir','tecnicas-catalogo','Siguiente: consultar las fichas de técnicas'],
   ['tecnicas-catalogo','Fichas de técnicas','Material de consulta durante 15–32','decisiones','Siguiente: preparar las seis decisiones (43–73)'],
   ['decisiones','Seis decisiones del equipo','43–73 · Estructurar la propuesta','ficha','Siguiente: completar la ficha única del equipo'],
   ['ficha','Ficha de planificación','43–73 · Redactar y descargar','cierre','Siguiente: exposición, viabilidad y cierre (73–100)'],
@@ -57,7 +57,7 @@ export function addNarrativePaths(){
  const catalog=document.querySelector('#tecnicas-catalogo');
  const reference=document.querySelector('#biblioteca');
  if(catalog){
-  catalog.insertAdjacentHTML('beforeend','<p class="story-context"><strong>¿Qué se hace con lo aprendido?</strong> Selecciona los métodos necesarios para tu territorio y justifica cómo se combinan en <a href="#ficha">la ficha única del equipo →</a></p><nav class="planning-guidance" aria-label="Fin de consulta de técnicas"><p><strong>Ya has consultado las técnicas.</strong> Ahora selecciona las adecuadas para tu territorio y prepara las decisiones que darán forma al plan.</p><div class="story-links"><a href="#tecnicas">← Anterior: elegir técnicas</a><a href="#decisiones">Siguiente: preparar las seis decisiones →</a></div></nav>');
+  catalog.insertAdjacentHTML('beforeend','<nav class="planning-guidance" aria-label="Fin del catálogo"><p><strong>Después de revisar las fichas e incorporar las técnicas elegidas</strong>, corresponde acordar las seis decisiones del equipo.</p><div class="story-links"><a href="#tecnicas">← Anterior: visión general de técnicas</a><a href="#decisiones">Siguiente: preparar las seis decisiones →</a></div></nav>');
  }
  if(reference){
   reference.insertAdjacentHTML('beforeend','<p class="story-context">Las fuentes ayudan a contrastar lo visto en <a href="#localiza">Localiza Salud</a> y a fundamentar <a href="#mapeo">el plan de mapeo</a>. El <a href="#tecnicas-catalogo">catálogo de técnicas</a> reúne, por separado, el aprendizaje metodológico.</p>');
