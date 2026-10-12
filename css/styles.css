@@ -111,3 +111,12 @@ body.presenting .timer-widget{bottom:118px;right:22px;z-index:250}
 .tech-video summary{font-weight:700;cursor:pointer}
 .tech-video-note{font-size:13px;color:var(--muted)}
 @media(max-width:650px){.tech-video{padding:20px}.tech-video-link a{display:block}}
+
+/* Fichas diferenciadas de aplicación de cada técnica */
+.tech-specific-form{background:var(--paper);border-top:4px solid var(--ink);margin:25px 0;padding:28px}
+.tech-specific-form h3{font:normal 28px/1.2 Georgia,serif;color:var(--ink)}
+.tech-specific-form>p{color:var(--muted)}
+.tech-specific-form label{display:block;padding:15px 0;border-bottom:1px solid var(--line)}
+.tech-specific-form label span{display:block;font-weight:650;margin-bottom:8px}
+.tech-specific-form textarea{width:100%;min-height:85px;padding:12px;border:1px solid var(--line);background:#fff}
+@media(max-width:650px){.tech-specific-form{padding:18px}}
