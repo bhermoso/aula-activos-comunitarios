@@ -36,6 +36,24 @@ export function addNarrativePaths(){
    else page.appendChild(el);
   });
  }
+ // Orientación visible al entrar en cada pantalla clave; no sustituye al guion de 100 minutos.
+ const planningSteps=[
+  ['mapeo','Guion docente y propósito','00–15 · Situar la tarea','tecnicas','Siguiente: consultar técnicas participativas (15–32)'],
+  ['tecnicas','Técnicas disponibles','15–32 · Consultar y elegir','decisiones','Siguiente: preparar las seis decisiones (43–73)'],
+  ['tecnicas-catalogo','Fichas de técnicas','Material de consulta durante 15–32','decisiones','Siguiente: preparar las seis decisiones (43–73)'],
+  ['decisiones','Seis decisiones del equipo','43–73 · Estructurar la propuesta','ficha','Siguiente: completar la ficha única del equipo'],
+  ['ficha','Ficha de planificación','43–73 · Redactar y descargar','cierre','Siguiente: exposición, viabilidad y cierre (73–100)'],
+  ['cierre','Continuidad del proceso','73–100 · Exponer, contrastar y cerrar','mapeo','Volver al guion del taller']
+ ];
+ planningSteps.forEach(([id,name,time,next,label])=>{
+  const page=document.getElementById(id),lead=page?.querySelector('.lead');
+  if(!lead)return;
+  const nav=document.createElement('nav');
+  nav.className='planning-guidance';
+  nav.setAttribute('aria-label','Orientación para seguir el taller de planificación');
+  nav.innerHTML='<p class="eyebrow">Taller de planificación · orientación docente</p><p><strong>'+name+'</strong> · '+time+'</p><p>El guion minutado marca las fases; estos enlaces sirven para consultar herramientas, sin añadir actividades al horario.</p><div class="story-links"><a href="#'+next+'">'+label+' →</a><a href="#mapeo">Consultar guion de 100 minutos →</a></div>';
+  lead.insertAdjacentElement('afterend',nav);
+ });
  const catalog=document.querySelector('#tecnicas-catalogo');
  const reference=document.querySelector('#biblioteca');
  if(catalog){
