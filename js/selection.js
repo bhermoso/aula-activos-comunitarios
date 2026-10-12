@@ -67,11 +67,11 @@ export function refreshMethodSelection(){
  document.querySelectorAll('[data-plan-continue]').forEach(link=>{link.hidden=!canOpenPlan();});
  const gate=document.querySelector('#plan-prerequisite');
  if(gate){
-  gate.hidden=canOpenPlan();
-  gate.textContent=count?'Consulta las técnicas elegidas antes de pasar a la ficha única.':'Consulta al menos una técnica e incorpórala a la planificación desde su ficha.';
+  gate.hidden=false;
+  gate.textContent=count?'Puedes completar la ficha y revisar las técnicas elegidas cuando lo necesites.':'Puedes completar la ficha ahora. Si quieres incorporar técnicas, consúltalas desde el catálogo.';
  }
  document.querySelectorAll('[data-plan-shortcut]').forEach(link=>{
-  link.setAttribute('aria-label',canOpenPlan()?'Abrir ficha única del equipo':'Primero consulta y selecciona una técnica');
+  link.setAttribute('aria-label','Abrir ficha única del equipo');
  });
 }
 export function selectedMethodNames(){return [...selected].map(label)}
