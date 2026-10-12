@@ -1,4 +1,4 @@
-import {initMethodSelection,markMethodVisited,redirectForPlan,canOpenPlan} from './selection.js?v=20261012-simple20';
+import {initMethodSelection,markMethodVisited} from './selection.js?v=20261012-simple20';
 import {addNarrativePaths} from './narrative.js?v=20261012-simple20';
 import {attachTechniqueVideos} from './videos.js?v=20261012-simple20';
 import {addSearchPages} from './search-learning.js?v=20261012-simple20';
@@ -60,7 +60,7 @@ section('cierre','Continuidad','Del aula al territorio','<p class="lead">Cada eq
 
 /* Ficha editable: toda la información permanece en el navegador hasta descargar. */
 section('ficha','Actividad práctica · Planificación','Ficha de trabajo en equipos',
- '<p id="plan-prerequisite" class="notice">Antes de completar esta ficha, consulta y selecciona al menos una técnica de mapeo.</p><p class="lead">Redactad una primera propuesta de mapeo participativo. Al finalizar, descargadla en formato de texto editable (.txt) o guardadla en PDF. No se envían respuestas a ningún servidor.</p>'
+ '<p id="plan-prerequisite" class="notice">Puedes consultar las técnicas antes o durante la elaboración de la ficha.</p><p class="lead">Redactad una primera propuesta de mapeo participativo. Al finalizar, descargadla en formato de texto editable (.txt) o guardadla en PDF. No se envían respuestas a ningún servidor.</p>'
  +'<form id="plan-form" class="worksheet">'
  +'<div class="worksheet-meta"><label>Identificación del equipo<input name="equipo" type="text" placeholder="Ej. Grupo A · Equipo 1"></label><label>Municipio o territorio<input name="territorio" type="text" placeholder="Barrio, zona básica de salud, municipio…"></label></div>'
  +decisions.map((d,i)=>'<label class="worksheet-field"><span class="worksheet-number">'+String(i+1).padStart(2,'0')+'</span><strong>'+d[0]+'</strong><small>'+d[1]+'</small><textarea name="decision'+(i+1)+'" rows="4" placeholder="Anotad los acuerdos, participantes y aspectos pendientes…"></textarea></label>').join('')
@@ -110,7 +110,6 @@ function route({external=false}={}){
  let id='inicio';
  try{id=decodeURIComponent(location.hash.slice(1))||'inicio'}catch(e){id='inicio'}
  const target=indexOfPage(id);let next=target>=0?target:indexOfPage('inicio');
- if(pages[next].id==='ficha'&&!canOpenPlan())next=indexOfPage(redirectForPlan());
  if(external&&next!==current){
   const prior=visitStack[visitStack.length-1];
   if(prior===pages[next].id)visitStack.pop();
@@ -120,7 +119,6 @@ function route({external=false}={}){
 }
 function go(i){
  let next=Math.max(0,Math.min(pages.length-1,i));
- if(pages[next].id==='ficha'&&!canOpenPlan())next=indexOfPage(redirectForPlan());
  if(next===current)return;
  visitStack.push(pages[current].id);
  render(next,{updateUrl:true});
@@ -130,7 +128,7 @@ function backOne(){
  if(!prior)return;
  const i=indexOfPage(prior);
  if(i<0){render(current);return;}
- render(pages[i].id==='ficha'&&!canOpenPlan()?indexOfPage(redirectForPlan()):i,{updateUrl:true});
+ render(i,{updateUrl:true});
 }
 function toggle(on){
  mode=on;document.body.classList.toggle('presenting',on);controls.hidden=!on;
