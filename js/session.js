@@ -30,7 +30,7 @@ export function enhanceSession(){
  }
  guide(loc,'Actividades del taller',[
  ['maracena','Inventario y participación','Maracena: 38 resultados frente a 7'],
- ['chrysallis','El territorio no es una frontera','Buscar Chrysallis desde Albolote'],
+ ['chrysallis','El territorio no es una frontera','De Albolote a la provincia de Granada'],
  ['registro','Modalidades y registro','Granada, Almuñécar y alta ciudadana'],
  ['biblioteca','Consultar criterios','Documentación y normativa de referencia']
  ]);
