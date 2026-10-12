@@ -17,7 +17,7 @@ export function canOpenPlan(){return selected.size>0&&[...selected].every(id=>vi
 export function redirectForPlan(){
  if(canOpenPlan())return null;
  if(selected.size&&[...selected].some(id=>!visited.has(id)))return [...selected].find(id=>!visited.has(id));
- return 'tecnicas';
+ return 'tecnicas-catalogo';
 }
 export function initMethodSelection(){
  document.querySelectorAll('[data-method-select]').forEach(btn=>{
