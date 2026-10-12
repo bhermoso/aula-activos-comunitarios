@@ -179,3 +179,14 @@ body.presenting .timer-widget{bottom:118px;right:22px;z-index:250}
 .tech-final-choice [data-method-status]{font-size:13px;color:var(--muted)}
 .tech-final-choice [data-plan-continue]{display:inline-block;font-weight:750;color:var(--ink);margin:12px 0}
 @media(max-width:650px){.tech-final-choice{padding:18px}}
+
+/* Apertura y cierre compartidos de la jornada en los dos talleres */
+.common-session-times{background:var(--paper);border:1px solid var(--line);padding:22px 25px;margin:24px 0}
+.common-session-times h3{font-size:19px;margin-bottom:13px}
+.common-session-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.common-session-grid article{padding:12px 0;border-top:3px solid var(--accent)}
+.common-session-grid time{display:block;font-weight:800;font-size:14px;color:var(--ink)}
+.common-session-grid strong{display:block;margin:7px 0}
+.common-session-grid p{font-size:14px;margin:5px 0}
+.common-session-note{font-size:13px;color:var(--muted);margin:14px 0 0}
+@media(max-width:650px){.common-session-grid{grid-template-columns:1fr}.common-session-times{padding:17px}}
