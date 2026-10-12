@@ -64,7 +64,7 @@ export function refreshMethodSelection(){
   const id=methodChoices.find(([,name])=>name===input.value)?.[0];
   input.checked=selected.has(id);input.disabled=!visited.has(id);
  });
- document.querySelectorAll('[data-plan-continue]').forEach(link=>{link.hidden=!canOpenPlan();});
+ document.querySelectorAll('[data-plan-continue]').forEach(link=>{link.hidden=false;});
  const gate=document.querySelector('#plan-prerequisite');
  if(gate){
   gate.hidden=false;
