@@ -1,11 +1,11 @@
-import {initMethodSelection,markMethodVisited,redirectForPlan,canOpenPlan} from './selection.js';
-import {addNarrativePaths} from './narrative.js';
-import {attachTechniqueVideos} from './videos.js';
-import {addSearchPages} from './search-learning.js';
-import {addTechniquePages,initTechniqueLearning} from './techniques.js';
-import {initTeaching,setupTeachingUI} from './teaching.js';
-import {enhanceSession} from './session.js';
-import {materials,localiza,mapeo,decisions} from '../content/data.js';
+import {initMethodSelection,markMethodVisited,redirectForPlan,canOpenPlan} from './selection.js?v=20261012-align2';
+import {addNarrativePaths} from './narrative.js?v=20261012-align2';
+import {attachTechniqueVideos} from './videos.js?v=20261012-align2';
+import {addSearchPages} from './search-learning.js?v=20261012-align2';
+import {addTechniquePages,initTechniqueLearning} from './techniques.js?v=20261012-align2';
+import {initTeaching,setupTeachingUI} from './teaching.js?v=20261012-align2';
+import {enhanceSession} from './session.js?v=20261012-align2';
+import {materials,localiza,mapeo,decisions} from '../content/data.js?v=20261012-align2';
 const root=document.querySelector('#main');
 function section(id,kicker,title,content){
  const s=document.createElement('section');s.className='section';s.id=id;s.dataset.slide='1';
