@@ -49,6 +49,7 @@ export function addNarrativePaths(){
   const back=page.querySelector('a.back')?.parentElement;
   if(back)back.insertAdjacentElement('beforebegin',nav);else page.appendChild(nav);
  });
+ const catalog=document.querySelector('#tecnicas-catalogo');
  const reference=document.querySelector('#biblioteca');
  if(catalog){
   catalog.insertAdjacentHTML('beforeend','<nav class="planning-guidance" aria-label="Fin del catálogo"><p><strong>Después de revisar las fichas e incorporar las técnicas elegidas</strong>, corresponde acordar las seis decisiones del equipo.</p><div class="story-links"><a href="#tecnicas">← Anterior: visión general de técnicas</a><a href="#decisiones">Siguiente: preparar las seis decisiones →</a></div></nav>');
