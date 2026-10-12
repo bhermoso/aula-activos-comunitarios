@@ -20,7 +20,7 @@ export const localiza=[
 // Cada entrada: [intervalo, título, indicaciones docentes, destino de consulta, resumen].
 export const localizaSequence=localiza.map(([time,title,detail],i)=>({
  time,title,detail,
- id:['entrada-localiza','modalidades','maracena','chrysallis','denominaciones','registro','cierre-localiza'][i],
+ id:['entrada-localiza','almunecar','maracena','chrysallis','denominaciones','registro','cierre-localiza'][i],
  summary:[
  'Menú, modalidades y filtros · acceso público',
  'Receta de Pasos: resultado directo en Actividades, indirecto en la ficha del centro',
