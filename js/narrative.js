@@ -6,7 +6,7 @@ const paths=[
  ['almunecar','Recursos/Activos vs. Actividades · Almuñécar','Centro de Salud y Receta de Pasos: dos búsquedas diferentes'],
  ['maracena','Maracena: inventario y participación','38 registros y 7 con identificación participativa'],
  ['chrysallis','Chrysallis: ampliar territorio','Explorar en el mapa cerca de Albolote'],
- ['denominaciones','Granada: identificar y denominar','CPA Buenos Aires y criterios de nombres'],
+ ['denominaciones','Granada: nomenclatura de activos','Buscar y contrastar CPA, Punto Vuela, GRUSE y GRAFA'],
  ['registro','Alta ciudadana y validación','Comprobar duplicados, proponer y validar'],
  ['cierre-localiza','Síntesis','Lecciones y cierre del taller']
  ]},
