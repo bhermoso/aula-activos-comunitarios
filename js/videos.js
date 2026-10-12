@@ -50,6 +50,45 @@ const videos={
   prompt:'¿Qué campos y evidencias necesitarías conservar para documentar el origen de un activo candidato?'
  }
 };
+
+const andalusian={
+ 'tecnica-mapa':{
+  label:'Metodología para el mapeo de activos de salud en una comunidad',
+  source:'Gaceta Sanitaria · autoría vinculada a EASP',
+  url:'https://gacetasanitaria.org/es-metodologia-el-mapeo-activos-salud-articulo-resumen-S0213911112001896',
+  scope:'Lectura metodológica con tablas de métodos y técnicas; no es un vídeo.'
+ },
+ 'tecnica-paseos':{
+  label:'Guía Salud Comunitaria basada en Activos',
+  source:'EASP · Servicio Andaluz de Salud',
+  url:'https://www.easp.es/project/salud-comunitaria-basada-en-activos/',
+  scope:'Experiencia y marco de aplicación en Andalucía; no es una demostración audiovisual del paseo.'
+ },
+ 'tecnica-fotovoz':{
+  label:'Salud Comunitaria basada en Activos · instrumentos y técnicas',
+  source:'EASP · Consejería de Salud',
+  url:'https://www.easp.es/project/salud-comunitaria-basada-en-activos/',
+  scope:'Apoyo metodológico andaluz para interpretar fotovoz; no es un vídeo.'
+ },
+ 'tecnica-entrevistas':{
+  label:'Proyecto PARAC: Activos para la Salud Comunitaria',
+  source:'Escuela Andaluza de Salud Pública',
+  url:'https://www.easp.es/project/proyecto-de-apoyo-a-la-revitalizacion-de-la-atencion-primaria-activos-para-la-salud-comunitaria-parac/',
+  scope:'Experiencia de formación e investigación cualitativa en atención primaria andaluza, con entrevistas y grupos focales.'
+ },
+ 'tecnica-talleres':{
+  label:'Proyecto PARAC: técnicas participativas en atención primaria',
+  source:'Escuela Andaluza de Salud Pública',
+  url:'https://www.easp.es/project/proyecto-de-apoyo-a-la-revitalizacion-de-la-atencion-primaria-activos-para-la-salud-comunitaria-parac/',
+  scope:'Contexto docente y participativo desarrollado en Andalucía; material de referencia, no tutorial audiovisual.'
+ },
+ 'tecnica-fichas':{
+  label:'Guía de Salud Comunitaria basada en Activos',
+  source:'Servicio Andaluz de Salud · EASP',
+  url:'https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/todas-noticia/el-sistema-sanitario-publico-de-andalucia-ya-cuenta-con-su-guia-de-salud-comunitaria-basada-en',
+  scope:'Marco de identificación y mapeo; para operar en Localiza Salud utilizar además el manual de registro.'
+ }
+};
 export function attachTechniqueVideos(){
  Object.entries(videos).forEach(([id,v])=>{
   const page=document.getElementById(id);
@@ -59,6 +98,10 @@ export function attachTechniqueVideos(){
   const block=document.createElement('section');
   block.className='tech-video';
   block.innerHTML='<div class="tech-video-head"><span>RECURSO AUDIOVISUAL</span><h3>'+v.title+'</h3><p>'+v.institution+'</p></div><p><strong>'+v.kind+'</strong> · '+v.note+'</p><div class="tech-video-link"><a href="'+v.url+'" target="_blank" rel="noopener noreferrer">Ver el vídeo en la plataforma de origen ↗</a></div><details><summary>Qué observar durante el visionado</summary><p>'+v.prompt+'</p></details><p class="tech-video-note">Material externo; la reproducción puede requerir conexión y abrirse en otra pestaña. Los recursos en inglés pueden necesitar apoyo del guion en español.</p>';
+  const context=andalusian[id];
+  if(context){
+   block.insertAdjacentHTML('beforeend','<div class="tech-andalusia"><strong>Referencia de aplicación andaluza</strong><p>'+context.scope+'</p><a href="'+context.url+'" target="_blank" rel="noopener noreferrer">'+context.label+' · '+context.source+' ↗</a></div>');
+  }
   detail.insertAdjacentElement('afterend',block);
  });
 }
