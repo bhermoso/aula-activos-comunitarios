@@ -18,7 +18,7 @@ export function addTechniquePages(section){
  const steps=t.steps.map((a,i)=>'<li><b>'+(i+1)+'.</b> '+a+'</li>').join('');
  const links=t.links.map(([title,url])=>'<a href="'+url+'" target="_blank" rel="noopener noreferrer">'+title+' ↗</a>').join('');
  section(t.id,'Autoaprendizaje · '+t.group,t.title,
- '<p class="lead">'+t.purpose+'</p><div class="tech-detail"><article><h3>¿Cuándo conviene utilizarla?</h3><p>'+t.when+'</p></article><article><h3>Aplicación paso a paso</h3><ol class="tech-steps">'+steps+'</ol></article><article><h3>Producto esperado</h3><p>'+t.result+'</p></article><article><h3>Precauciones</h3><p>'+t.risks+'</p></article><article><h3>Lecturas y materiales de referencia</h3><div class="tech-sources">'+links+'</div></article></div><div class="tech-bottom"><a href="#tecnicas-catalogo">← Todas las técnicas</a><a href="#ficha">Abrir plan general del equipo →</a></div>');
+ '<p class="lead">'+t.purpose+'</p><div class="tech-detail"><article><h3>¿Cuándo conviene utilizarla?</h3><p>'+t.when+'</p></article><article><h3>Aplicación paso a paso</h3><ol class="tech-steps">'+steps+'</ol></article><article><h3>Producto esperado</h3><p>'+t.result+'</p></article><article><h3>Precauciones</h3><p>'+t.risks+'</p></article><article><h3>Lecturas y materiales de referencia</h3><div class="tech-sources">'+links+'</div></article></div><div class="tech-bottom"><a href="#tecnicas-catalogo">← Todas las técnicas</a><a href="#ficha">Ficha única de planificación del equipo →</a></div>');
  });
  const el=document.querySelector('#tecnicas');
  el?.querySelector('.lead')?.insertAdjacentHTML('afterend','<p><a class="worksheet-link" href="#tecnicas-catalogo">Explorar seis técnicas y materiales de autoaprendizaje →</a></p>');
@@ -36,14 +36,6 @@ const study={
  'tecnica-fichas':{read:'Guía breve EASP, anexo: registro mediante fichas, página impresa 23, y modelos de recogida de información del anexo.',pdf:guia+'#page=22',task:'Rellena una ficha de un recurso real sin inventar datos. Distingue campos comprobados, pendientes de confirmación y aportaciones de la comunidad.',question:'¿Qué información permite diferenciar un recurso registrado, un activo identificado participativamente y un activo validado?',template:'Nombre | Localización | Contacto autorizado | Acceso | Beneficio | Origen de la identificación | Verificación'}
 };
 
-const specificWorksheets={
- 'tecnica-mapa':{title:'Ficha específica · Mapeo colectivo',questions:['¿Qué territorio y qué pregunta representará el mapa?','¿Qué grupos y experiencias participarán en su elaboración?','¿Cómo se marcarán los lugares y recogerán sus significados?','¿Qué contraste y devolución comunitaria se realizarán?']},
- 'tecnica-paseos':{title:'Ficha específica · Paseo comunitario',questions:['¿Qué recorrido, paradas y duración proponemos?','¿Cómo facilitaremos la participación de personas con distinta movilidad?','¿Qué observaciones y relatos recogeremos en cada parada?','¿Cómo interpretaremos y devolveremos los hallazgos?']},
- 'tecnica-fotovoz':{title:'Ficha específica · Fotovoz',questions:['¿Qué pregunta orientará la elección de fotografías?','¿Qué acuerdos de consentimiento, uso y custodia de imágenes aplicaremos?','¿Cómo recogeremos los relatos de las personas participantes?','¿Cómo realizaremos el diálogo y la devolución de resultados?']},
- 'tecnica-entrevistas':{title:'Ficha específica · Entrevista abierta',questions:['¿Qué experiencias y perspectivas queremos comprender?','¿A qué perfiles invitaremos a conversar?','¿Qué pregunta generadora y repreguntas abiertas utilizaremos?','¿Cómo documentaremos, contrastaremos y devolveremos lo recogido?']},
- 'tecnica-talleres':{title:'Ficha específica · Taller participativo',questions:['¿Qué objetivo y pregunta de trabajo tendrá el taller?','¿Cómo construiremos una convocatoria plural y accesible?','¿Qué dinámicas permitirán recoger aportaciones y contrastarlas?','¿Cómo documentaremos acuerdos, diferencias y devolución?']},
- 'tecnica-fichas':{title:'Ficha específica · Registro de información',questions:['¿Qué unidad documentaremos: recurso, activo candidato o actividad?','¿Qué datos descriptivos y condiciones de acceso recogeremos?','¿Cómo indicaremos el origen participativo y las fuentes de información?','¿Qué datos y consentimientos requieren comprobación antes del registro?']}
-};
 export function initTechniqueLearning(){
  document.querySelectorAll('[id^="tecnica-"]').forEach(page=>{
   const t=techniques.find(v=>v.id===page.id);
@@ -56,21 +48,6 @@ export function initTechniqueLearning(){
   const block=document.createElement('section');block.className='learning-workshop';
   block.innerHTML='<p class="eyebrow">Actividad de autoaprendizaje · aplicación práctica</p><h3>Practica esta técnica</h3><p>'+d.task+'</p><p><strong>Plantilla de trabajo:</strong> '+d.template+'</p><details><summary>Pregunta de reflexión y comprobación</summary><p>'+d.question+'</p><p>Contrasta la respuesta con las precauciones metodológicas y el papel de la participación comunitaria.</p></details><div class="learning-actions"><button type="button" class="learning-download">Descargar material de estudio (PDF)</button><a href="#ficha">Abrir plan general del equipo →</a></div><p class="learning-note">Actividad elaborada para el aula; no es una ficha oficial de la EASP ni sustituye la documentación de origen.</p>';
   const tail=page.querySelector('.tech-bottom');tail?.insertAdjacentElement('beforebegin',block);
-  const spec=specificWorksheets[page.id];
-  if(spec){
-   const form=document.createElement('section');
-   form.className='tech-specific-form';
-   form.innerHTML='<p class="eyebrow">Aplicación de la técnica</p><h3>'+spec.title+'</h3><p>Esta ficha es distinta para cada técnica. El plan general del equipo se encuentra en otro apartado.</p>'+spec.questions.map((q,i)=>'<label><span>'+(i+1)+'. '+q+'</span><textarea rows="3" data-field="'+i+'" placeholder="Anota la propuesta del equipo…"></textarea></label>').join('')+'<div class="learning-actions"><button type="button" class="specific-print">Imprimir o guardar ficha como PDF</button><a href="#ficha">Ir al plan general del equipo →</a></div>';
-   block.insertAdjacentElement('afterend',form);
-   form.querySelector('.specific-print').addEventListener('click',()=>{
-    const answers=[...form.querySelectorAll('textarea')].map((field,i)=>({question:spec.questions[i],answer:field.value.trim()||'Pendiente de completar'}));
-    const w=window.open('','_blank');
-    if(!w){window.alert('Permite ventanas emergentes para imprimir esta ficha.');return;}
-    const escapeHtml=x=>x.replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
-    w.document.write('<!doctype html><html lang="es"><head><meta charset="utf-8"><title>'+escapeHtml(spec.title)+'</title><style>body{font:16px/1.5 Arial,sans-serif;margin:45px;color:#173b36}h1{font:30px Georgia,serif}section{padding:18px 0;border-bottom:1px solid #ccc}p{white-space:pre-wrap}</style></head><body><h1>'+escapeHtml(spec.title)+'</h1><p>Aula de Activos Comunitarios · Propuesta de trabajo</p>'+answers.map(a=>'<section><strong>'+escapeHtml(a.question)+'</strong><p>'+escapeHtml(a.answer)+'</p></section>').join('')+'</body></html>');
-    w.document.close();w.focus();w.print();
-   });
-  }
   block.querySelector('.learning-download').addEventListener('click',()=>{
    const blob=buildTechniquePdf(page.id,t,d);
    const url=URL.createObjectURL(blob);
