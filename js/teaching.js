@@ -1,3 +1,4 @@
+import {localizaSequence} from '../content/data.js';
 // Cronómetro manual opcional: independiente de la navegación y de los intervalos.
 export function setupTeachingUI(){
  const main=document.querySelector('#main');
@@ -6,46 +7,11 @@ export function setupTeachingUI(){
 }
 export function initTeaching({navigate,currentId,setMode}){
  const sequences={
-  localiza:[['localiza','Introducción'],['maracena','Maracena · 38/7'],['chrysallis','Chrysallis'],['registro','Registro y validación']],
-  mapeo:[['mapeo','Introducción'],['tecnicas','Técnicas'],['decisiones','Seis decisiones'],['ficha','Ficha de equipo']]
+  localiza:localizaSequence.map(({id,title})=>[id,title]),
+  mapeo:[['mapeo','Guion docente'],['tecnicas','Consultar técnicas'],['decisiones','Seis decisiones'],['ficha','Ficha del equipo']]
  };
- const timer=document.querySelector('#timer-widget');
- const toggle=document.querySelector('#timer-activate');
- const minutes=document.querySelector('#timer-minutes');
- const output=document.querySelector('#timer-display');
- const state=document.querySelector('#timer-state');
- const play=document.querySelector('#timer-play');
- let countdown=5*60000,deadline=0,running=false,handle=null;
- function duration(){return Math.max(1,Math.min(180,Number(minutes.value)||5))*60000;}
- function display(){
-  const seconds=Math.max(0,Math.ceil(countdown/1000));
-  output.textContent=String(Math.floor(seconds/60)).padStart(2,'0')+':'+String(seconds%60).padStart(2,'0');
-  timer.classList.toggle('timer-done',countdown===0);
- }
- function pause(){
-  if(running)countdown=Math.max(0,deadline-Date.now());
-  running=false;clearInterval(handle);handle=null;
- }
- function updateClock(){
-  if(!running)return;
-  countdown=Math.max(0,deadline-Date.now());display();
-  if(countdown===0){pause();play.textContent='Iniciar';state.textContent='Tiempo terminado';}
- }
- function reset(){pause();countdown=duration();play.textContent='Iniciar';state.textContent='Preparado';display();}
- toggle.addEventListener('click',()=>{
-  timer.hidden=!timer.hidden;
-  toggle.setAttribute('aria-expanded',String(!timer.hidden));
-  toggle.textContent=timer.hidden?'◷ Activar cronómetro':'◷ Ocultar cronómetro';
- });
- document.querySelector('#timer-close').addEventListener('click',()=>{timer.hidden=true;toggle.setAttribute('aria-expanded','false');toggle.textContent='◷ Activar cronómetro';});
- minutes.addEventListener('change',reset);
- play.addEventListener('click',()=>{
-  if(running){pause();play.textContent='Continuar';state.textContent='En pausa';display();return;}
-  if(countdown<=0)countdown=duration();
-  deadline=Date.now()+countdown;running=true;play.textContent='Pausar';state.textContent='En marcha';handle=setInterval(updateClock,250);display();
- });
- document.querySelector('#timer-reset').addEventListener('click',reset);
- display();
+ const localizaIds=new Set(sequences.localiza.map(([id])=>id));
+ const mapeoIds=new Set(sequences.mapeo.map(([id])=>id));
  const stage=document.querySelector('#teaching-stage');
  const fs=document.querySelector('#screen-full');
  fs.addEventListener('click',async()=>{
@@ -61,7 +27,7 @@ export function initTeaching({navigate,currentId,setMode}){
   setMode(false);
  });
  function update(id){
-  const key=id==='localiza'||['maracena','chrysallis','registro'].includes(id)?'localiza':id==='mapeo'||['tecnicas','decisiones','ficha'].includes(id)?'mapeo':null;
+  const key=localizaIds.has(id)?'localiza':mapeoIds.has(id)?'mapeo':null;
   if(!key){stage.hidden=true;return}
   const seq=sequences[key],index=seq.findIndex(([v])=>v===id);
   stage.hidden=false;
