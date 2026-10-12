@@ -200,3 +200,13 @@ body.presenting .timer-widget{bottom:118px;right:22px;z-index:250}
 @media(max-width:760px){.resource-activity-flow{grid-template-columns:1fr;gap:5px}.resource-activity-flow>b{text-align:center;transform:rotate(90deg)}}
 
 .teacher-runbook{margin:20px 0;border:1px solid var(--line);padding:14px 18px;border-radius:8px}.teacher-runbook>summary{cursor:pointer;font-weight:700;color:var(--ink);padding:6px 0}.teacher-runbook[open]>.stages{margin-top:17px}
+
+/* Comparación transversal de las seis técnicas */
+.comparison-scroll{overflow-x:auto;margin:22px 0}
+.techniques-comparison{width:100%;border-collapse:collapse;min-width:770px;font-size:14px}
+.techniques-comparison th,.techniques-comparison td{text-align:left;vertical-align:top;border:1px solid var(--line);padding:14px}
+.techniques-comparison thead th{background:var(--ink);color:white}
+.techniques-comparison tbody th{min-width:165px}
+.techniques-comparison tbody th a{font-weight:750}
+.techniques-comparison tbody th small{display:block;margin-top:7px;color:var(--muted);font-weight:400}
+.techniques-comparison tbody tr:nth-child(even){background:var(--paper)}
