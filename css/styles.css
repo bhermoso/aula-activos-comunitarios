@@ -170,3 +170,12 @@ body.presenting .timer-widget{bottom:118px;right:22px;z-index:250}
 /* Mostrar la continuación solo tras incorporar al menos una técnica */
 [data-plan-continue][hidden]{display:none!important}
 .selection-next{display:flex;flex-wrap:wrap;gap:12px 23px;margin:16px 0 22px}.selection-next a{color:var(--ink);font-weight:750;text-underline-offset:4px}
+
+/* Acción principal al finalizar el estudio de cada técnica */
+.tech-final-choice{padding:24px 28px;margin:18px 0 28px;background:var(--paper);border:2px solid var(--ink)}
+.tech-final-choice h3{font:normal 27px Georgia,serif;color:var(--ink)}
+.tech-final-choice [data-method-select]{display:block;width:100%;text-align:center;background:var(--ink);color:#fff;font-weight:750;padding:14px 18px;margin:16px 0 10px}
+.tech-final-choice [data-method-select][aria-pressed="true"]{background:#dfebe3;color:var(--ink)}
+.tech-final-choice [data-method-status]{font-size:13px;color:var(--muted)}
+.tech-final-choice [data-plan-continue]{display:inline-block;font-weight:750;color:var(--ink);margin:12px 0}
+@media(max-width:650px){.tech-final-choice{padding:18px}}
