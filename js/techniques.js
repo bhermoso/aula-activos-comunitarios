@@ -23,7 +23,7 @@ export function addTechniquePages(section){
  const el=document.querySelector('#tecnicas');
  el?.querySelector('.lead')?.insertAdjacentHTML('afterend','<p><a class="worksheet-link" href="#tecnicas-catalogo">Explorar seis técnicas y materiales de autoaprendizaje →</a></p>');
  const page=document.querySelector('#mapeo');
- page?.querySelector('.lead')?.insertAdjacentHTML('afterend','<p><a class="worksheet-link" href="#tecnicas-catalogo">Biblioteca de técnicas participativas →</a></p>');
+ page?.querySelector('.lead')?.insertAdjacentHTML('afterend','<p><a class="worksheet-link" href="#tecnicas-catalogo">Catálogo de técnicas participativas →</a></p>');
 }
 
 
