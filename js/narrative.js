@@ -2,13 +2,13 @@
 // Cada paso es una página autónoma: estas rutas son orientación, no un bloqueo.
 const paths=[
  {name:'Itinerario Localiza Salud',steps:[
- ['entrada-localiza','Leer el menú inicial','Escoger modalidad y comprender la pantalla de búsqueda'],
- ['modalidades','Reconocer qué se busca','Recurso o actividad: dos unidades de información'],
- ['criterios-busqueda','Combinar criterios','Ámbito, temática y filtros disponibles'],
- ['maracena','Comprobar el inventario','38 registros y 7 con identificación participativa'],
- ['chrysallis','Ampliar el territorio','De Albolote a la provincia de Granada'],
- ['denominaciones','Interpretar las denominaciones','Distinguir entidad, actividad y validación'],
- ['registro','Revisar y registrar','De los resultados a los datos que conviene comprobar']
+ ['entrada-localiza','Orientarse en Localiza Salud','Menú y filtros iniciales'],
+ ['almunecar','Almuñécar: recursos y actividades','Receta de Pasos visible directamente o en la ficha del centro'],
+ ['maracena','Maracena: inventario y participación','38 registros y 7 con identificación participativa'],
+ ['chrysallis','Chrysallis: ampliar territorio','Explorar en el mapa cerca de Albolote'],
+ ['denominaciones','Granada: identificar y denominar','CPA Buenos Aires y criterios de nombres'],
+ ['registro','Alta ciudadana y validación','Comprobar duplicados, proponer y validar'],
+ ['cierre-localiza','Síntesis','Lecciones y cierre del taller']
  ]},
  {name:'Itinerario del equipo',steps:[
  ['mapeo','Definir el encargo','Para qué se planifica el mapeo'],
