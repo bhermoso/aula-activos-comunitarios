@@ -217,3 +217,16 @@ body.presenting .timer-widget{bottom:118px;right:22px;z-index:250}
 .start-stage-timer{display:inline-block;margin:12px 0 4px;padding:9px 14px;border-radius:6px;background:var(--ink);color:#fff;font-weight:700;cursor:pointer}
 .start-stage-timer:hover{filter:brightness(1.2)}
 @media(max-width:650px){.timer-widget{width:240px;padding:12px 15px}.timer-widget output{font-size:43px;margin:7px 0}}
+
+/* Cronómetro opcional independiente de las páginas */
+#timer-activate{position:fixed;right:14px;bottom:14px;z-index:249;background:var(--ink);color:#fff;border-radius:22px;padding:10px 15px;box-shadow:0 3px 15px #0004;cursor:pointer}
+#timer-widget[hidden]{display:none!important}
+#timer-widget{position:fixed!important;bottom:66px!important;right:14px!important;display:block!important;width:290px;max-width:calc(100vw - 28px);z-index:250}
+#timer-widget .timer-head{display:flex;align-items:center;justify-content:space-between;gap:8px}
+#timer-close{border:0;background:transparent;font-size:23px;cursor:pointer}
+#timer-minutes{width:100%;padding:8px;margin:6px 0 12px}
+#timer-widget .timer-actions{display:flex;gap:8px}
+#timer-widget .timer-actions button{flex:1}
+body.presenting #timer-activate{bottom:68px}
+body.presenting #timer-widget{bottom:122px!important}
+@media(max-width:650px){#timer-widget{width:240px}}
