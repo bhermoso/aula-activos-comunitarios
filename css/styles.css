@@ -247,3 +247,9 @@ body.presenting #timer-widget{bottom:122px!important}
 .method-node [data-method-select][aria-pressed="true"]{
  background:#dfebe3;color:var(--ink);border:1px solid var(--ink);
 }
+
+/* Navegación guiada, visible antes de las herramientas de planificación */
+.planning-guidance{padding:18px 22px;margin:22px 0;background:var(--paper);border-left:4px solid var(--ink)}
+.planning-guidance p{margin:5px 0 10px}.planning-guidance .eyebrow{margin-bottom:8px}
+.planning-guidance .story-links{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:12px}
+.planning-guidance .story-links a{font-weight:750}
