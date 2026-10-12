@@ -25,4 +25,4 @@ export const mapeo=[
 ["88–95","Viabilidad","Revisar equidad, participación ciudadana, recursos, plazos, personas responsables y devolución."],
 ["95–100","Cierre","Conectar el plan con el trabajo de campo posterior y su memoria."]];
 export const decisions=[
-["¿Para qué?","Finalidad y necesidad de salud"],["¿Dónde?","Delimitación territorial"],["¿Con quién?","Personas, asociaciones, colectivos y convocatoria"],["¿Cómo?","Técnicas participativas adecuadas"],["¿Cuándo?","Calendario, responsables y recursos"],["¿Qué activos?","Documentar, contrastar y devolver hallazgos"]];
+["¿Para qué?","Finalidad y necesidad de salud"],["¿Dónde?","Delimitación territorial"],["¿Con quién?","Personas, asociaciones, colectivos y convocatoria"],["¿Cómo?","Técnicas participativas elegidas, función de cada una y secuencia"],["¿Cuándo?","Calendario, responsables y recursos"],["¿Qué activos?","Documentar, contrastar y devolver hallazgos"]];
