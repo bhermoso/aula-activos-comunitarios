@@ -2,45 +2,45 @@
 // sin copiar ni re-publicar archivos de terceros.
 const videos={
  'tecnica-mapa':{
-  title:'Visual Assets-Mapping with Young People',
-  institution:'National Centre for Research Methods · University of Manchester',
-  url:'https://repository.ncrm.ac.uk/resources/video/?id=9725',
-  kind:'Demostración metodológica',
-  note:'Presenta actividades de mapeo visual participativo y cómo interpretar los mapas y relatos producidos. Caso educativo y comunitario, adaptable al enfoque de activos en salud.',
-  prompt:'Observa cómo pasan de la pregunta inicial a los mapas y relatos. ¿Qué datos aparecen en el mapa y cuáles dependen de la conversación?'
- },
+  title:"Mapeo de activos saludables en el barrio de La Luz (Avilés)",
+  institution:"Observatorio de Salud de Asturias · proyecto Partycipa y UNGA",
+  url:"https://obsaludasturias.com/obsa/mapeo-de-activos-saludables-en-el-barrio-avilesino-de-la-luz/",
+  kind:"Experiencia española de mapeo participativo",
+  note:"Presenta una experiencia española de identificación de activos con participación vecinal y elaboración de un mapa. Es una experiencia documentada, no una clase teórica sobre mapeo.",
+  prompt:"¿Cómo transforma el recorrido y la participación vecinal las observaciones en un mapa de activos?"
+ }
  'tecnica-paseos':{
-  title:'Walking Methods in Practice: two international case studies',
-  institution:'National Centre for Research Methods · University of Surrey',
-  url:'https://repository.ncrm.ac.uk/resources/video/?id=4352',
-  kind:'Aplicación de métodos de recorrido',
-  note:'Analiza observación y experiencias sobre el espacio durante recorridos. El contexto es urbano y no se presenta como un Paseo de Jane específicamente.',
-  prompt:'¿Qué información sobre el uso real del espacio aparece al recorrerlo con otras personas?'
- },
+  title:"Mapeo participativo en La Luz: recorridos y reconocimiento del barrio",
+  institution:"Observatorio de Salud de Asturias · Partycipa y UNGA",
+  url:"https://obsaludasturias.com/obsa/mapeo-de-activos-saludables-en-el-barrio-avilesino-de-la-luz/",
+  kind:"Experiencia española de recorridos comunitarios",
+  note:"El vídeo presenta recorridos vinculados al mapeo de activos. Para aprender específicamente a organizar un Paseo de Jane, se complementa con la guía paso a paso del INTEF.",
+  prompt:"¿Qué se aprende caminando con personas del barrio que aporta valor al mapa?"
+ }
  'tecnica-fotovoz':{
-  title:'Photovoice: Principles, Practicality, and Benefit to Participants',
-  institution:'Veterans Affairs · Health Systems Research',
-  url:'https://hsrd.research.va.gov/for_researchers/cyber_seminars/archives/video_archive.cfm?Seriesid=113&SessionID=5229',
-  kind:'Seminario específico sobre fotovoz',
-  note:'Distingue fotovoz y foto-elicitación, aborda relatos asociados a imágenes y sus implicaciones para una investigación participativa accesible.',
-  prompt:'¿Cómo se relacionan la imagen seleccionada, el relato de la persona y el debate del grupo?'
- },
+  title:"Fotovoz y análisis de contenido como técnicas de recogida y análisis de datos cualitativos",
+  institution:"Universidad de Sevilla · TV US",
+  url:"https://tv.us.es/media/1_8nxa7qri",
+  kind:"Vídeo docente universitario español",
+  note:"Explica fotovoz y análisis cualitativo dentro de una serie universitaria de metodologías sensibles a la cultura. El contexto es psicosocial; transferir los principios al mapeo comunitario.",
+  prompt:"¿Qué significado construyen las personas al seleccionar y comentar sus fotografías?"
+ }
  'tecnica-entrevistas':{
-  title:'What is qualitative interviewing?',
-  institution:'National Centre for Research Methods · ESRC Research Methods Festival',
-  url:'https://repository.ncrm.ac.uk/resources/video/?id=3697',
-  kind:'Introducción a la entrevista cualitativa',
-  note:'Material conceptual complementario al guion abierto de Albolote. Úsalo para observar la diferencia entre recoger respuestas prefijadas y escuchar experiencias significativas.',
-  prompt:'¿Cómo seguirías una respuesta espontánea con una repregunta abierta que permita comprender su significado?'
- },
+  title:"Apuntes prácticos para el desarrollo de entrevistas cualitativas",
+  institution:"Álvaro Elices Acero · Universidad de Valladolid (2026)",
+  url:"https://uvadoc.uva.es/handle/10324/83803",
+  kind:"Vídeo universitario español · entrevista abierta",
+  note:"Material audiovisual en español sobre entrevistas abiertas, en profundidad y semiestructuradas. Complementa el guion de entrevista comunitaria de Albolote.",
+  prompt:"¿Cómo se sigue el relato de una persona con preguntas abiertas y repreguntas?"
+ }
  'tecnica-talleres':{
-  title:'Conducting Focus Groups',
-  institution:'National Centre for Research Methods · Kingsley Purdam',
-  url:'https://repository.ncrm.ac.uk/resources/video/?id=9559',
-  kind:'Guía audiovisual de grupos de discusión',
-  note:'Describe diseño, convocatoria, preguntas, moderación y uso de los resultados. Aplicable como referencia al trabajo de contraste colectivo.',
-  prompt:'¿Qué decisiones de facilitación favorecen que se expresen y registren perspectivas diversas?'
- },
+  title:"Técnicas grupales de investigación · DOCUMEDIA",
+  institution:"Universitat de València · equipo docente de investigación cualitativa",
+  url:"https://www.uv.es/tecnicas-investigacion-cualitativa-documedia/es/videos/tecnicas-grupales-investigacion-1286380872907/Recurs.html?id=1286442638161",
+  kind:"Vídeo docente universitario español",
+  note:"Expone técnicas de investigación grupal. Es una base útil para comprender la facilitación y el contraste colectivo, aunque el taller de mapeo tiene propósitos más amplios.",
+  prompt:"¿Cómo se articulan las aportaciones de diferentes personas en una interpretación compartida?"
+ }
  'tecnica-fichas':{
   title:'Community Asset Mapping — Gathering Data',
   institution:'Center for Schools & Communities · Vimeo',
