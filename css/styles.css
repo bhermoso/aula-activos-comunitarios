@@ -123,3 +123,20 @@ body.presenting .timer-widget{bottom:118px;right:22px;z-index:250}
 
 /* Ficha única de equipo: selección y combinación de técnicas */
 .methods-selection{border:1px solid var(--line);padding:20px;margin:18px 0;background:var(--paper)}.methods-selection legend{font-weight:800;color:var(--ink);padding:0 8px}.methods-selection>p{font-size:14px;color:var(--muted)}.method-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:16px 0}.method-options label{display:flex;gap:9px;align-items:center;font-size:15px}.method-options input{width:18px;height:18px;accent-color:var(--ink)}.methods-selection>label{display:block;font-weight:650}.methods-selection textarea{display:block;width:100%;padding:10px;margin-top:8px;border:1px solid var(--line)}@media(max-width:650px){.method-options{grid-template-columns:1fr}}
+
+/* Señales narrativas: páginas autónomas conectadas entre sí */
+.story-trail{margin:45px 0 12px;padding:21px 25px;border:1px solid var(--line);background:var(--paper)}
+.story-trail-head{display:flex;justify-content:space-between;gap:12px;color:var(--ink);font-size:13px}
+.story-trail-head span{color:var(--muted)}
+.story-trail>p{font-size:15px;color:var(--muted);margin:7px 0 15px}
+.story-trail-links{display:flex;gap:15px;flex-wrap:wrap;justify-content:space-between}
+.story-trail-links a,.story-links a{color:var(--ink);font-weight:700;text-decoration:underline;text-underline-offset:4px}
+.story-links{display:flex;flex-wrap:wrap;gap:14px 23px;margin:22px 0}
+.story-intro,.story-context{padding:17px 19px;border-left:3px solid var(--accent);background:var(--paper)}
+.narrative-next{border-top:1px solid var(--line);padding:18px 0;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.narrative-next span{font-size:12px;letter-spacing:.08em;color:var(--muted);font-weight:800}
+.narrative-next a{font-weight:750;color:var(--ink)}
+.reading-checklist{margin:24px 0;padding:20px;border:1px solid var(--line);background:var(--paper)}
+.reading-checklist>p{margin:0 0 14px}.reading-checklist small{display:block;font-size:13px;color:var(--muted)}
+.reading-checklist .criteria-list{margin:0}.reading-checklist .criteria-list li{cursor:default}
+@media(max-width:650px){.story-trail{padding:17px}.story-trail-head{flex-direction:column}.story-trail-links{flex-direction:column;gap:9px}}
