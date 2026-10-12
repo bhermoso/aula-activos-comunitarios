@@ -1,3 +1,4 @@
+import {addSearchPages} from './search-learning.js';
 import {addTechniquePages,initTechniqueLearning} from './techniques.js';
 import {initTeaching,setupTeachingUI} from './teaching.js';
 import {enhanceSession} from './session.js';
@@ -47,6 +48,7 @@ document.querySelector('#print-plan').addEventListener('click',()=>window.print(
 
 enhanceSession();
 addTechniquePages(section);
+addSearchPages(section);
 initTechniqueLearning();
 setupTeachingUI();
 const pages=[...document.querySelectorAll('[data-slide]')];
