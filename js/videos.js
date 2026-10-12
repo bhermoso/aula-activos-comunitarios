@@ -98,6 +98,9 @@ export function attachTechniqueVideos(){
   const block=document.createElement('section');
   block.className='tech-video';
   block.innerHTML='<div class="tech-video-head"><span>RECURSO AUDIOVISUAL</span><h3>'+v.title+'</h3><p>'+v.institution+'</p></div><p><strong>'+v.kind+'</strong> · '+v.note+'</p><div class="tech-video-link"><a href="'+v.url+'" target="_blank" rel="noopener noreferrer">Ver el vídeo en la plataforma de origen ↗</a></div><details><summary>Qué observar durante el visionado</summary><p>'+v.prompt+'</p></details><p class="tech-video-note">Material externo; la reproducción puede requerir conexión y abrirse en otra pestaña. Los recursos en inglés pueden necesitar apoyo del guion en español.</p>';
+  if(id==='tecnica-paseos'){
+   block.insertAdjacentHTML('beforeend','<div class="tech-andalusia"><strong>Guía española específica del paseo</strong><p>«Cómo hacer un paseo Jane», proyecto La Aventura de Aprender del INTEF: preparación, convocatoria y recorrido paso a paso.</p><a href="https://laaventuradeaprender.intef.es/proyectos_colab/como-hacer-un-paseo-jane/?seccion=paso_a_paso" target="_blank" rel="noopener noreferrer">Abrir guía del INTEF ↗</a></div>');
+  }
   const context=andalusian[id];
   if(context){
    block.insertAdjacentHTML('beforeend','<div class="tech-andalusia"><strong>Referencia de aplicación andaluza</strong><p>'+context.scope+'</p><a href="'+context.url+'" target="_blank" rel="noopener noreferrer">'+context.label+' · '+context.source+' ↗</a></div>');
