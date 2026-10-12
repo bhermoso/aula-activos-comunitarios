@@ -8,7 +8,7 @@ const videos={
   kind:"Experiencia española de mapeo participativo",
   note:"Presenta una experiencia española de identificación de activos con participación vecinal y elaboración de un mapa. Es una experiencia documentada, no una clase teórica sobre mapeo.",
   prompt:"¿Cómo transforma el recorrido y la participación vecinal las observaciones en un mapa de activos?"
- }
+ },
  'tecnica-paseos':{
   title:"Mapeo participativo en La Luz: recorridos y reconocimiento del barrio",
   institution:"Observatorio de Salud de Asturias · Partycipa y UNGA",
@@ -16,7 +16,7 @@ const videos={
   kind:"Experiencia española de recorridos comunitarios",
   note:"El vídeo presenta recorridos vinculados al mapeo de activos. Para aprender específicamente a organizar un Paseo de Jane, se complementa con la guía paso a paso del INTEF.",
   prompt:"¿Qué se aprende caminando con personas del barrio que aporta valor al mapa?"
- }
+ },
  'tecnica-fotovoz':{
   title:"Fotovoz y análisis de contenido como técnicas de recogida y análisis de datos cualitativos",
   institution:"Universidad de Sevilla · TV US",
@@ -24,7 +24,7 @@ const videos={
   kind:"Vídeo docente universitario español",
   note:"Explica fotovoz y análisis cualitativo dentro de una serie universitaria de metodologías sensibles a la cultura. El contexto es psicosocial; transferir los principios al mapeo comunitario.",
   prompt:"¿Qué significado construyen las personas al seleccionar y comentar sus fotografías?"
- }
+ },
  'tecnica-entrevistas':{
   title:"Apuntes prácticos para el desarrollo de entrevistas cualitativas",
   institution:"Álvaro Elices Acero · Universidad de Valladolid (2026)",
@@ -32,7 +32,7 @@ const videos={
   kind:"Vídeo universitario español · entrevista abierta",
   note:"Material audiovisual en español sobre entrevistas abiertas, en profundidad y semiestructuradas. Complementa el guion de entrevista comunitaria de Albolote.",
   prompt:"¿Cómo se sigue el relato de una persona con preguntas abiertas y repreguntas?"
- }
+ },
  'tecnica-talleres':{
   title:"Técnicas grupales de investigación · DOCUMEDIA",
   institution:"Universitat de València · equipo docente de investigación cualitativa",
@@ -40,7 +40,7 @@ const videos={
   kind:"Vídeo docente universitario español",
   note:"Expone técnicas de investigación grupal. Es una base útil para comprender la facilitación y el contraste colectivo, aunque el taller de mapeo tiene propósitos más amplios.",
   prompt:"¿Cómo se articulan las aportaciones de diferentes personas en una interpretación compartida?"
- }
+ },
  'tecnica-fichas':{
   title:'Community Asset Mapping — Gathering Data',
   institution:'Center for Schools & Communities · Vimeo',
