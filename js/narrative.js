@@ -57,7 +57,7 @@ export function addNarrativePaths(){
  const catalog=document.querySelector('#tecnicas-catalogo');
  const reference=document.querySelector('#biblioteca');
  if(catalog){
-  catalog.insertAdjacentHTML('beforeend','<p class="story-context"><strong>¿Qué se hace con lo aprendido?</strong> Selecciona los métodos necesarios para tu territorio y justifica cómo se combinan en <a href="#ficha">la ficha única del equipo →</a></p>');
+  catalog.insertAdjacentHTML('beforeend','<p class="story-context"><strong>¿Qué se hace con lo aprendido?</strong> Selecciona los métodos necesarios para tu territorio y justifica cómo se combinan en <a href="#ficha">la ficha única del equipo →</a></p><nav class="planning-guidance" aria-label="Fin de consulta de técnicas"><p><strong>Ya has consultado las técnicas.</strong> Ahora selecciona las adecuadas para tu territorio y prepara las decisiones que darán forma al plan.</p><div class="story-links"><a href="#tecnicas">← Anterior: elegir técnicas</a><a href="#decisiones">Siguiente: preparar las seis decisiones →</a></div></nav>');
  }
  if(reference){
   reference.insertAdjacentHTML('beforeend','<p class="story-context">Las fuentes ayudan a contrastar lo visto en <a href="#localiza">Localiza Salud</a> y a fundamentar <a href="#mapeo">el plan de mapeo</a>. El <a href="#tecnicas-catalogo">catálogo de técnicas</a> reúne, por separado, el aprendizaje metodológico.</p>');
