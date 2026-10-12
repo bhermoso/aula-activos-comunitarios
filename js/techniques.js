@@ -1,4 +1,4 @@
-import {buildTechniqueHandout} from './handouts.js';
+import {buildTechniquePdf} from './handouts.js';
 // Recursos contrastados EASP y Ministerio de Sanidad. Aula de primera sesión.
 const easp='https://www.easp.es/project/salud-comunitaria-basada-en-activos/';
 const guia='https://www.easp.es/wp-content/uploads/dlm_uploads/2019/01/EASP_Guia_breve_SaludComActivos-FUM-05-12-18.pdf';
@@ -45,11 +45,16 @@ export function initTechniqueLearning(){
    +'<div class="learning-source"><b>REFERENCIA AMPLIADA</b><p>'+ (page.id==='tecnica-talleres'?'Orientaciones didácticas para la acción comunitaria (Ministerio de Sanidad, 2023), anexo I de técnicas educativas.':page.id==='tecnica-fichas'?'Guía completa EASP y criterios de registro en Localiza Salud.':'Documento completo EASP sobre salud comunitaria basada en activos.') +'</p><a href="'+(page.id==='tecnica-talleres'?ministerio:easp)+'" target="_blank" rel="noopener noreferrer">Consultar material complementario ↗</a></div>';
   }
   const block=document.createElement('section');block.className='learning-workshop';
-  block.innerHTML='<p class="eyebrow">Actividad de autoaprendizaje · aplicación práctica</p><h3>Practica esta técnica</h3><p>'+d.task+'</p><p><strong>Plantilla de trabajo:</strong> '+d.template+'</p><details><summary>Pregunta de reflexión y comprobación</summary><p>'+d.question+'</p><p>Contrasta la respuesta con las precauciones metodológicas y el papel de la participación comunitaria.</p></details><div class="learning-actions"><button type="button" class="learning-download">Descargar material de estudio (.md)</button><a href="#ficha">Trasladar la técnica al plan del equipo →</a></div><p class="learning-note">Actividad elaborada para el aula; no es una ficha oficial de la EASP ni sustituye la documentación de origen.</p>';
+  block.innerHTML='<p class="eyebrow">Actividad de autoaprendizaje · aplicación práctica</p><h3>Practica esta técnica</h3><p>'+d.task+'</p><p><strong>Plantilla de trabajo:</strong> '+d.template+'</p><details><summary>Pregunta de reflexión y comprobación</summary><p>'+d.question+'</p><p>Contrasta la respuesta con las precauciones metodológicas y el papel de la participación comunitaria.</p></details><div class="learning-actions"><button type="button" class="learning-download">Descargar material de estudio (PDF)</button><a href="#ficha">Trasladar la técnica al plan del equipo →</a></div><p class="learning-note">Actividad elaborada para el aula; no es una ficha oficial de la EASP ni sustituye la documentación de origen.</p>';
   const tail=page.querySelector('.tech-bottom');tail?.insertAdjacentElement('beforebegin',block);
   block.querySelector('.learning-download').addEventListener('click',()=>{
-   const body=buildTechniqueHandout(page.id,t,d);
-   const blob=new Blob([body],{type:'text/markdown;charset=utf-8'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=t.id+(page.id==='tecnica-entrevistas'?'-entrevista-abierta.md':'-esquema.md');document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500);
+   const blob=buildTechniquePdf(page.id,t,d);
+   const url=URL.createObjectURL(blob);
+   const a=document.createElement('a');
+   a.href=url;
+   a.download=t.id+(page.id==='tecnica-entrevistas'?'-entrevista-abierta.pdf':'-esquema.pdf');
+   document.body.appendChild(a);a.click();a.remove();
+   setTimeout(()=>URL.revokeObjectURL(url),1500);
   });
  });
 }
