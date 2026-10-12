@@ -1,3 +1,4 @@
+import {attachTechniqueVideos} from './videos.js';
 import {addSearchPages} from './search-learning.js';
 import {addTechniquePages,initTechniqueLearning} from './techniques.js';
 import {initTeaching,setupTeachingUI} from './teaching.js';
@@ -50,6 +51,7 @@ enhanceSession();
 addTechniquePages(section);
 addSearchPages(section);
 initTechniqueLearning();
+attachTechniqueVideos();
 setupTeachingUI();
 const pages=[...document.querySelectorAll('[data-slide]')];
 const controls=document.querySelector('#controls'),present=document.querySelector('#present');
