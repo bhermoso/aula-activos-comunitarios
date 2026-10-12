@@ -6,7 +6,7 @@ export function enhanceSession(){
  ['programa','01','Programa','Horario · grupos · rotaciones'],
  ['localiza','02','Localiza Salud','Buscar, interpretar y registrar'],
  ['mapeo','03','Planificar el mapeo','Trabajo colaborativo y ficha'],
- ['biblioteca','04','Materiales','Documentación y vídeos']
+ ['biblioteca','04','Fuentes y documentos','Guías, criterios y audiovisuales de apoyo']
  ];
  if(panel){
   const old=panel.querySelector('.tiles');
@@ -29,9 +29,13 @@ export function enhanceSession(){
   container.querySelector('.lead')?.insertAdjacentElement('afterend',item);
  }
  guide(loc,'Actividades del taller',[
+ ['entrada-localiza','Comprender el menú','Modalidad, territorio y lectura de resultados'],
+ ['modalidades','Elegir qué buscar','Recursos/Activos o Actividades'],
+ ['criterios-busqueda','Construir la consulta','Filtros y sus combinaciones'],
  ['maracena','Inventario y participación','Maracena: 38 resultados frente a 7'],
  ['chrysallis','El territorio no es una frontera','De Albolote a la provincia de Granada'],
- ['registro','Modalidades y registro','Granada, Almuñécar y alta ciudadana'],
+ ['denominaciones','Entender los nombres','Recurso, actividad e identificación'],
+ ['registro','Revisión y registro','Granada, Almuñécar y alta ciudadana'],
  ['biblioteca','Consultar criterios','Documentación y normativa de referencia']
  ]);
  if(map){
