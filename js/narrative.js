@@ -29,27 +29,36 @@ export function addNarrativePaths(){
    else page.appendChild(el);
   });
  }
- // Una sola salida clara al final de cada pantalla del taller de mapeo.
+ // Mapeo: una secuencia principal y regreso desde cada material auxiliar.
  const route=[
-  ['mapeo','tecnicas-catalogo','Consultar técnicas'],
-  ['tecnicas','tecnicas-catalogo','Consultar las seis técnicas'],
-  ['tecnicas-catalogo','decisiones','Preparar las seis decisiones'],
+  ['mapeo','tecnicas-catalogo','Consultar técnicas (15–32)'],
+  ['tecnicas','tecnicas-catalogo','Consultar técnicas'],
+  ['tecnicas-catalogo','decisiones','Organizar equipos y preparar decisiones (32–73)'],
   ['tecnicas-comparar','tecnicas-catalogo','Volver al catálogo de técnicas'],
-  ['decisiones','ficha','Completar la ficha del equipo'],
-  ['ficha','cierre','Exposición, viabilidad y cierre'],
-  ['cierre','mapeo','Volver al guion']
+  ['decisiones','ficha','Completar la ficha del equipo (43–73)'],
+  ['ficha','cierre','Exponer, revisar viabilidad y cerrar (73–100)'],
+  ['cierre','mapeo','Volver al guion del taller']
  ];
  route.forEach(([id,next,label])=>{
   const page=document.getElementById(id);
   if(!page)return;
   const nav=document.createElement('nav');
   nav.className='planning-guidance';
-  nav.setAttribute('aria-label','Continuar en el taller de planificación');
-  nav.innerHTML='<div class="story-links"><a href="#'+next+'">Siguiente: '+label+' →</a><a href="#mapeo">Guion del taller</a></div>';
+  nav.setAttribute('aria-label','Continuar el taller de planificación');
+  nav.innerHTML='<div class="story-links"><a href="#'+next+'">Siguiente: '+label+' →</a><a href="#mapeo">Volver al guion</a></div>';
   const back=page.querySelector('a.back')?.parentElement;
   if(back)back.insertAdjacentElement('beforebegin',nav);else page.appendChild(nav);
  });
- const catalog=document.querySelector('#tecnicas-catalogo');
+ for(const id of ['tecnica-mapa','tecnica-paseos','tecnica-entrevistas','tecnica-talleres','tecnica-fotovoz','tecnica-fichas']){
+  const page=document.getElementById(id);
+  if(!page)continue;
+  const nav=document.createElement('nav');
+  nav.className='planning-guidance';
+  nav.setAttribute('aria-label','Después de estudiar esta técnica');
+  nav.innerHTML='<div class="story-links"><a href="#tecnicas-catalogo">← Volver al catálogo y consultar otras técnicas</a><a href="#decisiones">Preparar las seis decisiones →</a></div>';
+  const back=page.querySelector('a.back')?.parentElement;
+  if(back)back.insertAdjacentElement('beforebegin',nav);else page.appendChild(nav);
+ }
  const reference=document.querySelector('#biblioteca');
  if(catalog){
   catalog.insertAdjacentHTML('beforeend','<nav class="planning-guidance" aria-label="Fin del catálogo"><p><strong>Después de revisar las fichas e incorporar las técnicas elegidas</strong>, corresponde acordar las seis decisiones del equipo.</p><div class="story-links"><a href="#tecnicas">← Anterior: visión general de técnicas</a><a href="#decisiones">Siguiente: preparar las seis decisiones →</a></div></nav>');
