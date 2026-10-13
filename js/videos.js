@@ -11,23 +11,23 @@ const videos={
  },
  'tecnica-paseos':{
   title:"Observación participante: realización del trabajo de campo",
-  institution:"DOCUMEDIA · Universitat de València · Ciencias Sociales",
+  institution:"DOCUMEDIA · Universitat de València · proyecto de metodología cualitativa en Sociología y Antropología Social",
   url:"https://www.uv.es/tecnicas-investigacion-cualitativa-documedia/es/tecnicas-cualitativas/tecnica-observacion/fases-trabajo/realizacion-del-trabajo-campo.html",
   kind:"Vídeo universitario sobre observación social · aplicable a paseos comunitarios",
   note:"Explica la observación participante y el conocimiento situado. No es un tutorial de Paseos de Jane: para ese procedimiento se mantiene la guía del INTEF.",
   prompt:"¿Qué relaciones, usos de los espacios y significados podrían observarse durante un paseo comunitario?"
  },
  'tecnica-fotovoz':{
-  title:"Sociología visual: comunicar resultados mediante imágenes y relatos",
-  institution:"DOCUMEDIA · Departamento de Sociología y Antropología Social · Universitat de València",
+  title:"Del documental social al informe: sociología visual",
+  institution:"DOCUMEDIA · Universitat de València · autoría colectiva de Sociología y Antropología Social",
   url:"https://www.uv.es/tecnicas-investigacion-cualitativa-documedia/es/tecnicas-cualitativas/entrevista-profundidad/redaccion-del-informe.html",
-  kind:"Material audiovisual y práctica de sociología visual",
-  note:"Ejemplo de producción audiovisual y relato social desde investigaciones cualitativas. Es un recurso afín a fotovoz, no una demostración específica de esta técnica.",
+  kind:"Práctica de sociología visual (no es un tutorial de fotovoz)",
+  note:"Actividad basada en un documental social para comunicar resultados de entrevistas con imágenes y testimonios. Autoría metodológica: proyecto DOCUMEDIA; no se atribuye el documental a personas sin verificar.",
   prompt:"¿Cómo conservar las voces e interpretaciones de participantes al construir un relato visual colectivo?"
  },
  'tecnica-entrevistas':{
   title:"Entrevistas de investigación social: ejemplos audiovisuales",
-  institution:"DOCUMEDIA · Departamento de Sociología y Antropología Social · Universitat de València",
+  institution:"DOCUMEDIA · A. G. Ingellis, J. Gómez Ferri, B. Herzog, J. Pérez y Soriano y J. M. Rodríguez Victoriano · Sociología y Antropología Social, UV",
   url:"https://www.uv.es/tecnicas-investigacion-cualitativa-documedia/es/tecnicas-cualitativas/entrevista-profundidad/material-audiovisual.html",
   kind:"Colección audiovisual de sociología cualitativa",
   note:"Incluye entrevistas de documentales sociales y fragmentos para estudiar su realización, gestión y análisis. Es una colección, no un único vídeo.",
@@ -35,7 +35,7 @@ const videos={
  },
  'tecnica-talleres':{
   title:"Realización y gestión de grupos de discusión",
-  institution:"DOCUMEDIA · Universitat de València · Ciencias Sociales",
+  institution:"DOCUMEDIA · Universitat de València · equipo docente de metodología cualitativa de ciencias sociales",
   url:"https://www.uv.es/tecnicas-investigacion-cualitativa-documedia/es/tecnicas-cualitativas/tecnicas-grupales/fases-trabajo/realizacion-gestion.html",
   kind:"Vídeo de investigación social y facilitación grupal",
   note:"Describe la moderación y observación de grupos para recoger significados compartidos y puntos de vista divergentes. Aplicable al contraste comunitario.",
@@ -97,7 +97,7 @@ export function attachTechniqueVideos(){
   if(!detail)return;
   const block=document.createElement('section');
   block.className='tech-video';
-  block.innerHTML='<div class="tech-video-head"><span>VÍDEO Y MATERIAL AUDIOVISUAL</span><h3>'+v.title+'</h3><p>'+v.institution+'</p></div><p><strong>'+v.kind+'</strong> · '+v.note+'</p><div class="tech-video-link"><a href="'+v.url+'" target="_blank" rel="noopener noreferrer">Abrir recurso audiovisual en la institución de origen ↗</a></div><details><summary>Qué observar durante el visionado</summary><p>'+v.prompt+'</p></details><p class="tech-video-note">Material externo; la reproducción puede requerir conexión y abrirse en otra pestaña. Los recursos en inglés pueden necesitar apoyo del guion en español.</p>';
+  block.innerHTML='<div class="tech-video-head"><span>MATERIAL AUDIOVISUAL · AUTORÍA Y ENFOQUE SOCIAL</span><h3>'+v.title+'</h3><p>'+v.institution+'</p></div><p><strong>'+v.kind+'</strong> · '+v.note+'</p><div class="tech-video-link"><a href="'+v.url+'" target="_blank" rel="noopener noreferrer">Abrir recurso audiovisual en la institución de origen ↗</a></div><details><summary>Qué observar durante el visionado</summary><p>'+v.prompt+'</p></details><p class="tech-video-note">Material externo; la reproducción puede requerir conexión y abrirse en otra pestaña. Los recursos en inglés pueden necesitar apoyo del guion en español.</p>';
   if(id==='tecnica-paseos'){
    block.insertAdjacentHTML('beforeend','<div class="tech-andalusia"><strong>Guía española específica del paseo</strong><p>«Cómo hacer un paseo Jane», proyecto La Aventura de Aprender del INTEF: preparación, convocatoria y recorrido paso a paso.</p><a href="https://laaventuradeaprender.intef.es/proyectos_colab/como-hacer-un-paseo-jane/?seccion=paso_a_paso" target="_blank" rel="noopener noreferrer">Abrir guía del INTEF ↗</a></div>');
   }
