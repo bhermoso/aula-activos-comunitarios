@@ -1,11 +1,11 @@
-import {initMethodSelection,markMethodVisited} from './selection.js?v=20261013-esca28';
-import {addNarrativePaths} from './narrative.js?v=20261013-esca28';
-import {attachTechniqueVideos} from './videos.js?v=20261013-esca28';
-import {addSearchPages} from './search-learning.js?v=20261013-esca28';
-import {addTechniquePages,initTechniqueLearning} from './techniques.js?v=20261013-esca28';
+import {initMethodSelection,markMethodVisited} from './selection.js?v=20261013-granada29';
+import {addNarrativePaths} from './narrative.js?v=20261013-granada29';
+import {attachTechniqueVideos} from './videos.js?v=20261013-granada29';
+import {addSearchPages} from './search-learning.js?v=20261013-granada29';
+import {addTechniquePages,initTechniqueLearning} from './techniques.js?v=20261013-granada29';
 import {initTeaching,setupTeachingUI} from './teaching.js?v=20261013-timerfix1';
-import {enhanceSession} from './session.js?v=20261013-esca28';
-import {materials,localizaSequence,mapeo,decisions} from '../content/data.js?v=20261013-esca28';
+import {enhanceSession} from './session.js?v=20261013-granada29';
+import {materials,localizaSequence,mapeo,decisions} from '../content/data.js?v=20261013-granada29';
 const root=document.querySelector('#main');
 function section(id,kicker,title,content){
  const s=document.createElement('section');s.className='section';s.id=id;s.dataset.slide='1';
