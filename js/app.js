@@ -46,7 +46,7 @@ const techniqueRoutes=[
  ['tecnica-entrevistas','Entrevistas','Escuchar experiencias, vínculos y significados','Voces y perspectivas'],
  ['tecnica-talleres','Talleres y grupos','Contrastar experiencias, reconocer acuerdos y diferencias','Interpretación colectiva'],
  ['tecnica-fotovoz','Fotovoz','Comprender experiencias a través de imágenes y relatos','Narrativas visuales'],
- ['decisiones','Devolución comunitaria','Contrastar los hallazgos con la comunidad y acordar su devolución','Cierre del proceso']
+ ['tecnica-fichas','Registro mediante fichas','Documentar de forma contrastable los activos identificados','Documentación']
 ];
 section('tecnicas','Técnicas participativas','De la consulta a la construcción colectiva',
  '<p class="lead">Cada técnica aporta una perspectiva distinta del territorio. Selecciona una caja para estudiar cómo funciona, qué información obtiene y cómo se conecta con el plan del equipo.</p>'
@@ -109,6 +109,7 @@ function render(i,{updateUrl=false}={}){
 function route({external=false}={}){
  let id='inicio';
  try{id=decodeURIComponent(location.hash.slice(1))||'inicio'}catch(e){id='inicio'}
+ if(id==='tecnicas')id='tecnicas-catalogo'; // Compatibilidad con enlaces antiguos.
  const target=indexOfPage(id);let next=target>=0?target:indexOfPage('inicio');
  if(external&&next!==current){
   const prior=visitStack[visitStack.length-1];
@@ -119,6 +120,7 @@ function route({external=false}={}){
 }
 function go(i){
  let next=Math.max(0,Math.min(pages.length-1,i));
+ if(pages[next].id==='tecnicas')next=indexOfPage('tecnicas-catalogo');
  if(next===current)return;
  visitStack.push(pages[current].id);
  render(next,{updateUrl:true});
