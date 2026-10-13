@@ -1,11 +1,11 @@
-import {initMethodSelection,markMethodVisited} from './selection.js?v=20261013-territorio31';
-import {addNarrativePaths} from './narrative.js?v=20261013-territorio31';
-import {attachTechniqueVideos} from './videos.js?v=20261013-territorio31';
-import {addSearchPages} from './search-learning.js?v=20261013-territorio31';
-import {addTechniquePages,initTechniqueLearning} from './techniques.js?v=20261013-territorio31';
+import {initMethodSelection,markMethodVisited} from './selection.js?v=20261013-tecnicas32';
+import {addNarrativePaths} from './narrative.js?v=20261013-tecnicas32';
+import {attachTechniqueVideos} from './videos.js?v=20261013-tecnicas32';
+import {addSearchPages} from './search-learning.js?v=20261013-tecnicas32';
+import {addTechniquePages,initTechniqueLearning} from './techniques.js?v=20261013-tecnicas32';
 import {initTeaching,setupTeachingUI} from './teaching.js?v=20261013-timerfix1';
-import {enhanceSession} from './session.js?v=20261013-territorio31';
-import {materials,localizaSequence,mapeo,decisions} from '../content/data.js?v=20261013-territorio31';
+import {enhanceSession} from './session.js?v=20261013-tecnicas32';
+import {materials,localizaSequence,mapeo,decisions} from '../content/data.js?v=20261013-tecnicas32';
 const root=document.querySelector('#main');
 function section(id,kicker,title,content){
  const s=document.createElement('section');s.className='section';s.id=id;s.dataset.slide='1';
