@@ -48,7 +48,7 @@ const techniqueRoutes=[
  ['tecnica-fotovoz','Fotovoz','Comprender experiencias a través de imágenes y relatos','Narrativas visuales'],
  ['decisiones','Devolución comunitaria','Contrastar los hallazgos con la comunidad y acordar su devolución','Cierre del proceso']
 ];
-section('tecnicas','Metodologías participativas','De la consulta a la construcción colectiva',
+section('tecnicas','Técnicas participativas','De la consulta a la construcción colectiva',
  '<p class="lead">Cada técnica aporta una perspectiva distinta del territorio. Selecciona una caja para estudiar cómo funciona, qué información obtiene y cómo se conecta con el plan del equipo.</p>'
  +'<p class="selection-summary"><span data-selection-count aria-live="polite">0 técnicas seleccionadas</span> · Abre una técnica, conoce su aplicación y usa «Incorporar a la planificación del mapeo». Después continúa a la ficha única del equipo.</p>'
  +'<div class="method-network">'+techniqueRoutes.map(([id,title,description,role],i)=>'<article class="method-node"><span class="method-node-number">'+String(i+1).padStart(2,'0')+' · '+role+'</span><h3>'+title+'</h3><p>'+description+'</p><a class="method-open" href="#'+id+'">Consultar '+title+' →</a>'+(id.startsWith('tecnica-')?'<button type="button" data-method-select="'+id+'">Incorporar a la planificación del mapeo</button><small data-method-status="'+id+'">Pendiente de consultar</small>':'<a href="#decisiones">Preparar la devolución →</a>')+'</article>').join('')+'</div>'
