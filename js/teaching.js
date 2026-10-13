@@ -17,7 +17,7 @@ export function initTeaching({navigate,currentId,setMode}){
  let remaining=300000, deadline=0, interval=null, running=false;
  const format=ms=>{const seconds=Math.ceil(Math.max(0,ms)/1000);return String(Math.floor(seconds/60)).padStart(2,'0')+':'+String(seconds%60).padStart(2,'0')};
  const duration=()=>Math.max(1,Math.min(180,Math.round(Number(minutes.value)||5)))*60000;
- function paint(){display.textContent=format(remaining);play.textContent=running?'Pausar':remaining===0?'Iniciar':'Iniciar';}
+ function paint(){display.textContent=format(remaining);play.textContent=running?'Pausar':remaining===0?'Iniciar':remaining===duration()?'Iniciar':'Reanudar';}
  function stop(){if(interval!==null){clearInterval(interval);interval=null}running=false}
  function tick(){
   if(!running)return;
