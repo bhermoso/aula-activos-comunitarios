@@ -60,9 +60,6 @@ export function addNarrativePaths(){
   if(back)back.insertAdjacentElement('beforebegin',nav);else page.appendChild(nav);
  }
  const reference=document.querySelector('#biblioteca');
- if(catalog){
-  catalog.insertAdjacentHTML('beforeend','<nav class="planning-guidance" aria-label="Fin del catálogo"><p><strong>Después de revisar las fichas e incorporar las técnicas elegidas</strong>, corresponde acordar las seis decisiones del equipo.</p><div class="story-links"><a href="#tecnicas">← Anterior: visión general de técnicas</a><a href="#decisiones">Siguiente: preparar las seis decisiones →</a></div></nav>');
- }
  if(reference){
   reference.insertAdjacentHTML('beforeend','<p class="story-context">Las fuentes ayudan a contrastar lo visto en <a href="#localiza">Localiza Salud</a> y a fundamentar <a href="#mapeo">el plan de mapeo</a>. El <a href="#tecnicas-catalogo">catálogo de técnicas</a> reúne, por separado, el aprendizaje metodológico.</p>');
  }
