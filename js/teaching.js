@@ -8,7 +8,7 @@ export function setupTeachingUI(){
 export function initTeaching({navigate,currentId,setMode}){
  const sequences={
   localiza:localizaSequence.map(({id,title})=>[id,title]),
-  mapeo:[['mapeo','Guion docente'],['tecnicas','Consultar técnicas'],['decisiones','Seis decisiones'],['ficha','Ficha del equipo']]
+  mapeo:[['mapeo','Guion docente'],['tecnicas-catalogo','Consultar técnicas'],['decisiones','Equipos y decisiones'],['ficha','Ficha del equipo'],['cierre','Exposición y cierre']]
  };
  const localizaIds=new Set(sequences.localiza.map(([id])=>id));
  const mapeoIds=new Set(sequences.mapeo.map(([id])=>id));
