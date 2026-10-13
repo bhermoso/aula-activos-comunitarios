@@ -10,36 +10,36 @@ const videos={
   prompt:"¿Cómo transforma el recorrido y la participación vecinal las observaciones en un mapa de activos?"
  },
  'tecnica-paseos':{
-  title:"Mapeo participativo en La Luz: recorridos y reconocimiento del barrio",
-  institution:"Observatorio de Salud de Asturias · Partycipa y UNGA",
-  url:"https://obsaludasturias.com/obsa/mapeo-de-activos-saludables-en-el-barrio-avilesino-de-la-luz/",
-  kind:"Experiencia española de recorridos comunitarios",
-  note:"El vídeo presenta recorridos vinculados al mapeo de activos. Para aprender específicamente a organizar un Paseo de Jane, se complementa con la guía paso a paso del INTEF.",
-  prompt:"¿Qué se aprende caminando con personas del barrio que aporta valor al mapa?"
+  title:"Observación participante: realización del trabajo de campo",
+  institution:"DOCUMEDIA · Universitat de València · Ciencias Sociales",
+  url:"https://www.uv.es/tecnicas-investigacion-cualitativa-documedia/es/tecnicas-cualitativas/tecnica-observacion/fases-trabajo/realizacion-del-trabajo-campo.html",
+  kind:"Vídeo universitario sobre observación social · aplicable a paseos comunitarios",
+  note:"Explica la observación participante y el conocimiento situado. No es un tutorial de Paseos de Jane: para ese procedimiento se mantiene la guía del INTEF.",
+  prompt:"¿Qué relaciones, usos de los espacios y significados podrían observarse durante un paseo comunitario?"
  },
  'tecnica-fotovoz':{
-  title:"Fotovoz y análisis de contenido como técnicas de recogida y análisis de datos cualitativos",
-  institution:"Universidad de Sevilla · TV US",
-  url:"https://tv.us.es/media/1_8nxa7qri",
-  kind:"Vídeo docente universitario español",
-  note:"Explica fotovoz y análisis cualitativo dentro de una serie universitaria de metodologías sensibles a la cultura. El contexto es psicosocial; transferir los principios al mapeo comunitario.",
-  prompt:"¿Qué significado construyen las personas al seleccionar y comentar sus fotografías?"
+  title:"Sociología visual: comunicar resultados mediante imágenes y relatos",
+  institution:"DOCUMEDIA · Departamento de Sociología y Antropología Social · Universitat de València",
+  url:"https://www.uv.es/tecnicas-investigacion-cualitativa-documedia/es/tecnicas-cualitativas/entrevista-profundidad/redaccion-del-informe.html",
+  kind:"Material audiovisual y práctica de sociología visual",
+  note:"Ejemplo de producción audiovisual y relato social desde investigaciones cualitativas. Es un recurso afín a fotovoz, no una demostración específica de esta técnica.",
+  prompt:"¿Cómo conservar las voces e interpretaciones de participantes al construir un relato visual colectivo?"
  },
  'tecnica-entrevistas':{
-  title:"Apuntes prácticos para el desarrollo de entrevistas cualitativas",
-  institution:"Álvaro Elices Acero · Universidad de Valladolid (2026)",
-  url:"https://uvadoc.uva.es/handle/10324/83803",
-  kind:"Vídeo universitario español · entrevista abierta",
-  note:"Material audiovisual en español sobre entrevistas abiertas, en profundidad y semiestructuradas. Complementa el guion de entrevista comunitaria de Albolote.",
-  prompt:"¿Cómo se sigue el relato de una persona con preguntas abiertas y repreguntas?"
+  title:"Entrevistas de investigación social: ejemplos audiovisuales",
+  institution:"DOCUMEDIA · Departamento de Sociología y Antropología Social · Universitat de València",
+  url:"https://www.uv.es/tecnicas-investigacion-cualitativa-documedia/es/tecnicas-cualitativas/entrevista-profundidad/material-audiovisual.html",
+  kind:"Colección audiovisual de sociología cualitativa",
+  note:"Incluye entrevistas de documentales sociales y fragmentos para estudiar su realización, gestión y análisis. Es una colección, no un único vídeo.",
+  prompt:"¿Cómo escuchar los relatos vecinales sin convertir la entrevista en un cuestionario cerrado?"
  },
  'tecnica-talleres':{
-  title:"Técnicas grupales de investigación · DOCUMEDIA",
-  institution:"Universitat de València · equipo docente de investigación cualitativa",
-  url:"https://www.uv.es/tecnicas-investigacion-cualitativa-documedia/es/videos/tecnicas-grupales-investigacion-1286380872907/Recurs.html?id=1286442638161",
-  kind:"Vídeo docente universitario español",
-  note:"Expone técnicas de investigación grupal. Es una base útil para comprender la facilitación y el contraste colectivo, aunque el taller de mapeo tiene propósitos más amplios.",
-  prompt:"¿Cómo se articulan las aportaciones de diferentes personas en una interpretación compartida?"
+  title:"Realización y gestión de grupos de discusión",
+  institution:"DOCUMEDIA · Universitat de València · Ciencias Sociales",
+  url:"https://www.uv.es/tecnicas-investigacion-cualitativa-documedia/es/tecnicas-cualitativas/tecnicas-grupales/fases-trabajo/realizacion-gestion.html",
+  kind:"Vídeo de investigación social y facilitación grupal",
+  note:"Describe la moderación y observación de grupos para recoger significados compartidos y puntos de vista divergentes. Aplicable al contraste comunitario.",
+  prompt:"¿Cómo favorecer distintas voces y documentar acuerdos y desacuerdos en el taller?"
  },
  'tecnica-fichas':{
   title:'Community Asset Mapping — Gathering Data',
@@ -97,7 +97,7 @@ export function attachTechniqueVideos(){
   if(!detail)return;
   const block=document.createElement('section');
   block.className='tech-video';
-  block.innerHTML='<div class="tech-video-head"><span>RECURSO AUDIOVISUAL</span><h3>'+v.title+'</h3><p>'+v.institution+'</p></div><p><strong>'+v.kind+'</strong> · '+v.note+'</p><div class="tech-video-link"><a href="'+v.url+'" target="_blank" rel="noopener noreferrer">Ver el vídeo en la plataforma de origen ↗</a></div><details><summary>Qué observar durante el visionado</summary><p>'+v.prompt+'</p></details><p class="tech-video-note">Material externo; la reproducción puede requerir conexión y abrirse en otra pestaña. Los recursos en inglés pueden necesitar apoyo del guion en español.</p>';
+  block.innerHTML='<div class="tech-video-head"><span>VÍDEO Y MATERIAL AUDIOVISUAL</span><h3>'+v.title+'</h3><p>'+v.institution+'</p></div><p><strong>'+v.kind+'</strong> · '+v.note+'</p><div class="tech-video-link"><a href="'+v.url+'" target="_blank" rel="noopener noreferrer">Abrir recurso audiovisual en la institución de origen ↗</a></div><details><summary>Qué observar durante el visionado</summary><p>'+v.prompt+'</p></details><p class="tech-video-note">Material externo; la reproducción puede requerir conexión y abrirse en otra pestaña. Los recursos en inglés pueden necesitar apoyo del guion en español.</p>';
   if(id==='tecnica-paseos'){
    block.insertAdjacentHTML('beforeend','<div class="tech-andalusia"><strong>Guía española específica del paseo</strong><p>«Cómo hacer un paseo Jane», proyecto La Aventura de Aprender del INTEF: preparación, convocatoria y recorrido paso a paso.</p><a href="https://laaventuradeaprender.intef.es/proyectos_colab/como-hacer-un-paseo-jane/?seccion=paso_a_paso" target="_blank" rel="noopener noreferrer">Abrir guía del INTEF ↗</a></div>');
   }
