@@ -171,7 +171,11 @@ body.pres .workspace{max-width:1200px;font-size:18px}body.pres .panel h2{font-si
 
 @media (max-width:900px){.layout{grid-template-columns:minmax(0,1fr)}.rail{position:static;height:auto;border-right:0;border-bottom:1px solid var(--line)}.sub{display:none}.menu{grid-auto-flow:column;grid-auto-columns:minmax(190px,1fr);overflow-x:auto;padding-bottom:4px}.nav-text small,.rail-desc,.rail-bottom span{display:none}.rail{padding:16px 10px}.portada-hero{grid-template-columns:minmax(0,1fr)}.form-art{display:none}.portada-cursos{grid-template-columns:minmax(0,1fr)}.pasos{grid-template-columns:repeat(2,minmax(0,1fr))}.head-actions,.portada-bar a{margin-right:0}.site-head{padding-top:56px}.portada-bar{padding-top:56px}}
 @media print{.site-head,.rail,.controls,#aula-home-global,.aula-back,.timer-widget{display:none!important}.layout{display:block}.panel{box-shadow:none;border:0}}
-</style><style>.recursos-contexto{margin-top:20px;padding:17px;border:1px solid #cbded1;background:#f1f7f3;border-radius:13px;color:#183a37}.recursos-contexto strong{display:block;margin-bottom:10px}.recursos-contexto a{display:inline-block;margin:3px 7px 3px 0;padding:8px 11px;border:1px solid #bbd4c5;background:white;border-radius:8px;color:#176052;font-size:12px;font-weight:700;text-decoration:underline;text-underline-offset:3px}</style></head><body>
+</style><style>.recursos-contexto{margin-top:20px;padding:17px;border:1px solid #cbded1;background:#f1f7f3;border-radius:13px;color:#183a37}.recursos-contexto strong{display:block;margin-bottom:10px}.recursos-contexto a{display:inline-block;margin:3px 7px 3px 0;padding:8px 11px;border:1px solid #bbd4c5;background:white;border-radius:8px;color:#176052;font-size:12px;font-weight:700;text-decoration:underline;text-underline-offset:3px}</style><style id="rhizome-style">
+.rizoma{margin-top:22px;border-top:1px solid #cfdfd6;padding-top:20px;color:#183a37}.rizoma h3{font:600 22px Georgia,serif;margin:0 0 8px;color:#183a37}.rizoma p{font-size:13px;color:#60766e;margin:0 0 13px}.rizoma-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:9px}
+.rizoma-link{border:1px solid #bfd4c8;background:#f6faf7;border-radius:11px;padding:13px;text-decoration:none;color:#174c42;display:flex;flex-direction:column;gap:4px}.rizoma-link:hover,.rizoma-link:focus-visible{border-color:#137c73;background:#e8f4ef}.rizoma-link small{font:750 10px system-ui,sans-serif;letter-spacing:.05em;color:#5a786d}.rizoma-link b{font:650 14px system-ui,sans-serif}.rizoma-link span{font-size:12px;line-height:1.4;color:#526b60}.rizoma-index{border:1px solid #cdded5;background:#f3f8f4;border-radius:13px;padding:19px;margin-bottom:16px}.rizoma-index h2{font:600 25px Georgia,serif;margin:0 0 6px;color:#183a37}.rizoma-index p{margin:0 0 14px;color:#587267;font-size:13px}.rizoma-index button{border:1px solid #bdD6ca;background:#fff;color:#1b5c50;padding:9px 12px;border-radius:9px;cursor:pointer;margin:0 7px 7px 0;font-size:12px;font-weight:750}.rizoma-index button:hover{background:#e5f3e9}
+@media print{.rizoma,.rizoma-index{display:none}}
+</style></head><body>
 <a id="aula-home-global" href="../index.html" aria-label="Volver a la página principal del Aula de Salud Comunitaria Basada en Activos" style="position:fixed!important;top:10px;right:12px;z-index:2147483647!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;gap:7px;background:#16473e!important;color:white!important;border:2px solid #e2f0e8!important;border-radius:30px!important;padding:9px 14px!important;max-width:calc(100vw - 24px);font:700 13px/1.2 system-ui,sans-serif!important;text-decoration:none!important;box-shadow:0 5px 18px #0b251e44!important;visibility:visible!important;opacity:1!important">⌂ Aula · Inicio</a>
 <a href="#main" class="skip">Ir al contenido</a>
 
@@ -475,6 +479,75 @@ if(c==='avanzado'&&/diccionario|csv|plantilla|instrumento/.test(t))entradas.push
 return '<aside class="recursos-contexto"><strong>Recursos y enlaces relacionados</strong>'+entradas.map(x=>'<a href="'+x[1]+'" target="_blank" rel="noopener noreferrer">'+x[0]+' ↗</a>').join('')+'</aside>';
 }
 
+
+/* Grafo de itinerarios conceptuales, enlazado a pantallas reales. */
+const RED_NODOS=[
+{n:'Proyecto e instrumento',k:'instrumento',texto:'Estructura de un proyecto y organización del instrumento',links:['campos','diccionario','perfiles']},
+{n:'Tipos de campo',k:'campos',texto:'Elegir preguntas y tipos de respuesta adecuados',links:['validacion','diccionario','matrices']},
+{n:'Identificador de registro',k:'identificador',texto:'Reconocer y utilizar record_id',links:['instrumento','exportacion','longitudinal']},
+{n:'Validaciones',k:'validacion',texto:'Controlar formato y rangos en la entrada de datos',links:['calidad','campos','pruebas']},
+{n:'Diccionario de datos',k:'diccionario',texto:'Definir y modificar variables de manera estructurada',links:['campos','branching','exportacion']},
+{n:'Exportación',k:'exportacion',texto:'Comprender la salida de registros y metadatos',links:['diccionario','informes','perfiles']},
+{n:'Privacidad y permisos',k:'perfiles',texto:'Roles, derechos y minimización de datos',links:['produccion','encuestas','exportacion']},
+{n:'Desarrollo y producción',k:'produccion',texto:'Probar instrumentos y gestionar cambios',links:['pruebas','perfiles','diccionario']},
+{n:'Lógica condicional',k:'branching',texto:'Mostrar campos en función de otras respuestas',links:['campos','checkbox','encuestas']},
+{n:'Checkbox y vacíos',k:'checkbox',texto:'Expresiones, casillas múltiples y valores ausentes',links:['branching','calculados','validacion']},
+{n:'Campos calculados',k:'calculados',texto:'Expresiones de cálculo y condiciones',links:['checkbox','actiontags','calidad']},
+{n:'Action Tags',k:'actiontags',texto:'Modificar el comportamiento de los campos',links:['calculados','branching','diccionario']},
+{n:'Matrices y piping',k:'matrices',texto:'Organizar preguntas y reutilizar respuestas',links:['campos','encuestas','branching']},
+{n:'Encuestas',k:'encuestas',texto:'Convertir instrumentos en encuestas y gestionar respuestas',links:['matrices','perfiles','informes']},
+{n:'Informes',k:'informes',texto:'Filtrar y presentar registros',links:['exportacion','calidad','encuestas']},
+{n:'Calidad de datos',k:'calidad',texto:'Reglas y comprobación de coherencia',links:['validacion','pruebas','calculados']},
+{n:'Pruebas y verificación',k:'pruebas',texto:'Casos de prueba y revisión del instrumento',links:['produccion','calidad','branching']},
+{n:'Instrumentos repetibles y seguimiento',k:'longitudinal',texto:'Estructuras para observaciones sucesivas',links:['identificador','diccionario','perfiles']}
+];
+const TEMAS_REDCAP=[
+['instrumento',/proyecto|primer instrumento|cuatro conceptos|paso a paso/],
+['campos',/tipos de campo|codificaci[oó]n/],
+['identificador',/record_id/],
+['validacion',/validaciones/],
+['diccionario',/diccionario/],
+['exportacion',/exportaci[oó]n/],
+['perfiles',/rgpd|equipo|perfiles/],
+['produccion',/producci[oó]n|guardar/],
+['branching',/branching|sintaxis|combinar/],
+['checkbox',/checkboxes|vac[ií]os/],
+['calculados',/calculados|clasificar/],
+['actiontags',/action tags/],
+['matrices',/matrices|piping/],
+['encuestas',/modo encuesta/],
+['informes',/informes/],
+['calidad',/calidad de datos/],
+['pruebas',/casos de prueba|buenas pr[aá]cticas|pr[aá]ctica/],
+['longitudinal',/para ir m[aá]s all[aá]/]
+];
+function mapaRedcap(){
+ const matches={};
+ COURSES.forEach((c,ci)=>c.units.forEach((u,ui)=>u.slides.forEach((sl,si)=>{
+  const t=sl.t.toLowerCase();
+  for(const [key,re] of TEMAS_REDCAP)if(re.test(t)&&!matches[key])matches[key]={ci,ui,si,title:sl.t,course:c.name};
+ })));
+ return matches;
+}
+const GRAFO_REDCAP=mapaRedcap();
+function tarjetaNodo(key){
+ const n=RED_NODOS.find(x=>x.k===key),dest=GRAFO_REDCAP[key];if(!n||!dest)return '';
+ const hash=COURSES[dest.ci].id+'-'+COURSES[dest.ci].units[dest.ui].id+'-'+(dest.si+1);
+ return '<a class="rizoma-link" href="#'+hash+'" data-rizoma="'+hash+'"><small>'+dest.course+' · '+COURSES[dest.ci].units[dest.ui].k+'</small><b>'+n.n+' →</b><span>'+n.texto+'</span></a>';
+}
+function conexionesRedcap(c,u,sl){
+ const words=(sl.t+' '+sl.h.replace(/<[^>]*>/g,' ')).toLowerCase();
+ const claves=TEMAS_REDCAP.filter(x=>x[1].test(sl.t.toLowerCase())).map(x=>x[0]);
+ let selected=[...new Set(claves.flatMap(k=>[k,...(RED_NODOS.find(x=>x.k===k)?.links||[])]))];
+ if(!selected.length){const t=/avanzado/.test(c)?'branching':'instrumento';selected=[t,...(RED_NODOS.find(x=>x.k===t)?.links||[])];}
+ const cards=selected.filter(k=>GRAFO_REDCAP[k]).slice(0,5).map(tarjetaNodo).join('');
+ return '<nav class="rizoma" aria-label="Conexiones conceptuales"><h3>Conexiones para seguir explorando</h3><p>Accede a otros conceptos relacionados, incluso del otro nivel. Estos enlaces abren directamente la pantalla correspondiente.</p><div class="rizoma-links">'+cards+'</div></nav>';
+}
+function indiceRizoma(){
+ const keys=['instrumento','campos','identificador','validacion','diccionario','perfiles','branching','calculados','actiontags','matrices','encuestas','informes','calidad','longitudinal'];
+ return '<nav class="rizoma-index" aria-label="Mapa de conceptos"><h2>Explorar por conceptos</h2><p>Recorridos transversales por REDCap Básico y Avanzado. Puedes empezar por cualquiera de estos temas.</p>'+keys.filter(k=>GRAFO_REDCAP[k]).map(k=>{let n=RED_NODOS.find(x=>x.k===k),d=GRAFO_REDCAP[k],h=COURSES[d.ci].id+'-'+COURSES[d.ci].units[d.ui].id+'-'+(d.si+1);return '<button type="button" data-rizoma="'+h+'">'+n.n+' ↗</button>'}).join('')+'</nav>';
+}
+
 /* ---------- estado ---------- */
 const UNITDESC={s1:{basico:'Conceptos, tipos de campo, validaciones y primer instrumento',avanzado:'Sintaxis, funciones, @CALCTEXT y Action Tags'},t1:{basico:'Ampliar, probar y exportar · entrega 1',avanzado:'Casos de prueba · entrega 1'},s2:{basico:'Guardar, producción, RGPD, roles y diccionario',avanzado:'Matrices, piping, encuesta, informes, calidad'},t2:{basico:'Pulir, prueba por terceros, documento final',avanzado:'Perfiles, reglas de calidad, documento final'}};
 const S={view:'portada',c:0,u:0,s:0};
@@ -515,7 +588,7 @@ function render(){
     total=f.length; idx=f.findIndex(x=>x[0]===S.u&&x[1]===S.s);
     $('step-count').textContent=`${u.k} · pantalla ${S.s+1} de ${u.slides.length}`;
     $('crumb').textContent=`${c.name} · ${u.title}`;
-    $('view').innerHTML=`<div class="panel">${sl.h}${recursosDePantalla(c.id,u.id,sl)}</div>`;
+    $('view').innerHTML=`<div class="panel">${indiceRizoma()}${sl.h}${conexionesRedcap(c.id,u.id,sl)}${recursosDePantalla(c.id,u.id,sl)}</div>`;
   }
   $('prog').style.width=S.view==='curso'?((idx+1)/total*100)+'%':'0';
   $('count').textContent=S.view==='curso'?`${idx+1} / ${total}`:'—';
@@ -528,6 +601,7 @@ function go(n){ Object.assign(S,n); render(); window.scrollTo(0,0); }
 function step(d){ if(S.view!=='curso')return; const f=flat(S.c); const i=f.findIndex(x=>x[0]===S.u&&x[1]===S.s)+d; if(i<0||i>=f.length)return; go({u:f[i][0],s:f[i][1]}); }
 
 function wire(){
+  document.querySelectorAll('[data-rizoma]').forEach(el=>el.addEventListener('click',e=>{e.preventDefault();const h=el.dataset.rizoma,m=/^(basico|avanzado)-(s1|s2|t1|t2)-(\\d+)$/.exec(h);if(!m)return;const ci=COURSES.findIndex(c=>c.id===m[1]),ui=COURSES[ci].units.findIndex(u=>u.id===m[2]);go({view:'curso',c:ci,u:ui,s:+m[3]-1});}));
   document.querySelectorAll('[data-course]').forEach(b=>b.onclick=()=>go({view:'curso',c:+b.dataset.course,u:0,s:0}));
   document.querySelectorAll('[data-go-mat]').forEach(b=>b.onclick=()=>go({view:'mat'}));
   document.querySelectorAll('[data-unit]').forEach(b=>b.onclick=()=>go({u:+b.dataset.unit,s:0}));
