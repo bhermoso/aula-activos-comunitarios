@@ -1,0 +1,33 @@
+Variable / Field Name,Form Name,Section Header,Field Type,Field Label,"Choices, Calculations, OR Slider Labels",Field Note,Text Validation Type OR Show Slider Number,Text Validation Min,Text Validation Max,Identifier?,Branching Logic (Show field only if...),Required Field?,Custom Alignment,Question Number (surveys only),Matrix Group Name,Matrix Ranking?,Field Annotation
+record_id,habitos_vida,,text,ID del registro,,,,,,,,,,,,,
+fecha_inclusion,habitos_vida,Datos generales,text,Fecha de inclusión,,,date_dmy,,,,,y,,,,,@TODAY
+fecha_nac,habitos_vida,,text,Fecha de nacimiento,,Dato identificativo: en un estudio real valore recoger solo la edad,date_dmy,1915-01-01,,y,,y,,,,,
+edad_calc,habitos_vida,,calc,Edad (años cumplidos),"rounddown(datediff([fecha_nac], [fecha_inclusion], ""y""), 0)",,,,,,,,,,,,
+sexo,habitos_vida,,radio,Sexo,"1, Hombre | 2, Mujer",,,,,,,y,,,,,
+embarazo,habitos_vida,,yesno,¿Está embarazada actualmente?,,,,,,,[sexo] = '2' and [edad_calc] < 55,,,,,,
+vive_solo,habitos_vida,,yesno,¿Vive solo/a?,,,,,,,,y,,,,,
+peso_kg,habitos_vida,Antropometría,text,Peso (kg),,,number_1dp,30,250,,,y,,,,,
+talla_cm,habitos_vida,,text,Talla (cm),,,integer,120,220,,,y,,,,,
+imc,habitos_vida,,calc,IMC (kg/m²),"round([peso_kg] / (([talla_cm] / 100) ^ 2), 1)",,,,,,,,,,,,
+imc_cat,habitos_vida,,calc,Categoría de IMC (código),"if([imc] = '', '', if([imc] < 18.5, 1, if([imc] < 25, 2, if([imc] < 30, 3, 4))))",1 = Bajo peso · 2 = Normopeso · 3 = Sobrepeso · 4 = Obesidad,,,,,,,,,,,
+imc_cat_txt,habitos_vida,,text,Categoría de IMC,,,,,,,,,,,,,"@CALCTEXT(if([imc] = '', '', if([imc] < 18.5, 'Bajo peso', if([imc] < 25, 'Normopeso', if([imc] < 30, 'Sobrepeso', 'Obesidad')))))"
+af_regular,habitos_vida,Actividad física,yesno,¿Practica actividad física regularmente?,,,,,,,,y,,,,,
+af_dias_sem,habitos_vida,,text,Días a la semana con actividad física,,,integer,1,7,,[af_regular] = '1',y,,,,,
+af_min_sesion,habitos_vida,,text,Minutos por sesión (min),,,integer,5,300,,[af_regular] = '1',y,,,,,
+af_min_sem,habitos_vida,,calc,Minutos de actividad física a la semana,"if([af_regular] = '0', 0, [af_dias_sem] * [af_min_sesion])",,,,,,,,,,,,
+af_recom,habitos_vida,,text,Recomendación OMS (≥ 150 min/semana),,,,,,,,,,,,,"@CALCTEXT(if([af_min_sem] = '', '', if([af_min_sem] >= 150, 'Cumple', 'No cumple')))"
+barreras_af,habitos_vida,,checkbox,¿Qué le dificulta hacer (más) actividad física? (puede marcar varias),"1, Falta de tiempo | 2, Problemas de salud | 3, Coste | 4, Falta de compañía | 99, Ninguna",,,,,,,,,,,,@NONEOFTHEABOVE='99'
+barr_coste_detalle,habitos_vida,,text,¿Qué gasto le resulta más difícil de asumir?,,,,,,,[barreras_af(3)] = '1',,,,,,
+ali_aceite,habitos_vida,"Alimentación (versión didáctica simplificada, no validada)",yesno,¿Usa aceite de oliva como grasa principal para cocinar?,,,,,,,,y,,,,,
+ali_fruta,habitos_vida,,yesno,¿Toma 2 o más piezas de fruta al día?,,,,,,,,y,,,,,
+ali_verdura,habitos_vida,,yesno,¿Toma 2 o más raciones de verdura u hortaliza al día?,,,,,,,,y,,,,,
+ali_legumbre,habitos_vida,,yesno,¿Toma legumbres 3 o más veces por semana?,,,,,,,,y,,,,,
+ali_pescado,habitos_vida,,yesno,¿Toma pescado o marisco 3 o más veces por semana?,,,,,,,,y,,,,,
+ali_carne_roja,habitos_vida,,yesno,¿Toma carne roja o embutidos menos de 1 vez al día?,,,,,,,,y,,,,,
+ali_dulces,habitos_vida,,yesno,¿Toma dulces o bollería industrial menos de 2 veces por semana?,,,,,,,,y,,,,,
+dieta_med_punt,habitos_vida,,calc,Puntuación de adherencia (0-7),"sum([ali_aceite], [ali_fruta], [ali_verdura], [ali_legumbre], [ali_pescado], [ali_carne_roja], [ali_dulces])",,,,,,,,,,,,
+dieta_med_cat,habitos_vida,,text,Adherencia,,,,,,,,,,,,,"@CALCTEXT(if([dieta_med_punt] = '', '', if([dieta_med_punt] <= 3, 'Baja', if([dieta_med_punt] <= 5, 'Media', 'Alta'))))"
+fuma_actual,habitos_vida,Tabaco,radio,Consumo de tabaco,"1, Fuma actualmente | 2, Exfumador/a | 0, Nunca ha fumado",,,,,,,y,,,,,
+cig_dia,habitos_vida,,text,Cigarrillos al día,,,integer,0,80,,[fuma_actual] = '1',y,,,,,
+anios_fumando,habitos_vida,,text,Años fumando,,,integer,0,80,,[fuma_actual] = '1',,,,,,
+observaciones,habitos_vida,Cierre,notes,Observaciones,,No escriba nombres ni otros datos identificativos,,,,,,,,,,,
