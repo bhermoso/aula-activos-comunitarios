@@ -46,3 +46,10 @@
  .tv-note{font-size:12px}
 }
 @media(prefers-reduced-motion:reduce){.presentation #loja-tv-stage{scroll-behavior:auto}}
+
+.loja-qr-proyeccion{display:grid;grid-template-columns:minmax(190px,38%) 1fr;align-items:center;gap:clamp(20px,4vw,60px);flex:1;min-height:0;background:#fff;border:1px solid #d7e4da;border-radius:16px;padding:clamp(14px,2vw,24px)}
+.loja-qr-proyeccion img{height:min(48vh,340px);width:100%;object-fit:contain}
+.loja-qr-proyeccion strong{font:600 clamp(24px,2.5vw,37px)/1.1 Georgia,serif;color:#102a28}
+.loja-qr-proyeccion p{font:400 clamp(16px,1.6vw,22px)/1.4 system-ui;color:#365b51}
+.loja-qr-proyeccion .loja-qr-url{font-size:clamp(10px,1.15vw,16px);overflow-wrap:anywhere}
+@media(max-width:700px){.loja-qr-proyeccion{display:flex;flex-direction:column;text-align:center;gap:5px}.loja-qr-proyeccion img{height:min(37vh,250px)}}
