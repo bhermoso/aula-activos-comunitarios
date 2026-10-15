@@ -23,8 +23,8 @@ const DECK=[
 ['Seguimiento','Recoger opciones que puedan valorarse en el proceso local.']]}],
 [{title:'Trayectoria documentada de Loja',lead:'Antecedentes extraídos del expediente histórico del Plan Local de Salud.',cards:[
 ['2009–2010','Primera parte del Perfil de Salud Local conservada en el expediente.'],
-['2019–2020','Actualizaciones del perfil y consulta ciudadana: 164 respuestas de identificación sectorial.'],
-['2021–2022','Actas del Grupo Motor, trabajos de priorización y borrador de plan de acción.'],
+['2019–2020','Actualizaciones del perfil; se mencionan 164 respuestas a una encuesta de 2020. Metodología por verificar.'],
+['2022','Según la presentación histórica: 40 participantes, 26 problemas priorizados y borrador de plan de acción.'],
 ['2026','Encuentro para revisar el trabajo previo y valorar su continuidad.']],note:'Los resultados de la consulta no equivalen a acuerdos finales de priorización.'},
 {title:'Inventario histórico · Recursos y activos',lead:'Distinguir el número de recursos registrados de su validación como activos.',cards:[
 ['162 recursos','Registros migrados según el inventario histórico disponible.'],
@@ -69,7 +69,12 @@ const DECK=[
 ['Acordar','Definir objetivos, lugares, participantes y responsabilidades.'],
 ['Desarrollar','Planificar recorridos, entrevistas o talleres y su documentación.'],
 ['Devolver','Compartir los resultados con la comunidad para revisión.'],
-['Incorporar','Valorar los mapas dentro del Plan Local de Salud y su actualización.']],note:'Fin de la presentación. Avanzar → reinicia el recorrido; Salir × vuelve a la documentación.'}]
+['Incorporar','Valorar los mapas dentro del Plan Local de Salud y su actualización.']],note:'Estas propuestas no son actuaciones aprobadas.'},
+{title:'Cierre · Del diálogo a los siguientes pasos',lead:'Propuesta para registrar la continuidad sin atribuir acuerdos que aún no existen.',cards:[
+['Lo conocido','Confirmar qué documentos, datos y decisiones previas siguen vigentes.'],
+['Lo que falta','Señalar información pendiente y voces comunitarias que deben incorporarse.'],
+['Lo que se propone','Registrar posibles acciones, responsables sugeridos y plazos para su valoración.'],
+['Lo acordado','Anotar únicamente decisiones adoptadas por quienes tienen competencia.']],note:'Cierre: distinguir acuerdos reales, propuestas y cuestiones pendientes. Avanzar → reinicia la presentación.'}]
 ];
 const menuButtons=[...document.querySelectorAll('[data-go]')];if(menuButtons.length!==8)return;
 const workspace=document.querySelector('.workspace'),progress=document.getElementById('progress');if(!workspace||!progress)return;
