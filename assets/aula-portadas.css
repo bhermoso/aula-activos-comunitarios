@@ -30,3 +30,5 @@
 .portada .portada-pie a{color:#cfe8dc}
 @media(max-width:900px){.portada-hero{grid-template-columns:minmax(0,1fr)}.portada-cursos{grid-template-columns:minmax(0,1fr)}.portada .form-art{display:none}}
 @media print{.portada{display:none!important}}
+
+.portada[hidden],.actividad-app[hidden]{display:none!important}
