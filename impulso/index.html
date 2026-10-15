@@ -26,12 +26,76 @@
 @media(min-width:1100px) and (max-height:900px){.presentation .agenda-tv{grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}.presentation .agenda-tv>div{padding:13px}.presentation .agenda-tv>div strong{font-size:16px}}
 @media(max-width:750px){.map-steps{grid-template-columns:1fr}.presentation .site-head{padding:8px 12px}.presentation .workspace{padding:60px 16px 80px}.presentation .agenda-tv{grid-template-columns:1fr}.presentation .source-panel.active > div:not([hidden]){max-height:calc(100dvh - 200px)}}
 @media print{.presentation .site-head{display:none!important}.agenda-tv{display:none!important}}
-</style><link rel="stylesheet" href="../assets/proyeccion-loja.css?v=20261015b"><link rel="stylesheet" href="../assets/aula-portadas.css?v=20261015c"><script>window.__aulaEntryHash=location.hash;</script><style>.actividad-app .hero{display:none}.actividad-app .workspace{padding-top:20px}.portada-hero{padding-top:clamp(26px,4.5vw,57px)}.portada h1{font-size:clamp(37px,5.7vw,72px)}@media(min-width:1050px) and (max-height:800px){.portada .pcard{padding:18px}.portada-cursos{padding-bottom:16px}.portada-hero{padding-bottom:13px}.portada h1{font-size:clamp(38px,4.8vw,58px)}}</style></head><body><section class="portada" id="portada-actividad" data-module="loja" aria-label="Portada del Taller de reimpulso de Loja" style="--cover-accent:#aed8bf">
+</style><link rel="stylesheet" href="../assets/proyeccion-loja.css?v=20261015c"><link rel="stylesheet" href="../assets/aula-portadas.css?v=20261015c"><script>window.__aulaEntryHash=location.hash;</script><style>.actividad-app .hero{display:none}.actividad-app .workspace{padding-top:20px}.portada-hero{padding-top:clamp(26px,4.5vw,57px)}.portada h1{font-size:clamp(37px,5.7vw,72px)}@media(min-width:1050px) and (max-height:800px){.portada .pcard{padding:18px}.portada-cursos{padding-bottom:16px}.portada-hero{padding-bottom:13px}.portada h1{font-size:clamp(38px,4.8vw,58px)}}</style><style id="loja-instituciones">
+.loja-instituciones{max-width:1300px;width:calc(100% - 36px);margin:4px auto 26px;padding:17px 20px 18px;border:1px solid #527367;border-radius:17px;background:#173f3a;color:#e9f3ec}
+.loja-instituciones h2{font:600 20px/1.25 Georgia,serif;color:#fff;margin:0 0 5px}
+.loja-instituciones>p{font-size:12px;color:#d5e7dc;margin:0 0 12px}
+.loja-entidades{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
+.loja-entidad{display:flex;align-items:center;gap:11px;min-width:0;min-height:83px;padding:12px;background:#fff;color:#173a35;border-radius:11px;text-decoration:none;border:1px solid #cde0d3}
+.loja-entidad:hover,.loja-entidad:focus-visible{border-color:#137c73;box-shadow:0 0 0 2px #b5e0cd}
+.loja-entidad img{display:block;width:75px;height:60px;object-fit:contain;flex:0 0 75px;background:#fff}.loja-entidad img[src*="FC.png"]{object-fit:cover;object-position:center}.loja-entidad img[src*="hospitales_libres_humo"]{object-fit:contain}
+.loja-entidad .loja-sigla{display:flex;align-items:center;justify-content:center;flex:0 0 65px;min-height:53px;border-radius:7px;background:#eef4ef;color:#14675f;font-weight:900;font-size:14px;letter-spacing:.035em}
+.loja-entidad strong{display:block;font-size:13px;line-height:1.23;color:#173a35}
+.loja-entidad small{display:block;color:#60746e;margin-top:5px;font-size:11px;line-height:1.3}
+.loja-instituciones .loja-aviso{margin:12px 0 0;color:#d5e7dc;font-size:11px}
+@media(max-width:860px){.loja-entidades{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.loja-instituciones{width:calc(100% - 24px);padding:13px}.loja-entidades{grid-template-columns:1fr}}
+@media print{.loja-instituciones{background:white;color:#183a37}.loja-instituciones h2,.loja-instituciones>p,.loja-instituciones .loja-aviso{color:#183a37}.loja-entidad{break-inside:avoid}}
+</style><style id="loja-portada-sin-scroll">
+/* Portada de trabajo: cabecera, entradas e identidades visibles sin scroll
+   en pantallas de proyección y escritorio habituales. */
+@media(min-width:1100px) and (min-height:680px){
+ #portada-actividad{height:100dvh;min-height:0;overflow:hidden}
+ #portada-actividad .portada-bar{padding-top:9px;padding-bottom:9px;flex:0 0 auto}
+ #portada-actividad .portada-hero{padding:15px clamp(22px,4vw,54px) 9px;gap:20px;flex:1 1 auto;min-height:0}
+ #portada-actividad h1{font-size:clamp(32px,3.7vw,53px);margin:7px 0 10px}
+ #portada-actividad .portada-hero p{font-size:clamp(13px,1.12vw,16px);line-height:1.4}
+ #portada-actividad .fecha{margin-top:10px;padding:5px 11px}
+ #portada-actividad .form-art{padding:11px 17px;transform:none;max-width:390px}
+ #portada-actividad .form-art .fr{padding:4px 0}
+ #portada-actividad .portada-cursos{padding-top:7px;padding-bottom:8px;gap:12px;flex:0 0 auto}
+ #portada-actividad .pcard{min-height:0;padding:14px 19px}
+ #portada-actividad .pcard h2{margin:4px 0;font-size:clamp(19px,1.8vw,25px)}
+ #portada-actividad .pcard p{font-size:13px;line-height:1.35;margin:6px 0}
+ #portada-actividad .pcard .units{margin:7px 0}
+ #portada-actividad .loja-instituciones{margin:4px auto 7px;padding:8px 11px 9px;flex:0 0 auto}
+ #portada-actividad .loja-instituciones h2{font-size:15px;margin:0 0 5px}
+ #portada-actividad .loja-instituciones>p:not(.loja-aviso){display:none}
+ #portada-actividad .loja-entidades{grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}
+ #portada-actividad .loja-entidad{padding:7px;min-height:63px;gap:6px}
+ #portada-actividad .loja-entidad img{width:43px;height:43px;flex-basis:43px}
+ #portada-actividad .loja-entidad .loja-sigla{flex-basis:43px;min-height:43px;font-size:11px}
+ #portada-actividad .loja-entidad strong{font-size:11px;line-height:1.15}
+ #portada-actividad .loja-entidad small{display:none}
+ #portada-actividad .loja-aviso{display:none}
+ #portada-actividad .portada-pie{padding-top:7px;padding-bottom:7px;flex:0 0 auto}
+}
+@media(min-width:1100px) and (min-height:680px) and (max-height:790px){
+ #portada-actividad .portada-hero{padding-top:8px;padding-bottom:4px}
+ #portada-actividad .form-art .fr:nth-last-child(2){display:none}
+ #portada-actividad .pcard p{display:none}
+ #portada-actividad .portada-cursos{padding:3px clamp(18px,5vw,64px) 5px}
+}
+@media(min-width:1100px) and (min-height:680px) {
+ body:has(#portada-actividad:not([hidden])){overflow:hidden}
+}
+</style></head><body><section class="portada" id="portada-actividad" data-module="loja" aria-label="Portada del Taller de reimpulso de Loja" style="--cover-accent:#aed8bf">
 <div class="portada-bar"><strong>AULA · SALUD COMUNITARIA</strong><a href="../index.html">← Aula principal</a></div>
 <div class="portada-hero"><div><div class="p-kicker">Acción local en salud · RELAS · 2026</div><h1>Reimpulso del I Plan Local de Salud <span>Loja</span></h1><p>Encuentro para revisar antecedentes, situación de salud, participación comunitaria y opciones de continuidad del proceso local.</p><span class="fecha">16 de octubre · 10:00–11:30 · 90 minutos</span></div>
 <div class="form-art" aria-hidden="true"><div class="fh"><span>PROCESO LOCAL DE SALUD</span><span>LOJA</span></div><div class="fr"><b>Situación</b><span>Informe de salud</span></div><div class="fr"><b>Antecedentes</b><span>Trayectoria RELAS</span></div><div class="fr"><b>Participación</b><span>Actores y sectores</span></div><div class="fr"><b>Activos</b><span>Propuestas de mapeo</span></div><div class="br">Información · Diálogo · Continuidad</div></div></div>
 <div class="portada-cursos"><article class="pcard"><div class="lv">Encuentro · 90 minutos</div><h2>Programa y contenidos</h2><p>Intervenciones, mesa-coloquio, antecedentes del plan y marco de trabajo comunitario.</p><div class="units"><span>Programa</span><span>Situación de salud</span><span>RELAS</span></div><a class="cta" href="#diagnostico" data-cover-open="0">Entrar al taller →</a></article>
 <article class="pcard"><div class="lv">Trabajo participativo</div><h2>Actores, sectores y mapeos</h2><p>Ficha personal para identificar agentes comunitarios y propuestas de mapeo escolar y territorial.</p><div class="units"><span>Ficha local</span><span>Mapeo escolar</span><span>Redes comunitarias</span></div><a class="cta" href="#ficha" data-cover-open="4">Abrir trabajo práctico →</a></article></div>
+<section class="loja-instituciones" aria-labelledby="loja-instituciones-titulo">
+<h2 id="loja-instituciones-titulo">Instituciones y redes de referencia</h2>
+<p>Identidades relacionadas con el ámbito local y sanitario. La inclusión no acredita organización, asistencia, colaboración ni certificación específica.</p>
+<div class="loja-entidades">
+<a class="loja-entidad" href="https://www.aytoloja.org/" target="_blank" rel="noopener noreferrer"><img src="https://images.seeklogo.com/logo-png/17/1/ayuntamiento-de-loja-logo-png_seeklogo-172118.png" alt="Marca gráfica del Ayuntamiento de Loja" loading="lazy"><span><strong>Ayuntamiento de Loja</strong><small>Administración municipal · marca gráfica provisional</small></span></a>
+<a class="loja-entidad" href="https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/todas-noticia/el-hospital-de-loja-cumple-15-anos-reforzando-su-capacidad-asistencial-y-tecnologica" target="_blank" rel="noopener noreferrer"><span class="loja-sigla" aria-hidden="true">HAR</span><span><strong>Hospital de Alta Resolución de Loja</strong><small>Servicio Andaluz de Salud · identificador textual</small></span></a>
+<a class="loja-entidad" href="https://www.dsgranada-metropolitano.org/noticias/el-distrito-granada-metropolitano-estrena-nuevo-logotipo" target="_blank" rel="noopener noreferrer"><span class="loja-sigla" aria-hidden="true">DAP</span><span><strong>Distrito Granada–Metropolitano</strong><small>Atención Primaria · identidad gráfica pendiente</small></span></a>
+<a class="loja-entidad" href="https://www.sspa.juntadeandalucia.es/agenciadecalidadsanitaria/servicios/beltia/centros-comprometidos-contra-la-violencia-de-genero/" target="_blank" rel="noopener noreferrer"><img src="https://www.sspa.juntadeandalucia.es/agenciadecalidadsanitaria/wp-content/uploads/2024/10/FC.png" alt="Identidad gráfica Centros Comprometidos contra la Violencia de Género" loading="lazy" decoding="async"><span><strong>Centros Comprometidos contra la Violencia de Género</strong><small>Programa de certificación ACSA</small></span></a>
+<a class="loja-entidad" href="https://www.juntadeandalucia.es/organismos/presidenciasanidadyemergencias/areas/sanidad/salud-vida/adulta/paginas/red-andaluza-sselh.html" target="_blank" rel="noopener noreferrer"><img src="https://www.juntadeandalucia.es/export/drupaljda/salud_5af95871e017a_hospitales_libres_humo.jpg" alt="Logotipo Red Andaluza de Servicios Sanitarios y Espacios Libres de Humo" loading="lazy" decoding="async"><span><strong>Red Andaluza de Servicios Sanitarios y Espacios Libres de Humo</strong><small>Red de promoción de la salud</small></span></a>
+</div><p class="loja-aviso">Las imágenes de las dos redes sanitarias proceden de páginas oficiales. Los identificadores HAR y DAP no son logotipos; la imagen municipal continúa pendiente de sustitución por original oficial. El bloque no acredita adhesión ni patrocinio.</p>
+</section>
 <div class="portada-pie"><span>Taller de reimpulso del I Plan Local de Salud de Loja</span><a href="../index.html">Volver al Aula →</a></div></section><div class="actividad-app" id="actividad-app" hidden><aside id="local-only-banner" class="hide" role="status" style="position:fixed;left:12px;bottom:12px;z-index:80;max-width:min(390px,calc(100vw - 24px));background:#123832;color:white;border:1px solid #77b6a3;border-radius:12px;padding:15px 42px 15px 16px;box-shadow:0 8px 26px #102a2840;font:500 13px/1.45 system-ui,sans-serif"><button id="close-local-banner" type="button" aria-label="Cerrar aviso" style="position:absolute;right:9px;top:7px;background:transparent;color:white;border:0;font-size:22px;cursor:pointer">×</button><strong style="display:block;font-size:14px;margin-bottom:3px">Recordatorio personal</strong>Las propuestas se guardan únicamente en este navegador. No se recopilan ni se comparten desde el taller. Puedes borrar el listado cuando quieras.</aside><nav aria-label="Navegación del Aula" style="background:#123832;padding:10px 18px;font:600 14px system-ui,sans-serif"><a href="/aula-activos-comunitarios/" style="color:#fff;text-decoration:none">← Volver al Aula de salud comunitaria basada en activos</a></nav><a href="#main" class="skip">Ir al contenido</a><header class="site-head"><a class="identity" href="#inicio">TALLER DE REIMPULSO <span style="font-weight:400;opacity:.7">· LOJA</span></a><div class="head-actions"><button class="pill-btn" type="button" data-return-cover>← Portada del taller</button><button class="pill-btn" id="loja-home" type="button">⌂ Inicio</button><button class="pill-btn" id="loja-back" type="button">← Volver</button><button class="pill-btn" id="present">▣ Presentar</button></div></header><div class="layout"><aside class="rail"><div class="rail-kicker">RELAS · Loja · 16.10.2026</div><div class="rail-title">De la información<br> a la acción local</div><p class="rail-desc">Programa y documentación de la sesión.</p><nav class="menu" aria-label="Apartados del taller"><button type="button" class="nav-btn active" data-go="0" aria-current="step"><span class="nav-num">01</span><span class="nav-text">Apertura institucional<small>Inicio del encuentro y orden de intervenciones</small></span></button><button type="button" class="nav-btn" data-go="1" aria-current="false"><span class="nav-num">02</span><span class="nav-text">Itinerario · 90 min<small>Siete momentos de la reunión</small></span></button><button type="button" class="nav-btn" data-go="2" aria-current="false"><span class="nav-num">03</span><span class="nav-text">Moderación<small>Preguntas para abrir el diálogo entre sectores</small></span></button><button type="button" class="nav-btn" data-go="3" aria-current="false"><span class="nav-num">04</span><span class="nav-text">Antecedentes y salutogénesis<small>Punto de partida, proceso RELAS y activos para la salud</small></span></button><button type="button" class="nav-btn" data-go="4" aria-current="false"><span class="nav-num">05</span><span class="nav-text">Actores y sectores<small>Listado personal de propuestas</small></span></button><button type="button" class="nav-btn" data-go="5" aria-current="false"><span class="nav-num">06</span><span class="nav-text">Estudios complementarios<small>Ampliar el Perfil de Salud Local</small></span></button><button type="button" class="nav-btn" data-go="6" aria-current="false"><span class="nav-num">07</span><span class="nav-text">Mapeo escolar<small>Entorno educativo y fotografía participativa</small></span></button><button type="button" class="nav-btn" data-go="7" aria-current="false"><span class="nav-num">08</span><span class="nav-text">Mapeo comunitario<small>Barrios y redes de apoyo</small></span></button></nav><div class="rail-bottom">16 de octubre de 2026 · Loja</div></aside><main class="workspace" id="main"><section class="hero" id="inicio"><span class="eyebrow">I Plan Local de Salud de Loja · RELAS</span><h1>Taller de reimpulso del<br>I Plan Local de Salud de Loja</h1><p>Un espacio de trabajo para relacionar los antecedentes y la situación de salud de Loja con los sectores y actores comunitarios que pueden participar en la continuidad del plan.</p><div class="meta"><span class="tag">16 de octubre de 2026</span><span class="tag">10:00–11:30 · 90 minutos</span><span class="tag">7 momentos de la sesión</span><span class="tag">Participación comunitaria</span></div></section><div class="step-head"><div><span class="step-count" id="counter">01 / 08</span><h2 id="step-title">Apertura institucional</h2><p id="step-subtitle">Inicio del encuentro y orden de intervenciones</p></div></div><div class="progress-track" role="progressbar" aria-label="Progreso de navegación" aria-valuemin="1" aria-valuemax="8" aria-valuenow="1" id="progress"><div class="progress-fill" id="progress-fill"></div></div><div style="height:22px"></div><div class="source-panel" data-section="0" id="tab-diagnostico"><div class="bg-white p-6 rounded-2xl border border-slate-200"><span class="eyebrow">16 de octubre de 2026 · 10:00–11:30</span><h2>Apertura institucional y objetivos de la jornada</h2><p>La apertura corresponde a la representación municipal participante. Sergio Díaz Sánchez conduce la sesión y presenta las intervenciones.</p><p><strong>Objetivos:</strong> conocer el informe de situación de salud de Loja, recuperar la trayectoria del Plan Local de Salud, escuchar a los sectores participantes e identificar nuevas alianzas para darle continuidad.</p><p>El programa prevé la presentación del informe de situación de salud a cargo de M. Carlos del Moral Campaña.</p></div></div><div class="source-panel" data-section="1" id="tab-storyboard"><div class="border-b border-slate-200 pb-4"><h2>Programa de la sesión</h2><p>Propuesta de distribución de los 90 minutos. Los tiempos son orientativos y podrán ajustarse durante la reunión.</p></div><div class="agenda-tv" aria-label="Programa resumido para proyección">
 <div><small>10:00–10:10</small><strong>Apertura institucional</strong><span>Representación municipal</span></div>
 <div><small>10:10–10:15</small><strong>Conducción de la sesión</strong><span>Sergio Díaz Sánchez</span></div>
@@ -48,33 +112,32 @@
 <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm" style="margin-bottom:14px"><div class="eyebrow">06 · 11:10–11:25</div><h3>Trabajo práctico: actores y sectores para la participación</h3><p><strong>Dinamizan:</strong> Sergio Díaz Sánchez y Blas Hermoso</p><p>Desde sus teléfonos, las personas participantes elaboran un listado de sectores y tipos de actores que convendría incorporar, sin recoger datos personales.</p></div>
 <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm" style="margin-bottom:14px"><div class="eyebrow">07 · 11:25–11:30</div><h3>Puesta en común y cierre</h3><p><strong>Intervienen:</strong> Conducción de la sesión y participantes</p><p>Síntesis de las aportaciones, identificación de posibles siguientes pasos y cierre de la sesión, sin atribuir acuerdos no adoptados.</p></div></div></div><div class="source-panel" data-section="2" id="tab-moderador">
 <div class="border-b border-slate-200 pb-4">
-<h2 class="text-xl font-bold text-slate-900 font-serif">Orientaciones para facilitar el diálogo</h2>
-<p class="text-xs text-slate-500">Propuesta de preguntas abiertas para facilitar el intercambio entre los sectores participantes.</p>
+<h2 class="text-xl font-bold text-slate-900 font-serif">Guion de Sergio · Mesa-coloquio intersectorial</h2>
+<p class="text-xs text-slate-500">10:30–10:50 · 20 minutos. Preguntas orientativas, adaptables a los interlocutores efectivamente presentes. No atribuir datos o compromisos no verificados.</p>
 </div>
 <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">
-<span class="bg-indigo-100 text-indigo-800 font-bold font-mono text-[10px] px-2 py-1 rounded-md uppercase tracking-wider">Bloque 1: Preguntas abiertas para los sectores (15 min)</span>
-<div class="space-y-4 text-sm font-light text-slate-600">
-<div class="p-4 bg-slate-50 rounded-xl border-l-4 border-indigo-500 space-y-1">
-<p class="font-bold text-slate-800 text-xs uppercase font-mono">🎯 A las Direcciones del Hospital Comarcal y del Centro de Salud:</p>
-<p class="italic">"¿Qué redes de apoyo y oportunidades de colaboración entre los servicios sanitarios y la comunidad convendría fortalecer en Loja?"</p>
-</div>
-<div class="p-4 bg-slate-50 rounded-xl border-l-4 border-indigo-500 space-y-1">
-<p class="font-bold text-slate-800 text-xs uppercase font-mono">🎯 A la Coordinación de la Unidad de Salud Mental Comunitaria:</p>
-<p class="italic">"Los indicadores epidemiológicos describen problemas de salud, enfermedades de declaración obligatoria y coberturas preventivas. Sin embargo, para comprender el malestar emocional y el aislamiento social también necesitamos conocer las experiencias y redes de apoyo de la población. ¿Qué información disponemos sobre las redes de apoyo comunitario de Loja y su relación con el bienestar emocional? ¿Qué colaboración entre servicios y asociaciones sería pertinente explorar?"</p>
-</div>
-<div class="p-4 bg-slate-50 rounded-xl border-l-4 border-indigo-500 space-y-1">
-<p class="font-bold text-slate-800 text-xs uppercase font-mono">🎯 A la Trabajadora Social del CS y Enfermería Referente Escolar:</p>
-<p class="italic">"Desde el trabajo social y la enfermería escolar, ¿qué necesidades, recursos y redes de apoyo se han identificado en los entornos educativos y familiares de Loja? ¿Qué información sería necesario contrastar con la comunidad?"</p>
-</div>
+<h3>Clave de moderación: del dato a la acción compartida</h3>
+<p><strong>Objetivo:</strong> escuchar qué preocupa, qué protege la salud, con qué redes contamos y qué sería útil contrastar con la población. Pedir ejemplos concretos, sin convertir propuestas en acuerdos.</p>
+<div class="grid grid-cols-1 md:grid-cols-2">
+<div class="p-4 bg-slate-50"><strong>10:30–10:32 · Puente con el informe</strong><p>«Gracias por la exposición. Los datos nos ayudan a describir la situación de salud; para interpretarlos necesitamos también el conocimiento de los servicios y de quienes viven en Loja. Me gustaría escuchar distintas miradas y después identificar cuestiones que merezcan trabajo conjunto».</p></div>
+<div class="p-4 bg-slate-50"><strong>10:32–10:44 · Tres voces (4 min cada una)</strong><p>Una pregunta principal por interlocución y una repregunta breve. Si falta alguien, redistribuir el tiempo sin atribuirle palabras.</p></div>
+<div class="p-4 bg-slate-50"><strong>10:44–10:48 · Conexión entre sectores</strong><p>Buscar un punto de encuentro, una barrera y una oportunidad de incorporar voces vecinales.</p></div>
+<div class="p-4 bg-slate-50"><strong>10:48–10:50 · Síntesis</strong><p>Devolver tres ideas: conocimiento existente, información por contrastar y propuesta de colaboración a valorar.</p></div>
 </div>
 </div>
 <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">
-<span class="bg-teal-100 text-teal-800 font-bold font-mono text-[10px] px-2 py-1 rounded-md uppercase tracking-wider">Intercambio entre sectores (10 min)</span>
-<div class="p-4 bg-teal-50/50 rounded-xl border border-teal-200 space-y-2 text-sm font-light text-slate-800">
-<p class="font-semibold text-teal-950">Pregunta abierta para la reflexión conjunta:</p>
-<p class="italic">"¿Qué relaciones existen entre las actuaciones de los servicios públicos, las condiciones de vida en los barrios y las oportunidades de participación comunitaria? ¿Qué aspectos requieren un análisis conjunto?"</p>
-<p class="text-xs text-slate-500 pt-2 font-normal"><em>La moderación distribuye los turnos, recoge las aportaciones e identifica las cuestiones que requieren seguimiento, incluidas las relativas a recursos y competencias de los servicios.</em></p>
+<h3>Preguntas principales y repreguntas de apoyo</h3>
+<div class="p-4 bg-slate-50 rounded-xl border-l-4 border-indigo-500"><p><strong>1 · Dirección del hospital y Atención Primaria</strong></p><p><em>«Desde la atención sanitaria, ¿qué problemas o situaciones observáis que no se entienden del todo mirando únicamente los indicadores, y qué capacidades de la comunidad podrían contribuir a abordarlos?»</em></p><p><strong>Repregunta:</strong> «¿Podéis compartir un ejemplo de colaboración ya existente —o de una oportunidad concreta— entre servicios sanitarios, municipio y asociaciones?»</p></div>
+<div class="p-4 bg-slate-50 rounded-xl border-l-4 border-indigo-500"><p><strong>2 · Salud Mental Comunitaria</strong></p><p><em>«Además de la demanda asistencial, ¿qué sabemos —y qué desconocemos— sobre la soledad, los vínculos cotidianos y los apoyos comunitarios que influyen en el bienestar emocional en Loja?»</em></p><p><strong>Repregunta:</strong> «¿Con qué colectivos sería imprescindible contrastar estas percepciones, procurando escuchar también a quienes participan menos?»</p></div>
+<div class="p-4 bg-slate-50 rounded-xl border-l-4 border-indigo-500"><p><strong>3 · Trabajo Social y Enfermería Referente Escolar</strong></p><p><em>«Desde el contacto con familias, centros educativos y población vulnerable, ¿qué barreras y qué recursos comunitarios estáis encontrando para cuidar la salud y el bienestar?»</em></p><p><strong>Repregunta:</strong> «¿Qué oportunidad concreta veis para escuchar a alumnado, familias y profesionales, sin dar por supuesto que conocemos sus prioridades?»</p></div>
 </div>
+<div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">
+<h3>Preguntas puente y cierre</h3>
+<p><strong>Para el diálogo conjunto:</strong> «¿Dónde coinciden vuestras miradas y dónde aparecen diferencias que deberíamos investigar antes de actuar?»</p>
+<p><strong>Para conectar con activos:</strong> «¿Qué personas, espacios, asociaciones o redes funcionan ya como apoyo, y cómo comprobaríamos con la comunidad que realmente son activos para su salud?»</p>
+<p><strong>Para concretar sin anticipar acuerdos:</strong> «Si solo pudiéramos dar un primer paso después de esta mesa, ¿qué cuestión debería contrastarse y con quién?»</p>
+<p><strong>Cierre sugerido de Sergio:</strong> «No hemos venido a cerrar hoy un diagnóstico ni un plan. Nos llevamos información y miradas que habrá que contrastar, voces que incorporar y posibles líneas de colaboración. Lo siguiente será distinguir qué está documentado, qué debemos preguntar a la comunidad y qué corresponde acordar en el proceso local».</p>
+<p class="text-xs text-slate-500"><strong>Reglas de conducción:</strong> pedir ejemplos antes que generalidades; evitar atribuir causalidad a un indicador aislado; hablar de personas y capacidades, no solo de déficits; no pedir ni mostrar datos personales; si hay discrepancias, registrarlas como cuestiones a contrastar. El tiempo es orientativo.</p>
 </div>
 </div><div class="source-panel" data-section="3" id="tab-ponencia">
 <div class="bg-white p-6 rounded-2xl border border-slate-200"><span class="eyebrow">Trayectoria del I Plan Local de Salud</span><h2>Loja: recuperar una trayectoria y abrir una nueva etapa</h2><p>La sesión retoma un trabajo local iniciado años atrás. Estos son los principales hitos que constan en la documentación histórica revisada.</p></div>
@@ -164,4 +227,4 @@ document.getElementById('clear-form').addEventListener('click',()=>{if(confirm('
 function printFicha(){window.print()}document.getElementById('print-original').addEventListener('click',printFicha);render();
 const hashNames=['diagnostico','itinerario','moderacion','marco','ficha','estudios','mapeo-escolar','mapeo-redes'];show(Math.max(0,hashNames.indexOf(location.hash.substring(1))),false);
 })();
-</script><script src="../assets/proyeccion-loja.js?v=20261015b" defer></script></div><script src="../assets/aula-portadas.js?v=20261015c" defer></script></body></html>
+</script><script src="../assets/proyeccion-loja.js?v=20261015c" defer></script></div><script src="../assets/aula-portadas.js?v=20261015c" defer></script></body></html>
