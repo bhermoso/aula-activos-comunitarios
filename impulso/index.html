@@ -41,6 +41,44 @@
 @media(max-width:860px){.loja-entidades{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.loja-instituciones{width:calc(100% - 24px);padding:13px}.loja-entidades{grid-template-columns:1fr}}
 @media print{.loja-instituciones{background:white;color:#183a37}.loja-instituciones h2,.loja-instituciones>p,.loja-instituciones .loja-aviso{color:#183a37}.loja-entidad{break-inside:avoid}}
+</style><style id="loja-portada-sin-scroll">
+/* Portada de trabajo: cabecera, entradas e identidades visibles sin scroll
+   en pantallas de proyección y escritorio habituales. */
+@media(min-width:1100px) and (min-height:680px){
+ #portada-actividad{height:100dvh;min-height:0;overflow:hidden}
+ #portada-actividad .portada-bar{padding-top:9px;padding-bottom:9px;flex:0 0 auto}
+ #portada-actividad .portada-hero{padding:15px clamp(22px,4vw,54px) 9px;gap:20px;flex:1 1 auto;min-height:0}
+ #portada-actividad h1{font-size:clamp(32px,3.7vw,53px);margin:7px 0 10px}
+ #portada-actividad .portada-hero p{font-size:clamp(13px,1.12vw,16px);line-height:1.4}
+ #portada-actividad .fecha{margin-top:10px;padding:5px 11px}
+ #portada-actividad .form-art{padding:11px 17px;transform:none;max-width:390px}
+ #portada-actividad .form-art .fr{padding:4px 0}
+ #portada-actividad .portada-cursos{padding-top:7px;padding-bottom:8px;gap:12px;flex:0 0 auto}
+ #portada-actividad .pcard{min-height:0;padding:14px 19px}
+ #portada-actividad .pcard h2{margin:4px 0;font-size:clamp(19px,1.8vw,25px)}
+ #portada-actividad .pcard p{font-size:13px;line-height:1.35;margin:6px 0}
+ #portada-actividad .pcard .units{margin:7px 0}
+ #portada-actividad .loja-instituciones{margin:4px auto 7px;padding:8px 11px 9px;flex:0 0 auto}
+ #portada-actividad .loja-instituciones h2{font-size:15px;margin:0 0 5px}
+ #portada-actividad .loja-instituciones>p:not(.loja-aviso){display:none}
+ #portada-actividad .loja-entidades{grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}
+ #portada-actividad .loja-entidad{padding:7px;min-height:63px;gap:6px}
+ #portada-actividad .loja-entidad img{width:43px;height:43px;flex-basis:43px}
+ #portada-actividad .loja-entidad .loja-sigla{flex-basis:43px;min-height:43px;font-size:11px}
+ #portada-actividad .loja-entidad strong{font-size:11px;line-height:1.15}
+ #portada-actividad .loja-entidad small{display:none}
+ #portada-actividad .loja-aviso{display:none}
+ #portada-actividad .portada-pie{padding-top:7px;padding-bottom:7px;flex:0 0 auto}
+}
+@media(min-width:1100px) and (min-height:680px) and (max-height:790px){
+ #portada-actividad .portada-hero{padding-top:8px;padding-bottom:4px}
+ #portada-actividad .form-art .fr:nth-last-child(2){display:none}
+ #portada-actividad .pcard p{display:none}
+ #portada-actividad .portada-cursos{padding:3px clamp(18px,5vw,64px) 5px}
+}
+@media(min-width:1100px) and (min-height:680px) {
+ body:has(#portada-actividad:not([hidden])){overflow:hidden}
+}
 </style></head><body><section class="portada" id="portada-actividad" data-module="loja" aria-label="Portada del Taller de reimpulso de Loja" style="--cover-accent:#aed8bf">
 <div class="portada-bar"><strong>AULA · SALUD COMUNITARIA</strong><a href="../index.html">← Aula principal</a></div>
 <div class="portada-hero"><div><div class="p-kicker">Acción local en salud · RELAS · 2026</div><h1>Reimpulso del I Plan Local de Salud <span>Loja</span></h1><p>Encuentro para revisar antecedentes, situación de salud, participación comunitaria y opciones de continuidad del proceso local.</p><span class="fecha">16 de octubre · 10:00–11:30 · 90 minutos</span></div>
