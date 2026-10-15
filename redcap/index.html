@@ -1,74 +1,572 @@
-<!doctype html>
-<html lang="es">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#173c35">
-<meta name="description" content="Aula de Salud Comunitaria Basada en Activos: formación, mapeo de activos y talleres de impulso de la acción local en salud en Andalucía.">
-<title>Aula de Salud Comunitaria Basada en Activos</title>
-<style>
-:root{--deep:#173d35;--ink:#213a35;--muted:#64756e;--line:#dce6dc;--paper:#f7f8f3;--accent:#167967;--mint:#e3eee4}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
-a{color:inherit}a:focus-visible{outline:3px solid #dc9d39;outline-offset:4px}
-.top{background:var(--deep);color:white;padding:22px clamp(20px,5vw,76px);display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
-.brand{font-size:13px;letter-spacing:.08em;text-transform:uppercase;font-weight:800}.top small{color:#c5e0d2}
-main{max-width:1160px;margin:auto;padding:clamp(32px,6vw,75px) 22px}
-.eyebrow{font-size:12px;font-weight:850;letter-spacing:.13em;color:var(--accent);text-transform:uppercase}
-h1{font-family:Georgia,serif;font-weight:600;font-size:clamp(36px,6vw,66px);line-height:1.08;letter-spacing:-.035em;max-width:900px;margin:12px 0 22px}
-.intro{color:#516b61;max-width:780px;font-size:clamp(16px,2vw,19px)}
-.section-head{display:flex;justify-content:space-between;align-items:end;gap:10px;flex-wrap:wrap;margin:56px 0 20px}
-.section-head h2{font-family:Georgia,serif;font-size:29px;line-height:1.2;margin:0}
-.section-head p{font-size:13px;color:var(--muted);margin:0}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:20px}
-.card{background:white;border:1px solid var(--line);border-radius:22px;padding:clamp(23px,3vw,36px);box-shadow:0 16px 36px #193f3010;display:flex;flex-direction:column;min-height:365px;transition:transform .15s,border-color .15s}
-.card:hover{transform:translateY(-3px);border-color:#a5cbbb}
-.num{font-size:12px;letter-spacing:.1em;color:var(--accent);font-weight:800}
-.card h3{font-family:Georgia,serif;font-size:clamp(25px,3vw,34px);font-weight:600;line-height:1.2;margin:20px 0 13px;color:var(--deep)}
-.card p{font-size:15px;color:#526a61;margin:0 0 21px}
-.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto;margin-bottom:26px}
-.chips span{border-radius:30px;background:var(--mint);padding:5px 11px;color:#315b4c;font-size:12px;font-weight:700}
-.go{display:inline-flex;align-items:center;justify-content:space-between;gap:12px;background:var(--deep);padding:13px 18px;border-radius:12px;color:white;text-decoration:none;font-weight:800}
-.go:hover{background:#286553}
-.note{border-left:4px solid #70af99;background:#eef4ed;padding:20px 24px;border-radius:0 13px 13px 0;margin-top:44px;color:#52665d}
-.note strong{color:var(--deep)}
-footer{background:#e9efe7;border-top:1px solid var(--line);padding:24px;color:#617569;font-size:13px;text-align:center}
-@media(max-width:720px){.cards{grid-template-columns:1fr}.card{min-height:auto}h1{font-size:clamp(34px,9vw,54px)}}
-</style>
-</head>
-<body>
-<header class="top"><span class="brand">Aula · Salud Comunitaria</span><small>Formación y herramientas para la práctica local</small></header>
-<main id="inicio">
-<span class="eyebrow">Plataforma formativa · Andalucía</span>
-<h1>Aula de Salud Comunitaria<br>Basada en Activos</h1>
-<p class="intro">Aprender, identificar y poner en valor los recursos y capacidades de las comunidades. Un espacio abierto de aprendizaje, reflexión y práctica de la salud comunitaria. Reúne aulas, talleres y herramientas para reconocer las capacidades de las comunidades y construir respuestas participativas a sus necesidades.</p>
-<div class="section-head"><h2>Espacios de aprendizaje</h2><p>Todas las aulas disponibles · catálogo ampliable</p></div>
-<div class="cards">
-<article class="card">
-<div class="num">MÓDULO 01 · FUNDAMENTOS Y PRÁCTICA</div>
-<h3>Activos comunitarios y mapeo</h3>
-<p>Un recorrido práctico por los activos para la salud, su identificación, los criterios de selección y el trabajo con Localiza Salud. Incluye actividades, herramientas, técnicas y materiales para los talleres.</p>
-<div class="chips"><span>Mapeo comunitario</span><span>Localiza Salud</span><span>Talleres interactivos</span></div>
-<a class="go" href="./activos/index.html" aria-label="Abrir el aula de Activos comunitarios y mapeo">Entrar al aula <span aria-hidden="true">→</span></a>
-</article>
-<article class="card">
-<div class="num">MÓDULO 02 · APLICACIÓN TERRITORIAL</div>
-<h3>Taller de impulso de la acción local en salud en Andalucía</h3>
-<p>Preparación, moderación y documentación de una sesión intersectorial de impulso a la acción local en salud. Incluye un itinerario de 90 minutos y una ficha de trabajo. Caso de aplicación: Loja (Granada).</p>
-<div class="chips"><span>RELAS</span><span>90 minutos</span><span>Caso Loja</span><span>Ficha de trabajo</span></div>
-<a class="go" href="./impulso/index.html" aria-label="Abrir el Taller de impulso de la acción local en salud en Andalucía">Entrar al taller <span aria-hidden="true">→</span></a>
-</article>
-<article class="card">
-<div class="num">MÓDULO 03 · HERRAMIENTAS PARA EVALUAR</div>
-<h3>Diseño de cuestionarios en salud con REDCap</h3>
-<p>Dos cursos de 20 horas, Básico y Avanzado, para construir instrumentos de recogida de datos fiables: tipos de campo, validaciones, protección de datos, lógica condicional, cálculos, encuestas y control de calidad.</p>
-<div class="chips"><span>REDCap</span><span>Básico y Avanzado</span><span>RGPD</span><span>2027</span></div>
-<a class="go" href="./redcap/index.html" aria-label="Abrir el Aula REDCap de diseño de cuestionarios en salud">Entrar al aula <span aria-hidden="true">→</span></a>
-</article>
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102a28"><meta name="description" content="Aula REDCap: cursos Básico y Avanzado de diseño de cuestionarios en salud, Distrito Sanitario Granada Metropolitano, 2027."><title>Aula REDCap · Cuestionarios en salud</title><style>
+/* Misma identidad que el Aula de Salud Comunitaria: verde profundo, papel claro, Georgia en titulares. Cada curso tiñe su acento: Básico verde azulado, Avanzado ocre. */
+:root{color-scheme:light;--ink:#183a37;--deep:#102a28;--muted:#617574;--teal:#137c73;--light:#e8f4ef;--sand:#f6f5ef;--line:#dce5e0;--white:#fff;--ochre:#9a5b12;--shadow:0 14px 45px rgba(18,52,45,.07);
+--cc:#137c73;--cc-soft:#e3f1ec;--cc-line:#b9dccf;--code:#0e2926;--code-fg:#e6f3ee;--ok:#2f6b3a;--ok-bg:#e8f2ea;--warn-bg:#fff7e9;--warn-line:#d9b781;--bad:#9b2c2c;--bad-bg:#fbecec}
+body.c-avanzado{--cc:#a35f0f;--cc-soft:#f8eedf;--cc-line:#e6c99c}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;color:#243b39;background:var(--sand);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.58;font-size:15px}
+button,input{font:inherit}button{cursor:pointer}a{color:var(--teal)}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #edb957;outline-offset:3px}
+.skip{position:absolute;left:-999px;top:0;background:white;padding:1rem;z-index:90}.skip:focus{left:0}
+[hidden]{display:none!important}
+
+/* portada */
+.portada{min-height:100vh;background:var(--deep);color:white;display:flex;flex-direction:column}
+.portada-bar{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:18px clamp(18px,5vw,64px);font-size:12px;letter-spacing:.12em}
+.portada-bar a{color:#cfe8dc;text-decoration:none;letter-spacing:0;font-size:13px;margin-right:130px}
+.portada-hero{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:40px;align-items:center;padding:clamp(28px,6vw,70px) clamp(18px,5vw,64px) 30px;max-width:1300px;margin:0 auto;width:100%}
+.p-kicker{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#aed8bf;font-weight:800}
+.portada h1{font-family:Georgia,serif;font-weight:600;font-size:clamp(40px,6.4vw,78px);line-height:1.02;letter-spacing:-.035em;margin:14px 0 18px}
+.portada h1 span{display:block;color:#aed8bf;font-size:.52em;letter-spacing:-.02em;margin-top:8px}
+.portada-hero p{color:#cfe1da;font-size:clamp(16px,1.8vw,19px);max-width:56ch;margin:0}
+.fecha{display:inline-block;margin-top:22px;border:1px solid #3d6a62;border-radius:30px;padding:8px 15px;font-size:13px;color:#e4f3ec}
+/* ilustración: formulario REDCap estilizado */
+.form-art{background:#f6f5ef;color:#243b39;border-radius:20px;padding:20px 22px;box-shadow:0 30px 60px #0008;transform:rotate(-2deg);max-width:420px;justify-self:center;width:100%}
+.form-art .fh{display:flex;justify-content:space-between;font:800 11px system-ui;letter-spacing:.1em;color:var(--teal);margin-bottom:12px}
+.form-art .fr{display:grid;grid-template-columns:118px 1fr;gap:10px;align-items:center;padding:8px 0;border-top:1px solid #dce5e0;font-size:13px}
+.form-art code{font:12px ui-monospace,Consolas,monospace;color:#5b6f6b}
+.form-art .box{height:24px;border:1px solid #c8d8cf;border-radius:6px;background:white;display:flex;align-items:center;padding:0 8px;font-size:12px}
+.form-art .rad{display:flex;gap:10px;font-size:12px}.form-art .rad i{display:inline-block;width:11px;height:11px;border-radius:50%;border:1.5px solid #7c918c;margin-right:4px;vertical-align:-1px}.form-art .rad i.on{background:var(--teal);border-color:var(--teal)}
+.form-art .br{font:11px ui-monospace,Consolas,monospace;background:#e3f1ec;color:#1c5950;border-radius:6px;padding:4px 8px;margin-top:6px}
+.form-art .save{margin-top:14px;display:flex;justify-content:flex-end}.form-art .save span{background:var(--teal);color:white;border-radius:7px;padding:6px 12px;font-size:12px;font-weight:700}
+.portada-cursos{max-width:1300px;margin:0 auto;width:100%;padding:10px clamp(18px,5vw,64px) 40px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.pcard{background:#173f3a;border:1px solid #2f5d56;border-radius:20px;padding:24px;display:flex;flex-direction:column;gap:10px}
+.pcard .lv{font-size:11px;letter-spacing:.14em;font-weight:800;color:#aed8bf;text-transform:uppercase}
+.pcard.av .lv{color:#f0c98c}
+.pcard h2{font-family:Georgia,serif;font-weight:600;font-size:clamp(26px,3vw,34px);margin:0;line-height:1.1}
+.pcard p{margin:0;color:#c8ddd5;font-size:14px}
+.pcard .units{display:flex;gap:6px;flex-wrap:wrap;margin:4px 0}
+.pcard .units span{font:700 11px ui-monospace,Consolas,monospace;border:1px solid #4a7a72;border-radius:20px;padding:3px 9px;color:#e4f3ec}
+.cta{display:inline-flex;align-items:center;gap:10px;background:#aed8bf;color:var(--deep);border:0;border-radius:12px;padding:12px 18px;font-weight:850;text-decoration:none;align-self:flex-start;margin-top:auto}
+.pcard.av .cta{background:#f0c98c}
+.cta:hover{filter:brightness(1.06)}
+.portada-pasos{max-width:1300px;margin:0 auto;width:100%;padding:0 clamp(18px,5vw,64px) 30px}
+.portada-pasos h3{font-family:Georgia,serif;font-weight:600;font-size:22px;margin:0 0 12px}
+.pasos{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.pasos div{border:1px solid #2f5d56;border-radius:14px;padding:12px 14px;font-size:13px;color:#c8ddd5}
+.pasos div b{display:block;color:white;font-size:14px}.pasos div.pr{background:#21504a}
+.pasos small{font:800 10px ui-monospace,monospace;color:#aed8bf}
+.portada-pie{margin-top:auto;padding:16px clamp(18px,5vw,64px);border-top:1px solid #2a524c;color:#9fbfb4;font-size:12px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.portada-pie button{background:none;border:0;color:#cfe8dc;text-decoration:underline;padding:0}
+
+/* aula */
+.site-head{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px clamp(18px,4vw,56px);background:var(--deep);color:white;position:sticky;top:0;z-index:30;border-bottom:3px solid #b5e0cd;flex-wrap:wrap}
+body.c-avanzado .site-head{border-bottom-color:#f0c98c}
+.identity{font-size:13px;letter-spacing:.11em;font-weight:850;color:white;white-space:nowrap;background:none;border:0;padding:0}
+.identity b{font-size:23px;color:#aed8bf}
+.head-actions{display:flex;gap:8px;flex-wrap:wrap;margin-right:130px}
+.pill-btn{border:1px solid #688783;background:transparent;color:#f3fff9;padding:8px 13px;border-radius:30px;font-size:12px;font-weight:750}
+.pill-btn:hover,.pill-btn[aria-pressed="true"]{background:#25534e}
+.layout{display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);max-width:1550px;margin:auto;min-height:calc(100vh - 62px)}
+.rail{border-right:1px solid var(--line);background:#eff3ed;padding:24px 14px;position:sticky;top:62px;align-self:start;height:calc(100vh - 62px);overflow:auto}
+.switch{display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#e1ece5;border-radius:12px;padding:4px;margin:0 6px 20px}
+.switch button{border:0;background:transparent;border-radius:9px;padding:7px 6px;font-size:12px;font-weight:800;color:#45625c}
+.switch button[aria-pressed="true"]{background:white;color:var(--cc);box-shadow:0 2px 10px #173e2e14}
+.rail-kicker{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--cc);font-weight:800;padding:0 12px}
+.rail-title{font-family:Georgia,serif;font-size:24px;line-height:1.12;margin:8px 12px 6px;color:var(--deep)}
+.rail-desc{font-size:12px;color:var(--muted);margin:0 12px 22px}
+.menu{display:grid;gap:6px}
+.nav-btn{border:1px solid transparent;background:transparent;text-align:left;padding:11px 12px;border-radius:13px;display:flex;align-items:flex-start;gap:11px;color:#355450;width:100%}
+.nav-btn:hover{background:#e1ece5}
+.nav-btn.active{background:white;border-color:#c8d9d0;box-shadow:0 4px 20px #173e2e0b;color:#173e3b}
+.nav-num{font-size:11px;font-weight:900;color:var(--cc);padding-top:2px;min-width:20px}
+.nav-text{font-size:13px;font-weight:800;line-height:1.3}
+.nav-text small{font-size:11px;display:block;font-weight:500;color:#71827f;margin-top:3px}
+.tagp{display:inline-block;font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;font-weight:850;border-radius:20px;padding:1px 7px;margin-top:5px;background:var(--cc-soft);color:var(--cc)}
+.tagp.np{background:#fff3df;color:#8a5a14}
+.sub{list-style:none;margin:2px 0 8px 33px;padding:0 0 0 10px;border-left:2px solid var(--line)}
+.sub button{border:0;background:none;padding:4px 8px;border-radius:7px;text-align:left;width:100%;font-size:12.5px;color:#5e7470}
+.sub button:hover{color:var(--deep)}
+.sub button[aria-current="true"]{color:var(--cc);font-weight:800;background:white}
+.rail-bottom{border-top:1px solid #d4dfd6;margin-top:22px;padding:16px 12px;color:#667a73;font-size:11px;display:grid;gap:6px}
+.rail-bottom button{background:none;border:0;padding:0;text-align:left;color:var(--teal);font-weight:700;font-size:12px}
+.workspace{padding:0 clamp(22px,4vw,64px) 110px;max-width:1120px;width:100%;margin:0 auto;min-width:0}
+.step-head{display:flex;align-items:flex-end;justify-content:space-between;gap:15px;margin:30px 0 16px;flex-wrap:wrap}
+.step-count{font-size:11px;font-weight:850;color:var(--cc);letter-spacing:.12em;text-transform:uppercase}
+.step-head .crumb{font-size:12px;color:var(--muted)}
+.progress-track{height:4px;background:#dfe7dd;border-radius:9px;overflow:hidden;width:min(320px,100%)}
+.progress-fill{height:100%;background:var(--cc);transition:width .2s}
+.panel{background:white;border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);padding:clamp(22px,4vw,42px);animation:appear .18s ease-out}
+@keyframes appear{from{opacity:.4;transform:translateY(5px)}}
+@media (prefers-reduced-motion:reduce){.panel{animation:none}}
+.kick{font-size:11px;color:var(--cc);font-weight:850;letter-spacing:.15em;text-transform:uppercase;margin:0 0 6px}
+.panel h2{font-family:Georgia,serif;font-weight:600;letter-spacing:-.02em;line-height:1.12;font-size:clamp(27px,3.4vw,40px);color:var(--deep);margin:0 0 16px;text-wrap:balance}
+.panel h3{font-size:17px;color:var(--deep);margin:22px 0 8px}
+.panel p,.panel ul,.panel ol{max-width:74ch}
+.panel ul,.panel ol{padding-left:1.25em}.panel li{margin:5px 0}.panel li::marker{color:var(--cc)}
+.lead{font-size:17px;color:#58726b}
+code{font:13px ui-monospace,"Cascadia Mono",Consolas,monospace;background:#eef3ef;color:#1c4a43;padding:1px 6px;border-radius:5px;overflow-wrap:anywhere}
+pre{font:13.5px/1.62 ui-monospace,"Cascadia Mono",Consolas,monospace;background:var(--code);color:var(--code-fg);border-radius:14px;padding:15px 18px;overflow-x:auto;max-width:100%;border-left:4px solid var(--cc)}
+.tw{overflow-x:auto;max-width:100%;margin:14px 0;border:1px solid var(--line);border-radius:14px}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:9px 12px;vertical-align:top}
+th{font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--cc);background:var(--cc-soft);font-weight:850}
+td{border-top:1px solid var(--line)}tr:nth-child(odd) td{background:#fafcf9}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));margin:16px 0}
+.card{background:#f2f7f3;border:1px solid #e1e9e0;border-radius:14px;padding:16px 18px;min-width:0}
+.card h3{margin-top:0}.card p{margin:4px 0 0;color:var(--muted);font-size:14px}
+.note,.warn,.bad,.good{border-left:4px solid #70af99;background:#eef4ed;padding:14px 18px;border-radius:0 13px 13px 0;margin:18px 0;max-width:74ch;color:#41574f}
+body.c-avanzado .note{border-left-color:#d9a85c;background:#fbf4e8}
+.warn{border-left-color:#d59a45;background:var(--warn-bg);color:#6f4d1c}
+.bad{border-left-color:#c45656;background:var(--bad-bg);color:#6e2a2a}
+.good{border-left-color:#5f9a5f;background:var(--ok-bg);color:#2f523a}
+.flow{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}
+.flow>div{flex:1 1 140px;min-width:0;border:1px solid var(--line);border-radius:14px;padding:12px 14px;background:#fafcf9;font-size:14px}
+.flow>div b{display:block;color:var(--deep)}
+.flow>div.on{background:var(--cc);border-color:var(--cc);color:white}.flow>div.on b{color:white}
+.agenda{list-style:none!important;padding:0!important;margin:18px 0;max-width:760px}
+.agenda li{display:grid;grid-template-columns:7.4em 20px minmax(0,1fr);gap:10px;margin:0!important;padding:7px 0}
+.agenda .t{font:700 12.5px ui-monospace,Consolas,monospace;color:var(--cc);padding-top:3px}
+.agenda .d{width:13px;height:13px;border-radius:50%;background:var(--cc);margin:6px auto 0;box-shadow:0 0 0 4px var(--cc-soft);position:relative}
+.agenda li:not(:last-child) .d::after{content:"";position:absolute;left:5.5px;top:16px;width:2px;height:calc(100% + 16px);background:var(--line)}
+.agenda li.pausa .d{background:#d59a45;box-shadow:0 0 0 4px #fff3df}.agenda li.pausa .x{color:var(--muted);font-style:italic}
+.check{list-style:none!important;padding:0!important;display:grid;gap:7px;max-width:720px}
+.check li{margin:0!important}
+.check label{display:flex;gap:12px;align-items:flex-start;cursor:pointer;padding:10px 14px;border:1px solid var(--line);border-radius:12px;background:#fafcf9}
+.check label:hover{border-color:var(--cc-line)}
+.check input{margin-top:.25em;accent-color:var(--cc);width:1.1em;height:1.1em;flex:none}
+.check input:checked+span{color:var(--muted);text-decoration:line-through}
+.lab{border:2px solid var(--cc-line);border-radius:16px;padding:16px 18px;margin:18px 0;max-width:780px;background:#fcfdfb}
+.lab h3{margin-top:0;color:var(--cc)}
+.qs{display:grid;gap:12px}.opts{display:flex;flex-wrap:wrap;gap:6px}
+.opts button{border:1px solid var(--line);background:white;border-radius:30px;padding:7px 14px;font-size:13px}
+.opts button:hover{border-color:var(--cc)}
+.opts button[aria-pressed="true"]{background:var(--cc);border-color:var(--cc);color:white;font-weight:750}
+.answer{font:600 22px Georgia,serif;color:var(--cc)}
+.row{display:flex;flex-wrap:wrap;gap:12px;align-items:end}
+.row label{display:grid;font-size:12px;color:var(--muted);gap:4px;font-weight:700}
+.row input{font:15px ui-monospace,Consolas,monospace;width:8em;padding:7px 9px;border:1px solid #c8d8cf;border-radius:9px;background:#fafcf9}
+.steps{list-style:none!important;padding:0!important;margin:12px 0 0;font:13px ui-monospace,Consolas,monospace}
+.steps li{padding:6px 10px;border-radius:8px;color:var(--muted);margin:2px 0!important}
+.steps li.hit{background:var(--ok-bg);color:var(--deep);font-weight:700}.steps li.skip{opacity:.45}
+.pill{display:inline-block;font-size:10px;letter-spacing:.08em;text-transform:uppercase;font-weight:850;border-radius:20px;padding:2px 9px;background:var(--cc-soft);color:var(--cc)}
+.src{font-size:12.5px;color:var(--muted)}
+.dl{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:12px 14px;border:1px solid var(--line);border-radius:14px;background:#fafcf9;margin-bottom:8px;text-decoration:none;color:inherit}
+.dl:hover{border-color:var(--cc-line)}
+.dl .ext{font:800 10.5px ui-monospace,monospace;padding:6px 7px;border-radius:7px;background:#9b2c2c;color:white;flex:none}.dl .ext.csv{background:#2f6b3a}
+.dl span.t{flex:1;min-width:0}.dl small{display:block;color:var(--muted);overflow-wrap:anywhere}
+.dl .go{font-weight:800;color:var(--teal);font-size:13px;flex:none}
+
+.controls{position:fixed;left:0;right:0;bottom:0;z-index:25;display:flex;gap:10px;align-items:center;justify-content:center;background:#ffffffee;backdrop-filter:blur(6px);border-top:1px solid var(--line);padding:10px 16px}
+.controls button{border:1px solid var(--line);background:white;border-radius:30px;padding:8px 16px;font-weight:750;font-size:13px;color:var(--deep)}
+.controls button#next{background:var(--cc);border-color:var(--cc);color:white}
+.controls button:disabled{opacity:.35;cursor:default}
+#count{font:700 12px ui-monospace,monospace;color:var(--muted);min-width:7em;text-align:center}
+#exit{display:none}
+body.pres #exit{display:inline-block}
+body.pres .rail{display:none}body.pres .layout{grid-template-columns:minmax(0,1fr)}
+body.pres .workspace{max-width:1200px;font-size:18px}body.pres .panel h2{font-size:clamp(32px,4.2vw,52px)}body.pres table{font-size:16px}body.pres pre{font-size:16px}
+
+/* cronómetro (mismo comportamiento que el Aula de Activos) */
+.timer-widget{position:fixed;right:16px;bottom:74px;z-index:40;background:var(--deep);color:white;border-radius:18px;padding:14px 16px;width:230px;box-shadow:0 20px 50px #0006;display:grid;gap:8px}
+.timer-head{display:flex;justify-content:space-between;align-items:center;font-size:13px}
+.timer-head button{background:none;border:0;color:#cfe8dc;font-size:20px;line-height:1}
+#timer-display{font:700 40px ui-monospace,Consolas,monospace;text-align:center;letter-spacing:.04em}
+.timer-widget label{font-size:11px;color:#aed8bf}
+.timer-widget input{width:100%;border-radius:8px;border:1px solid #3d6a62;background:#173f3a;color:white;padding:6px 8px}
+#timer-state{font-size:12px;color:#cfe1da;min-height:1.2em}
+.timer-actions{display:flex;gap:6px}.timer-actions button{flex:1;border:0;border-radius:9px;padding:7px;font-weight:800;background:#aed8bf;color:var(--deep)}
+.timer-actions button+button{background:#25534e;color:white}
+.timer-widget.timer-done #timer-display{color:#f0c98c}
+
+@media (max-width:900px){.layout{grid-template-columns:minmax(0,1fr)}.rail{position:static;height:auto;border-right:0;border-bottom:1px solid var(--line)}.sub{display:none}.menu{grid-auto-flow:column;grid-auto-columns:minmax(190px,1fr);overflow-x:auto;padding-bottom:4px}.nav-text small,.rail-desc,.rail-bottom span{display:none}.rail{padding:16px 10px}.portada-hero{grid-template-columns:minmax(0,1fr)}.form-art{display:none}.portada-cursos{grid-template-columns:minmax(0,1fr)}.pasos{grid-template-columns:repeat(2,minmax(0,1fr))}.head-actions,.portada-bar a{margin-right:0}.site-head{padding-top:56px}.portada-bar{padding-top:56px}}
+@media print{.site-head,.rail,.controls,#aula-home-global,.aula-back,.timer-widget{display:none!important}.layout{display:block}.panel{box-shadow:none;border:0}}
+</style></head><body>
+<a id="aula-home-global" href="../index.html" aria-label="Volver a la página principal del Aula de Salud Comunitaria Basada en Activos" style="position:fixed!important;top:10px;right:12px;z-index:2147483647!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;gap:7px;background:#16473e!important;color:white!important;border:2px solid #e2f0e8!important;border-radius:30px!important;padding:9px 14px!important;max-width:calc(100vw - 24px);font:700 13px/1.2 system-ui,sans-serif!important;text-decoration:none!important;box-shadow:0 5px 18px #0b251e44!important;visibility:visible!important;opacity:1!important">⌂ Aula · Inicio</a>
+<a href="#main" class="skip">Ir al contenido</a>
+
+<section class="portada" id="portada" aria-label="Portada del Aula REDCap">
+  <div class="portada-bar"><strong>AULA · SALUD COMUNITARIA</strong><a href="../index.html">← Aula principal</a></div>
+  <div class="portada-hero">
+    <div>
+      <div class="p-kicker">Formación continuada · Gesforma · 2027</div>
+      <h1>Aula REDCap <span>Diseño de cuestionarios en salud</span></h1>
+      <p>Dos cursos semipresenciales de 20 horas. Cada participante construye su propio instrumento de recogida de datos sobre un tema real de su trabajo, siempre con datos ficticios.</p>
+      <div class="fecha">Distrito Sanitario Granada Metropolitano · jueves, 09:00–14:00</div>
+    </div>
+    <div class="form-art" aria-hidden="true">
+      <div class="fh"><span>HÁBITOS DE VIDA</span><span>REGISTRO 14</span></div>
+      <div class="fr"><code>edad</code><span class="box">47</span></div>
+      <div class="fr"><code>sexo</code><span class="rad"><span><i></i>Hombre</span><span><i class="on"></i>Mujer</span></span></div>
+      <div class="fr"><code>af_regular</code><span class="rad"><span><i class="on"></i>Sí</span><span><i></i>No</span></span></div>
+      <div class="fr"><code>af_dias_sem</code><span><span class="box">3</span><div class="br">[af_regular] = '1'</div></span></div>
+      <div class="fr"><code>imc</code><span class="box">24.2 · Normopeso</span></div>
+      <div class="save"><span>Save &amp; Exit Form</span></div>
+    </div>
+  </div>
+  <div class="portada-cursos" id="portada-cursos"></div>
+  <div class="portada-pasos"><h3>Cómo funciona cada edición</h3>
+    <div class="pasos"><div><small>1</small><b>Pre-test</b>encuesta en REDCap</div><div class="pr"><small>2</small><b>Sesión 1</b>5 h presenciales</div><div><small>3</small><b>Trabajo 1</b>5 h · entrega 1</div><div class="pr"><small>4</small><b>Sesión 2</b>5 h presenciales</div><div><small>5</small><b>Trabajo 2</b>entrega final y post-test</div></div>
+    <p style="color:#c8ddd5;font-size:13px;margin:14px 0 0">Nota final: 20% entrega 1 + 20% entrega final + 60% post-test. Certifica con asistencia ≥ 80%, post-test ≥ 5/10 y nota final ≥ 5.</p>
+  </div>
+  <div class="portada-pie"><span>Docente: Blas R. Hermoso · Equipo de Promoción de la Salud, UGC Prevención, Promoción y Vigilancia de la Salud</span><button type="button" data-go-mat>Materiales descargables →</button></div>
+</section>
+
+<div id="aula" hidden>
+<header class="site-head">
+  <button class="identity" id="to-portada" type="button"><b>R.</b> AULA REDCAP <span style="font-weight:400;opacity:.7">CUESTIONARIOS EN SALUD</span></button>
+  <div class="head-actions">
+    <button class="pill-btn" id="timer-activate" type="button" aria-controls="timer-widget" aria-expanded="false">◷ Cronómetro</button>
+    <button class="pill-btn" id="screen-full" type="button">⛶ Pantalla completa</button>
+    <button class="pill-btn" id="present" type="button" aria-pressed="false">▣ Presentar</button>
+  </div>
+</header>
+<div class="layout">
+  <aside class="rail" aria-label="Recorrido del curso">
+    <div class="switch" role="group" aria-label="Curso" id="switch"></div>
+    <div class="rail-kicker" id="rail-kicker"></div>
+    <div class="rail-title" id="rail-title"></div>
+    <p class="rail-desc" id="rail-desc"></p>
+    <nav class="menu" id="menu" aria-label="Unidades"></nav>
+    <div class="rail-bottom"><button type="button" data-go-mat>↓ Materiales descargables</button><button type="button" id="rail-portada">← Portada del aula</button><span>Las marcas de las listas de práctica se guardan solo en este navegador.</span></div>
+  </aside>
+  <main class="workspace" id="main">
+    <div class="step-head"><div><div class="step-count" id="step-count"></div><div class="crumb" id="crumb"></div></div><div class="progress-track" aria-hidden="true"><div class="progress-fill" id="prog"></div></div></div>
+    <div id="view"></div>
+  </main>
 </div>
-<section aria-labelledby="proyecto-aula" style="margin-top:46px;border-top:1px solid var(--line);padding-top:28px"><span class="eyebrow">Sobre esta aula</span><h2 id="proyecto-aula" style="font-family:Georgia,serif;font-size:29px;font-weight:600;margin:10px 0">Un espacio para aprender y trabajar en comunidad</h2><p style="max-width:880px;color:#526a61">Esta aula reúne materiales formativos sobre salud comunitaria basada en activos y acción local en salud en Andalucía. Cada módulo ofrece su propio recorrido, documentos y herramientas prácticas. Puedes acceder a cualquiera de ellos y regresar a esta página principal en cualquier momento mediante el enlace «⌂ Aula · Inicio».</p><p style="max-width:880px;color:#526a61">El catálogo crecerá con nuevas propuestas formativas y experiencias territoriales, manteniendo una puerta de entrada común y una navegación coherente.</p></section><aside class="note"><strong>Tres herramientas, un mismo enfoque.</strong> El primer módulo introduce el mapeo y el reconocimiento de activos comunitarios. El segundo explora cómo traducir esa mirada en diálogo intersectorial y propuestas de participación local. El tercero ofrece la herramienta para recoger y evaluar datos de forma rigurosa en esos proyectos. El taller de Loja es un material de trabajo: las afirmaciones y cifras que contiene deben contrastarse antes de su difusión como datos oficiales.</aside>
-</main>
-<footer>Aula de Salud Comunitaria Basada en Activos · Material formativo de trabajo · 2026</footer>
-</body>
-</html>
+<div class="controls" aria-label="Navegación entre pantallas"><button id="prev" type="button">← Anterior</button><span id="count"></span><button id="next" type="button">Siguiente →</button><button id="exit" type="button">Salir ×</button></div>
+<aside id="timer-widget" class="timer-widget" hidden aria-label="Cronómetro"><div class="timer-head"><strong>Cronómetro</strong><button type="button" id="timer-close" aria-label="Cerrar cronómetro">×</button></div><output id="timer-display" aria-label="Tiempo restante">05:00</output><label for="timer-minutes">Duración en minutos</label><input id="timer-minutes" type="number" min="1" max="180" step="1" value="5"><div id="timer-state" role="status" aria-live="polite">Preparado</div><div class="timer-actions"><button id="timer-play" type="button">Iniciar</button><button id="timer-reset" type="button">Reiniciar</button></div></aside>
+</div>
+
+<script>
+const AGENDA = rows => `<ol class="agenda">${rows.map(r=>`<li${r[2]?' class="pausa"':''}><span class="t">${r[0]}</span><span class="d"></span><span class="x">${r[1]}</span></li>`).join('')}</ol>`;
+const CHECK = (id, items) => `<ul class="check" data-ck="${id}">${items.map((t,i)=>`<li><label><input type="checkbox" id="${id}-${i}"><span>${t}</span></label></li>`).join('')}</ul>`;
+const TABLE = (head, rows) => `<div class="tw"><table><tr>${head.map(h=>`<th>${h}</th>`).join('')}</tr>${rows.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join('')}</tr>`).join('')}</table></div>`;
+
+const COURSES = [
+{ id:'basico', name:'REDCap Básico', sub:'Diseño de cuestionarios en salud', dates:'Ed. 1: 4 y 11 de febrero · Ed. 2: 16 y 23 de septiembre',
+  units:[
+  { id:'s1', k:'S1', kind:'p', title:'Fundamentos y primer instrumento', when:'Sesión presencial · 5 h', slides:[
+    {t:'Agenda', h:`<p class="kick">Sesión 1 · 09:00–14:00</p><h2>Fundamentos y primer instrumento</h2>
+      ${AGENDA([['09:00–09:20','Bienvenida, accesos a REDCap y comentario del pre-test'],['09:20–10:00','¿Por qué REDCap? Cuatro conceptos clave y el identificador de registro'],['10:00–10:45','Tipos de campo y validaciones'],['10:45–11:15','Demostración guiada: proyecto e instrumento'],['11:15–11:45','Pausa',1],['11:45–13:15','Práctica: instrumento propio (7–8 preguntas)'],['13:15–13:45','Registro de prueba, exportación y diccionario de datos'],['13:45–14:00','Cierre y trabajo no presencial 1']])}`},
+    {t:'¿Por qué REDCap?', h:`<p class="kick">Punto de partida</p><h2>¿Por qué REDCap y no una hoja de cálculo?</h2>
+      ${TABLE(['Problema','Excel / Google Forms','REDCap'],[
+        ['Borrado o cambio accidental','Sin rastro','Cada cambio queda en <code>Logging</code>: usuario, fecha y valor'],
+        ['Campos obligatorios','No hay forma fiable','<code>Required</code> avisa si queda vacío'],
+        ['Datos imposibles','"250" como edad','Validaciones de tipo y rangos'],
+        ['Preguntas condicionales','Confiar en que se salten','<code>Branching logic</code>'],
+        ['Varias personas','Duplicados y sobrescrituras','Derechos por usuario y grupos por centro'],
+        ['Protección de datos','Archivos por correo o USB','Servidor institucional e identificadores marcados']])}
+      <div class="note">No sustituye a un CRD comercial de ensayo clínico ni hace por sí solo que se cumpla el RGPD. Marcar identificadores, minimizar datos y limitar accesos sigue siendo trabajo del equipo.</div>`},
+    {t:'Cuatro conceptos', h:`<p class="kick">Conceptos clave</p><h2>Proyecto, instrumento, campo y registro</h2>
+      <div class="flow"><div class="on"><b>Proyecto</b>el estudio completo</div><div class="on"><b>Instrumento</b>un cuestionario</div><div class="on"><b>Campo</b>una pregunta</div><div><b>Registro</b>un participante y sus respuestas</div></div>
+      <p>Un taller con 30 participantes evaluado con un cuestionario inicial y otro final: <b>1 proyecto, 2 instrumentos, 30 registros</b>.</p>
+      <div class="note"><b>Regla práctica.</b> Si la respuesta cabe en una casilla, es un campo. Si agrupa varias preguntas bajo un título, es un instrumento.</div>`},
+    {t:'record_id', h:`<p class="kick">Identificador de registro</p><h2>El primer campo es siempre <code>record_id</code></h2>
+      <ul><li>REDCap lo crea automáticamente y no se puede mover de la primera posición.</li>
+      <li><b>Nunca datos personales:</b> ni nombre, ni DNI, ni NUHSA, ni número de historia. Aparece en todas las pantallas y exportaciones.</li>
+      <li>Lo más sencillo: <code>Project Setup → Enable auto-numbering for records</code> (1, 2, 3…).</li>
+      <li>Si el estudio necesita un código propio (<code>C02-015</code>), se define al principio y no se cambia.</li></ul>`},
+    {t:'Tipos de campo', h:`<p class="kick">Tipos de campo</p><h2>¿Qué tipo de campo necesito?</h2>
+      <div class="lab" id="lab-tipo"><h3>Asistente: responda a la pregunta sobre su pregunta</h3>
+        <div class="qs">
+          <div><p style="margin:0 0 6px">¿La respuesta es abierta o se elige entre opciones?</p><div class="opts" data-q="a"><button data-v="abierta">Abierta</button><button data-v="cerrada">Entre opciones</button></div></div>
+          <div data-show="abierta" hidden><p style="margin:0 0 6px">¿Qué se escribe?</p><div class="opts" data-q="b"><button data-v="Text Box + validación">Dato corto: número, fecha, código</button><button data-v="Notes Box">Texto largo</button><button data-v="Calculated Field">Se deduce de otros campos</button></div></div>
+          <div data-show="cerrada" hidden><p style="margin:0 0 6px">¿Cuántas opciones puede marcar quien responde?</p><div class="opts" data-q="b"><button data-v="Yes - No">Sí / No</button><button data-v="Radio Buttons">Una, entre pocas</button><button data-v="Drop-down">Una, entre muchas</button><button data-v="Checkboxes">Varias a la vez</button></div></div>
+          <div aria-live="polite"><span class="answer" id="tipo-res">Elija una opción</span></div>
+        </div></div>
+      <div class="bad"><b>Error común:</b> "Sexo" con Checkboxes permitiría marcar dos opciones a la vez. Pregúntese siempre si en la vida real se puede marcar más de una.</div>`},
+    {t:'Codificación', h:`<p class="kick">Opciones de respuesta</p><h2>Código, etiqueta</h2>
+      <pre>1, Ninguna
+2, 1-2 raciones
+3, 3-4 raciones
+4, 5 o más raciones</pre>
+      <ul><li>El <b>código</b> se guarda y se exporta. La <b>etiqueta</b> es lo que se ve.</li>
+      <li><code>0 = No / 1 = Sí</code> siempre igual. El tipo <code>Yes - No</code> ya lo hace así.</li>
+      <li>Escalas de menor a mayor. "No sabe / No contesta" con un código fijo (<code>99</code>) y documentado.</li></ul>`},
+    {t:'Paso a paso', h:`<p class="kick">Demostración guiada</p><h2>Tu primer instrumento</h2>
+      ${TABLE(['Variable','Etiqueta','Tipo','Validación / opciones'],[
+        ['<code>fecha_inclusion</code>','Fecha de inclusión','Text','Date (D-M-Y)'],
+        ['<code>edad</code>','Edad (años)','Text','Integer, 18–110'],
+        ['<code>sexo</code>','Sexo','Radio','<code>1, Hombre | 2, Mujer</code>'],
+        ['<code>af_regular</code>','¿Practica actividad física regularmente?','Yes - No','—'],
+        ['<code>af_dias_sem</code>','Días a la semana con actividad física','Text','Integer, 0–7'],
+        ['<code>af_min_sesion</code>','Minutos por sesión (min)','Text','Integer, 0–300'],
+        ['<code>barreras_af</code>','¿Qué le dificulta hacer ejercicio? (varias)','Checkboxes','<code>1, Tiempo | 2, Coste | 3, Salud | 4, Compañía</code>']])}
+      <p><b>Variable Name:</b> minúsculas, números y guion bajo, empieza por letra, máximo recomendado 26 caracteres. En producción no se cambia.</p>
+      <div class="warn"><b>Los datos de un formulario no se guardan solos.</b> Pulse <code>Save &amp; Exit Form</code>. Pruebe siempre con datos ficticios.</div>`},
+    {t:'Validaciones', h:`<p class="kick">Calidad desde la entrada</p><h2>Validaciones y rangos</h2>
+      ${TABLE(['Validación','Qué impide'],[
+        ['<code>Date (D-M-Y)</code>','Fechas imposibles. Se exportan siempre como <code>AAAA-MM-DD</code>'],
+        ['<code>Integer</code> / <code>Number (1 decimal place)</code>','Texto donde va un número'],
+        ['<code>Email</code>','Direcciones mal formadas'],
+        ['Mínimo / máximo','Valores implausibles. En entrada de datos es un <b>aviso</b>: deja guardar']])}
+      <div class="note">Rangos plausibles, no "cualquier número": edad 0–110, minutos por sesión 0–300, peso 2–250 kg, talla 40–220 cm.</div>`},
+    {t:'Exportación', h:`<p class="kick">Primera exportación</p><h2>Cómo salen los datos de REDCap</h2>
+      <p><code>Data Exports, Reports, and Stats → Export Data → CSV (raw data)</code></p>
+      <div class="tw"><table><tr><th>record_id</th><th>fecha_inclusion</th><th>sexo</th><th>barreras_af___1</th><th>barreras_af___2</th><th>barreras_af___3</th><th>barreras_af___4</th></tr>
+      <tr><td>1</td><td>2027-02-04</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td></tr>
+      <tr><td>2</td><td>2027-02-04</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td></tr></table></div>
+      <ul><li>Fechas en <code>AAAA-MM-DD</code>.</li><li><b>Una columna 0/1 por cada opción del checkbox.</b></li>
+      <li>El <b>diccionario de datos</b> (<code>Dictionary → Download</code>) acompaña siempre a los datos. El <code>Codebook</code> lo muestra en pantalla.</li></ul>`},
+    {t:'Práctica', h:`<p class="kick">Práctica de la sesión</p><h2>Antes de irte</h2>
+      ${CHECK('b-s1',['Proyecto creado, con numeración automática','Instrumento renombrado, con 7–8 preguntas de al menos 4 tipos','Validaciones y rangos en números y fechas','Un registro de prueba guardado','Una exportación CSV abierta y revisada'])}`}
+  ]},
+  { id:'t1', k:'T1', kind:'np', title:'Ampliar, probar y exportar', when:'No presencial · 5 h · Entrega 1', slides:[
+    {t:'Tarea', h:`<p class="kick">Trabajo no presencial 1 · entrega hasta el martes 9 feb / 21 sep</p><h2>Ampliar el instrumento y probarlo</h2>
+      ${TABLE(['#','Qué hacer','Tiempo'],[['1','Amplía con 5–6 campos en 2 dimensiones nuevas','1,5 h'],['2','Aplica las buenas prácticas a todo el instrumento','1,5 h'],['3','5 registros ficticios variados, uno con valores límite y otro fuera de rango','1 h'],['4','Exporta el CSV y descarga el diccionario de datos','0,5 h'],['5','Prepara dudas concretas','0,5 h']])}
+      <p><b>Se entrega por correo:</b> diccionario de datos (CSV), datos exportados (CSV) y tus dudas. El diccionario sustituye a las capturas de pantalla.</p>`},
+    {t:'Buenas prácticas', h:`<p class="kick">Para todos los campos</p><h2>Buenas prácticas</h2>
+      ${TABLE(['Bien','Mal'],[['<code>peso_kg</code>','<code>Peso del paciente</code>'],['<code>fecha_ingreso</code>','<code>var1</code>'],['"Peso (kg)"','"Peso"'],['Prefijo por bloque: <code>af_</code>, <code>ali_</code>','Nombres sin patrón']])}
+      <ul><li>Secciones (<code>Section Header</code>) para separar bloques.</li><li>Textos de ayuda en el <code>Field Note</code> cuando una pregunta pueda generar dudas.</li></ul>`},
+    {t:'Rúbrica', h:`<p class="kick">Entrega 1 · 20% de la nota</p><h2>Cómo se evalúa</h2>
+      ${TABLE(['Criterio','2 puntos','1 punto'],[['Ampliación','≥ 5 campos en ≥ 2 dimensiones','Menos campos o una dimensión'],['Tipos de campo','Todos adecuados','1–2 inadecuados'],['Validaciones','Completas y plausibles','Faltan o son laxas'],['Nomenclatura','Clara, con unidades, secciones y ayudas','Parcial'],['Pruebas y exportación','≥ 5 registros con valores límite y archivos entregados','Poco variados o falta un archivo']])}
+      ${CHECK('b-t1',['Diccionario de datos descargado','Datos exportados revisados (checkbox en varias columnas, fechas AAAA-MM-DD)','Dudas anotadas','Correo enviado'])}`}
+  ]},
+  { id:'s2', k:'S2', kind:'p', title:'Buenas prácticas, RGPD y equipo', when:'Sesión presencial · 5 h', slides:[
+    {t:'Agenda', h:`<p class="kick">Sesión 2 · 09:00–14:00</p><h2>Buenas prácticas, RGPD y trabajo en equipo</h2>
+      ${AGENDA([['09:00–09:45','Los 5 errores más frecuentes de las entregas'],['09:45–10:15','Guardar y estado del formulario. Desarrollo y producción'],['10:15–11:15','Datos identificativos y RGPD'],['11:15–11:45','Pausa',1],['11:45–12:45','Derechos y roles: práctica por parejas'],['12:45–13:20','Diccionario como versión. Exportar a SPSS / R / Stata'],['13:20–13:45','Puente al Avanzado: branching logic'],['13:45–14:00','Trabajo no presencial 2 y post-test']])}`},
+    {t:'Guardar', h:`<p class="kick">Guardar</p><h2>El diseño se guarda; los datos, solo si pulsas Save</h2>
+      ${TABLE(['Estado del formulario','Color','Uso'],[['<code>Incomplete</code>','rojo','Empezado, faltan datos'],['<code>Unverified</code>','amarillo','Completo, pendiente de revisión'],['<code>Complete</code>','verde','Revisado y cerrado']])}
+      <p>Acordad en el equipo qué significa cada estado y usadlo siempre igual: el panel de registros se convierte en el control del avance.</p>`},
+    {t:'Producción', h:`<p class="kick">Ciclo de vida</p><h2>Desarrollo y producción</h2>
+      <div class="flow"><div><b>Desarrollo</b>se cambia todo; datos ficticios</div><div class="on"><b>Paso a producción</b>justo antes del primer dato real</div><div><b>Producción</b>cambios en Draft Mode, con avisos y revisión</div></div>
+      <div class="warn"><b>Antes de pasar:</b> instrumento probado con perfiles distintos, identificadores marcados, diccionario guardado y registros de prueba borrados.</div>`},
+    {t:'RGPD', h:`<p class="kick">Protección de datos</p><h2>Primero, ¿hace falta ese dato?</h2>
+      <ul><li><b>Minimización:</b> la edad en vez de la fecha de nacimiento; el municipio en vez de la dirección.</li>
+      <li><b>Seudonimización:</b> código en REDCap y tabla código–persona <b>fuera</b> de REDCap, con acceso restringido.</li>
+      <li><b>Texto libre:</b> atrae datos personales sin querer. Avísalo en el Field Note.</li></ul>
+      <p>Si hace falta, márcalo con <code>Identifier? = Yes</code>. No lo oculta ni lo cifra: permite excluirlo al exportar.</p>
+      ${TABLE(['Derecho de exportación','Qué se lleva'],[['<code>Full Data Set</code>','Todo'],['<code>Remove All Identifier Fields</code>','Todo menos los identificadores'],['<code>De-Identified</code>','Además quita texto libre, notas y fechas'],['<code>No Access</code>','Nada']])}`},
+    {t:'Equipo', h:`<p class="kick">Derechos de usuario</p><h2>El mínimo derecho necesario</h2>
+      ${TABLE(['Perfil','Rol','Derechos clave'],[['Nutricionistas que diseñan','Diseño y gestión','Design, User Rights, View &amp; Edit, exportación completa'],['Enfermeras de cada colegio','Recogida de datos','View &amp; Edit, Create Records, sin exportación, en el DAG de su colegio'],['Dirección del programa','Consulta','Read Only, informes, exportación De-Identified']])}
+      <p>Los <b>Data Access Groups (DAG)</b> hacen que cada centro vea solo sus registros.</p>
+      <h3>Práctica por parejas</h3>${CHECK('b-s2p',['Crear el rol "Recogida de datos" (sin exportación, sin Design ni User Rights)','Añadir a tu pareja con ese rol','Tu pareja intenta crear un registro, cambiar el diseño y exportar','Quitarle el acceso al terminar'])}`},
+    {t:'Diccionario', h:`<p class="kick">Versiones</p><h2>El diccionario de datos es la versión del instrumento</h2>
+      <ul><li>Descárgalo tras cada cambio importante: <code>diccionario_habitos_2027-02-11.csv</code>.</li><li>Si el diseño se rompe en desarrollo, subir el anterior lo restaura.</li><li>En producción, REDCap guarda el historial (<code>Project Revision History</code>).</li></ul>
+      <p>Para analizar: SPSS, R, Stata o SAS reciben un CSV más un archivo de sintaxis con nombres y etiquetas.</p>`},
+    {t:'Branching', h:`<p class="kick">Puente hacia el Avanzado</p><h2>Preguntas que solo aparecen cuando tienen sentido</h2>
+      <div class="flow"><div class="on"><b>¿Fuma actualmente?</b>Sí / No</div><div><b>Si "Sí"</b>cigarrillos al día, años fumando</div><div><b>Si "No"</b>pasa al siguiente bloque</div></div>
+      <p>En cada pregunta dependiente: <code>[fuma_actual] = '1'</code>. Cuestionario más corto, sin preguntas absurdas y con datos más limpios.</p>`},
+    {t:'Práctica', h:`<p class="kick">Práctica de la sesión</p><h2>Antes de irte</h2>
+      ${CHECK('b-s2',['Instrumento revisado con los comentarios de la entrega 1','Identificadores minimizados y marcados','Rol creado y probado con tu pareja','Diccionario descargado con fecha','2–3 preguntas candidatas a branching anotadas'])}`}
+  ]},
+  { id:'t2', k:'T2', kind:'np', title:'Entrega final y post-test', when:'No presencial · 5 h · Entrega final', slides:[
+    {t:'Tarea', h:`<p class="kick">Trabajo no presencial 2 · hasta el 18 feb / 30 sep</p><h2>Pulir, probar con otra persona y documentar</h2>
+      ${TABLE(['#','Qué hacer','Tiempo'],[['1','Pule el instrumento','1,5 h'],['2','RGPD: minimiza y marca identificadores','0,5 h'],['3','Otra persona rellena 2 registros sin ayuda; corrige lo que falle','0,75 h'],['4','Da acceso al docente (Read Only, exportación De-Identified)','0,25 h'],['5','Documento final de 1 página','1 h'],['6','Post-test','0,5 h'],['7','Revisión final','0,5 h']])}`},
+    {t:'Documento', h:`<p class="kick">Documento final · 1 página</p><h2>Qué debe contar</h2>
+      ${TABLE(['Apartado','Contenido'],[['Objetivo','Qué se evalúa y por qué'],['Población diana','Quién responde'],['Dimensiones','Bloques y prefijos de variable'],['Tipos y validaciones','Qué tipos y por qué'],['Datos personales','Cuáles, por qué y cómo se protegen'],['Equipo y roles','Quién diseña, introduce y consulta'],['Prueba por terceros','Qué se detectó y qué cambió']])}`},
+    {t:'Rúbrica y certificación', h:`<p class="kick">Entrega final · 20% de la nota</p><h2>Cómo se evalúa</h2>
+      ${TABLE(['Criterio','Máx.'],[['Calidad del instrumento','3'],['Protección de datos','2'],['Prueba por terceros','2'],['Documento final','2'],['Entregables (acceso o PDF, diccionario)','1']])}
+      <h3>Para certificar</h3>${CHECK('b-cert',['Asistencia ≥ 80% (8 h)','Pre-test realizado','Entrega 1 y entrega final','Post-test ≥ 5/10','Nota final ≥ 5 (20% + 20% + 60%)'])}`}
+  ]}
+]},
+{ id:'avanzado', name:'REDCap Avanzado', sub:'Lógica condicional y validación de datos', dates:'Ed. 1: 22 y 29 de abril · Ed. 2: 4 y 11 de noviembre',
+  units:[
+  { id:'s1', k:'S1', kind:'p', title:'Branching, cálculos y Action Tags', when:'Sesión presencial · 5 h', slides:[
+    {t:'Agenda', h:`<p class="kick">Sesión 1 · 09:00–14:00</p><h2>Branching logic, campos calculados y Action Tags</h2>
+      ${AGENDA([['09:00–09:20','Bienvenida y comprobación de instrumentos'],['09:20–10:15','Branching: sintaxis y ejercicio guiado'],['10:15–11:15','Operadores, and/or, checkboxes y vacíos'],['11:15–11:45','Pausa',1],['11:45–12:45','Campos calculados: funciones, IMC, edad, puntuaciones'],['12:45–13:20','Clasificar: códigos o @CALCTEXT'],['13:20–13:50','Action Tags esenciales'],['13:50–14:00','Trabajo no presencial 1']])}
+      <div class="note">¿Sin instrumento propio? Proyecto vacío → <code>Dictionary → Upload</code> → <code>plantilla_habitos_vida_diccionario.csv</code> (en Materiales).</div>`},
+    {t:'Sintaxis', h:`<p class="kick">Branching logic</p><h2>Se escribe en el campo que se muestra</h2>
+      <pre>[nombre_variable] = 'código'</pre>
+      ${TABLE(['Elemento','Regla','Ejemplo'],[['Variable','Variable Name entre corchetes','<code>[edad]</code>'],['Opción','El código, no la etiqueta','<code>[sexo] = \'2\'</code>'],['Número','Sin comillas, decimal con punto','<code>[imc] &lt; 18.5</code>'],['and / or','Mayúsculas o minúsculas; usamos minúsculas','<code>[a] = \'1\' and [b] = \'1\'</code>']])}`},
+    {t:'Combinar', h:`<p class="kick">Operadores</p><h2>Comparar y combinar</h2>
+      ${TABLE(['Operador','Significado'],[['<code>=</code>','Igual'],['<code>&lt;&gt;</code> o <code>!=</code>','Distinto'],['<code>&gt;</code> <code>&lt;</code> <code>&gt;=</code> <code>&lt;=</code>','Mayor, menor…']])}
+      <pre>[sexo] = '2' and [embarazo] = '1'
+[fuma_actual] = '1' or [convive_fumadores] = '1'
+[edad] &gt;= 65 and ([vive_solo] = '1' or [apoyo_familiar] = '0')</pre>
+      <p>Cuando mezcles <code>and</code> y <code>or</code>, pon siempre paréntesis.</p>`},
+    {t:'Checkboxes y vacíos', h:`<p class="kick">Los dos casos que más fallan</p><h2>Checkboxes y campos vacíos</h2>
+      <pre>[barreras_af(2)] = '1'     → opción 2 MARCADA
+[barreras_af(2)] = '0'     → opción 2 NO marcada
+[peso_kg] &lt;&gt; ''            → ya respondido
+[peso_kg] = ''             → vacío</pre>
+      <div class="bad"><code>[barreras_af] = '2'</code> <b>no funciona</b> con un checkbox. Es la causa más habitual de "mi regla no hace nada".</div>
+      ${CHECK('a-diag',['¿Variable Name y no etiqueta?','¿Código de la opción (míralo en el Codebook)?','¿Checkbox? Entonces [campo(código)] = \'1\'','¿Corchetes, paréntesis y comillas cerrados?','¿Decimales con punto?'])}`},
+    {t:'Calculados', h:`<p class="kick">Campos calculados</p><h2>Solo devuelven números</h2>
+      ${TABLE(['Sintaxis','Qué hace'],[['<code>round(x, n)</code>, <code>rounddown</code>, <code>roundup</code>','Redondeo'],['<code>sum(a, b, …)</code>, <code>mean(…)</code>','Suma o media <b>ignorando vacíos</b>'],['<code>datediff([f1], [f2], "y")</code>','Años; <code>"M"</code> meses, <code>"d"</code> días'],['<code>if(cond, sí, no)</code>','Condicional']])}
+      <pre>imc        round([peso_kg] / (([talla_cm] / 100) ^ 2), 1)
+edad_calc  rounddown(datediff([fecha_nac], [fecha_inclusion], "y"), 0)
+dieta      sum([ali_aceite], [ali_fruta], [ali_verdura], …)</pre>
+      <div class="note">Con <code>+</code>, un solo sumando vacío deja el resultado vacío. Con <code>sum()</code> los vacíos se ignoran.</div>`},
+    {t:'Clasificar', h:`<p class="kick">Códigos o @CALCTEXT</p><h2>Clasificar el IMC</h2>
+      <div class="grid" style="margin-block:8px"><div style="min-width:0"><p class="src" style="margin:0 0 4px">Calculated Field (código)</p><pre style="margin:0">if([imc] = '', '',
+ if([imc] &lt; 18.5, 1,
+  if([imc] &lt; 25, 2,
+   if([imc] &lt; 30, 3, 4))))</pre></div>
+      <div style="min-width:0"><p class="src" style="margin:0 0 4px">Text Box con @CALCTEXT (texto)</p><pre style="margin:0">@CALCTEXT(if([imc] = '', '',
+ if([imc] &lt; 18.5, 'Bajo peso',
+  if([imc] &lt; 25, 'Normopeso',
+   if([imc] &lt; 30, 'Sobrepeso',
+      'Obesidad')))))</pre></div></div>
+      <div class="lab" id="lab-imc"><h3>Prueba el if() anidado</h3>
+        <div class="row"><label for="peso">Peso (kg)<input id="peso" type="number" step="0.1" value="78"></label><label for="talla">Talla (cm)<input id="talla" type="number" value="170"></label><div><span class="pill p">IMC</span> <b id="imc-v" style="font-variant-numeric:tabular-nums"></b></div></div>
+        <ol class="steps" id="imc-steps"></ol>
+        <p class="src" style="margin-bottom:0">Pruebe 25.0 exacto (por ejemplo 72,25 kg y 170 cm) y deje un campo vacío: son los casos donde fallan las fórmulas.</p></div>`},
+    {t:'Action Tags', h:`<p class="kick">Field Annotation</p><h2>Action Tags esenciales</h2>
+      ${TABLE(['Action Tag','Qué hace'],[['<code>@HIDDEN</code>','Oculta el campo; sigue sirviendo para cálculos'],['<code>@HIDDEN-SURVEY</code>','Lo oculta solo en encuestas'],['<code>@READONLY</code>','Visible, no editable'],['<code>@DEFAULT=\'1\'</code>','Valor inicial'],['<code>@TODAY</code> / <code>@NOW</code>','Fecha (o fecha-hora) actual al abrir'],['<code>@CALCTEXT(…)</code>','Cálculo que devuelve texto'],['<code>@NONEOFTHEABOVE=\'99\'</code>','"Ninguna" excluyente en un checkbox']])}`},
+    {t:'Práctica', h:`<p class="kick">Práctica de la sesión</p><h2>Sobre tu instrumento</h2>
+      ${CHECK('a-s1',['2 reglas de branching, una compuesta o con checkbox','1 cálculo con round, sum o datediff','1 clasificación con if() (código o @CALCTEXT)','1 Action Tag','Todo probado con un registro ficticio'])}`}
+  ]},
+  { id:'t1', k:'T1', kind:'np', title:'Aplicar y verificar', when:'No presencial · 5 h · Entrega 1', slides:[
+    {t:'Tarea', h:`<p class="kick">Trabajo no presencial 1 · entrega hasta el martes 27 abr / 9 nov</p><h2>Aplicar y verificar</h2>
+      ${TABLE(['#','Qué hacer','Tiempo'],[['1','≥ 3 reglas de branching (una compuesta o con checkbox)','1,5 h'],['2','≥ 2 cálculos: una función y una clasificación','1,5 h'],['3','≥ 2 Action Tags con sentido','0,5 h'],['4','Tabla de casos de prueba','1 h'],['5','Corregir y entregar','0,5 h']])}
+      <p><b>Se entrega:</b> diccionario de datos (con fórmulas y reglas visibles) y la tabla de casos de prueba.</p>`},
+    {t:'Casos de prueba', h:`<p class="kick">Verificación</p><h2>Escribe qué debería pasar antes de probar</h2>
+      ${TABLE(['Regla','Entrada','Esperado','Obtenido','OK'],[['Branching <code>af_dias_sem</code>','af_regular = No','No aparece','No aparece','✓'],['<code>imc</code>','70 kg, 170 cm','24.2','24.2','✓'],['<code>imc_cat</code>','IMC = 25.0','Sobrepeso','Sobrepeso','✓'],['<code>imc_cat</code>','Peso vacío','Vacío','"Obesidad"','✗']])}
+      <div class="good">Prueba siempre los <b>valores frontera</b> y el <b>campo vacío</b>.</div>`},
+    {t:'Rúbrica', h:`<p class="kick">Entrega 1 · 20% de la nota</p><h2>Cómo se evalúa</h2>
+      ${TABLE(['Criterio','Máx.'],[['Branching logic','3'],['Campos calculados','3'],['Action Tags','1'],['Casos de prueba','3']])}
+      ${CHECK('a-t1',['Diccionario descargado','Tabla de casos con frontera y vacío','Fallos corregidos','Correo enviado'])}`}
+  ]},
+  { id:'s2', k:'S2', kind:'p', title:'Encuesta, informes y calidad', when:'Sesión presencial · 5 h', slides:[
+    {t:'Agenda', h:`<p class="kick">Sesión 2 · 09:00–14:00</p><h2>Matrices, piping, encuesta, informes y calidad de datos</h2>
+      ${AGENDA([['09:00–09:30','Errores frecuentes en branching y fórmulas'],['09:30–10:00','Matrices'],['10:00–10:20','Piping'],['10:20–11:15','Modo encuesta, con práctica cruzada'],['11:15–11:45','Pausa',1],['11:45–12:25','Informes personalizados'],['12:25–13:10','Calidad de datos'],['13:10–13:40','Diccionario en bloque. Repetibles y longitudinales'],['13:40–14:00','Trabajo no presencial 2 y post-test']])}`},
+    {t:'Matrices y piping', h:`<p class="kick">Presentación</p><h2>Matrices y piping</h2>
+      <p><b>Matriz:</b> preguntas con las mismas opciones, el mismo <code>Matrix Group Name</code> y una variable por fila. Cada fila admite su propia branching. Evítala si cambian las opciones, si hay más de 10–12 filas o si se responde en el móvil.</p>
+      <pre>En los [af_dias_sem] días que hace actividad física, ¿cuántos minutos dedica?</pre>
+      <p><b>Piping:</b> <code>[campo]</code> muestra la etiqueta; <code>[campo:value]</code>, el código. Nunca con datos identificativos.</p>`},
+    {t:'Modo encuesta', h:`<p class="kick">Survey</p><h2>Activar el modo encuesta</h2>
+      <ol><li><code>Project Setup → Use surveys in this project? → Enable</code></li><li><code>Designer</code> → <code>Enable</code> en el instrumento → <code>Survey Settings</code></li><li>Título, instrucciones, texto final y, si es largo, <code>Save &amp; Return Later</code></li><li><code>Survey Distribution Tools → Public Survey Link</code> y probar en ventana privada</li></ol>
+      <div class="warn">El enlace público corresponde al <b>primer instrumento</b>. Para enlaces únicos por persona: <code>Participant List</code> e invitaciones con recordatorios.</div>`},
+    {t:'Informes', h:`<p class="kick">Seguimiento sin exportar</p><h2>Informes personalizados</h2>
+      <ol><li><code>Data Exports, Reports, and Stats → Create New Report</code></li><li>Nombre descriptivo y solo los campos necesarios</li><li>Filtro con la sintaxis de la branching logic:</li></ol>
+      <pre>[af_min_sem] &lt;&gt; '' and [af_min_sem] &lt; 150</pre>
+      <p>Se actualiza en tiempo real e incluye <code>Stats &amp; Charts</code>.</p>`},
+    {t:'Calidad de datos', h:`<p class="kick">Data Quality</p><h2>La lógica describe el error</h2>
+      <p><b>Reglas predefinidas:</b> obligatorios vacíos, fuera de rango, campos ocultos con valor, cálculos desactualizados, valores extremos.</p>
+      ${TABLE(['Regla propia','Lógica (cumplirla = error)'],[['Fumador sin consumo','<code>[fuma_actual] = \'1\' and [cig_dia] = \'0\'</code>'],['No fumador con consumo','<code>[fuma_actual] = \'0\' and [cig_dia] &gt; 0</code>'],['IMC implausible','<code>[imc] &lt;&gt; \'\' and ([imc] &lt; 12 or [imc] &gt; 60)</code>'],['Inclusión futura','<code>datediff([fecha_inclusion], \'today\', "d", true) &lt; 0</code>']])}
+      <p class="src">Con <i>Execute in real time on data entry forms</i>, la regla avisa al guardar el formulario.</p>`},
+    {t:'Para ir más allá', h:`<p class="kick">Siguientes pasos</p><h2>Diccionario en bloque y estructuras de seguimiento</h2>
+      <div class="grid"><div class="card"><h3>Diccionario de datos</h3><p>Descargar, editar en Excel y subir. Ideal para cambios masivos. Guarda antes la versión anterior.</p></div>
+      <div class="card"><h3>Instrumento repetible</h3><p>El mismo formulario un número indefinido de veces por registro: cada visita, cada caída.</p></div>
+      <div class="card"><h3>Proyecto longitudinal</h3><p>Eventos fijos (basal, 3 meses, 12 meses). Cambia la exportación: varias filas por registro.</p></div></div>`},
+    {t:'Práctica', h:`<p class="kick">Práctica de la sesión</p><h2>Sobre tu instrumento</h2>
+      ${CHECK('a-s2',['Una matriz, si procede','Una línea de piping sin datos identificativos','Encuesta activada y probada por otra persona','Un informe con filtro','Reglas predefinidas ejecutadas y 1 regla propia'])}`}
+  ]},
+  { id:'t2', k:'T2', kind:'np', title:'Perfiles, calidad y documento', when:'No presencial · 5 h · Entrega final', slides:[
+    {t:'Tarea', h:`<p class="kick">Trabajo no presencial 2 · hasta el 6 may / 18 nov</p><h2>Probar con perfiles y documentar</h2>
+      ${TABLE(['#','Qué hacer','Tiempo'],[['1','Completa matriz, piping, encuesta e informe','1 h'],['2','3 perfiles de prueba respondidos como encuesta','0,75 h'],['3','Verificación con la tabla de casos','0,75 h'],['4','Reglas predefinidas y ≥ 2 propias, probadas con un registro erróneo','0,75 h'],['5','Documento final (1–2 páginas)','1,25 h'],['6','Post-test','0,5 h']])}`},
+    {t:'Perfiles', h:`<p class="kick">Tres caminos distintos</p><h2>Perfiles de prueba</h2>
+      <div class="grid"><div class="card"><h3>Favorable</h3><p>AF ≥ 150 min/sem · dieta 6–7 · no fuma · normopeso</p></div><div class="card"><h3>Intermedio</h3><p>AF &lt; 150 · dieta 4–5 · exfumador · IMC 25.0 exacto</p></div><div class="card"><h3>Desfavorable</h3><p>Sin AF · dieta 0–3 · fuma, con barreras marcadas · IMC ≥ 30</p></div></div>
+      <p>Si dos perfiles dan el mismo resultado donde no deberían, hay una regla que revisar.</p>`},
+    {t:'Rúbrica y certificación', h:`<p class="kick">Entrega final · 20% de la nota</p><h2>Cómo se evalúa</h2>
+      ${TABLE(['Criterio','Máx.'],[['Funcionalidades','3'],['Perfiles y verificación','2'],['Reglas de calidad','2'],['Documento final','2'],['Entregables (diccionario, tabla, enlace)','1']])}
+      <h3>Para certificar</h3>${CHECK('a-cert',['Asistencia ≥ 80% (8 h)','Pre-test realizado','Entrega 1 y entrega final','Post-test ≥ 5/10','Nota final ≥ 5 (20% + 20% + 60%)'])}`}
+  ]}
+]}];
+
+const MATERIALES = [
+  ['Básico',[['programa_redcap_basico_2027.pdf','Programa del curso'],['basico_sesion1.pdf','Sesión 1 · Fundamentos y primer instrumento'],['basico_trabajo_no_presencial_1.pdf','Trabajo no presencial 1'],['basico_sesion2.pdf','Sesión 2 · Buenas prácticas, RGPD y equipo'],['basico_trabajo_no_presencial_2.pdf','Trabajo no presencial 2 · entrega final']]],
+  ['Avanzado',[['programa_redcap_avanzado_2027.pdf','Programa del curso'],['avanzado_sesion1.pdf','Sesión 1 · Branching, cálculos y Action Tags'],['avanzado_trabajo_no_presencial_1.pdf','Trabajo no presencial 1'],['avanzado_sesion2.pdf','Sesión 2 · Encuesta, informes y calidad'],['avanzado_trabajo_no_presencial_2.pdf','Trabajo no presencial 2 · entrega final'],['plantilla_habitos_vida_diccionario.csv','Proyecto de prácticas "Hábitos de vida" (diccionario para subir a REDCap)']]]
+];
+
+
+
+/* ---------- estado ---------- */
+const UNITDESC={s1:{basico:'Conceptos, tipos de campo, validaciones y primer instrumento',avanzado:'Sintaxis, funciones, @CALCTEXT y Action Tags'},t1:{basico:'Ampliar, probar y exportar · entrega 1',avanzado:'Casos de prueba · entrega 1'},s2:{basico:'Guardar, producción, RGPD, roles y diccionario',avanzado:'Matrices, piping, encuesta, informes, calidad'},t2:{basico:'Pulir, prueba por terceros, documento final',avanzado:'Perfiles, reglas de calidad, documento final'}};
+const S={view:'portada',c:0,u:0,s:0};
+const $=id=>document.getElementById(id);
+const store={get(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+const flat=c=>{const o=[];COURSES[c].units.forEach((u,ui)=>u.slides.forEach((s,si)=>o.push([ui,si])));return o};
+
+function portadaCursos(){
+  $('portada-cursos').innerHTML=COURSES.map((c,i)=>`<article class="pcard${i?' av':''}"><div class="lv">${i?'Nivel 2 · requiere el Básico':'Nivel 1 · sin experiencia previa'}</div><h2>${c.name}</h2><p>${c.sub}</p><p>${c.dates}</p><div class="units">${c.units.map(u=>`<span>${u.k}</span>`).join('')}</div><button class="cta" type="button" data-course="${i}">Entrar al curso →</button></article>`).join('');
+}
+
+function renderRail(){
+  const c=COURSES[S.c];
+  $('switch').innerHTML=COURSES.map((x,i)=>`<button type="button" data-course="${i}" aria-pressed="${S.view==='curso'&&i===S.c}">${x.name.replace('REDCap ','')}</button>`).join('');
+  if(S.view==='mat'){$('rail-kicker').textContent='Aula REDCap';$('rail-title').textContent='Materiales';$('rail-desc').textContent='Guías del alumnado en PDF y plantilla de prácticas.';$('menu').innerHTML='';return}
+  $('rail-kicker').textContent=(S.c?'Nivel 2':'Nivel 1')+' · 20 horas';
+  $('rail-title').textContent=c.name;
+  $('rail-desc').textContent=c.sub+'. '+c.dates+'.';
+  $('menu').innerHTML=c.units.map((u,ui)=>`<button type="button" class="nav-btn${ui===S.u?' active':''}" data-unit="${ui}" ${ui===S.u?'aria-current="step"':''}><span class="nav-num">0${ui+1}</span><span class="nav-text">${u.k} · ${u.title}<small>${UNITDESC[u.id][c.id]}</small><span class="tagp${u.kind==='np'?' np':''}">${u.kind==='p'?'Presencial · 5 h':'No presencial · 5 h'}</span></span></button>`+(ui===S.u?`<ol class="sub">${u.slides.map((s,si)=>`<li><button type="button" data-slide="${si}" aria-current="${si===S.s}">${s.t}</button></li>`).join('')}</ol>`:'')).join('');
+}
+
+function materiales(){
+  return `<div class="panel"><p class="kick">Materiales</p><h2>Documentos del alumnado</h2><p class="lead">Las guías de cada sesión y de cada trabajo no presencial, en PDF para imprimir o archivar, y la plantilla del proyecto de prácticas.</p>
+  ${MATERIALES.map(([g,items])=>`<h3>${g}</h3>${items.map(([f,l])=>{const e=f.split('.').pop();return `<a class="dl" href="materiales/${f}" ${e==='csv'?'download':'target="_blank" rel="noopener"'}><span class="ext ${e}">${e.toUpperCase()}</span><span class="t"><b>${l}</b><small>${f}</small></span><span class="go">${e==='csv'?'Descargar ↓':'Abrir ↗'}</span></a>`}).join('')}`).join('')}
+  <div class="note">La plantilla "Hábitos de vida" se sube a REDCap desde un proyecto vacío: <code>Dictionary → Upload</code>.</div></div>`;
+}
+
+function render(){
+  const inAula=S.view!=='portada';
+  $('portada').hidden=inAula; $('aula').hidden=!inAula;
+  document.body.classList.toggle('c-avanzado',S.view==='curso'&&S.c===1);
+  if(!inAula){ portadaCursos(); wire(); setHash('inicio'); return; }
+  renderRail();
+  let idx=0,total=1;
+  if(S.view==='mat'){ $('view').innerHTML=materiales(); $('step-count').textContent='Materiales'; $('crumb').textContent='Aula REDCap'; }
+  else{
+    const c=COURSES[S.c],u=c.units[S.u],sl=u.slides[S.s],f=flat(S.c);
+    total=f.length; idx=f.findIndex(x=>x[0]===S.u&&x[1]===S.s);
+    $('step-count').textContent=`${u.k} · pantalla ${S.s+1} de ${u.slides.length}`;
+    $('crumb').textContent=`${c.name} · ${u.title}`;
+    $('view').innerHTML=`<div class="panel">${sl.h}</div>`;
+  }
+  $('prog').style.width=S.view==='curso'?((idx+1)/total*100)+'%':'0';
+  $('count').textContent=S.view==='curso'?`${idx+1} / ${total}`:'—';
+  $('prev').disabled=S.view!=='curso'||idx===0; $('next').disabled=S.view!=='curso'||idx===total-1;
+  wire(); setHash(S.view==='mat'?'materiales':`${COURSES[S.c].id}-${COURSES[S.c].units[S.u].id}-${S.s+1}`);
+  store.set('aula-redcap-pos',S);
+}
+function setHash(h){ if(location.hash.slice(1)!==h){ try{history.replaceState(null,'','#'+h)}catch(e){location.hash=h} } }
+function go(n){ Object.assign(S,n); render(); window.scrollTo(0,0); }
+function step(d){ if(S.view!=='curso')return; const f=flat(S.c); const i=f.findIndex(x=>x[0]===S.u&&x[1]===S.s)+d; if(i<0||i>=f.length)return; go({u:f[i][0],s:f[i][1]}); }
+
+function wire(){
+  document.querySelectorAll('[data-course]').forEach(b=>b.onclick=()=>go({view:'curso',c:+b.dataset.course,u:0,s:0}));
+  document.querySelectorAll('[data-go-mat]').forEach(b=>b.onclick=()=>go({view:'mat'}));
+  document.querySelectorAll('[data-unit]').forEach(b=>b.onclick=()=>go({u:+b.dataset.unit,s:0}));
+  document.querySelectorAll('[data-slide]').forEach(b=>b.onclick=()=>go({s:+b.dataset.slide}));
+  const done=store.get('aula-redcap-check')||{};
+  document.querySelectorAll('.check input').forEach(i=>{i.checked=!!done[i.id];i.onchange=()=>{const d=store.get('aula-redcap-check')||{};d[i.id]=i.checked;store.set('aula-redcap-check',d)}});
+  const lt=$('lab-tipo'); if(lt){ const res=$('tipo-res');
+    lt.querySelectorAll('[data-q="a"] button').forEach(b=>b.onclick=()=>{lt.querySelectorAll('[data-q="a"] button').forEach(x=>x.setAttribute('aria-pressed',x===b));lt.querySelectorAll('[data-show]').forEach(d=>d.hidden=d.dataset.show!==b.dataset.v);lt.querySelectorAll('[data-q="b"] button').forEach(x=>x.setAttribute('aria-pressed','false'));res.textContent='Ahora la segunda pregunta'});
+    lt.querySelectorAll('[data-q="b"] button').forEach(b=>b.onclick=()=>{b.parentElement.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===b));res.textContent='→ '+b.dataset.v}); }
+  if($('lab-imc')){ $('peso').oninput=imcLab; $('talla').oninput=imcLab; imcLab(); }
+}
+function imcLab(){
+  const p=parseFloat($('peso').value),t=parseFloat($('talla').value);
+  const imc=(isFinite(p)&&isFinite(t)&&t>0)?Math.round(p/((t/100)**2)*10)/10:null;
+  $('imc-v').textContent=imc===null?'vacío':imc.toFixed(1);
+  const st=[["[imc] = ''",imc===null,'vacío'],['[imc] < 18.5',imc!==null&&imc<18.5,'1 · Bajo peso'],['[imc] < 25',imc!==null&&imc<25,'2 · Normopeso'],['[imc] < 30',imc!==null&&imc<30,'3 · Sobrepeso'],['si no',true,'4 · Obesidad']];
+  let hit=false; $('imc-steps').innerHTML=st.map(([c,ok,r])=>{let cls='';if(hit)cls='skip';else if(ok){cls='hit';hit=true}return `<li class="${cls}">${c.replace(/</g,'&lt;')} ${cls==='hit'?'→ '+r:(cls==='skip'?'(no se evalúa)':'· no se cumple')}</li>`}).join('');
+}
+
+/* ---------- presentación, pantalla completa ---------- */
+function setPres(on){ document.body.classList.toggle('pres',on); $('present').setAttribute('aria-pressed',on); $('present').textContent=on?'▣ Salir de presentación':'▣ Presentar'; }
+$('present').onclick=()=>setPres(!document.body.classList.contains('pres'));
+$('exit').onclick=()=>setPres(false);
+$('screen-full').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen()}catch(e){$('screen-full').textContent='⛶ No disponible'}};
+document.addEventListener('fullscreenchange',()=>{$('screen-full').textContent=document.fullscreenElement?'⛶ Salir de pantalla completa':'⛶ Pantalla completa'});
+$('prev').onclick=()=>step(-1); $('next').onclick=()=>step(1);
+$('to-portada').onclick=()=>go({view:'portada'}); $('rail-portada').onclick=()=>go({view:'portada'});
+document.addEventListener('keydown',e=>{ if(e.target.matches('input,textarea')||S.view!=='curso')return;
+  if(e.key==='ArrowRight'||e.key==='PageDown'||(e.key===' '&&document.body.classList.contains('pres'))){e.preventDefault();step(1)}
+  if(e.key==='ArrowLeft'||e.key==='PageUp')step(-1);
+  if(e.key==='Escape'&&document.body.classList.contains('pres'))setPres(false); });
+
+/* ---------- cronómetro (mismo funcionamiento que el Aula de Activos) ---------- */
+(function(){
+  const w=$('timer-widget'),act=$('timer-activate'),min=$('timer-minutes'),disp=$('timer-display'),st=$('timer-state'),play=$('timer-play');
+  let remaining=300000,deadline=0,iv=null,running=false;
+  const fmt=ms=>{const s=Math.ceil(Math.max(0,ms)/1000);return String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0')};
+  const dur=()=>Math.max(1,Math.min(180,Math.round(Number(min.value)||5)))*60000;
+  const paint=()=>{disp.textContent=fmt(remaining);play.textContent=running?'Pausar':(remaining===0||remaining===dur())?'Iniciar':'Reanudar'};
+  const stop=()=>{if(iv!==null){clearInterval(iv);iv=null}running=false};
+  const tick=()=>{if(!running)return;remaining=Math.max(0,deadline-Date.now());if(remaining===0){stop();min.disabled=false;w.classList.add('timer-done');st.textContent='Tiempo terminado'}paint()};
+  const open=o=>{w.hidden=!o;act.setAttribute('aria-expanded',String(o))};
+  act.onclick=()=>open(w.hidden); $('timer-close').onclick=()=>open(false);
+  min.onchange=()=>{if(running)return;min.value=String(dur()/60000);remaining=dur();w.classList.remove('timer-done');st.textContent='Preparado';paint()};
+  play.onclick=()=>{if(running){tick();stop();st.textContent='En pausa';paint();return}if(remaining<=0)remaining=dur();deadline=Date.now()+remaining;running=true;min.disabled=true;w.classList.remove('timer-done');st.textContent='Cuenta atrás en marcha';iv=setInterval(tick,250);paint()};
+  $('timer-reset').onclick=()=>{stop();min.disabled=false;remaining=dur();w.classList.remove('timer-done');st.textContent='Preparado';paint()};
+  document.addEventListener('visibilitychange',tick); paint();
+})();
+
+/* ---------- arranque y enlaces directos ---------- */
+function fromHash(){
+  const h=location.hash.slice(1);
+  const m=/^(basico|avanzado)-(s1|s2|t1|t2)-(\d+)$/.exec(h);
+  if(m){const c=COURSES.findIndex(x=>x.id===m[1]);const u=COURSES[c].units.findIndex(x=>x.id===m[2]);Object.assign(S,{view:'curso',c,u,s:Math.max(0,Math.min(+m[3]-1,COURSES[c].units[u].slides.length-1))});return true}
+  if(h==='basico'||h==='avanzado'){Object.assign(S,{view:'curso',c:h==='basico'?0:1,u:0,s:0});return true}
+  if(h==='materiales'){S.view='mat';return true}
+  if(h==='inicio'){S.view='portada';return true}
+  return false;
+}
+window.addEventListener('hashchange',()=>{ if(fromHash()) render(); });
+fromHash(); render();
+</script>
+</body></html>
