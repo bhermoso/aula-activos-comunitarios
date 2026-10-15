@@ -545,7 +545,7 @@ function conexionesRedcap(c,u,sl){
 }
 function indiceRizoma(){
  const keys=['instrumento','campos','identificador','validacion','diccionario','perfiles','branching','calculados','actiontags','matrices','encuestas','informes','calidad','longitudinal'];
- return '<nav class="rizoma-index" aria-label="Mapa de conceptos"><h2>Explorar por conceptos</h2><p>Recorridos transversales por REDCap Básico y Avanzado. Puedes empezar por cualquiera de estos temas.</p>'+keys.filter(k=>GRAFO_REDCAP[k]).map(k=>{let n=RED_NODOS.find(x=>x.k===k),d=GRAFO_REDCAP[k],h=COURSES[d.ci].id+'-'+COURSES[d.ci].units[d.ui].id+'-'+(d.si+1);return '<button type="button" data-rizoma="'+h+'">'+n.n+' ↗</button>'}).join('')+'</nav>';
+ return '<details class="rizoma-index"><summary style="cursor:pointer;font-weight:800;color:#175d51">Mapa de conceptos · Explorar otros recorridos</summary><p style="margin-top:12px">Recorridos transversales por REDCap Básico y Avanzado. Puedes empezar por cualquiera de estos temas.</p>'+keys.filter(k=>GRAFO_REDCAP[k]).map(k=>{let n=RED_NODOS.find(x=>x.k===k),d=GRAFO_REDCAP[k],h=COURSES[d.ci].id+'-'+COURSES[d.ci].units[d.ui].id+'-'+(d.si+1);return '<button type="button" data-rizoma="'+h+'">'+n.n+' ↗</button>'}).join('')+'</details>';
 }
 
 /* ---------- estado ---------- */
@@ -601,7 +601,7 @@ function go(n){ Object.assign(S,n); render(); window.scrollTo(0,0); }
 function step(d){ if(S.view!=='curso')return; const f=flat(S.c); const i=f.findIndex(x=>x[0]===S.u&&x[1]===S.s)+d; if(i<0||i>=f.length)return; go({u:f[i][0],s:f[i][1]}); }
 
 function wire(){
-  document.querySelectorAll('[data-rizoma]').forEach(el=>el.addEventListener('click',e=>{e.preventDefault();const h=el.dataset.rizoma,m=/^(basico|avanzado)-(s1|s2|t1|t2)-(\\d+)$/.exec(h);if(!m)return;const ci=COURSES.findIndex(c=>c.id===m[1]),ui=COURSES[ci].units.findIndex(u=>u.id===m[2]);go({view:'curso',c:ci,u:ui,s:+m[3]-1});}));
+  document.querySelectorAll('[data-rizoma]').forEach(el=>el.addEventListener('click',e=>{e.preventDefault();const h=el.dataset.rizoma,m=/^(basico|avanzado)-(s1|s2|t1|t2)-(\d+)$/.exec(h);if(!m)return;const ci=COURSES.findIndex(c=>c.id===m[1]),ui=COURSES[ci].units.findIndex(u=>u.id===m[2]);go({view:'curso',c:ci,u:ui,s:+m[3]-1});}));
   document.querySelectorAll('[data-course]').forEach(b=>b.onclick=()=>go({view:'curso',c:+b.dataset.course,u:0,s:0}));
   document.querySelectorAll('[data-go-mat]').forEach(b=>b.onclick=()=>go({view:'mat'}));
   document.querySelectorAll('[data-unit]').forEach(b=>b.onclick=()=>go({u:+b.dataset.unit,s:0}));
