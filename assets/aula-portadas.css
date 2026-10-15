@@ -1,0 +1,32 @@
+/* Portadas de la misma familia que Aula REDCap.
+   Derivación de la portada de redcap/index.html: portada-bar, portada-hero, form-art, pcard y cta.
+   Las variables --cover-accent y --cover-card permiten variaciones sin alterar la composición. */
+.portada{--cover-deep:#102a28;--cover-accent:#aed8bf;--cover-card:#173f3a;--cover-line:#2f5d56;min-height:0;background:var(--cover-deep);color:white;display:flex;flex-direction:column;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.58}
+.portada *{box-sizing:border-box}
+.portada a:focus-visible{outline:3px solid #edb957;outline-offset:4px}
+.portada-bar{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:18px clamp(18px,5vw,64px);font-size:12px;letter-spacing:.12em;border-bottom:1px solid var(--cover-line)}
+.portada-bar a{color:#cfe8dc;text-decoration:none;letter-spacing:0;font-size:13px}.portada-bar a:hover{text-decoration:underline}
+.portada-hero{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:40px;align-items:center;padding:clamp(28px,6vw,70px) clamp(18px,5vw,64px) 30px;max-width:1300px;margin:0 auto;width:100%}
+.portada .p-kicker{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--cover-accent);font-weight:800}
+.portada h1{font-family:Georgia,serif;font-weight:600;font-size:clamp(40px,6.4vw,78px);line-height:1.02;letter-spacing:-.035em;margin:14px 0 18px;color:white}
+.portada h1 span{display:block;color:var(--cover-accent);font-size:.52em;letter-spacing:-.02em;margin-top:8px}
+.portada-hero p{color:#cfe1da;font-size:clamp(16px,1.8vw,19px);max-width:56ch;margin:0}
+.portada .fecha{display:inline-block;margin-top:22px;border:1px solid #3d6a62;border-radius:30px;padding:8px 15px;font-size:13px;color:#e4f3ec}
+.portada .form-art{background:#f6f5ef;color:#243b39;border-radius:20px;padding:20px 22px;box-shadow:0 30px 60px #0008;transform:rotate(-2deg);max-width:420px;justify-self:center;width:100%}
+.portada .form-art .fh{display:flex;justify-content:space-between;gap:8px;font:800 11px system-ui;letter-spacing:.1em;color:#137c73;margin-bottom:12px;text-transform:uppercase}
+.portada .form-art .fr{display:grid;grid-template-columns:minmax(95px,118px) 1fr;gap:10px;align-items:center;padding:8px 0;border-top:1px solid #dce5e0;font-size:13px}
+.portada .form-art .fr b{font-weight:750}.portada .form-art .fr span{color:#59756b;font-size:12px}
+.portada .form-art .br{font:11px ui-monospace,Consolas,monospace;background:#e3f1ec;color:#1c5950;border-radius:6px;padding:4px 8px;margin-top:10px}
+.portada-cursos{max-width:1300px;margin:0 auto;width:100%;padding:10px clamp(18px,5vw,64px) 40px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.portada .pcard{background:var(--cover-card);border:1px solid var(--cover-line);border-radius:20px;padding:24px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.portada .pcard .lv{font-size:11px;letter-spacing:.14em;font-weight:800;color:var(--cover-accent);text-transform:uppercase}
+.portada .pcard h2{font-family:Georgia,serif;font-weight:600;font-size:clamp(26px,3vw,34px);margin:0;line-height:1.1;color:white}
+.portada .pcard p{margin:0;color:#c8ddd5;font-size:14px}
+.portada .pcard .units{display:flex;gap:6px;flex-wrap:wrap;margin:4px 0}
+.portada .pcard .units span{font:700 11px ui-monospace,Consolas,monospace;border:1px solid #4a7a72;border-radius:20px;padding:3px 9px;color:#e4f3ec}
+.portada .cta{display:inline-flex;align-items:center;gap:10px;background:var(--cover-accent);color:var(--cover-deep);border:0;border-radius:12px;padding:12px 18px;font-weight:850;text-decoration:none;align-self:flex-start;margin-top:auto;font-size:14px}
+.portada .cta:hover{filter:brightness(1.06)}
+.portada-pie{margin-top:auto;padding:16px clamp(18px,5vw,64px);border-top:1px solid var(--cover-line);color:#9fbfb4;font-size:12px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.portada .portada-pie a{color:#cfe8dc}
+@media(max-width:900px){.portada-hero{grid-template-columns:minmax(0,1fr)}.portada-cursos{grid-template-columns:minmax(0,1fr)}.portada .form-art{display:none}}
+@media print{.portada{display:none!important}}
