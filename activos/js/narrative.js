@@ -1,0 +1,66 @@
+// Trayectos de lectura y conexiones entre los módulos del aula.
+// Cada paso es una página autónoma: estas rutas son orientación, no un bloqueo.
+const paths=[
+ {name:'Itinerario Localiza Salud',steps:[
+ ['entrada-localiza','Orientarse en Localiza Salud','Menú y filtros iniciales'],
+ ['almunecar','Recursos/Activos vs. Actividades · Almuñécar','Centro de Salud y Receta de Pasos: dos búsquedas diferentes'],
+ ['maracena','Maracena: inventario y participación','38 registros y 7 con identificación participativa'],
+ ['chrysallis','Chrysallis: ampliar territorio','Explorar en el mapa cerca de Albolote'],
+ ['denominaciones','Granada: nomenclatura de activos','Buscar y contrastar CPA, Punto Vuela, GRUSE y GRAFA'],
+ ['registro','Registro práctico de un activo','Candidato, criterios, formulario y revisión en 25 minutos'],
+ ['cierre-localiza','Síntesis','Lecciones y cierre del taller']
+ ]},
+
+];
+export function addNarrativePaths(){
+ for(const path of paths){
+  path.steps.forEach(([id,title,description],index)=>{
+   const page=document.getElementById(id);
+   if(!page)return;
+   const prev=path.steps[index-1],next=path.steps[index+1];
+   const el=document.createElement('nav');
+   el.className='story-trail';
+   el.setAttribute('aria-label','Recorrido: '+path.name);
+   el.innerHTML='<div class="story-trail-head"><strong>'+path.name+'</strong><span>Etapa '+(index+1)+' de '+path.steps.length+'</span></div><p>'+description+'</p><div class="story-trail-links">'
+    +(prev?'<a href="#'+prev[0]+'">← '+prev[1]+'</a>':'<a href="#panel">← Índice del aula</a>')
+    +(next?'<a href="#'+next[0]+'">'+next[1]+' →</a>':'<a href="#biblioteca">Explorar fuentes y documentos →</a>')+'</div>';
+   const foot=page.querySelector('a.back')?.parentElement;
+   if(foot)foot.insertAdjacentElement('beforebegin',el);
+   else page.appendChild(el);
+  });
+ }
+ // Mapeo: una secuencia principal y regreso desde cada material auxiliar.
+ const route=[
+  ['mapeo','tecnicas-catalogo','Consultar técnicas (15–32)'],
+  ['tecnicas','tecnicas-catalogo','Consultar técnicas'],
+  ['tecnicas-catalogo','decisiones','Organizar equipos y preparar decisiones (32–73)'],
+  ['tecnicas-comparar','tecnicas-catalogo','Volver al catálogo de técnicas'],
+  ['decisiones','ficha','Completar la ficha del equipo (43–73)'],
+  ['ficha','cierre','Exponer, revisar viabilidad y cerrar (73–100)'],
+  ['cierre','mapeo','Volver al guion del taller']
+ ];
+ route.forEach(([id,next,label])=>{
+  const page=document.getElementById(id);
+  if(!page)return;
+  const nav=document.createElement('nav');
+  nav.className='planning-guidance';
+  nav.setAttribute('aria-label','Continuar el taller de planificación');
+  nav.innerHTML='<div class="story-links"><a href="#'+next+'">Siguiente: '+label+' →</a><a href="#mapeo">Volver al guion</a></div>';
+  const back=page.querySelector('a.back')?.parentElement;
+  if(back)back.insertAdjacentElement('beforebegin',nav);else page.appendChild(nav);
+ });
+ for(const id of ['tecnica-mapa','tecnica-paseos','tecnica-entrevistas','tecnica-talleres','tecnica-fotovoz','tecnica-fichas']){
+  const page=document.getElementById(id);
+  if(!page)continue;
+  const nav=document.createElement('nav');
+  nav.className='planning-guidance';
+  nav.setAttribute('aria-label','Después de estudiar esta técnica');
+  nav.innerHTML='<div class="story-links"><a href="#tecnicas-catalogo">← Volver al catálogo y consultar otras técnicas</a><a href="#decisiones">Preparar las seis decisiones →</a></div>';
+  const back=page.querySelector('a.back')?.parentElement;
+  if(back)back.insertAdjacentElement('beforebegin',nav);else page.appendChild(nav);
+ }
+ const reference=document.querySelector('#biblioteca');
+ if(reference){
+  reference.insertAdjacentHTML('beforeend','<p class="story-context">Las fuentes ayudan a contrastar lo visto en <a href="#localiza">Localiza Salud</a> y a fundamentar <a href="#mapeo">el plan de mapeo</a>. El <a href="#tecnicas-catalogo">catálogo de técnicas</a> reúne, por separado, el aprendizaje metodológico.</p>');
+ }
+}

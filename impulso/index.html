@@ -1,0 +1,357 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102a28"><title>Aula de Impulso Local · RELAS Loja</title><style>
+:root{color-scheme:light;--ink:#183a37;--deep:#102a28;--muted:#617574;--teal:#137c73;--light:#e8f4ef;--sand:#f6f5ef;--line:#dce5e0;--white:#fff;--warning:#9a6025;--shadow:0 14px 45px rgba(18,52,45,.07)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:#243b39;background:var(--sand);font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.57;font-size:15px}button,input,textarea{font:inherit}button{cursor:pointer}a{color:var(--teal)}a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #edb957;outline-offset:3px} .skip{position:absolute;left:-999px;top:0;background:white;padding:1rem;z-index:90}.skip:focus{left:0}
+.site-head{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px clamp(18px,4vw,56px);background:var(--deep);color:white;position:sticky;top:0;z-index:30;border-bottom:3px solid #b5e0cd}.identity{font-size:13px;letter-spacing:.11em;font-weight:850;text-decoration:none;color:white;white-space:nowrap}.identity b{font-size:23px;color:#aed8bf}.head-actions{display:flex;gap:8px;flex-wrap:wrap}.pill-btn{border:1px solid #688783;background:transparent;color:#f3fff9;padding:9px 13px;border-radius:30px;font-size:12px;font-weight:750}.pill-btn:hover{background:#25534e}.layout{display:grid;grid-template-columns:minmax(225px,265px) minmax(0,1fr);max-width:1550px;margin:auto;min-height:calc(100vh - 65px)}.rail{border-right:1px solid var(--line);background:#eff3ed;padding:28px 14px 24px;position:sticky;top:67px;align-self:start;height:calc(100vh - 67px);overflow:auto}.rail-kicker{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal);font-weight:800;padding:0 12px}.rail-title{font-family:Georgia,serif;font-size:25px;line-height:1.1;margin:9px 12px 10px;color:var(--deep)}.rail-desc{font-size:12px;color:var(--muted);margin:0 12px 28px}.menu{display:grid;gap:8px}.nav-btn{border:1px solid transparent;background:transparent;text-align:left;padding:12px;border-radius:13px;display:flex;align-items:flex-start;gap:11px;color:#355450;width:100%}.nav-btn:hover{background:#e1ece5}.nav-btn.active{background:white;border-color:#c8d9d0;box-shadow:0 4px 20px #173e2e0b;color:#173e3b}.nav-num{font-size:11px;font-weight:900;color:var(--teal);padding-top:2px}.nav-text{font-size:13px;font-weight:800;line-height:1.3}.nav-text small{font-size:11px;display:block;font-weight:500;color:#71827f;margin-top:3px}.rail-bottom{border-top:1px solid #d4dfd6;margin-top:28px;padding:18px 12px;color:#667a73;font-size:11px}.workspace{padding:0 clamp(22px,4vw,64px) 90px;max-width:1120px;width:100%;margin:0 auto}.hero{padding:48px 0 27px;border-bottom:1px solid var(--line)}.eyebrow{font-size:11px;color:var(--teal);font-weight:850;letter-spacing:.15em;text-transform:uppercase}.hero h1{font-family:Georgia,serif;letter-spacing:-.03em;line-height:1.07;font-size:clamp(35px,4.2vw,56px);color:var(--deep);margin:13px 0}.hero p{max-width:72ch;color:#58726b;margin:0;font-size:15px}.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:21px}.tag{padding:6px 12px;background:#e6efe7;border:1px solid #d1e0d6;border-radius:40px;font-size:11px;font-weight:750;color:#31574f}.step-head{display:flex;align-items:center;justify-content:space-between;gap:15px;margin:32px 0 19px}.step-head h2{font-family:Georgia,serif;font-size:clamp(25px,3vw,34px);color:var(--deep);line-height:1.18;margin:6px 0}.step-head p{margin:0;color:var(--muted);font-size:13px}.step-count{font-size:11px;font-weight:850;color:var(--teal);letter-spacing:.12em}.progress-track{height:4px;background:#dfe7dd;margin-top:10px;border-radius:9px;overflow:hidden}.progress-fill{height:100%;width:16.666%;background:var(--teal);transition:width .2s}.panel-card,.source-panel>div{border-radius:18px}.source-panel{display:none;animation:appear .18s ease-out}.source-panel.active{display:block}.source-panel>.space-y-6{display:grid;gap:22px}.source-panel>div{margin-bottom:20px}.source-panel .bg-white,.source-panel .bg-slate-900,.source-panel .bg-amber-50{background:white;border:1px solid var(--line);padding:24px;border-radius:18px;box-shadow:var(--shadow);margin-bottom:18px}.source-panel .bg-slate-900{background:#173a35;color:white;border-color:#28524a}.source-panel .bg-slate-900 p,.source-panel .bg-slate-900 strong,.source-panel .bg-slate-900 h3,.source-panel .bg-slate-900 h4{color:inherit}.source-panel .bg-amber-50{background:#fff8ec;border-left:4px solid #d59a45}.source-panel .bg-slate-50,.source-panel .bg-indigo-50\/50,.source-panel .bg-teal-50\/50,.source-panel .bg-emerald-50,.source-panel .bg-rose-50\/50{background:#f2f7f3;border:1px solid #e1e9e0;border-radius:12px;padding:14px}.source-panel .bg-slate-950{background:#0e2926;border-radius:12px;padding:12px}.source-panel .bg-emerald-950\/60{background:#134c42;border-radius:12px;padding:12px}.source-panel h2{font-family:Georgia,serif;color:var(--deep);font-size:25px;margin:0 0 6px}.source-panel h3{font-size:20px;color:var(--deep);margin:4px 0 14px}.source-panel h4{font-size:16px;color:var(--deep);margin:4px 0 10px}.source-panel p{margin:.55em 0;color:inherit}.source-panel .text-slate-500,.source-panel .text-slate-600,.source-panel .text-slate-400{color:#677c77}.source-panel .text-xs,.source-panel .text-sm{font-size:13px}.source-panel .text-\[10px\],.source-panel .text-\[9px\]{font-size:11px}.source-panel .font-bold,.source-panel .font-semibold{font-weight:780}.source-panel .font-light{font-weight:420}.source-panel .font-mono{font-family:ui-monospace,monospace}.source-panel .uppercase{text-transform:uppercase}.source-panel .italic{font-style:italic}.source-panel .text-center{text-align:center}.source-panel .text-right{text-align:right}.source-panel .text-4xl{font-size:38px;font-weight:900}.source-panel .text-5xl{font-size:49px;font-weight:900}.source-panel .rounded-full{border-radius:40px}.source-panel .grid{display:grid;gap:14px}.source-panel .grid-cols-1{grid-template-columns:1fr}.source-panel .flex{display:flex;align-items:center;gap:8px}.source-panel .flex-col{flex-direction:column}.source-panel .items-start{align-items:start}.source-panel .items-center{align-items:center}.source-panel .justify-between{justify-content:space-between}.source-panel .space-y-4>*+*{margin-top:16px}.source-panel .space-y-6>*+*{margin-top:22px}.source-panel .space-y-2>*+*{margin-top:8px}.source-panel .space-y-1>*+*{margin-top:5px}.source-panel .p-3{padding:12px}.source-panel .p-4{padding:16px}.source-panel .p-5{padding:20px}.source-panel .p-6{padding:24px}.source-panel .p-8{padding:30px}.source-panel .border-b{border-bottom:1px solid #d5e0d9}.source-panel .border-b-2{border-bottom:2px solid #31524c}.source-panel .border-l-4{border-left:4px solid #2d8f7c}.source-panel .pb-4{padding-bottom:16px}.source-panel .pb-2{padding-bottom:8px}.source-panel .pt-4{padding-top:16px}.source-panel .pt-2{padding-top:8px}.source-panel .mb-1{margin-bottom:4px}.source-panel .mt-1{margin-top:4px}.source-panel .mt-4{margin-top:16px}.source-panel .tracking-wider{letter-spacing:.04em}.source-panel .tracking-widest{letter-spacing:.09em}.source-panel .inline-block{display:inline-block}.source-panel .font-serif{font-family:Georgia,serif}.source-panel .grid>.lg\:col-span-2{grid-column:span 2}.source-panel .bg-white>h3,.source-panel .bg-white>div>h3{margin-top:0}.source-panel .relative.pl-10{padding:0;margin-bottom:12px}.source-panel .relative.pl-10>.absolute{display:none}.source-panel .before\:absolute:before{display:none}.source-panel .grid-cols-1.sm\:grid-cols-2.lg\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.source-panel .bg-white .bg-slate-50{margin:8px 0}.source-panel .bg-slate-900 .text-teal-400,.source-panel .text-emerald-400{color:#a1e7c2}.source-panel .bg-slate-900 .text-slate-400{color:#c1d8d0}.source-panel .text-amber-800,.source-panel .text-amber-900{color:#79501e}.source-panel .text-teal-900,.source-panel .text-teal-950{color:#1c5950}.source-panel .font-black{font-weight:900}.source-panel .max-w-xl{max-width:650px}
+.notice{border:1px solid #d9b781;background:#fff7e9;padding:15px 18px;border-radius:14px;color:#75521f;font-size:12px;line-height:1.65;margin-bottom:18px}.notice strong{display:block;color:#734c0f;margin-bottom:3px}.toolbox{background:white;border:1px solid var(--line);border-radius:18px;padding:22px;margin:22px 0;box-shadow:var(--shadow)}.toolbox h3{margin:0 0 6px;color:var(--deep);font-family:Georgia,serif;font-size:22px}.toolbox p{margin:0 0 16px;font-size:13px;color:var(--muted)}.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.field{display:grid;gap:6px}.field.full{grid-column:1/-1}.field label{font-size:12px;font-weight:750;color:#345c54}.field input,.field textarea{background:#fafcf9;border:1px solid #c8d8cf;border-radius:10px;padding:10px 12px;width:100%;font-size:14px;color:#243c36}.field textarea{min-height:85px;resize:vertical}.actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:17px}.action{background:var(--teal);color:white;padding:11px 16px;border:0;border-radius:10px;font-size:13px;font-weight:800}.action.secondary{background:#edf4ee;color:#235850;border:1px solid #d7e3d9}.action:hover{filter:brightness(.94)}.bottom-nav{display:flex;align-items:center;justify-content:space-between;gap:12px;border-top:1px solid var(--line);margin-top:35px;padding-top:22px}.page-footer{font-size:11px;color:#6d837b;text-align:center;padding:15px}.presentation .rail,.presentation .hero,.presentation .site-head,.presentation .page-footer{display:none}.presentation .layout{display:block;max-width:1100px}.presentation .workspace{max-width:1050px;padding:25px 38px 80px}.presentation{background:white}.presentation .step-head{margin-top:5px}.presentation .source-panel{font-size:18px}.presentation .source-panel p{font-size:17px}.presentation .source-panel .text-xs{font-size:14px}.presentation .source-panel .bg-white{box-shadow:none}.present-bar{position:fixed;bottom:18px;right:18px;z-index:50;background:var(--deep);color:white;padding:7px 9px;border-radius:50px;box-shadow:0 8px 40px #062b2699;display:none;gap:7px}.presentation .present-bar{display:flex}.present-bar button{color:white;background:transparent;border:0;padding:8px 11px;border-radius:22px;font-weight:700}.present-bar button:hover{background:#365f57}.hide{display:none!important}@keyframes appear{from{opacity:.5;transform:translateY(5px)}to{opacity:1;transform:none}}@media(min-width:850px){.source-panel .lg\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.source-panel .lg\:col-span-2{grid-column:span 2}.source-panel .md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.source-panel .md\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.source-panel .sm\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.source-panel .sm\:grid-cols-2.lg\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:850px){.layout{display:block}.rail{position:static;height:auto;border-right:none;padding:14px}.rail-title,.rail-desc,.rail-bottom{display:none}.rail-kicker{padding:0 3px;margin-bottom:8px}.menu{display:flex;overflow:auto;gap:5px}.nav-btn{min-width:165px;background:white;padding:10px}.nav-text small{display:none}.workspace{padding:0 18px 60px}.hero{padding:27px 0}.source-panel .bg-white,.source-panel .bg-slate-900,.source-panel .bg-amber-50{padding:17px}.form-grid{grid-template-columns:1fr}.site-head{padding:12px 17px}.pill-btn{padding:7px 9px}.source-panel .sm\:grid-cols-2.lg\:grid-cols-3{grid-template-columns:1fr}}@media print{.site-head,.rail,.hero,.step-head,.bottom-nav,.page-footer,.toolbox,.notice,.present-bar{display:none!important}.layout{display:block}.workspace{padding:0}.source-panel{display:none!important}.source-panel.printable{display:block!important}.source-panel.printable>div{display:block!important}.source-panel .bg-white{box-shadow:none!important;border:1px solid #888!important}.source-panel .print-area{padding:0}.source-panel .print-area .no-print{display:none!important}body{background:white} @page{size:A4;margin:12mm}}
+</style></head><body><nav aria-label="Aula de Salud Comunitaria Basada en Activos" style="background:#123832;padding:10px 18px;font:600 14px system-ui,sans-serif;position:relative;z-index:9999"><a href="../index.html" style="color:#fff;text-decoration:none">← Aula de Salud Comunitaria Basada en Activos · Volver a módulos</a></nav><a href="#main" class="skip">Ir al contenido</a><header class="site-head"><a class="identity" href="#inicio"><b>A.</b> AULA DE IMPULSO <span style="font-weight:400;opacity:.7">LOCAL · LOJA</span></a><div class="head-actions"><button class="pill-btn" id="print-ficha">▤ Imprimir ficha A4</button><button class="pill-btn" id="present">▣ Presentar</button></div></header><div class="layout"><aside class="rail"><div class="rail-kicker">RELAS · Loja · 16.10.2026</div><div class="rail-title">De la información<br> a la acción local</div><p class="rail-desc">Una guía navegable para preparar, facilitar y documentar la mesa de impulso.</p><nav class="menu" aria-label="Recorrido del aula"><button type="button" class="nav-btn active" data-go="0" aria-current="step"><span class="nav-num">01</span><span class="nav-text">Punto de partida<small>Leer la convocatoria y detectar oportunidades de participación</small></span></button><button type="button" class="nav-btn" data-go="1" aria-current="false"><span class="nav-num">02</span><span class="nav-text">Itinerario · 90 min<small>Seis escenas: del encuadre institucional al trabajo comunitario</small></span></button><button type="button" class="nav-btn" data-go="2" aria-current="false"><span class="nav-num">03</span><span class="nav-text">Moderación<small>Preguntas para abrir el diálogo entre sectores</small></span></button><button type="button" class="nav-btn" data-go="3" aria-current="false"><span class="nav-num">04</span><span class="nav-text">Marco conceptual<small>De la mirada del déficit al enfoque salutogénico</small></span></button><button type="button" class="nav-btn" data-go="4" aria-current="false"><span class="nav-num">05</span><span class="nav-text">Ficha de trabajo<small>Identificar personas, colectivos y oportunidades de colaboración</small></span></button><button type="button" class="nav-btn" data-go="5" aria-current="false"><span class="nav-num">06</span><span class="nav-text">Próximos estudios<small>Dos líneas de investigación para enriquecer el diagnóstico</small></span></button></nav><div class="rail-bottom">Documento de trabajo · 90 minutos<br>El contenido sustantivo procede de la versión aportada.</div></aside><main class="workspace" id="main"><section class="hero" id="inicio"><span class="eyebrow">Taller de impulso · Estrategia RELAS</span><h1>Aula de Impulso Local<br>Loja</h1><p>Una experiencia de trabajo para conectar el diagnóstico de salud con las capacidades del territorio: qué sabemos, qué voces faltan, cómo dialogar y qué alianzas activar.</p><div class="meta"><span class="tag">16 de octubre de 2026</span><span class="tag">10:00–11:30 · 90 minutos</span><span class="tag">6 espacios de trabajo</span><span class="tag">Ficha A4 imprimible</span></div></section><div class="step-head"><div><span class="step-count" id="counter">01 / 06</span><h2 id="step-title">Punto de partida</h2><p id="step-subtitle">Leer la convocatoria y detectar oportunidades de participación</p></div></div><div class="progress-track" role="progressbar" aria-label="Progreso de navegación" aria-valuemin="1" aria-valuemax="6" aria-valuenow="1" id="progress"><div class="progress-fill" id="progress-fill"></div></div><div style="height:22px"></div><div class="notice" id="notice"><strong>Lectura de trabajo, no verificación externa</strong>El diagnóstico sobre la composición de la mesa y las cifras de Localiza Salud se reproducen del documento facilitado. Antes de utilizarlos públicamente, conviene contrastar convocatoria, fecha, registros y criterios de validación.</div><div class="source-panel" data-section="0" id="tab-diagnostico">
+<div class="bg-amber-50 border-l-4 border-amber-500 p-6 rounded-r-2xl shadow-sm space-y-4">
+<div class="flex items-center space-x-2 text-amber-800 font-bold text-lg">
+<svg class="h-6 w-6 text-amber-600 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span>Análisis Crítico de la Convocatoria de Loja</span>
+</div>
+<div class="text-amber-950 text-sm leading-relaxed space-y-3 font-light">
+<p>
+                        La composición oficial de la <strong>2ª Mesa RELAS Loja</strong> presenta un sesgo puramente <strong>institucional, clínico y de gestión de recursos</strong>. Están convocados el Alcalde, las Concejalas del ramo, las Direcciones Médicas del Hospital Comarcal y del Centro de Salud, Vigilancia de la Salud, Salud Mental y Trabajo Social Clínico.
+                    </p>
+<p class="font-semibold text-amber-900">
+                        🚨 Diagnóstico de Omisión: Existe una ausencia absoluta del tejido asociativo vecinal y del espacio educativo vivo (AMPAs, direcciones escolares, colectivos de barrio). El Grupo Motor está incompleto en su base salutogénica.
+                    </p>
+<p>
+                        Por tanto, la <strong>misión prioritaria oculta de este Taller de Impulso</strong> diseñado metodológicamente por <strong>Blas Hermoso</strong> no es validar un documento administrativo cerrado, sino utilizar la inercia del acto oficial para capturar, sensibilizar y forzar la incorporación inmediata de la ciudadanía y las escuelas al núcleo promotor de Loja.
+                    </p>
+</div>
+</div>
+<div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">
+<h3 class="text-sm font-bold text-slate-900 uppercase tracking-wider border-b pb-2">Estructura del Núcleo Institucional Convocado</h3>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 text-xs">
+<div class="p-3 bg-slate-50 rounded-xl border border-slate-100 font-medium text-slate-700">👑 Alcalde del Ayuntamiento de Loja</div>
+<div class="p-3 bg-slate-50 rounded-xl border border-slate-100 font-medium text-slate-700">🏛️ Concejala de Bienestar Social y Servicios Sociales</div>
+<div class="p-3 bg-slate-50 rounded-xl border border-slate-100 font-medium text-slate-700">⚽ Concejala de Deporte y Salud</div>
+<div class="p-3 bg-slate-50 rounded-xl border border-slate-100 font-medium text-slate-700">🏥 Dirección del Hospital de Alta Resolución de Loja</div>
+<div class="p-3 bg-slate-50 rounded-xl border border-slate-100 font-medium text-slate-700">🩺 Dirección del Centro de Salud de Loja</div>
+<div class="p-3 bg-slate-50 rounded-xl border border-slate-100 font-medium text-slate-700">🧬 Responsable de Vigilancia de la Salud (Distrito)</div>
+<div class="p-3 bg-slate-50 rounded-xl border border-slate-100 font-medium text-slate-700">🧠 Coordinación de la Unidad de Salud Mental Comunitaria</div>
+<div class="p-3 bg-slate-50 rounded-xl border border-slate-100 font-medium text-slate-700">🙋‍♂️ Sergio Díaz Sánchez (Enfermero Especialista Fam. y Com. - Convocante)</div>
+<div class="p-3 bg-slate-50 rounded-xl border border-slate-100 font-medium text-slate-700">🎒 Enfermería Referente en Centros Educativos</div>
+</div>
+</div>
+</div><div class="source-panel" data-section="1" id="tab-storyboard">
+<div class="border-b border-slate-200 pb-4">
+<h2 class="text-xl font-bold text-slate-900 font-serif">Storyboard Técnico de Producción</h2>
+<p class="text-xs text-slate-500">Escaleta cronometrada de 90 minutos optimizada para la transformación del modelo (Diseño: Blas Hermoso).</p>
+</div>
+<div class="space-y-6 relative before:absolute before:inset-0 before:left-4 md:before:left-6 before:w-0.5 before:bg-slate-200">
+<div class="relative pl-10 md:pl-14 group">
+<div class="absolute left-2 md:left-4 w-4 h-4 rounded-full bg-slate-900 border-4 border-white -translate-x-1/2 mt-1"></div>
+<div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm grid grid-cols-1 lg:grid-cols-3 gap-4">
+<div class="space-y-1">
+<span class="inline-block text-[10px] font-bold px-2 py-0.5 bg-slate-900 text-slate-100 rounded-full font-mono">10:00 - 10:10 | ESCENA 01</span>
+<h4 class="text-base font-bold text-slate-900">Apertura Institucional</h4>
+<p class="text-xs text-slate-500 font-light"><strong>Actor:</strong> Alcalde / Concejalas | <strong>Espacio:</strong> Mesa Presidencial</p>
+</div>
+<div class="text-xs text-slate-600 space-y-1 font-light">
+<span class="font-bold text-slate-800 uppercase block tracking-widest text-[9px]">Función Estratégica</span>
+<p>Dar legitimidad política al marco RELAS. Encuadrar la salud como un eje transversal obligatorio municipal ("Salud en todas las políticas").</p>
+</div>
+<div class="text-xs text-indigo-950 bg-indigo-50/50 p-3 rounded-xl border border-indigo-100 font-light italic">
+<strong>Dinámica:</strong> Exposición unidireccional formal. Cierre con traspaso explícito del control técnico al Enfermero Comunitario como moderador activo.
+                        </div>
+</div>
+</div>
+<div class="relative pl-10 md:pl-14 group">
+<div class="absolute left-2 md:left-4 w-4 h-4 rounded-full bg-slate-900 border-4 border-white -translate-x-1/2 mt-1"></div>
+<div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm grid grid-cols-1 lg:grid-cols-3 gap-4">
+<div class="space-y-1">
+<span class="inline-block text-[10px] font-bold px-2 py-0.5 bg-slate-900 text-slate-100 rounded-full font-mono">10:10 - 10:25 | ESCENA 02</span>
+<h4 class="text-base font-bold text-slate-900">Foto Socioepidemiológica</h4>
+<p class="text-xs text-slate-500 font-light"><strong>Actor:</strong> Responsable de Vigilancia | <strong>Espacio:</strong> Atril y Proyector</p>
+</div>
+<div class="text-xs text-slate-600 space-y-1 font-light">
+<span class="font-bold text-slate-800 uppercase block tracking-widest text-[9px]">Función Estratégica</span>
+<p>Exponer el diagnóstico técnico del "modelo de déficit" local: tasas de morbimortalidad, vacunas, cribados, alertas biológicas y demografía envejecida de Loja.</p>
+</div>
+<div class="text-xs text-red-950 bg-rose-50/50 p-3 rounded-xl border border-rose-100 font-light italic">
+<strong>Dinámica:</strong> Presentación de datos densos en gráficos. Finaliza con una valoración sintética de los problemas de salud biológica del municipio.
+                        </div>
+</div>
+</div>
+<div class="relative pl-10 md:pl-14 group">
+<div class="absolute left-2 md:left-4 w-4 h-4 rounded-full bg-slate-900 border-4 border-white -translate-x-1/2 mt-1"></div>
+<div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm grid grid-cols-1 lg:grid-cols-3 gap-4">
+<div class="space-y-1">
+<span class="inline-block text-[10px] font-bold px-2 py-0.5 bg-slate-900 text-slate-100 rounded-full font-mono">10:25 - 10:50 | ESCENA 03</span>
+<h4 class="text-base font-bold text-slate-900">Coloquio Intersectorial</h4>
+<p class="text-xs text-slate-500 font-light"><strong>Actor:</strong> Sergio Díaz (Moderador) + Mesa Técnica | <strong>Espacio:</strong> Semicírculo de Sillas</p>
+</div>
+<div class="text-xs text-slate-600 space-y-1 font-light">
+<span class="font-bold text-slate-800 uppercase block tracking-widest text-[9px]">Función Estratégica</span>
+<p>Tensionar las miradas puramente clínicas asistenciales y cruzarlas de forma directa con los determinantes sociales de la salud y el entorno educativo.</p>
+</div>
+<div class="text-xs text-teal-950 bg-teal-50/50 p-3 rounded-xl border border-teal-100 font-light italic">
+<strong>Dinámica:</strong> Panel de debate dirigido mediante preguntas gatillo específicas para cada perfil técnico, cerrando con coloquio libre espontáneo.
+                        </div>
+</div>
+</div>
+<div class="relative pl-10 md:pl-14 group">
+<div class="absolute left-2 md:left-4 w-4 h-4 rounded-full bg-emerald-500 border-4 border-white -translate-x-1/2 mt-1"></div>
+<div class="bg-slate-900 text-white p-5 rounded-2xl border border-slate-800 shadow-md grid grid-cols-1 lg:grid-cols-3 gap-4">
+<div class="space-y-1">
+<span class="inline-block text-[10px] font-bold px-2 py-0.5 bg-emerald-500 text-slate-950 rounded-full font-mono">10:50 - 11:05 | ESCENA 04</span>
+<h4 class="text-base font-bold text-teal-400">El Giro Salutogénico</h4>
+<p class="text-xs text-slate-400 font-light"><strong>Actor:</strong> Ponente de la Mesa | <strong>Espacio:</strong> Centro del Escenario</p>
+</div>
+<div class="text-xs text-slate-300 space-y-1 font-light">
+<span class="font-bold text-teal-400 uppercase block tracking-widest text-[9px]">Función Estratégica</span>
+<p>Provocar la disrupción en la sala defendiendo el marco del <strong>Aula de Activos de Blas Hermoso</strong>. Evidenciar la brecha de <strong>Localiza Salud</strong>: 160 recursos del Ministerio frente a solo 5 activos validados comunitarios.</p>
+</div>
+<div class="text-xs text-emerald-950 bg-emerald-50 p-3 rounded-xl border border-emerald-200 font-light italic">
+<strong>Dinámica:</strong> Exposición conceptual de impacto apoyada en el soporte visual. Quiebre de paradigma: transitar del "inventario administrativo de despachos" al "activo comunitario vivo".
+                        </div>
+</div>
+</div>
+<div class="relative pl-10 md:pl-14 group">
+<div class="absolute left-2 md:left-4 w-4 h-4 rounded-full bg-slate-900 border-4 border-white -translate-x-1/2 mt-1"></div>
+<div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm grid grid-cols-1 lg:grid-cols-3 gap-4">
+<div class="space-y-1">
+<span class="inline-block text-[10px] font-bold px-2 py-0.5 bg-slate-900 text-slate-100 rounded-full font-mono">11:05 - 11:20 | ESCENA 05</span>
+<h4 class="text-base font-bold text-slate-900">Activación de la Gobernanza</h4>
+<p class="text-xs text-slate-500 font-light"><strong>Actores:</strong> Todos en las mesas | <strong>Espacio:</strong> Distribución en mesas técnicas</p>
+</div>
+<div class="text-xs text-slate-600 space-y-1 font-light">
+<span class="font-bold text-slate-800 uppercase block tracking-widest text-[9px]">Función Estratégica</span>
+<p>Forzar la captura operativa de los eslabones perdidos del tejido asociativo y escolar mediante el dispositivo físico impreso diseñado por Blas Hermoso.</p>
+</div>
+<div class="text-xs text-amber-950 bg-amber-50/50 p-3 rounded-xl border border-amber-100 font-light italic">
+<strong>Dinámica:</strong> Trabajo individual pautado (10 min). Reparto físico de las Fichas de Captura para obligar a los técnicos a vaciar sus agendas de contactos comunitarios.
+                        </div>
+</div>
+</div>
+<div class="relative pl-10 md:pl-14 group">
+<div class="absolute left-2 md:left-4 w-4 h-4 rounded-full bg-slate-900 border-4 border-white -translate-x-1/2 mt-1"></div>
+<div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm grid grid-cols-1 lg:grid-cols-3 gap-4">
+<div class="space-y-1">
+<span class="inline-block text-[10px] font-bold px-2 py-0.5 bg-slate-900 text-slate-100 rounded-full font-mono">11:20 - 11:30 | ESCENA 06</span>
+<h4 class="text-base font-bold text-slate-900">Ruegos, Preguntas y Redes</h4>
+<p class="text-xs text-slate-500 font-light"><strong>Actores:</strong> Todos | <strong>Espacio:</strong> Espacio Anexo / Cafetería</p>
+</div>
+<div class="text-xs text-slate-600 space-y-1 font-light">
+<span class="font-bold text-slate-800 uppercase block tracking-widest text-[9px]">Función Estratégica</span>
+<p>Recoger de forma física las Fichas de Captura cumplimentadas a la salida. Afianzar alianzas informales de forma directa.</p>
+</div>
+<div class="text-xs text-slate-950 bg-slate-100 p-3 rounded-xl border border-slate-200 font-light italic">
+<strong>Dinámica:</strong> Café comunitario de redes y conversación informal. Cierre del dispositivo de impulso.
+                        </div>
+</div>
+</div>
+</div>
+</div><div class="source-panel" data-section="2" id="tab-moderador">
+<div class="border-b border-slate-200 pb-4">
+<h2 class="text-xl font-bold text-slate-900 font-serif">Guión Técnico para el Moderador</h2>
+<p class="text-xs text-slate-500">Pautas narrativas y preguntas diana asignadas a Sergio Díaz Sánchez para reconducir la mesa clínica.</p>
+</div>
+<div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">
+<span class="bg-indigo-100 text-indigo-800 font-bold font-mono text-[10px] px-2 py-1 rounded-md uppercase tracking-wider">Bloque 1: Preguntas Dirigidas a Sectores (15 min)</span>
+<div class="space-y-4 text-sm font-light text-slate-600">
+<div class="p-4 bg-slate-50 rounded-xl border-l-4 border-indigo-500 space-y-1">
+<p class="font-bold text-slate-800 text-xs uppercase font-mono">🎯 A las Direcciones del Hospital Comarcal y del Centro de Salud:</p>
+<p class="italic">"Desde la asistencia pura vemos la cronicidad y la patología cuando ya ha debutado en las consultas o en urgencias. Mirando los datos de morbimortalidad expuestos por el epidemiólogo, ¿cuáles de estos problemas creen que se amortiguarían sensiblemente si Loja contara con mejores redes de apoyo, paseos saludables o un tejido comunitario que reactive físicamente a los pacientes?"</p>
+</div>
+<div class="p-4 bg-slate-50 rounded-xl border-l-4 border-indigo-500 space-y-1">
+<p class="font-bold text-slate-800 text-xs uppercase font-mono">🎯 A la Coordinación de la Unidad de Salud Mental Comunitaria:</p>
+<p class="italic">"Los datos clásicos analizan alertas, coberturas y virus, pero el malestar emocional y el aislamiento social grave crecen de forma silenciosa. ¿Qué peso real le asigna usted al tejido asociativo local, los clubes y las redes informales del pueblo como factor preventivo o terapéutico para evitar la medicalización?"</p>
+</div>
+<div class="p-4 bg-slate-50 rounded-xl border-l-4 border-indigo-500 space-y-1">
+<p class="font-bold text-slate-800 text-xs uppercase font-mono">🎯 A la Trabajadora Social del CS y Enfermería Referente Escolar:</p>
+<p class="italic">"Vosotras os movéis de forma diaria entre las aulas y los entornos de mayor vulnerabilidad de Loja (como las zonas de intervención de planes sociales o ERACIS). ¿Qué capacidades, fortalezas latentes o activos de resistencia veis en las familias o en los colegios que el algoritmo clínico del hospital suele pasar por alto pero que salvan vidas todos los días?"</p>
+</div>
+</div>
+</div>
+<div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">
+<span class="bg-teal-100 text-teal-800 font-bold font-mono text-[10px] px-2 py-1 rounded-md uppercase tracking-wider">Bloque 2: Dinámica de Coloquio Cruzado Espontáneo (10 min)</span>
+<div class="p-4 bg-teal-50/50 rounded-xl border border-teal-200 space-y-2 text-sm font-light text-slate-800">
+<p class="font-semibold text-teal-950">Pregunta de Ruptura General para lanzar a la mesa:</p>
+<p class="italic">"Si una vecina de Loja estuviera ahora mismo sentada al fondo de la sala escuchándonos debatir y nos preguntara de forma directa: 'Miren ustedes, ¿qué tiene que ver el hospital, los despachos médicos o el área de bienestar social con que mi barrio sea un lugar seguro, saludable, libre de soledad y donde apetezca salir a pasear?', ¿cómo romperíais esa barrera conceptual desde vuestros respectivos campos?"</p>
+<p class="text-xs text-slate-500 pt-2 font-normal"><em>*Nota de producción para Sergio Díaz: Intervenir solo para regular turnos de palabra, impidiendo que el debate se desvíe hacia demandas de recursos asistenciales o presupuestos.</em></p>
+</div>
+</div>
+</div><div class="source-panel" data-section="3" id="tab-ponencia">
+<div class="border-b border-slate-200 pb-4">
+<h2 class="text-xl font-bold text-slate-900 font-serif">El Núcleo Conceptual del Aula de Activos</h2>
+<p class="text-xs text-slate-500">Soporte metodológico y marco analítico del modelo de activos diseñado por Blas Hermoso para la proyección de las 10:50h.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+<div class="lg:col-span-2 bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4 font-light text-sm text-slate-700 leading-relaxed">
+<span class="text-xs uppercase font-mono font-bold text-slate-400 block border-b pb-1">Marco Discursivo del Aula (Salutogénesis)</span>
+<p>
+                        "Epidemiología nos enseña con precisión milimétrica de qué enferma y muere la población local. Es un análisis fundamental. Pero para aplicar de forma real la estrategia de Acción Local en Salud (RELAS), se requiere obligatoriamente la otra mitad de la foto: <strong>necesitamos mapear cómo se vive en las calles</strong>."
+                    </p>
+<p class="font-semibold text-slate-900">
+                        La salud ocurre de forma muy profunda en los ritmos cotidianos de la comunidad, no en las salas de espera.
+                    </p>
+<p>
+                        Se debe transitar hacia la medición de los estilos de vida reales en el municipio: los patrones alimenticios reales de la infancia, los niveles y espacios de actividad física, el consumo de tabaco y alcohol, el uso del sueño y descanso, el manejo comunitario de las violencias cotidianas, y fundamentalmente, los mapas de bienestar emocional y apoyo social vecinal.
+                    </p>
+<p>
+                        Para afrontar este reto de gobernanza participativa, el diseño metodológico de <strong>Blas Hermoso</strong> confronta la sala con la realidad administrativa del mapa local actual...
+                    </p>
+</div>
+<div class="bg-slate-900 text-white p-6 rounded-2xl shadow-md border-t-4 border-teal-500 flex flex-col justify-between space-y-6">
+<div class="space-y-2">
+<span class="text-xs text-teal-400 uppercase tracking-widest font-bold font-mono block">Visual de Soporte Técnico</span>
+<h3 class="text-lg font-bold font-serif leading-tight">La Paradoja de Localiza Salud en Loja</h3>
+<p class="text-xs text-slate-400 font-light">Cifras reproducidas del material de partida; pendientes de comprobación de fecha, fuente y criterios de clasificación.</p>
+</div>
+<div class="space-y-4">
+<div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center">
+<div class="text-4xl font-black text-slate-300 tracking-tight">160</div>
+<div class="text-[10px] text-slate-400 uppercase font-mono tracking-wider mt-1">Recursos Administrativos Registrados</div>
+</div>
+<div class="bg-emerald-950/60 p-4 rounded-xl border border-emerald-900 text-center relative overflow-hidden">
+<div class="text-5xl font-black text-emerald-400 tracking-tight">5</div>
+<div class="text-[10px] text-emerald-300 uppercase font-mono tracking-wider mt-1">Activos Validados Reales</div>
+</div>
+</div>
+<p class="text-[11px] text-slate-400 leading-relaxed font-light">
+<strong>Quiebre de Paradigma:</strong> De los 160 recursos inventariados en la base de datos ministerial, un porcentaje masivo son registros fríos de oficinas o servicios asistenciales. Solo 5 cumplen los criterios de activos comunitarios vivos. La misión técnica del Grupo Motor es auditar cooperativamente los 155 restantes incorporando a la comunidad educativa y vecinal.
+                    </p>
+</div>
+</div>
+</div><div class="source-panel" data-section="4" id="tab-ficha">
+<div class="border-b border-slate-200 pb-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 no-print">
+<div>
+<h2 class="text-xl font-bold text-slate-900 font-serif">Ficha de Captura para Dinámica de Mesa (Escena 05)</h2>
+<p class="text-xs text-slate-500">Modelo maquetado para impresión física en A4. Repartir durante el taller para extraer los contactos ocultos.</p>
+</div>
+
+</div>
+<div class="bg-white p-8 md:p-10 rounded-2xl border border-slate-300 shadow-sm space-y-6 print-card">
+<div class="flex justify-between items-center border-b-2 border-slate-900 pb-4">
+<div class="space-y-1">
+<h3 class="text-lg font-bold text-slate-900 uppercase tracking-tight font-serif">Ficha de Captura e Identificación de Activos</h3>
+<p class="text-[10px] text-slate-500 uppercase tracking-widest font-mono">Estrategia de Acción Local en Salud · Municipio de Loja</p>
+</div>
+<div class="text-right text-[10px] text-slate-400 font-mono font-bold leading-tight uppercase border border-slate-200 p-2 rounded">
+                        Mesa Técnica RELAS<br/>16 Octubre 2026
+                    </div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 bg-slate-50 p-4 rounded-xl border border-slate-200 text-xs">
+<div class="space-y-1">
+<span class="block font-bold text-slate-700 uppercase tracking-wider text-[9px]">Nombre del Técnico / Informante:</span>
+<div class="border-b border-dashed border-slate-400 h-6"></div>
+</div>
+<div class="space-y-1">
+<span class="block font-bold text-slate-700 uppercase tracking-wider text-[9px]">Área / Especialidad / Entidad:</span>
+<div class="border-b border-dashed border-slate-400 h-6"></div>
+</div>
+</div>
+<p class="text-xs text-slate-600 font-light italic leading-normal">
+                    Instrucciones: Utilice sus redes de contactos, agendas sectoriales o experiencia cotidiana con pacientes/usuarios para identificar agrupaciones, colectivos informales o centros escolares que deberían integrarse de forma activa en el diseño del Plan Local de Salud de Loja.
+                </p>
+<div class="space-y-4 pt-2">
+<h4 class="font-bold text-sm text-slate-900 border-b-2 border-slate-800 pb-1 uppercase tracking-wide flex justify-between items-center">
+<span>BLOQUE A: El Eslabón Comunitario Ausente (Tejido Asociativo y Vecinal)</span>
+<span class="text-[10px] font-mono text-slate-400 normal-case font-normal">Asociaciones vecinales, culturales, autoayuda...</span>
+</h4>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+<div class="md:col-span-2 space-y-1">
+<span class="block text-slate-500 font-medium">Nombre de la Asociación, Club Inclusivo o Colectivo de Barrio:</span>
+<div class="border-b border-dashed border-slate-300 h-6"></div>
+</div>
+<div class="space-y-1">
+<span class="block text-slate-500 font-medium">Persona de Contacto / Enlace (Si la conoce):</span>
+<div class="border-b border-dashed border-slate-300 h-6"></div>
+</div>
+</div>
+<div class="text-xs space-y-1">
+<span class="block text-slate-500 font-medium">¿Qué actividad concreta realiza que genere apoyo social, resiliencia o bienestar en Loja?:</span>
+<div class="border-b border-dashed border-slate-300 h-10"></div>
+</div>
+</div>
+<div class="space-y-4 pt-2">
+<h4 class="font-bold text-sm text-slate-900 border-b-2 border-slate-800 pb-1 uppercase tracking-wide flex justify-between items-center">
+<span>BLOQUE B: El Eslabón Educativo Ausente (Entorno Escolar Local)</span>
+<span class="text-[10px] font-mono text-slate-400 normal-case font-normal">AMPAs, comisiones de salud de centros, colectivos juveniles...</span>
+</h4>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+<div class="space-y-1">
+<span class="block text-slate-500 font-medium">Centro Educativo (Colegio, Instituto) o Agrupación de Padres/Madres:</span>
+<div class="border-b border-dashed border-slate-300 h-6"></div>
+</div>
+<div class="space-y-1">
+<span class="block text-slate-500 font-medium">Contacto / Proyecto activo de salud o inclusión que conozca del centro:</span>
+<div class="border-b border-dashed border-slate-300 h-6"></div>
+</div>
+</div>
+</div>
+<div class="bg-teal-50/50 p-4 rounded-xl border border-teal-200 text-xs space-y-2">
+<span class="font-bold text-teal-900 uppercase tracking-wider block text-[10px]">Criterio de Validación Rápida de Activos para la Salud:</span>
+<p class="text-teal-950 font-light leading-normal">
+                        Para que este recurso propuesto sea considerado un <strong>activo comunitario</strong> real bajo las directrices del Ministerio de Sanidad (Estrategia Localiza Salud), verifique si cumple alguna de las siguientes premisas:
+                    </p>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-3 pt-1 text-teal-950 font-medium">
+<div class="flex items-start space-x-2">
+<div class="w-3.5 h-3.5 border border-teal-600 rounded mt-0.5 flex-shrink-0"></div>
+<span>Fomenta que la población gane control sobre su bienestar de forma autónoma.</span>
+</div>
+<div class="flex items-start space-x-2">
+<div class="w-3.5 h-3.5 border border-teal-600 rounded mt-0.5 flex-shrink-0"></div>
+<span>Pone el foco inequívoco en reducir las desigualdades sociales en el barrio.</span>
+</div>
+<div class="flex items-start space-x-2">
+<div class="w-3.5 h-3.5 border border-teal-600 rounded mt-0.5 flex-shrink-0"></div>
+<span>Nace de la participación real comunitaria o está abierto al vecindario.</span>
+</div>
+</div>
+</div>
+<div class="text-[9px] text-center text-slate-400 font-mono pt-4 border-t border-dashed border-slate-300 uppercase tracking-wider">
+                    Metodología de Investigación-Acción Participativa · Aula de Activos Comunitarios (Blas Hermoso)
+                </div>
+</div>
+</div><div class="source-panel" data-section="5" id="tab-estudios">
+<div class="border-b border-slate-200 pb-4">
+<h2 class="text-xl font-bold text-slate-900 font-serif">Estudios Complementarios de Reflexión Territorial</h2>
+<p class="text-xs text-slate-500">Propuestas metodológicas sugeridas en el cierre del taller para enriquecer el diagnóstico local reduciendo desigualdades.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4 flex flex-col justify-between">
+<div class="space-y-2">
+<div class="flex items-center space-x-2 text-indigo-600 font-bold text-sm font-mono uppercase tracking-wider">
+<span>🏫 Estudio 01 · Entorno Escolar</span>
+</div>
+<h3 class="text-base font-bold text-slate-900">Perfiles de Estilo de Vida e Infancia</h3>
+<p class="text-xs text-slate-600 font-light leading-relaxed">
+                            Investigación orientada a analizar de forma directa los determinantes de salud en población escolar de Loja: alimentación real, uso y abuso de pantallas, horas de sueño, descanso y mapas de malestar o bienestar emocional en las aulas.
+                        </p>
+</div>
+<div class="bg-slate-50 p-4 rounded-xl border border-slate-100 text-xs text-slate-700 space-y-1">
+<strong class="text-slate-900 font-semibold block text-[10px] uppercase font-mono tracking-wider">Técnica Propuesta: Photovoice</strong>
+<p class="font-light leading-normal">Los propios alumnos de los colegios e institutos fotografían mediante sus teléfonos móviles "lo que les proporciona bienestar o salud" y "lo que se lo quita" en sus rutas cotidianas y barrios.</p>
+</div>
+</div>
+<div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4 flex flex-col justify-between">
+<div class="space-y-2">
+<div class="flex items-center space-x-2 text-teal-600 font-bold text-sm font-mono uppercase tracking-wider">
+<span>👥 Estudio 02 · Inclusión Social</span>
+</div>
+<h3 class="text-base font-bold text-slate-900">Mapeo de Resiliencia y Activos en Zonas Vulnerables</h3>
+<p class="text-xs text-slate-600 font-light leading-relaxed">
+                            Estudio cualitativo enfocado de forma específica en los colectivos de usuarios de planes sociales y áreas de intervención ERACIS del municipio. Diseñado para romper radicalmente el sesgo tradicional del diagnóstico del déficit.
+                        </p>
+</div>
+<div class="bg-slate-50 p-4 rounded-xl border border-slate-100 text-xs text-slate-700 space-y-1">
+<strong class="text-slate-900 font-semibold block text-[10px] uppercase font-mono tracking-wider">Técnica Propuesta: Paseos Diagnósticos a Pie</strong>
+<p class="font-light leading-normal">Recorridos territoriales a pie con los vecinos de las zonas desfavorecidas para identificar de manera conjunta redes informales de apoyo mutuo, liderazgos vecinales naturales y activos de resistencia frente a la desigualdad.</p>
+</div>
+</div>
+</div>
+</div><div class="toolbox hide" id="digital-form"><h3>Ficha de identificación · versión digital</h3><p>Esta ficha complementa la versión A4 original. Los datos se mantienen en esta página mientras esté abierta; puedes descargar una copia TXT o imprimir la ficha original.</p><div class="form-grid"><div class="field"><label for="informante">Nombre del informante</label><input id="informante" placeholder="Nombre y apellidos"></div><div class="field"><label for="sector">Área o entidad</label><input id="sector" placeholder="Servicio, asociación o centro"></div><div class="field"><label for="colectivo">Asociación, club o colectivo</label><input id="colectivo" placeholder="Nombre del colectivo"></div><div class="field"><label for="contacto">Persona de contacto o enlace</label><input id="contacto" placeholder="Solo si se dispone de autorización para compartirlo"></div><div class="field full"><label for="actividad">¿Qué actividad aporta bienestar o apoyo social?</label><textarea id="actividad" placeholder="Describe la actividad y su contribución a la salud"></textarea></div><div class="field"><label for="educativo">Centro educativo, AMPA o colectivo juvenil</label><input id="educativo" placeholder="Nombre del grupo o centro"></div><div class="field"><label for="proyecto">Proyecto o iniciativa conocida</label><input id="proyecto" placeholder="Proyecto, referente, colaboración"></div><div class="field full"><label for="validacion">Observaciones y próximos pasos</label><textarea id="validacion" placeholder="Qué falta verificar, a quién consultar, cómo implicar a la comunidad"></textarea></div></div><div class="actions"><button class="action" id="download-form">↓ Descargar ficha cumplimentada (.txt)</button><button class="action secondary" id="print-original">Imprimir ficha A4 original</button><button class="action secondary" id="clear-form">Limpiar campos</button></div></div><div class="bottom-nav"><button class="action secondary" id="prev">← Anterior</button><span class="step-count" id="foot-count">1 de 6</span><button class="action" id="next">Siguiente →</button></div><div class="page-footer">RELAS Loja · Diseño metodológico: Blas Hermoso · Versión navegable para trabajo y presentación</div></main></div><div class="present-bar"><button id="present-prev">←</button><span id="present-count" style="padding:9px 4px;font-size:12px"></span><button id="present-next">→</button><button id="present-exit">Salir ×</button></div><script>
+(()=>{'use strict';
+const labels=['Punto de partida','Itinerario · 90 min','Moderación','Marco conceptual','Ficha de trabajo','Próximos estudios'];
+const subtitles=['Leer la convocatoria y detectar oportunidades de participación','Seis escenas: del encuadre institucional al trabajo comunitario','Preguntas para abrir el diálogo entre sectores','De la mirada del déficit al enfoque salutogénico','Identificar personas, colectivos y oportunidades de colaboración','Dos líneas de investigación para enriquecer el diagnóstico'];
+const sections=[...document.querySelectorAll('.source-panel')], menu=[...document.querySelectorAll('[data-go]')];let current=0;
+function show(i,push=true){current=Math.min(5,Math.max(0,i));sections.forEach((p,n)=>p.classList.toggle('active',n===current));menu.forEach((b,n)=>{b.classList.toggle('active',n===current);b.setAttribute('aria-current',n===current?'step':'false')});document.getElementById('counter').textContent=String(current+1).padStart(2,'0')+' / 06';document.getElementById('foot-count').textContent=(current+1)+' de 6';document.getElementById('present-count').textContent=(current+1)+' / 6';document.getElementById('step-title').textContent=labels[current];document.getElementById('step-subtitle').textContent=subtitles[current];document.getElementById('progress-fill').style.width=((current+1)/6*100)+'%';document.getElementById('progress').setAttribute('aria-valuenow',current+1);document.getElementById('digital-form').classList.toggle('hide',current!==4);document.getElementById('notice').classList.toggle('hide',![0,3].includes(current));document.getElementById('prev').disabled=current===0;document.getElementById('next').disabled=current===5;document.getElementById('next').textContent=current===5?'Fin del recorrido':'Siguiente →';if(push)history.replaceState(null,'','#'+['diagnostico','itinerario','moderacion','marco','ficha','estudios'][current]);window.scrollTo({top:0,behavior:'instant'})}
+menu.forEach(b=>b.addEventListener('click',()=>show(Number(b.dataset.go))));for(const [id,delta] of [['prev',-1],['next',1],['present-prev',-1],['present-next',1]])document.getElementById(id).addEventListener('click',()=>show(current+delta));function togglePresent(force){document.body.classList.toggle('presentation',force??!document.body.classList.contains('presentation'));window.scrollTo(0,0)}document.getElementById('present').addEventListener('click',()=>togglePresent());document.getElementById('present-exit').addEventListener('click',()=>togglePresent(false));document.addEventListener('keydown',e=>{if(e.target.matches('input,textarea,select'))return;if(e.key==='Escape')togglePresent(false);if(document.body.classList.contains('presentation')&&(e.key==='ArrowRight'||e.key==='ArrowLeft'))show(current+(e.key==='ArrowRight'?1:-1))});
+const fields=['informante','sector','colectivo','contacto','actividad','educativo','proyecto','validacion'];document.getElementById('download-form').addEventListener('click',()=>{const names=['Informante','Área o entidad','Colectivo','Contacto','Actividad','Centro o colectivo educativo','Proyecto','Observaciones'];const body='RELAS LOJA · FICHA DE IDENTIFICACIÓN DE ACTIVOS\n\n'+fields.map((f,i)=>names[i]+':\n'+document.getElementById(f).value.trim()).join('\n\n')+'\n';const blob=new Blob([body],{type:'text/plain;charset=utf-8'}),u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download='ficha-activos-relas-loja.txt';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000)});document.getElementById('clear-form').addEventListener('click',()=>{if(confirm('¿Vaciar los campos de la ficha?'))fields.forEach(f=>document.getElementById(f).value='')});function printFicha(){const currentPanel=sections[4];sections.forEach(s=>s.classList.remove('printable'));currentPanel.classList.add('printable');window.print()}document.getElementById('print-ficha').addEventListener('click',printFicha);document.getElementById('print-original').addEventListener('click',printFicha);
+const hashNames=['diagnostico','itinerario','moderacion','marco','ficha','estudios'];show(Math.max(0,hashNames.indexOf(location.hash.substring(1))),false);
+})();
+</script></body></html>
