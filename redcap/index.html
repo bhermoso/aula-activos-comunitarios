@@ -171,7 +171,7 @@ body.pres .workspace{max-width:1200px;font-size:18px}body.pres .panel h2{font-si
 
 @media (max-width:900px){.layout{grid-template-columns:minmax(0,1fr)}.rail{position:static;height:auto;border-right:0;border-bottom:1px solid var(--line)}.sub{display:none}.menu{grid-auto-flow:column;grid-auto-columns:minmax(190px,1fr);overflow-x:auto;padding-bottom:4px}.nav-text small,.rail-desc,.rail-bottom span{display:none}.rail{padding:16px 10px}.portada-hero{grid-template-columns:minmax(0,1fr)}.form-art{display:none}.portada-cursos{grid-template-columns:minmax(0,1fr)}.pasos{grid-template-columns:repeat(2,minmax(0,1fr))}.head-actions,.portada-bar a{margin-right:0}.site-head{padding-top:56px}.portada-bar{padding-top:56px}}
 @media print{.site-head,.rail,.controls,#aula-home-global,.aula-back,.timer-widget{display:none!important}.layout{display:block}.panel{box-shadow:none;border:0}}
-</style></head><body>
+</style><style>.recursos-contexto{margin-top:20px;padding:17px;border:1px solid #cbded1;background:#f1f7f3;border-radius:13px;color:#183a37}.recursos-contexto strong{display:block;margin-bottom:10px}.recursos-contexto a{display:inline-block;margin:3px 7px 3px 0;padding:8px 11px;border:1px solid #bbd4c5;background:white;border-radius:8px;color:#176052;font-size:12px;font-weight:700;text-decoration:underline;text-underline-offset:3px}</style></head><body>
 <a id="aula-home-global" href="../index.html" aria-label="Volver a la página principal del Aula de Salud Comunitaria Basada en Activos" style="position:fixed!important;top:10px;right:12px;z-index:2147483647!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;gap:7px;background:#16473e!important;color:white!important;border:2px solid #e2f0e8!important;border-radius:30px!important;padding:9px 14px!important;max-width:calc(100vw - 24px);font:700 13px/1.2 system-ui,sans-serif!important;text-decoration:none!important;box-shadow:0 5px 18px #0b251e44!important;visibility:visible!important;opacity:1!important">⌂ Aula · Inicio</a>
 <a href="#main" class="skip">Ir al contenido</a>
 
@@ -454,6 +454,27 @@ const MATERIALES = [
 
 
 
+
+const URLS_REFERENCIA=[
+['Vídeos y tutoriales oficiales','https://projectredcap.org/resources/videos/'],
+['Recursos del proyecto REDCap','https://projectredcap.org/resources/'],
+['Biblioteca de instrumentos','https://projectredcap.org/resources/library/'],
+['Guías de REDCap (Yale)','https://portal.redcap.yale.edu/resource-overview'],
+['Materiales de formación (Rochester)','https://redcap.urmc.rochester.edu/portal/training.php'],
+['Guía de Action Tags','https://help.redcap.ualberta.ca/help-and-faq/action-tags']
+];
+const PDF_UNIDADES={
+basico:{s1:'basico_sesion1.pdf',s2:'basico_sesion2.pdf',t1:'basico_trabajo_no_presencial_1.pdf',t2:'basico_trabajo_no_presencial_2.pdf'},
+avanzado:{s1:'avanzado_sesion1.pdf',s2:'avanzado_sesion2.pdf',t1:'avanzado_trabajo_no_presencial_1.pdf',t2:'avanzado_trabajo_no_presencial_2.pdf'}
+};
+function recursosDePantalla(c,u,sl){
+const t=(sl.t+' '+sl.h.replace(/<[^>]+>/g,' ')).toLowerCase();
+const seleccion=t.includes('action tag')?[5,0,3]:/diccionario|campo|instrumento|diseño|record_id/.test(t)?[0,2,3]:/encuesta|survey|piping/.test(t)?[0,3,4]:/calidad|export|informe|datos|validaci/.test(t)?[0,3,4]:[0,1,4];
+const entradas=[['PDF de esta unidad','materiales/'+PDF_UNIDADES[c][u]],...seleccion.map(i=>URLS_REFERENCIA[i])];
+if(c==='avanzado'&&/diccionario|csv|plantilla|instrumento/.test(t))entradas.push(['Plantilla de prácticas (CSV)','materiales/plantilla_habitos_vida_diccionario.csv']);
+return '<aside class="recursos-contexto"><strong>Recursos y enlaces relacionados</strong>'+entradas.map(x=>'<a href="'+x[1]+'" target="_blank" rel="noopener noreferrer">'+x[0]+' ↗</a>').join('')+'</aside>';
+}
+
 /* ---------- estado ---------- */
 const UNITDESC={s1:{basico:'Conceptos, tipos de campo, validaciones y primer instrumento',avanzado:'Sintaxis, funciones, @CALCTEXT y Action Tags'},t1:{basico:'Ampliar, probar y exportar · entrega 1',avanzado:'Casos de prueba · entrega 1'},s2:{basico:'Guardar, producción, RGPD, roles y diccionario',avanzado:'Matrices, piping, encuesta, informes, calidad'},t2:{basico:'Pulir, prueba por terceros, documento final',avanzado:'Perfiles, reglas de calidad, documento final'}};
 const S={view:'portada',c:0,u:0,s:0};
@@ -494,7 +515,7 @@ function render(){
     total=f.length; idx=f.findIndex(x=>x[0]===S.u&&x[1]===S.s);
     $('step-count').textContent=`${u.k} · pantalla ${S.s+1} de ${u.slides.length}`;
     $('crumb').textContent=`${c.name} · ${u.title}`;
-    $('view').innerHTML=`<div class="panel">${sl.h}</div>`;
+    $('view').innerHTML=`<div class="panel">${sl.h}${recursosDePantalla(c.id,u.id,sl)}</div>`;
   }
   $('prog').style.width=S.view==='curso'?((idx+1)/total*100)+'%':'0';
   $('count').textContent=S.view==='curso'?`${idx+1} / ${total}`:'—';
