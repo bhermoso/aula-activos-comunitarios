@@ -79,6 +79,49 @@
 @media(min-width:1100px) and (min-height:680px) {
  body:has(#portada-actividad:not([hidden])){overflow:hidden}
 }
+</style><style id="loja-itinerario-viewport">
+/* El menú completo es accesible sin desplazamiento en pantallas habituales.
+   En alturas muy limitadas se permite scroll para no ocultar opciones. */
+@media(min-width:851px){
+ .actividad-app .rail{padding:12px 10px;top:65px;display:flex;flex-direction:column;gap:0}
+ .actividad-app .rail-kicker{font-size:10px;margin-bottom:2px}
+ .actividad-app .rail-title{font-size:19px;line-height:1.08;margin:3px 10px 4px}
+ .actividad-app .rail-desc{font-size:11px;margin:0 10px 10px}
+ .actividad-app .menu{gap:3px}
+ .actividad-app .nav-btn{padding:7px 8px;gap:7px}
+ .actividad-app .nav-text{font-size:12px;line-height:1.18}
+ .actividad-app .nav-text small{font-size:10px;line-height:1.2;margin-top:2px}
+ .actividad-app .rail-bottom{margin-top:10px;padding:9px 10px}
+}
+@media(min-width:851px) and (max-height:850px){
+ .actividad-app .rail{padding-top:8px;padding-bottom:8px}
+ .actividad-app .rail-desc{display:none}
+ .actividad-app .rail-title{font-size:17px;margin-bottom:8px}
+ .actividad-app .nav-btn{padding:6px 7px}
+ .actividad-app .nav-text small{display:none}
+ .actividad-app .rail-bottom{display:none}
+}
+#tab-storyboard .agenda-tv{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+#tab-storyboard .agenda-tv>div{display:flex;flex-direction:column;gap:2px;background:#fff;border:1px solid #dce5e0;border-radius:11px;padding:10px 13px}
+#tab-storyboard .agenda-tv small{font-size:11px;font-weight:850;color:#137c73}
+#tab-storyboard .agenda-tv strong{font-size:14px;line-height:1.22;color:#183a37}
+#tab-storyboard .agenda-tv span{font-size:11px;color:#617574}
+#tab-storyboard .agenda-detailed{display:none}
+#tab-storyboard .agenda-detailed.expanded{display:block}
+#tab-storyboard .agenda-detail-toggle{margin:13px 0 4px;background:#e8f4ef;border:1px solid #b8d7c8;border-radius:10px;color:#1a5349;padding:10px 14px;font-size:13px;font-weight:750;cursor:pointer}
+#tab-storyboard .agenda-detail-toggle:focus-visible{outline:3px solid #edb957;outline-offset:3px}
+@media(max-width:640px){#tab-storyboard .agenda-tv{grid-template-columns:1fr}}
+@media(min-width:851px) and (max-height:820px){
+ .actividad-app .workspace{padding-top:10px}
+ .actividad-app .step-head{margin-top:12px;margin-bottom:8px}
+ .actividad-app .step-head h2{font-size:26px}
+ #tab-storyboard>.border-b{padding-bottom:7px}
+ #tab-storyboard>.border-b h2{font-size:20px;margin-bottom:3px}
+ #tab-storyboard>.border-b p{font-size:12px}
+ #tab-storyboard .agenda-tv>div{padding:7px 11px}
+ #tab-storyboard .agenda-tv strong{font-size:13px}
+}
+.presentation #tab-storyboard .agenda-detail-toggle{display:none!important}
 </style></head><body><section class="portada" id="portada-actividad" data-module="loja" aria-label="Portada del Taller de reimpulso de Loja" style="--cover-accent:#aed8bf">
 <div class="portada-bar"><strong>AULA · SALUD COMUNITARIA</strong><a href="../index.html">← Aula principal</a></div>
 <div class="portada-hero"><div><div class="p-kicker">Acción local en salud · RELAS · 2026</div><h1>Reimpulso del I Plan Local de Salud <span>Loja</span></h1><p>Encuentro para revisar antecedentes, situación de salud, participación comunitaria y opciones de continuidad del proceso local.</p><span class="fecha">16 de octubre · 10:00–11:30 · 90 minutos</span></div>
@@ -104,7 +147,7 @@
 <div><small>10:50–11:10</small><strong>Antecedentes y salutogénesis</strong><span>Proceso RELAS y activos</span></div>
 <div><small>11:10–11:25</small><strong>Identificación de actores y sectores</strong><span>Trabajo práctico</span></div>
 <div><small>11:25–11:30</small><strong>Puesta en común y cierre</strong><span>Próximos pasos por acordar</span></div>
-</div><div class="agenda-detailed" style="margin-top:20px"><div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm" style="margin-bottom:14px"><div class="eyebrow">01 · 10:00–10:10</div><h3>Apertura institucional</h3><p><strong>Participación institucional:</strong> representación municipal de las áreas de Salud, Deportes y Bienestar Social (asistencia y orden de palabra pendientes de confirmación)</p><p>Bienvenida y presentación del propósito del encuentro y de la continuidad del I Plan Local de Salud de Loja.</p></div>
+</div><button class="agenda-detail-toggle" type="button" aria-controls="loja-agenda-detalle" aria-expanded="false" id="loja-agenda-toggle">Ver programa detallado ↓</button><div class="agenda-detailed" id="loja-agenda-detalle" style="margin-top:12px"><div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm" style="margin-bottom:14px"><div class="eyebrow">01 · 10:00–10:10</div><h3>Apertura institucional</h3><p><strong>Participación institucional:</strong> representación municipal de las áreas de Salud, Deportes y Bienestar Social (asistencia y orden de palabra pendientes de confirmación)</p><p>Bienvenida y presentación del propósito del encuentro y de la continuidad del I Plan Local de Salud de Loja.</p></div>
 <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm" style="margin-bottom:14px"><div class="eyebrow">02 · 10:10–10:15</div><h3>Introducción y conducción de la sesión</h3><p><strong>Intervienen:</strong> Sergio Díaz Sánchez · Enfermería familiar y comunitaria</p><p>Presentación del orden de la reunión, sus objetivos y participantes. Da paso a la exposición del informe de salud.</p></div>
 <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm" style="margin-bottom:14px"><div class="eyebrow">03 · 10:15–10:30</div><h3>Informe sobre la situación de salud de Loja</h3><p><strong>Intervienen:</strong> M. Carlos del Moral Campaña · Epidemiólogo</p><p>Exposición del informe actualizado. No se anticipan los formatos ni contenidos específicos de sus diapositivas.</p></div>
 <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm" style="margin-bottom:14px"><div class="eyebrow">04 · 10:30–10:50</div><h3>Mesa-coloquio intersectorial</h3><p><strong>Intervienen:</strong> Participantes convocados · Conducción: enfermero comunitario</p><p>Diálogo mediante preguntas abiertas sobre la situación de salud, la experiencia de los servicios y las perspectivas de actuación conjunta.</p></div>
@@ -203,6 +246,9 @@
 <div class="actions"><button class="action secondary" type="button" id="download-form">Descargar mi listado (.txt)</button><button class="action secondary" type="button" id="print-original">Imprimir</button><button class="action secondary" type="button" id="clear-form">Borrar todas mis propuestas</button></div>
 <p style="font-size:13px">Las propuestas se guardan exclusivamente mediante almacenamiento local del navegador de este dispositivo. <strong>No se recopilan, no se comparten con la organización ni se sincronizan.</strong> Si borras los datos del navegador, perderás el listado.</p></div><div class="bottom-nav"><button class="action secondary" id="prev">← Anterior</button><span class="step-count" id="foot-count">1 de 8</span><button class="action" id="next">Siguiente →</button></div><div class="page-footer">Taller de reimpulso del I Plan Local de Salud de Loja · 16 de octubre de 2026</div></main></div><div class="present-bar"><button id="present-prev">←</button><span id="present-count" style="padding:9px 4px;font-size:12px"></span><button id="present-next">→</button><button id="present-exit">Salir ×</button></div><script>
 (()=>{'use strict';
+const agendaButton=document.getElementById('loja-agenda-toggle');
+const agendaDetail=document.getElementById('loja-agenda-detalle');
+if(agendaButton&&agendaDetail)agendaButton.addEventListener('click',()=>{const open=agendaDetail.classList.toggle('expanded');agendaButton.setAttribute('aria-expanded',String(open));agendaButton.textContent=open?'Ocultar programa detallado ↑':'Ver programa detallado ↓';});
 const labels=['Apertura institucional','Itinerario · 90 min','Moderación','Antecedentes y salutogénesis','Actores y sectores','Estudios complementarios','Mapeo escolar','Mapeo de redes comunitarias'];
 const subtitles=['Inicio del encuentro y orden de intervenciones','Siete momentos de la reunión','Preguntas para abrir el diálogo entre sectores','Trayectoria documentada y trabajo comunitario','Añadir tantos actores y sectores como necesites','Opciones para enriquecer el Perfil de Salud Local','Propuesta: activos de los entornos educativos','Propuesta: redes de apoyo y activos en los barrios'];
 const sections=[...document.querySelectorAll('.source-panel')], menu=[...document.querySelectorAll('[data-go]')];let current=0;let pastSections=[];let bannerDismissed=false;document.getElementById('close-local-banner').addEventListener('click',()=>{bannerDismissed=true;document.getElementById('local-only-banner').classList.add('hide')});
