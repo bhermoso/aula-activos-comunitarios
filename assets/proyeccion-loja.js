@@ -39,7 +39,8 @@ const DECK=[
 ['Sectores','Salud, educación, servicios sociales, asociaciones, mayores, empleo y otros ámbitos.'],
 ['Tipos de actores','Entidades, colectivos, representaciones, servicios y funciones pertinentes.'],
 ['Registro personal','Cada participante puede añadir tantas propuestas como necesite desde su teléfono.'],
-['Privacidad','Sin nombres de personas ni datos de contacto. El listado queda solo en su navegador.']],note:'La propuesta individual no constituye una invitación ni un acuerdo de incorporación.'}],
+['Privacidad','Sin nombres de personas ni datos de contacto. El listado queda solo en su navegador.']],note:'La propuesta individual no constituye una invitación ni un acuerdo de incorporación.'},
+{title:'Tu aportación es voluntaria',lead:'Escanea este QR para abrir una ficha independiente. Solo tienes que añadir tus propuestas.',qr:true,cards:[],note:'Las propuestas se guardan en el dispositivo de cada participante. No se envían al taller ni se recopilan de forma centralizada.'}],
 [{title:'Información complementaria para el perfil',lead:'Posibles líneas de estudio; no sustituyen los datos epidemiológicos disponibles.',cards:[
 ['Condiciones de vida','Alimentación, actividad física, descanso y características de los entornos.'],
 ['Relaciones','Redes cotidianas de apoyo, participación y experiencias de bienestar.'],
@@ -85,7 +86,8 @@ function render(){if(!document.body.classList.contains('presentation'))return;
  section=activeSection();if(!DECK[section])section=0;
  const d=DECK[section],slide=d[Math.min(pos,d.length-1)],cls=slide.layout==='agenda'?'tv-agenda':slide.layout==='three'?'tv-three':'';
  const cards=slide.cards.map((item,i)=>'<article class="tv-card">'+(cls==='tv-agenda'?'<small>MOMENTO '+(i+1)+'</small>':'')+'<h3>'+item[0]+'</h3><p>'+item[1]+'</p></article>').join('');
- stage.innerHTML='<div class="tv-meta"><span>RELAS · LOJA · 16 OCT 2026</span><span>Apartado '+(section+1)+' de 8 · Pantalla '+(pos+1)+' de '+d.length+'</span></div><h2>'+slide.title+'</h2><p class="tv-lead">'+slide.lead+'</p><div class="tv-cards '+cls+'">'+cards+'</div>'+(slide.note?'<p class="tv-note">'+slide.note+'</p>':'');
+ if(slide.qr){stage.innerHTML='<div class="tv-meta"><span>RELAS · LOJA · 16 OCT 2026</span><span>Participación · ficha personal</span></div><h2>'+slide.title+'</h2><p class="tv-lead">'+slide.lead+'</p><div class="loja-qr-proyeccion"><img src="./qr-ficha.svg" alt="Código QR para abrir la ficha de actores y sectores"><div><strong>Actores y sectores para la salud</strong><p>Sin registro, sin Inicio ni Volver. Puedes añadir propuestas o no participar.</p><p class="loja-qr-url">bhermoso.github.io/aula-activos-comunitarios/impulso/ficha.html</p></div></div><p class="tv-note">'+slide.note+'</p>';const c=document.getElementById('present-count');if(c)c.textContent=(pos+1)+' / '+d.length;return;} 
+stage.innerHTML='<div class="tv-meta"><span>RELAS · LOJA · 16 OCT 2026</span><span>Apartado '+(section+1)+' de 8 · Pantalla '+(pos+1)+' de '+d.length+'</span></div><h2>'+slide.title+'</h2><p class="tv-lead">'+slide.lead+'</p><div class="tv-cards '+cls+'">'+cards+'</div>'+(slide.note?'<p class="tv-note">'+slide.note+'</p>':'');
  const count=document.getElementById('present-count');if(count)count.textContent=(pos+1)+' / '+d.length;
 }
 function gotoSection(n){section=Math.max(0,Math.min(7,n));pos=0;menuButtons[section].click();render()}
