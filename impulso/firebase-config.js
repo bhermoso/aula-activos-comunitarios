@@ -8,5 +8,8 @@ window.LOJA_FIREBASE_CONFIG = Object.freeze({
     appId: "1:1000964889417:web:15e91daaaf462fa3e6d898",
     measurementId: "G-RH4RF7BDE6"
   },
-  appCheckSiteKey: null
+  appCheckSiteKey: null,
+  // No activar hasta aprobación formal de privacidad, reglas y pruebas en el proyecto SAS.
+  contactoHabilitado: false,
+  privacidadContactoAprobada: false
 });
