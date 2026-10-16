@@ -2,9 +2,11 @@
   "name": "pruebas-reglas-encuesta-loja",
   "private": true,
   "type": "module",
-  "scripts": {"test": "node --test firestore-loja.test.mjs"},
+  "scripts": {
+    "test": "node --test firestore-loja.test.mjs"
+  },
   "devDependencies": {
-    "@firebase/rules-unit-testing": "^5.0.0",
+    "@firebase/rules-unit-testing": "^4.0.1",
     "firebase": "^11.10.0",
     "firebase-tools": "^14.0.0"
   }
