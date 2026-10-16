@@ -53,3 +53,9 @@
 .loja-qr-proyeccion p{font:400 clamp(16px,1.6vw,22px)/1.4 system-ui;color:#365b51}
 .loja-qr-proyeccion .loja-qr-url{font-size:clamp(10px,1.15vw,16px);overflow-wrap:anywhere}
 @media(max-width:700px){.loja-qr-proyeccion{display:flex;flex-direction:column;text-align:center;gap:5px}.loja-qr-proyeccion img{height:min(37vh,250px)}}
+
+.presentation #loja-tv-stage:has(.tv-epi-iframe){gap:5px;padding:12px 18px}
+.tv-epi-toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;font-size:14px;color:#163e38}
+.tv-epi-toolbar a{background:#15665e;color:#fff;border-radius:8px;padding:8px 13px;font-weight:700;text-decoration:none}
+.tv-epi-iframe{display:block;flex:1;min-height:0;width:100%;border:0;background:#fff}
+.tv-epi-foot{margin:0;font-size:11px;color:#46675f}
