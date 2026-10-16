@@ -1,0 +1,64 @@
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { test } from 'node:test';
+const html=readFileSync(new URL('../index.html',import.meta.url),'utf8');
+const section=name=>{
+ const a=html.indexOf('<section class="section',html.indexOf('id="'+name+'"')-100);
+ return html.slice(a,html.indexOf('</section>',a)+10);
+};
+test('el expediente figura en la sección de punto de partida',()=>{
+ for(const txt of ['2021','2022','102 cuestionarios','29 de abril de 2022','julio y agosto','fecha de una paralización definitiva']){
+  assert.ok(section('contexto').includes(txt),'No está documentado '+txt);
+ }
+});
+test('programa completo por bloques y personas citadas como previstas/invitadas',()=>{
+ const prog=section('programa');
+ for(const t of ['Apertura institucional','Trayectoria del Plan Local','Situación de salud','Mesa-coloquio intersectorial','Conclusiones y propuestas de continuidad','Trabajo participativo','Puesta en común']){
+  assert.ok(prog.includes(t),'Falta bloque: '+t);
+ }
+ for(const n of ['José Miguel Muñoz Ortega','Carlos del Moral Campaña','Alicia Bellido González','María Martín Calvo','Francisco J. Pigne Marín','Blas Hermoso Rico','Margarita Rut Goena Martínez','Raquel Cal','Jenifer González','Inserta Andalucía','Asociación de Regantes']){
+  assert.ok(prog.includes(n),'No citado en programa: '+n);
+  assert.ok(section('participantes').includes(n),'No citado en participantes: '+n);
+ }
+ assert.ok(prog.includes('Composición de la mesa y moderación pendientes de confirmación'));
+ assert.ok(section('participantes').includes('no equivale a asistencia confirmada'));
+});
+test('no se difunden teléfonos ni respuestas individuales de archivos privados',()=>{
+ assert.ok(!html.includes('Rubén'),'No atribuir moderación a un nombre incompleto');
+ assert.ok(!html.includes('651 963 794'));
+ assert.ok(!html.includes('677905855'));
+ assert.ok(!html.includes('agustin.gomez.jimenez.sspa@'));
+});
+test('se mantienen navegación y seis secciones originales',()=>{
+ for(const id of ['contexto','programa','participantes','moderacion','proceso','practica']){
+  assert.ok(html.includes('id="'+id+'"'));
+  assert.ok(html.includes('data-tab="'+id+'"'));
+ }
+ assert.ok(html.includes("--teal:#246c53"),'paleta verde residual');
+});
+test('conclusiones de Blas: priorización de 2022 y mapeo vinculado a líneas prioritarias',()=>{
+  const contexto=section('contexto');
+  const programa=section('programa');
+  const proceso=section('proceso');
+  const practica=section('practica');
+  for(const t of ['revisar la priorización', 'Localiza Salud','pendiente de contrastar']){
+    assert.ok(contexto.toLowerCase().includes(t.toLowerCase()),'Contexto omite '+t);
+  }
+  for(const t of ['Blas Hermoso Rico','revisar la priorización de 2022','mapeo comunitario de activos','Composición de la mesa']){
+    assert.ok(programa.includes(t),'Programa omite '+t);
+  }
+  for(const t of ['Revisión técnica','Deliberación del grupo motor','Consulta a la ciudadanía','Procedimiento combinado','Localiza Salud','no significa ausencia de activos reales']){
+    assert.ok(proceso.includes(t),'Hoja de ruta omite '+t);
+  }
+  assert.ok(practica.includes('id="fv-prioridad"'));
+  assert.ok(html.includes("prioridad:fvv('fv-prioridad')"),'Se guarda relación a prioridad');
+  assert.ok(html.includes("x.prioridad||''"),'Se exporta con compatibilidad con datos anteriores');
+  assert.ok(practica.includes('no registra recursos en Localiza Salud'));
+  assert.ok(!html.includes('Rubén'),'No usar moderador sin apellido');
+});
+test('JavaScript de la página sigue siendo sintácticamente válido',async()=>{
+  const {Script}=await import('node:vm');
+  const scripts=html.split('<script>').slice(1).map(x=>x.split('</script>')[0]);
+  assert.ok(scripts.length>=2,'Faltan scripts incrustados');
+  for(const js of scripts) new Script(js);
+});

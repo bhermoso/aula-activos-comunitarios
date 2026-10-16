@@ -16,4 +16,4 @@ jobs:
         with:
           node-version: '22'
       - name: Comprobar paleta, contrastes y navegación
-        run: node --test fuente-vaqueros/tests/paleta.test.mjs
+        run: node --test fuente-vaqueros/tests/*.test.mjs
