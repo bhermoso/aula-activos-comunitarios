@@ -1,0 +1,19 @@
+name: Comprobar colores de Fuente Vaqueros
+on:
+  pull_request:
+    paths:
+      - 'fuente-vaqueros/**'
+      - '.github/workflows/colores-fuente-vaqueros.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  paleta:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Comprobar paleta, contrastes y navegación
+        run: node --test fuente-vaqueros/tests/paleta.test.mjs
