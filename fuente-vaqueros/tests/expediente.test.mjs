@@ -13,7 +13,7 @@ test('el expediente figura en la sección de punto de partida',()=>{
 });
 test('programa completo por bloques y personas citadas como previstas/invitadas',()=>{
  const prog=section('programa');
- for(const t of ['Apertura institucional','Trayectoria del Plan Local','Situación de salud','Mesa-coloquio intersectorial','Hoja de ruta','Trabajo participativo','Puesta en común']){
+ for(const t of ['Apertura institucional','Trayectoria del Plan Local','Situación de salud','Mesa-coloquio intersectorial','Conclusiones y propuestas de continuidad','Trabajo participativo','Puesta en común']){
   assert.ok(prog.includes(t),'Falta bloque: '+t);
  }
  for(const n of ['José Miguel Muñoz Ortega','Carlos del Moral Campaña','Alicia Bellido González','María Martín Calvo','Francisco J. Pigne Marín','Blas Hermoso Rico','Margarita Rut Goena Martínez','Raquel Cal','Jenifer González','Inserta Andalucía','Asociación de Regantes']){
