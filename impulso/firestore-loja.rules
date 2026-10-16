@@ -1,25 +1,61 @@
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
-    // Excepción restringida: propuestas genéricas para Loja.
+    // Consulta abierta de Loja: solo creación validada, sin lectura pública.
+    // No admite claves de nombre, email, teléfono ni datos personales de contacto.
     match /encuestas_loja_2026/{id} {
-      allow read, update, delete: if false;
-      allow create: if request.resource.data.keys().hasAll(['sector', 'tipo', 'funcion', 'grupo', 'createdAt'])
-        && request.resource.data.keys().hasOnly(['sector', 'tipo', 'funcion', 'grupo', 'createdAt'])
+      allow get, list, update, delete: if false;
+      allow create: if
+        request.resource.data.keys().hasAll([
+          'sector', 'sectorOtro', 'tipo', 'tipoOtro', 'entidad',
+          'ambito', 'ambitoOtro', 'grupo', 'funcion', 'vinculo',
+          'participacion', 'createdAt'
+        ])
+        && request.resource.data.keys().hasOnly([
+          'sector', 'sectorOtro', 'tipo', 'tipoOtro', 'entidad',
+          'ambito', 'ambitoOtro', 'grupo', 'funcion', 'vinculo',
+          'participacion', 'createdAt'
+        ])
         && request.resource.data.sector is string
         && request.resource.data.sector.size() > 0
         && request.resource.data.sector.size() <= 100
+        && request.resource.data.sectorOtro is string
+        && request.resource.data.sectorOtro.size() <= 120
+        && ((request.resource.data.sector == 'Otro sector'
+          && request.resource.data.sectorOtro.size() > 0)
+          || (request.resource.data.sector != 'Otro sector'
+          && request.resource.data.sectorOtro == ''))
         && request.resource.data.tipo is string
         && request.resource.data.tipo.size() > 0
         && request.resource.data.tipo.size() <= 130
+        && request.resource.data.tipoOtro is string
+        && request.resource.data.tipoOtro.size() <= 120
+        && ((request.resource.data.tipo == 'Otro tipo de actor'
+          && request.resource.data.tipoOtro.size() > 0)
+          || (request.resource.data.tipo != 'Otro tipo de actor'
+          && request.resource.data.tipoOtro == ''))
+        && request.resource.data.entidad is string
+        && request.resource.data.entidad.size() <= 150
+        && request.resource.data.ambito is string
+        && request.resource.data.ambito.size() > 0
+        && request.resource.data.ambito.size() <= 100
+        && request.resource.data.ambitoOtro is string
+        && request.resource.data.ambitoOtro.size() <= 120
+        && ((request.resource.data.ambito == 'Otro ámbito'
+          && request.resource.data.ambitoOtro.size() > 0)
+          || (request.resource.data.ambito != 'Otro ámbito'
+          && request.resource.data.ambitoOtro == ''))
+        && request.resource.data.grupo is string
+        && request.resource.data.grupo.size() <= 220
         && request.resource.data.funcion is string
         && request.resource.data.funcion.size() <= 500
-        && request.resource.data.grupo is string
-        && request.resource.data.grupo.size() <= 180
+        && request.resource.data.vinculo is string
+        && request.resource.data.vinculo.size() <= 100
+        && request.resource.data.participacion is bool
         && request.resource.data.createdAt == request.time;
     }
 
-    // Mantiene el cierre por defecto original.
+    // Regla original de cierre, conservada.
     match /{document=**} {
       allow read, write: if false;
     }
