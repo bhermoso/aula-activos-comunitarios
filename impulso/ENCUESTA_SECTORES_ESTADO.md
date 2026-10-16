@@ -1,31 +1,19 @@
 # Encuesta de actores y sectores · Loja
+**Estado actual del cambio (16/10/2026):** transición de Firebase a REDCap preparada **en rama, pendiente de aprobación y publicación**.
 
-**Fecha de revisión:** 16/10/2026 · **Estado:** interfaz ampliada preparada para Firestore; recepción central pendiente de publicar reglas y probar escritura real.
+## Diseño recomendado
+El instrumento REDCap principal se importa desde `impulso/redcap/diccionario_loja_redcap.csv` y contiene 13 campos (incluido identificador automático y texto introductorio), con **26 sectores, 13 tipos de actor, 7 ámbitos y 7 tipos de vínculo**. Las opciones «Otro» despliegan un campo obligatorio libre. Se registra una propuesta por respuesta.
 
-## Propósito
-Identificar de forma inclusiva sectores, servicios, entidades, movimientos, redes informales y perspectivas habitualmente no representadas en el proceso del I Plan Local de Salud de Loja. La encuesta acepta tanto tipos de actores como entidades concretas y ámbitos territoriales. **Una propuesta no equivale a invitación o acuerdo aprobado.**
+La versión `diccionario_loja_redcap_con_contacto_PENDIENTE.csv` amplía el diseño a 20 campos e incorpora contacto propio condicionado. **NO se utilizará en encuestas públicas** hasta que el SAS/Distrito apruebe el tratamiento de datos, responsables, información de privacidad y conservación.
 
-## Estructura publicada del formulario
-1. **Identificación**: sector desplegable (26 opciones, incluida «Otro sector»), tipo de actor (13 opciones, incluido «Otro tipo de actor»), nombre opcional de entidad/servicio/colectivo y ámbito geográfico (7 opciones, incluido «Otro ámbito»).
-2. **Pertinencia**: capacidades, problemas que puede ayudar a abordar, voces que representaría y vínculo entre quien propone y el actor, con texto libre opcional.
-3. **Participación voluntaria**: casilla para indicar interés propio en participar; no solicita identidad ni contacto. Los campos de nombre, correo y teléfono se dejan expresamente **desactivados** hasta documentar el responsable, finalidad, base jurídica, plazo de conservación y canales de derechos.
+## Publicación y enlace
+- El QR estable `impulso/qr-ficha.svg` dirige a `impulso/ficha.html`. No se inventa una URL REDCap.
+- `impulso/ficha.html` se convierte en una página de acceso a REDCap que no recoge datos ni utiliza Firebase; por defecto muestra «encuesta pendiente».
+- Cuando REDCap facilite la URL pública, se verificará y se incluirá en `impulso/redcap/config-encuesta.js`.
+- Tras autorización, el sitio podrá usar el mismo QR impreso sin necesidad de rediseñarlo. Para un QR **directo a REDCap**, debe generarse a partir de esa URL pública.
 
-Las categorías integran atención sanitaria, salud pública, salud mental, cuidados, educación, vivienda, empleo, entornos, transportes, ruralidad, diversidad, actividad cultural/deportiva, administraciones, asociaciones, ciudadanía no organizada y redes informales. Las opciones «Otro» abren un campo obligatorio que impide que la clasificación sea un límite.
+## Estado de los datos
+El envío real a la antigua colección `encuestas_loja_2026` no se había verificado; no afirmar que hay respuestas migradas ni borrar datos existentes sin una revisión administrativa. No volver a publicar las reglas abiertas de Firestore para esta encuesta.
 
-## Datos y protección
-La colección prevista es `encuestas_loja_2026` de Firestore. Campos del esquema actual:
-`sector`, `sectorOtro`, `tipo`, `tipoOtro`, `entidad`, `ambito`, `ambitoOtro`, `grupo`, `funcion`, `vinculo`, `participacion` (booleano) y `createdAt` (marca de tiempo del servidor).
-
-- **Solo escritura:** ninguna lectura, actualización o borrado anónimo, ni campos de contacto personal, permitidos por la propuesta de reglas.
-- La interfaz solo confirma recepción si `addDoc()` termina correctamente. Con reglas actuales `allow read, write: if false`, Firestore bloqueará los envíos. No afirmar que funciona hasta la prueba real.
-- No es una garantía de anonimato: las entradas de texto libre podrían incluir datos personales; se muestra una advertencia para que no los aporten y hay que definir información de privacidad y controles antiabuso.
-- El sistema no recupera propuestas que se hubieran conservado antes como borrador local.
-- Las respuestas posteriores al encuentro del 16/10 no son resultados de aquella sesión.
-
-## Requisitos para finalizar
-1. Revisar las reglas reales vigentes y publicar la excepción de `impulso/firestore-loja.rules` preservando controles del resto del Aula.
-2. Verificar al menos una escritura de prueba en consola, y denegaciones de lectura, update, delete y campos extra.
-3. Definir y documentar responsable, conservación, ejercicio de derechos y uso previsto; configurar protección frente a abuso, App Check y cuotas antes de difusión amplia.
-4. Solo después habilitar, si se aprueba, la recogida **opcional y consentida** de nombre/correo/teléfono propios, con su esquema y reglas separados o revisados. Nunca incorporar contactos de terceros sin legitimación.
-
-La ficha está en `impulso/ficha.html` y el QR en `impulso/qr-ficha.svg`. El bloque de notas dentro de `impulso/index.html` sigue siendo un **borrador personal opcional**, claramente distinguido de la encuesta.
+## Verificaciones exigidas
+Importación REDCap sin errores, validación de «Otro», envío ficticio desde enlace público en sesión privada, acceso administrativo, QR escaneado en móvil, políticas institucionales de privacidad y revisión final en GitHub Pages. Detalles: `impulso/redcap/README.md`.
