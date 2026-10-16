@@ -52,8 +52,18 @@ button:disabled{opacity:.64;cursor:not-allowed}.counter{font-size:13px;color:#55
 <section class="card" aria-labelledby="s3"><p class="section-kicker">03 · PARTICIPACIÓN VOLUNTARIA</p><h2 id="s3">¿Quieres implicarte?</h2>
 <p class="intro">Puedes proponer a otros actores sin identificarte. También puedes indicar que te interesaría colaborar en el proceso.</p>
 <div class="choice"><label><input id="participacion" name="participacion" type="checkbox"> Me interesaría participar o colaborar personalmente.</label></div>
-<div class="privacy"><strong>Datos de contacto:</strong> los campos de nombre, correo y teléfono no se habilitarán hasta confirmar quién gestiona los datos, cómo contactar con esa entidad y durante cuánto tiempo se conservarán. Por ahora, marcar interés no permite al equipo localizarte.</div>
-<div class="personal" id="contacto-pendiente" hidden><label>Datos de contacto (pendientes de habilitación)</label><input disabled placeholder="Nombre y contacto, cuando exista información de privacidad"></div>
+<div class="privacy" id="aviso-contacto"><strong>Contacto voluntario:</strong> la gestión operativa prevista corresponde al Distrito Sanitario Granada–Metropolitano. Según la información oficial, el responsable general de protección de datos es el Servicio Andaluz de Salud. La recogida de contactos sigue <strong>desactivada</strong> hasta aprobar las condiciones concretas de privacidad. <a href="https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/el-sas/protecciondedatos" target="_blank" rel="noopener noreferrer">Protección de datos del SAS ↗</a>. Si marcas interés por participar, la propuesta registrará esa intención, pero por ahora no podremos localizarte.</div>
+<div class="personal" id="datos-contacto" hidden>
+<p class="intro"><strong>Solo tus propios datos.</strong> Facilítalos únicamente si deseas que el Distrito pueda ponerse en contacto contigo sobre la continuidad del Plan Local de Salud de Loja. No introduzcas datos de terceros ni información sanitaria.</p>
+<label for="contacto-nombre">Tu nombre y apellidos *</label>
+<input id="contacto-nombre" type="text" maxlength="120" autocomplete="name" placeholder="Nombre y apellidos">
+<div class="two">
+<div><label for="contacto-email">Tu correo electrónico</label><input id="contacto-email" type="email" maxlength="160" autocomplete="email" placeholder="nombre@ejemplo.es"></div>
+<div><label for="contacto-telefono">Tu teléfono</label><input id="contacto-telefono" type="tel" maxlength="25" autocomplete="tel" placeholder="Teléfono propio (opcional)"></div>
+</div>
+<p class="hint">Se requiere un medio de contacto: correo o teléfono. No es obligatorio facilitar ambos.</p>
+<div class="choice"><label><input id="contacto-consentimiento" type="checkbox"> He leído la información de privacidad aplicable y autorizo el uso de <strong>mis propios datos de contacto</strong> exclusivamente para que el Distrito pueda contactarme sobre este proceso comunitario. Puedo retirar el consentimiento por los cauces indicados por el SAS.</label></div>
+</div>
 <button id="send" type="submit" disabled>Comprobando conexión…</button>
 <p id="msg" class="status" role="status" aria-live="polite"></p><p id="count" class="counter" aria-live="polite"></p>
 </section>
@@ -63,7 +73,7 @@ button:disabled{opacity:.64;cursor:not-allowed}.counter{font-size:13px;color:#55
 <script src="./firebase-config.js" onerror="document.getElementById('msg').textContent='No se ha podido cargar la conexión con Firebase.'"></script>
 <script type="module">
 import {initializeApp} from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js';
-import {getFirestore,addDoc,collection,serverTimestamp} from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js';
+import {getFirestore,addDoc,collection,doc,writeBatch,serverTimestamp} from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js';
 const form=document.getElementById('f'),msg=document.getElementById('msg'),note=document.getElementById('estado-firebase'),send=document.getElementById('send'),count=document.getElementById('count');
 let enviados=0;
 const status=(message,kind='')=>{msg.textContent=message;msg.className='status '+kind};
@@ -78,6 +88,26 @@ function updateOther(){
 otherFields.forEach(([id])=>form.elements.namedItem(id).addEventListener('change',updateOther));
 updateOther();
 const conf=window.LOJA_FIREBASE_CONFIG;
+const contactEnabled=Boolean(conf?.contactoHabilitado===true&&conf?.privacidadContactoAprobada===true);
+const interested=form.elements.namedItem('participacion');
+const contactBlock=document.getElementById('datos-contacto');
+const contactNotice=document.getElementById('aviso-contacto');
+const ownName=document.getElementById('contacto-nombre');
+const ownEmail=document.getElementById('contacto-email');
+const ownPhone=document.getElementById('contacto-telefono');
+const ownConsent=document.getElementById('contacto-consentimiento');
+if(contactEnabled){
+ contactNotice.innerHTML='<strong>Contacto voluntario:</strong> si deseas que el Distrito Sanitario Granada–Metropolitano contacte contigo, marca la casilla de participación y rellena tus propios datos. Responsable general: Servicio Andaluz de Salud. <a href="https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/el-sas/protecciondedatos" target="_blank" rel="noopener noreferrer">Información de privacidad del SAS ↗</a>.';
+}
+function syncContact(){
+ const show=contactEnabled&&interested.checked;
+ contactBlock.hidden=!show;
+ ownName.required=show;ownConsent.required=show;
+ if(!show){ownName.value='';ownEmail.value='';ownPhone.value='';ownConsent.checked=false;}
+}
+interested.addEventListener('change',syncContact);
+syncContact();
+
 if(!conf?.firebaseConfig?.apiKey||conf?.firebaseConfig?.projectId!=='aula-salud-comunitaria'||!conf?.firebaseConfig?.appId){
  send.textContent='Envío no disponible';
  status('La conexión con Firebase no está configurada. Ninguna respuesta se ha enviado.','error');
@@ -100,16 +130,41 @@ if(!conf?.firebaseConfig?.apiKey||conf?.firebaseConfig?.projectId!=='aula-salud-
     createdAt:serverTimestamp()
    };
    if(!o.sector||!o.tipo||!o.ambito){status('Completa las tres categorías obligatorias.','error');return;}
+   const sendContact=contactEnabled&&interested.checked;
+   const own={nombre:ownName.value.trim(),correo:ownEmail.value.trim(),telefono:ownPhone.value.trim()};
+   if(sendContact){
+    if(!own.nombre||(!own.correo&&!own.telefono)||!ownConsent.checked){
+     status('Para solicitar contacto, indica tu nombre, correo o teléfono propio y acepta expresamente el uso de esos datos.','error');return;
+    }
+    if(own.nombre.length>120||own.correo.length>160||own.telefono.length>25){
+     status('Revisa la longitud de los datos de contacto.','error');return;
+    }
+   }
    send.disabled=true;send.textContent='Enviando…';status('Registrando propuesta en Firestore…');
    try{
-    await addDoc(collection(db,'encuestas_loja_2026'),o);
+    if(sendContact){
+     // Escritura atómica: o se guardan la propuesta y su contacto autorizado, o ninguna.
+     const proposalRef=doc(collection(db,'encuestas_loja_2026'));
+     const contactRef=doc(db,'contactos_loja_2026',proposalRef.id);
+     const batch=writeBatch(db);
+     batch.set(proposalRef,o);
+     batch.set(contactRef,{
+      nombre:own.nombre,correo:own.correo,telefono:own.telefono,
+      consentimiento:true,finalidad:'contactar_participacion_loja',
+      responsableOperativo:'Distrito Sanitario Granada–Metropolitano',
+      createdAt:serverTimestamp()
+     });
+     await batch.commit();
+    }else{
+     await addDoc(collection(db,'encuestas_loja_2026'),o);
+    }
     enviados++;count.textContent='Propuestas confirmadas en esta sesión: '+enviados;
-    status('Propuesta recibida por la encuesta de Loja. Gracias.','success');
-    form.reset();updateOther();form.elements.namedItem('sector').focus();
+    status(sendContact?'Propuesta y datos de contacto recibidos por el servidor. Gracias.':'Propuesta recibida por la encuesta de Loja. Gracias.','success');
+    form.reset();updateOther();syncContact();form.elements.namedItem('sector').focus();
    }catch(err){
     status(err?.code==='permission-denied'
       ?'Firebase todavía no permite recibir propuestas: las reglas de seguridad deben habilitarse. La respuesta no está confirmada.'
-      :'No se pudo confirmar el registro en Firebase. Comprueba la conexión y reintenta sin cerrar esta ficha.','error');
+      :'No se pudo confirmar el registro en Firebase. No se confirma ni la propuesta ni los datos de contacto. Reinténtalo sin cerrar la ficha.','error');
    }finally{send.disabled=false;send.textContent='Enviar propuesta a la encuesta';}
   });
  }catch(err){
