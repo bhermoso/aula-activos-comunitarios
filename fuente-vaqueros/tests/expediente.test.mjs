@@ -36,3 +36,29 @@ test('se mantienen navegación y seis secciones originales',()=>{
  }
  assert.ok(html.includes("--teal:#246c53"),'paleta verde residual');
 });
+test('conclusiones de Blas: priorización de 2022 y mapeo vinculado a líneas prioritarias',()=>{
+  const contexto=section('contexto');
+  const programa=section('programa');
+  const proceso=section('proceso');
+  const practica=section('practica');
+  for(const t of ['revisar la priorización', 'Localiza Salud','pendiente de contrastar']){
+    assert.ok(contexto.toLowerCase().includes(t.toLowerCase()),'Contexto omite '+t);
+  }
+  for(const t of ['Blas Hermoso Rico','revisar la priorización de 2022','mapeo comunitario de activos','Composición de la mesa']){
+    assert.ok(programa.includes(t),'Programa omite '+t);
+  }
+  for(const t of ['Revisión técnica','Deliberación del grupo motor','Consulta a la ciudadanía','Procedimiento combinado','Localiza Salud','no significa ausencia de activos reales']){
+    assert.ok(proceso.includes(t),'Hoja de ruta omite '+t);
+  }
+  assert.ok(practica.includes('id="fv-prioridad"'));
+  assert.ok(html.includes("prioridad:fvv('fv-prioridad')"),'Se guarda relación a prioridad');
+  assert.ok(html.includes("x.prioridad||''"),'Se exporta con compatibilidad con datos anteriores');
+  assert.ok(practica.includes('no registra recursos en Localiza Salud'));
+  assert.ok(!html.includes('Rubén'),'No usar moderador sin apellido');
+});
+test('JavaScript de la página sigue siendo sintácticamente válido',async()=>{
+  const {Script}=await import('node:vm');
+  const scripts=[...html.matchAll(/<script(?:\\s+[^>]*)?>([\\s\\S]*?)<\\/script>/g)];
+  for (const m of scripts) new Script(m[1]);
+  assert.ok(scripts.length>=2,'Faltan scripts incrustados');
+});
