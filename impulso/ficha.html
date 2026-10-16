@@ -14,15 +14,13 @@
 <script type="module">
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js';
 import { getFirestore,addDoc,collection,serverTimestamp } from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js';
-import { initializeAppCheck,ReCaptchaEnterpriseProvider } from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-app-check.js';
 const form=document.getElementById('f'),msg=document.getElementById('msg'),note=document.getElementById('estado-firebase'),send=document.getElementById('send');
 const conf=window.LOJA_FIREBASE_CONFIG;
-if(!conf?.firebaseConfig?.apiKey||!conf?.firebaseConfig?.projectId||!conf?.firebaseConfig?.appId||!conf?.appCheckSiteKey){
+if(!conf?.firebaseConfig?.apiKey||!conf?.firebaseConfig?.projectId||!conf?.firebaseConfig?.appId){
  msg.textContent='Recepción no disponible. No se ha enviado ninguna respuesta.';
 }else{
  try{
   const app=initializeApp(conf.firebaseConfig);
-  initializeAppCheck(app,{provider:new ReCaptchaEnterpriseProvider(conf.appCheckSiteKey),isTokenAutoRefreshEnabled:true});
   const db=getFirestore(app);
   send.disabled=false;send.textContent='Enviar propuesta';
   note.innerHTML='<strong>Encuesta voluntaria:</strong> no solicitamos tu identidad. No incluyas nombres ni datos personales. Las propuestas se envían al equipo responsable de Loja si confirmas el envío.';
