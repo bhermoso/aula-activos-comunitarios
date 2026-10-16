@@ -39,8 +39,8 @@ const DECK=[
 ['Sectores','Salud, educación, servicios sociales, asociaciones, mayores, empleo y otros ámbitos.'],
 ['Tipos de actores','Entidades, colectivos, representaciones, servicios y funciones pertinentes.'],
 ['Registro personal','Cada participante puede añadir tantas propuestas como necesite desde su teléfono.'],
-['Privacidad','Sin nombres, contactos ni datos de salud. La ficha indica si Firestore confirmó la recepción.']],note:'La propuesta individual no constituye una invitación ni un acuerdo de incorporación.'},
-{title:'Tu aportación es voluntaria',lead:'Escanea este QR para abrir una ficha independiente. Solo tienes que añadir tus propuestas.',qr:true,cards:[],note:'Las propuestas se envían a Firestore solo si el servidor permite la recepción. Comprueba en la ficha la confirmación de guardado.'}],
+['Privacidad','Sin contactos de terceros ni datos de salud. La nueva encuesta estará alojada en REDCap.']],note:'La propuesta individual no constituye una invitación ni un acuerdo de incorporación.'},
+{title:'Tu aportación es voluntaria',lead:'Escanea este QR para abrir una ficha independiente. Cuando REDCap esté habilitado, podrás enviar tus propuestas.',qr:true,cards:[],note:'La encuesta se está trasladando a REDCap. Este QR lleva al acceso estable; comprueba allí si la participación ya está habilitada.'}],
 [{title:'Información complementaria para el perfil',lead:'Posibles líneas de estudio; no sustituyen los datos epidemiológicos disponibles.',cards:[
 ['Condiciones de vida','Alimentación, actividad física, descanso y características de los entornos.'],
 ['Relaciones','Redes cotidianas de apoyo, participación y experiencias de bienestar.'],
