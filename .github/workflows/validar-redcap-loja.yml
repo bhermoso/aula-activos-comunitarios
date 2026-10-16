@@ -1,0 +1,20 @@
+name: Validar diccionario REDCap de Loja
+on:
+  pull_request:
+    paths:
+      - 'impulso/redcap/**'
+      - 'impulso/ficha.html'
+      - '.github/workflows/validar-redcap-loja.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Revisar diccionarios y puerta REDCap
+        run: python impulso/redcap/validar_diccionarios.py
