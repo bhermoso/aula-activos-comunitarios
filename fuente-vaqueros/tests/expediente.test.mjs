@@ -24,6 +24,7 @@ test('programa completo por bloques y personas citadas como previstas/invitadas'
  assert.ok(section('participantes').includes('no equivale a asistencia confirmada'));
 });
 test('no se difunden teléfonos ni respuestas individuales de archivos privados',()=>{
+ assert.ok(!html.includes('Rubén'),'No atribuir moderación a un nombre incompleto');
  assert.ok(!html.includes('651 963 794'));
  assert.ok(!html.includes('677905855'));
  assert.ok(!html.includes('agustin.gomez.jimenez.sspa@'));
