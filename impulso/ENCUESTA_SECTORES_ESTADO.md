@@ -1,30 +1,31 @@
-# Encuesta exploratoria de actores y sectores · Loja
-Fecha: 15 de octubre de 2026. Estado: **cliente de envío a Firestore integrado en preparación; RECEPCIÓN CENTRAL NO VERIFICADA hasta publicar reglas y probar un envío real**.
+# Encuesta de actores y sectores · Loja
 
-## Objetivo
-Identificar, por tipos genéricos y sin nombres propios, los sectores y actores cuya participación convendría valorar para el reimpulso del I Plan Local de Salud de Loja. Las respuestas son propuestas; no constituyen acuerdos ni invitaciones.
+**Fecha de revisión:** 16/10/2026 · **Estado:** interfaz ampliada preparada para Firestore; recepción central pendiente de publicar reglas y probar escritura real.
 
-## Preguntas
-1. Sector que convendría incorporar (obligatorio, hasta 100 caracteres).
-2. Tipo de entidad, colectivo o actor (obligatorio, hasta 130 caracteres).
-3. Por qué sería importante contar con este sector (opcional, hasta 500).
-4. Qué perspectiva o población ayudaría a representar (opcional, hasta 180).
+## Propósito
+Identificar de forma inclusiva sectores, servicios, entidades, movimientos, redes informales y perspectivas habitualmente no representadas en el proceso del I Plan Local de Salud de Loja. La encuesta acepta tanto tipos de actores como entidades concretas y ámbitos territoriales. **Una propuesta no equivale a invitación o acuerdo aprobado.**
 
-En la interfaz no se pide nombre, correo ni teléfono, pero **la ausencia de esos campos no basta para garantizar el anonimato**. Advertir contra datos identificativos en texto libre.
+## Estructura publicada del formulario
+1. **Identificación**: sector desplegable (26 opciones, incluida «Otro sector»), tipo de actor (13 opciones, incluido «Otro tipo de actor»), nombre opcional de entidad/servicio/colectivo y ámbito geográfico (7 opciones, incluido «Otro ámbito»).
+2. **Pertinencia**: capacidades, problemas que puede ayudar a abordar, voces que representaría y vínculo entre quien propone y el actor, con texto libre opcional.
+3. **Participación voluntaria**: casilla para indicar interés propio en participar; no solicita identidad ni contacto. Los campos de nombre, correo y teléfono se dejan expresamente **desactivados** hasta documentar el responsable, finalidad, base jurídica, plazo de conservación y canales de derechos.
 
-## Modelo operativo pendiente
-La nueva versión de `impulso/ficha.html` envía directamente a Firestore (`encuestas_loja_2026`) y solo confirma recepción tras la respuesta del servidor. **Hasta publicar/verificar las reglas de Firestore, la recepción colectiva NO está operativa.** La versión anterior únicamente utilizaba almacenamiento local; esos datos históricos no se migran automáticamente.
+Las categorías integran atención sanitaria, salud pública, salud mental, cuidados, educación, vivienda, empleo, entornos, transportes, ruralidad, diversidad, actividad cultural/deportiva, administraciones, asociaciones, ciudadanía no organizada y redes informales. Las opciones «Otro» abren un campo obligatorio que impide que la clasificación sea un límite.
 
-Para habilitar y verificar recepción:
-- Proyecto web configurado: `aula-salud-comunitaria`. Queda confirmar Firestore habilitado y publicar la excepción documentada en `impulso/firestore-loja.rules` con acceso de administración.
-- Colección exclusiva `encuestas_loja_2026`; validación de tipo, longitud y campos en reglas; lecturas públicas cerradas. Pendientes controles antiabuso y verificación de reglas efectivas en servidor.
-- Establecer una política de conservación y acceso del equipo responsable.
-- No registrar identificadores o metadatos innecesarios. Comprobar logs del alojamiento/proveedor.
-- Verificar un envío real de prueba y su lectura administrativa antes de declarar el servicio disponible. La interfaz solo muestra «propuesta recibida» cuando `addDoc` devuelve éxito.
-- Revisar información de privacidad e identificación de responsable antes de publicar.
+## Datos y protección
+La colección prevista es `encuestas_loja_2026` de Firestore. Campos del esquema actual:
+`sector`, `sectorOtro`, `tipo`, `tipoOtro`, `entidad`, `ambito`, `ambitoOtro`, `grupo`, `funcion`, `vinculo`, `participacion` (booleano) y `createdAt` (marca de tiempo del servidor).
 
-## Interfaz
-Una sola página sin menú ni enlaces al Aula. Botón «Añadir otra propuesta», confirmación y posibilidad de repetir o dejar la ficha en blanco. La participación es voluntaria.
+- **Solo escritura:** ninguna lectura, actualización o borrado anónimo, ni campos de contacto personal, permitidos por la propuesta de reglas.
+- La interfaz solo confirma recepción si `addDoc()` termina correctamente. Con reglas actuales `allow read, write: if false`, Firestore bloqueará los envíos. No afirmar que funciona hasta la prueba real.
+- No es una garantía de anonimato: las entradas de texto libre podrían incluir datos personales; se muestra una advertencia para que no los aporten y hay que definir información de privacidad y controles antiabuso.
+- El sistema no recupera propuestas que se hubieran conservado antes como borrador local.
+- Las respuestas posteriores al encuentro del 16/10 no son resultados de aquella sesión.
 
-## Diseño y estado tras la reunión
-El itinerario consolidó sus estilos en un bloque aislado, con siete momentos, breve contexto y detalle desplegable. Se evita publicar métricas de funcionamiento no verificadas en navegadores reales. La ficha es un instrumento de continuidad de Loja, no una prueba de que las aportaciones se obtuvieron en la sesión del 16 de octubre.
+## Requisitos para finalizar
+1. Revisar las reglas reales vigentes y publicar la excepción de `impulso/firestore-loja.rules` preservando controles del resto del Aula.
+2. Verificar al menos una escritura de prueba en consola, y denegaciones de lectura, update, delete y campos extra.
+3. Definir y documentar responsable, conservación, ejercicio de derechos y uso previsto; configurar protección frente a abuso, App Check y cuotas antes de difusión amplia.
+4. Solo después habilitar, si se aprueba, la recogida **opcional y consentida** de nombre/correo/teléfono propios, con su esquema y reglas separados o revisados. Nunca incorporar contactos de terceros sin legitimación.
+
+La ficha está en `impulso/ficha.html` y el QR en `impulso/qr-ficha.svg`. El bloque de notas dentro de `impulso/index.html` sigue siendo un **borrador personal opcional**, claramente distinguido de la encuesta.
