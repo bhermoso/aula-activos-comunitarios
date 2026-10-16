@@ -39,8 +39,8 @@ const DECK=[
 ['Sectores','Salud, educación, servicios sociales, asociaciones, mayores, empleo y otros ámbitos.'],
 ['Tipos de actores','Entidades, colectivos, representaciones, servicios y funciones pertinentes.'],
 ['Registro personal','Cada participante puede añadir tantas propuestas como necesite desde su teléfono.'],
-['Privacidad','Sin nombres de personas ni datos de contacto. El listado queda solo en su navegador.']],note:'La propuesta individual no constituye una invitación ni un acuerdo de incorporación.'},
-{title:'Tu aportación es voluntaria',lead:'Escanea este QR para abrir una ficha independiente. Solo tienes que añadir tus propuestas.',qr:true,cards:[],note:'Las propuestas se guardan en el dispositivo de cada participante. No se envían al taller ni se recopilan de forma centralizada.'}],
+['Privacidad','Sin nombres, contactos ni datos de salud. La ficha indica si Firestore confirmó la recepción.']],note:'La propuesta individual no constituye una invitación ni un acuerdo de incorporación.'},
+{title:'Tu aportación es voluntaria',lead:'Escanea este QR para abrir una ficha independiente. Solo tienes que añadir tus propuestas.',qr:true,cards:[],note:'Las propuestas se envían a Firestore solo si el servidor permite la recepción. Comprueba en la ficha la confirmación de guardado.'}],
 [{title:'Información complementaria para el perfil',lead:'Posibles líneas de estudio; no sustituyen los datos epidemiológicos disponibles.',cards:[
 ['Condiciones de vida','Alimentación, actividad física, descanso y características de los entornos.'],
 ['Relaciones','Redes cotidianas de apoyo, participación y experiencias de bienestar.'],
