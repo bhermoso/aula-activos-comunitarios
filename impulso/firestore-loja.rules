@@ -1,11 +1,11 @@
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
-    // Colección segregada para la encuesta de Loja; no concede permisos a otras rutas.
+    // Excepción restringida: propuestas genéricas para Loja.
     match /encuestas_loja_2026/{id} {
-      allow get, list, update, delete: if false;
-      allow create: if request.resource.data.keys().hasAll(['sector','tipo','funcion','grupo','createdAt'])
-        && request.resource.data.keys().hasOnly(['sector','tipo','funcion','grupo','createdAt'])
+      allow read, update, delete: if false;
+      allow create: if request.resource.data.keys().hasAll(['sector', 'tipo', 'funcion', 'grupo', 'createdAt'])
+        && request.resource.data.keys().hasOnly(['sector', 'tipo', 'funcion', 'grupo', 'createdAt'])
         && request.resource.data.sector is string
         && request.resource.data.sector.size() > 0
         && request.resource.data.sector.size() <= 100
@@ -17,6 +17,11 @@ service cloud.firestore {
         && request.resource.data.grupo is string
         && request.resource.data.grupo.size() <= 180
         && request.resource.data.createdAt == request.time;
+    }
+
+    // Mantiene el cierre por defecto original.
+    match /{document=**} {
+      allow read, write: if false;
     }
   }
 }
