@@ -58,7 +58,7 @@ test('conclusiones de Blas: priorización de 2022 y mapeo vinculado a líneas pr
 });
 test('JavaScript de la página sigue siendo sintácticamente válido',async()=>{
   const {Script}=await import('node:vm');
-  const scripts=[...html.matchAll(/<script(?:\\s+[^>]*)?>([\\s\\S]*?)<\\/script>/g)];
-  for (const m of scripts) new Script(m[1]);
+  const scripts=html.split('<script>').slice(1).map(x=>x.split('</script>')[0]);
   assert.ok(scripts.length>=2,'Faltan scripts incrustados');
+  for(const js of scripts) new Script(js);
 });
