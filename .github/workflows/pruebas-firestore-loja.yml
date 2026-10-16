@@ -26,4 +26,6 @@ jobs:
         run: npm install --no-audit --no-fund
       - name: Ejecutar 16 pruebas contra el emulador (proyecto demo)
         working-directory: impulso/tests
-        run: npx firebase-tools emulators:exec --project demo-loja-reglas --only firestore "npm test"
+        run: |
+          cp ../firestore-loja.rules firestore-loja.rules
+          npx firebase-tools emulators:exec --project demo-loja-reglas --only firestore "npm test"
