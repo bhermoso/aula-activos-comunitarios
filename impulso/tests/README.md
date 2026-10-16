@@ -15,8 +15,11 @@ Requisitos en el equipo que ejecute las pruebas: Node.js 20+, Java compatible y 
 ```bash
 cd impulso/tests
 npm install
+cp ../firestore-loja.rules firestore-loja.rules
 npx firebase-tools emulators:exec --project demo-loja-reglas --only firestore "npm test"
 ```
+
+La copia de reglas se crea únicamente en el directorio de trabajo del emulador para cumplir sus restricciones de rutas; las reglas fuente permanecen en `impulso/firestore-loja.rules`.
 
 El programa `firestore-loja.test.mjs` comprueba:
 - Creación pública de propuestas válidas y categorías «Otro».
