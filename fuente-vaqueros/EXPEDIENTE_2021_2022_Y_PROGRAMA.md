@@ -36,6 +36,18 @@ La propuesta de contenidos afecta a portada, «Punto de partida», programa, pre
 - Hasta autorización expresa de fusión, **los cambios no son visibles en GitHub Pages**. El HTML de la rama puede inspeccionarse en el PR pero no debe presentarse como publicado.
 - No se han modificado otros municipios, Firebase ni los demás módulos.
 
+## Orientación de la mesa-coloquio · revisión 16/10/2026
+
+**Finalidad:** recoger la visión de la salud y el bienestar de Fuente Vaqueros desde la experiencia de cada persona o entidad invitada, sin someterla a preguntas técnicas sobre RELAS ni presuponer que conoce la priorización de 2022.
+
+**Pregunta compartida:** «Desde su trabajo, su entidad o su experiencia cotidiana, ¿cómo ve la salud y el bienestar de las personas de Fuente Vaqueros?».
+
+**Repreguntas opcionales (no cuestionario cerrado):** principales preocupaciones; situaciones que funcionan bien; necesidades o colectivos menos escuchados; iniciativas o colaboraciones útiles; aspectos a tener en cuenta al retomar el trabajo local. Facilitar testimonios, ejemplos y visiones complementarias sin forzar compromisos ni juicios técnicos.
+
+**Relación con el programa:** la historia de RELAS, la encuesta de 2022 y la eventual actualización de prioridades se presentan en los bloques técnicos. La intervención propuesta de Blas Hermoso recoge después como líneas de continuidad la revisión de la priorización y el mapeo participativo de activos. **Las intervenciones de la mesa no equivalen a una priorización formal ni a un acuerdo del grupo motor.**
+
+**Estado:** cambios preparados exclusivamente en la rama `fuente-coloquio-escucha-perspectivas-20261016`, pendientes de aprobación para fusión y publicación. Se mantienen los listados completos de participantes e invitados y la indicación de moderación pendiente de confirmación.
+
 ## Pendientes de verificación antes de cerrar el programa
 1. Fecha exacta y acuerdo oficial de adhesión a RELAS.
 2. Actas posteriores al 29/04/2022 y continuidad del grupo motor después del verano.
