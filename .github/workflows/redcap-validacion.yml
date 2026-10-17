@@ -1,0 +1,29 @@
+name: REDCap 2027 - Validación de materiales
+on:
+  pull_request:
+    paths:
+      - 'redcap/**'
+      - '.github/workflows/redcap-validacion.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'redcap/**'
+      - '.github/workflows/redcap-validacion.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validar-materiales:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Obtener contenido
+        uses: actions/checkout@v4
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Comprobar estructura, PDF y correspondencia con fuente
+        run: node --test redcap/tests/redisenio.test.mjs
