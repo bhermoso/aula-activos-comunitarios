@@ -4,7 +4,8 @@ import {test} from 'node:test';
 
 const html=readFileSync(new URL('../index.html',import.meta.url),'utf8');
 function section(id){
-  const start=html.indexOf('<section class="section" id="'+id+'">');
+  let start=html.indexOf('<section class="section" id="'+id+'">');
+  if(start<0) start=html.indexOf('<section class="section active" id="'+id+'">');
   assert.ok(start>=0,'No existe sección '+id);
   return html.slice(start,html.indexOf('</section>',start)+10);
 }
