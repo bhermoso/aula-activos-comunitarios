@@ -109,3 +109,8 @@ La presente es una **propuesta curricular**. La publicación requiere completar 
 ## Ejecución del rediseño (17/10/2026)
 
 Completados en rama los itinerarios interactivos, diez PDF nuevos, lectura web, guía opcional de sintaxis y tests de correspondencia PDF-fuente. Las duraciones y fechas se mantienen sin acreditar que hayan sido autorizadas formalmente para Gesforma. No está auditada la compatibilidad con el REDCap institucional. Los archivos anteriores han sido sustituidos **solo en la rama de revisión**, no en `main` ni en Pages.
+
+
+### Plantilla de seguimiento 2027 · 17/10/2026
+
+Incorporada en la PR #29 la plantilla docente `redcap/materiales/plantilla_seguimiento_2027_diccionario.csv`, con 15 campos y tres instrumentos técnicos (ficha inicial, hábitos y seguimiento). Está enlazada desde REDCap Avanzado y documentada en `redcap/PLANTILLA_SEGUIMIENTO_2027.md`. **Su importación no crea eventos longitudinales, repetición ni encuestas**: el alumnado debe elegir y configurar esa arquitectura según necesidad y permisos. Se amplía el test de regresión para vigilar la plantilla.
