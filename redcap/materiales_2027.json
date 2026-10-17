@@ -1,0 +1,1107 @@
+{
+  "revision": "2026-10-17",
+  "estado": "propuesta, no publicada",
+  "intro": "Material docente revisado · 17/10/2026 · propuesta pendiente de validación institucional. Trabajar solo con datos ficticios. Las funciones disponibles dependen de la versión y permisos del REDCap institucional.",
+  "source": [
+    "https://projectredcap.org/resources/videos/",
+    "https://help.redcap.ualberta.ca/help-and-faq/repeating-instruments-events",
+    "https://www.iths.org/investigators/services/bmi/redcap/curriculum/rc-203/"
+  ],
+  "docs": [
+    {
+      "id": "programa_redcap_basico_2027",
+      "nivel": "Básico",
+      "clase": "Programa",
+      "titulo": "REDCap Básico 2027",
+      "subtitulo": "Diseño, aplicación y prueba de instrumentos y encuestas sencillas",
+      "duracion": "20 horas: 10 presenciales + 10 no presenciales",
+      "sections": [
+        {
+          "h": "Destinatarios y finalidad",
+          "p": "Profesionales sanitarios, de salud pública, investigación, enfermería, trabajo social y otros ámbitos con necesidades de recogida de datos. No se requiere experiencia previa con REDCap."
+        },
+        {
+          "h": "Resultados de aprendizaje",
+          "bullets": [
+            "Definir objetivo, unidad de observación, población y variables antes de construir el instrumento.",
+            "Crear campos con códigos, etiquetas, tipos y validaciones adecuados, y comprobar datos ficticios.",
+            "Activar y probar una encuesta sencilla si su cuenta e instalación lo permiten.",
+            "Introducir una condición básica, comprobándola con Sí, No y dato ausente.",
+            "Exportar y leer el diccionario de datos sin compartir información identificable.",
+            "Distinguir desarrollo/producción, roles de acceso y obligaciones de protección de datos."
+          ]
+        },
+        {
+          "h": "Calendario de ediciones",
+          "table": {
+            "head": [
+              "Edición",
+              "Presencial 1",
+              "Presencial 2",
+              "Trabajo 1",
+              "Trabajo final"
+            ],
+            "rows": [
+              [
+                "Primavera",
+                "04/02/2027",
+                "11/02/2027",
+                "09/02/2027",
+                "18/02/2027"
+              ],
+              [
+                "Otoño",
+                "16/09/2027",
+                "23/09/2027",
+                "21/09/2027",
+                "30/09/2027"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "Itinerario de 20 horas",
+          "table": {
+            "head": [
+              "Unidad",
+              "Horas",
+              "Producto"
+            ],
+            "rows": [
+              [
+                "Sesión 1 · Del objetivo al instrumento",
+                "5 h presenciales",
+                "Primer formulario y registros ficticios"
+              ],
+              [
+                "Trabajo 1 · Ampliación y pruebas",
+                "5 h no presenciales",
+                "Diccionario + casos de prueba"
+              ],
+              [
+                "Sesión 2 · Encuesta y uso responsable",
+                "5 h presenciales",
+                "Encuesta de prueba y condición sencilla"
+              ],
+              [
+                "Trabajo final · Validación por otra persona",
+                "5 h no presenciales",
+                "Instrumento, prueba y ficha de protección"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "Evaluación y condiciones",
+          "p": "Las dos entregas se valoran por la adecuación del diseño, validaciones, funcionamiento demostrado, pruebas e información sobre el tratamiento de datos. No se exige memorizar sintaxis. Estructura provisional de calificación: 20% primera entrega, 20% final y 60% post-test. Verificar requisitos de certificación con Gesforma."
+        },
+        {
+          "h": "Recursos y precauciones",
+          "bullets": [
+            "Ejercicio común de hábitos de vida en contexto de atención primaria con información ficticia.",
+            "El alumnado dispondrá de diccionario de prueba, guías de sesión, casos y rúbricas.",
+            "Nunca utilizar datos clínicos reales, contactos ni identificadores personales en el entorno de prácticas.",
+            "Material actualizado en aula-activos-comunitarios/redcap/. La documentación del REDCap institucional prevalece sobre capturas o menús genéricos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basico_sesion1",
+      "nivel": "Básico",
+      "clase": "Sesión presencial",
+      "titulo": "Sesión 1. Del objetivo al primer instrumento",
+      "subtitulo": "Diseño y comprobación de datos desde el primer día",
+      "duracion": "5 horas · 09:00 a 14:00",
+      "sections": [
+        {
+          "h": "Qué aprenderemos",
+          "bullets": [
+            "Diferenciar objetivo, población, unidad de observación, proyecto, formulario y registro.",
+            "Transformar preguntas en variables con codificación, tipos y rangos plausibles.",
+            "Construir un instrumento breve y detectar errores mediante registros ficticios.",
+            "Leer la exportación y el diccionario para comprobar si los datos sirven al análisis."
+          ]
+        },
+        {
+          "h": "Agenda",
+          "table": {
+            "head": [
+              "Hora",
+              "Actividad"
+            ],
+            "rows": [
+              [
+                "09:00–09:20",
+                "Bienvenida, acceso y objetivos del caso"
+              ],
+              [
+                "09:20–10:05",
+                "Diseño del proyecto, unidad de observación y conceptos"
+              ],
+              [
+                "10:05–11:15",
+                "Tipos de campos, codificación, validaciones y diccionario"
+              ],
+              [
+                "11:15–11:45",
+                "Descanso"
+              ],
+              [
+                "11:45–13:15",
+                "Taller: construir el primer instrumento"
+              ],
+              [
+                "13:15–13:45",
+                "Tres registros ficticios, exportación y revisión"
+              ],
+              [
+                "13:45–14:00",
+                "Debate y trabajo no presencial"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "Caso de estudio",
+          "p": "Proyecto de evaluación de hábitos de vida. Unidad de observación: persona participante. Se recoge edad en años, actividad física, alimentación y barreras. Justificar por qué se recoge cada dato, su unidad de medida y las categorías de respuesta."
+        },
+        {
+          "h": "Diseño de variables",
+          "table": {
+            "head": [
+              "Variable",
+              "Tipo recomendado",
+              "Comprobación"
+            ],
+            "rows": [
+              [
+                "edad",
+                "Número entero; rango justificado",
+                "Datos ausentes y límites"
+              ],
+              [
+                "af_regular",
+                "Sí/No codificado",
+                "Valores 1/0 consistentes"
+              ],
+              [
+                "af_dias_sem",
+                "Entero de 0 a 7",
+                "Evitar 8 o valores negativos"
+              ],
+              [
+                "af_min_sesion",
+                "Entero con unidades minutos",
+                "Rango máximo plausible"
+              ],
+              [
+                "barreras_af",
+                "Checkbox de varias respuestas",
+                "Una columna por opción en CSV"
+              ],
+              [
+                "fecha_inclusion",
+                "Fecha validada",
+                "Formato y fecha realista"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "Práctica guiada",
+          "bullets": [
+            "Definir propósito y unidad de observación en una frase.",
+            "Crear un proyecto de prueba y un formulario de 7–8 preguntas de al menos cuatro tipos.",
+            "Elegir nombres de campo comprensibles y una nomenclatura consistente.",
+            "Incluir instrucciones y validaciones; guardar tres registros ficticios distintos.",
+            "Descargar diccionario y exportación CSV, comprobar que los códigos significan lo esperado."
+          ]
+        },
+        {
+          "h": "Errores que conviene detectar",
+          "bullets": [
+            "Mezclar la etiqueta visible con el código almacenado.",
+            "Usar checkbox cuando solo se admite una respuesta.",
+            "Confundir la falta de respuesta con el valor 0.",
+            "Considerar que la presencia de una validación equivale a una encuesta metodológicamente válida.",
+            "Introducir datos personales o fechas reales en un proyecto de formación."
+          ]
+        },
+        {
+          "h": "Criterio de cierre",
+          "p": "Cada persona debe poder explicar qué registra su proyecto, por qué se eligieron los campos y qué se detectó al inspeccionar un registro ficticio y el CSV."
+        }
+      ]
+    },
+    {
+      "id": "basico_trabajo_no_presencial_1",
+      "nivel": "Básico",
+      "clase": "Trabajo no presencial 1",
+      "titulo": "Trabajo 1. Ampliar, probar y documentar",
+      "subtitulo": "Del prototipo a una versión revisada",
+      "duracion": "5 horas · Entrega 09/02/2027 o 21/09/2027",
+      "sections": [
+        {
+          "h": "Producto de la tarea",
+          "p": "Mejorar el instrumento iniciado en clase. El resultado no es una captura de pantalla: es una versión documentada del diccionario y una verificación reproducible con perfiles ficticios."
+        },
+        {
+          "h": "Distribución del trabajo",
+          "table": {
+            "head": [
+              "Actividad",
+              "Tiempo"
+            ],
+            "rows": [
+              [
+                "Añadir 5–6 campos en al menos dos dimensiones pertinentes",
+                "1 h 30"
+              ],
+              [
+                "Aplicar tipos, codificaciones, secciones, ayudas y rangos",
+                "1 h"
+              ],
+              [
+                "Crear cinco registros ficticios y probar valores de frontera y vacíos",
+                "1 h 15"
+              ],
+              [
+                "Revisar CSV, diccionario e incidencias",
+                "45 min"
+              ],
+              [
+                "Preparar entrega y dudas",
+                "30 min"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "Cinco perfiles de prueba",
+          "bullets": [
+            "Persona con respuestas completas y valores habituales.",
+            "Persona con un campo no respondido.",
+            "Persona cuyo dato coincide exactamente con el mínimo permitido.",
+            "Persona cuyo dato coincide con el máximo permitido.",
+            "Persona con valor deliberadamente fuera de rango: observar la validación y documentar qué ocurre."
+          ]
+        },
+        {
+          "h": "Entrega",
+          "bullets": [
+            "Diccionario de datos CSV versionado con fecha.",
+            "Tabla de casos: dato de entrada, comportamiento esperado, observado, fallo y corrección.",
+            "CSV solo de datos ficticios cuando el entorno permita exportarlo.",
+            "Breve nota (máximo una página) sobre decisiones y dificultades."
+          ]
+        },
+        {
+          "h": "Rúbrica",
+          "table": {
+            "head": [
+              "Criterio",
+              "Puntos"
+            ],
+            "rows": [
+              [
+                "Adecuación metodológica y cobertura de variables",
+                "3"
+              ],
+              [
+                "Códigos, formatos y validaciones",
+                "3"
+              ],
+              [
+                "Pruebas explícitas con casos de frontera y ausencias",
+                "3"
+              ],
+              [
+                "Documentación y entrega",
+                "1"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "Autocomprobación",
+          "bullets": [
+            "¿Hay preguntas innecesarias o ambiguas?",
+            "¿Se distinguen «no aplica», «no contesta» y 0 cuando corresponda?",
+            "¿Se han usado únicamente registros ficticios?",
+            "¿Una segunda persona puede comprender el diccionario?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basico_sesion2",
+      "nivel": "Básico",
+      "clase": "Sesión presencial",
+      "titulo": "Sesión 2. Encuestas, privacidad y prueba cruzada",
+      "subtitulo": "De un instrumento correcto a una experiencia de respuesta segura",
+      "duracion": "5 horas · 09:00 a 14:00",
+      "sections": [
+        {
+          "h": "Resultados de la sesión",
+          "bullets": [
+            "Reconocer el ciclo desarrollo-prueba-producción y el estado de un formulario.",
+            "Distinguir encuesta autoadministrada y captura por profesionales.",
+            "Preparar instrucciones, mensaje de cierre y enlace de una encuesta de prueba.",
+            "Comprender permisos mínimos, identificadores y exportaciones proporcionadas.",
+            "Aplicar una primera condición de visualización y probarla con tres casos."
+          ]
+        },
+        {
+          "h": "Agenda",
+          "table": {
+            "head": [
+              "Hora",
+              "Actividad"
+            ],
+            "rows": [
+              [
+                "09:00–09:35",
+                "Revisión colectiva de errores de diseño"
+              ],
+              [
+                "09:35–10:15",
+                "Guardar datos, estados y ciclo de vida del proyecto"
+              ],
+              [
+                "10:15–11:15",
+                "Privacidad, minimización, permisos y exportaciones"
+              ],
+              [
+                "11:15–11:45",
+                "Descanso"
+              ],
+              [
+                "11:45–12:35",
+                "Activar y probar encuesta sencilla"
+              ],
+              [
+                "12:35–13:15",
+                "Primera condición: una pregunta que solo aparece cuando procede"
+              ],
+              [
+                "13:15–13:45",
+                "Prueba cruzada por parejas y control de versiones"
+              ],
+              [
+                "13:45–14:00",
+                "Cierre y encargo final"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "Encuesta sencilla paso a paso",
+          "bullets": [
+            "Comprobar si el REDCap institucional y los derechos del proyecto permiten encuestas.",
+            "Habilitar encuestas en el proyecto y el instrumento de prueba si corresponde.",
+            "Escribir título, instrucciones, información necesaria y mensaje de cierre.",
+            "Probar el enlace con navegador privado y respuestas ficticias.",
+            "Comprobar dónde se guardan las respuestas y qué se muestra al encuestado."
+          ]
+        },
+        {
+          "h": "Condición elemental",
+          "p": "Caso: ¿Fuma actualmente? (1 = Sí, 0 = No). La pregunta sobre cigarrillos al día solo debe aparecer cuando se elige Sí. Expresión de apoyo: [fuma_actual] = '1'. Probar Sí, No y sin respuesta. No memorizar operadores; evaluar el comportamiento y posibles respuestas confusas."
+        },
+        {
+          "h": "Privacidad y roles",
+          "p": "La minimización comienza antes de crear variables. No convertir un código de estudio en DNI, NUHSA, nombre o historia clínica. Revisar quién captura, supervisa y exporta. La ocultación de un campo en pantalla no protege sus datos. Las condiciones reales se concretan con la organización responsable."
+        },
+        {
+          "h": "Práctica y salida",
+          "bullets": [
+            "Preparar encuesta de prueba, si hay permisos, o documentar el bloqueo.",
+            "Invitar a una pareja a responder y registrar tres incidencias o comprobaciones.",
+            "Probar que la condición funciona en todos los casos.",
+            "Guardar diccionario y versión de la revisión.",
+            "Definir qué documentos se entregarán en el trabajo final."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basico_trabajo_no_presencial_2",
+      "nivel": "Básico",
+      "clase": "Trabajo no presencial 2",
+      "titulo": "Trabajo final. Instrumento y encuesta validados",
+      "subtitulo": "Prueba por terceros, protección y entrega funcional",
+      "duracion": "5 horas · Entrega 18/02/2027 o 30/09/2027",
+      "sections": [
+        {
+          "h": "Objetivo y producto",
+          "p": "Cerrar el proyecto formativo con un instrumento revisado, una experiencia de encuesta probada o la explicación documentada de por qué no está habilitada, y un breve informe de incidencias."
+        },
+        {
+          "h": "Secuencia de trabajo",
+          "table": {
+            "head": [
+              "Actividad",
+              "Tiempo"
+            ],
+            "rows": [
+              [
+                "Corregir estructura, ayudas, validaciones y códigos",
+                "1 h 15"
+              ],
+              [
+                "Revisar identificadores y exportación segura",
+                "45 min"
+              ],
+              [
+                "Probar encuesta y condición con otra persona",
+                "1 h"
+              ],
+              [
+                "Corregir y documentar incidencias",
+                "45 min"
+              ],
+              [
+                "Informe final, preparación y post-test",
+                "1 h 15"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "Prueba por terceros",
+          "bullets": [
+            "Indicar el objetivo, pero no explicar verbalmente cómo responder cada pregunta.",
+            "Observar dónde aparecen dudas, errores y saltos inesperados.",
+            "Comprobar que la encuesta no solicita identificadores innecesarios.",
+            "Revisar las respuestas guardadas y el comportamiento con una respuesta vacía.",
+            "Registrar cambios posteriores y repetir el caso que había fallado."
+          ]
+        },
+        {
+          "h": "Ficha de una página",
+          "bullets": [
+            "Objetivo, población y unidad de observación.",
+            "Secciones y principales variables del instrumento.",
+            "Qué datos se consideran identificativos y cómo se minimizan.",
+            "Cómo se accede, responde, revisa y exporta.",
+            "Problemas detectados en la prueba y corrección aplicada."
+          ]
+        },
+        {
+          "h": "Rúbrica",
+          "table": {
+            "head": [
+              "Criterio",
+              "Puntos"
+            ],
+            "rows": [
+              [
+                "Calidad y adecuación del instrumento",
+                "3"
+              ],
+              [
+                "Encuesta o alternativa justificada y prueba de condición",
+                "2"
+              ],
+              [
+                "Protección de datos y permisos",
+                "2"
+              ],
+              [
+                "Prueba por terceros y cambios justificados",
+                "2"
+              ],
+              [
+                "Entregables y versión documentada",
+                "1"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "Certificación",
+          "p": "La ponderación vigente en la propuesta es entrega 1 (20%), entrega final (20%) y post-test (60%), con los requisitos de asistencia y nota establecidos en el programa. Confirmar criterios definitivos de Gesforma antes de emitir información oficial."
+        }
+      ]
+    },
+    {
+      "id": "programa_redcap_avanzado_2027",
+      "nivel": "Avanzado",
+      "clase": "Programa",
+      "titulo": "REDCap Avanzado 2027",
+      "subtitulo": "Diseño, gestión y calidad de proyectos de recogida de datos en salud",
+      "duracion": "20 horas: 10 presenciales + 10 no presenciales",
+      "sections": [
+        {
+          "h": "A quién se dirige",
+          "p": "Profesionales que ya conocen REDCap o han superado Básico y quieren abordar proyectos con varios instrumentos, seguimiento, encuestas y controles de calidad. No se presupone formación en programación."
+        },
+        {
+          "h": "Resultados de aprendizaje",
+          "bullets": [
+            "Elegir entre captura transversal, eventos longitudinales e instrumentos o eventos repetibles, según necesidades del protocolo.",
+            "Organizar varios instrumentos y un identificador estable por unidad de estudio.",
+            "Planificar responsables, permisos, capturas, invitaciones y seguimiento.",
+            "Construir informes de operación y reglas de detección de incidencias.",
+            "Probar casos límite y corregir datos sin perder trazabilidad.",
+            "Documentar versiones, cambios y decisiones para puesta en marcha institucional."
+          ]
+        },
+        {
+          "h": "Calendario de ediciones",
+          "table": {
+            "head": [
+              "Edición",
+              "Presencial 1",
+              "Presencial 2",
+              "Trabajo 1",
+              "Trabajo final"
+            ],
+            "rows": [
+              [
+                "Primavera",
+                "22/04/2027",
+                "29/04/2027",
+                "27/04/2027",
+                "06/05/2027"
+              ],
+              [
+                "Otoño",
+                "04/11/2027",
+                "11/11/2027",
+                "09/11/2027",
+                "18/11/2027"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "Itinerario de aprendizaje",
+          "table": {
+            "head": [
+              "Unidad",
+              "Horas",
+              "Evidencia"
+            ],
+            "rows": [
+              [
+                "Sesión 1 · Arquitectura y seguimiento",
+                "5 h presencial",
+                "Plano de proyecto y prueba de rutas"
+              ],
+              [
+                "Trabajo 1 · Proyecto mínimo de seguimiento",
+                "5 h no presencial",
+                "Modelo, diccionario y tabla de pruebas"
+              ],
+              [
+                "Sesión 2 · Operación y calidad",
+                "5 h presencial",
+                "Informes, encuestas y detección de errores"
+              ],
+              [
+                "Trabajo final · Auditoría de proyecto",
+                "5 h no presencial",
+                "Informe de incidencias y plan de puesta en marcha"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "Principio docente",
+          "p": "Avanzado no es un curso de memorización de fórmulas. Las condiciones, cálculos, filtros y Action Tags se emplean si un proyecto lo necesita; se dispone de guía de consulta. La evaluación premia arquitectura, decisiones justificadas, funcionamiento, datos fiables, seguridad y documentación."
+        },
+        {
+          "h": "Comprobaciones institucionales",
+          "bullets": [
+            "Confirmar antes de las prácticas qué herramientas de encuestas, longitudinales, repetibles y automatizaciones están habilitadas.",
+            "Pedir permiso explícito antes de crear roles, invitar usuarios, utilizar correos o pasar a producción.",
+            "Solo datos ficticios y proyectos docentes de ensayo.",
+            "Ponderación y requisitos de certificación, provisionales hasta validación de Gesforma."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avanzado_sesion1",
+      "nivel": "Avanzado",
+      "clase": "Sesión presencial",
+      "titulo": "Sesión 1. Arquitectura de proyectos y seguimiento",
+      "subtitulo": "Elegir el modelo apropiado antes de tocar los menús",
+      "duracion": "5 horas · 09:00 a 14:00",
+      "sections": [
+        {
+          "h": "Competencias",
+          "bullets": [
+            "Definir unidad de observación, registros, instrumentos y momentos de recogida.",
+            "Elegir estructura transversal, longitudinal y/o repetible con fundamento.",
+            "Reconocer el impacto en exportaciones, identificadores y permisos.",
+            "Probar rutas de trabajo con registros ficticios y datos ausentes."
+          ]
+        },
+        {
+          "h": "Agenda",
+          "table": {
+            "head": [
+              "Hora",
+              "Actividad"
+            ],
+            "rows": [
+              [
+                "09:00–09:30",
+                "Caso de seguimiento: problema y unidad de observación"
+              ],
+              [
+                "09:30–10:30",
+                "Proyecto con varios instrumentos y momentos"
+              ],
+              [
+                "10:30–11:15",
+                "Eventos longitudinales e instrumentos/eventos repetibles"
+              ],
+              [
+                "11:15–11:45",
+                "Descanso"
+              ],
+              [
+                "11:45–12:30",
+                "Equipo, perfiles, permisos y flujo del dato"
+              ],
+              [
+                "12:30–13:20",
+                "Práctica: proyecto mínimo y casos ficticios"
+              ],
+              [
+                "13:20–13:45",
+                "Condición o cálculo solo cuando resuelve una necesidad"
+              ],
+              [
+                "13:45–14:00",
+                "Encargo, checklist y dudas"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "Decisión de arquitectura",
+          "table": {
+            "head": [
+              "Necesidad de recogida",
+              "Diseño a considerar"
+            ],
+            "rows": [
+              [
+                "Una visita y un cuestionario",
+                "Proyecto clásico sencillo"
+              ],
+              [
+                "Basal, 3 y 12 meses prefijados",
+                "Eventos longitudinales"
+              ],
+              [
+                "Visitas no previstas en número",
+                "Instrumento repetible"
+              ],
+              [
+                "Varios formularios juntos en visitas no previstas",
+                "Evento repetible si está habilitado"
+              ],
+              [
+                "Muchos profesionales por centro",
+                "Roles y DAG si procede y se autorizan"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "Modelo de estudio de caso",
+          "p": "Proyecto ficticio de evaluación de hábitos de vida con captación inicial y revisión. Instrumentos: elegibilidad, hábitos de vida y seguimiento. Un registro estable por persona ficticia. En longitudinal se distinguen eventos; en repetibles, instancias. La estrategia de exportación debe tener en cuenta estas dimensiones."
+        },
+        {
+          "h": "Tabla de comprobaciones",
+          "table": {
+            "head": [
+              "Caso",
+              "Resultado esperado"
+            ],
+            "rows": [
+              [
+                "Alta de la persona P001",
+                "Un solo registro con identificación estable"
+              ],
+              [
+                "Revisión a 3 meses",
+                "Se asigna al evento o instancia previsto"
+              ],
+              [
+                "Seguimiento no realizado",
+                "Se documenta ausencia; no se introduce 0 automáticamente"
+              ],
+              [
+                "Dos visitas el mismo día",
+                "Detectar duplicación o justificar visitas independientes"
+              ],
+              [
+                "Exportación",
+                "Identificar evento/instancia si existen repeticiones"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "Papel de la sintaxis",
+          "p": "Una regla sencilla puede ocultar una pregunta irrelevante. Una función calculada puede ahorrar error si se comprueban unidades y ausencias. No añadir cálculos, Action Tags ni operadores anidados para demostrar complejidad. Consultar la guía de lógica y probar primero su efecto funcional."
+        },
+        {
+          "h": "Para cerrar la sesión",
+          "bullets": [
+            "Esquema gráfico legible de registro, instrumentos y momentos.",
+            "Alternativa de diseño descartada y razón.",
+            "Cuatro casos ficticios previstos, con al menos una ausencia.",
+            "Plan mínimo de permisos y roles."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avanzado_trabajo_no_presencial_1",
+      "nivel": "Avanzado",
+      "clase": "Trabajo no presencial 1",
+      "titulo": "Trabajo 1. Modelo y prueba de seguimiento",
+      "subtitulo": "Arquitectura justificada con escenarios reales simulados",
+      "duracion": "5 horas · Entrega 27/04/2027 o 09/11/2027",
+      "sections": [
+        {
+          "h": "Consigna",
+          "p": "A partir del caso de salud elegido, proponer un diseño con varios instrumentos o momentos de recogida. Justificar si necesita o no eventos longitudinales o repeticiones. Construir una versión mínima de prueba si el entorno institucional y los permisos lo permiten."
+        },
+        {
+          "h": "Plan de trabajo",
+          "table": {
+            "head": [
+              "Paso",
+              "Dedicación"
+            ],
+            "rows": [
+              [
+                "Objetivo, unidad de observación y arquitectura con alternativa",
+                "1 h"
+              ],
+              [
+                "Modelo de instrumentos y diccionario inicial",
+                "1 h 30"
+              ],
+              [
+                "Casos ficticios: alta, seguimiento, ausencia, duplicidad",
+                "1 h 30"
+              ],
+              [
+                "Resultados, correcciones y nota de decisiones",
+                "1 h"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "Entregables",
+          "bullets": [
+            "Plano simple con identificador de registro, instrumentos, eventos o instancias.",
+            "Diccionario CSV o esquema equivalente con versión y fecha.",
+            "Tabla de casos esperados y observados (mínimo cuatro).",
+            "Justificación de arquitectura y límites de permisos; no falsificar funciones que no estén disponibles."
+          ]
+        },
+        {
+          "h": "Rúbrica",
+          "table": {
+            "head": [
+              "Criterio",
+              "Puntos"
+            ],
+            "rows": [
+              [
+                "Adecuación y justificación de arquitectura",
+                "4"
+              ],
+              [
+                "Coherencia de identificadores y tiempos",
+                "2"
+              ],
+              [
+                "Pruebas de seguimiento, ausencias y duplicados",
+                "3"
+              ],
+              [
+                "Claridad y trazabilidad de la entrega",
+                "1"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "Errores críticos",
+          "bullets": [
+            "Crear nuevos registros para cada visita sin una razón metodológica.",
+            "Confundir instrumento repetible con evento longitudinal.",
+            "No identificar instancia/evento en una exportación.",
+            "Sustituir datos ausentes por cero.",
+            "Compartir datos reales o exportaciones sin permiso."
+          ]
+        },
+        {
+          "h": "Criterio de finalización",
+          "p": "El esquema y los casos deben permitir que otra persona comprenda qué se registra, cuándo, dónde y con qué controles. No se puntúa el número de expresiones escritas."
+        }
+      ]
+    },
+    {
+      "id": "avanzado_sesion2",
+      "nivel": "Avanzado",
+      "clase": "Sesión presencial",
+      "titulo": "Sesión 2. Gestión, informes y calidad de datos",
+      "subtitulo": "Operar y auditar un proyecto que ya tiene usuarios y respuestas",
+      "duracion": "5 horas · 09:00 a 14:00",
+      "sections": [
+        {
+          "h": "Competencias",
+          "bullets": [
+            "Elegir un mecanismo de encuesta ajustado a la población, permisos y privacidad.",
+            "Diseñar informes de seguimiento con el mínimo número de variables.",
+            "Combinar validaciones, comprobaciones de integridad y reglas de calidad.",
+            "Preparar cambios documentados y pruebas previas al paso a producción."
+          ]
+        },
+        {
+          "h": "Agenda",
+          "table": {
+            "head": [
+              "Hora",
+              "Actividad"
+            ],
+            "rows": [
+              [
+                "09:00–09:35",
+                "Revisión cruzada de proyectos"
+              ],
+              [
+                "09:35–10:25",
+                "Invitaciones, distribución y seguimiento de encuestas"
+              ],
+              [
+                "10:25–11:15",
+                "Informes útiles, filtros y controles de acceso"
+              ],
+              [
+                "11:15–11:45",
+                "Descanso"
+              ],
+              [
+                "11:45–12:35",
+                "Validaciones, contradicciones y valores ausentes"
+              ],
+              [
+                "12:35–13:20",
+                "Versiones, cambios y preparación para producción"
+              ],
+              [
+                "13:20–13:45",
+                "Prueba integral por tres perfiles"
+              ],
+              [
+                "13:45–14:00",
+                "Trabajo final y cierre"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "Gestión responsable de encuestas",
+          "table": {
+            "head": [
+              "Necesidad",
+              "Alternativa y comprobación"
+            ],
+            "rows": [
+              [
+                "Convocatoria abierta",
+                "Enlace público solo si el diseño y la protección lo permiten"
+              ],
+              [
+                "Invitación individual",
+                "Enlaces personalizados o lista de participantes autorizada"
+              ],
+              [
+                "Recordatorios",
+                "Automatización revisada antes de activarla"
+              ],
+              [
+                "Abandono o falta de respuesta",
+                "Estatus definido sin completar artificialmente"
+              ],
+              [
+                "Encuesta de seguimiento",
+                "Comprobar evento o instancia apropiado"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "Informes de operación",
+          "p": "Partir de preguntas de gestión: ¿qué personas ficticias tienen evaluación inicial pero no seguimiento?, ¿cuántas respuestas completas hay por periodo?, ¿qué registros necesitan revisión? Para cada informe, definir población, denominador, permisos, variables mínimas y dos registros de prueba, uno incluido y otro excluido."
+        },
+        {
+          "h": "Calidad de datos",
+          "bullets": [
+            "Datos imposibles y rangos plausibles; revisar si validaciones avisan o bloquean.",
+            "Contradicciones entre variables; ejecutar pruebas con un registro ficticio deliberadamente erróneo.",
+            "Datos ausentes frente a no aplicables, y cálculos que dependen de datos incompletos.",
+            "Reglas predefinidas antes de escribir fórmulas propias; si se usa sintaxis, documentar la regla de error y su prueba.",
+            "Registro de incidencia: origen, responsable, fecha y resolución."
+          ]
+        },
+        {
+          "h": "Cambios en producción",
+          "p": "Antes de cualquier puesta en marcha real, validar permisos, diccionario versionado, rutas de respuesta, mecanismos de invitación, escenarios de exportación y procedimiento de contingencia. Los cambios sobre un proyecto en producción requieren proceso institucional; una práctica del curso no implica autorización para producción."
+        },
+        {
+          "h": "Práctica de cierre",
+          "bullets": [
+            "Realizar una encuesta ficticia bajo el rol de participante.",
+            "Revisar el registro bajo el rol de capturador, cuando haya permisos.",
+            "Crear informe con filtros y restringir datos.",
+            "Introducir un fallo de coherencia; detectarlo y documentar la corrección.",
+            "Repetir los casos afectados tras el cambio."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avanzado_trabajo_no_presencial_2",
+      "nivel": "Avanzado",
+      "clase": "Trabajo no presencial 2",
+      "titulo": "Trabajo final. Auditoría y plan de uso",
+      "subtitulo": "Demostrar que el proyecto puede operarse y corregirse",
+      "duracion": "5 horas · Entrega 06/05/2027 o 18/11/2027",
+      "sections": [
+        {
+          "h": "Producto final",
+          "p": "Entregar una mini-auditoría del proyecto: arquitectura, comprobación de flujos de seguimiento y encuestas, controles de calidad y ficha operativa para una puesta en marcha autorizada. Todo con datos ficticios."
+        },
+        {
+          "h": "Plan de 5 horas",
+          "table": {
+            "head": [
+              "Actividad",
+              "Tiempo"
+            ],
+            "rows": [
+              [
+                "Revisar instrumentos, rutas de captura e informes",
+                "1 h"
+              ],
+              [
+                "Realizar pruebas por tres perfiles ficticios",
+                "1 h"
+              ],
+              [
+                "Introducir, detectar y corregir un error",
+                "1 h"
+              ],
+              [
+                "Ficha de uso, accesos, versiones y contingencias",
+                "1 h 30"
+              ],
+              [
+                "Autoevaluación y post-test",
+                "30 min"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "Perfiles de prueba",
+          "bullets": [
+            "Participante ficticio: comprende instrucciones, responde y obtiene un cierre correcto.",
+            "Profesional de captura: accede solo a instrumentos y registros necesarios.",
+            "Responsable de coordinación: controla completitud y revisa informes proporcionados.",
+            "Un caso sin respuesta y un caso duplicado para documentar los controles."
+          ]
+        },
+        {
+          "h": "Evidencia de calidad",
+          "table": {
+            "head": [
+              "Situación de prueba",
+              "Antes de probar",
+              "Observado y acción"
+            ],
+            "rows": [
+              [
+                "Campo sin contestar",
+                "No equivale automáticamente a cero",
+                "Describir y corregir"
+              ],
+              [
+                "Incoherencia entre variables",
+                "La validación o regla debe detectarla",
+                "Registrar incidencia"
+              ],
+              [
+                "Visita duplicada",
+                "El sistema permite reconocer la duplicidad",
+                "Justificar o corregir"
+              ],
+              [
+                "Dato modificado",
+                "Registro de cambios y cálculo coherente",
+                "Volver a verificar"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "Plan de puesta en marcha",
+          "bullets": [
+            "Finalidad, población y unidad de observación.",
+            "Estructura de instrumentos, eventos y/o repeticiones.",
+            "Quién introduce, supervisa, invita y exporta; permisos mínimos.",
+            "Registro de incidencias, diccionario versionado y respaldo autorizado.",
+            "Pruebas realizadas, resultados y asuntos aún pendientes antes de producción."
+          ]
+        },
+        {
+          "h": "Rúbrica final",
+          "table": {
+            "head": [
+              "Criterio",
+              "Puntos"
+            ],
+            "rows": [
+              [
+                "Operación y seguimiento",
+                "2"
+              ],
+              [
+                "Calidad de datos y resolución de incidencias",
+                "3"
+              ],
+              [
+                "Pruebas y trazabilidad",
+                "3"
+              ],
+              [
+                "Documento final y precauciones de protección",
+                "2"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "Certificación",
+          "p": "Ponderación publicada anteriormente: 20% primera entrega, 20% entrega final, 60% post-test. Los requisitos efectivos de Gesforma y el entorno de prueba deben validarse antes de anunciar la evaluación oficial."
+        }
+      ]
+    }
+  ]
+}

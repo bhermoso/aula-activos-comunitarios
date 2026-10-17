@@ -79,3 +79,20 @@ La web `redcap/index.html` está publicada con unidades y materiales PDF, CSV y 
 
 ## 8. Método de trabajo en siguientes conversaciones
 Antes de proponer cambios, comprobar `main` y PR abiertos; leer este archivo y el documento del módulo. Diferenciar fuente documental, supuesto o propuesta y resultado de pruebas reales. Hacer modificaciones aisladas en rama y PR, con test y revisión de archivos. **No fusionar, desplegar ni exponer respuestas privadas sin autorización expresa.** Registrar SHA, estado de Pages y próximos bloqueadores al terminar.
+
+
+## 17/10/2026 · revisión REDCap Básico y Avanzado 2027 (propuesta)
+
+La rama `redcap-redisenio-competencias-2027-20261017` replantea las competencias por nivel: Básico incorpora encuestas sencillas y condición guiada; Avanzado se centra en proyectos con múltiples instrumentos, seguimiento, diseño longitudinal/repetible según pertinencia, distribución y gestión de encuestas, informes, calidad y puesta en marcha. La sintaxis, cálculos y Action Tags se trasladan a uso justificado y guía opcional, sin evaluación de memorización. Fuente curricular: `redcap/REDISENO_DOCENTE_2027.md`; guía: `redcap/GUIA_SINTAXIS_DE_CONSULTA.md`; itinerarios imprimibles: `redcap/programas-2027.html`.
+
+**Estado:** solo rama propuesta, sin despliegue. No altera otros módulos. Bloqueadores: validar con organización y versión REDCap institucional, armonizar diez PDF anteriores y su doble ubicación, diccionario de prácticas, pre/post-test, fechas y criterios de certificación. No fusionar ni desplegar sin autorización expresa y verificación.
+
+
+### Ampliación del rediseño REDCap · 17/10/2026
+
+Se completaron, **solo en la rama de la PR #29**, las diez guías/programas PDF actualizadas en las dos rutas históricas; su fuente editable es `redcap/materiales_2027.json` y los scripts `generar_pdf_2027*.mjs`. El visor imprimible `redcap/material-2027.html` ofrece navegación y descarga desde el Aula de revisión. Se actualizaron títulos y accesos en `redcap/index.html` y se añadieron pruebas de correspondencia entre PDF y fuente. Permanece **pendiente de validación y publicación**. No presentar esos PDF como versiones oficiales aprobadas. Pendientes: cotejar contenido con organización/Gesforma e instancia institucional REDCap, comprobar navegadores y accesibilidad con navegador real, y ajustar diccionario de prácticas/pre-post-test. El sistema de seguimiento individual del alumnado continúa sin existir.
+
+
+### Plantilla de seguimiento 2027 · 17/10/2026
+
+Incorporada en la PR #29 la plantilla docente `redcap/materiales/plantilla_seguimiento_2027_diccionario.csv`, con 15 campos y tres instrumentos técnicos (ficha inicial, hábitos y seguimiento). Está enlazada desde REDCap Avanzado y documentada en `redcap/PLANTILLA_SEGUIMIENTO_2027.md`. **Su importación no crea eventos longitudinales, repetición ni encuestas**: el alumnado debe elegir y configurar esa arquitectura según necesidad y permisos. Se amplía el test de regresión para vigilar la plantilla.
