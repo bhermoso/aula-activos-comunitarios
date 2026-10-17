@@ -319,7 +319,7 @@ const COURSES = [
       ${TABLE(['Criterio','2 puntos','1 punto'],[['Ampliación','≥ 5 campos en ≥ 2 dimensiones','Menos campos o una dimensión'],['Tipos de campo','Todos adecuados','1–2 inadecuados'],['Validaciones','Completas y plausibles','Faltan o son laxas'],['Nomenclatura','Clara, con unidades, secciones y ayudas','Parcial'],['Pruebas y exportación','≥ 5 registros con valores límite y archivos entregados','Poco variados o falta un archivo']])}
       ${CHECK('b-t1',['Diccionario de datos descargado','Datos exportados revisados (checkbox en varias columnas, fechas AAAA-MM-DD)','Dudas anotadas','Correo enviado'])}`}
   ]},
-  { id:'s2', k:'S2', kind:'p', title:'Buenas prácticas, RGPD y equipo', when:'Sesión presencial · 5 h', slides:[
+  { id:'s2', k:'S2', kind:'p', title:'Encuestas, privacidad y pruebas', when:'Sesión presencial · 5 h', slides:[
     {t:'Agenda', h:`<p class="kick">Sesión 2 · 09:00–14:00</p><h2>Buenas prácticas, RGPD y trabajo en equipo</h2>
       ${AGENDA([['09:00–09:45','Los 5 errores más frecuentes de las entregas'],['09:45–10:15','Guardar y estado del formulario; desarrollo y producción'],['10:15–11:15','Privacidad, permisos básicos y exportación responsable'],['11:15–11:45','Pausa',1],['11:45–12:35','Encuesta básica: activar, probar y mejorar instrucciones'],['12:35–13:20','Derechos básicos, diccionario y prueba cruzada'],['13:20–13:45','Lógica condicional sencilla: aplicar y comprobar'],['13:45–14:00','Trabajo no presencial 2 y post-test']])}`},
     {t:'Guardar', h:`<p class="kick">Guardar</p><h2>El diseño se guarda; los datos, solo si pulsas Save</h2>
@@ -343,7 +343,7 @@ const COURSES = [
     {t:'Práctica', h:`<p class="kick">Práctica de la sesión</p><h2>Antes de irte</h2>
       ${CHECK('b-s2',['Instrumento revisado con los comentarios de la entrega 1','Identificadores minimizados y marcados','Permisos básicos revisados según capacidades del entorno','Diccionario descargado con fecha','Una condición sencilla comprobada con respuestas Sí, No y vacío'])}`}
   ]},
-  { id:'t2', k:'T2', kind:'np', title:'Entrega final y post-test', when:'No presencial · 5 h · Entrega final', slides:[
+  { id:'t2', k:'T2', kind:'np', title:'Instrumento y encuesta validados', when:'No presencial · 5 h · Entrega final', slides:[
     {t:'Tarea', h:`<p class="kick">Trabajo no presencial 2 · hasta el 18 feb / 30 sep</p><h2>Pulir, probar con otra persona y documentar</h2>
       ${TABLE(['#','Qué hacer','Tiempo'],[['1','Pule el instrumento','1,5 h'],['2','RGPD: minimiza y marca identificadores','0,5 h'],['3','Otra persona rellena 2 registros sin ayuda; corrige lo que falle','0,75 h'],['4','Prueba una encuesta ficticia o documenta por qué no puede activarse','0,25 h'],['5','Documento final de 1 página','1 h'],['6','Post-test','0,5 h'],['7','Revisión final','0,5 h']])}`},
     {t:'Documento', h:`<p class="kick">Documento final · 1 página</p><h2>Qué debe contar</h2>
@@ -375,8 +375,8 @@ const COURSES = [
 ];
 
 const MATERIALES = [
-  ['Básico',[['programa_redcap_basico_2027.pdf','Programa del curso'],['basico_sesion1.pdf','Sesión 1 · Fundamentos y primer instrumento'],['basico_trabajo_no_presencial_1.pdf','Trabajo no presencial 1'],['basico_sesion2.pdf','Sesión 2 · Buenas prácticas, RGPD y equipo'],['basico_trabajo_no_presencial_2.pdf','Trabajo no presencial 2 · entrega final']]],
-  ['Avanzado',[['programa_redcap_avanzado_2027.pdf','Programa del curso'],['avanzado_sesion1.pdf','Sesión 1 · Branching, cálculos y Action Tags'],['avanzado_trabajo_no_presencial_1.pdf','Trabajo no presencial 1'],['avanzado_sesion2.pdf','Sesión 2 · Encuesta, informes y calidad'],['avanzado_trabajo_no_presencial_2.pdf','Trabajo no presencial 2 · entrega final'],['plantilla_habitos_vida_diccionario.csv','Proyecto de prácticas "Hábitos de vida" (diccionario para subir a REDCap)']]]
+  ['Básico',[['programa_redcap_basico_2027.pdf','Programa revisado · Diseño y encuestas sencillas'],['basico_sesion1.pdf','Sesión 1 · Del objetivo al primer instrumento'],['basico_trabajo_no_presencial_1.pdf','Trabajo 1 · Ampliar, probar y documentar'],['basico_sesion2.pdf','Sesión 2 · Encuestas, privacidad y prueba cruzada'],['basico_trabajo_no_presencial_2.pdf','Trabajo final · Instrumento y encuesta validados']]],
+  ['Avanzado',[['programa_redcap_avanzado_2027.pdf','Programa revisado · Proyectos, gestión y calidad'],['avanzado_sesion1.pdf','Sesión 1 · Arquitectura y seguimiento'],['avanzado_trabajo_no_presencial_1.pdf','Trabajo 1 · Modelo y prueba de seguimiento'],['avanzado_sesion2.pdf','Sesión 2 · Gestión, informes y calidad'],['avanzado_trabajo_no_presencial_2.pdf','Trabajo final · Auditoría y plan de uso'],['plantilla_habitos_vida_diccionario.csv','Proyecto de prácticas "Hábitos de vida" (diccionario para subir a REDCap)']]]
 ];
 
 
@@ -397,7 +397,7 @@ avanzado:{s1:'avanzado_sesion1.pdf',s2:'avanzado_sesion2.pdf',t1:'avanzado_traba
 function recursosDePantalla(c,u,sl){
 const t=(sl.t+' '+sl.h.replace(/<[^>]+>/g,' ')).toLowerCase();
 const seleccion=t.includes('action tag')?[5,0,3]:/diccionario|campo|instrumento|diseño|record_id/.test(t)?[0,2,3]:/encuesta|survey|piping/.test(t)?[0,3,4]:/calidad|export|informe|datos|validaci/.test(t)?[0,3,4]:[0,1,4];
-const entradas=[['PDF de versión anterior (no actualizado)','materiales/'+PDF_UNIDADES[c][u]],...seleccion.map(i=>URLS_REFERENCIA[i])];
+const entradas=[['PDF revisado de esta unidad','materiales/'+PDF_UNIDADES[c][u]],...seleccion.map(i=>URLS_REFERENCIA[i])];
 if(c==='avanzado'&&/diccionario|csv|plantilla|instrumento/.test(t))entradas.push(['Plantilla de prácticas (CSV)','materiales/plantilla_habitos_vida_diccionario.csv']);
 return '<aside class="recursos-contexto"><strong>Recursos y enlaces relacionados</strong>'+entradas.map(x=>'<a href="'+x[1]+'" target="_blank" rel="noopener noreferrer">'+x[0]+' ↗</a>').join('')+'</aside>';
 }
@@ -485,7 +485,7 @@ function portadaCursos(){
 function renderRail(){
   const c=COURSES[S.c];
   $('switch').innerHTML=COURSES.map((x,i)=>`<button type="button" data-course="${i}" aria-pressed="${S.view==='curso'&&i===S.c}">${x.name.replace('REDCap ','')}</button>`).join('');
-  if(S.view==='mat'){$('rail-kicker').textContent='Aula REDCap';$('rail-title').textContent='Materiales';$('rail-desc').textContent='Itinerarios revisados y PDF anteriores pendientes de actualización.';$('menu').innerHTML='';return}
+  if(S.view==='mat'){$('rail-kicker').textContent='Aula REDCap';$('rail-title').textContent='Materiales';$('rail-desc').textContent='Guías completas 2027 · versión web y PDF revisados.';$('menu').innerHTML='';return}
   $('rail-kicker').textContent=(S.c?'Nivel 2':'Nivel 1')+' · 20 horas';
   $('rail-title').textContent=c.name;
   $('rail-desc').textContent=c.sub+'. '+c.dates+'.';
@@ -493,9 +493,9 @@ function renderRail(){
 }
 
 function materiales(){
-  return `<div class="panel"><p class="kick">Materiales</p><h2>Documentos del alumnado</h2><p class="lead">El programa docente en pantalla está en revisión para 2027. <a href="programas-2027.html" target="_blank" rel="noopener">Consultar itinerarios y competencias revisados (imprimible)</a>. Los PDF de abajo son <b>materiales de la versión anterior, pendientes de actualizar</b>; no reflejan todavía el nuevo temario. Se conserva la plantilla para las prácticas.</p>
-  ${MATERIALES.map(([g,items])=>`<h3>${g}</h3>${items.map(([f,l])=>{const e=f.split('.').pop();return `<a class="dl" href="materiales/${f}" ${e==='csv'?'download':'target="_blank" rel="noopener"'}><span class="ext ${e}">${e.toUpperCase()}</span><span class="t"><b>${l}</b><small>${f}</small></span><span class="go">${e==='csv'?'Descargar ↓':'Abrir ↗'}</span></a>`}).join('')}`).join('')}
-  <div class="note">La plantilla "Hábitos de vida" se sube a REDCap desde un proyecto vacío: <code>Dictionary → Upload</code>.</div></div>`;
+  return `<div class="panel"><p class="kick">Materiales</p><h2>Documentos del alumnado</h2><p class="lead">Materiales revisados de las sesiones, trabajos y programas de 2027. Puedes leerlos <a href="material-2027.html" target="_blank" rel="noopener">en formato web accesible</a> o abrir sus PDF. Se mantienen como propuesta hasta la validación institucional.</p>
+  ${MATERIALES.map(([g,items])=>`<h3>${g}</h3>${items.map(([f,l])=>{const e=f.split('.').pop();return `<a class="dl" href="materiales/${f}" ${e==='csv'?'download':'target="_blank" rel="noopener"'}><span class="ext ${e}">${e.toUpperCase()}</span><span class="t"><b>${l}</b><small>${f}</small></span><span class="go">${e==='csv'?'Descargar ↓':'Abrir PDF ↗'}</span></a>`+(e==='pdf'?`<a class="dl" href="material-2027.html?id=${encodeURIComponent(f.replace(/\.pdf$/,''))}" target="_blank" rel="noopener"><span class="ext csv">WEB</span><span class="t"><b>Leer en web e imprimir</b><small>${l}</small></span><span class="go">Ver ↗</span></a>`:'')}).join('')}`).join('')}
+  <div class="note">Todos los materiales corresponden a la revisión curricular 2027 (pendiente de validación institucional). La plantilla "Hábitos de vida" se sube a REDCap desde un proyecto vacío, cuando el entorno y los permisos lo permitan. No usar datos reales.</div></div>`;
 }
 
 function render(){
