@@ -1,6 +1,6 @@
 # Propuesta curricular REDCap Básico y Avanzado 2027
 
-> Revisión docente del 17/10/2026. **Estado: propuesta en rama de revisión, no publicada ni validada como programa institucional**. Base: `main` en `1d97780c`. No modifica duración ni fechas anunciadas. La programación definitiva, materiales PDF y criterios de certificación requieren revisión y validación institucional.
+> Revisión docente del 17/10/2026. **Estado: propuesta en rama de revisión, no publicada ni validada como programa institucional**. Base: `main` en `1d97780c`. No modifica duración ni fechas anunciadas. La programación definitiva y los criterios de certificación requieren revisión y validación institucional. Los PDF revisados ya están regenerados en la rama.
 
 ## Decisión metodológica
 
@@ -92,7 +92,7 @@ Se mantiene de forma **provisional** la estructura publicada: 20% entrega 1, 20%
 
 1. Confirmar versión y capacidades del REDCap institucional (longitudinal, repetibles, invitaciones automatizadas, DAG, Data Quality, informes), además de disponibilidad de proyectos de práctica.
 2. Validar el reparto de horas, los resultados de aprendizaje y el caso docente con la organización.
-3. Actualizar de forma sincronizada **diez PDF** actualmente publicados en `redcap/materiales/` y sus copias de raíz: dos programas y ocho guías. Los actuales corresponden a la versión anterior, **no** a este rediseño. Conservarlos temporalmente señalando inequívocamente su estado hasta que existan versiones revisadas.
+3. **Cumplido en rama:** diez PDF regenerados desde `materiales_2027.json`, reproducibles mediante `node redcap/generar_pdf_2027_node.mjs`, duplicados en las dos rutas originales. Lectura web en `material-2027.html`. Falta validación editorial de su contenido y revisión visual real del PDF.
 4. Alinear pre/post-test, rúbricas, diccionario `plantilla_habitos_vida_diccionario.csv` y recursos de navegación.
 5. Verificar navegación, enlaces, opciones de visualización, móvil y modo presentación. Las casillas del Aula guardan estado únicamente en el navegador; no constituyen seguimiento individual del alumnado.
 6. No cambiar ni publicar otros módulos del Aula.
@@ -104,3 +104,8 @@ Se mantiene de forma **provisional** la estructura publicada: 20% entrega 1, 20%
 - Documentación local del REDCap institucional y material original de los cursos, cuando esté disponible.
 
 La presente es una **propuesta curricular**. La publicación requiere completar coherencia documental y autorización expresa.
+
+
+## Ejecución del rediseño (17/10/2026)
+
+Completados en rama los itinerarios interactivos, diez PDF nuevos, lectura web, guía opcional de sintaxis y tests de correspondencia PDF-fuente. Las duraciones y fechas se mantienen sin acreditar que hayan sido autorizadas formalmente para Gesforma. No está auditada la compatibilidad con el REDCap institucional. Los archivos anteriores han sido sustituidos **solo en la rama de revisión**, no en `main` ni en Pages.
