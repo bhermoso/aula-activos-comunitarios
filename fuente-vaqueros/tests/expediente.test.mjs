@@ -46,7 +46,7 @@ test('conclusiones de Blas: priorización de 2022 y mapeo vinculado a líneas pr
   const programa=section('programa');
   const proceso=section('proceso');
   const practica=section('practica');
-  for(const t of ['revisar la priorización', 'Localiza Salud','pendiente de contrastar']){
+  for(const t of ['revisar el trabajo de priorización', 'Localiza Salud','pendiente de contrastar']){
     assert.ok(contexto.toLowerCase().includes(t.toLowerCase()),'Contexto omite '+t);
   }
   for(const t of ['Blas Hermoso Rico','revisar el trabajo de priorización de 2022','mapeo comunitario de activos','Composición de la mesa']){
