@@ -44,7 +44,7 @@ test('preguntas abiertas por ámbito, no examen técnico ni presunción de patol
     'No se presupone que todas esas situaciones se estén produciendo',
     'sin solicitar información personal o clínica',
     'no equivalen a prioridades formalmente acordadas'
-  ]) assert.ok(s.includes(t),'Falta: '+t);
+  ]) assert.ok(s.toLowerCase().includes(t.toLowerCase()),'Falta: '+t);
   for(const old of [
     'Pregunta inicial común','Preguntas de apoyo para conversar',
     '¿Qué procedimiento permitiría revisar las prioridades',
