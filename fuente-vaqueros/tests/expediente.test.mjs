@@ -15,7 +15,7 @@ test('el expediente RELAS se integra en el bloque 02 del Programa',()=>{
 });
 test('programa completo por bloques y personas citadas como previstas/invitadas',()=>{
  const prog=section('programa');
- for(const t of ['Apertura institucional','Trayectoria del Plan Local','Situación de salud','Mesa-coloquio intersectorial','Conclusiones y propuestas de continuidad','Trabajo participativo','Puesta en común']){
+ for(const t of ['Apertura institucional','Trayectoria del Plan Local','Informe sobre la situación de salud de Fuente Vaqueros','Mesa-coloquio intersectorial','Conclusiones y propuestas de continuidad','Trabajo participativo','Puesta en común']){
   assert.ok(prog.includes(t),'Falta bloque: '+t);
  }
  for(const n of ['José Miguel Muñoz Ortega','Carlos del Moral Campaña','Alicia Bellido González','María Martín Calvo','Francisco J. Pigne Marín','Blas Hermoso Rico','Margarita Rut Goena Martínez','Raquel Cal','Jenifer González','Inserta Andalucía','Asociación de Regantes']){
@@ -24,7 +24,7 @@ test('programa completo por bloques y personas citadas como previstas/invitadas'
  }
  assert.ok(prog.includes('Composición de la mesa pendiente de confirmación'));
  assert.ok(prog.includes('Moderación a cargo de Raúl (apellidos pendientes)'));
- assert.ok(section('participantes').includes('no equivale a asistencia confirmada'));
+ assert.ok(section('participantes').includes('Está confirmada la intervención de Carlos del Moral Campaña'));
 });
 test('no se difunden teléfonos ni respuestas individuales de archivos privados',()=>{
  assert.ok(!html.includes('Rubén'),'No atribuir moderación a un nombre incompleto');
