@@ -20,7 +20,7 @@ test('la mesa conecta los indicadores epidemiológicos con cuatro miradas humana
     'María Martín Calvo',
     'Francisco J. Pigne Marín',
     'Margarita Rut Goena Martínez',
-    'atención primaria',
+    'Atención primaria',
     'Familias y escuela',
     'Salud en el ámbito educativo',
     'Bienestar emocional y salud mental'
