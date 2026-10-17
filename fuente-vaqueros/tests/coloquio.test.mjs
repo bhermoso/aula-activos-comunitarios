@@ -36,7 +36,8 @@ test('el programa sitúa la entrevista antes de las conclusiones de Blas',()=>{
   const conclusions=s.indexOf('Conclusiones y propuestas de continuidad: priorización y mapeo de activos');
   assert.ok(colloquium>=0 && conclusions>colloquium);
   assert.ok(s.includes('Blas Hermoso Rico'),'Las conclusiones deben conservar su propuesta de autor');
-  assert.ok(s.includes('Composición de la mesa y moderación pendientes de confirmación'));
+  assert.ok(s.includes('Composición de la mesa pendiente de confirmación'));
+ assert.ok(s.includes('Moderación a cargo de Raúl (apellidos pendientes)'));
 });
 
 test('las demás secciones y navegación del módulo siguen disponibles',()=>{
