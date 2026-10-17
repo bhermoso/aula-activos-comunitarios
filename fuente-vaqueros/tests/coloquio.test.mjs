@@ -13,7 +13,7 @@ function section(id){
 test('la mesa conecta los indicadores epidemiológicos con cuatro miradas humanas diferenciadas',()=>{
   const s=section('moderacion');
   for(const t of [
-    'Mesa-coloquio · de los datos a las experiencias',
+    'Mesa-coloquio · guion por ámbitos',
     'Carlos del Moral Campaña',
     'Entrada de Raúl, moderador',
     'Alicia Bellido González',
@@ -65,7 +65,7 @@ test('el programa distingue la presentación de Carlos, mesa y conclusiones de B
   assert.ok(s.includes('Composición de la mesa pendiente de confirmación'));
   assert.ok(s.includes('Moderación a cargo de Raúl (apellidos pendientes)'));
   assert.ok(s.includes('Blas Hermoso Rico'));
-  assert.ok(s.includes('revisar la priorización de 2022'));
+  assert.ok(s.includes('revisar el trabajo de priorización de 2022'));
 });
 
 test('se conservan los cinco apartados, mapeo y navegación',()=>{
@@ -78,4 +78,11 @@ test('se conservan los cinco apartados, mapeo y navegación',()=>{
   assert.ok(section('proceso').includes('Revisión técnica'));
   assert.ok(section('proceso').includes('Consulta a la ciudadanía'));
   assert.ok(section('practica').includes('id="fv-prioridad"'));
+});
+
+test('pregunta central visible y apoyos opcionales desplegables',()=>{
+ const s=section('moderacion');
+ assert.equal((s.match(/<details class="fv-detalle">/g)||[]).length,4);
+ assert.ok(s.includes('Claves para profundizar'));
+ assert.ok(s.includes('trabajo en el ámbito educativo'));
 });
