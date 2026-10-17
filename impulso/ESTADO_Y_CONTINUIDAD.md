@@ -1,3 +1,11 @@
+
+## Cambio previsto: migración de la encuesta a REDCap (16/10/2026)
+**Rama de preparación; NO implantado aún en producción.** Por petición del usuario, se abandona el flujo de propuestas a Firestore en favor de una encuesta REDCap institucional. Se ha generado el diccionario principal `impulso/redcap/diccionario_loja_redcap.csv` (13 campos, sin contactos personales), junto con una versión ampliada con contacto `..._con_contacto_PENDIENTE.csv` (20 campos; NO activar sin revisión de privacidad). `impulso/ficha.html` pasa a ser el acceso estable a REDCap mediante `impulso/redcap/config-encuesta.js` y reutiliza el QR existente `impulso/qr-ficha.svg` (que seguirá siendo válido tras la activación). Se retiraron las referencias a recepción Firestore del itinerario/proyección. **Aún no existe URL de encuesta REDCap verificada, y la aplicación productiva continúa en el estado previo hasta autorización para publicar.** No afirmar que se hayan migrado respuestas de Firestore.
+
+Decisiones pendientes: instancia REDCap institucional, permiso de creación de proyecto, importar y validar diccionario, convertir primer instrumento en encuesta, obtener enlace público, probar envío real, establecer privacidad y publicar la rama tras autorización. Las reglas reales de Firestore permanecen cerradas hasta nueva confirmación; no alterarlas para esta migración.
+
+---
+
 # Loja · Estado y continuidad del módulo dentro del Aula
 
 **Revisión:** 16/10/2026, posterior a la celebración del taller.  
