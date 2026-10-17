@@ -38,3 +38,8 @@ La rama `redcap-redisenio-competencias-2027-20261017` reúne las versiones revis
 **Pendiente antes de publicar:** validación de competencias, cronograma y evaluación por Gesforma; cotejo del diccionario CSV de hábitos de vida y la instalación institucional; prueba de navegador real; decidir si conservar PDF previos en archivo histórico. Los PDF nuevos son **material docente en revisión**, no programas oficiales aprobados. El seguimiento del alumnado no está implementado.
 
 **Restricción:** no fusionar PR ni desplegar sin nueva autorización expresa. No se han modificado los otros módulos del Aula ni Firebase.
+
+
+### Plantilla de seguimiento 2027 · 17/10/2026
+
+Incorporada en la PR #29 la plantilla docente `redcap/materiales/plantilla_seguimiento_2027_diccionario.csv`, con 15 campos y tres instrumentos técnicos (ficha inicial, hábitos y seguimiento). Está enlazada desde REDCap Avanzado y documentada en `redcap/PLANTILLA_SEGUIMIENTO_2027.md`. **Su importación no crea eventos longitudinales, repetición ni encuestas**: el alumnado debe elegir y configurar esa arquitectura según necesidad y permisos. Se amplía el test de regresión para vigilar la plantilla.
