@@ -41,10 +41,12 @@ test('el programa sitúa la entrevista antes de las conclusiones de Blas',()=>{
 });
 
 test('las demás secciones y navegación del módulo siguen disponibles',()=>{
-  for(const id of ['contexto','programa','participantes','moderacion','proceso','practica']){
+  for(const id of ['programa','participantes','moderacion','proceso','practica']){
     assert.ok(html.includes('data-tab="'+id+'"'));
     assert.ok(html.includes('id="'+id+'"'));
   }
+  assert.ok(!html.includes('data-tab="contexto"'));
+  assert.ok(section('programa').includes('id="contexto" open'));
   assert.ok(section('proceso').includes('Revisión técnica'));
   assert.ok(section('proceso').includes('Consulta a la ciudadanía'));
   assert.ok(section('practica').includes('id="fv-prioridad"'));
