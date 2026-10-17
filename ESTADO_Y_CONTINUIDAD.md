@@ -91,3 +91,8 @@ La rama `redcap-redisenio-competencias-2027-20261017` replantea las competencias
 ### Ampliación del rediseño REDCap · 17/10/2026
 
 Se completaron, **solo en la rama de la PR #29**, las diez guías/programas PDF actualizadas en las dos rutas históricas; su fuente editable es `redcap/materiales_2027.json` y los scripts `generar_pdf_2027*.mjs`. El visor imprimible `redcap/material-2027.html` ofrece navegación y descarga desde el Aula de revisión. Se actualizaron títulos y accesos en `redcap/index.html` y se añadieron pruebas de correspondencia entre PDF y fuente. Permanece **pendiente de validación y publicación**. No presentar esos PDF como versiones oficiales aprobadas. Pendientes: cotejar contenido con organización/Gesforma e instancia institucional REDCap, comprobar navegadores y accesibilidad con navegador real, y ajustar diccionario de prácticas/pre-post-test. El sistema de seguimiento individual del alumnado continúa sin existir.
+
+
+### Plantilla de seguimiento 2027 · 17/10/2026
+
+Incorporada en la PR #29 la plantilla docente `redcap/materiales/plantilla_seguimiento_2027_diccionario.csv`, con 15 campos y tres instrumentos técnicos (ficha inicial, hábitos y seguimiento). Está enlazada desde REDCap Avanzado y documentada en `redcap/PLANTILLA_SEGUIMIENTO_2027.md`. **Su importación no crea eventos longitudinales, repetición ni encuestas**: el alumnado debe elegir y configurar esa arquitectura según necesidad y permisos. Se amplía el test de regresión para vigilar la plantilla.
