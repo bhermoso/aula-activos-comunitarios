@@ -11,6 +11,12 @@ test('bloque 03 anuncia el informe sobre la situación de salud de Fuente Vaquer
   assert.ok(program.includes('Carlos del Moral Campaña</strong> · presentación del informe sobre la situación de salud del municipio'));
   assert.ok(!program.includes('<span class="num">03</span><h3>Indicadores de enfermedad</h3>'));
   assert.ok(cover.includes('<span>Informe de situación de salud</span>'));
+  const block03=program.split('<span class="num">03</span>')[1]?.split('<span class="num">04</span>')[0] ?? '';
+  assert.ok(block03.includes('Intervención de Carlos del Moral Campaña confirmada por la organización'));
+  assert.ok(block03.includes('Presentación confirmada'));
+  assert.ok(!block03.includes('pendiente de confirmación'));
+  assert.ok(!block03.includes('tendencias poblacionales'));
+  assert.ok(!block03.includes('indicadores epidemiológicos de enfermedad'));
 });
 
 test('sin alterar los cinco apartados y el guion de mesa',()=>{
