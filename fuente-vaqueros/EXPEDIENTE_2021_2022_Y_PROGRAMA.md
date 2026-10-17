@@ -48,6 +48,14 @@ La propuesta de contenidos afecta a portada, «Punto de partida», programa, pre
 
 **Estado:** entrevista publicada mediante PR #23. Se mantienen los listados completos de participantes e invitados. **Rectificación del 17/10/2026:** modera Raúl, con apellido pendiente; la mesa, por separado, tiene su composición pendiente de confirmación.
 
+## Reorganización de la navegación · 17/10/2026
+
+Por solicitud editorial, el antiguo apartado independiente **«Punto de partida»** se integra en el bloque **02 «Trayectoria del Plan Local de Salud y recuperación del proceso»**, dentro de la pestaña **Programa**. Se conserva el contenido histórico completo: antecedentes RELAS, cronología, cautelas documentales, cuestiones de verificación, propuestas para reimpulso y lista de fuentes. El bloque incorpora un panel desplegable que se muestra abierto inicialmente y puede cerrarse si se desea consultar el resto del programa.
+
+La navegación pasa de seis a cinco pestañas: Programa, Participantes, Moderación, Hoja de ruta y Mapa de activos. El acceso desde portada abre Programa y los antiguos enlaces con `#contexto` se redirigen a Programa. La moderación sigue asignada a Raúl (apellidos pendientes); no se modifica la composición de la mesa ni el resto de las intervenciones.
+
+**Estado de esta reorganización:** preparada en la rama `fuente-integrar-trayectoria-en-programa-20261017`; no publicada hasta su aprobación y fusión. Se verificará el despliegue tras la autorización.
+
 ## Pendientes de verificación antes de cerrar el programa
 1. Fecha exacta y acuerdo oficial de adhesión a RELAS.
 2. Actas posteriores al 29/04/2022 y continuidad del grupo motor después del verano.

@@ -6,9 +6,11 @@ const section=name=>{
  const a=html.indexOf('<section class="section',html.indexOf('id="'+name+'"')-100);
  return html.slice(a,html.indexOf('</section>',a)+10);
 };
-test('el expediente figura en la sección de punto de partida',()=>{
+test('el expediente RELAS se integra en el bloque 02 del Programa',()=>{
+ assert.ok(section('programa').includes('class="fv-trayectoria" id="contexto" open'));
+ assert.ok(section('programa').includes('<span class="num">02</span>'));
  for(const txt of ['2021','2022','102 cuestionarios','29 de abril de 2022','julio y agosto','fecha de una paralización definitiva']){
-  assert.ok(section('contexto').includes(txt),'No está documentado '+txt);
+  assert.ok(section('programa').includes(txt),'No está documentado '+txt);
  }
 });
 test('programa completo por bloques y personas citadas como previstas/invitadas',()=>{
@@ -30,15 +32,17 @@ test('no se difunden teléfonos ni respuestas individuales de archivos privados'
  assert.ok(!html.includes('677905855'));
  assert.ok(!html.includes('agustin.gomez.jimenez.sspa@'));
 });
-test('se mantienen navegación y seis secciones originales',()=>{
- for(const id of ['contexto','programa','participantes','moderacion','proceso','practica']){
+test('cinco secciones interiores sin pestaña independiente Punto de partida',()=>{
+ for(const id of ['programa','participantes','moderacion','proceso','practica']){
   assert.ok(html.includes('id="'+id+'"'));
   assert.ok(html.includes('data-tab="'+id+'"'));
  }
+ assert.ok(!html.includes('data-tab="contexto"'));
+ assert.ok(html.includes('id="contexto"'),'compatibilidad con enlaces antiguos');
  assert.ok(html.includes("--teal:#102a28"),'paleta verde botella publicada');
 });
 test('conclusiones de Blas: priorización de 2022 y mapeo vinculado a líneas prioritarias',()=>{
-  const contexto=section('contexto');
+  const contexto=section('programa');
   const programa=section('programa');
   const proceso=section('proceso');
   const practica=section('practica');

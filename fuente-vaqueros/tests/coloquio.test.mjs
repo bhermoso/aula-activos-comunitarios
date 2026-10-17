@@ -4,7 +4,8 @@ import {test} from 'node:test';
 
 const html=readFileSync(new URL('../index.html',import.meta.url),'utf8');
 function section(id){
-  const start=html.indexOf('<section class="section" id="'+id+'">');
+  let start=html.indexOf('<section class="section" id="'+id+'">');
+  if(start<0) start=html.indexOf('<section class="section active" id="'+id+'">');
   assert.ok(start>=0,'No existe sección '+id);
   return html.slice(start,html.indexOf('</section>',start)+10);
 }
@@ -41,10 +42,12 @@ test('el programa sitúa la entrevista antes de las conclusiones de Blas',()=>{
 });
 
 test('las demás secciones y navegación del módulo siguen disponibles',()=>{
-  for(const id of ['contexto','programa','participantes','moderacion','proceso','practica']){
+  for(const id of ['programa','participantes','moderacion','proceso','practica']){
     assert.ok(html.includes('data-tab="'+id+'"'));
     assert.ok(html.includes('id="'+id+'"'));
   }
+  assert.ok(!html.includes('data-tab="contexto"'));
+  assert.ok(section('programa').includes('id="contexto" open'));
   assert.ok(section('proceso').includes('Revisión técnica'));
   assert.ok(section('proceso').includes('Consulta a la ciudadanía'));
   assert.ok(section('practica').includes('id="fv-prioridad"'));
