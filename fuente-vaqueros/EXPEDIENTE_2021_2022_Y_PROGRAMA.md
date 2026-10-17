@@ -85,6 +85,12 @@ Se corrige la guía demasiado genérica de preguntas comunes: la finalidad no es
 
 **Estado editorial:** en el PR #27, sin publicar hasta autorización de fusión. Pruebas de regresión en `fuente-vaqueros/tests/`.
 
+## Acceso al trabajo práctico desde la portada (17/10/2026)
+
+La tarjeta **«Participantes y trabajo práctico»** tenía únicamente la acción **«Consultar convocatoria»**, que abría `#participantes`; no permitía llegar directamente a la ficha. Se corrigió para mostrar dos accesos diferenciados: **«Abrir ficha práctica»** → `#practica` y **«Ver participantes»** → `#participantes`. Ambos destinos son secciones interiores existentes, gestionadas por el script de navegación compartida sin modificarlo. Se añadió `fuente-vaqueros/tests/portada-enlaces.test.mjs` para prevenir regresiones.
+
+La ficha sigue guardando propuestas en `localStorage` del dispositivo; no envía datos a ningún servidor ni registra activos en Localiza Salud. Corrección incluida en **PR #27**, sujeta a pruebas y verificación posterior a la publicación autorizada.
+
 ## Pendientes de verificación antes de cerrar el programa
 1. Fecha exacta y acuerdo oficial de adhesión a RELAS.
 2. Actas posteriores al 29/04/2022 y continuidad del grupo motor después del verano.
