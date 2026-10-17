@@ -376,7 +376,7 @@ const COURSES = [
 
 const MATERIALES = [
   ['Básico',[['programa_redcap_basico_2027.pdf','Programa revisado · Diseño y encuestas sencillas'],['basico_sesion1.pdf','Sesión 1 · Del objetivo al primer instrumento'],['basico_trabajo_no_presencial_1.pdf','Trabajo 1 · Ampliar, probar y documentar'],['basico_sesion2.pdf','Sesión 2 · Encuestas, privacidad y prueba cruzada'],['basico_trabajo_no_presencial_2.pdf','Trabajo final · Instrumento y encuesta validados']]],
-  ['Avanzado',[['programa_redcap_avanzado_2027.pdf','Programa revisado · Proyectos, gestión y calidad'],['avanzado_sesion1.pdf','Sesión 1 · Arquitectura y seguimiento'],['avanzado_trabajo_no_presencial_1.pdf','Trabajo 1 · Modelo y prueba de seguimiento'],['avanzado_sesion2.pdf','Sesión 2 · Gestión, informes y calidad'],['avanzado_trabajo_no_presencial_2.pdf','Trabajo final · Auditoría y plan de uso'],['plantilla_habitos_vida_diccionario.csv','Proyecto de prácticas "Hábitos de vida" (diccionario para subir a REDCap)']]]
+  ['Avanzado',[['programa_redcap_avanzado_2027.pdf','Programa revisado · Proyectos, gestión y calidad'],['avanzado_sesion1.pdf','Sesión 1 · Arquitectura y seguimiento'],['avanzado_trabajo_no_presencial_1.pdf','Trabajo 1 · Modelo y prueba de seguimiento'],['avanzado_sesion2.pdf','Sesión 2 · Gestión, informes y calidad'],['avanzado_trabajo_no_presencial_2.pdf','Trabajo final · Auditoría y plan de uso'],['plantilla_habitos_vida_diccionario.csv','Plantilla inicial de hábitos de vida (CSV)'],['plantilla_seguimiento_2027_diccionario.csv','Plantilla de seguimiento con tres instrumentos (CSV)']]]
 ];
 
 
@@ -398,7 +398,7 @@ function recursosDePantalla(c,u,sl){
 const t=(sl.t+' '+sl.h.replace(/<[^>]+>/g,' ')).toLowerCase();
 const seleccion=t.includes('action tag')?[5,0,3]:/diccionario|campo|instrumento|diseño|record_id/.test(t)?[0,2,3]:/encuesta|survey|piping/.test(t)?[0,3,4]:/calidad|export|informe|datos|validaci/.test(t)?[0,3,4]:[0,1,4];
 const entradas=[['PDF revisado de esta unidad','materiales/'+PDF_UNIDADES[c][u]],...seleccion.map(i=>URLS_REFERENCIA[i])];
-if(c==='avanzado'&&/diccionario|csv|plantilla|instrumento/.test(t))entradas.push(['Plantilla de prácticas (CSV)','materiales/plantilla_habitos_vida_diccionario.csv']);
+if(c==='avanzado')entradas.push(['Plantilla de seguimiento (CSV)','materiales/plantilla_seguimiento_2027_diccionario.csv']);
 return '<aside class="recursos-contexto"><strong>Recursos y enlaces relacionados</strong>'+entradas.map(x=>'<a href="'+x[1]+'" target="_blank" rel="noopener noreferrer">'+x[0]+' ↗</a>').join('')+'</aside>';
 }
 
