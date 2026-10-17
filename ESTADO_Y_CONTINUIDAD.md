@@ -43,6 +43,10 @@ Programa de 22/10/2026: títulos de los bloques primero, personas solo cuando es
 
 PR fusionados: **#21** corrección de azul a verdes, **#22** antecedentes y programa, **#23** guía de coloquio. Después de #23 hubo dos commits directos de color en `main` (`86434a0`, `4392d8e`). Último Pages confirmado: https://github.com/bhermoso/aula-activos-comunitarios/actions/runs/39002136140
 
+### Ajuste de estructura de Fuente Vaqueros (17/10/2026, pendiente de publicación)
+
+Se ha solicitado integrar todo el antiguo apartado independiente **«Punto de partida»** dentro de **Programa → bloque 02 «Trayectoria»**, eliminando la pestaña redundante. El cambio conserva contenido, fuentes y cautelas, mantiene un panel desplegable inicialmente abierto, pasa de seis a cinco pestañas y respeta enlaces antiguos `#contexto`. La propuesta está en la rama `fuente-integrar-trayectoria-en-programa-20261017`. **No presentarla como publicada hasta que se fusione y finalice el despliegue**.
+
 ## 4. Loja: encuesta — decisión vigente y conflicto entre código publicado y rama de trabajo
 El programa, los ocho apartados, el itinerario y los originales PDF/ODP de la presentación de Carlos del Moral están publicados en `impulso/`. La encuesta de actores/sectores se preparó inicialmente con Firestore `encuestas_loja_2026`, con 26 sectores, 13 tipos de actor y campos de texto opcionales. Se cerró la recogida de nombre/teléfono/correo por falta de definición formal de privacidad.
 
