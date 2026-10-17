@@ -93,7 +93,7 @@ La ficha sigue guardando propuestas en `localStorage` del dispositivo; no envía
 
 ## Precisión del bloque 03 · 17/10/2026
 
-El bloque 03 del Programa se denomina **«Indicadores de enfermedad»**. La presentación propuesta de Carlos del Moral Campaña abordará indicadores epidemiológicos de enfermedad; **no debe anunciarse como un «informe sobre la situación de salud de Fuente Vaqueros»**, concepto más amplio. Los datos y resultados de 2021–2022 siguen siendo históricos y no sustituyen indicadores actuales. Corrección preparada en PR separado, sin publicación hasta autorización expresa. También se refleja en los PDF de programa plegado y coloquio con apoyos desplegados, generados para revisión e impresión.
+**Rectificación expresa del 17/10/2026:** el bloque 03 debe titularse **«Informe sobre la situación de salud de Fuente Vaqueros»**. Carlos del Moral Campaña tiene prevista la presentación de ese informe; no debe reducirse la denominación a «Indicadores de enfermedad». La guía de moderación lo cita con el mismo título y los dos PDF corregidos emplean idéntica terminología. La existencia de un informe histórico de 2021–2022 no autoriza por sí sola a presentar sus indicadores como datos actuales de 2026: la documentación y fecha de la intervención quedan pendientes de confirmar. Esta corrección sustituye el criterio anterior recogido inicialmente en el PR #28.
 
 ## Pendientes de verificación antes de cerrar el programa
 1. Fecha exacta y acuerdo oficial de adhesión a RELAS.
