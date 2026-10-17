@@ -47,11 +47,13 @@ test('botones verdes mantienen contraste de texto accesible',()=>{
   assert.ok(contrast('#b9dba9','#102a28')>=4.5,'Botón de portada: falta contraste');
   assert.ok(contrast('#102a28','#f0f5f2')>=4.5,'Resumen de la actividad: falta contraste');
 });
-test('seis secciones interiores, portada y navegación conservadas',()=>{
+test('cinco secciones interiores, portada y navegación conservadas',()=>{
   const tabs=[...html.matchAll(/data-tab="([^"]+)"/g)].map(x=>x[1]);
   const sections=[...html.matchAll(/<section class="section(?: active)?" id="([^"]+)"/g)].map(x=>x[1]);
-  assert.equal(tabs.length,6);
+  assert.equal(tabs.length,5);
   assert.deepEqual(tabs,sections);
+  assert.deepEqual(tabs,['programa','participantes','moderacion','proceso','practica']);
+  assert.ok(!tabs.includes('contexto'));
   assert.ok(html.includes('id="portada-actividad"'));
   assert.ok(html.includes('id="actividad-app"'));
   assert.ok(html.includes('data-return-cover'));
