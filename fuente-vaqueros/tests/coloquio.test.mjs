@@ -54,7 +54,7 @@ test('preguntas abiertas por ámbito, no examen técnico ni presunción de patol
 
 test('el programa distingue la presentación de Carlos, mesa y conclusiones de Blas',()=>{
   const s=section('programa');
-  const epi=s.indexOf('03</span><h3>Indicadores de enfermedad');
+  const epi=s.indexOf('03</span><h3>Informe sobre la situación de salud de Fuente Vaqueros');
   const mesa=s.indexOf('04</span><h3>Mesa-coloquio intersectorial');
   const conclusiones=s.indexOf('05</span><h3>Conclusiones y propuestas de continuidad');
   assert.ok(epi>=0&&mesa>epi&&conclusiones>mesa,'Secuencia del programa alterada');
