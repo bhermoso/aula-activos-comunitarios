@@ -46,10 +46,10 @@ test('conclusiones de Blas: priorización de 2022 y mapeo vinculado a líneas pr
   const programa=section('programa');
   const proceso=section('proceso');
   const practica=section('practica');
-  for(const t of ['revisar la priorización', 'Localiza Salud','pendiente de contrastar']){
+  for(const t of ['revisar el trabajo de priorización', 'Localiza Salud','pendiente de contrastar']){
     assert.ok(contexto.toLowerCase().includes(t.toLowerCase()),'Contexto omite '+t);
   }
-  for(const t of ['Blas Hermoso Rico','revisar la priorización de 2022','mapeo comunitario de activos','Composición de la mesa']){
+  for(const t of ['Blas Hermoso Rico','revisar el trabajo de priorización de 2022','mapeo comunitario de activos','Composición de la mesa']){
     assert.ok(programa.includes(t),'Programa omite '+t);
   }
   for(const t of ['Revisión técnica','Deliberación del grupo motor','Consulta a la ciudadanía','Procedimiento combinado','Localiza Salud','no significa ausencia de activos reales']){
@@ -66,4 +66,20 @@ test('JavaScript de la página sigue siendo sintácticamente válido',async()=>{
   const scripts=html.split('<script>').slice(1).map(x=>x.split('</script>')[0]);
   assert.ok(scripts.length>=2,'Faltan scripts incrustados');
   for(const js of scripts) new Script(js);
+});
+
+test('resultados 2022 y método Hanlon sustentados sin inventar priorización aprobada',()=>{
+ const s=section('programa');
+ for(const required of [
+  '102 cuestionarios y 416 selecciones','33 problemas','27 problemas o factores',
+  'magnitud, severidad y efectividad','(M + S) × E',
+  'Drogas ilegales','Drogas legales','Alimentación no saludable',
+  'Ámbito escolar','Desempleo','Adicciones sin sustancia',
+  'Desigualdades y exclusión social','Falta de participación','Bienestar emocional',
+  'no constan las puntuaciones finales de Hanlon ni una priorización aprobada'
+ ]) assert.ok(s.includes(required),'Falta evidencia o cautela: '+required);
+ assert.ok(s.includes('id="contexto" open'), 'recorrido histórico desplegado al entrar');
+ assert.equal((s.match(/<details /g)||[]).length,9);
+ assert.ok(s.includes('Participantes previstos · 7 personas'));
+ assert.ok(s.includes('Invitaciones · 17 personas o entidades'));
 });

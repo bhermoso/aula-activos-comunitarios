@@ -10,38 +10,65 @@ function section(id){
   return html.slice(start,html.indexOf('</section>',start)+10);
 }
 
-test('coloquio centrado en escuchar experiencias, no en evaluar conocimientos de RELAS',()=>{
+test('la mesa conecta los indicadores epidemiológicos con cuatro miradas humanas diferenciadas',()=>{
   const s=section('moderacion');
   for(const t of [
-    'Mesa-coloquio · guía de escucha',
-    'Desde su trabajo, su entidad o su experiencia cotidiana, ¿cómo ve la salud y el bienestar',
-    '¿Qué es lo que más le preocupa',
-    '¿Qué cosas funcionan bien',
-    '¿Hay situaciones, colectivos o dificultades',
-    '¿Qué experiencias, iniciativas o colaboraciones',
-    '¿Qué le gustaría que se tuviera en cuenta',
-    'no una batería que deba completarse',
-    'sin convertirlo en prioridades ya acordadas'
-  ]) assert.ok(s.includes(t),'Falta orientación de escucha: '+t);
-  for(const technical of [
-    '¿Qué conclusiones de la consulta',
+    'Mesa-coloquio · guion por ámbitos',
+    'Carlos del Moral Campaña',
+    'Entrada de Raúl, moderador',
+    'Alicia Bellido González',
+    'María Martín Calvo',
+    'Francisco J. Pigne Marín',
+    'Margarita Rut Goena Martínez',
+    'Atención primaria',
+    'Familias y escuela',
+    'Salud en el ámbito educativo',
+    'Bienestar emocional y salud mental'
+  ]) assert.ok(s.includes(t),'Falta perspectiva: '+t);
+  assert.ok(s.indexOf('Alicia Bellido González')<s.indexOf('María Martín Calvo'));
+  assert.ok(s.indexOf('María Martín Calvo')<s.indexOf('Francisco J. Pigne Marín'));
+  assert.ok(s.indexOf('Francisco J. Pigne Marín')<s.indexOf('Margarita Rut Goena Martínez'));
+});
+
+test('preguntas abiertas por ámbito, no examen técnico ni presunción de patologías',()=>{
+  const s=section('moderacion');
+  for(const t of [
+    '¿qué realidad de salud estáis encontrando hoy en Fuente Vaqueros?',
+    '¿Qué ha cambiado en las personas que atendéis y en sus necesidades?',
+    '¿cómo veis el bienestar de los niños, las niñas y los adolescentes?',
+    '¿qué necesidades de salud detectas entre el alumnado?',
+    '¿cómo percibes el bienestar emocional de la población?',
+    'barreras de acceso',
+    'utilización frecuente de consultas',
+    'problemas de salud emergentes',
+    'No se presupone que todas esas situaciones se estén produciendo',
+    'sin solicitar información personal o clínica',
+    'no equivalen a prioridades formalmente acordadas'
+  ]) assert.ok(s.toLowerCase().includes(t.toLowerCase()),'Falta: '+t);
+  for(const old of [
+    'Pregunta inicial común','Preguntas de apoyo para conversar',
     '¿Qué procedimiento permitiría revisar las prioridades',
-    '¿Qué capacidades, redes, espacios y recursos comunitarios podrían vincularse a las líneas prioritarias?',
-    'Rubén'
-  ]) assert.ok(!s.includes(technical),'Pregunta técnica o personalismo residual: '+technical);
+    '¿Qué conclusiones de la consulta','Rubén'
+  ]) assert.ok(!s.includes(old),'Texto no pertinente: '+old);
 });
 
-test('el programa sitúa la entrevista antes de las conclusiones de Blas',()=>{
+test('el programa distingue la presentación de Carlos, mesa y conclusiones de Blas',()=>{
   const s=section('programa');
-  const colloquium=s.indexOf('Mesa-coloquio intersectorial: cómo se vive la salud');
-  const conclusions=s.indexOf('Conclusiones y propuestas de continuidad: priorización y mapeo de activos');
-  assert.ok(colloquium>=0 && conclusions>colloquium);
-  assert.ok(s.includes('Blas Hermoso Rico'),'Las conclusiones deben conservar su propuesta de autor');
+  const epi=s.indexOf('03</span><h3>Situación de salud');
+  const mesa=s.indexOf('04</span><h3>Mesa-coloquio intersectorial');
+  const conclusiones=s.indexOf('05</span><h3>Conclusiones y propuestas de continuidad');
+  assert.ok(epi>=0&&mesa>epi&&conclusiones>mesa,'Secuencia del programa alterada');
+  for(const name of ['Alicia Bellido González','María Martín Calvo','Francisco J. Pigne Marín','Margarita Rut Goena Martínez']){
+    const block=s.slice(mesa,conclusiones);
+    assert.ok(block.includes(name),'Falta nombre en el bloque 04: '+name);
+  }
   assert.ok(s.includes('Composición de la mesa pendiente de confirmación'));
- assert.ok(s.includes('Moderación a cargo de Raúl (apellidos pendientes)'));
+  assert.ok(s.includes('Moderación a cargo de Raúl (apellidos pendientes)'));
+  assert.ok(s.includes('Blas Hermoso Rico'));
+  assert.ok(s.includes('revisar el trabajo de priorización de 2022'));
 });
 
-test('las demás secciones y navegación del módulo siguen disponibles',()=>{
+test('se conservan los cinco apartados, mapeo y navegación',()=>{
   for(const id of ['programa','participantes','moderacion','proceso','practica']){
     assert.ok(html.includes('data-tab="'+id+'"'));
     assert.ok(html.includes('id="'+id+'"'));
@@ -51,4 +78,11 @@ test('las demás secciones y navegación del módulo siguen disponibles',()=>{
   assert.ok(section('proceso').includes('Revisión técnica'));
   assert.ok(section('proceso').includes('Consulta a la ciudadanía'));
   assert.ok(section('practica').includes('id="fv-prioridad"'));
+});
+
+test('pregunta central visible y apoyos opcionales desplegables',()=>{
+ const s=section('moderacion');
+ assert.equal((s.match(/<details class="fv-detalle">/g)||[]).length,4);
+ assert.ok(s.includes('Claves para profundizar'));
+ assert.ok(s.includes('trabajo en el ámbito educativo'));
 });

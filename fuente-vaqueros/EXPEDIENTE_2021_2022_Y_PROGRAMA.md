@@ -40,9 +40,9 @@ La propuesta de contenidos afecta a portada, «Punto de partida», programa, pre
 
 **Finalidad:** recoger la visión de la salud y el bienestar de Fuente Vaqueros desde la experiencia de cada persona o entidad invitada, sin someterla a preguntas técnicas sobre RELAS ni presuponer que conoce la priorización de 2022.
 
-**Pregunta compartida:** «Desde su trabajo, su entidad o su experiencia cotidiana, ¿cómo ve la salud y el bienestar de las personas de Fuente Vaqueros?».
+**Secuencia de la conversación:** la presentación epidemiológica de Carlos del Moral Campaña (bloque 03) aporta datos e indicadores agregados. En el bloque 04, Raúl (apellidos pendientes) facilita perspectivas humanas y sectoriales diferenciadas, previstas en el guion y sujetas a validación organizativa: **Alicia Bellido González**, enfermera comunitaria, sobre atención primaria, necesidades que llegan a consulta, acceso y nuevas demandas; **María Martín Calvo**, AMPA del CEIP Soto de Roma, sobre bienestar desde las familias; **Francisco J. Pigne Marín**, enfermero escolar, sobre salud desde el sistema educativo y coordinación con familias/servicios; y **Margarita Rut Goena Martínez**, trabajadora social de Salud Mental de Santa Fe (participación efectiva pendiente de confirmación), sobre bienestar emocional, condiciones sociales, apoyo familiar y redes.
 
-**Repreguntas opcionales (no cuestionario cerrado):** principales preocupaciones; situaciones que funcionan bien; necesidades o colectivos menos escuchados; iniciativas o colaboraciones útiles; aspectos a tener en cuenta al retomar el trabajo local. Facilitar testimonios, ejemplos y visiones complementarias sin forzar compromisos ni juicios técnicos.
+**Forma de preguntar:** una pregunta amplia dirigida a la experiencia de cada participante y posibles repreguntas contextuales, sin solicitar un diagnóstico epidemiológico ni asumir que hay nuevos problemas o hiperfrecuentación. Distinguir perspectiva de usuarios, de familias, profesional escolar y social de salud mental; no exigir historias clínicas ni casos identificables. Evitar presentar estas observaciones como hechos poblacionales representativos o como prioridades ya aprobadas.
 
 **Relación con el programa:** la historia de RELAS, la encuesta de 2022 y la eventual actualización de prioridades se presentan en los bloques técnicos. La intervención propuesta de Blas Hermoso recoge después como líneas de continuidad la revisión de la priorización y el mapeo participativo de activos. **Las intervenciones de la mesa no equivalen a una priorización formal ni a un acuerdo del grupo motor.**
 
@@ -54,7 +54,42 @@ Por solicitud editorial, el antiguo apartado independiente **«Punto de partida�
 
 La navegación pasa de seis a cinco pestañas: Programa, Participantes, Moderación, Hoja de ruta y Mapa de activos. El acceso desde portada abre Programa y los antiguos enlaces con `#contexto` se redirigen a Programa. La moderación sigue asignada a Raúl (apellidos pendientes); no se modifica la composición de la mesa ni el resto de las intervenciones.
 
-**Estado de esta reorganización:** preparada en la rama `fuente-integrar-trayectoria-en-programa-20261017`; no publicada hasta su aprobación y fusión. Se verificará el despliegue tras la autorización.
+**Estado de esta reorganización:** publicada mediante PR #26, fusión `03394ca` y despliegue Pages finalizado correctamente (acción #39006512504).
+
+## Ajuste del enfoque de la mesa · 17/10/2026
+
+Se corrige la guía demasiado genérica de preguntas comunes: la finalidad no es que todas las personas respondan lo mismo, sino **contrastar datos epidemiológicos agregados con experiencias concretas de cuatro ámbitos de salud**. El Programa 04 identifica las miradas previstas y la sección Moderación recoge una pregunta abierta por ámbito, con apoyos no obligatorios. Las posibles dificultades de acceso, uso frecuente de consultas y patologías emergentes se **plantean como exploración**, nunca se afirman como hechos sin fuente. No cambiar de lugar la revisión de la priorización ni el mapeo de activos: continúan en las conclusiones propuestas de Blas.
+
+**Estado de este ajuste:** PR específico en la rama `fuente-mesa-vision-profesional-familias-20261017`, sin fusionar ni publicar hasta autorización expresa.
+
+## Identificación de problemas y priorización en 2022 · revisión de fuentes (17/10/2026)
+
+**Pregunta resuelta hasta donde permite el expediente:** no debe confundirse la lista de problemas identificados en 2022 con las prioridades formalmente aprobadas. El expediente examinado **no contiene puntuaciones finales de Hanlon, ranking validado con ese método ni acta de aprobación de prioridades**.
+
+### Secuencia acreditada
+
+1. **Identificación:** `cuestionario definitivo Identificacion problemas Salud Fuente Vaqueros.pdf` solicita escoger hasta siete opciones de problemas/factores (28 opciones predefinidas, con posibilidad de aportar otros).
+2. **Consulta y ordenación:** `Acta RELAS 29-4-22 con firmas.pdf` da cuenta de **102 cuestionarios**. `listado problemas de salud ordenados frecuencia RELASFuenteVaqueros.odt` recoge **416 selecciones** distribuidas en **33 problemas/factores**: drogas ilegales 38; drogas legales 33; alimentación no saludable 28; problemática escolar 28; desempleo 27; adicciones sin sustancia 24; desigualdades/exclusión 24; falta de participación 22; bienestar emocional 18. Estas cifras indican **selecciones entre cuestionarios**, no personas afectadas, ni prevalencias, ni la priorización definitiva.
+3. **Discusión del grupo motor:** el acta del **29/04/2022** comenta los resultados y algunas preocupaciones cualitativas, y recoge un ensayo del cuestionario Hanlon entre asistentes; consideran necesario explicar mejor criterios, unificar algunos ítems y corregir el formulario antes de aplicarlo.
+4. **Método de priorización previsto:** `tabla problemas a priorizar FV.pdf` contiene 27 problemas o factores para evaluar con **magnitud, severidad y efectividad**, puntuaciones de 1 a 5 y cálculo **(M + S) × E**. La tabla conservada está **sin cumplimentar**. El archivo `guia metodo hanlon Fuente Vaqueros.odt` explica el procedimiento (atención: un párrafo menciona «Loja», probable arrastre editorial; no debe atribuirse a Fuente Vaqueros lo que no respalde su tabla específica).
+5. **Resultado final:** **no documentado**. Es posible que se elaboraran cuestionarios o acuerdos posteriores, pero no se encuentran en el archivo `R FUENTE VAQUEROS.zip` estudiado. Requiere nuevas actas o resultados si existen.
+
+### Consecuencia editorial para el Taller 2026
+
+- Bloque **Programa 02 «Trayectoria»**: resumen visible (102 cuestionarios, identificación y Hanlon sin cierre acreditado), y detalle histórico abierto por defecto y plegable con 9 recuentos, método y fuentes.
+- Bloques **01, 03, 04, 05, 06 y 07**: máximo una frase descriptiva visible por sesión, con datos o matices ampliables mediante `<details>`.
+- Bloque **04**: las perspectivas de atención primaria, familias, enfermería escolar y trabajo social de salud mental se tratan como intervenciones previstas, no asistencia confirmada; el guion de moderación muestra una pregunta visible por persona y apoyos desplegables.
+- Bloque **05**: las conclusiones **propuestas** de Blas diferencian revisar si se completó o debe renovarse la priorización y desarrollar un mapeo participativo de activos orientado a las prioridades acordadas, sin inventar resultados ni asumir su aprobación.
+- Relación de participantes e invitaciones: conserva los nombres en Programa y en Participantes; en Programa se puede desplegar para no saturar la lectura.
+- Mantener la documentación original **fuera del repositorio público** por la posible presencia de firmas o respuestas individuales.
+
+**Estado editorial:** en el PR #27, sin publicar hasta autorización de fusión. Pruebas de regresión en `fuente-vaqueros/tests/`.
+
+## Acceso al trabajo práctico desde la portada (17/10/2026)
+
+La tarjeta **«Participantes y trabajo práctico»** tenía únicamente la acción **«Consultar convocatoria»**, que abría `#participantes`; no permitía llegar directamente a la ficha. Se corrigió para mostrar dos accesos diferenciados: **«Abrir ficha práctica»** → `#practica` y **«Ver participantes»** → `#participantes`. Ambos destinos son secciones interiores existentes, gestionadas por el script de navegación compartida sin modificarlo. Se añadió `fuente-vaqueros/tests/portada-enlaces.test.mjs` para prevenir regresiones.
+
+La ficha sigue guardando propuestas en `localStorage` del dispositivo; no envía datos a ningún servidor ni registra activos en Localiza Salud. Corrección incluida en **PR #27**, sujeta a pruebas y verificación posterior a la publicación autorizada.
 
 ## Pendientes de verificación antes de cerrar el programa
 1. Fecha exacta y acuerdo oficial de adhesión a RELAS.
