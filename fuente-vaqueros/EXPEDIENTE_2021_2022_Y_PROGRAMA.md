@@ -54,7 +54,7 @@ Por solicitud editorial, el antiguo apartado independiente **«Punto de partida�
 
 La navegación pasa de seis a cinco pestañas: Programa, Participantes, Moderación, Hoja de ruta y Mapa de activos. El acceso desde portada abre Programa y los antiguos enlaces con `#contexto` se redirigen a Programa. La moderación sigue asignada a Raúl (apellidos pendientes); no se modifica la composición de la mesa ni el resto de las intervenciones.
 
-**Estado de esta reorganización:** preparada en la rama `fuente-integrar-trayectoria-en-programa-20261017`; no publicada hasta su aprobación y fusión. Se verificará el despliegue tras la autorización.
+**Estado de esta reorganización:** publicada mediante PR #26, fusión `03394ca` y despliegue Pages finalizado correctamente (acción #39006512504).
 
 ## Ajuste del enfoque de la mesa · 17/10/2026
 
