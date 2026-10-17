@@ -81,3 +81,15 @@ test('Los PDFs pueden regenerarse exactamente a partir del JSON', async () => {
     assert.equal(raw.slice(pos,pos+5),'xref\n','xref inválido: '+doc.id);
   }
 });
+
+test('La plantilla avanzada es importable como diccionario y no promete crear eventos', () => {
+ const csv=readFileSync(path.join(root,'materiales','plantilla_seguimiento_2027_diccionario.csv'),'utf8');
+ const rows=csv.trim().split(/\r?\n/);
+ assert.equal(rows.length,16,'15 campos + cabecera');
+ for(const k of ['ficha_inicial','habitos','seguimiento']) assert.ok(csv.includes(','+k+','));
+ for(const field of ['record_id','fecha_revision','situacion_revision']) assert.ok(csv.includes(field));
+ assert.ok(html.includes('plantilla_seguimiento_2027_diccionario.csv'));
+ const note=readFileSync(path.join(root,'PLANTILLA_SEGUIMIENTO_2027.md'),'utf8');
+ assert.match(note,/no crea automáticamente/i);
+ assert.match(note,/longitudinales/i);
+});
