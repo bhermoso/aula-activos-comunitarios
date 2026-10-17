@@ -19,7 +19,7 @@ Se incorporó a **`main` (publicado)** la información local documentada que fal
 - Personas: los **siete participantes previstos y 17 personas/entidades invitadas** aparecen tanto en el programa como en la sección de participantes, indicando su estatus.
 - Carlos del Moral se identifica como **Carlos del Moral Campaña** porque el segundo apellido consta en el programa de 2021.
 - **Actualización comunicada el 17/10/2026:** la moderación está asignada a **Raúl**, cuyo apellido está pendiente de conocer e incorporar. El documento preparatorio recibido citaba «Rubén»; ese dato queda como referencia de la fuente inicial, **no** como identificación del moderador de la sesión de 2026. La composición de la mesa continúa por confirmar.
-- Todas las ponencias de 2026 se mantienen como **propuestas pendientes de confirmación**.
+- **Actualización organizativa confirmada por el usuario el 17/10/2026:** Carlos del Moral Campaña **está confirmado** para presentar el «Informe sobre la situación de salud de Fuente Vaqueros». No extender la indicación de «pendiente de confirmación» a Carlos. Los estados del resto de intervenciones se anotarán únicamente cuando estén documentados o comunicados por la organización.
 - No se publican teléfonos de contacto, firmas escaneadas ni las respuestas individuales de los cuestionarios.
 
 ## Orientación de la intervención de Blas Hermoso Rico (propuesta para el 22/10/2026)
@@ -40,7 +40,7 @@ La propuesta de contenidos afecta a portada, «Punto de partida», programa, pre
 
 **Finalidad:** recoger la visión de la salud y el bienestar de Fuente Vaqueros desde la experiencia de cada persona o entidad invitada, sin someterla a preguntas técnicas sobre RELAS ni presuponer que conoce la priorización de 2022.
 
-**Secuencia de la conversación:** la presentación epidemiológica de Carlos del Moral Campaña (bloque 03) aporta datos e indicadores agregados. En el bloque 04, Raúl (apellidos pendientes) facilita perspectivas humanas y sectoriales diferenciadas, previstas en el guion y sujetas a validación organizativa: **Alicia Bellido González**, enfermera comunitaria, sobre atención primaria, necesidades que llegan a consulta, acceso y nuevas demandas; **María Martín Calvo**, AMPA del CEIP Soto de Roma, sobre bienestar desde las familias; **Francisco J. Pigne Marín**, enfermero escolar, sobre salud desde el sistema educativo y coordinación con familias/servicios; y **Margarita Rut Goena Martínez**, trabajadora social de Salud Mental de Santa Fe (participación efectiva pendiente de confirmación), sobre bienestar emocional, condiciones sociales, apoyo familiar y redes.
+**Secuencia de la conversación:** Carlos del Moral Campaña presentará el «Informe sobre la situación de salud de Fuente Vaqueros» (bloque 03; intervención confirmada por el usuario). No anticipar un contenido concreto del informe que no conste en su documentación. En el bloque 04, Raúl (apellidos pendientes) facilita perspectivas humanas y sectoriales diferenciadas, previstas en el guion y sujetas a validación organizativa: **Alicia Bellido González**, enfermera comunitaria, sobre atención primaria, necesidades que llegan a consulta, acceso y nuevas demandas; **María Martín Calvo**, AMPA del CEIP Soto de Roma, sobre bienestar desde las familias; **Francisco J. Pigne Marín**, enfermero escolar, sobre salud desde el sistema educativo y coordinación con familias/servicios; y **Margarita Rut Goena Martínez**, trabajadora social de Salud Mental de Santa Fe (participación efectiva pendiente de confirmación), sobre bienestar emocional, condiciones sociales, apoyo familiar y redes.
 
 **Forma de preguntar:** una pregunta amplia dirigida a la experiencia de cada participante y posibles repreguntas contextuales, sin solicitar un diagnóstico epidemiológico ni asumir que hay nuevos problemas o hiperfrecuentación. Distinguir perspectiva de usuarios, de familias, profesional escolar y social de salud mental; no exigir historias clínicas ni casos identificables. Evitar presentar estas observaciones como hechos poblacionales representativos o como prioridades ya aprobadas.
 
@@ -93,14 +93,14 @@ La ficha sigue guardando propuestas en `localStorage` del dispositivo; no envía
 
 ## Precisión del bloque 03 · 17/10/2026
 
-**Rectificación expresa del 17/10/2026:** el bloque 03 debe titularse **«Informe sobre la situación de salud de Fuente Vaqueros»**. Carlos del Moral Campaña tiene prevista la presentación de ese informe; no debe reducirse la denominación a «Indicadores de enfermedad». La guía de moderación lo cita con el mismo título y los dos PDF corregidos emplean idéntica terminología. La existencia de un informe histórico de 2021–2022 no autoriza por sí sola a presentar sus indicadores como datos actuales de 2026: la documentación y fecha de la intervención quedan pendientes de confirmar. Esta corrección sustituye el criterio anterior recogido inicialmente en el PR #28.
+**Rectificación expresa del 17/10/2026:** el bloque 03 debe titularse **«Informe sobre la situación de salud de Fuente Vaqueros»**. Carlos del Moral Campaña **tiene confirmada** la presentación de ese informe, según actualización directa de la organización comunicada el 17/10/2026; no debe reducirse la denominación a «Indicadores de enfermedad». La guía de moderación lo cita con el mismo título y los dos PDF corregidos emplean idéntica terminología. La existencia de un informe histórico de 2021–2022 no autoriza por sí sola a presentar sus indicadores como datos actuales de 2026: el contenido del informe no debe inferirse sin el documento que se presentará; la intervención de Carlos sí está confirmada. Esta corrección sustituye el criterio anterior recogido inicialmente en el PR #28.
 
 ## Pendientes de verificación antes de cerrar el programa
 1. Fecha exacta y acuerdo oficial de adhesión a RELAS.
 2. Actas posteriores al 29/04/2022 y continuidad del grupo motor después del verano.
 3. Fecha real de la interrupción y causas contrastadas.
 4. Existencia y aprobación de priorización Hanlon o del I Plan Local de Salud.
-5. Confirmación de quienes ocuparán la mesa, de ponencias, de representantes institucionales, de lugar y de horario; completar el apellido de Raúl, moderador ya asignado.
+5. Comprobar la composición de la mesa, el estado de las demás intervenciones cuando existan fuentes, la participación de representantes institucionales, el lugar y el horario; completar el apellido de Raúl, moderador ya asignado. **Carlos del Moral Campaña está confirmado.**
 6. Revisión de los datos del informe histórico antes de una presentación de situación actual en 2026.
 
 ## Control de cambios
