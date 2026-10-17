@@ -40,9 +40,9 @@ La propuesta de contenidos afecta a portada, «Punto de partida», programa, pre
 
 **Finalidad:** recoger la visión de la salud y el bienestar de Fuente Vaqueros desde la experiencia de cada persona o entidad invitada, sin someterla a preguntas técnicas sobre RELAS ni presuponer que conoce la priorización de 2022.
 
-**Pregunta compartida:** «Desde su trabajo, su entidad o su experiencia cotidiana, ¿cómo ve la salud y el bienestar de las personas de Fuente Vaqueros?».
+**Secuencia de la conversación:** la presentación epidemiológica de Carlos del Moral Campaña (bloque 03) aporta datos e indicadores agregados. En el bloque 04, Raúl (apellidos pendientes) facilita perspectivas humanas y sectoriales diferenciadas, previstas en el guion y sujetas a validación organizativa: **Alicia Bellido González**, enfermera comunitaria, sobre atención primaria, necesidades que llegan a consulta, acceso y nuevas demandas; **María Martín Calvo**, AMPA del CEIP Soto de Roma, sobre bienestar desde las familias; **Francisco J. Pigne Marín**, enfermero escolar, sobre salud desde el sistema educativo y coordinación con familias/servicios; y **Margarita Rut Goena Martínez**, trabajadora social de Salud Mental de Santa Fe (participación efectiva pendiente de confirmación), sobre bienestar emocional, condiciones sociales, apoyo familiar y redes.
 
-**Repreguntas opcionales (no cuestionario cerrado):** principales preocupaciones; situaciones que funcionan bien; necesidades o colectivos menos escuchados; iniciativas o colaboraciones útiles; aspectos a tener en cuenta al retomar el trabajo local. Facilitar testimonios, ejemplos y visiones complementarias sin forzar compromisos ni juicios técnicos.
+**Forma de preguntar:** una pregunta amplia dirigida a la experiencia de cada participante y posibles repreguntas contextuales, sin solicitar un diagnóstico epidemiológico ni asumir que hay nuevos problemas o hiperfrecuentación. Distinguir perspectiva de usuarios, de familias, profesional escolar y social de salud mental; no exigir historias clínicas ni casos identificables. Evitar presentar estas observaciones como hechos poblacionales representativos o como prioridades ya aprobadas.
 
 **Relación con el programa:** la historia de RELAS, la encuesta de 2022 y la eventual actualización de prioridades se presentan en los bloques técnicos. La intervención propuesta de Blas Hermoso recoge después como líneas de continuidad la revisión de la priorización y el mapeo participativo de activos. **Las intervenciones de la mesa no equivalen a una priorización formal ni a un acuerdo del grupo motor.**
 
@@ -55,6 +55,12 @@ Por solicitud editorial, el antiguo apartado independiente **«Punto de partida�
 La navegación pasa de seis a cinco pestañas: Programa, Participantes, Moderación, Hoja de ruta y Mapa de activos. El acceso desde portada abre Programa y los antiguos enlaces con `#contexto` se redirigen a Programa. La moderación sigue asignada a Raúl (apellidos pendientes); no se modifica la composición de la mesa ni el resto de las intervenciones.
 
 **Estado de esta reorganización:** preparada en la rama `fuente-integrar-trayectoria-en-programa-20261017`; no publicada hasta su aprobación y fusión. Se verificará el despliegue tras la autorización.
+
+## Ajuste del enfoque de la mesa · 17/10/2026
+
+Se corrige la guía demasiado genérica de preguntas comunes: la finalidad no es que todas las personas respondan lo mismo, sino **contrastar datos epidemiológicos agregados con experiencias concretas de cuatro ámbitos de salud**. El Programa 04 identifica las miradas previstas y la sección Moderación recoge una pregunta abierta por ámbito, con apoyos no obligatorios. Las posibles dificultades de acceso, uso frecuente de consultas y patologías emergentes se **plantean como exploración**, nunca se afirman como hechos sin fuente. No cambiar de lugar la revisión de la priorización ni el mapeo de activos: continúan en las conclusiones propuestas de Blas.
+
+**Estado de este ajuste:** PR específico en la rama `fuente-mesa-vision-profesional-familias-20261017`, sin fusionar ni publicar hasta autorización expresa.
 
 ## Pendientes de verificación antes de cerrar el programa
 1. Fecha exacta y acuerdo oficial de adhesión a RELAS.
