@@ -20,7 +20,8 @@ test('programa completo por bloques y personas citadas como previstas/invitadas'
   assert.ok(prog.includes(n),'No citado en programa: '+n);
   assert.ok(section('participantes').includes(n),'No citado en participantes: '+n);
  }
- assert.ok(prog.includes('Composición de la mesa y moderación pendientes de confirmación'));
+ assert.ok(prog.includes('Composición de la mesa pendiente de confirmación'));
+ assert.ok(prog.includes('Moderación a cargo de Raúl (apellidos pendientes)'));
  assert.ok(section('participantes').includes('no equivale a asistencia confirmada'));
 });
 test('no se difunden teléfonos ni respuestas individuales de archivos privados',()=>{
@@ -34,7 +35,7 @@ test('se mantienen navegación y seis secciones originales',()=>{
   assert.ok(html.includes('id="'+id+'"'));
   assert.ok(html.includes('data-tab="'+id+'"'));
  }
- assert.ok(html.includes("--teal:#246c53"),'paleta verde residual');
+ assert.ok(html.includes("--teal:#102a28"),'paleta verde botella publicada');
 });
 test('conclusiones de Blas: priorización de 2022 y mapeo vinculado a líneas prioritarias',()=>{
   const contexto=section('contexto');

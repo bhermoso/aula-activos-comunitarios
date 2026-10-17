@@ -36,16 +36,16 @@ test('portada e interiores comparten verdes y ningún acento azul saturado',()=>
     const [h,s]=hsl(color);
     assert.ok(!(h>=190&&h<=265&&s>=0.2),`Tono azul aún presente: ${color} (hue=${Math.round(h)})`);
   }
-  for(const text of ['--teal:#246c53','--accent:#b9dba9','--light:#edf5e9',
-    'color:#2f694b','color:#2e7254',
-    '--cover-accent:#b9dba9','--cover-card:#1b4136','--cover-line:#406e58']){
+  for(const text of ['--teal:#102a28','--accent:#b9dba9','--light:#edf5e9',
+    'color:#102a28',
+    '--cover-accent:#b9dba9','--cover-card:#102a28','--cover-line:#2f5d56']){
     assert.ok(html.includes(text),`Falta el color nuevo: ${text}`);
   }
 });
 test('botones verdes mantienen contraste de texto accesible',()=>{
-  assert.ok(contrast('#246c53','#ffffff')>=4.5,'Botones interiores: falta contraste');
+  assert.ok(contrast('#102a28','#ffffff')>=4.5,'Botones interiores: falta contraste');
   assert.ok(contrast('#b9dba9','#102a28')>=4.5,'Botón de portada: falta contraste');
-  assert.ok(contrast('#2f694b','#f0f5f2')>=4.5,'Resumen de la actividad: falta contraste');
+  assert.ok(contrast('#102a28','#f0f5f2')>=4.5,'Resumen de la actividad: falta contraste');
 });
 test('seis secciones interiores, portada y navegación conservadas',()=>{
   const tabs=[...html.matchAll(/data-tab="([^"]+)"/g)].map(x=>x[1]);
