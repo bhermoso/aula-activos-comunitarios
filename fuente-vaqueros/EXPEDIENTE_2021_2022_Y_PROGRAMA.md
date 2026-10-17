@@ -91,6 +91,10 @@ La tarjeta **«Participantes y trabajo práctico»** tenía únicamente la acci�
 
 La ficha sigue guardando propuestas en `localStorage` del dispositivo; no envía datos a ningún servidor ni registra activos en Localiza Salud. Corrección incluida en **PR #27**, sujeta a pruebas y verificación posterior a la publicación autorizada.
 
+## Precisión del bloque 03 · 17/10/2026
+
+El bloque 03 del Programa se denomina **«Indicadores de enfermedad»**. La presentación propuesta de Carlos del Moral Campaña abordará indicadores epidemiológicos de enfermedad; **no debe anunciarse como un «informe sobre la situación de salud de Fuente Vaqueros»**, concepto más amplio. Los datos y resultados de 2021–2022 siguen siendo históricos y no sustituyen indicadores actuales. Corrección preparada en PR separado, sin publicación hasta autorización expresa. También se refleja en los PDF de programa plegado y coloquio con apoyos desplegados, generados para revisión e impresión.
+
 ## Pendientes de verificación antes de cerrar el programa
 1. Fecha exacta y acuerdo oficial de adhesión a RELAS.
 2. Actas posteriores al 29/04/2022 y continuidad del grupo motor después del verano.
