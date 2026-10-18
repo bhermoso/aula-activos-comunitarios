@@ -20,7 +20,7 @@ test('El taller de impulso conserva 7 bloques, fecha, moderador, y no suplanta l
 });
 
 test('Prioridades Fuente Vaqueros 2022 y Localiza Salud mantienen cautelas documentales',()=>{
- for(const x of ['102 cuestionarios','416 selecciones','33 problemas','27 problemas',
+ for(const x of ['102 cuestionarios','416 selecciones','33 problemas','27 factores',
    'Hanlon','no se localizaron resultados finales aprobados',
    'ningún activo registrado','pendiente de comprobación directa',
    'Cero registros no significa cero activos comunitarios reales'])
