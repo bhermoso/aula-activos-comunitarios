@@ -41,3 +41,29 @@
 
 ## Revisión de la ficha del 16/10/2026
 Se amplió el formulario para no excluir actores por taxonomías cerradas: sectores (26 opciones), tipos de actor (13), ámbitos territoriales (7), texto libre contextual, opciones «Otro» y posibilidad de expresar interés personal en participar sin facilitar contactos. El aviso flotante relativo al almacenamiento exclusivo en navegador fue retirado. La ficha y las reglas deben desplegarse juntas; publicar reglas antiguas bloquearía el nuevo esquema. El cierre funcional de la recepción sigue sujeto a una prueba real desde una sesión externa.
+
+
+## 18/10/2026 · Segunda sesión: planificar mapeo y priorización
+
+Esta preparación es **una sesión independiente dentro del Aula**, no una intervención ni evolución del repositorio COMPÁS-NG.
+
+**Material creado solo en rama:** `sesion-2.html` y `SESION_2_MAPEO_Y_PRIORIZACION.md`, con acceso enlazado desde la portada del módulo `impulso/index.html`. Objetivos:
+1. Organizar nuevos mapeos participativos, más la **revisión individual de todos los registros heredados** a partir del inventario conciliado; tramitar validaciones mediante los perfiles autorizados de Localiza Salud.
+2. Recuperar la **priorización de 2022**, revisar la evidencia y decidir si realizar actualización deliberativa o nueva consulta. Mostrar la capacidad COMPÁS-NG/REDCap como opción, **sin implementar encuesta en esta intervención**.
+
+**Contexto:** 2022 ya incluye un listado ordenado de 26 problemas con 40 participantes según transcripción ODT conservada en COMPÁS-NG Renovado; faltan original, procedimiento y ratificación documental. La fotografía 162/5/157 se refiere a activos registrados en el inventario COMPÁS histórico y no equivale a Localiza Salud actual. COMPÁS-NG (otro ámbito de desarrollo) tiene diez temas/hasta cinco elecciones, y genera un diccionario REDCap; no recoge votos públicos directamente.
+
+**Fuera de alcance de sesión 2:** decidir ahora líneas estratégicas finales o desarrollar objetivos e indicadores del Plan de Acción. EPVSA/ESCA sirven para la **fase posterior**. No editar COMPÁS, no desplegar encuesta, no mezclar con Fuente Vaqueros, no modificar datos ni publicar sin autorización.
+
+**Antes de cerrar propuesta:** organización debe confirmar fecha/duración, suministrar inventarios, documentos originales y disponer de perfiles de validación. La página es guía para la reunión y no acta de acuerdos adoptados.
+
+### Materiales de aplicación para la sesión 2 · 18/10/2026
+
+La propuesta se ha ampliado en la **PR #34 (borrador)** con material específico para los dos objetivos reales de la sesión:
+- `ficha-revision-activos.html`: formulario **solo de impresión**, orientado a la decisión registro a registro, con avisos contextuales; **no almacena ni transmite** fichas.
+- `plantilla_revision_recursos_loja.csv`: **cabecera con 20 campos, sin datos reales**; `GUIA_REVISION_INDIVIDUAL_ACTIVOS.md`: diccionario y simulación breve para aprender a revisar y asignar pendientes.
+- `dinamica-priorizacion.html`: tabla de los **26 problemas de 2022** en orden histórico, con notación de puntuación transcrita y selectores provisionales para discutir vigencia; cuatro alternativas de método de priorización (revisión, consulta, mixta, aplazamiento), **sin recoger votos** ni producir un acuerdo.
+- `sesion-2.html`: enlaces a ambos ejercicios; `SESION_2_MAPEO_Y_PRIORIZACION.md`: facilitación, agenda de 120 minutos, checklist e indicadores **de organización de sesión**, no del Plan Local.
+- Pruebas `impulso/tests/sesion-2.test.mjs` ejecutadas en workflow específico, sin afectar la sesión inicial.
+
+**Cautela oficial de Localiza Salud:** el formulario de alta corresponde a responsables de los recursos; la gestión/validación corresponde a perfiles autorizados. No se incluyen listados efectivos ni números actuales de la plataforma. Antes de utilizar la ficha para 100 % de recursos reales, obtener exportaciones, circuito de custodia y responsable de coordinación. **Todo permanece en rama pendiente de fusión y publicación.**

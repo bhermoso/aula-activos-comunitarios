@@ -1,0 +1,24 @@
+name: Loja - sesión 2 (revisión)
+on:
+  pull_request:
+    paths:
+      - 'impulso/**'
+      - '.github/workflows/loja-sesion-2.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'impulso/**'
+      - '.github/workflows/loja-sesion-2.yml'
+permissions:
+  contents: read
+jobs:
+  verificar-guion:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verificar independencia, estructura y contenido de la sesión 2
+        run: node --test impulso/tests/sesion-2.test.mjs

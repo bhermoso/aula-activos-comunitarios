@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#102a28">
+<title>Ficha de revisión individual · Recursos y activos · Loja</title>
+<style>
+:root{--deep:#102a28;--ink:#193a35;--green:#137c73;--line:#dce4df;--cream:#f6f5ef;--pale:#e8f4ef;--muted:#64776e}
+*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font:15px/1.5 Inter,system-ui,-apple-system,Segoe UI,sans-serif}a{color:#126859}
+button,select,input,textarea{font:inherit}button{cursor:pointer}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #e8aa35;outline-offset:3px}
+.top{background:var(--deep);color:#fff;padding:16px max(18px,calc((100vw - 970px)/2)) 30px}.top a{color:#d4eddf}.top h1{font:normal clamp(29px,4vw,42px)/1.18 Georgia,Cambria,serif;margin:17px 0 9px}.top p{max-width:750px;margin:0;color:#d2e8df}
+main{max-width:1006px;padding:22px 17px 60px;margin:auto}.status{background:#fff2d9;color:#724816;border-radius:99px;padding:4px 10px;font-size:12px;font-weight:800}
+.notice{background:#edf6ef;border-left:4px solid #137c73;padding:12px 16px;margin:0 0 18px}
+section{background:#fff;border:1px solid var(--line);border-radius:15px;padding:20px;margin-bottom:18px}h2{font:700 23px/1.25 Georgia,serif;margin:0 0 13px;color:#143d36}h3{font-size:15px;margin:16px 0 8px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.wide{grid-column:1/-1}
+label{display:block;font-size:13px;font-weight:750;margin-bottom:5px;color:#2d554a}.hint{display:block;color:#667e72;font-size:12px;font-weight:400}
+input,select,textarea{width:100%;border:1px solid #b7c9bd;border-radius:8px;padding:9px 11px;min-height:40px;color:#1b3730;background:#fff}textarea{min-height:83px;resize:vertical}
+.form-row{min-width:0}.chip{padding:4px 9px;background:#e3f1e9;color:#155d4e;border-radius:10px;font-size:12px;font-weight:800}
+ul{margin:8px 0 0;padding-left:22px}.actionbox{border:1px solid #a7c4b5;background:#f1f9f3;border-radius:10px;padding:12px 15px;margin-top:14px}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin:19px 0}.button{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;background:#137c73;border:1px solid #137c73;color:#fff;padding:10px 16px;border-radius:9px;font-weight:800;font-size:13px}.button.ghost{background:#fff;color:#155c4b;border-color:#b4cabb}
+.printlabel{display:none}
+@media(max-width:660px){.grid{grid-template-columns:1fr}section{padding:14px}.wide{grid-column:auto}}
+@media print{@page{size:A4;margin:11mm}body{background:#fff;font-size:10pt}.top{background:white;color:#111;padding:0}.top a,.actions,.status{display:none}.top p{color:#111}.top h1{font-size:23pt}main{padding:10px 0}.notice{background:#f4f4f4}section{padding:10px 0;margin:0;border:none;break-inside:avoid}h2{font-size:16pt}label{font-size:9pt}input,select,textarea{border:1px solid #aaa;padding:4px 6px;min-height:26px;background:white}.grid{gap:7px}textarea{min-height:48px}.actionbox{padding:7px}.printlabel{display:block;font-size:9pt} }
+</style>
+</head>
+<body>
+<header class="top">
+<a href="sesion-2.html">← Segunda sesión del Grupo Motor de Loja</a>
+<h1>Ficha de revisión individual de recursos</h1>
+<p>Una ficha por registro, con información contrastada, decisiones justificadas y seguimiento. Preparada para el taller y el trabajo posterior.</p>
+</header>
+<main>
+<p class="notice"><strong>Importante:</strong> este formulario <strong>no guarda ni envía información</strong>. Puede cumplimentarse para imprimirlo, pero se pierde al cerrar o recargar. Para el trabajo sistemático en equipo utiliza la <a href="plantilla_revision_recursos_loja.csv" download>plantilla CSV de revisión</a> bajo custodia acordada. <strong>No introduzcas datos personales ni información clínica.</strong></p>
+<form id="revision" autocomplete="off">
+<section>
+<span class="chip">01 · Identificación y fuentes</span>
+<h2>¿De qué registro estamos hablando?</h2>
+<div class="grid">
+<div class="form-row"><label for="id">Identificador histórico <span class="hint">Sin asignar si falta en la fuente</span></label><input id="id" name="id"></div>
+<div class="form-row"><label for="localiza">ID / URL verificada en Localiza Salud</label><input id="localiza" name="localiza"></div>
+<div class="form-row wide"><label for="nombre">Recurso y/o actividad</label><input id="nombre" name="nombre"></div>
+<div class="form-row"><label for="tipo">Tipo de recurso</label><select id="tipo" name="tipo"><option value="">Por contrastar</option><option>Organización / institución</option><option>Asociación / colectivo</option><option>Espacio físico / infraestructura</option><option>Actividad</option><option>Otros / red informal</option></select></div>
+<div class="form-row"><label for="zona">Barrio, anejo o ámbito general</label><input id="zona" name="zona"></div>
+<div class="form-row wide"><label for="fuente">Fuente y fecha de consulta <span class="hint">Inventario inicial, entidad, portal, comprobación</span></label><textarea id="fuente" name="fuente"></textarea></div>
+</div>
+</section>
+<section>
+<span class="chip">02 · Comprobación</span>
+<h2>¿Sigue funcionando? ¿Cómo contribuye a la salud?</h2>
+<div class="grid">
+<div class="form-row"><label for="vigencia">Vigencia</label><select id="vigencia" name="vigencia"><option>Sin verificar</option><option>Vigente y comprobado</option><option>Inactivo y comprobado</option><option>Datos contradictorios</option></select></div>
+<div class="form-row"><label for="fecha">Fecha de revisión</label><input type="date" id="fecha" name="fecha"></div>
+<div class="form-row wide"><label for="beneficio">Contribución concreta a la salud o el bienestar <span class="hint">Evitar afirmaciones generales sin evidencia</span></label><textarea id="beneficio" name="beneficio"></textarea></div>
+<div class="form-row wide"><label for="comunidad">Contraste y reconocimiento comunitario <span class="hint">Cómo, por quiénes/colectivos y cuándo se ha identificado, sin recoger nombres</span></label><textarea id="comunidad" name="comunidad"></textarea></div>
+<div class="form-row wide"><label for="acceso">Accesibilidad, condiciones de uso, horarios y barreras</label><textarea id="acceso" name="acceso"></textarea></div>
+<div class="form-row"><label for="participacion">Identificación participativa</label><select id="participacion" name="participacion"><option>No contrastada</option><option>Contraste en proceso</option><option>Contrastada participativamente</option><option>No aplicable / comprobar</option></select></div>
+<div class="form-row"><label for="estado-localiza">Estado en Localiza Salud <span class="hint">Solo si se ha podido verificar</span></label><select id="estado-localiza" name="estado-localiza"><option>Sin consultar</option><option>No localizado tras comprobación</option><option>Publicado (ID verificado)</option><option>Solicitud pendiente (verificada)</option><option>Requiere corrección</option><option>Estado no comprobable</option></select></div>
+</div>
+</section>
+<section>
+<span class="chip">03 · Decisión de trabajo</span>
+<h2>¿Qué hacemos con este registro?</h2>
+<div class="grid">
+<div class="form-row"><label for="decision">Resultado de la revisión <span class="hint">Decisión del equipo, no validación oficial</span></label><select id="decision" name="decision"><option value="sin-revisar">Sin revisar / faltan datos</option><option value="pendiente">Recurso vigente, carácter de activo pendiente</option><option value="activo">Activo contrastado, pendiente de verificar o tramitar estado oficial</option><option value="duplicado">Duplicado o registro que exige reconciliación</option><option value="inactivo">Recurso inactivo</option><option value="descartar">No se propone como activo</option></select></div>
+<div class="form-row"><label for="equipo">Equipo responsable <span class="hint">Rol o grupo; sin contactos privados</span></label><input id="equipo" name="equipo"></div>
+<div class="form-row wide"><label for="justificacion">Justificación, evidencia y asuntos pendientes</label><textarea id="justificacion" name="justificacion"></textarea></div>
+<div class="form-row wide"><label for="paso">Próxima actuación y quién puede realizarla <span class="hint">Alta, baja o modificación: consultar siempre con responsables y permisos habilitados</span></label><textarea id="paso" name="paso"></textarea></div>
+<div class="form-row"><label for="plazo">Fecha de devolución al Grupo Motor</label><input type="date" id="plazo" name="plazo"></div>
+<div class="form-row"><label for="segunda">Próxima revisión / actualización</label><input type="date" id="segunda" name="segunda"></div>
+</div>
+<div class="actionbox" aria-live="polite" id="consejo">
+<strong>Siguiente paso sugerido:</strong>
+<span id="sugerencia">Conservar la fila como pendiente y acordar qué dato debe comprobarse y quién lo hará.</span>
+</div>
+<p style="font-size:13px;color:#567267"><strong>La ficha no acredita un alta o validación en Localiza Salud.</strong> Las solicitudes corresponden a la persona responsable del recurso, y la gestión/validación a usuarios autorizados conforme a sus funciones.</p>
+</section>
+</form>
+<div class="actions">
+<button type="button" id="imprimir" class="button">Imprimir ficha cumplimentada</button>
+<button type="reset" form="revision" class="button ghost">Limpiar ficha</button>
+<a href="plantilla_revision_recursos_loja.csv" download class="button ghost">Descargar plantilla CSV vacía</a>
+<a href="GUIA_REVISION_INDIVIDUAL_ACTIVOS.md" class="button ghost">Consultar guía metodológica</a>
+</div>
+</main>
+<script>
+const sugerencias={
+"sin-revisar":"Conservar la fila como pendiente y acordar qué dato debe comprobarse y quién lo hará.",
+"pendiente":"Contactar con la entidad responsable, comprobar uso y valor para la salud y organizar contraste con población usuaria o comunidad.",
+"activo":"Documentar evidencias y cotejar su estado en Localiza Salud. Los trámites de alta o modificación corresponden a responsables y validadores autorizados.",
+"duplicado":"Comparar identificadores y fuentes, conservar las referencias históricas y acordar el registro vigente sin borrar la trazabilidad.",
+"inactivo":"Contrastar la baja de actividad con la entidad responsable y decidir si se solicita corrección/baja en las plataformas correspondientes.",
+"descartar":"Registrar motivo y fuente. No proponer como activo sin justificación; preservar el historial de la revisión."
+};
+const select=document.getElementById("decision");
+select.addEventListener("change",()=>{document.getElementById("sugerencia").textContent=sugerencias[select.value]||sugerencias["sin-revisar"];});
+document.getElementById("imprimir").addEventListener("click",()=>window.print());
+document.getElementById("revision").addEventListener("reset",()=>{document.getElementById("sugerencia").textContent=sugerencias["sin-revisar"];});
+</script>
+</body>
+</html>
