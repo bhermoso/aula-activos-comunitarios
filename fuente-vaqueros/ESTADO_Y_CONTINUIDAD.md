@@ -20,3 +20,15 @@ Actualizar **solo** `fuente-vaqueros/index.html`, con fondo arena y verde profun
 ## 18/10/2026 · Identificación del moderador
 
 **Rectificación aportada por el usuario:** el moderador de la mesa-coloquio del 22/10/2026 es **Rubén**, persona vinculada al **área de Cultura del Ayuntamiento de Fuente Vaqueros**. El programa preparatorio inicial ya señalaba «Rubén»; la identificación diferente publicada el 17/10/2026 era errónea. Apellidos y cargo concreto aún no verificados: no inferirlos ni atribuírsele la Concejalía de Cultura. Cambios en portada, programa, relación de participantes y guion de moderación, con pruebas ajustadas. Esta corrección queda preparada en rama para revisión; no se fusiona ni despliega sin autorización expresa.
+
+## 18/10/2026 · Priorización previa a la planificación del mapeo
+
+**Nuevo criterio docente comunicado por el usuario:** Fuente Vaqueros carece, según información aportada, de activos registrados en Localiza Salud. **No se ha contrastado directamente el recuento**; consignarlo como dato comunicado pendiente de comprobación. Esto no significa carencia de recursos comunitarios ni obliga a inventariar todo antes de priorizar.
+
+Se propone la siguiente secuencia, paralela a Loja pero **sin transferir datos entre municipios**: **revisar la identificación y priorización 2022 → valorar nueva consulta → seleccionar grandes líneas estratégicas → planificar en la misma sesión qué mapear por línea, dónde, con quién, mediante qué técnicas y responsables → ejecutar y tramitar registros después**. En caso de consulta posterior, las líneas y el diseño del mapeo son hipótesis hasta deliberar resultados, sin comenzar trabajo de campo.
+
+**Documentación concreta del municipio:** 102 cuestionarios y 416 selecciones entre 33 factores en 2022; tabla para aplicar Hanlon a 27 factores, sin constancia en el expediente del ranking Hanlon aprobado. Acta del 29/04/2022 y originales pendientes de cotejar/completar con decisiones posteriores. El taller de impulso **previsto para el 22/10/2026** conserva su programa y participantes; solo se precisa que su trabajo participativo es exploratorio y no un mapeo ya ejecutado.
+
+**Archivos nuevos en rama `feat/fuente-vaqueros-priorizacion-mapeo-20261018`:** `sesion-priorizacion-mapeo.html` (sesión futura de 120 min, matriz por líneas imprimible y no persistente), `SESION_PRIORIZACION_Y_MAPEO.md` (guion docente) y `tests/priorizacion-mapeo.test.mjs`; `index.html` enlaza a esta fase y corrige instrucciones prematuras de mapeo. **No fusionado ni desplegado**; no publicar sin autorización. No modifica Loja ni COMPÁS-NG.
+
+**Secuencia de agenda:** 10 apertura, 20 antecedentes 2022, 20 contraste, 15 decisión de consulta, 15 líneas, **30 planificación del mapeo por línea**, 10 cierre = 120 min. Casos de envejecimiento, pantallas, violencia de género y desigualdades: ilustrativos, no prioridades municipales elegidas. Seguridad especial para violencia de género y recursos confidenciales. Los formatos HTML son materiales de trabajo, no acuerdos ni registros oficiales.
