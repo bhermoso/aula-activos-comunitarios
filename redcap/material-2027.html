@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#1b4136">
+<title>Materiales 2027 · REDCap Básico y Avanzado</title>
+<style>
+:root{font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#163b31;background:#f4f7f2}*{box-sizing:border-box}
+body{margin:0;line-height:1.6}header{background:#1b4136;color:white;padding:30px max(20px,calc((100vw - 980px)/2))}
+h1,h2,h3{font-family:Georgia,serif;line-height:1.2}h1{font-size:clamp(27px,4vw,38px);margin:12px 0}
+nav{display:flex;gap:17px;flex-wrap:wrap}nav a{color:#e6f6e8}main{max-width:1000px;margin:auto;padding:26px 20px 80px}
+.note{background:#f0f5e9;border-left:4px solid #327a53;padding:12px 17px;margin:15px 0}
+.intro{max-width:760px;color:#465c50}section{background:white;border:1px solid #d5e5d7;border-radius:13px;padding:24px;margin:16px 0}
+section h2{color:#235d45;margin-top:0}article{background:white;border:1px solid #d5e5d7;border-radius:13px;margin:15px 0;padding:20px}
+article h2{color:#24563d;margin:0 0 13px}article h3{margin-top:21px;color:#265e46}
+ul{padding-left:23px}li{margin:7px 0}table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:9px;vertical-align:top;border-bottom:1px solid #dae5dd}
+th{background:#eff5ec}a{color:#12634d}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+.actions a,.actions button{border:1px solid #245c45;padding:9px 13px;border-radius:9px;background:#fff;color:#174e3b;cursor:pointer;text-decoration:none;font:700 13px system-ui}
+.actions a.primary{background:#246c53;color:#fff}.list{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:13px}
+.list a{display:block;padding:16px;background:white;border:1px solid #cbded2;border-radius:12px;text-decoration:none}.list strong{display:block;color:#1c553d}.list small{display:block;color:#586f61}
+#status{font-weight:600}
+@media(max-width:600px){main{padding:15px 10px}article,section{padding:15px}table{font-size:12px}}
+@media print{body{background:#fff;color:#000;font-size:10.5pt}header{background:white;color:#000;padding:0}nav,.actions,.list,#status{display:none!important}main{padding:0}article,section{border:0;padding:5px 0;break-inside:auto}article h3{break-after:avoid}table{font-size:9pt}tr{break-inside:avoid}.note{border:1px solid #bbb}}
+</style>
+</head>
+<body>
+<header><nav><a href="index.html">← Aula REDCap</a><a href="programas-2027.html">Programa resumido</a><a href="guia-sintaxis.html">Lógica y sintaxis</a></nav>
+<h1>Guías REDCap · 2027</h1><p>Documentos actualizados de Básico y Avanzado, preparados para consulta, impresión y descarga en PDF.</p></header>
+<main>
+<p class="note"><strong>Estado:</strong> propuesta curricular pendiente de validación institucional. Uso docente con datos ficticios. La disponibilidad de funciones depende del REDCap institucional.</p>
+<div id="status" role="status">Cargando las guías…</div>
+<div id="content"></div>
+</main>
+<script>
+(function(){
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const id=new URLSearchParams(location.search).get('id');
+const set=(html)=>{document.getElementById('content').innerHTML=html;document.getElementById('status').textContent=''};
+function table(t){return '<div style="overflow-x:auto"><table><thead><tr>'+t.head.map(x=>'<th>'+esc(x)+'</th>').join('')+'</tr></thead><tbody>'+t.rows.map(row=>'<tr>'+row.map(x=>'<td>'+esc(x)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>'}
+fetch('materiales_2027.json').then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(data=>{
+ const docs=data.docs||[];
+ if(!id){set('<h2>Materiales de las dos ediciones</h2><div class="list">'+docs.map(d=>'<a href="?id='+encodeURIComponent(d.id)+'"><strong>'+esc(d.titulo)+'</strong><small>'+esc(d.nivel)+' · '+esc(d.clase)+' · '+esc(d.duracion)+'</small></a>').join('')+'</div>');return}
+ const d=docs.find(x=>x.id===id);if(!d){set('<p>No se encuentra este material. <a href="material-2027.html">Ver índice</a>.</p>');return}
+ document.title=d.titulo+' · REDCap 2027';
+ let html='<article><p><strong>'+esc(d.nivel)+' · '+esc(d.clase)+'</strong> · '+esc(d.duracion)+'</p><h2>'+esc(d.titulo)+'</h2><p class="intro">'+esc(d.subtitulo)+'</p>';
+ html+='<div class="actions"><a href="material-2027.html">← Todos los materiales</a><a class="primary" href="materiales/'+encodeURIComponent(d.id)+'.pdf" target="_blank" rel="noopener">Abrir PDF</a><button type="button" id="print">Imprimir / guardar PDF</button></div>';
+ for(const s of d.sections){html+='<section><h3>'+esc(s.h)+'</h3>'+(s.p?'<p>'+esc(s.p)+'</p>':'')+(s.bullets?'<ul>'+s.bullets.map(b=>'<li>'+esc(b)+'</li>').join('')+'</ul>':'')+(s.table?table(s.table):'')+'</section>'}
+ html+='<p class="note">Revisión 17/10/2026 · Propuesta. Verificar configuración del REDCap institucional y criterios definitivos de Gesforma.</p></article>';
+ set(html);document.getElementById('print').addEventListener('click',()=>window.print());
+}).catch(err=>{document.getElementById('status').textContent='No se pudieron cargar las guías. Utiliza los PDF de Materiales del Aula.';document.getElementById('status').setAttribute('aria-live','assertive')})
+})();
+</script></body></html>
