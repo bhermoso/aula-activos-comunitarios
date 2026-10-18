@@ -43,3 +43,11 @@ La publicación fue solicitada expresamente por el usuario el 18/10/2026. No se 
 ### Plantilla de seguimiento 2027 · 17/10/2026
 
 Incorporada en la PR #29 la plantilla docente `redcap/materiales/plantilla_seguimiento_2027_diccionario.csv`, con 15 campos y tres instrumentos técnicos (ficha inicial, hábitos y seguimiento). Está enlazada desde REDCap Avanzado y documentada en `redcap/PLANTILLA_SEGUIMIENTO_2027.md`. **Su importación no crea eventos longitudinales, repetición ni encuestas**: el alumnado debe elegir y configurar esa arquitectura según necesidad y permisos. Se amplía el test de regresión para vigilar la plantilla.
+
+## Corrección del asistente de tipos de campo · 18/10/2026
+
+El aviso didáctico sobre seleccionar `Checkboxes` para una pregunta de respuesta única aparecía fijo incluso cuando el alumnado elegía otro tipo de campo. Se ha sustituido en una rama de corrección por un bloque contextual que muestra un consejo distinto para cada una de las siete opciones disponibles (texto corto, notas, cálculo, Sí/No, Radio Buttons, Drop-down, Checkboxes). El cambio de «Abierta» a «Entre opciones» borra el consejo anterior y reinicia la selección secundaria. Se añade accesibilidad con `aria-live`, estados `aria-pressed` y pruebas que simulan interacciones; el flujo de navegación del resto del aula no cambia.
+
+Archivos: `redcap/index.html`, `redcap/tests/tipo-campo.test.mjs` y `.github/workflows/redcap-validacion.yml`. Este último ejecuta todas las pruebas del directorio `redcap/tests/`.
+
+**Estado:** preparado en `fix/redcap-asistente-tipos-aviso-dinamico-20261018` para PR de revisión; no fusionado ni desplegado sin autorización expresa. La publicación anterior de REDCap 2027 sigue activa.

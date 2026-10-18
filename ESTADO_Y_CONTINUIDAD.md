@@ -108,3 +108,7 @@ El usuario autorizó expresamente publicación y despliegue. PR #29 fusionada en
 ## 18/10/2026 · Rectificación de moderación de Fuente Vaqueros
 
 El usuario confirma que el moderador del taller es **Rubén**, relacionado con el **área de Cultura del Ayuntamiento de Fuente Vaqueros**. Sustituye a la identificación errónea introducida el 17/10/2026. El nombre Rubén coincide con el programa preparatorio original. No constan apellidos ni cargo específico verificables, por lo que no deben completarse por inferencia. Corrección restringida al módulo de Fuente Vaqueros y su documentación. Las personas propuestas para el coloquio y las confirmaciones previas de Carlos del Moral Campaña permanecen sin cambios. Estado de publicación: pendiente de autorización específica para fusionar y desplegar esta corrección.
+
+## 18/10/2026 · Incidencia del asistente de tipos de campo REDCap Básico
+
+El usuario detectó que el mensaje fijo «Error común: Sexo con Checkboxes...» no cambiaba al seleccionar otros tipos de campo en la unidad de diseño. Causa: aviso HTML estático fuera del asistente interactivo. **Corrección preparada en rama** `fix/redcap-asistente-tipos-aviso-dinamico-20261018`: siete consejos adaptados a la opción elegida, ocultación del aviso previo al modificar la pregunta principal, etiquetas ARIA, tests del asistente y ampliación del flujo de CI de REDCap. No afecta a REDCap Avanzado ni a otros módulos. A falta de revisión de PR y autorización expresa para fusionar/publicar. Mantener esta distinción con la última versión actualmente en GitHub Pages.

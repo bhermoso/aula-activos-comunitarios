@@ -264,14 +264,15 @@ const COURSES = [
       <li>Lo más sencillo: <code>Project Setup → Enable auto-numbering for records</code> (1, 2, 3…).</li>
       <li>Si el estudio necesita un código propio (<code>C02-015</code>), se define al principio y no se cambia.</li></ul>`},
     {t:'Tipos de campo', h:`<p class="kick">Tipos de campo</p><h2>¿Qué tipo de campo necesito?</h2>
-      <div class="lab" id="lab-tipo"><h3>Asistente: responda a la pregunta sobre su pregunta</h3>
+      <div class="lab" id="lab-tipo"><h3>Asistente: elija cómo se responderá su pregunta</h3>
         <div class="qs">
-          <div><p style="margin:0 0 6px">¿La respuesta es abierta o se elige entre opciones?</p><div class="opts" data-q="a"><button data-v="abierta">Abierta</button><button data-v="cerrada">Entre opciones</button></div></div>
-          <div data-show="abierta" hidden><p style="margin:0 0 6px">¿Qué se escribe?</p><div class="opts" data-q="b"><button data-v="Text Box + validación">Dato corto: número, fecha, código</button><button data-v="Notes Box">Texto largo</button><button data-v="Calculated Field">Se deduce de otros campos</button></div></div>
-          <div data-show="cerrada" hidden><p style="margin:0 0 6px">¿Cuántas opciones puede marcar quien responde?</p><div class="opts" data-q="b"><button data-v="Yes - No">Sí / No</button><button data-v="Radio Buttons">Una, entre pocas</button><button data-v="Drop-down">Una, entre muchas</button><button data-v="Checkboxes">Varias a la vez</button></div></div>
+          <div><p style="margin:0 0 6px">¿La respuesta es abierta o se elige entre opciones?</p><div class="opts" data-q="a"><button type="button" data-v="abierta" aria-pressed="false">Abierta</button><button type="button" data-v="cerrada" aria-pressed="false">Entre opciones</button></div></div>
+          <div data-show="abierta" hidden><p style="margin:0 0 6px">¿Cómo se obtiene el valor?</p><div class="opts" data-q="b"><button type="button" data-v="Text Box + validación" aria-pressed="false">Se introduce un dato corto: número, fecha, código</button><button type="button" data-v="Notes Box" aria-pressed="false">Se introduce texto largo</button><button type="button" data-v="Calculated Field" aria-pressed="false">Se calcula a partir de otros campos</button></div></div>
+          <div data-show="cerrada" hidden><p style="margin:0 0 6px">¿Cuántas opciones puede marcar quien responde?</p><div class="opts" data-q="b"><button type="button" data-v="Yes - No" aria-pressed="false">Sí / No</button><button type="button" data-v="Radio Buttons" aria-pressed="false">Una, entre pocas</button><button type="button" data-v="Drop-down" aria-pressed="false">Una, entre muchas</button><button type="button" data-v="Checkboxes" aria-pressed="false">Varias a la vez</button></div></div>
           <div aria-live="polite"><span class="answer" id="tipo-res">Elija una opción</span></div>
-        </div></div>
-      <div class="bad"><b>Error común:</b> "Sexo" con Checkboxes permitiría marcar dos opciones a la vez. Pregúntese siempre si en la vida real se puede marcar más de una.</div>`},
+        </div>
+        <div class="note" id="tipo-aviso" role="status" aria-live="polite" hidden><b data-aviso-titulo></b> <span data-aviso-cuerpo></span></div>
+      </div>`},
     {t:'Codificación', h:`<p class="kick">Opciones de respuesta</p><h2>Código, etiqueta</h2>
       <pre>1, Ninguna
 2, 1-2 raciones
@@ -523,6 +524,71 @@ function setHash(h){ if(location.hash.slice(1)!==h){ try{history.replaceState(nu
 function go(n){ Object.assign(S,n); render(); window.scrollTo(0,0); }
 function step(d){ if(S.view!=='curso')return; const f=flat(S.c); const i=f.findIndex(x=>x[0]===S.u&&x[1]===S.s)+d; if(i<0||i>=f.length)return; go({u:f[i][0],s:f[i][1]}); }
 
+
+/* Asistente de tipos de campo. Cada selección ofrece su propia comprobación,
+   evitando mostrar de forma permanente el aviso específico de Checkboxes. */
+const AYUDAS_TIPO_CAMPO = Object.freeze({
+  'Text Box + validación': {
+    titulo: 'Compruebe la validación:',
+    texto: 'Para fechas, números y códigos, configure el formato, las unidades y, cuando proceda, los límites permitidos. Error habitual: tratar un número como texto libre sin validación.',
+    clase: 'warn'
+  },
+  'Notes Box': {
+    titulo: 'Compruebe el propósito:',
+    texto: 'Notes Box admite respuestas extensas. Evite usarlo para respuestas que deberían estar codificadas en opciones y no solicite información personal innecesaria.',
+    clase: 'warn'
+  },
+  'Calculated Field': {
+    titulo: 'Comprobación del cálculo:',
+    texto: 'El valor se obtiene de otros campos: no lo escribe quien responde. Compruebe unidades y valores ausentes con casos de prueba; un dato no respondido no equivale a cero.',
+    clase: 'note'
+  },
+  'Yes - No': {
+    titulo: 'Compruebe las alternativas:',
+    texto: 'Yes - No guarda una respuesta binaria (1 = Sí, 0 = No). Si necesita «No sabe», «No contesta» o «No aplica» como respuesta explícita, defina otras opciones.',
+    clase: 'warn'
+  },
+  'Radio Buttons': {
+    titulo: 'Compruebe la exclusividad:',
+    texto: 'Radio Buttons permite una sola opción. Error habitual: usarlo para una pregunta que admite seleccionar varias respuestas simultáneamente.',
+    clase: 'warn'
+  },
+  'Drop-down': {
+    titulo: 'Compruebe la lista:',
+    texto: 'Drop-down permite una sola opción entre varias. Una lista excesivamente extensa o sin categorías claras puede dificultar la respuesta y el análisis.',
+    clase: 'note'
+  },
+  'Checkboxes': {
+    titulo: 'Error frecuente:',
+    texto: 'Checkboxes permite marcar varias opciones a la vez. Por ejemplo, si la pregunta «Sexo» debe registrar una sola categoría, usar casillas múltiples permitiría combinaciones no previstas.',
+    clase: 'bad'
+  }
+});
+function conectarAsistenteTipo(lt) {
+  const res=lt.querySelector('#tipo-res'), aviso=lt.querySelector('#tipo-aviso');
+  const titulo=aviso.querySelector('[data-aviso-titulo]'), cuerpo=aviso.querySelector('[data-aviso-cuerpo]');
+  const primarios=lt.querySelectorAll('[data-q="a"] button');
+  const secundarios=lt.querySelectorAll('[data-q="b"] button');
+  const ocultarAviso=()=>{aviso.hidden=true;titulo.textContent='';cuerpo.textContent='';};
+  primarios.forEach(b=>b.onclick=()=>{
+    primarios.forEach(x=>x.setAttribute('aria-pressed',String(x===b)));
+    lt.querySelectorAll('[data-show]').forEach(d=>d.hidden=d.dataset.show!==b.dataset.v);
+    secundarios.forEach(x=>x.setAttribute('aria-pressed','false'));
+    res.textContent='Seleccione cómo se obtiene la respuesta';
+    ocultarAviso();
+  });
+  secundarios.forEach(b=>b.onclick=()=>{
+    secundarios.forEach(x=>x.setAttribute('aria-pressed',String(x===b)));
+    const ayuda=AYUDAS_TIPO_CAMPO[b.dataset.v];
+    if(!ayuda){res.textContent='Opción no reconocida';ocultarAviso();return;}
+    res.textContent='→ '+b.dataset.v;
+    titulo.textContent=ayuda.titulo;
+    cuerpo.textContent=ayuda.texto;
+    aviso.className=ayuda.clase;
+    aviso.hidden=false;
+  });
+}
+
 function wire(){
   document.querySelectorAll('[data-rizoma]').forEach(el=>el.addEventListener('click',e=>{e.preventDefault();const h=el.dataset.rizoma,m=/^(basico|avanzado)-(s1|s2|t1|t2)-(\d+)$/.exec(h);if(!m)return;const ci=COURSES.findIndex(c=>c.id===m[1]),ui=COURSES[ci].units.findIndex(u=>u.id===m[2]);go({view:'curso',c:ci,u:ui,s:+m[3]-1});}));
   document.querySelectorAll('[data-course]').forEach(b=>b.onclick=()=>go({view:'curso',c:+b.dataset.course,u:0,s:0}));
@@ -531,9 +597,7 @@ function wire(){
   document.querySelectorAll('[data-slide]').forEach(b=>b.onclick=()=>go({s:+b.dataset.slide}));
   const done=store.get('aula-redcap-check')||{};
   document.querySelectorAll('.check input').forEach(i=>{i.checked=!!done[i.id];i.onchange=()=>{const d=store.get('aula-redcap-check')||{};d[i.id]=i.checked;store.set('aula-redcap-check',d)}});
-  const lt=$('lab-tipo'); if(lt){ const res=$('tipo-res');
-    lt.querySelectorAll('[data-q="a"] button').forEach(b=>b.onclick=()=>{lt.querySelectorAll('[data-q="a"] button').forEach(x=>x.setAttribute('aria-pressed',x===b));lt.querySelectorAll('[data-show]').forEach(d=>d.hidden=d.dataset.show!==b.dataset.v);lt.querySelectorAll('[data-q="b"] button').forEach(x=>x.setAttribute('aria-pressed','false'));res.textContent='Ahora la segunda pregunta'});
-    lt.querySelectorAll('[data-q="b"] button').forEach(b=>b.onclick=()=>{b.parentElement.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===b));res.textContent='→ '+b.dataset.v}); }
+  const lt=$('lab-tipo'); if(lt) conectarAsistenteTipo(lt);
   if($('lab-imc')){ $('peso').oninput=imcLab; $('talla').oninput=imcLab; imcLab(); }
 }
 function imcLab(){
