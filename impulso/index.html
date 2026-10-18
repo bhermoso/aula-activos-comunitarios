@@ -1,359 +1,75 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102a28"><title>Taller de reimpulso del I Plan Local de Salud de Loja</title><style>
-:root{color-scheme:light;--ink:#183a37;--deep:#102a28;--muted:#617574;--teal:#137c73;--light:#e8f4ef;--sand:#f6f5ef;--line:#dce5e0;--white:#fff;--warning:#9a6025;--shadow:0 14px 45px rgba(18,52,45,.07)}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:#243b39;background:var(--sand);font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.57;font-size:15px}button,input,textarea{font:inherit}button{cursor:pointer}a{color:var(--teal)}a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #edb957;outline-offset:3px} .skip{position:absolute;left:-999px;top:0;background:white;padding:1rem;z-index:90}.skip:focus{left:0}
-.site-head{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px clamp(18px,4vw,56px);background:var(--deep);color:white;position:sticky;top:0;z-index:30;border-bottom:3px solid #b5e0cd}.identity{font-size:13px;letter-spacing:.11em;font-weight:850;text-decoration:none;color:white;white-space:nowrap}.identity b{font-size:23px;color:#aed8bf}.head-actions{display:flex;gap:8px;flex-wrap:wrap}.pill-btn{border:1px solid #688783;background:transparent;color:#f3fff9;padding:9px 13px;border-radius:30px;font-size:12px;font-weight:750}.pill-btn:hover{background:#25534e}.layout{display:grid;grid-template-columns:minmax(225px,265px) minmax(0,1fr);max-width:1550px;margin:auto;min-height:calc(100vh - 65px)}.rail{border-right:1px solid var(--line);background:#eff3ed;padding:28px 14px 24px;position:sticky;top:67px;align-self:start;height:calc(100vh - 67px);overflow:auto}.rail-kicker{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal);font-weight:800;padding:0 12px}.rail-title{font-family:Georgia,serif;font-size:25px;line-height:1.1;margin:9px 12px 10px;color:var(--deep)}.rail-desc{font-size:12px;color:var(--muted);margin:0 12px 28px}.menu{display:grid;gap:8px}.nav-btn{border:1px solid transparent;background:transparent;text-align:left;padding:12px;border-radius:13px;display:flex;align-items:flex-start;gap:11px;color:#355450;width:100%}.nav-btn:hover{background:#e1ece5}.nav-btn.active{background:white;border-color:#c8d9d0;box-shadow:0 4px 20px #173e2e0b;color:#173e3b}.nav-num{font-size:11px;font-weight:900;color:var(--teal);padding-top:2px}.nav-text{font-size:13px;font-weight:800;line-height:1.3}.nav-text small{font-size:11px;display:block;font-weight:500;color:#71827f;margin-top:3px}.rail-bottom{border-top:1px solid #d4dfd6;margin-top:28px;padding:18px 12px;color:#667a73;font-size:11px}.workspace{padding:0 clamp(22px,4vw,64px) 90px;max-width:1120px;width:100%;margin:0 auto}.hero{padding:48px 0 27px;border-bottom:1px solid var(--line)}.eyebrow{font-size:11px;color:var(--teal);font-weight:850;letter-spacing:.15em;text-transform:uppercase}.hero h1{font-family:Georgia,serif;letter-spacing:-.03em;line-height:1.07;font-size:clamp(35px,4.2vw,56px);color:var(--deep);margin:13px 0}.hero p{max-width:72ch;color:#58726b;margin:0;font-size:15px}.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:21px}.tag{padding:6px 12px;background:#e6efe7;border:1px solid #d1e0d6;border-radius:40px;font-size:11px;font-weight:750;color:#31574f}.step-head{display:flex;align-items:center;justify-content:space-between;gap:15px;margin:32px 0 19px}.step-head h2{font-family:Georgia,serif;font-size:clamp(25px,3vw,34px);color:var(--deep);line-height:1.18;margin:6px 0}.step-head p{margin:0;color:var(--muted);font-size:13px}.step-count{font-size:11px;font-weight:850;color:var(--teal);letter-spacing:.12em}.progress-track{height:4px;background:#dfe7dd;margin-top:10px;border-radius:9px;overflow:hidden}.progress-fill{height:100%;width:16.666%;background:var(--teal);transition:width .2s}.panel-card,.source-panel>div{border-radius:18px}.source-panel{display:none;animation:appear .18s ease-out}.source-panel.active{display:block}.source-panel>.space-y-6{display:grid;gap:22px}.source-panel>div{margin-bottom:20px}.source-panel .bg-white,.source-panel .bg-slate-900,.source-panel .bg-amber-50{background:white;border:1px solid var(--line);padding:24px;border-radius:18px;box-shadow:var(--shadow);margin-bottom:18px}.source-panel .bg-slate-900{background:#173a35;color:white;border-color:#28524a}.source-panel .bg-slate-900 p,.source-panel .bg-slate-900 strong,.source-panel .bg-slate-900 h3,.source-panel .bg-slate-900 h4{color:inherit}.source-panel .bg-amber-50{background:#fff8ec;border-left:4px solid #d59a45}.source-panel .bg-slate-50,.source-panel .bg-indigo-50\/50,.source-panel .bg-teal-50\/50,.source-panel .bg-emerald-50,.source-panel .bg-rose-50\/50{background:#f2f7f3;border:1px solid #e1e9e0;border-radius:12px;padding:14px}.source-panel .bg-slate-950{background:#0e2926;border-radius:12px;padding:12px}.source-panel .bg-emerald-950\/60{background:#134c42;border-radius:12px;padding:12px}.source-panel h2{font-family:Georgia,serif;color:var(--deep);font-size:25px;margin:0 0 6px}.source-panel h3{font-size:20px;color:var(--deep);margin:4px 0 14px}.source-panel h4{font-size:16px;color:var(--deep);margin:4px 0 10px}.source-panel p{margin:.55em 0;color:inherit}.source-panel .text-slate-500,.source-panel .text-slate-600,.source-panel .text-slate-400{color:#677c77}.source-panel .text-xs,.source-panel .text-sm{font-size:13px}.source-panel .text-\[10px\],.source-panel .text-\[9px\]{font-size:11px}.source-panel .font-bold,.source-panel .font-semibold{font-weight:780}.source-panel .font-light{font-weight:420}.source-panel .font-mono{font-family:ui-monospace,monospace}.source-panel .uppercase{text-transform:uppercase}.source-panel .italic{font-style:italic}.source-panel .text-center{text-align:center}.source-panel .text-right{text-align:right}.source-panel .text-4xl{font-size:38px;font-weight:900}.source-panel .text-5xl{font-size:49px;font-weight:900}.source-panel .rounded-full{border-radius:40px}.source-panel .grid{display:grid;gap:14px}.source-panel .grid-cols-1{grid-template-columns:1fr}.source-panel .flex{display:flex;align-items:center;gap:8px}.source-panel .flex-col{flex-direction:column}.source-panel .items-start{align-items:start}.source-panel .items-center{align-items:center}.source-panel .justify-between{justify-content:space-between}.source-panel .space-y-4>*+*{margin-top:16px}.source-panel .space-y-6>*+*{margin-top:22px}.source-panel .space-y-2>*+*{margin-top:8px}.source-panel .space-y-1>*+*{margin-top:5px}.source-panel .p-3{padding:12px}.source-panel .p-4{padding:16px}.source-panel .p-5{padding:20px}.source-panel .p-6{padding:24px}.source-panel .p-8{padding:30px}.source-panel .border-b{border-bottom:1px solid #d5e0d9}.source-panel .border-b-2{border-bottom:2px solid #31524c}.source-panel .border-l-4{border-left:4px solid #2d8f7c}.source-panel .pb-4{padding-bottom:16px}.source-panel .pb-2{padding-bottom:8px}.source-panel .pt-4{padding-top:16px}.source-panel .pt-2{padding-top:8px}.source-panel .mb-1{margin-bottom:4px}.source-panel .mt-1{margin-top:4px}.source-panel .mt-4{margin-top:16px}.source-panel .tracking-wider{letter-spacing:.04em}.source-panel .tracking-widest{letter-spacing:.09em}.source-panel .inline-block{display:inline-block}.source-panel .font-serif{font-family:Georgia,serif}.source-panel .grid>.lg\:col-span-2{grid-column:span 2}.source-panel .bg-white>h3,.source-panel .bg-white>div>h3{margin-top:0}.source-panel .relative.pl-10{padding:0;margin-bottom:12px}.source-panel .relative.pl-10>.absolute{display:none}.source-panel .before\:absolute:before{display:none}.source-panel .grid-cols-1.sm\:grid-cols-2.lg\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.source-panel .bg-white .bg-slate-50{margin:8px 0}.source-panel .bg-slate-900 .text-teal-400,.source-panel .text-emerald-400{color:#a1e7c2}.source-panel .bg-slate-900 .text-slate-400{color:#c1d8d0}.source-panel .text-amber-800,.source-panel .text-amber-900{color:#79501e}.source-panel .text-teal-900,.source-panel .text-teal-950{color:#1c5950}.source-panel .font-black{font-weight:900}.source-panel .max-w-xl{max-width:650px}
-.notice{border:1px solid #d9b781;background:#fff7e9;padding:15px 18px;border-radius:14px;color:#75521f;font-size:12px;line-height:1.65;margin-bottom:18px}.notice strong{display:block;color:#734c0f;margin-bottom:3px}.toolbox{background:white;border:1px solid var(--line);border-radius:18px;padding:22px;margin:22px 0;box-shadow:var(--shadow)}.toolbox h3{margin:0 0 6px;color:var(--deep);font-family:Georgia,serif;font-size:22px}.toolbox p{margin:0 0 16px;font-size:13px;color:var(--muted)}.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.field{display:grid;gap:6px}.field.full{grid-column:1/-1}.field label{font-size:12px;font-weight:750;color:#345c54}.field input,.field textarea{background:#fafcf9;border:1px solid #c8d8cf;border-radius:10px;padding:10px 12px;width:100%;font-size:14px;color:#243c36}.field textarea{min-height:85px;resize:vertical}.actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:17px}.action{background:var(--teal);color:white;padding:11px 16px;border:0;border-radius:10px;font-size:13px;font-weight:800}.action.secondary{background:#edf4ee;color:#235850;border:1px solid #d7e3d9}.action:hover{filter:brightness(.94)}.bottom-nav{display:flex;align-items:center;justify-content:space-between;gap:12px;border-top:1px solid var(--line);margin-top:35px;padding-top:22px}.page-footer{font-size:11px;color:#6d837b;text-align:center;padding:15px}.presentation .rail,.presentation .hero,.presentation .site-head,.presentation .page-footer{display:none}.presentation .layout{display:block;max-width:1100px}.presentation .workspace{max-width:1050px;padding:25px 38px 80px}.presentation{background:white}.presentation .step-head{margin-top:5px}.presentation .source-panel{font-size:18px}.presentation .source-panel p{font-size:17px}.presentation .source-panel .text-xs{font-size:14px}.presentation .source-panel .bg-white{box-shadow:none}.present-bar{position:fixed;bottom:18px;right:18px;z-index:50;background:var(--deep);color:white;padding:7px 9px;border-radius:50px;box-shadow:0 8px 40px #062b2699;display:none;gap:7px}.presentation .present-bar{display:flex}.present-bar button{color:white;background:transparent;border:0;padding:8px 11px;border-radius:22px;font-weight:700}.present-bar button:hover{background:#365f57}.hide{display:none!important}@keyframes appear{from{opacity:.5;transform:translateY(5px)}to{opacity:1;transform:none}}@media(min-width:850px){.source-panel .lg\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.source-panel .lg\:col-span-2{grid-column:span 2}.source-panel .md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.source-panel .md\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.source-panel .sm\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.source-panel .sm\:grid-cols-2.lg\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:850px){.layout{display:block}.rail{position:static;height:auto;border-right:none;padding:14px}.rail-title,.rail-desc,.rail-bottom{display:none}.rail-kicker{padding:0 3px;margin-bottom:8px}.menu{display:flex;overflow:auto;gap:5px}.nav-btn{min-width:165px;background:white;padding:10px}.nav-text small{display:none}.workspace{padding:0 18px 60px}.hero{padding:27px 0}.source-panel .bg-white,.source-panel .bg-slate-900,.source-panel .bg-amber-50{padding:17px}.form-grid{grid-template-columns:1fr}.site-head{padding:12px 17px}.pill-btn{padding:7px 9px}.source-panel .sm\:grid-cols-2.lg\:grid-cols-3{grid-template-columns:1fr}}@media print{.site-head,.rail,.hero,.step-head,.bottom-nav,.page-footer,.toolbox,.notice,.present-bar{display:none!important}.layout{display:block}.workspace{padding:0}.source-panel{display:none!important}.source-panel.printable{display:block!important}.source-panel.printable>div{display:block!important}.source-panel .bg-white{box-shadow:none!important;border:1px solid #888!important}.source-panel .print-area{padding:0}.source-panel .print-area .no-print{display:none!important}body{background:white} @page{size:A4;margin:12mm}}
-
-
-</style><style id="loja-cover-family">.hero{background:#102a28;color:white;margin:0 calc(-1 * clamp(22px,4vw,64px)) 0;padding:clamp(32px,5vw,66px) clamp(22px,4vw,64px) 44px;border-bottom:4px solid #e5c694}.hero .eyebrow{color:#e5c694}.hero h1{color:#fff;font-size:clamp(35px,4.8vw,64px);line-height:1.06}.hero p{color:#c8dfd5;font-size:clamp(15px,1.7vw,18px)}.hero .tag{background:#214740;border:1px solid #527367;color:#eef9f1}.hero .meta{margin-top:24px}@media(max-width:850px){.hero{margin:0 -18px;padding:30px 18px 36px}}@media print{.hero{background:white;color:#183a37;border:none}.hero h1{color:#183a37}.hero p{color:#345}}</style><style id="loja-proyeccion">
-.map-steps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin-top:12px}.map-steps>div{padding:13px 16px;border:1px solid #dce5e0;border-radius:12px;background:#f2f7f3}.map-steps strong{color:#17665a}.map-steps p{margin:6px 0 0}
-.agenda-tv{display:none}
-.presentation .site-head{display:flex!important;position:fixed;top:0;left:0;right:0;padding:9px 24px;min-height:44px;z-index:65;border-bottom:2px solid #aed8bf}
-.presentation .hero,.presentation .rail,.presentation .bottom-nav,.presentation .page-footer,.presentation nav[aria-label="Navegación del Aula"]{display:none!important}
-.presentation .layout{display:block;max-width:none;min-height:100dvh}.presentation .workspace{max-width:1500px;margin:auto;padding:55px clamp(24px,3vw,55px) 75px}
-.presentation .step-head{margin:7px 0 10px}.presentation .step-head h2{font-size:clamp(24px,2.5vw,36px);margin:2px 0}.presentation .step-head p{font-size:12px}.presentation .progress-track{margin-top:4px}.presentation .source-panel.active{margin-top:4px}
-.presentation .source-panel.active > [hidden]{display:none!important}
-.presentation .source-panel.active > div:not([hidden]){padding:clamp(15px,1.7vw,25px);margin:0;max-height:calc(100dvh - 192px);overflow:auto;scrollbar-width:thin}
-.presentation .source-panel.active > div p{font-size:clamp(14px,1.25vw,17px);line-height:1.46}
-.presentation .source-panel.active > div h2{font-size:clamp(25px,2.5vw,39px)}.presentation .source-panel.active > div h3{font-size:clamp(20px,1.8vw,27px)}
-.presentation .map-steps{grid-template-columns:repeat(2,minmax(0,1fr))}.presentation .map-steps>div{padding:12px}
-.presentation .agenda-tv{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px;padding:0!important;overflow:visible!important;max-height:none!important}
-.presentation .agenda-tv>div{background:#fff;border:1px solid #d7e5db;border-radius:12px;padding:13px 20px;display:flex;flex-direction:column;gap:3px}
-.presentation .agenda-tv small{font-size:12px;color:#167668;font-weight:800}.presentation .agenda-tv strong{font-size:clamp(16px,1.4vw,21px);color:#183a37}.presentation .agenda-tv span{color:#58716a;font-size:12px}
-.presentation .agenda-detailed,.presentation #tab-storyboard>.border-b{display:none!important}
-.presentation .present-bar{position:fixed;bottom:10px;right:15px;z-index:80;display:flex;background:#102a28}
-.presentation #local-only-banner{display:none!important}
-@media(min-width:1100px) and (max-height:900px){.presentation .agenda-tv{grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}.presentation .agenda-tv>div{padding:13px}.presentation .agenda-tv>div strong{font-size:16px}}
-@media(max-width:750px){.map-steps{grid-template-columns:1fr}.presentation .site-head{padding:8px 12px}.presentation .workspace{padding:60px 16px 80px}.presentation .agenda-tv{grid-template-columns:1fr}.presentation .source-panel.active > div:not([hidden]){max-height:calc(100dvh - 200px)}}
-@media print{.presentation .site-head{display:none!important}.agenda-tv{display:none!important}}
-</style><link rel="stylesheet" href="../assets/proyeccion-loja.css?v=20261016epi"><link rel="stylesheet" href="../assets/aula-portadas.css?v=20261015c"><script>window.__aulaEntryHash=location.hash;</script><style>.actividad-app .hero{display:none}.actividad-app .workspace{padding-top:20px}.portada-hero{padding-top:clamp(26px,4.5vw,57px)}.portada h1{font-size:clamp(37px,5.7vw,72px)}@media(min-width:1050px) and (max-height:800px){.portada .pcard{padding:18px}.portada-cursos{padding-bottom:16px}.portada-hero{padding-bottom:13px}.portada h1{font-size:clamp(38px,4.8vw,58px)}}</style><style id="loja-instituciones">
-.loja-instituciones{max-width:1300px;width:calc(100% - 36px);margin:4px auto 26px;padding:17px 20px 18px;border:1px solid #527367;border-radius:17px;background:#173f3a;color:#e9f3ec}
-.loja-instituciones h2{font:600 20px/1.25 Georgia,serif;color:#fff;margin:0 0 5px}
-.loja-instituciones>p{font-size:12px;color:#d5e7dc;margin:0 0 12px}
-.loja-entidades{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
-.loja-entidad{display:flex;align-items:center;gap:11px;min-width:0;min-height:83px;padding:12px;background:#fff;color:#173a35;border-radius:11px;text-decoration:none;border:1px solid #cde0d3}
-.loja-entidad:hover,.loja-entidad:focus-visible{border-color:#137c73;box-shadow:0 0 0 2px #b5e0cd}
-.loja-entidad img{display:block;width:75px;height:60px;object-fit:contain;flex:0 0 75px;background:#fff}.loja-entidad img[src*="FC.png"]{object-fit:cover;object-position:center}.loja-entidad img[src*="hospitales_libres_humo"]{object-fit:contain}
-.loja-entidad .loja-sigla{display:flex;align-items:center;justify-content:center;flex:0 0 65px;min-height:53px;border-radius:7px;background:#eef4ef;color:#14675f;font-weight:900;font-size:14px;letter-spacing:.035em}
-.loja-entidad strong{display:block;font-size:13px;line-height:1.23;color:#173a35}
-.loja-entidad small{display:block;color:#60746e;margin-top:5px;font-size:11px;line-height:1.3}
-.loja-instituciones .loja-aviso{margin:12px 0 0;color:#d5e7dc;font-size:11px}
-@media(max-width:860px){.loja-entidades{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:560px){.loja-instituciones{width:calc(100% - 24px);padding:13px}.loja-entidades{grid-template-columns:1fr}}
-@media print{.loja-instituciones{background:white;color:#183a37}.loja-instituciones h2,.loja-instituciones>p,.loja-instituciones .loja-aviso{color:#183a37}.loja-entidad{break-inside:avoid}}
-</style><style id="loja-portada-sin-scroll">
-/* Portada de trabajo: cabecera, entradas e identidades visibles sin scroll
-   en pantallas de proyección y escritorio habituales. */
-@media(min-width:1100px) and (min-height:680px){
- #portada-actividad{height:100dvh;min-height:0;overflow:hidden}
- #portada-actividad .portada-bar{padding-top:9px;padding-bottom:9px;flex:0 0 auto}
- #portada-actividad .portada-hero{padding:15px clamp(22px,4vw,54px) 9px;gap:20px;flex:1 1 auto;min-height:0}
- #portada-actividad h1{font-size:clamp(32px,3.7vw,53px);margin:7px 0 10px}
- #portada-actividad .portada-hero p{font-size:clamp(13px,1.12vw,16px);line-height:1.4}
- #portada-actividad .fecha{margin-top:10px;padding:5px 11px}
- #portada-actividad .form-art{padding:11px 17px;transform:none;max-width:390px}
- #portada-actividad .form-art .fr{padding:4px 0}
- #portada-actividad .portada-cursos{padding-top:7px;padding-bottom:8px;gap:12px;flex:0 0 auto}
- #portada-actividad .pcard{min-height:0;padding:14px 19px}
- #portada-actividad .pcard h2{margin:4px 0;font-size:clamp(19px,1.8vw,25px)}
- #portada-actividad .pcard p{font-size:13px;line-height:1.35;margin:6px 0}
- #portada-actividad .pcard .units{margin:7px 0}
- #portada-actividad .loja-instituciones{margin:4px auto 7px;padding:8px 11px 9px;flex:0 0 auto}
- #portada-actividad .loja-instituciones h2{font-size:15px;margin:0 0 5px}
- #portada-actividad .loja-instituciones>p:not(.loja-aviso){display:none}
- #portada-actividad .loja-entidades{grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}
- #portada-actividad .loja-entidad{padding:7px;min-height:63px;gap:6px}
- #portada-actividad .loja-entidad img{width:43px;height:43px;flex-basis:43px}
- #portada-actividad .loja-entidad .loja-sigla{flex-basis:43px;min-height:43px;font-size:11px}
- #portada-actividad .loja-entidad strong{font-size:11px;line-height:1.15}
- #portada-actividad .loja-entidad small{display:none}
- #portada-actividad .loja-aviso{display:none}
- #portada-actividad .portada-pie{padding-top:7px;padding-bottom:7px;flex:0 0 auto}
-}
-@media(min-width:1100px) and (min-height:680px) and (max-height:790px){
- #portada-actividad .portada-hero{padding-top:8px;padding-bottom:4px}
- #portada-actividad .form-art .fr:nth-last-child(2){display:none}
- #portada-actividad .pcard p{display:none}
- #portada-actividad .portada-cursos{padding:3px clamp(18px,5vw,64px) 5px}
-}
-@media(min-width:1100px) and (min-height:680px) {
- body:has(#portada-actividad:not([hidden])){overflow:hidden}
-}
-</style><style id="loja-itinerario-viewport">
-/* El menú completo es accesible sin desplazamiento en pantallas habituales.
-   En alturas muy limitadas se permite scroll para no ocultar opciones. */
-@media(min-width:851px){
- .actividad-app .rail{padding:12px 10px;top:65px;display:flex;flex-direction:column;gap:0}
- .actividad-app .rail-kicker{font-size:10px;margin-bottom:2px}
- .actividad-app .rail-title{font-size:19px;line-height:1.08;margin:3px 10px 4px}
- .actividad-app .rail-desc{font-size:11px;margin:0 10px 10px}
- .actividad-app .menu{gap:3px}
- .actividad-app .nav-btn{padding:7px 8px;gap:7px}
- .actividad-app .nav-text{font-size:12px;line-height:1.18}
- .actividad-app .nav-text small{font-size:10px;line-height:1.2;margin-top:2px}
- .actividad-app .rail-bottom{margin-top:10px;padding:9px 10px}
-}
-@media(min-width:851px) and (max-height:850px){
- .actividad-app .rail{padding-top:8px;padding-bottom:8px}
- .actividad-app .rail-desc{display:none}
- .actividad-app .rail-title{font-size:17px;margin-bottom:8px}
- .actividad-app .nav-btn{padding:6px 7px}
- .actividad-app .nav-text small{display:none}
- .actividad-app .rail-bottom{display:none}
-}
-#tab-storyboard .agenda-tv{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
-#tab-storyboard .agenda-tv>div{display:flex;flex-direction:column;gap:2px;background:#fff;border:1px solid #dce5e0;border-radius:11px;padding:10px 13px}
-#tab-storyboard .agenda-tv small{font-size:11px;font-weight:850;color:#137c73}
-#tab-storyboard .agenda-tv strong{font-size:14px;line-height:1.22;color:#183a37}
-#tab-storyboard .agenda-tv span{font-size:11px;color:#617574}
-#tab-storyboard .agenda-detailed{display:none}
-#tab-storyboard .agenda-detailed.expanded{display:block}
-#tab-storyboard .agenda-detail-toggle{margin:13px 0 4px;background:#e8f4ef;border:1px solid #b8d7c8;border-radius:10px;color:#1a5349;padding:10px 14px;font-size:13px;font-weight:750;cursor:pointer}
-#tab-storyboard .agenda-detail-toggle:focus-visible{outline:3px solid #edb957;outline-offset:3px}
-@media(max-width:640px){#tab-storyboard .agenda-tv{grid-template-columns:1fr}}
-@media(min-width:851px) and (max-height:820px){
- .actividad-app .workspace{padding-top:10px}
- .actividad-app .step-head{margin-top:12px;margin-bottom:8px}
- .actividad-app .step-head h2{font-size:26px}
- #tab-storyboard>.border-b{padding-bottom:7px}
- #tab-storyboard>.border-b h2{font-size:20px;margin-bottom:3px}
- #tab-storyboard>.border-b p{font-size:12px}
- #tab-storyboard .agenda-tv>div{padding:7px 11px}
- #tab-storyboard .agenda-tv strong{font-size:13px}
-}
-.presentation #tab-storyboard .agenda-detail-toggle{display:none!important}
-</style><style id="loja-itinerario-unificado">
-/* Única regla del itinerario en escritorio: 7 momentos, sin zoom ni espacios artificiales.
-   No modifica el resto de apartados del taller. */
-@media (min-width:900px) and (min-height:640px){
- body.loja-agenda-pantalla:not(.presentation){overflow:hidden}
- body.loja-agenda-pantalla:not(.presentation) #actividad-app{height:100dvh;display:flex;flex-direction:column;overflow:hidden}
- body.loja-agenda-pantalla:not(.presentation) #actividad-app>nav[aria-label="Navegación del Aula"]{display:none}
- body.loja-agenda-pantalla:not(.presentation) .site-head{height:54px;min-height:0;flex:0 0 54px;position:relative;top:auto;padding:7px 22px}
- body.loja-agenda-pantalla:not(.presentation) .layout{display:grid;flex:1 1 auto;min-height:0;height:auto;max-height:none;grid-template-columns:240px minmax(0,1fr);width:100%}
- body.loja-agenda-pantalla:not(.presentation) .rail{position:relative;top:auto;align-self:stretch;height:auto;min-height:0;overflow:hidden;padding:8px}
- body.loja-agenda-pantalla:not(.presentation) .rail-title,
- body.loja-agenda-pantalla:not(.presentation) .rail-desc,
- body.loja-agenda-pantalla:not(.presentation) .rail-bottom{display:none}
- body.loja-agenda-pantalla:not(.presentation) .rail-kicker{padding:4px 8px 9px;font-size:10px}
- body.loja-agenda-pantalla:not(.presentation) .rail .menu{display:grid;grid-template-rows:repeat(8,minmax(0,1fr));height:calc(100% - 27px);gap:3px}
- body.loja-agenda-pantalla:not(.presentation) .nav-btn{padding:5px 8px;align-items:center;min-height:0;gap:8px}
- body.loja-agenda-pantalla:not(.presentation) .nav-text{font-size:12px;line-height:1.15}
- body.loja-agenda-pantalla:not(.presentation) .nav-text small{display:none}
- body.loja-agenda-pantalla:not(.presentation) .workspace{display:flex;flex-direction:column;height:100%;min-height:0;max-width:none;padding:10px clamp(15px,2vw,32px) 12px!important;overflow:hidden}
- body.loja-agenda-pantalla:not(.presentation) .workspace>.hero,
- body.loja-agenda-pantalla:not(.presentation) .workspace>.step-head,
- body.loja-agenda-pantalla:not(.presentation) .workspace>.progress-track,
- body.loja-agenda-pantalla:not(.presentation) .workspace>div[style*="height:22px"],
- body.loja-agenda-pantalla:not(.presentation) .workspace>.bottom-nav,
- body.loja-agenda-pantalla:not(.presentation) .workspace>.page-footer{display:none!important}
- body.loja-agenda-pantalla:not(.presentation) #tab-storyboard{display:flex!important;flex-direction:column;flex:1;min-height:0;margin:0;overflow:hidden}
- body.loja-agenda-pantalla:not(.presentation) #tab-storyboard>.border-b{padding:0 0 5px;flex:0 0 auto}
- body.loja-agenda-pantalla:not(.presentation) #tab-storyboard>.border-b h2{font-size:clamp(23px,3vh,31px);margin:0 0 3px}
- body.loja-agenda-pantalla:not(.presentation) #tab-storyboard>.border-b p{font-size:12px;margin:0;line-height:1.35}
- body.loja-agenda-pantalla:not(.presentation) #tab-storyboard .agenda-tv{
-   display:grid!important;flex:1 1 auto;min-height:0;margin:10px 0!important;
-   grid-template-columns:minmax(0,1fr);grid-template-rows:repeat(7,minmax(0,1fr));
-   gap:clamp(5px,.8vh,9px);padding:0
- }
- body.loja-agenda-pantalla:not(.presentation) #tab-storyboard .agenda-tv>div{
-   display:grid;grid-template-columns:clamp(112px,13vw,164px) minmax(0,1fr);
-   grid-template-rows:auto auto auto;align-content:center;column-gap:clamp(12px,2vw,25px);
-   row-gap:2px;min-height:0;padding:6px clamp(14px,1.8vw,24px);
-   background:#fff;border:1px solid #d0e0d7;border-radius:10px
- }
- body.loja-agenda-pantalla:not(.presentation) #tab-storyboard .agenda-tv small{
-   grid-column:1;grid-row:1 / 3;align-self:center;
-   font-size:clamp(12px,1.7vh,15px);font-weight:800;white-space:nowrap;color:#14675f
- }
- body.loja-agenda-pantalla:not(.presentation) #tab-storyboard .agenda-tv strong{
-   grid-column:2;grid-row:1;font-size:clamp(15px,2vh,19px);line-height:1.18;color:#183a37
- }
- body.loja-agenda-pantalla:not(.presentation) #tab-storyboard .agenda-tv span{
-   grid-column:2;grid-row:2;font-size:clamp(11px,1.55vh,14px);line-height:1.2;color:#526c63
- }
- body.loja-agenda-pantalla:not(.presentation) #tab-storyboard .agenda-tv .loja-itin-brief{grid-column:2;grid-row:3;font-style:normal;font-size:clamp(11px,1.55vh,13px);line-height:1.25;color:#476359}
- body.loja-agenda-pantalla:not(.presentation) #tab-storyboard .agenda-tv .loja-itin-brief a{font-weight:700;color:#11695d;text-decoration:underline}
- body.loja-agenda-pantalla:not(.presentation) #tab-storyboard .agenda-detail-toggle{
-   flex:0 0 auto;align-self:flex-start;margin:0 0 3px;padding:8px 12px
- }
- body.loja-agenda-pantalla:not(.presentation) #tab-storyboard .agenda-detailed.expanded{display:block;flex:1;min-height:0;overflow-y:auto}
- body.loja-agenda-pantalla:not(.presentation) #tab-storyboard:has(.agenda-detailed.expanded) .agenda-tv{display:none!important}
-}
-@media (min-width:900px) and (min-height:640px) and (max-height:710px){
- body.loja-agenda-pantalla:not(.presentation) #tab-storyboard .agenda-tv{gap:5px;margin:6px 0!important}
- body.loja-agenda-pantalla:not(.presentation) #tab-storyboard .agenda-tv>div{padding-top:3px;padding-bottom:3px}
-}
-</style><style id="loja-itin-detalle-inbreve">#tab-storyboard .agenda-tv .loja-itin-brief{display:block;font-size:12px;line-height:1.35;color:#526c63;font-style:normal;margin-top:3px}#tab-storyboard .agenda-tv .loja-itin-brief a{color:#11695d;font-weight:700}</style><style id="loja-sesion-2-acceso">
-.loja-segunda-sesion{max-width:1300px;width:calc(100% - 36px);margin:10px auto 24px;border:1px solid #a4c8b8;border-left:5px solid #137c73;border-radius:14px;background:#e8f4ef;color:#183c35;padding:18px 22px;display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}
-.loja-segunda-sesion h2{font:700 clamp(20px,2.8vw,25px)/1.25 Georgia,serif;color:#173d32;margin:7px 0}
-.loja-segunda-sesion p{margin:0 0 9px;font-size:14px;max-width:760px}
-.loja-segunda-kicker{color:#166655;text-transform:uppercase;font-size:11px;letter-spacing:.1em;font-weight:900}
-.loja-segunda-aviso{color:#476c61;font-size:12px}
-.loja-segunda-enlace{flex:0 0 auto;text-decoration:none;background:#137c73;color:#fff;padding:12px 16px;border-radius:11px;font-size:13px;font-weight:800}
-.loja-segunda-enlace:hover{background:#0d6158}
-@media(max-width:560px){.loja-segunda-sesion{width:calc(100% - 24px);padding:14px;align-items:stretch}.loja-segunda-enlace{width:100%;text-align:center}}
-</style></head><body><section class="portada" id="portada-actividad" data-module="loja" aria-label="Portada del Taller de reimpulso de Loja" style="--cover-accent:#aed8bf">
-<div class="portada-bar"><strong>AULA · SALUD COMUNITARIA</strong><a href="../index.html">← Aula principal</a></div>
-<div class="portada-hero"><div><div class="p-kicker">Acción local en salud · RELAS · 2026</div><h1>Reimpulso del I Plan Local de Salud <span>Loja</span></h1><p>Encuentro para revisar antecedentes, situación de salud, participación comunitaria y opciones de continuidad del proceso local.</p><span class="fecha">16 de octubre · 10:00–11:30 · 90 minutos</span></div>
-<div class="form-art" aria-hidden="true"><div class="fh"><span>PROCESO LOCAL DE SALUD</span><span>LOJA</span></div><div class="fr"><b>Situación</b><span>Informe de salud</span></div><div class="fr"><b>Antecedentes</b><span>Trayectoria RELAS</span></div><div class="fr"><b>Participación</b><span>Actores y sectores</span></div><div class="fr"><b>Activos</b><span>Propuestas de mapeo</span></div><div class="br">Información · Diálogo · Continuidad</div></div></div>
-<div class="portada-cursos"><article class="pcard"><div class="lv">Encuentro · 90 minutos</div><h2>Programa y contenidos</h2><p>Intervenciones, mesa-coloquio, antecedentes del plan y marco de trabajo comunitario.</p><div class="units"><span>Programa</span><span>Situación de salud</span><span>RELAS</span></div><a class="cta" href="#diagnostico" data-cover-open="0">Entrar al taller →</a></article>
-<article class="pcard"><div class="lv">Trabajo participativo</div><h2>Actores, sectores y mapeos</h2><p>Consulta exploratoria sobre sectores y actores, junto con propuestas de mapeo escolar y territorial. La ficha no envía respuestas al equipo.</p><div class="units"><span>Ficha provisional</span><span>Mapeo escolar</span><span>Redes comunitarias</span></div><a class="cta" href="#ficha" data-cover-open="4">Abrir trabajo práctico →</a></article></div>
-<aside class="loja-segunda-sesion" aria-labelledby="loja-segunda-titulo">
-  <div><span class="loja-segunda-kicker">Siguiente encuentro del Grupo Motor · en preparación</span>
-  <h2 id="loja-segunda-titulo">Sesión 2 · Mapeo de activos y priorización</h2>
-  <p>Planificar procesos participativos de mapeo y revisión uno a uno de recursos pendientes, y decidir cómo revisar o actualizar la priorización histórica de Loja.</p>
-  <span class="loja-segunda-aviso">Fecha por confirmar · Guion de trabajo provisional</span></div>
-  <a href="sesion-2.html" class="loja-segunda-enlace">Abrir segunda sesión →</a>
-</aside>
-<section class="loja-instituciones" aria-labelledby="loja-instituciones-titulo">
-<h2 id="loja-instituciones-titulo">Instituciones y redes de referencia</h2>
-<p>Referencias de ámbito municipal y sanitario para contextualizar el taller. No se muestran logotipos porque no se han contrastado sus archivos oficiales ni sus condiciones de uso. Su mención no supone organización, participación, adhesión o acreditación.</p>
-<div class="loja-entidades">
-<div class="loja-entidad"><span><strong>Ayuntamiento de Loja</strong><small>Administración municipal</small></span></div>
-<div class="loja-entidad"><span><strong>Hospital de Alta Resolución de Loja</strong><small>Ámbito sanitario</small></span></div>
-<div class="loja-entidad"><span><strong>Distrito Sanitario Granada–Metropolitano</strong><small>Atención Primaria</small></span></div>
-<div class="loja-entidad"><span><strong>Centros Comprometidos contra la Violencia de Género</strong><small>Programa de referencia</small></span></div>
-<div class="loja-entidad"><span><strong>Red Andaluza de Servicios Sanitarios y Espacios Libres de Humo</strong><small>Red de referencia</small></span></div>
-</div>
-</section>
-<div class="portada-pie"><span>Taller de reimpulso del I Plan Local de Salud de Loja</span><a href="../index.html">Volver al Aula →</a></div></section><div class="actividad-app" id="actividad-app" hidden><nav aria-label="Navegación del Aula" style="background:#123832;padding:10px 18px;font:600 14px system-ui,sans-serif"><a href="/aula-activos-comunitarios/" style="color:#fff;text-decoration:none">← Volver al Aula de salud comunitaria basada en activos</a></nav><a href="#main" class="skip">Ir al contenido</a><header class="site-head"><a class="identity" href="#inicio">TALLER DE REIMPULSO <span style="font-weight:400;opacity:.7">· LOJA</span></a><div class="head-actions"><button class="pill-btn" type="button" data-return-cover>← Portada del taller</button><button class="pill-btn" id="loja-home" type="button">⌂ Inicio</button><button class="pill-btn" id="loja-back" type="button">← Volver</button><button class="pill-btn" id="present">▣ Presentar</button></div></header><div class="layout"><aside class="rail"><div class="rail-kicker">RELAS · Loja · 16.10.2026</div><div class="rail-title">De la información<br> a la acción local</div><p class="rail-desc">Programa y documentación de la sesión.</p><nav class="menu" aria-label="Apartados del taller"><button type="button" class="nav-btn active" data-go="0" aria-current="step"><span class="nav-num">01</span><span class="nav-text">Apertura institucional<small>Inicio del encuentro y orden de intervenciones</small></span></button><button type="button" class="nav-btn" data-go="1" aria-current="false"><span class="nav-num">02</span><span class="nav-text">Itinerario · 90 min<small>Siete momentos de la reunión</small></span></button><button type="button" class="nav-btn" data-go="2" aria-current="false"><span class="nav-num">03</span><span class="nav-text">Moderación<small>Preguntas para abrir el diálogo entre sectores</small></span></button><button type="button" class="nav-btn" data-go="3" aria-current="false"><span class="nav-num">04</span><span class="nav-text">Antecedentes y salutogénesis<small>Punto de partida, proceso RELAS y activos para la salud</small></span></button><button type="button" class="nav-btn" data-go="4" aria-current="false"><span class="nav-num">05</span><span class="nav-text">Actores y sectores<small>Listado personal de propuestas</small></span></button><button type="button" class="nav-btn" data-go="5" aria-current="false"><span class="nav-num">06</span><span class="nav-text">Estudios complementarios<small>Ampliar el Perfil de Salud Local</small></span></button><button type="button" class="nav-btn" data-go="6" aria-current="false"><span class="nav-num">07</span><span class="nav-text">Mapeo escolar<small>Entorno educativo y fotografía participativa</small></span></button><button type="button" class="nav-btn" data-go="7" aria-current="false"><span class="nav-num">08</span><span class="nav-text">Mapeo comunitario<small>Barrios y redes de apoyo</small></span></button></nav><div class="rail-bottom">16 de octubre de 2026 · Loja</div></aside><main class="workspace" id="main"><section class="hero" id="inicio"><span class="eyebrow">I Plan Local de Salud de Loja · RELAS</span><h1>Taller de reimpulso del<br>I Plan Local de Salud de Loja</h1><p>Un espacio de trabajo para relacionar los antecedentes y la situación de salud de Loja con los sectores y actores comunitarios que pueden participar en la continuidad del plan.</p><div class="meta"><span class="tag">16 de octubre de 2026</span><span class="tag">10:00–11:30 · 90 minutos</span><span class="tag">7 momentos de la sesión</span><span class="tag">Participación comunitaria</span></div></section><div class="step-head"><div><span class="step-count" id="counter">01 / 08</span><h2 id="step-title">Apertura institucional</h2><p id="step-subtitle">Inicio del encuentro y orden de intervenciones</p></div></div><div class="progress-track" role="progressbar" aria-label="Progreso de navegación" aria-valuemin="1" aria-valuemax="8" aria-valuenow="1" id="progress"><div class="progress-fill" id="progress-fill"></div></div><div style="height:22px"></div><div class="source-panel" data-section="0" id="tab-diagnostico"><div class="bg-white p-6 rounded-2xl border border-slate-200"><span class="eyebrow">16 de octubre de 2026 · 10:00–11:30</span><h2>Apertura institucional y objetivos de la jornada</h2><p>La apertura corresponde a la representación municipal participante. Sergio Díaz Sánchez conduce la sesión y presenta las intervenciones.</p><p><strong>Objetivos:</strong> conocer el informe de situación de salud de Loja, recuperar la trayectoria del Plan Local de Salud, escuchar a los sectores participantes e identificar nuevas alianzas para darle continuidad.</p><p>El programa prevé la presentación del informe de situación de salud a cargo de M. Carlos del Moral Campaña.</p></div></div><div class="source-panel" data-section="1" id="tab-storyboard"><div class="border-b border-slate-200 pb-4"><h2>Programa de la sesión</h2><p>Propuesta de distribución de los 90 minutos. Los tiempos son orientativos y podrán ajustarse durante la reunión.</p></div><div class="agenda-tv" aria-label="Programa resumido para proyección">
-<div><small>10:00–10:10</small><strong>Apertura institucional</strong><span>Representación municipal</span><em class="loja-itin-brief">Bienvenida municipal y propósito del encuentro.</em></div>
-<div><small>10:10–10:15</small><strong>Conducción de la sesión</strong><span>Sergio Díaz Sánchez</span><em class="loja-itin-brief">Presentación de objetivos, dinámica y orden de intervenciones.</em></div>
-<div><small>10:15–10:30</small><strong>Situación de salud de Loja</strong><span>M. Carlos del Moral Campaña</span><em class="loja-itin-brief">Informe actualizado. <a href="./materiales/Presentacion_Loja_2026.pdf" target="_blank" rel="noopener noreferrer">Abrir diapositivas originales (PDF) ↗</a></em></div>
-<div><small>10:30–10:50</small><strong>Mesa-coloquio</strong><span>Intercambio intersectorial</span><em class="loja-itin-brief">Diálogo abierto para contrastar perspectivas y oportunidades de colaboración.</em></div>
-<div><small>10:50–11:10</small><strong>Antecedentes y salutogénesis</strong><span>Proceso RELAS y activos</span><em class="loja-itin-brief">Antecedentes del plan, proceso RELAS y enfoque de activos para la salud.</em></div>
-<div><small>11:10–11:25</small><strong>Identificación de actores y sectores</strong><span>Trabajo práctico</span><em class="loja-itin-brief">Identificación participativa de sectores y tipos de actores a incorporar.</em></div>
-<div><small>11:25–11:30</small><strong>Puesta en común y cierre</strong><span>Próximos pasos por acordar</span><em class="loja-itin-brief">Síntesis y posibles próximos pasos, pendientes de acordar.</em></div>
-</div><button class="agenda-detail-toggle" type="button" aria-controls="loja-agenda-detalle" aria-expanded="false" id="loja-agenda-toggle">Ver programa detallado ↓</button><div class="agenda-detailed" id="loja-agenda-detalle" style="margin-top:12px"><div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm" style="margin-bottom:14px"><div class="eyebrow">01 · 10:00–10:10</div><h3>Apertura institucional</h3><p><strong>Participación institucional:</strong> representación municipal de las áreas de Salud, Deportes y Bienestar Social (asistencia y orden de palabra pendientes de confirmación)</p><p>Bienvenida y presentación del propósito del encuentro y de la continuidad del I Plan Local de Salud de Loja.</p></div>
-<div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm" style="margin-bottom:14px"><div class="eyebrow">02 · 10:10–10:15</div><h3>Introducción y conducción de la sesión</h3><p><strong>Intervienen:</strong> Sergio Díaz Sánchez · Enfermería familiar y comunitaria</p><p>Presentación del orden de la reunión, sus objetivos y participantes. Da paso a la exposición del informe de salud.</p></div>
-<div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm" style="margin-bottom:14px"><div class="eyebrow">03 · 10:15–10:30</div><h3>Informe sobre la situación de salud de Loja</h3><p><strong>Intervienen:</strong> M. Carlos del Moral Campaña · Epidemiólogo</p><p>Exposición del informe actualizado mediante su presentación original de 14 diapositivas, que se conserva íntegramente.</p><p><a href="./materiales/Presentacion_Loja_2026.pdf" target="_blank" rel="noopener noreferrer">Abrir presentación original (PDF) ↗</a> · <a href="./materiales/Presentacion_Loja.odp" target="_blank" rel="noopener noreferrer">Descargar versión editable (ODP) ↗</a></p></div>
-
-<div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm" style="margin-bottom:14px"><div class="eyebrow">04 · 10:30–10:50</div><h3>Mesa-coloquio intersectorial</h3><p><strong>Intervienen:</strong> Participantes convocados · Conducción: enfermero comunitario</p><p>Diálogo mediante preguntas abiertas sobre la situación de salud, la experiencia de los servicios y las perspectivas de actuación conjunta.</p></div>
-<div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm" style="margin-bottom:14px"><div class="eyebrow">05 · 10:50–11:10</div><h3>Punto de partida de Loja y cambio de paradigma hacia la salutogénesis</h3><p><strong>Interviene:</strong> Blas Hermoso</p><p>Presentación de los antecedentes documentados de Loja, el Perfil de Salud Local de 2022, el trabajo previo del Grupo Motor y el informe actualizado. Explicación del ciclo RELAS: diagnosticar, perfilar, priorizar, planificar, elaborar y evaluar. Cambio de paradigma hacia la salutogénesis y los activos para la salud, con distinción entre lo documentado y las tareas pendientes.</p></div>
-<div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm" style="margin-bottom:14px"><div class="eyebrow">06 · 11:10–11:25</div><h3>Trabajo práctico: actores y sectores para la participación</h3><p><strong>Dinamizan:</strong> Sergio Díaz Sánchez y Blas Hermoso</p><p>Desde sus teléfonos, las personas participantes elaboran un listado de sectores y tipos de actores que convendría incorporar, sin recoger datos personales.</p></div>
-<div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm" style="margin-bottom:14px"><div class="eyebrow">07 · 11:25–11:30</div><h3>Puesta en común y cierre</h3><p><strong>Intervienen:</strong> Conducción de la sesión y participantes</p><p>Síntesis de las aportaciones, identificación de posibles siguientes pasos y cierre de la sesión, sin atribuir acuerdos no adoptados.</p></div></div></div><div class="source-panel" data-section="2" id="tab-moderador">
-<div class="border-b border-slate-200 pb-4">
-<h2 class="text-xl font-bold text-slate-900 font-serif">Guion de Sergio · Mesa-coloquio intersectorial</h2>
-<p class="text-xs text-slate-500">10:30–10:50 · 20 minutos. Preguntas orientativas, adaptables a los interlocutores efectivamente presentes. No atribuir datos o compromisos no verificados.</p>
-</div>
-<div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">
-<h3>Clave de moderación: del dato a la acción compartida</h3>
-<p><strong>Objetivo:</strong> escuchar qué preocupa, qué protege la salud, con qué redes contamos y qué sería útil contrastar con la población. Pedir ejemplos concretos, sin convertir propuestas en acuerdos.</p>
-<div class="grid grid-cols-1 md:grid-cols-2">
-<div class="p-4 bg-slate-50"><strong>10:30–10:32 · Puente con el informe</strong><p>«Gracias por la exposición. Los datos nos ayudan a describir la situación de salud; para interpretarlos necesitamos también el conocimiento de los servicios y de quienes viven en Loja. Me gustaría escuchar distintas miradas y después identificar cuestiones que merezcan trabajo conjunto».</p></div>
-<div class="p-4 bg-slate-50"><strong>10:32–10:44 · Tres voces (4 min cada una)</strong><p>Una pregunta principal por interlocución y una repregunta breve. Si falta alguien, redistribuir el tiempo sin atribuirle palabras.</p></div>
-<div class="p-4 bg-slate-50"><strong>10:44–10:48 · Conexión entre sectores</strong><p>Buscar un punto de encuentro, una barrera y una oportunidad de incorporar voces vecinales.</p></div>
-<div class="p-4 bg-slate-50"><strong>10:48–10:50 · Síntesis</strong><p>Devolver tres ideas: conocimiento existente, información por contrastar y propuesta de colaboración a valorar.</p></div>
-</div>
-</div>
-<div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">
-<h3>Preguntas principales y repreguntas de apoyo</h3>
-<div class="p-4 bg-slate-50 rounded-xl border-l-4 border-indigo-500"><p><strong>1 · Dirección del hospital y Atención Primaria</strong></p><p><em>«Desde la atención sanitaria, ¿qué problemas o situaciones observáis que no se entienden del todo mirando únicamente los indicadores, y qué capacidades de la comunidad podrían contribuir a abordarlos?»</em></p><p><strong>Repregunta:</strong> «¿Podéis compartir un ejemplo de colaboración ya existente —o de una oportunidad concreta— entre servicios sanitarios, municipio y asociaciones?»</p></div>
-<div class="p-4 bg-slate-50 rounded-xl border-l-4 border-indigo-500"><p><strong>2 · Salud Mental Comunitaria</strong></p><p><em>«Además de la demanda asistencial, ¿qué sabemos —y qué desconocemos— sobre la soledad, los vínculos cotidianos y los apoyos comunitarios que influyen en el bienestar emocional en Loja?»</em></p><p><strong>Repregunta:</strong> «¿Con qué colectivos sería imprescindible contrastar estas percepciones, procurando escuchar también a quienes participan menos?»</p></div>
-<div class="p-4 bg-slate-50 rounded-xl border-l-4 border-indigo-500"><p><strong>3 · Trabajo Social y Enfermería Referente Escolar</strong></p><p><em>«Desde el contacto con familias, centros educativos y población vulnerable, ¿qué barreras y qué recursos comunitarios estáis encontrando para cuidar la salud y el bienestar?»</em></p><p><strong>Repregunta:</strong> «¿Qué oportunidad concreta veis para escuchar a alumnado, familias y profesionales, sin dar por supuesto que conocemos sus prioridades?»</p></div>
-</div>
-<div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4">
-<h3>Preguntas puente y cierre</h3>
-<p><strong>Para el diálogo conjunto:</strong> «¿Dónde coinciden vuestras miradas y dónde aparecen diferencias que deberíamos investigar antes de actuar?»</p>
-<p><strong>Para conectar con activos:</strong> «¿Qué personas, espacios, asociaciones o redes funcionan ya como apoyo, y cómo comprobaríamos con la comunidad que realmente son activos para su salud?»</p>
-<p><strong>Para concretar sin anticipar acuerdos:</strong> «Si solo pudiéramos dar un primer paso después de esta mesa, ¿qué cuestión debería contrastarse y con quién?»</p>
-<p><strong>Cierre sugerido de Sergio:</strong> «No hemos venido a cerrar hoy un diagnóstico ni un plan. Nos llevamos información y miradas que habrá que contrastar, voces que incorporar y posibles líneas de colaboración. Lo siguiente será distinguir qué está documentado, qué debemos preguntar a la comunidad y qué corresponde acordar en el proceso local».</p>
-<p class="text-xs text-slate-500"><strong>Reglas de conducción:</strong> pedir ejemplos antes que generalidades; evitar atribuir causalidad a un indicador aislado; hablar de personas y capacidades, no solo de déficits; no pedir ni mostrar datos personales; si hay discrepancias, registrarlas como cuestiones a contrastar. El tiempo es orientativo.</p>
-</div>
-</div><div class="source-panel" data-section="3" id="tab-ponencia">
-<div class="bg-white p-6 rounded-2xl border border-slate-200"><span class="eyebrow">Trayectoria del I Plan Local de Salud</span><h2>Loja: recuperar una trayectoria y abrir una nueva etapa</h2><p>La sesión retoma un trabajo local iniciado años atrás. Estos son los principales hitos que constan en la documentación histórica revisada.</p></div>
-<div class="bg-white p-6 rounded-2xl border border-slate-200">
-<h3>Hitos documentados</h3>
-<div style="display:grid;gap:12px">
-<div style="display:grid;grid-template-columns:minmax(80px,105px) 1fr;gap:14px;align-items:start;border-left:4px solid #137c73;padding:13px;background:#f2f7f3;border-radius:9px"><strong style="color:#145b4f">2009–2010</strong><div><strong>Primer Perfil de Salud Local</strong><p style="margin:5px 0 0">El expediente conserva la primera parte del perfil de salud local.</p></div></div><div style="display:grid;grid-template-columns:minmax(80px,105px) 1fr;gap:14px;align-items:start;border-left:4px solid #137c73;padding:13px;background:#f2f7f3;border-radius:9px"><strong style="color:#145b4f">2019</strong><div><strong>Actualización de indicadores</strong><p style="margin:5px 0 0">Se actualizaron indicadores sociodemográficos. En noviembre se presentó públicamente la situación del plan, junto con los trabajos de encuesta y la campaña de adhesión al propio PLAS (memoria municipal de actividades de 2019).</p></div></div><div style="display:grid;grid-template-columns:minmax(80px,105px) 1fr;gap:14px;align-items:start;border-left:4px solid #137c73;padding:13px;background:#f2f7f3;border-radius:9px"><strong style="color:#145b4f">2020</strong><div><strong>Actualización del perfil y consulta ciudadana</strong><p style="margin:5px 0 0">La consulta ciudadana reunió 164 respuestas de identificación sectorial; 161 respuestas figuran en el análisis de problemas percibidos. Destacaron adicciones (108 menciones), desempleo (77), falta de espacios verdes y públicos (70), alimentación no saludable (68) y limpieza viaria (65). Son resultados de consulta, no una priorización acordada.</p></div></div><div style="display:grid;grid-template-columns:minmax(80px,105px) 1fr;gap:14px;align-items:start;border-left:4px solid #137c73;padding:13px;background:#f2f7f3;border-radius:9px"><strong style="color:#145b4f">2021</strong><div><strong>Grupo Motor: revisión del plan</strong><p style="margin:5px 0 0">Las actas de febrero, marzo y abril documentan la actualización del perfil, encuestas, priorización y elaboración del plan de acción. Se plantearon mesas de trabajo, especialmente de vida activa y medio ambiente.</p></div></div><div style="display:grid;grid-template-columns:minmax(80px,105px) 1fr;gap:14px;align-items:start;border-left:4px solid #137c73;padding:13px;background:#f2f7f3;border-radius:9px"><strong style="color:#145b4f">2022</strong><div><strong>Priorización participativa</strong><p style="margin:5px 0 0">El resumen histórico menciona 40 participantes y 26 problemas valorados. El expediente de Drive conserva 32 hojas manuscritas de valoración de esos 26 asuntos mediante magnitud, severidad y efectividad (método Hanlon). Son puntuaciones individuales; no consta en estos archivos una tabla de consenso o acuerdo final.</p></div></div><div style="display:grid;grid-template-columns:minmax(80px,105px) 1fr;gap:14px;align-items:start;border-left:4px solid #137c73;padding:13px;background:#f2f7f3;border-radius:9px"><strong style="color:#145b4f">2022</strong><div><strong>Borrador del plan de acción</strong><p style="margin:5px 0 0">Se elaboró un borrador de líneas de trabajo a partir del proceso previo.</p></div></div><div style="display:grid;grid-template-columns:minmax(80px,105px) 1fr;gap:14px;align-items:start;border-left:4px solid #137c73;padding:13px;background:#f2f7f3;border-radius:9px"><strong style="color:#145b4f">2026</strong><div><strong>Reimpulso del Plan Local de Salud</strong><p style="margin:5px 0 0">Nueva sesión intersectorial para recuperar antecedentes, actualizar la participación y acordar los siguientes pasos.</p></div></div>
-</div><p class="text-xs text-slate-500">Cronología elaborada a partir del expediente histórico. Fuentes: memoria municipal de actividades de 2019, análisis de encuestas, actas del Grupo Motor de 2021 y plantillas individuales de priorización. La fecha de adhesión formal a RELAS y un acuerdo final de prioridades siguen pendientes de acreditación.</p>
-</div>
-<div class="bg-white p-6 rounded-2xl border border-slate-200"><span class="eyebrow">Una trayectoria, un intervalo y una nueva etapa</span><h3>¿Por qué reimpulsar y no empezar de cero?</h3>
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:16px">
-<div style="padding:18px;background:#e8f4ef;border-radius:12px;border-top:4px solid #137c73"><strong>1 · Trabajo acumulado</strong><p>Loja elaboró perfiles, consultó a la ciudadanía, mantuvo un Grupo Motor, desarrolló actividades y trabajó en la priorización y la planificación. Esa experiencia colectiva es el punto de partida.</p></div>
-<div style="padding:18px;background:#f6f5ef;border-radius:12px;border-top:4px solid #a48d5e"><strong>2 · Un periodo de discontinuidad</strong><p>La documentación revisada no permite establecer con precisión la continuidad de todas las actuaciones ni las razones de los periodos sin registros. Mientras tanto, han avanzado las prácticas y los instrumentos de salud comunitaria basada en activos, en Andalucía y en otras comunidades autónomas.</p></div>
-<div style="padding:18px;background:#e8f4ef;border-radius:12px;border-top:4px solid #137c73"><strong>3 · Reimpulso en 2026</strong><p>El encuentro se plantea para revisar los antecedentes, identificar los sectores participantes, valorar la información disponible y acordar los siguientes pasos del Plan Local de Salud.</p></div>
-</div></div>
-<div class="bg-white p-6 rounded-2xl border border-slate-200"><span class="eyebrow">La cuestión de los activos</span><h3>162 recursos registrados; cinco validados como activos</h3>
-<div style="display:flex;gap:12px;flex-wrap:wrap;margin:16px 0">
-<div style="flex:1;min-width:125px;background:#f2f7f3;padding:16px;border-radius:12px"><strong style="display:block;font-size:32px;color:#145b4f">162</strong>Recursos migrados al registro</div>
-<div style="flex:1;min-width:125px;background:#f2f7f3;padding:16px;border-radius:12px"><strong style="display:block;font-size:32px;color:#145b4f">5</strong>Registros validados como activos</div>
-<div style="flex:1;min-width:125px;background:#f2f7f3;padding:16px;border-radius:12px"><strong style="display:block;font-size:32px;color:#145b4f">157</strong>Registros pendientes de validación</div>
-</div>
-<p>Esta fotografía del registro histórico plantea una pregunta relevante: <strong>¿qué criterios y procedimientos de validación se utilizaron y qué registros sería necesario revisar?</strong> No significa que Loja carezca de activos, ni permite concluir que los recursos pendientes no contribuyan a la salud. Indica que <strong>identificar recursos y reconocer participativamente activos no son la misma tarea</strong>.</p>
-<p>El mapa de activos puede revisarse contrastando los registros existentes con las aportaciones de la comunidad, la vigencia de los recursos y los criterios de validación empleados.</p>
-<p class="text-xs text-slate-500">Cifras históricas del inventario migrado y de su estado de validación en la documentación de referencia; no constituyen una consulta actualizada a Localiza Salud.</p></div>
-<div class="bg-white p-6 rounded-2xl border border-slate-200"><h3>Qué nos corresponde hacer ahora</h3>
-<p><strong>Retomar RELAS:</strong> recuperar diagnóstico, perfil, priorización y planificación previos, evaluar su vigencia y acordar cómo continuar, sin repetir innecesariamente el trabajo realizado.</p>
-<p><strong>Incorporar el análisis de activos:</strong> escuchar a la comunidad, reconocer sus capacidades, revisar los recursos identificados y decidir conjuntamente cuáles funcionan como activos para la salud.</p>
-<p><strong>Propuesta de trabajo:</strong> ¿qué sectores y tipos de actores convendría consultar para ampliar la participación en el proceso?</p></div></div><div class="source-panel" data-section="4" id="tab-ficha"><div class="bg-white p-6 rounded-2xl border border-slate-200 space-y-4"><span class="eyebrow">Trabajo práctico · 11:10–11:25</span><h2>Actores y sectores que conviene incorporar</h2><p><strong>Dinamización conjunta:</strong> enfermería comunitaria y equipo de salud pública. El propósito es identificar sectores, organizaciones, colectivos y funciones relevantes para el proceso local de salud, <strong>sin registrar datos personales</strong>.</p><p>Desde el QR puedes enviar propuestas a la encuesta de Loja. <strong>Una propuesta solo cuenta como recibida si la ficha confirma que Firestore la ha guardado</strong>. Si la conexión o los permisos no están activos, el envío se rechazará y deberás reintentarlo cuando se habiliten.</p>
-<div class="loja-qr-acceso" style="display:flex;align-items:center;gap:19px;flex-wrap:wrap;margin-top:20px;border:1px solid #cce0d5;border-radius:14px;background:#f3f8f4;padding:17px">
-<img src="./qr-ficha.svg" alt="Código QR: abre la ficha independiente de actores y sectores de Loja" width="180" height="180" style="background:#fff;border:8px solid #fff;border-radius:9px;width:min(180px,48vw);height:auto;aspect-ratio:1">
-<div style="flex:1 1 230px"><h3 style="margin:0 0 8px">Participación voluntaria · Escanea el QR</h3><p>Acceso directo a una ficha sencilla, sin menús del Aula. Pulsa «Añadir propuesta» tantas veces como quieras.</p><p style="font-size:12px"><strong>Sin recogida centralizada:</strong> lo que escribas queda solo en tu dispositivo, no llega a la organización.</p><a href="./ficha.html" target="_blank" rel="noopener noreferrer">Abrir la ficha directamente</a></div>
-</div></div></div><div class="source-panel" data-section="5" id="tab-estudios">
-<div class="bg-white p-6 rounded-2xl border border-slate-200"><span class="eyebrow">Continuidad del Plan Local de Salud</span><h2>Enriquecer el Perfil de Salud Local</h2>
-<p>El perfil disponible reúne información para el análisis local. Su utilidad no desaparece por las limitaciones de detalle de algunos indicadores: permite organizar el conocimiento disponible y orientar nuevas preguntas.</p>
-<p>Una limitación importante para interpretar las desigualdades es la falta de desagregación suficiente de numerosos datos por sexo, edad, barrio, género o condición social. Con la información agregada resulta difícil conocer cómo varían las condiciones de vida y las experiencias de salud entre los distintos grupos y zonas del municipio.</p></div>
-<div class="bg-white p-6 rounded-2xl border border-slate-200"><h3>Posibles estudios complementarios</h3><p>Sin sustituir el perfil existente ni anticipar decisiones del Grupo Motor, se pueden valorar estudios locales que aporten información adicional sobre:</p>
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:12px">
-<div style="background:#f2f7f3;padding:15px;border-radius:12px"><strong>Alimentación</strong><p>Adherencia a la dieta mediterránea y hábitos alimentarios.</p></div>
-<div style="background:#f2f7f3;padding:15px;border-radius:12px"><strong>Consumos</strong><p>Hábitos tabáquicos y consumo problemático de alcohol.</p></div>
-<div style="background:#f2f7f3;padding:15px;border-radius:12px"><strong>Relaciones y apoyo</strong><p>Apoyo social percibido, redes cotidianas y situaciones de aislamiento.</p></div>
-<div style="background:#f2f7f3;padding:15px;border-radius:12px"><strong>Bienestar</strong><p>Bienestar socioemocional y experiencias subjetivas de salud.</p></div>
-<div style="background:#f2f7f3;padding:15px;border-radius:12px"><strong>Otras dimensiones</strong><p>Actividad física, descanso, condiciones del entorno y otros temas que la comunidad considere relevantes.</p></div>
-</div></div>
-<div class="bg-white p-6 rounded-2xl border border-slate-200"><h3>Información útil para actuar con equidad</h3><p>Cuando sea metodológica y éticamente viable, estos estudios podrían permitir comparar resultados por sexo, grupos de edad, barrios y condiciones sociales, prestando atención a las desigualdades y evitando identificar a participantes en grupos pequeños.</p><p>También pueden combinar preguntas estructuradas con métodos participativos, como entrevistas, recorridos comunitarios o fotografía participativa, para conocer experiencias que no quedan reflejadas en los indicadores agregados.</p><p><strong>Cuestión para la próxima etapa:</strong> ¿qué información falta para comprender mejor la realidad de los distintos grupos y barrios de Loja, y qué estudios sería útil impulsar conjuntamente?</p><p class="text-xs text-slate-500">Estas líneas son posibilidades de trabajo para su valoración por los equipos y sectores participantes; no son acuerdos ni estudios actualmente en marcha.</p></div>
-</div>
-<div class="source-panel" data-section="6" id="tab-mapeo-escolar">
-<div class="bg-white p-6 rounded-2xl border border-slate-200"><span class="eyebrow">Propuesta de mapeo 01 · Entorno escolar</span><h2>Mapa participativo de activos en los entornos educativos</h2><p><strong>Ámbito propuesto:</strong> centros educativos, familias, asociaciones y espacios de actividad cotidiana de niños, niñas y adolescentes.</p><p><strong>Objetivo:</strong> reconocer lugares, servicios, iniciativas y redes que la comunidad educativa identifica como favorables para la salud y el bienestar. Es una propuesta para valorar conjuntamente, no una actividad ya acordada.</p></div>
-<div class="bg-white p-6 rounded-2xl border border-slate-200"><h3>Posible desarrollo</h3><div class="map-steps"><div><strong>1 · Delimitar</strong><p>Seleccionar centros y recorridos con los equipos docentes, familias y alumnado.</p></div><div><strong>2 · Identificar</strong><p>Emplear fotografía participativa o recorridos comentados para reconocer recursos y oportunidades.</p></div><div><strong>3 · Contrastar</strong><p>Revisar los hallazgos con la comunidad educativa, respetando la privacidad de menores.</p></div><div><strong>4 · Representar</strong><p>Situar los activos contrastados en un mapa que pueda apoyar actuaciones locales.</p></div></div></div>
-<div class="bg-white p-6 rounded-2xl border border-slate-200"><p><strong>Cuestión para valorar:</strong> ¿qué centros, asociaciones de familias y espacios comunitarios deberían participar en el diseño del mapeo?</p><button class="action" type="button" data-jump="7">Siguiente propuesta: redes comunitarias →</button></div>
-</div>
-<div class="source-panel" data-section="7" id="tab-mapeo-redes">
-<div class="bg-white p-6 rounded-2xl border border-slate-200"><span class="eyebrow">Propuesta de mapeo 02 · Redes y barrios</span><h2>Mapeo de redes de apoyo y activos en el territorio</h2><p><strong>Ámbito propuesto:</strong> barrios y zonas del municipio seleccionados mediante criterios transparentes, con participación vecinal, servicios sociales, centros de salud y entidades comunitarias.</p><p><strong>Objetivo:</strong> describir espacios, recursos, relaciones e iniciativas que las personas participantes identifican como apoyos para la salud, sin presuponer resultados ni déficits.</p></div>
-<div class="bg-white p-6 rounded-2xl border border-slate-200"><h3>Posible desarrollo</h3><div class="map-steps"><div><strong>1 · Acordar ámbitos</strong><p>Delimitar las zonas y acordar con el tejido comunitario cómo participar.</p></div><div><strong>2 · Recorrer</strong><p>Realizar paseos comunitarios y conversaciones para identificar recursos y redes.</p></div><div><strong>3 · Validar</strong><p>Contrastar accesibilidad, uso y contribución a la salud de los recursos identificados.</p></div><div><strong>4 · Incorporar</strong><p>Representar los activos contrastados y valorar su integración en el Plan Local de Salud.</p></div></div></div>
-<div class="bg-white p-6 rounded-2xl border border-slate-200"><p><strong>Para cerrar:</strong> la selección de territorios, técnicas, participantes y productos corresponderá al proceso local de decisión. Ambos mapeos son opciones de trabajo, no acuerdos adoptados en el taller.</p><button class="action" type="button" data-jump="4">Volver a la ficha de actores y sectores ↗</button></div>
-</div><div class="toolbox hide" id="digital-form"><h3>Borrador personal de actores y sectores</h3><p>Identifica tipos de actores, colectivos, entidades o funciones que deberían estar representados. <strong>No introduzcas nombres de personas, teléfonos, direcciones ni correos electrónicos.</strong> Puedes añadir tantas propuestas como necesites.</p>
-<div class="form-grid">
-<div class="field"><label for="sector">Sector o ámbito *</label><select id="sector"><option value="">Selecciona un sector</option><option>Salud y atención sanitaria</option><option>Servicios sociales y cuidados</option><option>Educación y comunidad educativa</option><option>Asociacionismo y participación ciudadana</option><option>Juventud</option><option>Personas mayores</option><option>Deporte, cultura y ocio</option><option>Empleo y actividad económica</option><option>Administración local</option><option>Medio ambiente y territorio</option><option>Otros</option></select></div>
-<div class="field"><label for="tipo-actor">Tipo de actor *</label><select id="tipo-actor"><option value="">Selecciona un tipo</option><option>Asociación o colectivo vecinal</option><option>Grupo comunitario informal</option><option>AMPA / comunidad educativa</option><option>Centro educativo</option><option>Centro o servicio sanitario</option><option>Servicio social o sociosanitario</option><option>Administración pública</option><option>Entidad deportiva o cultural</option><option>Empresa o entidad profesional</option><option>Otro</option></select></div>
-<div class="field"><label for="funcion-actor">Función o representación</label><select id="funcion-actor"><option value="">Sin especificar</option><option>Representación comunitaria</option><option>Coordinación o dirección</option><option>Profesional de referencia</option><option>Participación voluntaria</option><option>Agente comunitario</option><option>Otra función</option></select></div>
-<div class="field"><label for="grupo-actor">Entidad o colectivo (opcional)</label><input id="grupo-actor" maxlength="120" placeholder="Nombre público de una entidad, no de una persona"></div>
-<div class="field full"><label for="aportacion-actor">¿Qué puede aportar este sector o actor?</label><textarea id="aportacion-actor" maxlength="450" placeholder="Capacidades, experiencias o perspectiva comunitaria, sin datos personales"></textarea></div>
-</div>
-<div class="actions"><button class="action" type="button" id="add-actor">+ Añadir a mi listado</button></div>
-<p id="form-feedback" role="status" aria-live="polite"></p>
-<h3 style="margin-top:24px">Mis propuestas <span id="actor-count" aria-live="polite">(0)</span></h3>
-<div id="actor-list" style="display:grid;gap:10px"><p>No hay propuestas todavía.</p></div>
-<div class="actions"><button class="action secondary" type="button" id="download-form">Descargar mi listado (.txt)</button><button class="action secondary" type="button" id="print-original">Imprimir</button><button class="action secondary" type="button" id="clear-form">Borrar todas mis propuestas</button></div>
-<p style="font-size:13px">Este espacio es un borrador opcional. <strong>Para que una propuesta forme parte de la encuesta de Loja, envíala desde la <a href="./ficha.html" target="_blank" rel="noopener noreferrer">ficha de actores y sectores</a>.</strong> Las notas del borrador no se envían automáticamente.</p></div><div class="bottom-nav"><button class="action secondary" id="prev">← Anterior</button><span class="step-count" id="foot-count">1 de 8</span><button class="action" id="next">Siguiente →</button></div><div class="page-footer">Taller de reimpulso del I Plan Local de Salud de Loja · 16 de octubre de 2026</div></main></div><div class="present-bar"><button id="present-prev">←</button><span id="present-count" style="padding:9px 4px;font-size:12px"></span><button id="present-next">→</button><button id="present-exit">Salir ×</button></div><script>
-(()=>{'use strict';
-const agendaButton=document.getElementById('loja-agenda-toggle');
-const agendaDetail=document.getElementById('loja-agenda-detalle');
-if(agendaButton&&agendaDetail)agendaButton.addEventListener('click',()=>{const open=agendaDetail.classList.toggle('expanded');agendaButton.setAttribute('aria-expanded',String(open));agendaButton.textContent=open?'Ocultar programa detallado ↑':'Ver programa detallado ↓';});
-const labels=['Apertura institucional','Itinerario · 90 min','Moderación','Antecedentes y salutogénesis','Actores y sectores','Estudios complementarios','Mapeo escolar','Mapeo de redes comunitarias'];
-const subtitles=['Inicio del encuentro y orden de intervenciones','Siete momentos de la reunión','Preguntas para abrir el diálogo entre sectores','Trayectoria documentada y trabajo comunitario','Añadir tantos actores y sectores como necesites','Opciones para enriquecer el Perfil de Salud Local','Propuesta: activos de los entornos educativos','Propuesta: redes de apoyo y activos en los barrios'];
-const sections=[...document.querySelectorAll('.source-panel')], menu=[...document.querySelectorAll('[data-go]')];let current=0;let pastSections=[];
-function show(i,push=true){const target=Math.min(7,Math.max(0,i));if(push&&target!==current)pastSections.push(current);current=target;document.body.classList.toggle('loja-agenda-pantalla',target===1&&!document.body.classList.contains('presentation'));sections.forEach((p,n)=>p.classList.toggle('active',n===current));menu.forEach((b,n)=>{b.classList.toggle('active',n===current);b.setAttribute('aria-current',n===current?'step':'false')});document.getElementById('counter').textContent=String(current+1).padStart(2,'0')+' / 08';document.getElementById('foot-count').textContent=(current+1)+' de 8';document.getElementById('present-count').textContent=(current+1)+' / 8';document.getElementById('step-title').textContent=labels[current];document.getElementById('step-subtitle').textContent=subtitles[current];document.getElementById('progress-fill').style.width=((current+1)/8*100)+'%';document.getElementById('progress').setAttribute('aria-valuenow',current+1);document.getElementById('digital-form').classList.toggle('hide',current!==4);document.getElementById('prev').disabled=current===0;document.getElementById('next').disabled=false;document.getElementById('next').textContent=current===7?'Volver al inicio ↺':current===5?'Ver mapeo escolar →':current===6?'Ver mapeo comunitario →':'Siguiente →';if(push)history.replaceState(null,'','#'+['diagnostico','itinerario','moderacion','marco','ficha','estudios','mapeo-escolar','mapeo-redes'][current]);window.scrollTo({top:0,behavior:'instant'})}
-menu.forEach(b=>b.addEventListener('click',()=>show(Number(b.dataset.go))));document.getElementById('loja-home').addEventListener('click',()=>show(0));document.getElementById('loja-back').addEventListener('click',()=>show(pastSections.length?pastSections.pop():0,false));for(const [id,delta] of [['prev',-1],['next',1],['present-prev',-1],['present-next',1]])document.getElementById(id).addEventListener('click',()=>show(current===7&&delta===1?0:current+delta));document.querySelectorAll('[data-jump]').forEach(btn=>btn.addEventListener('click',()=>show(Number(btn.dataset.jump))));function togglePresent(force){document.body.classList.toggle('presentation',force??!document.body.classList.contains('presentation'));document.body.classList.toggle('loja-agenda-pantalla',current===1&&!document.body.classList.contains('presentation'));window.scrollTo(0,0)}document.getElementById('present').addEventListener('click',()=>togglePresent());document.getElementById('present-exit').addEventListener('click',()=>togglePresent(false));document.addEventListener('keydown',e=>{if(e.target.matches('input,textarea,select'))return;if(e.key==='Escape')togglePresent(false);if(document.body.classList.contains('presentation')&&(e.key==='ArrowRight'||e.key==='ArrowLeft'))show(current===7&&e.key==='ArrowRight'?0:current+(e.key==='ArrowRight'?1:-1))});
-const fields=['sector','tipo-actor','funcion-actor','grupo-actor','aportacion-actor'];
-const storageKey='loja-reimpulso-actores-v2',oldKey='loja-reimpulso-recordatorio-v1';
-const feedback=document.getElementById('form-feedback'),actorList=document.getElementById('actor-list');
-let propuestas=[];
-function status(msg){feedback.textContent=msg}
-try{localStorage.removeItem(oldKey)}catch(e){}
-try{const old=JSON.parse(localStorage.getItem(storageKey)||'[]');if(Array.isArray(old))propuestas=old.filter(x=>x&&typeof x.sector==='string'&&typeof x.tipo==='string')}catch(e){}
-function safe(tag,txt){const el=document.createElement(tag);el.textContent=txt;return el}
-function persist(){try{localStorage.setItem(storageKey,JSON.stringify(propuestas));status('Borrador individual actualizado. Para enviar propuestas utiliza la encuesta de Loja.')}catch(e){status('No se puede guardar en este navegador. Descarga tu listado para conservarlo.')}}
-function render(){actorList.replaceChildren();document.getElementById('actor-count').textContent='('+propuestas.length+')';if(!propuestas.length){actorList.appendChild(safe('p','No hay propuestas todavía.'));return}
-propuestas.forEach((p,i)=>{const box=document.createElement('div');box.style.cssText='padding:13px;border:1px solid #d5e3dc;border-radius:10px;background:#fff';box.appendChild(safe('strong',(i+1)+'. '+p.sector+' · '+p.tipo));if(p.funcion)box.appendChild(safe('p','Función: '+p.funcion));if(p.grupo)box.appendChild(safe('p','Entidad o colectivo: '+p.grupo));if(p.aportacion)box.appendChild(safe('p','Aportación: '+p.aportacion));const btn=document.createElement('button');btn.type='button';btn.className='action secondary';btn.textContent='Eliminar esta propuesta';btn.addEventListener('click',()=>{propuestas.splice(i,1);persist();render()});box.appendChild(btn);actorList.appendChild(box)})}
-function value(id){return document.getElementById(id).value.trim()}
-document.getElementById('add-actor').addEventListener('click',()=>{if(!value('sector')||!value('tipo-actor')){status('Selecciona el sector y el tipo de actor.');return}
-propuestas.push({sector:value('sector'),tipo:value('tipo-actor'),funcion:value('funcion-actor'),grupo:value('grupo-actor'),aportacion:value('aportacion-actor')});persist();render();fields.forEach(id=>document.getElementById(id).value='');document.getElementById('sector').focus()});
-document.getElementById('download-form').addEventListener('click',()=>{const body='RECORDATORIO PERSONAL DE ACTORES Y SECTORES · LOJA\n\n'+propuestas.map((p,i)=>(i+1)+'. Sector: '+p.sector+'\nTipo de actor: '+p.tipo+'\nFunción: '+p.funcion+'\nEntidad o colectivo: '+p.grupo+'\nAportación: '+p.aportacion).join('\n\n')+'\n\nArchivo personal no enviado al taller.\n';const blob=new Blob([body],{type:'text/plain;charset=utf-8'}),u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download='recordatorio-actores-loja.txt';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);status('Archivo descargado únicamente en tu dispositivo.')});
-document.getElementById('clear-form').addEventListener('click',()=>{if(confirm('¿Borrar todas las propuestas guardadas en este navegador?')){propuestas=[];fields.forEach(id=>document.getElementById(id).value='');try{localStorage.removeItem(storageKey)}catch(e){}render();status('Todas las propuestas han sido borradas de este navegador.')}});
-function printFicha(){window.print()}document.getElementById('print-original').addEventListener('click',printFicha);render();
-const hashNames=['diagnostico','itinerario','moderacion','marco','ficha','estudios','mapeo-escolar','mapeo-redes'];show(Math.max(0,hashNames.indexOf(location.hash.substring(1))),false);
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#102a28">
+<title>Loja · Itinerario del Plan Local de Salud · Aula comunitaria</title>
+<style>
+:root{--ink:#183b35;--teal:#137c73;--deep:#102a28;--paper:#f7f7f3;--soft:#eaf4ee;--line:#dae6df;--muted:#587169}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.58 Inter,system-ui,-apple-system,Segoe UI,sans-serif}a{color:#12655a}a:focus-visible{outline:3px solid #e1a93f;outline-offset:4px}
+header{background:var(--deep);color:#fff;padding:21px max(24px,calc((100vw - 1080px)/2)) 72px}header a{color:#e4f0e7;text-decoration:none;font-size:13px;font-weight:750}
+.kicker{font-size:12px;font-weight:850;letter-spacing:.14em;text-transform:uppercase;color:#b8daca;margin:36px 0 12px}
+h1{font:500 clamp(39px,6vw,69px)/1.1 Georgia,Cambria,serif;max-width:850px;letter-spacing:-.02em;margin:0 0 21px}
+header p{margin:0;max-width:670px;color:#d5e6db;font-size:18px}
+main{max-width:1128px;padding:0 24px 78px;margin:-43px auto 0;position:relative}
+.stages{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.card{background:white;border:1px solid var(--line);border-radius:20px;padding:30px;display:flex;flex-direction:column;align-items:start;box-shadow:0 10px 32px rgba(20,60,40,.04);min-height:305px}
+.card .number{display:inline-flex;align-items:center;gap:10px;font-size:12px;font-weight:900;letter-spacing:.09em;color:#146655;text-transform:uppercase;margin-bottom:24px}.number em{font-style:normal;background:#e5f2e9;border-radius:99px;padding:7px 11px}
+.card h2{font:600 clamp(26px,3vw,36px)/1.17 Georgia,serif;letter-spacing:-.01em;margin:0 0 15px}
+.card p{font-size:15px;line-height:1.7;margin:0 0 24px;max-width:44ch;color:#4d655b}.card a.go{display:inline-block;margin-top:auto;text-decoration:none;background:var(--teal);color:white;padding:13px 19px;border-radius:9px;font-size:14px;font-weight:800}.card a.go:hover{background:#0f625a}
+.card.previous{border-top:5px solid #6d988c}.card.current{border-top:5px solid #e0b05e}
+.small{font-size:13px;color:var(--muted)}
+.next{margin:30px 0 0;padding:24px 28px;background:#eef4ee;border:1px solid #d2dfd2;border-radius:17px;display:flex;justify-content:space-between;align-items:center;gap:20px}
+.next span{font-weight:850;letter-spacing:.08em;text-transform:uppercase;font-size:11px;color:#58766b}
+.next h2{font:600 23px/1.2 Georgia,serif;margin:7px 0 9px}
+.next p{margin:0;color:#51665a;font-size:14px;max-width:700px}
+.step{font:600 43px/1 Georgia,serif;color:#acc8b9}
+.explain{margin-top:33px;padding:0 8px}.explain h2{font:600 24px/1.2 Georgia,serif}.explain p{max-width:85ch;color:#586e63;font-size:14px}
+footer{max-width:1128px;margin:0 auto;padding:0 24px 32px;color:#66766f;font-size:12px}
+@media(max-width:740px){header{padding:18px 20px 64px}.kicker{margin-top:25px}main{padding:0 17px 50px}.stages{grid-template-columns:1fr;gap:14px}.card{min-height:0;padding:22px}.card .number{margin-bottom:13px}.card h2{font-size:30px}.next{padding:20px;align-items:start}.step{font-size:30px}}
+@media print{body{background:white;color:black}header{background:white;color:black;padding:0}header a,header p,.kicker{color:#333}main{margin:10px auto}.card{box-shadow:none;min-height:0}.card a.go{background:white;color:#222;border:1px solid #777}}
+</style>
+<script>
+(function(){
+  var known=['diagnostico','itinerario','moderacion','marco','ficha','estudios','mapeo-escolar','mapeo-redes'];
+  var hash=window.location.hash.slice(1);
+  if(known.indexOf(hash)!==-1){window.location.replace('taller-impulso.html'+window.location.hash);}
 })();
-</script><script src="../assets/proyeccion-loja.js?v=20261016epi" defer></script></div><script src="../assets/aula-portadas.js?v=20261015c" defer></script></body></html>
+</script>
+</head>
+<body>
+<header>
+<a href="../index.html">← Aula de Salud Comunitaria</a>
+<div class="kicker">Loja · Plan Local de Salud · RELAS</div>
+<h1>Un proceso local, tres etapas diferenciadas</h1>
+<p>Materiales del Aula organizados en el orden de trabajo del Grupo Motor. Cada encuentro conserva sus propios contenidos y herramientas.</p>
+</header>
+<main>
+<div class="stages" aria-label="Encuentros del proceso local de Loja">
+<article class="card previous">
+<div class="number"><em>01</em> Encuentro celebrado · 16 octubre 2026</div>
+<h2>Taller de impulso</h2>
+<p>Situación de salud, antecedentes del proceso RELAS, encuentro intersectorial y participación. Documentación y contenidos del primer taller.</p>
+<a class="go" href="taller-impulso.html">Entrar al Taller de impulso →</a>
+</article>
+<article class="card current">
+<div class="number"><em>02</em> Próximo trabajo del Grupo Motor · fecha por confirmar</div>
+<h2>Priorización y líneas estratégicas</h2>
+<p>Revisar la priorización de 2022, valorar si hay que actualizarla mediante consulta y establecer qué líneas abordará el primer Plan Local de Salud.</p>
+<a class="go" href="sesion-2.html">Abrir taller de priorización →</a>
+</article>
+</div>
+<section class="next" aria-labelledby="fase-tres">
+<div>
+<span>03 · Trabajo posterior</span>
+<h2 id="fase-tres">Mapeo de activos orientado a las líneas seleccionadas</h2>
+<p>Solo después de consensuar las líneas: seleccionar los recursos pertinentes del inventario, contrastarlos uno a uno y desarrollar nuevos mapeos participativos vinculados a cada prioridad. No se activa un mapeo indiscriminado.</p>
+</div><div class="step" aria-hidden="true">03</div>
+</section>
+<div class="explain">
+<h2>Secuencia de trabajo</h2>
+<p><strong>Impulso → Priorización → Selección de líneas → Mapeo dirigido.</strong> Si el Grupo Motor acuerda una encuesta temática, la selección de líneas deberá esperar a la devolución y deliberación de sus resultados. Las herramientas de COMPÁS-NG sirven de referencia, pero el Aula no lanza encuestas ni valida activos administrativamente.</p>
+</div>
+</main>
+<footer>Aula de Salud Comunitaria Basada en Activos · Loja · Materiales de trabajo sujetos a los acuerdos del Grupo Motor</footer>
+</body></html>
