@@ -47,7 +47,7 @@ test('Priorizar primero: líneas estratégicas y mapeo posteriormente',()=>{
   assert.ok(a>0&&a<b&&b<c&&c<d,'Orden pedagógico: historial → decisión → líneas → mapeo');
   assert.ok(second.includes('Líneas estratégicas'));
   assert.ok(second.includes('solo si procede'));
-  assert.ok(second.includes('si se acuerda encuesta'));
+  assert.ok(second.includes('Si se acuerda consultar:'));
   assert.ok(second.includes('relacionados con las líneas acordadas'));
   assert.ok(second.includes('<details>'),'Herramientas de activos han de quedar secundarias');
   assert.ok(second.includes('href="index.html"'));
@@ -62,7 +62,7 @@ test('Documento de continuidad docente evita priorizar todo el inventario antes 
   }
   assert.ok(guide.includes('No es objetivo de la segunda sesión hacer mapeo'));
   assert.ok(guide.includes('solo se revisarán como posibles activos aquellos pertinentes'));
-  assert.ok(!guide.includes('auditoría del 100 % del inventario'));
+  assert.ok(guide.includes('No programar desde la sesión de priorización una auditoría del 100 %'));
   assert.ok(guide.includes('mantenimiento general'));
 });
 
