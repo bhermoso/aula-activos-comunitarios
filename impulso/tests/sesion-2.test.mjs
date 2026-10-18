@@ -220,7 +220,7 @@ test('Continuidad refleja la rectificación actual y distingue de versiones supe
  assert.ok(rootState.split('---')[0].includes('PUBLICADO'));
  assert.ok(lojaState.split('---')[0].includes('PUBLICADO'));
  assert.ok(!rootState.split('---')[0].includes('no planifica ni ejecuta mapeos'));
- assert.ok(lojaState.includes('qué, con quién, técnica'));
+ assert.ok(lojaState.includes('qué mapear por línea, dónde, con quién, mediante qué técnica'));
 });
 
 test('La ficha histórica de actores conserva la integración Firestore sin cambios de conducta',()=>{
