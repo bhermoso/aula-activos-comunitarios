@@ -1,6 +1,6 @@
 # Propuesta curricular REDCap Básico y Avanzado 2027
 
-> Revisión docente del 17/10/2026. **Estado: propuesta en rama de revisión, no publicada ni validada como programa institucional**. Base: `main` en `1d97780c`. No modifica duración ni fechas anunciadas. La programación definitiva y los criterios de certificación requieren revisión y validación institucional. Los PDF revisados ya están regenerados en la rama.
+> Revisión docente del 17/10/2026. **Publicado en el Aula el 18/10/2026, mediante PR #29 (fusión `4c7314f`). Pendiente de validación como programa institucional por Gesforma.** No modifica duración ni fechas anunciadas. La programación definitiva y los criterios de certificación requieren revisión y validación institucional; los diez PDF fueron regenerados y publicados.
 
 ## Decisión metodológica
 
@@ -103,12 +103,12 @@ Se mantiene de forma **provisional** la estructura publicada: 20% entrega 1, 20%
 - Training materials REDCap: https://projectredcap.org/resources/videos/
 - Documentación local del REDCap institucional y material original de los cursos, cuando esté disponible.
 
-La presente es una **propuesta curricular**. La publicación requiere completar coherencia documental y autorización expresa.
+La presente es una **propuesta curricular ya publicada en el Aula**, por autorización expresa de 18/10/2026. Publicada no significa aprobada oficialmente por Gesforma ni verificada contra todas las funcionalidades del REDCap institucional.
 
 
 ## Ejecución del rediseño (17/10/2026)
 
-Completados en rama los itinerarios interactivos, diez PDF nuevos, lectura web, guía opcional de sintaxis y tests de correspondencia PDF-fuente. Las duraciones y fechas se mantienen sin acreditar que hayan sido autorizadas formalmente para Gesforma. No está auditada la compatibilidad con el REDCap institucional. Los archivos anteriores han sido sustituidos **solo en la rama de revisión**, no en `main` ni en Pages.
+Completados y publicados mediante PR #29 los itinerarios interactivos, diez PDF nuevos, lectura web, guía opcional de sintaxis y tests de correspondencia PDF-fuente. Las duraciones y fechas se mantienen sin acreditar que hayan sido autorizadas formalmente para Gesforma. No está auditada la compatibilidad con el REDCap institucional. Los archivos anteriores han sido sustituidos en `main` y GitHub Pages. Verificación: https://github.com/bhermoso/aula-activos-comunitarios/actions/runs/39098373729 (despliegue completado con éxito). No se pudo comprobar desde este entorno la apertura directa de las páginas públicas.
 
 
 ### Plantilla de seguimiento 2027 · 17/10/2026

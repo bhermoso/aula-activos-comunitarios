@@ -21,9 +21,9 @@ Desde un clon del repositorio `bhermoso/aula-activos-comunitarios`, copiar `redc
 No se han fabricado cuentas ni datos de alumnado. No se envían respuestas ni resultados a Firebase desde el paquete estático.
 
 
-## Rediseño docente 2027 · rama de revisión · no publicado
+## Rediseño docente 2027 · publicado en GitHub Pages el 18/10/2026
 
-La rama `redcap-redisenio-competencias-2027-20261017` reúne las versiones revisadas de los cursos. Básico: instrumento sencillo, encuesta inicial, validaciones, privacidad y una condición guiada. Avanzado: elección de arquitectura transversal/longitudinal/repetible según el caso; varios instrumentos, seguimiento, invitaciones, informes y calidad.
+La PR #29, fusionada en `main` como `4c7314f02576c7978c65159875201171cc43caab`, incorporó las versiones revisadas de los cursos. El despliegue de GitHub Pages finalizó con éxito: https://github.com/bhermoso/aula-activos-comunitarios/actions/runs/39098373729. Estas versiones están publicadas pero **no constan validadas institucionalmente por Gesforma**. Básico: instrumento sencillo, encuesta inicial, validaciones, privacidad y una condición guiada. Avanzado: elección de arquitectura transversal/longitudinal/repetible según el caso; varios instrumentos, seguimiento, invitaciones, informes y calidad.
 
 **Materiales terminados en la rama:**
 - `REDISENO_DOCENTE_2027.md`: competencias, sesiones, trabajos, rúbricas y decisiones.
@@ -35,9 +35,9 @@ La rama `redcap-redisenio-competencias-2027-20261017` reúne las versiones revis
 
 **Control:** `node --test redcap/tests/redisenio.test.mjs`. Comprobar también lectura, impresión, navegación móvil, enlaces y coherencia con instancia REDCap institucional antes de integrar.
 
-**Pendiente antes de publicar:** validación de competencias, cronograma y evaluación por Gesforma; cotejo del diccionario CSV de hábitos de vida y la instalación institucional; prueba de navegador real; decidir si conservar PDF previos en archivo histórico. Los PDF nuevos son **material docente en revisión**, no programas oficiales aprobados. El seguimiento del alumnado no está implementado.
+**Pendiente tras publicar:** validación formal de competencias, cronograma y evaluación por Gesforma; comprobación del REDCap institucional y diccionario de hábitos de vida; prueba de navegador real y móvil; valorar conservar PDF previos en archivo histórico. La publicación web y el éxito de CI no equivalen a validación docente ni verificación de todas las opciones del REDCap institucional. Los PDF nuevos son **material docente en revisión**, no programas oficiales aprobados. El seguimiento del alumnado no está implementado.
 
-**Restricción:** no fusionar PR ni desplegar sin nueva autorización expresa. No se han modificado los otros módulos del Aula ni Firebase.
+La publicación fue solicitada expresamente por el usuario el 18/10/2026. No se modificaron los otros módulos del Aula ni Firebase.
 
 
 ### Plantilla de seguimiento 2027 · 17/10/2026
