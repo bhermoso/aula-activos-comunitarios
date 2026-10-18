@@ -1,5 +1,20 @@
 # Loja · Estado y continuidad del módulo dentro del Aula
 
+> **ESTADO VIGENTE DE TRABAJO, 18/10/2026 — PR #36 (BORRADOR, NO PUBLICADO).**
+> El módulo se reorganiza como **1) Taller de impulso del 16/10 (histórico), 2) Priorización y posible selección de líneas, 3) Mapeo temático posterior**. La agenda actual de la sesión 2 consta de **7 bloques, 120 minutos**, con rutas **sin consulta** (podría seleccionarse líneas si existe evidencia) y **con consulta / decisión pendiente** (NO seleccionar aún líneas). Los 157 registros históricos no son una obligación de mapeo. Las propuestas antiguas de mapeo del primer taller se conservan como propuestas históricas, no instrucciones actuales.
+>
+> **Arquitectura propuesta en rama:** `impulso/index.html` itinerario; `taller-impulso.html` primer taller preservado; `sesion-2.html` taller de priorización; `guia-mapeo.html` guía visual, y ficha/CSV solo para fase posterior. Navegación compartida `assets/loja-navegacion.css/js` con Aula/Loja/talleres/guía/volver. La guía original Markdown es fuente editable interna, **no acceso docente directo**.
+>
+> **Fuente de verdad:** nueva agenda de la web `sesion-2.html` y su reflejo en `SESION_2_MAPEO_Y_PRIORIZACION.md`, con comprobación automática de códigos, tiempos y rutas. La primera agenda del 16/10, conservada en `taller-impulso.html` y `GUIA_PONENTE_16-10-2026.md`, es documento histórico y no se mezcla con ella.
+>
+> **Riesgo conocido:** PR #20 de migración de encuesta de actores a REDCap modifica `impulso/ficha.html` y `impulso/index.html`; contrastar ambas ramas antes de fusionar cualquiera de las dos. **No** modificar ni desplegar PR #20 desde esta intervención. No hay autorización para fusionar ni desplegar PR #36.
+
+---
+
+### Archivo de decisiones anteriores (PR #34 y estado de 16/10)
+
+Los apartados siguientes documentan cómo se llegó a la estructura previa; **están supersedidos como instrucciones operativas para la segunda sesión** allí donde proponen mapeo antes de priorización o revisión integral del inventario. El programa histórico del 16/10 permanece válido como fuente del primer taller.
+
 **Revisión:** 16/10/2026, posterior a la celebración del taller.  
 **Repositorio canónico:** `bhermoso/aula-activos-comunitarios`, rama `main`.  
 **Ruta publicada:** `https://bhermoso.github.io/aula-activos-comunitarios/impulso/`.  
@@ -43,7 +58,7 @@
 Se amplió el formulario para no excluir actores por taxonomías cerradas: sectores (26 opciones), tipos de actor (13), ámbitos territoriales (7), texto libre contextual, opciones «Otro» y posibilidad de expresar interés personal en participar sin facilitar contactos. El aviso flotante relativo al almacenamiento exclusivo en navegador fue retirado. La ficha y las reglas deben desplegarse juntas; publicar reglas antiguas bloquearía el nuevo esquema. El cierre funcional de la recepción sigue sujeto a una prueba real desde una sesión externa.
 
 
-## 18/10/2026 · Segunda sesión: planificar mapeo y priorización
+## Histórico supersedido (PR #34) · Segunda sesión: planificar mapeo y priorización
 
 Esta preparación es **una sesión independiente dentro del Aula**, no una intervención ni evolución del repositorio COMPÁS-NG.
 
@@ -57,7 +72,7 @@ Esta preparación es **una sesión independiente dentro del Aula**, no una inter
 
 **Antes de cerrar propuesta:** organización debe confirmar fecha/duración, suministrar inventarios, documentos originales y disponer de perfiles de validación. La página es guía para la reunión y no acta de acuerdos adoptados.
 
-### Materiales de aplicación para la sesión 2 · 18/10/2026
+### Materiales históricos de PR #34 para la sesión 2 · 18/10/2026
 
 La propuesta se publicó mediante la **PR #34 fusionada en `main`** con material específico para los dos objetivos reales de la sesión:
 - `ficha-revision-activos.html`: formulario **solo de impresión**, orientado a la decisión registro a registro, con avisos contextuales; **no almacena ni transmite** fichas.
@@ -75,3 +90,11 @@ La propuesta se publicó mediante la **PR #34 fusionada en `main`** con material
 **Cambio de diseño:** la raíz `impulso/index.html` será un **itinerario visual limpio** con entradas a `taller-impulso.html` (copia íntegra del primer taller sin la tarjeta invasiva de la sesión 2, con herramientas originales preservadas) y `sesion-2.html` (priorización y líneas), además de un tercer paso de mapeo diferido y no navegable. La raíz del Aula sigue enlazando a `impulso/`. Para compatibilidad con enlaces profundos a `impulso/#diagnostico`, `#ficha` y otros ocho apartados, el nuevo índice redirige a `taller-impulso.html#...`.
 
 **Material revisado:** guion de segunda sesión; dinámica de 26 problemas con apartado condicionado de líneas; ficha y plantilla CSV que ahora exigen **línea seleccionada + pertinencia del recurso** (22 columnas, no 20). La ficha de recursos se conserva para la etapa posterior, no como actividad nuclear de la sesión 2. Quedan pendientes originales 2022, actas, acuerdo municipal y estados reales de Localiza Salud. **Cambios preparados en rama sin fusión ni despliegue; verificar CI y revisar visualmente antes de autorización de publicación.**
+
+### 18/10/2026 · Auditoría de impacto transversal de PR #36
+
+- **Programa/agenda:** siete bloques en dos representaciones sincronizadas, 120 minutos. Diferenciados de siete momentos/90 minutos históricos del primer taller.
+- **Material visible:** portada e itinerario, dos sesiones, dinámica de prioridades, ficha de actores, ficha y guía visual de activos y CSV, navegación común y enlaces internos. La guía de activos es solo de consulta en sesión 2; no se distribuyen revisiones.
+- **Documentación:** programa histórico y expediente preservados; continuidad actualizada sin borrar versiones anteriores; no atribuir aprobación de prioridades 2022 sin ODT y acta.
+- **Dependencias pendientes:** cotejar original/acta 2022, población y metodología de posible encuesta; líneas solo por acuerdo documentado; obtener estados reales Localiza Salud después de selección de líneas; conciliar PR #20 si se fusiona; comprobación visual manual real en móvil y proyector **no acreditada**.
+- **Publicación:** último sitio publicado sigue en PR #34/35 hasta autorización y despliegue de esta corrección; no afirmar que se ve ya la nueva página en producción.
