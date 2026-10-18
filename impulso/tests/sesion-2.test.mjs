@@ -216,8 +216,11 @@ test('Continuidad refleja la rectificación actual y distingue de versiones supe
     state.includes('10 apertura, 20 prioridades 2022'));
  }
  assert.ok(lojaState.includes('Histórico supersedido'));
- assert.ok(rootState.includes('en esa misma reunión qué activos mapear'));
- assert.ok(lojaState.includes('qué, con quién, técnica'));
+ assert.ok(rootState.includes('PLANIFICAR EN ESA MISMA SESIÓN qué activos mapear'));
+ assert.ok(rootState.split('---')[0].includes('PUBLICADO'));
+ assert.ok(lojaState.split('---')[0].includes('PUBLICADO'));
+ assert.ok(!rootState.split('---')[0].includes('no planifica ni ejecuta mapeos'));
+ assert.ok(lojaState.includes('qué mapear por línea, dónde, con quién, mediante qué técnica'));
 });
 
 test('La ficha histórica de actores conserva la integración Firestore sin cambios de conducta',()=>{

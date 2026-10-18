@@ -1,13 +1,10 @@
 # Loja · Estado y continuidad del módulo dentro del Aula
 
-> **ESTADO VIGENTE DE TRABAJO, 18/10/2026 — PR #36 (BORRADOR, NO PUBLICADO).** La nueva corrección de agenda sustituye la formulación anterior: **en la segunda sesión primero se priorizan líneas y luego se planifica el mapeo por línea (qué, con quién, técnica, territorio y responsables); solamente la ejecución es posterior**.
-> El módulo se reorganiza como **1) Taller de impulso del 16/10 (histórico), 2) Priorización y posible selección de líneas, 3) Mapeo temático posterior**. La agenda actual de la sesión 2 consta de **7 bloques, 120 minutos**, con rutas **sin consulta** (podría seleccionarse líneas si existe evidencia) y **con consulta / decisión pendiente** (NO seleccionar aún líneas). Los 157 registros históricos no son una obligación de mapeo. Las propuestas antiguas de mapeo del primer taller se conservan como propuestas históricas, no instrucciones actuales.
+> **ESTADO VIGENTE · PUBLICADO 18/10/2026 · PR #36.** Segundo encuentro del Grupo Motor: **primero recuperar y actualizar la priorización de 2022; después seleccionar grandes líneas estratégicas y PLANIFICAR EN ESA MISMA SESIÓN qué mapear por línea, dónde, con quién, mediante qué técnica y responsables**. La ejecución del trabajo de campo y el contraste formal de activos serán posteriores. Ante nueva consulta, líneas y planes de mapeo siguen siendo provisionales hasta deliberar los resultados. La agenda web `sesion-2.html` y el guion `SESION_2_MAPEO_Y_PRIORIZACION.md` tienen siete bloques de **10 + 20 + 20 + 15 + 15 + 30 + 10 = 120 minutos**.
 >
-> **Arquitectura propuesta en rama:** `impulso/index.html` itinerario; `taller-impulso.html` primer taller preservado; `sesion-2.html` taller de priorización; `guia-mapeo.html` guía visual, y ficha/CSV solo para fase posterior. Navegación compartida `assets/loja-navegacion.css/js` con Aula/Loja/talleres/guía/volver. La guía original Markdown es fuente editable interna, **no acceso docente directo**.
+> **Arquitectura publicada:** portada del itinerario `index.html`, primer taller histórico `taller-impulso.html` (16/10), segunda sesión `sesion-2.html`, matriz `matriz-planificacion-mapeo.html`, guía visual `guia-mapeo.html` y fichas de activos para la fase posterior. Navegación a Aula, Inicio Loja, talleres, guía y volver. El antiguo número 157 es de COMPÁS histórico, no un lote obligatorio ni el estado actual de Localiza Salud.
 >
-> **Fuente de verdad:** nueva agenda de la web `sesion-2.html` y su reflejo en `SESION_2_MAPEO_Y_PRIORIZACION.md`, con comprobación automática de códigos, tiempos y rutas. La primera agenda del 16/10, conservada en `taller-impulso.html` y `GUIA_PONENTE_16-10-2026.md`, es documento histórico y no se mezcla con ella.
->
-> **Riesgo conocido:** PR #20 de migración de encuesta de actores a REDCap modifica `impulso/ficha.html` y `impulso/index.html`; contrastar ambas ramas antes de fusionar cualquiera de las dos. **No** modificar ni desplegar PR #20 desde esta intervención. No hay autorización para fusionar ni desplegar PR #36.
+> **Dependencias:** PR #20 (encuesta de actores en REDCap) sigue abierta y puede entrar en conflicto con `index.html` y `ficha.html` de Loja. No está incluida en esta publicación. Cotejar documentos ODT/actas 2022, confirmar acuerdos locales y comprobar visualmente el funcionamiento en navegador. Los apartados posteriores conservan historia de decisiones anteriores **supersedidas** donde contradigan este estado actual.
 
 ---
 
@@ -106,3 +103,8 @@ La propuesta se publicó mediante la **PR #34 fusionada en `main`** con material
 **Agenda única:** `sesion-2.html` y `SESION_2_MAPEO_Y_PRIORIZACION.md`: **10 apertura, 20 prioridades 2022, 20 contraste, 15 consulta/COMPÁS-NG, 15 grandes líneas, 30 taller de planificación del mapeo, 10 acuerdos = 120 min**. Se incorpora `matriz-planificacion-mapeo.html`, ficha imprimible sin almacenamiento, con campos de línea, qué, dónde, con quién, técnica, coordinador, calendario, precauciones y estado (pendiente/acordado). Ejemplos exclusivamente hipotéticos: envejecimiento saludable, uso saludable de pantallas y dispositivos, violencia de género (sin localizar recursos sensibles en mapas públicos) y desigualdades de salud en un barrio ERACIS. No afirmar que sean las líneas definitivas de Loja.
 
 **Revisión transversal:** portada general, itinerario de Loja, segunda sesión, guion, dinámica de priorización, guía de ejecución del mapeo, matriz de taller, fichas y CSV de ejecución posterior, enlaces, navegación, tests y continuidad. Primer programa de 90 min del 16/10 permanece histórico. COMPÁS-NG es contexto, no se modifica. La PR #20 de actores sigue abierta; conciliar antes de fusionar. **PR #36 sin fusionar ni desplegar.**
+
+
+## 18/10/2026 · PR #36 fusionada y publicada
+
+Los materiales de la segunda reunión están en `main`; la planificación del mapeo pertenece a la **misma** sesión de priorización, tras seleccionar líneas, no a una reunión adicional. Las matrices son herramientas de trabajo no persistentes. GitHub Pages es la plataforma de publicación; la verificación visual manual queda pendiente.
