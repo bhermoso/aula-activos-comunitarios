@@ -108,3 +108,56 @@ En ambos casos, **la propuesta de Plan de Acción con objetivos e indicadores ve
 - Priorización y borrador 2022: `bhermoso/compas-ng-renovado`, `public/seeds/compas-ng-workspace-loja.json`, registros `doc-prioritisation-loja-2022` y `doc-action-plan-loja-2022`; transcripciones, pendiente cotejo de originales.
 - Priorización/REDCap como *referencia técnica externa*: `src/domain/thematic-prioritisation/ThematicTopic.ts`, `src/ui/components/GESPanel.tsx`, `src/ui/components/ThematicPrioritisationPanel.tsx` (COMPÁS-NG Renovado). **No se interviene en ese repositorio.**
 - EPVSA y ESCA: marcos autonómicos para la futura elaboración de líneas del Plan Local, no objetivos de enseñanza central de esta reunión.
+
+
+## 7. Materiales prácticos de la sesión (rama de preparación)
+
+| Material | Uso en la sesión | Qué NO hace |
+| --- | --- | --- |
+| [Ficha de revisión individual de recursos](ficha-revision-activos.html) | Proyectar, rellenar dos casos de práctica y acordar criterios de contraste y decisión | No almacena, no envía fichas, no valida recursos en Localiza Salud |
+| [Plantilla CSV vacía](plantilla_revision_recursos_loja.csv) y [guía de columnas](GUIA_REVISION_INDIVIDUAL_ACTIVOS.md) | Distribuir revisión registro a registro de **todo el inventario conciliado** entre equipos con un criterio común | No contiene registros de Loja ni inventario actual; no proporciona trabajo multiusuario ni repositorio compartido |
+| [Dinámica de priorización histórica](dinamica-priorizacion.html) | Revisar las **26 categorías documentadas en 2022**, marcar incertidumbres y debatir si hace falta actualizar | No es nueva votación ni genera ranking vigente; las anotaciones no son un acta |
+| [Página de la segunda sesión](sesion-2.html) | Guion compacto de proyección y navegación entre ejercicios | No sustituye convocatoria ni acuerdo del Grupo Motor |
+
+### 7.1. Guion breve para facilitar el ejercicio de activos (30 minutos)
+
+**Antes:** la persona facilitadora proyecta **una fila didáctica sin datos reales**, como «un local con actividades comunitarias cuya programación vigente desconocemos». Evitar cargar datos personales o expedientes privados en la web.
+
+**Inicio (5 min):** preguntar «¿Es lo mismo que un recurso exista, que la comunidad lo reconozca como beneficioso y que conste publicado/validado en Localiza Salud?». En la pizarra, separar esas tres situaciones.
+
+**Trabajo en pequeños grupos (10 min):** cada grupo rellena la misma ficha para dos situaciones simuladas: (a) espacio con actividad conocida pero sin evidencias de accesibilidad ni reconocimiento; (b) taller de hace años sin certeza de continuidad. Para cada una: decisión **provisional**, evidencia necesaria, quién debe consultarse y siguiente paso.
+
+**Puesta en común (10 min):** comparar discrepancias, precisar cómo se prueba la vigencia, qué contará como identificación participativa y cómo documentar un pendiente. Recordar que el grupo no puede tramitar un alta ajena sin consultar con la persona responsable del recurso y que solo el perfil autorizado gestiona la validación formal.
+
+**Acuerdo organizativo (5 min):** fijar responsable de exportar/conciliar listados; equipos revisores; número de lotes y fecha de cierre; custodia del CSV actualizado. **No** tomar la cifra histórica de 157 como tamaño de la cola real en Localiza Salud.
+
+### 7.2. Guion breve para la dinámica de priorización (20 minutos)
+
+**Introducción (4 min):** recuperar que hubo una priorización documentada de **26 problemas / 40 participantes en 2022**. Mostrar el top histórico y sus límites: ODT, método y ratificación por confirmar.
+
+**Contraste (8 min):** elegir **tres o cuatro temas a modo de ejemplo**, con distintas naturalezas —como sedentarismo, ocio juvenil, barreras arquitectónicas y bienestar emocional—. Preguntar: ¿qué evidencia actual apoya su vigencia? ¿Qué personas, barrios y anejos tendrían que participar para responder? **No intentar volver a puntuar los 26 durante la sesión**; la tabla completa permite revisión posterior por equipos.
+
+**Elección metodológica (6 min):** presentar las cuatro alternativas de la herramienta: revisión deliberativa; nueva consulta; combinación; o posponer hasta disponer de documentos. Si se propone encuesta, aclarar que la papeleta de COMPÁS debe adaptarse a Loja antes de crear un proyecto en REDCap, y que no se recogerán votos en esta sesión.
+
+**Cierre (2 min):** una persona recoge **qué se ha decidido, con qué reservas y qué encargos se asignan**. Si no hubo acuerdo, el acta debe consignar falta de acuerdo, no seleccionar una opción por defecto.
+
+### 7.3. Lista de comprobación del equipo organizador
+
+- [ ] Inventario histórico disponible con IDs y sin datos privados en la proyección.
+- [ ] Relación actual en Localiza Salud solicitada a perfil autorizado, o ausencia registrada como dependencia.
+- [ ] Guía oficial de Localiza Salud a mano: [Gestión de alta y validación](https://localizasalud.sanidad.gob.es/adminrecursos/main/).
+- [ ] ODT originales, actas y metodología de priorización 2022 solicitados. Si faltan, indicar **documentación pendiente** en sala.
+- [ ] Ficha HTML y dinámica HTML probadas antes de proyectarlas, con opción de impresión y copias de reserva.
+- [ ] Identificadas personas encargadas de moderar, anotar decisiones y asumir seguimiento.
+- [ ] Comprobado que las decisiones se documentan en acta institucional; las páginas del Aula **no guardan respuestas ni decisiones**.
+
+### 7.4. Indicadores de trabajo de la sesión (no del futuro Plan Local de Salud)
+
+Son únicamente **controles para comprobar que el Grupo Motor pudo organizar su trabajo**:
+- ¿Se aprobó una ficha común y un procedimiento de contraste de recursos? **Sí / No / Pendiente**.
+- ¿Hay responsables, lotes y plazos para revisar **todos** los registros conciliados? **Sí / No / Pendiente**.
+- ¿Se acordaron uno o más procesos participativos de mapeo, con equipo y territorio? **Sí / No / Pendiente**.
+- ¿Se ha documentado si el resultado de 2022 requiere contraste, actualización o nueva encuesta? **Sí / No / Pendiente**.
+- ¿Existe una persona encargada del siguiente encuentro y de devolver el resultado de estas tareas? **Sí / No / Pendiente**.
+
+Estos controles no se usarán para afirmar ejecución de las actividades ni validación formal de recursos.
