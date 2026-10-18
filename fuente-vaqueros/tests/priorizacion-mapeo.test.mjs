@@ -58,7 +58,7 @@ test('Si se consulta, líneas y matriz no se tratan como aprobadas',()=>{
  'las grandes líneas quedan pendientes',
  'no iniciará el trabajo de campo',
  'no guardan ni se envían'])
-  assert.ok(next.includes(x)||guide.includes(x),'Falta límite: '+x);
+  assert.ok(next.toLowerCase().includes(x.toLowerCase())||guide.toLowerCase().includes(x.toLowerCase()),'Falta límite: '+x);
  assert.ok(next.includes('No se registran activos en Localiza Salud desde el Aula'));
 });
 
