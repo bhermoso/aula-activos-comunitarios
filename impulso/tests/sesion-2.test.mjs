@@ -176,3 +176,84 @@ test('Segunda sesión permite navegar por fases y mantiene guías de mapeo en et
  const deferred=second.indexOf('id="mapeo"');
  assert.ok(guideLink>=0&&deferred>=0);
 });
+
+
+test('Agenda sincronizada: siete bloques y 120 minutos, con rutas de decisión excluyentes',()=>{
+ const expected=[
+  ['apertura',10,'Apertura y objetivo'],
+  ['antecedentes',20,'Prioridades de 2022'],
+  ['contraste',20,'Contraste comunitario'],
+  ['demostracion',15,'Herramientas disponibles'],
+  ['metodo',20,'Decisión metodológica'],
+  ['ruta-condicionada',25,'Trabajo condicionado al acuerdo'],
+  ['cierre',10,'Acta y continuidad']
+ ];
+ const actual=[...second.matchAll(/data-agenda-key="([^"]+)" data-minutes="(\d+)"/g)]
+  .map(m=>[m[1],Number(m[2])]);
+ assert.deepEqual(actual,expected.map(x=>x.slice(0,2)));
+ assert.equal(actual.reduce((total,a)=>total+a[1],0),120);
+ for(const [id,minutes,title] of expected){
+  const csv='| '+String.fromCharCode(96)+id+String.fromCharCode(96)+' | '+minutes+' min |';
+  assert.ok(guide.includes(csv),'Falta bloque sincronizado en el guion: '+id);
+  assert.ok(second.includes(title),'Falta en la web: '+title);
+  assert.ok(guide.includes(title),'Falta en el guion: '+title);
+ }
+ assert.ok(second.includes('Ruta A · Sin nueva consulta'));
+ assert.ok(second.includes('Ruta B · Con consulta o decisión aplazada'));
+ assert.ok(second.includes('No cerrar todavía las líneas estratégicas'));
+ assert.ok(guide.includes('alternativas'));
+ assert.ok(guide.includes('NO una sesión de mapeo'));
+ assert.ok(guide.includes('NO seleccionar aún líneas'));
+ assert.ok(second.includes('no incluye ejercicios de mapeo de activos'));
+ assert.ok(!second.includes('Distribuir revisión de todos los registros'));
+});
+
+test('Programa del primer taller: histórico y separado de agenda de priorización',()=>{
+ assert.ok(first.includes('10:00–10:10'));
+ assert.ok(first.includes('11:25–11:30'));
+ assert.ok(first.includes('Programa histórico del 16/10/2026'));
+ assert.ok(first.includes('Este programa no es la agenda del siguiente encuentro'));
+ assert.ok(first.includes('href="sesion-2.html"'));
+ for(const label of ['Propuesta histórica de mapeo 01','Propuesta histórica de mapeo 02'])
+  assert.ok(first.includes(label));
+ assert.ok(first.includes('Solo se valorará después de elegir las líneas estratégicas'));
+ const speaker=read('GUIA_PONENTE_16-10-2026.md');
+ assert.ok(speaker.includes('90 minutos'));
+ assert.ok(speaker.includes('10:00–10:10'));
+ assert.ok(speaker.includes('11:25–11:30'));
+});
+
+test('La ficha histórica de actores mantiene navegación y su integración',()=>{
+ const ficha=read('ficha.html');
+ for(const token of ['loja-global-nav','href="../index.html"','href="index.html"',
+   'data-loja-volver','href="taller-impulso.html"','loja-navegacion.js','encuestas_loja_2026'])
+  assert.ok(ficha.includes(token),'Falta '+token);
+});
+
+test('La documentación distingue situación vigente, publicaciones y alternativas futuras',()=>{
+ const rootState=readFileSync(path.join(root,'..','ESTADO_Y_CONTINUIDAD.md'),'utf8');
+ const lojaState=read('ESTADO_Y_CONTINUIDAD.md');
+ for(const t of [rootState,lojaState]){
+  assert.ok(t.includes('PR #36'));
+  assert.ok(t.includes('NO DESPLEGADA')||t.includes('NO PUBLICADO'));
+  assert.ok(t.includes('120 minutos'));
+  assert.ok(t.includes('PR #20'));
+ }
+ assert.ok(lojaState.includes('Histórico supersedido'));
+ assert.ok(rootState.includes('10 + 20 + 20 + 15 + 20 + 25 + 10'));
+ assert.ok(rootState.includes('guía visual'));
+});
+
+test('Enlaces internos resuelven a archivos existentes en todas las pantallas de Loja',()=>{
+ for(const fname of ['index.html','taller-impulso.html','sesion-2.html','ficha.html',
+  'dinamica-priorizacion.html','ficha-revision-activos.html','guia-mapeo.html']){
+  const page=read(fname);
+  for(const m of page.matchAll(/href="([^"]+)"/g)){
+   const href=m[1];
+   if(!href||href.startsWith('#')||/^https?:|^mailto:|^data:/.test(href))continue;
+   const clean=href.split('#')[0].split('?')[0];
+   if(!clean || clean.startsWith('/') || clean.includes('$'))continue;
+   assert.ok(existsSync(path.resolve(root,clean)),fname+' enlaza a ruta inexistente: '+href);
+  }
+ }
+});
