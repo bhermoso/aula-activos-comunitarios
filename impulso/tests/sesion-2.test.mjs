@@ -7,6 +7,7 @@ import {Script} from 'node:vm';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=(name)=>readFileSync(path.join(root,name),'utf8');
 const hub=read('index.html'),first=read('taller-impulso.html');
+const aulaRoot=readFileSync(path.join(root,'..','index.html'),'utf8');
 const second=read('sesion-2.html'),guide=read('SESION_2_MAPEO_Y_PRIORIZACION.md');
 
 test('Portada del módulo: dos encuentros separados y mapeo como tercera etapa posterior',()=>{
@@ -19,6 +20,9 @@ test('Portada del módulo: dos encuentros separados y mapeo como tercera etapa p
   assert.ok(hub.includes('Solo después'));
   assert.equal((hub.match(/<article class="card /g)||[]).length,2);
   assert.ok(!hub.includes('id="actividad-app"'),'La portada ya no contiene el taller completo incrustado');
+  assert.ok(aulaRoot.includes('Loja · Impulso y priorización'));
+  assert.ok(aulaRoot.includes('Mapeo posterior'));
+  assert.ok(aulaRoot.includes('href="./impulso/"'));
 });
 
 test('Se conserva el primer taller y sus accesos desde enlaces históricos',()=>{
