@@ -109,3 +109,70 @@ test('Guion, enlaces y scripts disponibles sin fuentes externas de recogida',()=
   for(const script of scripts)assert.doesNotThrow(()=>new Script(script));
  }
 });
+
+
+test('Navegación global del Aula, Loja, talleres, guía y volver en TODAS las pantallas',()=>{
+ const pages=[
+  ['index.html','loja'],
+  ['taller-impulso.html','impulso'],
+  ['sesion-2.html','priorizacion'],
+  ['dinamica-priorizacion.html','priorizacion'],
+  ['ficha-revision-activos.html','guia'],
+  ['guia-mapeo.html','guia']
+ ];
+ const headerNames=['⌂ Aula','Inicio Loja','Taller de impulso','Priorización','Guía de activos'];
+ for(const [file] of pages){
+  const text=read(file);
+  for(const label of headerNames)assert.ok(text.includes(label),file+' sin '+label);
+  assert.ok(text.includes('loja-global-nav'),file+' sin barra global');
+  assert.ok(text.includes('href="../index.html"'),file+' sin retorno al Aula');
+  assert.ok(text.includes('href="index.html"'),file+' sin inicio de Loja');
+  assert.ok(text.includes('href="taller-impulso.html"'),file+' sin primer taller');
+  assert.ok(text.includes('href="sesion-2.html"'),file+' sin priorización');
+  assert.ok(text.includes('href="guia-mapeo.html"'),file+' sin guía');
+  assert.ok(text.includes('data-loja-volver'),file+' sin botón Volver');
+  assert.ok(text.includes('data-fallback='),file+' sin destino seguro');
+  assert.ok(text.includes('../assets/loja-navegacion.css'),file+' sin estilos compartidos');
+  assert.ok(text.includes('../assets/loja-navegacion.js'),file+' sin funcionamiento Volver');
+ }
+ assert.equal((first.match(/data-loja-volver/g)||[]).length,2,'Primera sesión: navegación tanto en portada como en el taller');
+});
+
+test('La guía docente HTML sustituye enlaces a Markdown en la navegación visible',()=>{
+ const html=read('guia-mapeo.html'), ficha=read('ficha-revision-activos.html');
+ assert.ok(html.includes('Mapeo de activos vinculado a las prioridades'));
+ for(const part of ['id="criterio"','id="metodo"','id="ficha"','id="ejemplo"','id="garantias"'])
+  assert.ok(html.includes(part),'Sección visual inexistente: '+part);
+ assert.ok(html.includes('índice')||html.includes('Índice')||html.includes('En esta guía'));
+ assert.ok(html.includes('<details>'));
+ assert.ok(html.includes('Seis pasos para construir un mapa útil'));
+ assert.ok(html.includes('líneas estratégicas'));
+ assert.ok(html.includes('CSV'));
+ assert.ok(html.includes('window.print()'));
+ assert.ok(second.includes('href="guia-mapeo.html"'));
+ assert.ok(ficha.includes('href="guia-mapeo.html"'));
+ for(const page of [second,ficha,hub])assert.ok(!page.includes('href="GUIA_REVISION_INDIVIDUAL_ACTIVOS.md"'),'Enlace visible a Markdown sin maquetar');
+ assert.ok(existsSync(path.join(root,'GUIA_REVISION_INDIVIDUAL_ACTIVOS.md')),'El original debe mantenerse como fuente editable');
+});
+
+test('Navegación global en móvil no oculta enlaces en un carrusel horizontal',()=>{
+ const css=readFileSync(path.join(root,'..','assets','loja-navegacion.css'),'utf8');
+ const js=readFileSync(path.join(root,'..','assets','loja-navegacion.js'),'utf8');
+ assert.ok(css.includes('@media(max-width:940px)'));
+ assert.ok(css.includes('flex-wrap:wrap;justify-content:flex-end'));
+ assert.ok(css.includes(':focus-visible'));
+ assert.ok(css.includes('@media print'));
+ assert.ok(js.includes('data-loja-volver'));
+ assert.ok(js.includes('data-fallback'));
+ assert.ok(js.includes('ref.origin===here.origin'));
+ assert.doesNotThrow(()=>new Script(js));
+});
+
+test('Segunda sesión permite navegar por fases y mantiene guías de mapeo en etapa posterior',()=>{
+ const sections=['antecedentes','decision','lineas','agenda','acuerdos'];
+ for(const id of sections)assert.ok(second.includes('href="#'+id+'"')&&second.includes('id="'+id+'"'),'Falta apartado '+id);
+ assert.ok(second.includes('aria-label="Apartados del taller de priorización"'));
+ const guideLink=second.indexOf('href="guia-mapeo.html"');
+ const deferred=second.indexOf('id="mapeo"');
+ assert.ok(guideLink>=0&&deferred>=0);
+});
