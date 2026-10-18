@@ -15,3 +15,8 @@ Actualizar **solo** `fuente-vaqueros/index.html`, con fondo arena y verde profun
 `node --test fuente-vaqueros/tests/paleta.test.mjs` verifica que no reaparezcan tonos azules saturados, que se conservan los colores acordados, contraste mínimo 4.5:1 en botones y titulares y las seis secciones. Integración en GitHub Actions para cambios futuros. Esta prueba estática no sustituye la revisión visual con navegador real a distintas anchuras.
 
 **Despliegue:** fusionar a `main` y esperar a GitHub Pages solo con autorización expresa. Después comprobar las páginas interiores con caché actualizada y comprobar pantallas pequeñas.
+
+
+## 18/10/2026 · Identificación del moderador
+
+**Rectificación aportada por el usuario:** el moderador de la mesa-coloquio del 22/10/2026 es **Rubén**, persona vinculada al **área de Cultura del Ayuntamiento de Fuente Vaqueros**. El programa preparatorio inicial ya señalaba «Rubén»; la identificación diferente publicada el 17/10/2026 era errónea. Apellidos y cargo concreto aún no verificados: no inferirlos ni atribuírsele la Concejalía de Cultura. Cambios en portada, programa, relación de participantes y guion de moderación, con pruebas ajustadas. Esta corrección queda preparada en rama para revisión; no se fusiona ni despliega sin autorización expresa.
