@@ -31,9 +31,11 @@ body:not(.presentation) .actividad-app .site-head{top:58px}
 body:not(.presentation) .actividad-app .rail{top:123px}
 body.presentation .loja-global-nav,body.loja-agenda-pantalla .loja-global-nav--inner{display:none!important}
 @media(max-width:940px){
-  .loja-global-nav{gap:7px}
+  .loja-global-nav{gap:7px;flex-wrap:wrap}
   .loja-global-nav .loja-nav-brand .loja-nav-label{display:none}
-  .loja-global-nav .loja-nav-links{flex-wrap:nowrap;overflow-x:auto;max-width:calc(100vw - 90px);scrollbar-width:thin;justify-content:flex-start}
+  .loja-global-nav .loja-nav-links{flex:1 1 310px;flex-wrap:wrap;justify-content:flex-end;max-width:100%;gap:4px}
+  body:not(.presentation) .actividad-app .site-head{top:0}
+  body:not(.presentation) .actividad-app .rail{top:0}
 }
 @media(max-width:480px){
   .loja-global-nav{padding:8px 10px!important;min-height:54px}
