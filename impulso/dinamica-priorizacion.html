@@ -1,9 +1,20 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102a28"><title>Dinámica de revisión de prioridades · Loja</title>
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102a28"><title>Priorización y selección de líneas · Loja</title>
 <style>
 *{box-sizing:border-box}body{margin:0;background:#f6f5ef;font:15px/1.55 Inter,system-ui,sans-serif;color:#173e35}header{background:#102a28;color:white;padding:24px max(16px,calc((100vw - 1000px)/2))}header a{color:#d8e9df}h1,h2{font-family:Georgia,serif;line-height:1.2}h1{font-size:clamp(27px,4vw,44px);margin:18px 0}header p{max-width:850px;color:#d7e4dd}main{max-width:1040px;margin:auto;padding:17px}section{border:1px solid #dae7de;background:white;margin:17px 0;padding:23px;border-radius:14px}h2{font-size:26px;margin:0 0 13px}.note{background:#e8f4ef;border-left:4px solid #137c73;padding:13px 16px;margin:14px 0}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.grid p{background:#eff5ef;padding:13px;border-radius:9px;margin:0}table{width:100%;border-collapse:collapse;font-size:13px}th,td{border-bottom:1px solid #d8e4dc;padding:9px;text-align:left;vertical-align:top}th{background:#ecf3ed}.num{white-space:nowrap;font-variant-numeric:tabular-nums}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}select,textarea{border:1px solid #abc3b6;border-radius:8px;padding:8px;font:inherit;width:100%;background:white}textarea{min-height:70px}button{cursor:pointer}button:focus-visible,select:focus-visible,input:focus-visible,textarea:focus-visible,a:focus-visible{outline:3px solid #e9af39;outline-offset:2px}fieldset{margin:12px 0;padding:15px;border:1px solid #bbd4c5;border-radius:10px}fieldset legend{font-weight:800}fieldset label{display:block;margin:10px 0}fieldset input{margin-right:7px}.field{margin:14px 0}.field label{display:block;font-weight:800;margin:0 0 5px}.btn{border:1px solid #137c73;color:white;background:#137c73;padding:11px 16px;font-weight:800;border-radius:9px}.footer{padding:25px 16px;color:#577165;font-size:12px;text-align:center}.tip{color:#587064;font-size:13px}a{color:#12675c}
 @media(max-width:700px){.grid{grid-template-columns:1fr}section{padding:16px 12px}table{font-size:12px}th,td{padding:6px 3px}}
 @media print{@page{size:A4;margin:11mm}body{background:white;font-size:10pt}header{background:white;color:#111;padding:0}header p{color:#333}header a,.btn{display:none}h1{font-size:23pt}h2{font-size:16pt}main{padding:0}section{border:none;padding:7px 0;margin:5px 0}.grid{grid-template-columns:repeat(3,1fr)}.grid p,.note{background:#f3f3f3}select{border:none;padding:1px}tr{break-inside:avoid}}
-</style></head><body>
+</style><link rel="stylesheet" href="../assets/loja-navegacion.css?v=20261018d"></head><body>
+<nav class="loja-global-nav" aria-label="Navegación global de Loja">
+<a class="loja-nav-brand" href="../index.html" aria-label="Aula de Salud Comunitaria · inicio"><span class="loja-nav-mark" aria-hidden="true">A</span><span class="loja-nav-label">AULA · SALUD COMUNITARIA</span></a>
+<div class="loja-nav-links">
+<a href="../index.html">⌂ Aula</a>
+<a href="index.html">Inicio Loja</a>
+<a href="taller-impulso.html">Taller de impulso</a>
+<a href="sesion-2.html" aria-current="page">Priorización</a>
+<a href="guia-mapeo.html">Guía de activos</a>
+<button type="button" class="loja-nav-back" data-loja-volver data-fallback="sesion-2.html">← Volver</button>
+</div></nav>
+
 <header><a href="sesion-2.html">← Segunda sesión del Grupo Motor · Loja</a><h1>Revisar la priorización antes de volver a priorizar</h1><p>Material para deliberar sobre el trabajo de 2022 y elegir cómo actualizarlo, si resulta necesario. No es una encuesta ni registra votaciones.</p></header>
 <main>
 <section><h2>1 · El trabajo que ya existe</h2><p>El expediente conserva una <strong>lista de 26 problemas y factores de riesgo ordenados y puntuados</strong>, con <strong>40 participantes en 2022</strong>. Existe además un borrador histórico de grupos de trabajo. Es información documentada, pero requiere cotejar originales y actas antes de atribuirle vigencia o aprobación formal.</p>
@@ -49,7 +60,11 @@
 <div class="field"><label for="motivos">Criterios y razones discutidas</label><textarea id="motivos"></textarea></div>
 <div class="field"><label for="encargos">Tareas, roles, responsables y plazos que se propondrán para el acta</label><textarea id="encargos"></textarea></div>
 <h3>Si se plantea una consulta</h3><p>COMPÁS-NG Renovado es una <strong>herramienta externa de demostración</strong>. Su prioridad temática presenta diez temas para elegir hasta cinco y el Gestor genera un diccionario REDCap. <strong>COMPÁS no recoge votos públicos</strong>: la encuesta debe habilitarse y probarse en REDCap institucional. Primero habría que comprobar si las categorías cubren problemas locales como barreras arquitectónicas, ocio juvenil, empleo o desigualdades territoriales.</p>
-<p class="note"><strong>Hoy no diseñamos las líneas estratégicas del Plan de Acción.</strong> Si se hace una encuesta, se definirán población, metodología, canales, consentimiento o información de privacidad, calendario y devolución. La consulta de actores/sectores de la primera sesión es otro instrumento.</p>
+<p class="note"><strong>Decisión sobre líneas estratégicas:</strong> si el grupo acuerda que la evidencia ya es suficiente y no va a consultar, puede proponer o seleccionar líneas vinculadas a problemas priorizados. Si se acuerda encuesta, la decisión sobre líneas se pospone hasta revisar y deliberar sus resultados. Las nuevas líneas, sus fuentes y condiciones deben constar en el acta.</p>
+<h3>4 · Líneas estratégicas (solo después de priorizar)</h3>
+<p>Si procede en esta reunión, anotar posibles líneas, <strong>su relación con problemas priorizados</strong> y la evidencia necesaria. No se asignan líneas por defecto ni se interpreta esta anotación como aprobación institucional.</p>
+<div class="field"><label for="lineas">Líneas propuestas, problemas vinculados y fundamento del acuerdo</label><textarea id="lineas" placeholder="Solo si el Grupo Motor cuenta con la evidencia y ha deliberado; si se hace consulta, dejar pendiente."></textarea></div>
+<p class="note"><strong>Planificación del mapeo en esta segunda sesión:</strong> una vez elegidas las líneas, decidir <strong>qué mapear, dónde, con quién y con qué técnica</strong>. La ejecución y revisión de activos concretos serán posteriores. Si se consulta, registrar solo escenarios provisionales. La consulta de actores y sectores de la primera sesión es otro instrumento.</p><p><a href="matriz-planificacion-mapeo.html">Abrir la matriz de planificación del mapeo por línea →</a></p>
 <button class="btn" type="button" id="imprimir">Imprimir anotaciones del taller</button><p class="tip"><strong>Sin almacenamiento:</strong> nada se envía, guarda o convierte automáticamente en acuerdo; lo escrito se pierde al cerrar o recargar. No introducir datos personales.</p></section>
 </main><div class="footer">Aula de Salud Comunitaria Basada en Activos · Loja · Segunda sesión en preparación</div>
 <script>
@@ -60,4 +75,4 @@ sels.forEach(function(s){s.addEventListener("change",actualizar);});
 var ayuda={revisar:"Definir quién participa en el contraste y las fuentes actuales; dejar criterios y acuerdos expresos.",consulta:"Antes de convocar, adaptar categorías a Loja, población y técnica, permisos REDCap y pruebas.",mixto:"Acordar primero contraste comunitario y después valorar encuesta complementaria.",pendiente:"Recuperar ODT, actas y perfil actualizado; designar responsable y fecha para decidir."};
 document.querySelectorAll('input[name="ruta"]').forEach(function(x){x.addEventListener("change",function(){document.getElementById("orientacion").textContent=ayuda[x.value];});});
 document.getElementById("imprimir").addEventListener("click",function(){window.print();});
-</script></body></html>
+</script><script src="../assets/loja-navegacion.js?v=20261018d" defer></script></body></html>

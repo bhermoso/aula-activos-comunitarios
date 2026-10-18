@@ -1,0 +1,46 @@
+
+/* Navegación persistente Loja · Identidad del Aula/REDCap.
+   No cambia el sistema interno de navegación de los talleres. */
+.loja-global-nav{
+  --loja-nav-bg:#123b34;--loja-nav-line:#4b7667;
+  display:flex!important;align-items:center;justify-content:space-between;gap:16px;
+  width:100%;min-height:58px;padding:9px clamp(14px,3vw,32px)!important;
+  color:#f5f8f5;background:var(--loja-nav-bg)!important;
+  border-bottom:1px solid var(--loja-nav-line);position:sticky;top:0;z-index:1100;
+  font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif!important;
+  box-shadow:0 2px 10px rgba(8,37,26,.13);
+}
+.loja-global-nav *{box-sizing:border-box}
+.loja-global-nav .loja-nav-brand{display:inline-flex;align-items:center;gap:10px;flex:0 0 auto;
+  font:800 12px/1.2 Inter,system-ui,sans-serif!important;letter-spacing:.06em;text-decoration:none!important;color:#f1f7f0!important}
+.loja-global-nav .loja-nav-brand .loja-nav-mark{display:inline-flex;align-items:center;justify-content:center;
+  background:#d0e6d7;color:#17493f;border-radius:9px;width:33px;height:33px;font-weight:900}
+.loja-global-nav .loja-nav-links{display:flex;align-items:center;gap:6px;min-width:0;flex-wrap:wrap;justify-content:flex-end}
+.loja-global-nav .loja-nav-links a,.loja-global-nav .loja-nav-links button{
+  flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;min-height:36px;
+  padding:7px 11px!important;font:750 12px/1.2 Inter,system-ui,sans-serif!important;
+  border-radius:9px;border:1px solid transparent;background:transparent;color:#e9f3ec!important;
+  text-decoration:none!important;white-space:nowrap;letter-spacing:0;cursor:pointer;
+}
+.loja-global-nav .loja-nav-links a:hover,.loja-global-nav .loja-nav-links button:hover{background:#285b4b!important}
+.loja-global-nav .loja-nav-links a[aria-current="page"]{background:#d9eadc!important;color:#184737!important;border-color:#b7d5c1}
+.loja-global-nav .loja-nav-links .loja-nav-back{border-color:#7faa95;background:#1d594c}
+.loja-global-nav :is(a,button):focus-visible{outline:3px solid #e7b250!important;outline-offset:3px}
+.portada-bar.loja-global-nav{flex:0 0 auto}
+body:not(.presentation) .actividad-app .site-head{top:58px}
+body:not(.presentation) .actividad-app .rail{top:123px}
+body.presentation .loja-global-nav,body.loja-agenda-pantalla .loja-global-nav--inner{display:none!important}
+@media(max-width:940px){
+  .loja-global-nav{gap:7px;flex-wrap:wrap}
+  .loja-global-nav .loja-nav-brand .loja-nav-label{display:none}
+  .loja-global-nav .loja-nav-links{flex:1 1 310px;flex-wrap:wrap;justify-content:flex-end;max-width:100%;gap:4px}
+  body:not(.presentation) .actividad-app .site-head{top:0}
+  body:not(.presentation) .actividad-app .rail{top:0}
+}
+@media(max-width:480px){
+  .loja-global-nav{padding:8px 10px!important;min-height:54px}
+  .loja-global-nav .loja-nav-links a,.loja-global-nav .loja-nav-links button{font-size:11px!important;padding:8px 9px!important}
+  body:not(.presentation) .actividad-app .site-head{top:54px}
+  body:not(.presentation) .actividad-app .rail{top:113px}
+}
+@media print{.loja-global-nav{display:none!important}}

@@ -1,54 +1,56 @@
-# Loja · Plantilla operativa de revisión de recursos y posibles activos
+# Loja · Revisión de recursos vinculados a las líneas estratégicas
 
-**Uso:** hoja de trabajo para la segunda sesión y la revisión posterior **registro a registro** del inventario. El CSV adjunto contiene únicamente encabezados: **NO contiene recursos reales ni datos de Localiza Salud**. La hoja emplea `; ` como separador compatible con configuraciones regionales españolas y UTF-8 con BOM para facilitar la apertura en hojas de cálculo.
+**Etapa posterior al Taller de priorización.** Esta guía y su [CSV de 22 columnas](plantilla_revision_recursos_loja.csv) son herramientas para el **mapeo dirigido**, no tareas que deban iniciarse en la segunda reunión del Grupo Motor. La plantilla está vacía: no contiene datos reales.
 
-**Secuencia acordada antes de empezar a rellenar:** exportar o solicitar relación original, obtener con autorización listado vigente de Localiza Salud, preservar sus identificadores y fechar las comprobaciones. Ni los 162 registros históricos ni los 157 «pendientes» son cifras actuales confirmadas de Localiza Salud.
+## Prerrequisito: líneas acordadas
 
-## 1. Diccionario de los campos
+El Grupo Motor habrá priorizado problemas y seleccionado las líneas estratégicas del primer Plan Local de Salud, dejando constancia de acuerdo, fuentes y fecha. Hasta entonces **no se distribuyen tareas de auditoría del inventario general como si fueran mapeo del Plan**.
 
-| Columna | Qué se registra |
-|---|---|
-| id_historico | ID de procedencia, no nombre libre si existe identificador original |
-| id_localiza_salud | ID o URL de la ficha ministerial **verificada**; dejar vacío si no se conoce |
-| fecha_consulta_localiza | Fecha exacta de contraste de la publicación o estado de solicitud |
-| nombre_recurso, tipo_recurso | Denominación y categoría existente: organización, asociación, espacio, actividad, etc. |
-| barrio_o_anejo | Ámbito territorial general, nunca geolocalización de personas usuarias |
-| fuente_inventario | Registro, expediente, entidad responsable y versión consultada |
-| vigencia | **sin verificar / vigente / inactivo / dato contradictorio** |
-| fecha_contraste | Fecha de conversación, inspección de datos públicos o confirmación con responsable |
-| contribucion_salud | Contribución plausible a la salud o bienestar, con justificación concreta |
-| evidencia_comunitaria | Cómo se ha contrastado; fuente y fecha (acta/taller/grupo, sin datos personales) |
-| participacion_contraste | **no contrastado / propuesto / confirmado participativamente / no procede**, sin dar por hecho una validación |
-| acceso_horarios_coste_barreras | Horarios, coste, condiciones y accesibilidad física/digital/territorial |
-| estado_en_localiza | **sin consultar / no localizado / publicado / solicitud pendiente / requiere corrección / desconocido**. No inferir publicación de ausencia en búsqueda; verificar con el perfil competente |
-| resultado_revision | **sin revisar / recurso pendiente / activo contrastado / duplicado / inactivo / descartar propuesta** |
-| motivo_revision | Argumentos y evidencias que justifican resultado |
-| accion_pendiente | Contactar entidad responsable; contraste participativo; cotejar duplicados; comunicar corrección; solicitar registro; solicitar validación cuando proceda |
-| equipo_responsable | **Rol o equipo**, no datos privados de contacto |
-| fecha_limite, fecha_revision_siguiente | Plazo asignado y nueva fecha de seguimiento |
+A partir de cada línea elegida, delimitar:
+- Código/nombre de la línea y problemas priorizados que aborda;
+- Población y territorio (barrios, anejos, grupos afectados);
+- Cómo podría contribuir un recurso a la línea y qué tipo de activo se busca.
 
-## 2. Procedimiento mínimo aplicable a TODOS los registros
+**Solo entran en el mapa del Plan** los recursos del inventario histórico con relación plausible y verificable con una o más líneas, además de nuevos activos detectados mediante procesos participativos dirigidos a esas líneas. Los demás registros pueden seguir en un inventario general, ajeno al alcance de este mapeo. No implica bajas automáticas de Localiza Salud.
 
-1. **Identificar y deduplicar** entre inventario histórico y Localiza, conservando referencias de ambos.
-2. **Verificar vigencia** y condiciones actuales con fuentes contrastables.
-3. **Investigar si contribuye a salud y bienestar** y cómo lo reconoce/usa la comunidad; distinguir «recurso» de «activo identificado participativamente».
-4. **Evaluar accesibilidad y equidad** (barrios, anejos, horarios, coste y barreras).
-5. **Documentar decisión provisional** y la evidencia; asignar responsable y fecha del siguiente paso.
-6. **Escalar a persona legitimada** las solicitudes de alta, modificación y validación en Localiza Salud; no iniciar trámites en nombre de un recurso sin autorización de su responsable. No confundir resultado del grupo con estado oficial de publicación.
-7. **Revisar periódicamente** los registros; un recurso puede dejar de estar disponible.
+La foto histórica de COMPÁS reflejaba 162 recursos, cinco validados y 157 pendientes. **No representa la situación actual de Localiza Salud** ni constituye una lista de 157 recursos que obligatoriamente deban mapearse.
 
-## 3. Dinámica para la reunión (30 min)
+## Campos de la plantilla
 
-**5 min:** explicar diferencias entre recurso, activo contrastado e inscripción validada en Localiza Salud.
+| Columna | Significado |
+| --- | --- |
+| `id_historico` | Identificador conservado del inventario de origen |
+| `id_localiza_salud`, `fecha_consulta_localiza` | Referencia y fecha de comprobación **real** del portal, si existe |
+| `nombre_recurso`, `tipo_recurso` | Denominación y clasificación conocida |
+| `linea_estrategica_seleccionada` | **Código/nombre de una línea efectivamente seleccionada**; no inventar líneas provisionales |
+| `pertinencia_para_linea` | Justificación breve de la contribución a la línea y a los problemas priorizados |
+| `barrio_o_anejo`, `fuente_inventario` | Zona general y fuente/fecha |
+| `vigencia`, `fecha_contraste` | Estado verificado y momento de contraste |
+| `contribucion_salud`, `evidencia_comunitaria`, `participacion_contraste` | Aportación al bienestar y evidencias con la comunidad |
+| `acceso_horarios_coste_barreras` | Acceso, coste, horarios, restricciones y desigualdades |
+| `estado_en_localiza` | Sin consultar / no localizado / publicado / solicitud pendiente / requiere corrección / no comprobable |
+| `resultado_revision`, `motivo_revision` | Activo contrastado / recurso pendiente / duplicado / inactivo / no propuesto y razón |
+| `accion_pendiente`, `equipo_responsable`, `fecha_limite`, `fecha_revision_siguiente` | Seguimiento documentado sin datos personales |
 
-**10 min:** dividirse en grupos y aplicar a **dos ejemplos didácticos** (no registros reales) una ficha de revisión: *un espacio comunitario existente con horarios/condiciones sin verificar* y *un taller que figura en un inventario antiguo pero cuya vigencia se desconoce*.
+## Procedimiento posterior a la priorización
 
-**10 min:** contrastar resultados y acordar un criterio común sobre evidencias suficientes y tipos de pendientes. Nadie «valida» oficialmente una ficha en el taller.
+1. **Seleccionar líneas y alcance territorial** mediante acuerdo expreso.
+2. **Buscar recursos y redes pertinentes** en inventario histórico y fuentes locales; registrar vinculación a línea. No cargar el inventario completo por inercia.
+3. **Revisar individualmente el subconjunto pertinente**: confirmar vigencia, valor para salud, reconocimiento comunitario, acceso y situación de publicación. Una entidad puede relacionarse con más de una línea.
+4. **Detectar vacíos** e iniciar mapeos participativos dirigidos (paseos, talleres educativos, asociaciones, mayores o anejos, según las líneas).
+5. **Distinguir registro y validación:** identificación de recurso ≠ reconocimiento comunitario como activo ≠ validación en Localiza Salud. Solicitudes y validación formal por las personas con funciones y permisos correspondientes.
+6. **Actualizar y evaluar** el mapa específico del Plan periódicamente.
 
-**5 min:** repartir por lotes el 100 % del inventario conciliado, responsables, fecha de devolución, seguimiento e intervención de los perfiles autorizados.
+**Fuera del mapeo dirigido:** mantener administrativamente actualizado todo el catálogo de recursos de un municipio es una tarea diferente y puede requerir otros equipos, procesos y prioridades.
 
-## 4. Circuito con Localiza Salud
+## Práctica didáctica para la futura sesión de mapeo (30 min)
 
-La propia aplicación del Ministerio diferencia **persona responsable de un recurso**, que solicita alta/modificación/baja, y **usuarios validadores de la zona**, que gestionan solicitudes y publicación. Consultar la guía oficial y confirmar organización local: https://www.sanidad.gob.es/areas/promocionPrevencion/entornosSaludables/local/estrategia/dossier/docs/Responsables_Guiabreve.pdf y https://localizasalud.sanidad.gob.es/adminrecursos/main/.
+Presentar una **línea estratégica ficticia claramente marcada como ejemplo**, como «facilitar actividad física cotidiana» (no atribuir su selección real a Loja). Dar dos supuestos: un espacio con horario accesible, pero sin testimonio de uso comunitario; y una entidad deportiva incluida en un inventario antiguo cuya actividad actual no está comprobada.
 
-**Almacenamiento:** no subir a esta página datos personales ni evidencias privadas; el CSV es plantilla de trabajo. La custodia de archivos reales, los accesos y el protocolo para compartirlos entre integrantes deberán acordarse fuera de la web pública del Aula.
+**10 minutos:** dos grupos justifican si cada supuesto puede contribuir a esa línea, sin dar por validada su vigencia. **10 minutos:** rellenan la ficha de revisión y explican datos pendientes y posibles barreras de acceso. **10 minutos:** comparan evidencias y acuerdan cómo documentar y distribuir el trabajo del subconjunto de recursos que resulten pertinentes.
+
+## Condiciones de uso y privacidad
+
+No introducir en el Aula información identificativa de responsables privados, personas usuarias ni datos clínicos; los formularios de práctica **no guardan ni envían respuestas**. Si se decide usar CSV con registros reales, debe acordarse custodia, permisos y control de versiones fuera de la web pública. No se han consultado ni creado registros reales en Localiza Salud.
+
+Referencia institucional para procedimientos y perfiles: https://localizasalud.sanidad.gob.es/adminrecursos/main/
