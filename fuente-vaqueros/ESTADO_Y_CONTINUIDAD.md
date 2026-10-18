@@ -1,3 +1,13 @@
+# Fuente Vaqueros · estado y continuidad
+
+> **ESTADO VIGENTE · PUBLICADO 18/10/2026 · PR #37.** El taller de impulso **previsto para el 22/10/2026** se conserva en `index.html`. Una **sesión posterior** de Grupo Motor está preparada en `sesion-priorizacion-mapeo.html`: primero revisar/priorizar problemas y elegir grandes líneas si existe base; después, en esa misma sesión, **planificar los mapeos** (qué activos, dónde, con quién, técnicas y coordinación); ejecución y posibles altas administrativas después. Agenda orientativa de 120 minutos: **10 + 20 + 20 + 15 + 15 + 30 + 10**. Si se prepara encuesta, líneas y planes son provisionales.
+>
+> **Dato comunicado, no comprobado en portal:** Fuente Vaqueros no tiene activos registrados en Localiza Salud, según el usuario. No confundir cero registros con cero activos existentes. El expediente histórico conserva 102 cuestionarios de 2022; falta verificar aprobación del resultado Hanlon. No se ha iniciado una encuesta real ni tramitado recursos. **Los apartados siguientes registran decisiones y ramas históricas**, no instrucciones pendientes de fusión o despliegue.
+
+---
+
+## Archivo histórico de identidad visual
+
 # Fuente Vaqueros · continuidad de identidad visual
 
 **Fecha:** 16/10/2026. **Rama de revisión**: `fuente-vaqueros-sin-azul-20261016`.
