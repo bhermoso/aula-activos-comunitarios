@@ -27,7 +27,7 @@
 | `contraste` | 20 min | Vigencia y cambios en necesidades, desigualdad territorial, actores y población | Aspectos que actualizar y contrastar |
 | `consulta` | 15 min | Decidir revisión deliberativa o nueva consulta; posible demostración de COMPÁS-NG/REDCap | Decisión y encargos, sin lanzar encuesta |
 | `lineas` | 15 min | Selección de grandes líneas si existe fundamento; hipótesis pendientes si habrá consulta | Líneas acordadas o condicionadas |
-| `plan-mapeo` | **30 min** | Planificar mapeo POR CADA LÍNEA: qué, dónde, con quién, qué técnica y quién coordina | Matriz inicial de planificación, acordada o provisional |
+| `plan-mapeo` | 30 min | Planificar mapeo POR CADA LÍNEA: qué, dónde, con quién, qué técnica y quién coordina | Matriz inicial de planificación, acordada o provisional |
 | `cierre` | 10 min | Acta, responsables y siguientes reuniones | Acuerdos verificables |
 
 **Total: 10 + 20 + 20 + 15 + 15 + 30 + 10 = 120 minutos.** En la agenda web `sesion-priorizacion-mapeo.html` están codificados los mismos siete bloques. La agenda del taller de impulso del 22/10/2026 es diferente y no se reescribe como si esta reunión ya hubiera ocurrido.
@@ -41,7 +41,7 @@ Para cada gran línea estratégica elegida, o hipótesis provisional claramente 
 - **Cómo:** técnicas participativas adecuadas a la finalidad, la población y los riesgos: recorridos, entrevistas, grupos de conversación, talleres, mapas colectivos, revisión de registros.
 - **Con qué garantías y quién coordina:** protección de datos, consentimiento, no exposición de espacios sensibles, accesibilidad, persona o equipo responsable, calendario y devolución comunitaria.
 
-La [matriz visual de planificación](sesion-priorizacion-mapeo.html#mapeo) permite añadir fichas, imprimirlas y preparar una síntesis. **No envía ni guarda información.** Los acuerdos deben documentarse en acta y custodiarse fuera del Aula.
+La [matriz visual de planificación](sesion-priorizacion-mapeo.html#mapeo) permite añadir fichas, imprimirlas y preparar una síntesis. **No guardan ni se envían propuestas ni respuestas.** Los acuerdos deben documentarse en acta y custodiarse fuera del Aula.
 
 ### Ejemplos ilustrativos, no grandes líneas seleccionadas en Fuente Vaqueros
 
