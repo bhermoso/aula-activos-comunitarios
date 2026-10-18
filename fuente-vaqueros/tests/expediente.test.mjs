@@ -23,11 +23,13 @@ test('programa completo por bloques y personas citadas como previstas/invitadas'
   assert.ok(section('participantes').includes(n),'No citado en participantes: '+n);
  }
  assert.ok(prog.includes('Composición de la mesa pendiente de confirmación'));
- assert.ok(prog.includes('Moderación a cargo de Raúl (apellidos pendientes)'));
+ assert.ok(prog.includes('Moderación a cargo de Rubén (área de Cultura del Ayuntamiento de Fuente Vaqueros; apellidos pendientes)'));
  assert.ok(section('participantes').includes('Está confirmada la intervención de Carlos del Moral Campaña'));
 });
 test('no se difunden teléfonos ni respuestas individuales de archivos privados',()=>{
- assert.ok(!html.includes('Rubén'),'No atribuir moderación a un nombre incompleto');
+ assert.ok(html.includes('Rubén'),'El moderador comunicado es Rubén');
+ assert.ok(html.includes('Cultura del Ayuntamiento'),'Debe constar la vinculación municipal');
+ assert.ok(!html.includes('Raúl'),'No mantener la atribución anterior');
  assert.ok(!html.includes('651 963 794'));
  assert.ok(!html.includes('677905855'));
  assert.ok(!html.includes('agustin.gomez.jimenez.sspa@'));
@@ -59,7 +61,7 @@ test('conclusiones de Blas: priorización de 2022 y mapeo vinculado a líneas pr
   assert.ok(html.includes("prioridad:fvv('fv-prioridad')"),'Se guarda relación a prioridad');
   assert.ok(html.includes("x.prioridad||''"),'Se exporta con compatibilidad con datos anteriores');
   assert.ok(practica.includes('no registra recursos en Localiza Salud'));
-  assert.ok(!html.includes('Rubén'),'No usar moderador sin apellido');
+  assert.ok(html.includes('Rubén'),'Se permite nombre propio con apellidos pendientes');
 });
 test('JavaScript de la página sigue siendo sintácticamente válido',async()=>{
   const {Script}=await import('node:vm');
