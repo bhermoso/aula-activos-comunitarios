@@ -1,6 +1,6 @@
 # Aula de Salud Comunitaria Basada en Activos — estado y continuidad
 
-> **Corte de situación:** 17 de octubre de 2026. **Rama de producción:** `main`; SHA auditada: `4392d8e205193cc1c541846d972077b9ea2ba480`.
+> **Corte de situación:** 18 de octubre de 2026 (actualización de REDCap). **Rama de producción:** `main`; publicación REDCap fusionada en `4c7314f02576c7978c65159875201171cc43caab`.
 > **Carácter:** documento de continuidad de referencia. Antes de intervenir, comprobar `main`, ramas/PR abiertos, despliegues y cualquier nueva documentación institucional. Las conclusiones del pasado no sustituyen una verificación actual.
 
 ## 1. Fuentes canónicas y normas de intervención
@@ -85,14 +85,21 @@ Antes de proponer cambios, comprobar `main` y PR abiertos; leer este archivo y e
 
 La rama `redcap-redisenio-competencias-2027-20261017` replantea las competencias por nivel: Básico incorpora encuestas sencillas y condición guiada; Avanzado se centra en proyectos con múltiples instrumentos, seguimiento, diseño longitudinal/repetible según pertinencia, distribución y gestión de encuestas, informes, calidad y puesta en marcha. La sintaxis, cálculos y Action Tags se trasladan a uso justificado y guía opcional, sin evaluación de memorización. Fuente curricular: `redcap/REDISENO_DOCENTE_2027.md`; guía: `redcap/GUIA_SINTAXIS_DE_CONSULTA.md`; itinerarios imprimibles: `redcap/programas-2027.html`.
 
-**Estado:** solo rama propuesta, sin despliegue. No altera otros módulos. Bloqueadores: validar con organización y versión REDCap institucional, armonizar diez PDF anteriores y su doble ubicación, diccionario de prácticas, pre/post-test, fechas y criterios de certificación. No fusionar ni desplegar sin autorización expresa y verificación.
+**Actualización 18/10/2026:** propuesta publicada con autorización expresa, PR #29 fusionada y Pages correcto. Continúan pendientes la validación institucional, pruebas directas de navegación y compatibilidad del REDCap local, pre/post-test y criterios de certificación. No se alteraron otros módulos.
 
 
 ### Ampliación del rediseño REDCap · 17/10/2026
 
-Se completaron, **solo en la rama de la PR #29**, las diez guías/programas PDF actualizadas en las dos rutas históricas; su fuente editable es `redcap/materiales_2027.json` y los scripts `generar_pdf_2027*.mjs`. El visor imprimible `redcap/material-2027.html` ofrece navegación y descarga desde el Aula de revisión. Se actualizaron títulos y accesos en `redcap/index.html` y se añadieron pruebas de correspondencia entre PDF y fuente. Permanece **pendiente de validación y publicación**. No presentar esos PDF como versiones oficiales aprobadas. Pendientes: cotejar contenido con organización/Gesforma e instancia institucional REDCap, comprobar navegadores y accesibilidad con navegador real, y ajustar diccionario de prácticas/pre-post-test. El sistema de seguimiento individual del alumnado continúa sin existir.
+Se completaron y publicaron mediante **PR #29**, las diez guías/programas PDF actualizadas en las dos rutas históricas; su fuente editable es `redcap/materiales_2027.json` y los scripts `generar_pdf_2027*.mjs`. El visor imprimible `redcap/material-2027.html` ofrece navegación y descarga desde el Aula de revisión. Se actualizaron títulos y accesos en `redcap/index.html` y se añadieron pruebas de correspondencia entre PDF y fuente. Se encuentran **publicadas, pendientes de validación institucional**. No presentar esos PDF como versiones oficiales aprobadas. Pendientes: cotejar contenido con organización/Gesforma e instancia institucional REDCap, comprobar navegadores y accesibilidad con navegador real, y ajustar diccionario de prácticas/pre-post-test. El sistema de seguimiento individual del alumnado continúa sin existir.
 
 
 ### Plantilla de seguimiento 2027 · 17/10/2026
 
 Incorporada en la PR #29 la plantilla docente `redcap/materiales/plantilla_seguimiento_2027_diccionario.csv`, con 15 campos y tres instrumentos técnicos (ficha inicial, hábitos y seguimiento). Está enlazada desde REDCap Avanzado y documentada en `redcap/PLANTILLA_SEGUIMIENTO_2027.md`. **Su importación no crea eventos longitudinales, repetición ni encuestas**: el alumnado debe elegir y configurar esa arquitectura según necesidad y permisos. Se amplía el test de regresión para vigilar la plantilla.
+
+
+## 18/10/2026 · REDCap 2027 publicado
+
+El usuario autorizó expresamente publicación y despliegue. PR #29 fusionada en `main`, commit `4c7314f02576c7978c65159875201171cc43caab`, con ambas versiones de los cursos, diez PDF regenerados en sus dos rutas, lector web `redcap/material-2027.html`, programa `redcap/programas-2027.html`, guía de sintaxis y plantilla de seguimiento. Pruebas de REDCap en `main` superadas. GitHub Pages **finalizó correctamente**: https://github.com/bhermoso/aula-activos-comunitarios/actions/runs/39098373729. Entrada pública: https://bhermoso.github.io/aula-activos-comunitarios/redcap/.
+
+**Verificación limitada:** no fue posible abrir el sitio directamente desde este entorno; se confirma publicación por el resultado de Actions, pero no se afirma auditoría funcional en navegador. El plan docente sigue **pendiente de validación institucional (Gesforma)** y de cotejo con la versión/permisos del REDCap local, pre/post-test, accesibilidad y móvil. Se mantienen separados los módulos municipales, sin despliegue Firebase ni sistema individual de seguimiento de alumnado.
