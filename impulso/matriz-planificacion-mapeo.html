@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#102a28">
+<title>Taller · Planificar el mapeo por líneas · Loja</title>
+<style>
+:root{--ink:#153c34;--deep:#102a28;--green:#137c73;--muted:#5d756b;--line:#d8e5dc;--bg:#f7f7f3}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font:15px/1.65 Inter,system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink)}h1,h2{font-family:Georgia,Cambria,serif;line-height:1.15}
+a{color:#106356}a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid #e9b142;outline-offset:3px}
+header{background:var(--deep);color:white;padding:37px max(18px,calc((100vw - 990px)/2)) 48px}
+h1{font-size:clamp(32px,4.6vw,50px);font-weight:500;margin:10px 0 18px}
+header p{max-width:720px;color:#dcebe0;font-size:17px;margin:0}
+.kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:850;color:#c3decb}
+main{max-width:1020px;margin:auto;padding:22px 18px 50px}
+section{background:white;border:1px solid var(--line);border-radius:16px;padding:24px;margin:18px 0}
+section h2{font-size:25px;margin:0 0 13px}.hint{background:#e9f4ec;padding:13px 16px;border-left:4px solid var(--green);border-radius:0 9px 9px 0}
+table{width:100%;border-collapse:collapse;font-size:13px}th,td{border-bottom:1px solid var(--line);padding:10px;text-align:left;vertical-align:top}th{background:#edf5ee}
+.tag{color:#0d7664;font-size:12px;font-weight:850;letter-spacing:.1em;text-transform:uppercase}
+.edit-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.field{min-width:0}
+.field label{display:block;font-size:13px;font-weight:800;margin:0 0 6px}
+.field small{display:block;color:var(--muted);font-weight:400;font-size:12px}
+.field input,.field textarea,.field select{width:100%;padding:10px;border:1px solid #acc6b8;border-radius:8px;font:inherit;min-height:42px;background:white;color:#173d33}
+.field textarea{min-height:80px;resize:vertical}.wide{grid-column:1/-1}
+.sheet{background:#fdfefd;border:1px solid #c9ded1;border-radius:14px;padding:20px;margin:17px 0}
+.sheet h3{font:600 21px/1.3 Georgia,serif;margin:4px 0 19px}
+.buttons{display:flex;flex-wrap:wrap;gap:10px;margin:15px 0}
+button,.btn{display:inline-flex;padding:11px 17px;border:1px solid var(--green);border-radius:9px;background:var(--green);color:white;font:800 13px/1.3 Inter,system-ui,sans-serif;cursor:pointer;text-decoration:none}
+button.secondary,.btn.secondary{background:white;color:#155e4e;border-color:#accbbb}
+.danger{background:#fcf4ea;border-left:4px solid #d5a05d;padding:12px 16px;margin:14px 0;border-radius:0 10px 10px 0}
+footer{max-width:1020px;margin:auto;padding:0 18px 30px;color:var(--muted);font-size:12px}
+@media(max-width:700px){header{padding:25px 18px}.edit-grid{grid-template-columns:1fr}.wide{grid-column:auto}section,.sheet{padding:17px 13px}table{font-size:12px}th,td{padding:7px 5px}}
+@media print{@page{size:A4;margin:12mm}body{background:white;color:black;font-size:10pt}.loja-global-nav,.buttons,.examples{display:none!important}header{background:white;color:black;padding:0}header p,.kicker{color:#222}h1{font-size:23pt}main{padding:0}section,.sheet{border:none;padding:10px 0;margin:10px 0;break-inside:avoid}.field textarea{min-height:55px}.edit-grid{gap:8px}.hint,.danger{background:#eee}footer{padding:0}}
+</style><link rel="stylesheet" href="../assets/loja-navegacion.css?v=20261018d">
+</head><body>
+<nav class="loja-global-nav" aria-label="Navegación global de Loja">
+<a class="loja-nav-brand" href="../index.html" aria-label="Aula de Salud Comunitaria · inicio"><span class="loja-nav-mark" aria-hidden="true">A</span><span class="loja-nav-label">AULA · SALUD COMUNITARIA</span></a>
+<div class="loja-nav-links"><a href="../index.html">⌂ Aula</a><a href="index.html">Inicio Loja</a><a href="taller-impulso.html">Taller de impulso</a><a href="sesion-2.html" aria-current="page">Priorización</a><a href="guia-mapeo.html">Guía de activos</a><button type="button" class="loja-nav-back" data-loja-volver data-fallback="sesion-2.html">← Volver</button></div>
+</nav>
+<header><div class="kicker">Loja · Segunda sesión · Después de la priorización</div>
+<h1>Planificar el mapeo de activos por líneas estratégicas</h1>
+<p>Una hoja de trabajo por línea para decidir qué buscamos, dónde, con quién, cómo lo identificaremos y quién se responsabiliza. <strong>Se planifica aquí; se ejecuta después.</strong></p>
+</header>
+<main>
+<section class="examples">
+<h2>Ejemplos de líneas y técnicas posibles</h2>
+<p>Son <strong>ejemplos para estimular el debate, no líneas elegidas ni actuaciones aprobadas en Loja</strong>. Cada propuesta requiere contexto, garantías y adaptación a la población.</p>
+<div style="overflow-x:auto"><table>
+<thead><tr><th>Línea hipotética</th><th>Qué activos podrían interesar</th><th>Con quién</th><th>Técnicas posibles</th></tr></thead>
+<tbody>
+<tr><td><strong>Envejecimiento saludable</strong></td><td>Redes vecinales, participación, movilidad accesible, apoyo mutuo y actividad física</td><td>Personas mayores, asociaciones, centros de participación, trabajo social y atención primaria</td><td>Grupos de conversación, recorridos accesibles y cartografía participativa</td></tr>
+<tr><td><strong>Uso saludable de pantallas y dispositivos</strong></td><td>Alternativas de ocio, apoyo educativo, espacios de encuentro y competencias digitales</td><td>Adolescentes, familias, centros educativos, asociaciones juveniles y bibliotecas</td><td>Talleres con jóvenes, mapeo participativo y entrevistas colectivas</td></tr>
+<tr><td><strong>Violencia de género</strong></td><td>Redes seguras de apoyo, servicios especializados y recursos de prevención</td><td>Servicios de igualdad y atención especializada, asociaciones pertinentes y profesionales autorizados</td><td>Entrevistas con equipos expertos y revisión segura de recursos; <strong>sin localizar personas, refugios ni direcciones confidenciales en mapas públicos</strong></td></tr>
+<tr><td><strong>Desigualdades en salud en un barrio ERACIS</strong></td><td>Redes de apoyo, oportunidades de empleo/formación, espacios comunitarios y barreras de acceso</td><td>Vecindario, asociaciones, equipos ERACIS, servicios sociales, centros educativos y sanitarios</td><td>Paseos comunitarios acordados, grupos focales y mapas de accesibilidad; identificar barrio y alcance solo cuando se haya contrastado</td></tr>
+</tbody>
+</table></div>
+</section>
+<section>
+<h2>Matriz para acordar el mapeo</h2>
+<p class="hint">Completar <strong>una ficha por cada línea efectivamente priorizada</strong>. Si hay nueva consulta pendiente, marcar «provisional» y no dar por iniciadas las actuaciones. Los campos solo sirven para preparar la impresión: <strong>no se guardan ni se envían</strong>; no escribir datos personales.</p>
+<div id="fichas">
+<article class="sheet" data-matriz-item>
+<div class="tag">Ficha de trabajo · Línea 01</div><h3>Diseño del mapeo</h3>
+<div class="edit-grid">
+<div class="field wide"><label>Línea estratégica y problema priorizado<small>No usar como línea aprobada un ejemplo de la tabla anterior</small></label><input name="linea" placeholder="Nombre según el acuerdo o hipótesis provisional"></div>
+<div class="field"><label>Estado de la línea</label><select name="estado"><option value="pendiente">Pendiente de priorización / encuesta</option><option value="acordada">Seleccionada por el Grupo Motor (acta)</option></select></div>
+<div class="field"><label>Territorios y población<small>Barrios, anejos o colectivos, según prioridades y desigualdades</small></label><textarea name="territorio"></textarea></div>
+<div class="field"><label>¿Qué activos interesa mapear?<small>Redes, personas colectivas, espacios, actividades, iniciativas o capacidades</small></label><textarea name="que"></textarea></div>
+<div class="field"><label>¿Con quién?<small>Entidades, sectores y colectivos participantes, sin datos privados</small></label><textarea name="quienes"></textarea></div>
+<div class="field"><label>¿Con qué técnica?<small>Recorridos, talleres, entrevistas, cartografía, consulta a entidades...</small></label><textarea name="como"></textarea></div>
+<div class="field"><label>Equipo y calendario<small>Rol o entidad coordinadora; primer paso y plazo</small></label><textarea name="responsables"></textarea></div>
+<div class="field wide"><label>Precauciones, accesibilidad y contraste<small>Seguridad, privacidad, menores, consentimiento, inequidades y criterios de reconocimiento comunitario</small></label><textarea name="precauciones"></textarea></div>
+</div>
+</article>
+</div>
+<div class="buttons"><button type="button" id="anadir">+ Añadir otra línea</button><button type="button" class="secondary" id="imprimir">Imprimir matriz cumplimentada</button><a href="sesion-2.html" class="btn secondary">Volver a la agenda</a></div>
+<p class="danger"><strong>Importante:</strong> el taller decide el diseño metodológico, no valida recursos en Localiza Salud. Tras el acuerdo se ejecutan los mapeos y se contrasta cada recurso pertinente. Si la consulta temática está pendiente, ninguna ficha provisional equivale a una línea aprobada.</p>
+</section>
+</main>
+<footer>Aula de Salud Comunitaria Basada en Activos · Loja · Instrumento sin almacenamiento, para el Grupo Motor</footer>
+<script>
+(function(){
+ const parent=document.getElementById('fichas');
+ const source=parent.querySelector('[data-matriz-item]').cloneNode(true);
+ document.getElementById('anadir').addEventListener('click',function(){
+   const newCard=source.cloneNode(true);
+   const n=parent.querySelectorAll('[data-matriz-item]').length+1;
+   newCard.querySelector('.tag').textContent='Ficha de trabajo · Línea '+String(n).padStart(2,'0');
+   newCard.querySelectorAll('input,textarea').forEach(x=>x.value='');
+   newCard.querySelectorAll('select').forEach(x=>x.selectedIndex=0);
+   parent.appendChild(newCard);
+   newCard.querySelector('input').focus();
+ });
+ document.getElementById('imprimir').addEventListener('click',()=>window.print());
+})();
+</script><script src="../assets/loja-navegacion.js?v=20261018d" defer></script></body></html>

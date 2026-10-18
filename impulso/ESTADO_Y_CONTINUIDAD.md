@@ -1,5 +1,20 @@
 # Loja · Estado y continuidad del módulo dentro del Aula
 
+> **ESTADO VIGENTE DE TRABAJO, 18/10/2026 — PR #36 (BORRADOR, NO PUBLICADO).** La nueva corrección de agenda sustituye la formulación anterior: **en la segunda sesión primero se priorizan líneas y luego se planifica el mapeo por línea (qué, con quién, técnica, territorio y responsables); solamente la ejecución es posterior**.
+> El módulo se reorganiza como **1) Taller de impulso del 16/10 (histórico), 2) Priorización y posible selección de líneas, 3) Mapeo temático posterior**. La agenda actual de la sesión 2 consta de **7 bloques, 120 minutos**, con rutas **sin consulta** (podría seleccionarse líneas si existe evidencia) y **con consulta / decisión pendiente** (NO seleccionar aún líneas). Los 157 registros históricos no son una obligación de mapeo. Las propuestas antiguas de mapeo del primer taller se conservan como propuestas históricas, no instrucciones actuales.
+>
+> **Arquitectura propuesta en rama:** `impulso/index.html` itinerario; `taller-impulso.html` primer taller preservado; `sesion-2.html` taller de priorización; `guia-mapeo.html` guía visual, y ficha/CSV solo para fase posterior. Navegación compartida `assets/loja-navegacion.css/js` con Aula/Loja/talleres/guía/volver. La guía original Markdown es fuente editable interna, **no acceso docente directo**.
+>
+> **Fuente de verdad:** nueva agenda de la web `sesion-2.html` y su reflejo en `SESION_2_MAPEO_Y_PRIORIZACION.md`, con comprobación automática de códigos, tiempos y rutas. La primera agenda del 16/10, conservada en `taller-impulso.html` y `GUIA_PONENTE_16-10-2026.md`, es documento histórico y no se mezcla con ella.
+>
+> **Riesgo conocido:** PR #20 de migración de encuesta de actores a REDCap modifica `impulso/ficha.html` y `impulso/index.html`; contrastar ambas ramas antes de fusionar cualquiera de las dos. **No** modificar ni desplegar PR #20 desde esta intervención. No hay autorización para fusionar ni desplegar PR #36.
+
+---
+
+### Archivo de decisiones anteriores (PR #34 y estado de 16/10)
+
+Los apartados siguientes documentan cómo se llegó a la estructura previa; **están supersedidos como instrucciones operativas para la segunda sesión** allí donde proponen mapeo antes de priorización o revisión integral del inventario. El programa histórico del 16/10 permanece válido como fuente del primer taller.
+
 **Revisión:** 16/10/2026, posterior a la celebración del taller.  
 **Repositorio canónico:** `bhermoso/aula-activos-comunitarios`, rama `main`.  
 **Ruta publicada:** `https://bhermoso.github.io/aula-activos-comunitarios/impulso/`.  
@@ -43,7 +58,7 @@
 Se amplió el formulario para no excluir actores por taxonomías cerradas: sectores (26 opciones), tipos de actor (13), ámbitos territoriales (7), texto libre contextual, opciones «Otro» y posibilidad de expresar interés personal en participar sin facilitar contactos. El aviso flotante relativo al almacenamiento exclusivo en navegador fue retirado. La ficha y las reglas deben desplegarse juntas; publicar reglas antiguas bloquearía el nuevo esquema. El cierre funcional de la recepción sigue sujeto a una prueba real desde una sesión externa.
 
 
-## 18/10/2026 · Segunda sesión: planificar mapeo y priorización
+## Histórico supersedido (PR #34) · Segunda sesión: planificar mapeo y priorización
 
 Esta preparación es **una sesión independiente dentro del Aula**, no una intervención ni evolución del repositorio COMPÁS-NG.
 
@@ -57,7 +72,7 @@ Esta preparación es **una sesión independiente dentro del Aula**, no una inter
 
 **Antes de cerrar propuesta:** organización debe confirmar fecha/duración, suministrar inventarios, documentos originales y disponer de perfiles de validación. La página es guía para la reunión y no acta de acuerdos adoptados.
 
-### Materiales de aplicación para la sesión 2 · 18/10/2026
+### Materiales históricos de PR #34 para la sesión 2 · 18/10/2026
 
 La propuesta se publicó mediante la **PR #34 fusionada en `main`** con material específico para los dos objetivos reales de la sesión:
 - `ficha-revision-activos.html`: formulario **solo de impresión**, orientado a la decisión registro a registro, con avisos contextuales; **no almacena ni transmite** fichas.
@@ -67,3 +82,27 @@ La propuesta se publicó mediante la **PR #34 fusionada en `main`** con material
 - Pruebas `impulso/tests/sesion-2.test.mjs` ejecutadas en workflow específico, sin afectar la sesión inicial.
 
 **Cautela oficial de Localiza Salud:** el formulario de alta corresponde a responsables de los recursos; la gestión/validación corresponde a perfiles autorizados. No se incluyen listados efectivos ni números actuales de la plataforma. Antes de utilizar la ficha para 100 % de recursos reales, obtener exportaciones, circuito de custodia y responsable de coordinación. **Publicado y autorizado:** commit `11dec09d579d936253e1fc42349b5aee0ddc2a99`; pruebas de módulo superadas. La página de sesión 2 puede abrirse desde la portada de Loja: https://bhermoso.github.io/aula-activos-comunitarios/impulso/sesion-2.html. Estado del despliegue: https://github.com/bhermoso/aula-activos-comunitarios/actions/runs/39157670427. Queda pendiente comprobación visual directa en navegador, originales 2022 e inventario real de Localiza Salud.
+
+## 18/10/2026 · Rectificación de secuencia y separación visual de Loja (propuesta, NO publicada)
+
+**Esta actualización sustituye el planteamiento de «mapeo + priorización» como tareas simultáneas** de la PR #34. El usuario aclara el orden: **1. Taller de impulso (16/10), 2. Priorización y elección de líneas estratégicas, 3. Mapeo únicamente de activos vinculados a esas líneas**. La auditoría completa del antiguo inventario (157 pendientes en una foto histórica de COMPÁS) **no pertenece al mapeo específico de este Plan**; el mantenimiento general del catálogo es otra tarea. Se conserva la priorización histórica 2022 (40 participantes, 26 problemas) como fuente pendiente de cotejar con originales y actas. Si se decide nueva encuesta, no seleccionar líneas definitivas hasta disponer y deliberar resultados. COMPÁS-NG sigue exclusivamente como contexto técnico externo; no se cambia ese repositorio.
+
+**Cambio de diseño:** la raíz `impulso/index.html` será un **itinerario visual limpio** con entradas a `taller-impulso.html` (copia íntegra del primer taller sin la tarjeta invasiva de la sesión 2, con herramientas originales preservadas) y `sesion-2.html` (priorización y líneas), además de un tercer paso de mapeo diferido y no navegable. La raíz del Aula sigue enlazando a `impulso/`. Para compatibilidad con enlaces profundos a `impulso/#diagnostico`, `#ficha` y otros ocho apartados, el nuevo índice redirige a `taller-impulso.html#...`.
+
+**Material revisado:** guion de segunda sesión; dinámica de 26 problemas con apartado condicionado de líneas; ficha y plantilla CSV que ahora exigen **línea seleccionada + pertinencia del recurso** (22 columnas, no 20). La ficha de recursos se conserva para la etapa posterior, no como actividad nuclear de la sesión 2. Quedan pendientes originales 2022, actas, acuerdo municipal y estados reales de Localiza Salud. **Cambios preparados en rama sin fusión ni despliegue; verificar CI y revisar visualmente antes de autorización de publicación.**
+
+### 18/10/2026 · Auditoría de impacto transversal de PR #36
+
+- **Programa/agenda:** siete bloques en dos representaciones sincronizadas, 120 minutos. Diferenciados de siete momentos/90 minutos históricos del primer taller.
+- **Material visible:** portada e itinerario, dos sesiones, dinámica de prioridades, ficha de actores, ficha y guía visual de activos y CSV, navegación común y enlaces internos. La guía de activos es solo de consulta en sesión 2; no se distribuyen revisiones.
+- **Documentación:** programa histórico y expediente preservados; continuidad actualizada sin borrar versiones anteriores; no atribuir aprobación de prioridades 2022 sin ODT y acta.
+- **Dependencias pendientes:** cotejar original/acta 2022, población y metodología de posible encuesta; líneas solo por acuerdo documentado; obtener estados reales Localiza Salud después de selección de líneas; conciliar PR #20 si se fusiona; comprobación visual manual real en móvil y proyector **no acreditada**.
+- **Publicación:** último sitio publicado sigue en PR #34/35 hasta autorización y despliegue de esta corrección; no afirmar que se ve ya la nueva página en producción.
+
+## 18/10/2026 · Corrección posterior solicitada: planificación del mapeo dentro de la segunda sesión
+
+**Esta decisión rectifica expresamente cualquier frase anterior que excluyera la planificación del mapeo de la segunda reunión.** Se acuerda como enfoque docente propuesto: primero revisar la priorización de 2022, decidir si nueva consulta y seleccionar o proponer condicionalmente grandes líneas; **después, en la misma reunión**, elegir por cada línea **qué mapear, con quién, dónde, con qué técnica, equipo responsable y plazo**. Solo el trabajo de campo y la validación real se desarrollan posteriormente. Si hay consulta temática pendiente, la matriz es únicamente un **escenario provisional**, no aprobado ni ejecutable aún.
+
+**Agenda única:** `sesion-2.html` y `SESION_2_MAPEO_Y_PRIORIZACION.md`: **10 apertura, 20 prioridades 2022, 20 contraste, 15 consulta/COMPÁS-NG, 15 grandes líneas, 30 taller de planificación del mapeo, 10 acuerdos = 120 min**. Se incorpora `matriz-planificacion-mapeo.html`, ficha imprimible sin almacenamiento, con campos de línea, qué, dónde, con quién, técnica, coordinador, calendario, precauciones y estado (pendiente/acordado). Ejemplos exclusivamente hipotéticos: envejecimiento saludable, uso saludable de pantallas y dispositivos, violencia de género (sin localizar recursos sensibles en mapas públicos) y desigualdades de salud en un barrio ERACIS. No afirmar que sean las líneas definitivas de Loja.
+
+**Revisión transversal:** portada general, itinerario de Loja, segunda sesión, guion, dinámica de priorización, guía de ejecución del mapeo, matriz de taller, fichas y CSV de ejecución posterior, enlaces, navegación, tests y continuidad. Primer programa de 90 min del 16/10 permanece histórico. COMPÁS-NG es contexto, no se modifica. La PR #20 de actores sigue abierta; conciliar antes de fusionar. **PR #36 sin fusionar ni desplegar.**

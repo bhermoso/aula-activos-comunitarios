@@ -22,20 +22,33 @@ ul{margin:8px 0 0;padding-left:22px}.actionbox{border:1px solid #a7c4b5;backgrou
 @media(max-width:660px){.grid{grid-template-columns:1fr}section{padding:14px}.wide{grid-column:auto}}
 @media print{@page{size:A4;margin:11mm}body{background:#fff;font-size:10pt}.top{background:white;color:#111;padding:0}.top a,.actions,.status{display:none}.top p{color:#111}.top h1{font-size:23pt}main{padding:10px 0}.notice{background:#f4f4f4}section{padding:10px 0;margin:0;border:none;break-inside:avoid}h2{font-size:16pt}label{font-size:9pt}input,select,textarea{border:1px solid #aaa;padding:4px 6px;min-height:26px;background:white}.grid{gap:7px}textarea{min-height:48px}.actionbox{padding:7px}.printlabel{display:block;font-size:9pt} }
 </style>
-</head>
+<link rel="stylesheet" href="../assets/loja-navegacion.css?v=20261018d"></head>
 <body>
+<nav class="loja-global-nav" aria-label="Navegación global de Loja">
+<a class="loja-nav-brand" href="../index.html" aria-label="Aula de Salud Comunitaria · inicio"><span class="loja-nav-mark" aria-hidden="true">A</span><span class="loja-nav-label">AULA · SALUD COMUNITARIA</span></a>
+<div class="loja-nav-links">
+<a href="../index.html">⌂ Aula</a>
+<a href="index.html">Inicio Loja</a>
+<a href="taller-impulso.html">Taller de impulso</a>
+<a href="sesion-2.html">Priorización</a>
+<a href="guia-mapeo.html" aria-current="page">Guía de activos</a>
+<button type="button" class="loja-nav-back" data-loja-volver data-fallback="guia-mapeo.html">← Volver</button>
+</div></nav>
+
 <header class="top">
 <a href="sesion-2.html">← Segunda sesión del Grupo Motor de Loja</a>
-<h1>Ficha de revisión individual de recursos</h1>
-<p>Una ficha por registro, con información contrastada, decisiones justificadas y seguimiento. Preparada para el taller y el trabajo posterior.</p>
+<h1>Ficha de revisión de activos por línea estratégica</h1>
+<p>Instrumento para la fase de mapeo posterior a la priorización: revisar únicamente recursos relacionados con líneas estratégicas acordadas para el primer Plan Local de Salud.</p>
 </header>
 <main>
-<p class="notice"><strong>Importante:</strong> este formulario <strong>no guarda ni envía información</strong>. Puede cumplimentarse para imprimirlo, pero se pierde al cerrar o recargar. Para el trabajo sistemático en equipo utiliza la <a href="plantilla_revision_recursos_loja.csv" download>plantilla CSV de revisión</a> bajo custodia acordada. <strong>No introduzcas datos personales ni información clínica.</strong></p>
+<p class="notice"><strong>Uso posterior a la selección de líneas.</strong> No iniciar una revisión masiva de los 157 pendientes históricos. Esta ficha sirve para recursos pertinentes a alguna línea ya acordada. <strong>Importante:</strong> este formulario <strong>no guarda ni envía información</strong>. Puede cumplimentarse para imprimirlo, pero se pierde al cerrar o recargar. Para el trabajo sistemático en equipo utiliza la <a href="plantilla_revision_recursos_loja.csv" download>plantilla CSV de revisión</a> bajo custodia acordada. <strong>No introduzcas datos personales ni información clínica.</strong></p>
 <form id="revision" autocomplete="off">
 <section>
-<span class="chip">01 · Identificación y fuentes</span>
-<h2>¿De qué registro estamos hablando?</h2>
+<span class="chip">01 · Línea estratégica e identificación</span>
+<h2>¿A qué línea seleccionada contribuye este recurso?</h2>
 <div class="grid">
+<div class="form-row"><label for="linea">Línea estratégica seleccionada <span class="hint">Código o nombre tal y como conste en el acuerdo del Grupo Motor; puede relacionarse con más de una</span></label><input id="linea" name="linea"></div>
+<div class="form-row"><label for="pertinencia">Relación con las prioridades de esa línea</label><textarea id="pertinencia" name="pertinencia"></textarea></div>
 <div class="form-row"><label for="id">Identificador histórico <span class="hint">Sin asignar si falta en la fuente</span></label><input id="id" name="id"></div>
 <div class="form-row"><label for="localiza">ID / URL verificada en Localiza Salud</label><input id="localiza" name="localiza"></div>
 <div class="form-row wide"><label for="nombre">Recurso y/o actividad</label><input id="nombre" name="nombre"></div>
@@ -72,14 +85,14 @@ ul{margin:8px 0 0;padding-left:22px}.actionbox{border:1px solid #a7c4b5;backgrou
 <strong>Siguiente paso sugerido:</strong>
 <span id="sugerencia">Conservar la fila como pendiente y acordar qué dato debe comprobarse y quién lo hará.</span>
 </div>
-<p style="font-size:13px;color:#567267"><strong>La ficha no acredita un alta o validación en Localiza Salud.</strong> Las solicitudes corresponden a la persona responsable del recurso, y la gestión/validación a usuarios autorizados conforme a sus funciones.</p>
+<p style="font-size:13px;color:#567267"><strong>Un recurso sin vinculación razonada con las líneas acordadas queda fuera del mapeo específico del Plan</strong>, aunque pueda mantenerse en el inventario general. <strong>La ficha no acredita un alta o validación en Localiza Salud.</strong> Las solicitudes corresponden a la persona responsable del recurso, y la gestión/validación a usuarios autorizados conforme a sus funciones.</p>
 </section>
 </form>
 <div class="actions">
 <button type="button" id="imprimir" class="button">Imprimir ficha cumplimentada</button>
 <button type="reset" form="revision" class="button ghost">Limpiar ficha</button>
 <a href="plantilla_revision_recursos_loja.csv" download class="button ghost">Descargar plantilla CSV vacía</a>
-<a href="GUIA_REVISION_INDIVIDUAL_ACTIVOS.md" class="button ghost">Consultar guía metodológica</a>
+<a href="guia-mapeo.html" class="button ghost">Consultar guía metodológica</a>
 </div>
 </main>
 <script>
@@ -96,5 +109,5 @@ select.addEventListener("change",()=>{document.getElementById("sugerencia").text
 document.getElementById("imprimir").addEventListener("click",()=>window.print());
 document.getElementById("revision").addEventListener("reset",()=>{document.getElementById("sugerencia").textContent=sugerencias["sin-revisar"];});
 </script>
-</body>
+<script src="../assets/loja-navegacion.js?v=20261018d" defer></script></body>
 </html>

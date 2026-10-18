@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#102a28">
+<meta name="description" content="Guía didáctica para mapear activos para la salud vinculados a las líneas estratégicas seleccionadas del Plan Local de Salud de Loja.">
+<title>Guía de mapeo dirigido de activos · Loja · Aula comunitaria</title>
+<style>
+:root{--deep:#102a28;--ink:#193d35;--teal:#137c73;--paper:#f7f7f3;--muted:#60746a;--line:#dbe6dd;--soft:#eaf4ee}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--paper);font:16px/1.7 Inter,system-ui,-apple-system,Segoe UI,sans-serif}a{color:#0d6557}a:focus-visible,button:focus-visible{outline:3px solid #e8b242;outline-offset:3px}
+main{max-width:1160px;margin:auto;padding:0 25px 80px}
+.hero{background:var(--deep);color:white;padding:58px max(25px,calc((100vw - 1110px)/2)) 100px}
+.eyebrow{color:#b6d8c5;letter-spacing:.15em;text-transform:uppercase;font-size:12px;font-weight:850}
+h1,h2{font-family:Georgia,Cambria,serif;line-height:1.17;letter-spacing:-.017em}
+h1{font-size:clamp(37px,5vw,62px);font-weight:500;max-width:830px;margin:14px 0 22px}
+.hero p{font-size:18px;color:#d4e5db;max-width:760px;margin:0 0 22px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:10px;padding:12px 17px;font:800 13px/1.3 Inter,system-ui,sans-serif;text-decoration:none;background:var(--teal);color:white;border:1px solid var(--teal);cursor:pointer}
+.btn.secondary{background:transparent;color:#ecf7ee;border-color:#779a88}
+.btn.light{color:#125d50;background:#fff;border:1px solid #b5d2c4}
+.content-grid{display:grid;grid-template-columns:minmax(0,1fr) 230px;gap:32px;margin-top:-51px;position:relative;align-items:start}
+.article{min-width:0}.chapter{background:white;border:1px solid var(--line);border-radius:18px;padding:clamp(22px,3vw,37px);margin-bottom:21px;box-shadow:0 6px 28px rgba(22,51,34,.04)}
+.chapter h2{font-size:clamp(26px,3vw,33px);font-weight:600;margin:7px 0 16px}
+.chapter p{max-width:75ch;margin:10px 0}
+.kicker{color:#0f7561;font-size:11px;font-weight:900;letter-spacing:.14em;text-transform:uppercase}
+.chapter ul{padding-left:22px}.chapter li{margin:7px 0}
+.side{position:sticky;top:83px;background:#edf5ee;border:1px solid #d6e6d9;border-radius:15px;padding:21px}
+.side strong{display:block;font-size:12px;letter-spacing:.11em;text-transform:uppercase;color:#376655;margin-bottom:11px}
+.side a{display:block;text-decoration:none;padding:7px 4px;color:#285f51;font-size:13px;border-top:1px solid #d5e6da;font-weight:700}
+.side a:hover{text-decoration:underline}
+.key{border-left:4px solid #c49a4f;background:#faf5e8;padding:15px 18px;margin:22px 0;border-radius:0 9px 9px 0}
+.key strong{display:block;color:#775725}
+.flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:23px}
+.flow .part{border:1px solid #c4dfcf;border-radius:13px;padding:17px;background:#eaf5ed}.part .num{display:inline-block;font-weight:900;color:#0e7662;background:white;border-radius:99px;padding:1px 10px;margin-bottom:12px;font-size:12px}.part h3{font-size:16px;margin:0 0 9px}.part p{font-size:14px;margin:0;color:#4d685a;line-height:1.58}
+.steps{counter-reset:paso;list-style:none;padding:0;margin:18px 0}
+.steps li{counter-increment:paso;display:grid;grid-template-columns:43px minmax(0,1fr);gap:16px;border-top:1px solid var(--line);padding:18px 0}
+.steps li:before{content:counter(paso,decimal-leading-zero);display:inline-flex;align-items:center;justify-content:center;background:#e3f1e9;color:#176451;border-radius:11px;font-weight:850;height:37px;font-size:13px}
+.steps li strong{display:block;margin-bottom:3px}.steps li p{margin:0;font-size:14px;color:#587166}
+.table-scroll{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:13px}th,td{text-align:left;padding:11px 12px;vertical-align:top;border-bottom:1px solid var(--line)}th{background:#edf5ee;color:#21594c}
+.example{background:#f0f5f0;padding:22px;border-radius:13px;margin-top:20px;border:1px solid #dae8dc}
+.example strong{color:#125e50}.result{display:inline-block;background:#fff0da;color:#815821;padding:5px 9px;border-radius:8px;font-size:12px;font-weight:800}
+details{padding:14px 17px;border:1px solid var(--line);border-radius:11px;margin:12px 0;background:#f8fbf9}
+summary{cursor:pointer;font-weight:800;color:#1c6153}
+.cardlink{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;padding:16px;border:1px solid #bbd4c5;border-radius:12px;text-decoration:none;margin:11px 0;background:#edf5ee;color:#194c3e}
+.cardlink:hover{background:#dff0e5}.cardlink span{font-size:13px;color:#607567}.cardlink b{display:block;font-size:16px}.cardlink i{font-style:normal;font-size:22px;line-height:1}
+footer{max-width:1160px;margin:auto;padding:0 25px 30px;font-size:12px;color:#69786f}
+@media(max-width:900px){.content-grid{grid-template-columns:1fr}.side{position:static;order:-1;margin-bottom:10px}.side a{display:inline-block;border:0;margin:2px 8px 2px 0}.flow{grid-template-columns:1fr}}
+@media(max-width:600px){main{padding:0 15px 45px}.hero{padding:35px 19px 75px}.hero p{font-size:16px}.chapter{padding:19px 16px}h1{font-size:37px}.side{padding:14px}.cardlink{padding:13px}}
+@media print{@page{size:A4;margin:12mm}.loja-global-nav,.side,.hero-actions,.cardlink{display:none!important}body{background:white;color:#111;font-size:10pt}.hero{background:white;color:#111;padding:0}.hero p,.eyebrow{color:#333}h1{font-size:24pt}main{padding:0}.content-grid{display:block;margin:0}.chapter{border:0;box-shadow:none;padding:9px 0;break-inside:avoid}.flow{grid-template-columns:repeat(3,1fr)}h2{break-after:avoid}footer{padding:0}}
+</style>
+<link rel="stylesheet" href="../assets/loja-navegacion.css?v=20261018d">
+</head>
+<body>
+<nav class="loja-global-nav" aria-label="Navegación global de Loja">
+<a class="loja-nav-brand" href="../index.html" aria-label="Aula de Salud Comunitaria · inicio"><span class="loja-nav-mark" aria-hidden="true">A</span><span class="loja-nav-label">AULA · SALUD COMUNITARIA</span></a>
+<div class="loja-nav-links">
+<a href="../index.html">⌂ Aula</a>
+<a href="index.html">Inicio Loja</a>
+<a href="taller-impulso.html">Taller de impulso</a>
+<a href="sesion-2.html">Priorización</a>
+<a href="guia-mapeo.html" aria-current="page">Guía de activos</a>
+<button type="button" class="loja-nav-back" data-loja-volver data-fallback="sesion-2.html">← Volver</button>
+</div></nav>
+<header class="hero">
+<div class="eyebrow">LOJA · GUÍA METODOLÓGICA · ETAPA POSTERIOR</div>
+<h1>Mapeo de activos vinculado a las prioridades del Plan Local de Salud</h1>
+<p>La <strong>planificación del mapeo</strong> —qué buscar, dónde, con quién y con qué técnica— se trabaja en la segunda sesión, después de priorizar líneas. Esta guía desarrolla su ejecución posterior, sin inventariar indiscriminadamente todo el municipio.</p>
+<div class="hero-actions">
+<a class="btn" href="ficha-revision-activos.html">Abrir ficha de revisión →</a>
+<a class="btn secondary" href="plantilla_revision_recursos_loja.csv" download>Descargar plantilla de trabajo</a>
+<button class="btn secondary" type="button" onclick="window.print()">Imprimir guía</button>
+</div>
+</header>
+<main>
+<div class="content-grid">
+<div class="article">
+<section class="chapter" id="criterio">
+<div class="kicker">01 · Antes de comenzar</div>
+<h2>Primero elegir prioridades. Después mapear.</h2>
+<p>En la segunda sesión el Grupo Motor prioriza los problemas y, si puede seleccionar las <strong>grandes líneas estratégicas</strong>, planifica inmediatamente el mapeo pertinente. La ejecución de esas técnicas y la validación de activos quedan para después, con equipos y territorios acordados.</p>
+<div class="flow" aria-label="Secuencia del proceso">
+<div class="part"><span class="num">1</span><h3>Priorizar</h3><p>Problemas, necesidades y desigualdades contrastados.</p></div>
+<div class="part"><span class="num">2</span><h3>Elegir líneas</h3><p>Acuerdo del Grupo Motor y alcance territorial.</p></div>
+<div class="part"><span class="num">3</span><h3>Planificar y ejecutar</h3><p>Decidir qué, con quién y cómo en la sesión 2; realizarlo después.</p></div>
+</div>
+<div class="key"><strong>No se trata de revisar 157 recursos por obligación.</strong> Esa cifra procede de una instantánea histórica del inventario migrado a COMPÁS; no describe el estado actual de Localiza Salud ni determina qué debe incorporarse al mapeo del Plan.</div>
+<p>Una organización o espacio puede contribuir a más de una línea. Los recursos no relacionados con las líneas seleccionadas pueden mantenerse en un inventario general, pero no se incorporan automáticamente al mapa específico de este primer Plan.</p>
+</section>
+<section class="chapter" id="metodo">
+<div class="kicker">02 · Ejecución posterior al taller de planificación</div>
+<h2>Seis pasos para construir un mapa útil</h2>
+<ol class="steps">
+<li><div><strong>Delimitar cada línea estratégica</strong><p>Problema priorizado, grupo de población, barrios y anejos, desigualdades y oportunidades de mejora. Registrar el acuerdo que fundamenta su elección.</p></div></li>
+<li><div><strong>Seleccionar recursos potencialmente pertinentes</strong><p>Buscar en inventarios históricos y fuentes comunitarias. Incorporar al trabajo de revisión solo registros con relación plausible con la línea; justificarla en la ficha.</p></div></li>
+<li><div><strong>Contrastar la vigencia y la contribución a la salud</strong><p>Confirmar si funcionan, quién puede utilizarlos, acceso, coste y horarios. Preguntar cómo son conocidos y valorados por la comunidad, sin dar por sentado que todo recurso es un activo.</p></div></li>
+<li><div><strong>Mapear participativamente los vacíos</strong><p>Si faltan activos para determinados barrios, anejos o colectivos, organizar paseos, talleres, entrevistas o actividades escolares adaptadas a la línea y a las personas implicadas.</p></div></li>
+<li><div><strong>Verificar el registro en Localiza Salud</strong><p>Comprobar URL/ID y fecha de consulta. No confundir recurso identificado, activo contrastado e inscripción/validación formal en la plataforma ministerial. Los trámites corresponden a perfiles autorizados.</p></div></li>
+<li><div><strong>Acordar seguimiento y revisión</strong><p>Dejar constancia de decisión, evidencia, persona/equipo responsable, próxima actuación y fecha de actualización. El mapa es un instrumento vivo.</p></div></li>
+</ol>
+</section>
+<section class="chapter" id="ficha">
+<div class="kicker">03 · Ficha común</div>
+<h2>Qué debe constar para cada activo</h2>
+<p>Para decidir <strong>qué mapear, con quién y qué técnicas</strong>, utilizar primero la <a href="matriz-planificacion-mapeo.html">matriz del taller de priorización</a>. En la fase de ejecución, la ficha y la hoja de trabajo incluyen <strong>22 campos</strong> organizados en cuatro preguntas: a qué línea contribuye, qué es y si existe, cómo contribuye a la salud y qué queda por hacer.</p>
+<div class="table-scroll"><table>
+<thead><tr><th>Bloque</th><th>Información mínima</th><th>Decisión</th></tr></thead>
+<tbody>
+<tr><td><strong>Vínculo estratégico</strong></td><td>Línea seleccionada, prioridad abordada, población y territorio</td><td>¿Es pertinente para el Plan?</td></tr>
+<tr><td><strong>Identidad y vigencia</strong></td><td>ID histórico, tipo, entidad/actividad, fecha y fuente</td><td>¿Existe y está disponible?</td></tr>
+<tr><td><strong>Valor comunitario</strong></td><td>Contribución a la salud, uso, reconocimiento, accesibilidad y barreras</td><td>¿Qué evidencia acredita su aportación?</td></tr>
+<tr><td><strong>Registro y seguimiento</strong></td><td>ID/estado en Localiza Salud, resultado motivado, equipo, plazo</td><td>¿Qué actuación y qué revisión siguen?</td></tr>
+</tbody></table></div>
+<details><summary>¿Qué decisiones se pueden documentar?</summary>
+<ul><li><strong>Activo contrastado:</strong> hay evidencia suficiente de vigencia y aportación a la línea.</li>
+<li><strong>Recurso pendiente:</strong> aún falta confirmar utilidad, reconocimiento o condiciones.</li>
+<li><strong>Duplicado:</strong> reconciliar referencias y conservar trazabilidad.</li>
+<li><strong>Inactivo o no propuesto:</strong> justificar decisión y no trasladarlo al mapa como vigente.</li></ul></details>
+<a class="cardlink" href="ficha-revision-activos.html"><div><b>Ficha interactiva de revisión</b><span>Rellenar para imprimir. No guarda ni envía datos.</span></div><i aria-hidden="true">→</i></a>
+<a class="cardlink" href="plantilla_revision_recursos_loja.csv" download><div><b>Plantilla CSV vacía</b><span>22 columnas para uso posterior por equipos y custodia acordada.</span></div><i aria-hidden="true">↓</i></a>
+</section>
+<section class="chapter" id="ejemplo">
+<div class="kicker">04 · Práctica docente</div>
+<h2>Un ejemplo, sin atribuir decisiones a Loja</h2>
+<div class="example">
+<p><strong>Línea ficticia para ensayar:</strong> «Facilitar la actividad física cotidiana». <em>No se afirma que esta línea esté aprobada.</em></p>
+<p><strong>Recurso A:</strong> un espacio comunitario que podría facilitar actividad física, pero cuyos horarios y accesibilidad todavía no están verificados.</p>
+<p><span class="result">Pendiente de contraste</span> Antes de incluirlo en el mapa, comprobar vigencia, acceso y reconocimiento comunitario; vincular su utilidad con la línea.</p>
+<p><strong>Recurso B:</strong> un taller deportivo que aparece en un listado antiguo, pero del que no se sabe si sigue funcionando.</p>
+<p><span class="result">Revisar vigencia</span> Confirmar actividad con la entidad responsable y contrastar los resultados. No asumir que figura validado actualmente en Localiza Salud.</p>
+</div>
+<p>En la futura sesión de mapeo, los grupos podrán comparar las decisiones razonadas y acordar un procedimiento común antes de distribuir el subconjunto pertinente del inventario.</p>
+</section>
+<section class="chapter" id="garantias">
+<div class="kicker">05 · Buenas prácticas</div>
+<h2>Calidad, autorización y mantenimiento</h2>
+<p><strong>El mapeo del Plan y la conservación de un inventario general no son lo mismo.</strong> La revisión de todos los recursos municipales, con independencia de líneas estratégicas, puede requerir un procedimiento propio.</p>
+<ul>
+<li>Obtener exportaciones actualizadas y permisos antes de comprobar el estado real de Localiza Salud. Una búsqueda sin resultado no equivale por sí sola a una baja acreditada.</li>
+<li>Registrar fuente, fecha y justificación de la decisión. Si un activo está relacionado con varias líneas, documentar esa relación sin duplicar innecesariamente las fichas.</li>
+<li>No incorporar a las páginas públicas del Aula información clínica, datos personales, identidades de usuarios o información privada de responsables de recursos.</li>
+<li>Conservar los archivos reales en un sistema institucional con control de acceso y versiones; las herramientas HTML del Aula <strong>no guardan ni envían formularios</strong>.</li>
+</ul>
+<p><strong>Referencia institucional:</strong> <a href="https://localizasalud.sanidad.gob.es/adminrecursos/main/">Localiza Salud — gestión de recursos comunitarios</a>. Los criterios y procedimientos de tramitación deben contrastarse con el organismo y los perfiles responsables.</p>
+</section>
+</div>
+<aside class="side" aria-label="Índice de esta guía">
+<strong>En esta guía</strong>
+<a href="#criterio">01 · Criterio de partida</a>
+<a href="#metodo">02 · Seis pasos de mapeo</a>
+<a href="#ficha">03 · Ficha de revisión</a>
+<a href="#ejemplo">04 · Ejemplo didáctico</a>
+<a href="#garantias">05 · Buenas prácticas</a>
+<a href="sesion-2.html">← Volver a priorización</a>
+</aside>
+</div>
+</main>
+<footer>Aula de Salud Comunitaria Basada en Activos · Loja · Guía para etapa posterior a la selección de líneas estratégicas</footer>
+<script src="../assets/loja-navegacion.js?v=20261018d" defer></script>
+</body>
+</html>
