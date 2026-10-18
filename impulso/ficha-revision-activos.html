@@ -94,6 +94,7 @@ const sugerencias={
 const select=document.getElementById("decision");
 select.addEventListener("change",()=>{document.getElementById("sugerencia").textContent=sugerencias[select.value]||sugerencias["sin-revisar"];});
 document.getElementById("imprimir").addEventListener("click",()=>window.print());
+document.getElementById("revision").addEventListener("reset",()=>{document.getElementById("sugerencia").textContent=sugerencias["sin-revisar"];});
 </script>
 </body>
 </html>
