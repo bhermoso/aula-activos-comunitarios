@@ -26,4 +26,4 @@ jobs:
         with:
           node-version: '22'
       - name: Comprobar estructura, PDF y correspondencia con fuente
-        run: node --test redcap/tests/redisenio.test.mjs
+        run: node --test redcap/tests/*.test.mjs
