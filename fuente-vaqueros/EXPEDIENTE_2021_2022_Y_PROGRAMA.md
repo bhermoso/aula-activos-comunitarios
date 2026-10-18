@@ -18,7 +18,7 @@ Se incorporó a **`main` (publicado)** la información local documentada que fal
 - Programa: siete bloques por **contenido institucional**; se recupera la trayectoria local y se plantea revisión del proceso, no un taller inicial ex novo.
 - Personas: los **siete participantes previstos y 17 personas/entidades invitadas** aparecen tanto en el programa como en la sección de participantes, indicando su estatus.
 - Carlos del Moral se identifica como **Carlos del Moral Campaña** porque el segundo apellido consta en el programa de 2021.
-- **Actualización comunicada el 17/10/2026:** la moderación está asignada a **Raúl**, cuyo apellido está pendiente de conocer e incorporar. El documento preparatorio recibido citaba «Rubén»; ese dato queda como referencia de la fuente inicial, **no** como identificación del moderador de la sesión de 2026. La composición de la mesa continúa por confirmar.
+- **Rectificación comunicada el 18/10/2026:** modera **Rubén**, vinculado al **área de Cultura del Ayuntamiento de Fuente Vaqueros**. Sus apellidos y cargo específico están pendientes de confirmar. El documento preparatorio original ya citaba «Rubén»; queda anulada la atribución a otro nombre introducida el 17/10/2026. La composición de la mesa continúa por confirmar.
 - **Actualización organizativa confirmada por el usuario el 17/10/2026:** Carlos del Moral Campaña **está confirmado** para presentar el «Informe sobre la situación de salud de Fuente Vaqueros». No extender la indicación de «pendiente de confirmación» a Carlos. Los estados del resto de intervenciones se anotarán únicamente cuando estén documentados o comunicados por la organización.
 - No se publican teléfonos de contacto, firmas escaneadas ni las respuestas individuales de los cuestionarios.
 
@@ -40,19 +40,19 @@ La propuesta de contenidos afecta a portada, «Punto de partida», programa, pre
 
 **Finalidad:** recoger la visión de la salud y el bienestar de Fuente Vaqueros desde la experiencia de cada persona o entidad invitada, sin someterla a preguntas técnicas sobre RELAS ni presuponer que conoce la priorización de 2022.
 
-**Secuencia de la conversación:** Carlos del Moral Campaña presentará el «Informe sobre la situación de salud de Fuente Vaqueros» (bloque 03; intervención confirmada por el usuario). No anticipar un contenido concreto del informe que no conste en su documentación. En el bloque 04, Raúl (apellidos pendientes) facilita perspectivas humanas y sectoriales diferenciadas, previstas en el guion y sujetas a validación organizativa: **Alicia Bellido González**, enfermera comunitaria, sobre atención primaria, necesidades que llegan a consulta, acceso y nuevas demandas; **María Martín Calvo**, AMPA del CEIP Soto de Roma, sobre bienestar desde las familias; **Francisco J. Pigne Marín**, enfermero escolar, sobre salud desde el sistema educativo y coordinación con familias/servicios; y **Margarita Rut Goena Martínez**, trabajadora social de Salud Mental de Santa Fe (participación efectiva pendiente de confirmación), sobre bienestar emocional, condiciones sociales, apoyo familiar y redes.
+**Secuencia de la conversación:** Carlos del Moral Campaña presentará el «Informe sobre la situación de salud de Fuente Vaqueros» (bloque 03; intervención confirmada por el usuario). No anticipar un contenido concreto del informe que no conste en su documentación. En el bloque 04, Rubén (área de Cultura del Ayuntamiento; apellidos pendientes) facilita perspectivas humanas y sectoriales diferenciadas, previstas en el guion y sujetas a validación organizativa: **Alicia Bellido González**, enfermera comunitaria, sobre atención primaria, necesidades que llegan a consulta, acceso y nuevas demandas; **María Martín Calvo**, AMPA del CEIP Soto de Roma, sobre bienestar desde las familias; **Francisco J. Pigne Marín**, enfermero escolar, sobre salud desde el sistema educativo y coordinación con familias/servicios; y **Margarita Rut Goena Martínez**, trabajadora social de Salud Mental de Santa Fe (participación efectiva pendiente de confirmación), sobre bienestar emocional, condiciones sociales, apoyo familiar y redes.
 
 **Forma de preguntar:** una pregunta amplia dirigida a la experiencia de cada participante y posibles repreguntas contextuales, sin solicitar un diagnóstico epidemiológico ni asumir que hay nuevos problemas o hiperfrecuentación. Distinguir perspectiva de usuarios, de familias, profesional escolar y social de salud mental; no exigir historias clínicas ni casos identificables. Evitar presentar estas observaciones como hechos poblacionales representativos o como prioridades ya aprobadas.
 
 **Relación con el programa:** la historia de RELAS, la encuesta de 2022 y la eventual actualización de prioridades se presentan en los bloques técnicos. La intervención propuesta de Blas Hermoso recoge después como líneas de continuidad la revisión de la priorización y el mapeo participativo de activos. **Las intervenciones de la mesa no equivalen a una priorización formal ni a un acuerdo del grupo motor.**
 
-**Estado:** entrevista publicada mediante PR #23. Se mantienen los listados completos de participantes e invitados. **Rectificación del 17/10/2026:** modera Raúl, con apellido pendiente; la mesa, por separado, tiene su composición pendiente de confirmación.
+**Estado:** entrevista publicada mediante PR #23. Se mantienen los listados completos de participantes e invitados. **Rectificación del 18/10/2026:** modera Rubén, vinculado al área de Cultura del Ayuntamiento, con apellidos pendientes; la mesa, por separado, tiene su composición pendiente de confirmación.
 
 ## Reorganización de la navegación · 17/10/2026
 
 Por solicitud editorial, el antiguo apartado independiente **«Punto de partida»** se integra en el bloque **02 «Trayectoria del Plan Local de Salud y recuperación del proceso»**, dentro de la pestaña **Programa**. Se conserva el contenido histórico completo: antecedentes RELAS, cronología, cautelas documentales, cuestiones de verificación, propuestas para reimpulso y lista de fuentes. El bloque incorpora un panel desplegable que se muestra abierto inicialmente y puede cerrarse si se desea consultar el resto del programa.
 
-La navegación pasa de seis a cinco pestañas: Programa, Participantes, Moderación, Hoja de ruta y Mapa de activos. El acceso desde portada abre Programa y los antiguos enlaces con `#contexto` se redirigen a Programa. La moderación sigue asignada a Raúl (apellidos pendientes); no se modifica la composición de la mesa ni el resto de las intervenciones.
+La navegación pasa de seis a cinco pestañas: Programa, Participantes, Moderación, Hoja de ruta y Mapa de activos. El acceso desde portada abre Programa y los antiguos enlaces con `#contexto` se redirigen a Programa. La moderación está asignada a Rubén (área de Cultura del Ayuntamiento; apellidos pendientes); no se modifica la composición de la mesa ni el resto de las intervenciones.
 
 **Estado de esta reorganización:** publicada mediante PR #26, fusión `03394ca` y despliegue Pages finalizado correctamente (acción #39006512504).
 
@@ -100,7 +100,7 @@ La ficha sigue guardando propuestas en `localStorage` del dispositivo; no envía
 2. Actas posteriores al 29/04/2022 y continuidad del grupo motor después del verano.
 3. Fecha real de la interrupción y causas contrastadas.
 4. Existencia y aprobación de priorización Hanlon o del I Plan Local de Salud.
-5. Comprobar la composición de la mesa, el estado de las demás intervenciones cuando existan fuentes, la participación de representantes institucionales, el lugar y el horario; completar el apellido de Raúl, moderador ya asignado. **Carlos del Moral Campaña está confirmado.**
+5. Comprobar la composición de la mesa, el estado de las demás intervenciones cuando existan fuentes, la participación de representantes institucionales, el lugar y el horario; completar los apellidos y el cargo específico de Rubén, del área de Cultura del Ayuntamiento. **Carlos del Moral Campaña está confirmado.**
 6. Revisión de los datos del informe histórico antes de una presentación de situación actual en 2026.
 
 ## Control de cambios
