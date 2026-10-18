@@ -50,4 +50,4 @@ El aviso didáctico sobre seleccionar `Checkboxes` para una pregunta de respuest
 
 Archivos: `redcap/index.html`, `redcap/tests/tipo-campo.test.mjs` y `.github/workflows/redcap-validacion.yml`. Este último ejecuta todas las pruebas del directorio `redcap/tests/`.
 
-**Estado:** preparado en `fix/redcap-asistente-tipos-aviso-dinamico-20261018` para PR de revisión; no fusionado ni desplegado sin autorización expresa. La publicación anterior de REDCap 2027 sigue activa.
+**Estado:** PR #32 fusionada con autorización expresa del usuario en `main`, commit `d4d07c0bcab28fc7c62f10a27042ea42d3cda4fb`. Las pruebas automatizadas de la rama y de `main` han superado la validación. Ejecución del despliegue de Pages: https://github.com/bhermoso/aula-activos-comunitarios/actions/runs/39112667947. Sin validación visual directa en navegador. No afecta a otros módulos.
