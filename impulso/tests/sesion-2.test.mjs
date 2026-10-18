@@ -3,101 +3,105 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {strict as assert} from 'node:assert';
 import {test} from 'node:test';
-import {Script as vmScript} from 'node:vm';
+import {Script} from 'node:vm';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
-const original=readFileSync(path.join(root,'index.html'),'utf8');
-const session=readFileSync(path.join(root,'sesion-2.html'),'utf8');
-const guide=readFileSync(path.join(root,'SESION_2_MAPEO_Y_PRIORIZACION.md'),'utf8');
-test('Portada: enlace a una segunda sesión separada, sin perder sesión 1',()=>{
- assert.ok(original.includes('href="sesion-2.html"'));
- assert.ok(original.includes('href="#diagnostico"'));
- assert.ok(original.includes('16 de octubre · 10:00–11:30 · 90 minutos'));
- assert.ok(original.includes('id="portada-actividad"'));
- assert.ok(original.includes('id="actividad-app"'));
- assert.ok(original.includes('id="tab-mapeo-escolar"'));
- assert.ok(original.includes('id="tab-mapeo-redes"'));
-});
-test('Sesión 2: dos decisiones principales y sin Plan de Acción prematuro',()=>{
- assert.match(session,/<h1>Planificar el mapeo de activos y revisar la priorización<\/h1>/);
- for(const term of ['Revisión uno a uno','Nuevos mapeos participativos','Loja ya priorizó en 2022','¿Hace falta actualizarla?','26 problemas','Localiza Salud','REDCap','Sin consulta ni publicación de datos individuales']){
-  assert.ok(session.includes(term),'Falta: '+term);
- }
- assert.match(session,/no corresponde cerrar hoy:[\s\S]{0,150}líneas estratégicas/);
- assert.doesNotMatch(session,/<h2>Plan de Acción<\/h2>/);
- assert.ok(session.includes('Fecha por confirmar'));
- assert.ok(session.includes('href="index.html"'));
- assert.ok(session.includes('href="SESION_2_MAPEO_Y_PRIORIZACION.md"'));
-});
-test('Documentación: no confundir inventario histórico, decisiones y herramientas',()=>{
- for(const phrase of ['162 recursos','157 pendientes','157 recursos hoy pendientes','40 participantes','26 problemas','COMPÁS-NG','no ejecuta','no se presenta como acuerdo vigente'].slice(0,5)) {
-  assert.ok(guide.toLowerCase().includes(phrase.toLowerCase()),'No consta: '+phrase);
- }
- assert.match(guide,/fuera de alcance|vendrá después|fase posterior|materia de una sesión posterior|paso posterior/i);
- assert.ok(!guide.includes('PROPUESTA_GRUPO_MOTOR_MAPEO_PRIORIZACION_PLAN_2026.md'));
- assert.equal(existsSync(path.join(root,'PROPUESTA_GRUPO_MOTOR_MAPEO_PRIORIZACION_PLAN_2026.md')),false);
-});
-test('Sesión 2: navegación interna y estructura básica legibles',()=>{
- for(const id of ['objetivos','agenda','mapeo','prioridades','acuerdos']){
-  assert.ok(session.includes('id="'+id+'"'));
-  assert.ok(session.includes('href="#'+id+'"'));
- }
- assert.ok(session.includes('@media(max-width:660px)'));
- assert.ok(session.includes('@media print'));
- assert.ok(session.includes('<main>')&&session.includes('</main>'));
+const read=(name)=>readFileSync(path.join(root,name),'utf8');
+const hub=read('index.html'),first=read('taller-impulso.html');
+const second=read('sesion-2.html'),guide=read('SESION_2_MAPEO_Y_PRIORIZACION.md');
+
+test('Portada del módulo: dos encuentros separados y mapeo como tercera etapa posterior',()=>{
+  assert.ok(hub.includes('Itinerario del Plan Local de Salud'));
+  assert.ok(hub.includes('Taller de impulso'));
+  assert.ok(hub.includes('Priorización y líneas estratégicas'));
+  assert.ok(hub.includes('href="taller-impulso.html"'));
+  assert.ok(hub.includes('href="sesion-2.html"'));
+  assert.ok(hub.includes('Mapeo de activos orientado a las líneas seleccionadas'));
+  assert.ok(hub.includes('Solo después'));
+  assert.equal((hub.match(/<article class="card /g)||[]).length,2);
+  assert.ok(!hub.includes('id="actividad-app"'),'La portada ya no contiene el taller completo incrustado');
 });
 
-
-test('La sesión enlaza la ficha, guía, CSV y revisión histórica, sin fingir persistencia',()=>{
- for(const href of ['ficha-revision-activos.html','dinamica-priorizacion.html','plantilla_revision_recursos_loja.csv','GUIA_REVISION_INDIVIDUAL_ACTIVOS.md']){
-   assert.ok(session.includes('href="'+href+'"'),'La sesión no enlaza '+href);
-   assert.ok(existsSync(path.join(root,href)),'Archivo inexistente '+href);
- }
- const ficha=readFileSync(path.join(root,'ficha-revision-activos.html'),'utf8');
- assert.ok(ficha.includes('no guarda ni envía información'));
- assert.ok(ficha.includes('No introduzcas datos personales'));
- assert.ok(ficha.includes('estado-localiza'));
- assert.ok(ficha.includes('participacion'));
- assert.ok(ficha.includes('vigencia'));
- assert.ok(ficha.includes('decision'));
- assert.ok(ficha.includes('justificacion'));
- assert.ok(ficha.includes('plazo'));
- assert.ok(ficha.includes('window.print()'));
- assert.ok(!/localStorage|sessionStorage|firebase|fetch\(/i.test(ficha));
+test('Se conserva el primer taller y sus accesos desde enlaces históricos',()=>{
+  for(const token of ['id="portada-actividad"','id="actividad-app"',
+    '16 de octubre · 10:00–11:30 · 90 minutos',
+    'id="tab-mapeo-escolar"','id="tab-mapeo-redes"',
+    'data-cover-open="0"','data-cover-open="4"',
+    'const hashNames=','../assets/proyeccion-loja.js']){
+    assert.ok(first.includes(token),'Falta material original: '+token);
+  }
+  assert.ok(first.includes('href="index.html"'),'Primer taller regresa a itinerario');
+  assert.ok(!first.includes('loja-segunda-sesion'));
+  for(const hash of ['diagnostico','itinerario','moderacion','marco','ficha','estudios','mapeo-escolar','mapeo-redes']){
+    assert.ok(hub.includes("'"+hash+"'"),'Falta redirección compatible: '+hash);
+  }
+  assert.ok(hub.includes("window.location.replace('taller-impulso.html'+window.location.hash)"));
 });
 
-test('Plantilla CSV vacía mantiene campos para decisión motivada y contraste Localiza',()=>{
- const csv=readFileSync(path.join(root,'plantilla_revision_recursos_loja.csv'),'utf8').replace(/^\uFEFF/,'').trim();
- const lines=csv.split(/\r?\n/);
- assert.equal(lines.length,1,'La plantilla no contiene datos ni ejemplos que pudieran confundirse con reales');
- const cols=lines[0].split(';');
- assert.equal(cols.length,20);
- assert.equal(new Set(cols).size,cols.length);
- for(const c of ['id_historico','id_localiza_salud','fecha_consulta_localiza','participacion_contraste','estado_en_localiza','resultado_revision','motivo_revision','accion_pendiente','equipo_responsable','fecha_limite']){
-  assert.ok(cols.includes(c),'Campo ausente: '+c);
- }
+test('Priorizar primero: líneas estratégicas y mapeo posteriormente',()=>{
+  assert.ok(second.includes('Priorización de problemas y selección de líneas estratégicas'));
+  assert.ok(second.includes('Primero decidir qué queremos mejorar'));
+  const a=second.indexOf('id="antecedentes"'),
+        b=second.indexOf('id="decision"'),
+        c=second.indexOf('id="lineas"'),
+        d=second.indexOf('id="mapeo"');
+  assert.ok(a>0&&a<b&&b<c&&c<d,'Orden pedagógico: historial → decisión → líneas → mapeo');
+  assert.ok(second.includes('Líneas estratégicas'));
+  assert.ok(second.includes('solo si procede'));
+  assert.ok(second.includes('si se acuerda encuesta'));
+  assert.ok(second.includes('relacionados con las líneas acordadas'));
+  assert.ok(second.includes('<details>'),'Herramientas de activos han de quedar secundarias');
+  assert.ok(second.includes('href="index.html"'));
+  assert.ok(second.includes('Fecha por confirmar'));
+  assert.ok(!second.includes('<h2>Agenda de mapeo</h2>'));
 });
 
-test('Dinámica muestra 26 problemas de 2022 sin convertir el contraste en votación',()=>{
- const page=readFileSync(path.join(root,'dinamica-priorizacion.html'),'utf8');
+test('Documento de continuidad docente evita priorizar todo el inventario antes de líneas',()=>{
+  for(const phrase of ['40 participantes','26 problemas','162 registros','157 pendientes','COMPÁS-NG','Solo entran','líneas estratégicas','Después de seleccionar líneas']){
+    const hay=(guide+'\n'+read('GUIA_REVISION_INDIVIDUAL_ACTIVOS.md')).toLowerCase();
+    assert.ok(hay.includes(phrase.toLowerCase()),'No encontrado: '+phrase);
+  }
+  assert.ok(guide.includes('No es objetivo de la segunda sesión hacer mapeo'));
+  assert.ok(guide.includes('solo se revisarán como posibles activos aquellos pertinentes'));
+  assert.ok(!guide.includes('auditoría del 100 % del inventario'));
+  assert.ok(guide.includes('mantenimiento general'));
+});
+
+test('Dinámica recupera 26 prioridades y distingue consulta de selección de líneas',()=>{
+ const page=read('dinamica-priorizacion.html');
  assert.equal((page.match(/class="revision"/g)||[]).length,26);
- for(let i=1;i<=26;i++)assert.ok(page.includes('id="tema-'+i+'"'),'Falta el tema '+i);
- assert.ok(page.includes('40 participantes en 2022'));
- assert.ok(page.includes('Suicidio'));
- assert.ok(page.includes('Sedentarismo'));
- assert.ok(page.includes('187.850'));
- assert.ok(page.includes('74.185'));
- assert.ok(page.includes('no constituyen una nueva priorización'));
- assert.ok(page.includes('no recoge votos públicos'));
- for(const route of ['revisar','consulta','mixto','pendiente'])assert.ok(page.includes('name="ruta" value="'+route+'"'));
+ for(let i=1;i<=26;i++)assert.ok(page.includes('id="tema-'+i+'"'));
+ for(const txt of ['40 participantes en 2022','Sedentarismo','Suicidio','187.850','74.185','no constituyen una nueva priorización',
+ 'name="ruta" value="consulta"','id="lineas"','Si se acuerda encuesta','El mapeo será posterior']){
+  assert.ok(page.includes(txt),'Falta: '+txt);
+ }
  assert.ok(!/localStorage|sessionStorage|firebase|fetch\(/i.test(page));
 });
 
-test('Scripts locales de materiales prácticos son sintácticamente válidos',()=>{
- 
- for(const pathName of ['ficha-revision-activos.html','dinamica-priorizacion.html']){
-  const page=readFileSync(path.join(root,pathName),'utf8');
-  const scripts=[...page.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g)].map(m=>m[1]);
-  assert.ok(scripts.length>=1,'Sin script en '+pathName);
-  scripts.forEach((js,i)=>assert.doesNotThrow(()=>new vmScript(js),pathName+' script '+i));
+test('Ficha y plantilla exigen vínculo con línea seleccionada sin introducir datos reales',()=>{
+ const ficha=read('ficha-revision-activos.html');
+ for(const s of ['id="linea"','id="pertinencia"','Uso posterior a la selección de líneas',
+ 'no guarda ni envía información','No introduzcas datos personales','estado-localiza','window.print()']){
+   assert.ok(ficha.includes(s),'No encontrado: '+s);
+ }
+ assert.ok(!/localStorage|sessionStorage|firebase|fetch\(/i.test(ficha));
+ const csv=read('plantilla_revision_recursos_loja.csv').replace(/^\uFEFF/,'').trim();
+ assert.equal(csv.split(/\r?\n/).length,1,'CSV debe estar vacío de datos');
+ const cols=csv.split(';');
+ assert.equal(cols.length,22);
+ assert.equal(new Set(cols).size,cols.length);
+ for(const c of ['linea_estrategica_seleccionada','pertinencia_para_linea','id_localiza_salud','resultado_revision','fecha_limite'])
+  assert.ok(cols.includes(c),'Falta '+c);
+ for(const href of ['ficha-revision-activos.html','dinamica-priorizacion.html','plantilla_revision_recursos_loja.csv','GUIA_REVISION_INDIVIDUAL_ACTIVOS.md'])
+  assert.ok(existsSync(path.join(root,href)));
+});
+
+test('Guion, enlaces y scripts disponibles sin fuentes externas de recogida',()=>{
+ assert.ok(guide.includes('mapeo dirigido'));
+ assert.ok(guide.includes('Acta mínima'));
+ for(const href of ['dinamica-priorizacion.html','ficha-revision-activos.html'])
+   assert.ok(second.includes('href="'+href+'"'));
+ for(const page of [hub,first,second,read('ficha-revision-activos.html'),read('dinamica-priorizacion.html')]){
+  const scripts=[...page.matchAll(/<script(?![^>]*src=)[^>]*>([\s\S]*?)<\/script>/g)].map(m=>m[1]);
+  for(const script of scripts)assert.doesNotThrow(()=>new Script(script));
  }
 });
