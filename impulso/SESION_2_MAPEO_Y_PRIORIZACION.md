@@ -26,16 +26,28 @@ Existe un borrador histórico `Plan Acción Loja.odt` que agrupaba actuaciones e
 
 La [dinámica de revisión](dinamica-priorizacion.html) reproduce los 26 temas en un ejercicio de contraste cualitativo. Los participantes anotan aspectos que siguen vigentes, requieren reformulación o precisan más datos, **sin generar nuevas votaciones ni ranking automático**.
 
-## 2. Agenda sugerida (120 minutos ajustables)
+## 2. Agenda de trabajo de la segunda sesión (120 minutos orientativos)
 
-| Tiempo | Trabajo | Producto |
-| ---: | --- | --- |
-| 10 min | Apertura: delimitar lo que se decide hoy | Orden de trabajo |
-| 25 min | Recuperar resultados, proceso y documentos de 2022 | Lista de elementos confirmados y pendientes |
-| 25 min | Contrastar vigencia, nuevas necesidades y desigualdades territoriales | Preguntas, fuentes y colectivos por consultar |
-| 20 min | Mostrar brevemente opciones de priorización temática COMPÁS-NG/REDCap | Decidir si se prepara una consulta |
-| 25 min | Selección deliberativa de líneas, **solo si procede**, o planificación de la reunión de decisión | Líneas propuestas/seleccionadas con trazabilidad o calendario |
-| 15 min | Acuerdos, responsables, plazos y devolución | Acta y siguiente paso |
+**Esta es una reunión de priorización y preparación de decisiones, NO una sesión de mapeo.** Las dos rutas del bloque 06 son **alternativas**, nunca se suman; ninguna obliga a aprobar líneas estratégicas si faltan consulta o evidencias. Los tiempos están sujetos a confirmación de la organización.
+
+| Código | Tiempo | Bloque de trabajo | Producto |
+| --- | ---: | --- | --- |
+| `apertura` | 10 min | **01 · Apertura y objetivo.** Recuperar acuerdos previos y delimitar qué podemos decidir hoy | Acuerdo sobre objetivos de la reunión |
+| `antecedentes` | 20 min | **02 · Prioridades de 2022.** Presentar los 26 problemas, método y grado de ratificación documentado | Hechos confirmados y documentación a verificar |
+| `contraste` | 20 min | **03 · Contraste comunitario.** Evidencias actuales, territorios, desigualdades y problemas nuevos o reformulados | Necesidades de información y voces a incorporar |
+| `demostracion` | 15 min | **04 · Herramientas disponibles.** COMPÁS-NG y posibilidades de encuesta en REDCap, sin activarla | Capacidades y limitaciones comprendidas |
+| `metodo` | 20 min | **05 · Decisión metodológica.** Revisión deliberativa, consulta, mixta o aplazamiento motivado | Procedimiento consensuado o desacuerdo documentado |
+| `ruta-condicionada` | 25 min | **06 · Trabajo condicionado al acuerdo.** Ruta A **sin nueva consulta**: si la evidencia es suficiente, deliberar y seleccionar líneas con fundamento; si no, encargar contraste pendiente. Ruta B **con consulta o decisión aplazada**: preparar temas, población, responsables y calendario; **no cerrar líneas** | Líneas con trazabilidad **o**, si hay consulta/insuficiencia documental, diseño/encargos y fecha de decisión |
+| `cierre` | 10 min | **07 · Acta y continuidad.** Responsables, plazos y siguiente encuentro | Acta y tareas asignadas |
+
+**Total: 120 minutos (10 + 20 + 20 + 15 + 20 + 25 + 10).** Ningún bloque se dedica a repartir registros de activos, validar fichas o diseñar paseos de mapeo.
+
+### Dos decisiones que no deben confundirse
+
+- **Decisión metodológica:** cómo obtener prioridades válidas y actuales; puede resolverse hoy.
+- **Selección de líneas estratégicas:** solo cuando las prioridades estén contrastadas y exista deliberación suficiente. Si se decide realizar encuesta temática, **esperar resultados y devolución antes de seleccionar líneas**.
+
+La elaboración detallada del Plan de Acción y el mapeo dirigido son pasos ulteriores, no resultados obligatorios de esta sesión.
 
 ### Guion de facilitación
 
