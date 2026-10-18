@@ -7,6 +7,8 @@
 
 **Primero priorizar problemas y necesidades → seleccionar líneas estratégicas → después mapear los activos relacionados con esas líneas.**
 
+Este **mapeo dirigido** tendrá un alcance temático y territorial delimitado por las líneas elegidas; no será un inventario exhaustivo de todos los recursos del municipio.
+
 No es objetivo de la segunda sesión hacer mapeo de activos, revisar los 157 «pendientes» de una fotografía histórica o repartir todo el inventario como tarea. Esos recursos se consideran **fuente de consulta posterior**, y para el primer Plan Local de Salud **solo se revisarán como posibles activos aquellos pertinentes para las líneas estratégicas elegidas**. El mantenimiento general de Localiza Salud o de un catálogo de recursos, con independencia del Plan, es un proceso distinto que no se confunde con el mapeo específico.
 
 ### Resultados esperados
