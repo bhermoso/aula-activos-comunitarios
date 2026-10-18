@@ -50,7 +50,7 @@ test('Priorizar primero: líneas estratégicas y mapeo posteriormente',()=>{
         d=second.indexOf('id="mapeo"');
   assert.ok(a>0&&a<b&&b<c&&c<d,'Orden pedagógico: historial → decisión → líneas → mapeo');
   assert.ok(second.includes('Líneas estratégicas'));
-  assert.ok(second.includes('solo si procede'));
+  assert.ok(second.includes('Si la evidencia y participación son suficientes'));
   assert.ok(second.includes('Si se acuerda consultar:'));
   assert.ok(second.includes('relacionados con las líneas acordadas'));
   assert.ok(second.includes('<details>'),'Herramientas de activos han de quedar secundarias');
