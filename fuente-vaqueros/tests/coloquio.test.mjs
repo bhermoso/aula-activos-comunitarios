@@ -15,7 +15,7 @@ test('la mesa conecta los indicadores epidemiológicos con cuatro miradas humana
   for(const t of [
     'Mesa-coloquio · guion por ámbitos',
     'Carlos del Moral Campaña',
-    'Entrada de Raúl, moderador',
+    'Entrada de Rubén, moderador',
     'Alicia Bellido González',
     'María Martín Calvo',
     'Francisco J. Pigne Marín',
@@ -48,7 +48,7 @@ test('preguntas abiertas por ámbito, no examen técnico ni presunción de patol
   for(const old of [
     'Pregunta inicial común','Preguntas de apoyo para conversar',
     '¿Qué procedimiento permitiría revisar las prioridades',
-    '¿Qué conclusiones de la consulta','Rubén'
+    '¿Qué conclusiones de la consulta','Raúl'
   ]) assert.ok(!s.includes(old),'Texto no pertinente: '+old);
 });
 
@@ -63,8 +63,10 @@ test('el programa distingue la presentación de Carlos, mesa y conclusiones de B
     assert.ok(block.includes(name),'Falta nombre en el bloque 04: '+name);
   }
   assert.ok(s.includes('Composición de la mesa pendiente de confirmación'));
-  assert.ok(s.includes('Moderación a cargo de Raúl (apellidos pendientes)'));
+  assert.ok(s.includes('Moderación a cargo de Rubén (área de Cultura del Ayuntamiento de Fuente Vaqueros; apellidos pendientes)'));
   assert.ok(s.includes('Blas Hermoso Rico'));
+  assert.ok(s.includes('Cultura del Ayuntamiento'));
+  assert.ok(!s.includes('Raúl'));
   assert.ok(s.includes('revisar el trabajo de priorización de 2022'));
 });
 
