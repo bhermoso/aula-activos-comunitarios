@@ -1,108 +1,102 @@
-# Loja · Segundo encuentro del Grupo Motor
-## Revisión de prioridades y selección de líneas estratégicas
+# Loja · Segunda sesión del Grupo Motor
+## Priorizar las grandes líneas y planificar el mapeo de activos
 
-**Documento preparatorio del Aula (18/10/2026).** Segunda sesión diferenciada del **Taller de impulso** del 16/10/2026. La organización debe confirmar la fecha y duración. La sesión no constituye ni sustituye un acta de acuerdos.
+**Documento preparatorio del Aula · 18/10/2026.** Diferente del Taller de impulso del 16/10/2026, que conserva su programa histórico. Duración y fecha definitiva de esta segunda sesión: a confirmar. **No son acuerdos aprobados; es una propuesta de trabajo.**
 
-## Criterio metodológico
+## Principio organizador
 
-**Primero priorizar problemas y necesidades → seleccionar líneas estratégicas → después mapear los activos relacionados con esas líneas.**
+**En la misma segunda sesión se trabaja primero la priorización; después, en función de las grandes líneas, se planifica qué se va a mapear, con quién y utilizando qué técnicas. La ejecución efectiva del mapeo es posterior.**
 
-Este **mapeo dirigido** tendrá un alcance temático y territorial delimitado por las líneas elegidas; no será un inventario exhaustivo de todos los recursos del municipio.
+No se comienza con un inventario general de activos ni se reparte para revisar de forma indiscriminada el antiguo listado de 157 recursos pendientes. Se seleccionarán y contrastarán, tras conocer las líneas elegidas, los recursos y capacidades relacionados con ellas. Mantener actualizado el inventario completo de Localiza Salud es una tarea administrativa distinta.
 
-No es objetivo de la segunda sesión hacer mapeo de activos, revisar los 157 «pendientes» de una fotografía histórica o repartir todo el inventario como tarea. Esos recursos se consideran **fuente de consulta posterior**, y para el primer Plan Local de Salud **solo se revisarán como posibles activos aquellos pertinentes para las líneas estratégicas elegidas**. El mantenimiento general de Localiza Salud o de un catálogo de recursos, con independencia del Plan, es un proceso distinto que no se confunde con el mapeo específico.
+**Dependencia si se aprueba una nueva encuesta:** puede prepararse un escenario de mapeo para posibles líneas, pero se marca **provisional**. Ningún equipo sale a mapear ni se afirma qué líneas están aprobadas hasta analizar, devolver y deliberar los resultados de la priorización.
 
-### Resultados esperados
+## 1. Antecedentes documentales para la priorización
 
-1. **Revisión del trabajo de priorización de Loja realizado en 2022:** recuperar listado, metodología, participantes y acuerdos; identificar qué debe contrastarse con fuentes actuales y voces comunitarias.
-2. **Decisión sobre cómo actualizar la priorización:** revisión deliberativa, nueva consulta, proceso mixto o aplazamiento motivado. Si se plantea una consulta, definir responsables del diseño y necesidades de información.
-3. **Líneas estratégicas:** acordarlas **solo si existen elementos suficientes y no se necesita esperar una consulta**. En caso contrario, acordar el proceso y el momento para seleccionarlas.
-4. **Etapa siguiente, no actividad de hoy:** una vez seleccionadas las líneas, planificar los mapeos temáticos y territoriales pertinentes y revisar los recursos históricos con una ficha que incorpore relación justificada con cada línea.
+El expediente de Loja conservado en COMPÁS-NG Renovado (`public/seeds/compas-ng-workspace-loja.json`, transcripción de `problemas priorizados y propuesta plan de accion.odt`) recoge **40 participantes** y **26 problemas ordenados y puntuados en 2022**. Los primeros incluían sedentarismo, alimentación no saludable, formación sobre hábitos, uso de tecnologías, ocio juvenil y barreras arquitectónicas.
 
-## 1. Información de partida: hubo priorización en 2022
+Existe además el borrador `Plan Acción Loja.odt` con dos agrupaciones de entonces, Vida Activa y Saludable y Medio Ambiente físico y social. Ambos documentos son **antecedentes, no acreditaciones automáticas de aprobación formal ni de vigencia de las líneas en 2026**. Recuperar ODT originales, método y actas para completar el contraste.
 
-El expediente histórico conservado en COMPÁS-NG Renovado (`public/seeds/compas-ng-workspace-loja.json`, transcripción de `problemas priorizados y propuesta plan de accion.odt`) menciona **40 participantes y 26 problemas/factores de riesgo ordenados con puntuación**. Primeros puestos: sedentarismo; alimentación no saludable; insuficiente formación en hábitos saludables; uso de tecnologías; ocio juvenil insuficiente; barreras arquitectónicas.
-
-Existe un borrador histórico `Plan Acción Loja.odt` que agrupaba actuaciones en *Vida Activa y Saludable* y *Medio Ambiente físico y social*. **No supone una ratificación formal de líneas vigentes**. Verificar ODT originales, procedimiento de cálculo, composición de participantes y actas; no presentar el listado transcrito como priorización aprobada para 2026.
-
-La [dinámica de revisión](dinamica-priorizacion.html) reproduce los 26 temas en un ejercicio de contraste cualitativo. Los participantes anotan aspectos que siguen vigentes, requieren reformulación o precisan más datos, **sin generar nuevas votaciones ni ranking automático**.
+La [dinámica de priorización](dinamica-priorizacion.html) contiene la lista histórica de 26 asuntos y opciones de revisión y consulta. **No recoge votos ni genera acuerdos.** COMPÁS-NG se utiliza como herramienta de contexto externo, no se modifica ni se despliega desde el Aula.
 
 ## 2. Agenda de trabajo de la segunda sesión (120 minutos orientativos)
 
-**Esta es una reunión de priorización y preparación de decisiones, NO una sesión de mapeo.** Las dos rutas del bloque 06 son **alternativas**, nunca se suman; ninguna obliga a aprobar líneas estratégicas si faltan consulta o evidencias. Los tiempos están sujetos a confirmación de la organización.
+**Dos tramos: priorización y grandes líneas (80 min), seguido de planificación del mapeo por esas líneas (30 min), y cierre (10 min).** No adelantar el mapeo a la elección de prioridades; no confundir planificación con ejecución.
 
 | Código | Tiempo | Bloque de trabajo | Producto |
 | --- | ---: | --- | --- |
-| `apertura` | 10 min | **01 · Apertura y objetivo.** Recuperar acuerdos previos y delimitar qué podemos decidir hoy | Acuerdo sobre objetivos de la reunión |
-| `antecedentes` | 20 min | **02 · Prioridades de 2022.** Presentar los 26 problemas, método y grado de ratificación documentado | Hechos confirmados y documentación a verificar |
-| `contraste` | 20 min | **03 · Contraste comunitario.** Evidencias actuales, territorios, desigualdades y problemas nuevos o reformulados | Necesidades de información y voces a incorporar |
-| `demostracion` | 15 min | **04 · Herramientas disponibles.** COMPÁS-NG y posibilidades de encuesta en REDCap, sin activarla | Capacidades y limitaciones comprendidas |
-| `metodo` | 20 min | **05 · Decisión metodológica.** Revisión deliberativa, consulta, mixta o aplazamiento motivado | Procedimiento consensuado o desacuerdo documentado |
-| `ruta-condicionada` | 25 min | **06 · Trabajo condicionado al acuerdo.** Ruta A **sin nueva consulta**: si la evidencia es suficiente, deliberar y seleccionar líneas con fundamento; si no, encargar contraste pendiente. Ruta B **con consulta o decisión aplazada**: preparar temas, población, responsables y calendario; **NO seleccionar aún líneas estratégicas** | Líneas con trazabilidad **o**, si hay consulta/insuficiencia documental, diseño/encargos y fecha de decisión |
-| `cierre` | 10 min | **07 · Acta y continuidad.** Responsables, plazos y siguiente encuentro | Acta y tareas asignadas |
+| `apertura` | 10 min | **01 · Apertura y objetivos.** Qué se trabajó en el primer encuentro y qué necesitamos acordar ahora | Objetivos compartidos |
+| `antecedentes` | 20 min | **02 · Priorización de 2022.** Revisar 26 problemas, método, representación y vigencia | Problemas y evidencias a verificar |
+| `contraste` | 20 min | **03 · Contraste y actualización.** Necesidades actuales, desigualdades territoriales, colectivos y problemas nuevos | Materias pertinentes para la priorización |
+| `consulta` | 15 min | **04 · ¿Nueva consulta?** Mostrar COMPÁS-NG/REDCap y decidir si hay que consultar antes de cerrar prioridades | Acuerdo metodológico y encargos |
+| `lineas` | 15 min | **05 · Grandes líneas estratégicas.** Elegirlas con fundamento si la información basta; si hay consulta, dejar hipótesis claramente pendientes | Líneas seleccionadas, o propuestas condicionadas |
+| `plan-mapeo` | 30 min | **06 · Planificar el mapeo POR LÍNEA.** Qué activos buscar, en qué territorio, con quién, mediante qué técnicas, equipo responsable y calendario | Matriz de mapeo por línea, acordada o provisional según situación de priorización |
+| `cierre` | 10 min | **07 · Acuerdos y calendario.** Recoger acta, responsabilidades, pendientes y siguientes pasos | Compromisos y próxima reunión |
 
-**Total: 120 minutos (10 + 20 + 20 + 15 + 20 + 25 + 10).** Ningún bloque se dedica a repartir registros de activos, validar fichas o diseñar paseos de mapeo.
+**Total: 120 minutos (10 + 20 + 20 + 15 + 15 + 30 + 10).** La agenda web `sesion-2.html` debe tener exactamente los mismos siete códigos, en ese orden y con esas duraciones.
 
-### Dos decisiones que no deben confundirse
+### Cómo facilitar los 30 minutos del bloque 06
 
-- **Decisión metodológica:** cómo obtener prioridades válidas y actuales; puede resolverse hoy.
-- **Selección de líneas estratégicas:** solo cuando las prioridades estén contrastadas y exista deliberación suficiente. Si se decide realizar encuesta temática, **esperar resultados y devolución antes de seleccionar líneas**.
+1. **5 min — Recuperar cada gran línea** elegida, o marcarla expresamente como hipótesis pendiente si se hará encuesta.
+2. **10 min — Qué interesa mapear y dónde:** capacidades, redes, iniciativas, asociaciones, apoyos y espacios útiles para esa línea; colectivos y zonas con barreras de acceso.
+3. **10 min — Con quién y cómo:** participantes de la comunidad, entidades y servicios; técnicas apropiadas (paseos, mapas de percepción, talleres, entrevistas, grupos de conversación, revisión documental), adaptadas al tema.
+4. **5 min — Encargos y precauciones:** equipo coordinador, primer paso, fechas, accesibilidad, privacidad y modo de contraste y validación comunitaria.
 
-La elaboración detallada del Plan de Acción y el mapeo dirigido son pasos ulteriores, no resultados obligatorios de esta sesión.
+**Producto:** una [matriz de planificación del mapeo](matriz-planificacion-mapeo.html) por cada línea o hipótesis. La página permite agregar fichas e imprimirlas, pero **no guarda ni envía datos**. La versión definitiva requiere el acta del Grupo Motor.
 
-### Guion de facilitación
+### Ejemplos solamente ilustrativos (NO son prioridades elegidas en Loja)
 
-**Apertura:** «Loja no empieza de cero: se priorizaron problemas en 2022. Necesitamos saber qué sigue siendo relevante, si faltan voces o problemas y cómo vamos a decidir las líneas del primer Plan».
+| Línea hipotética | Qué podría mapearse | Con quién | Técnicas posibles |
+| --- | --- | --- | --- |
+| **Envejecimiento saludable** | Redes de apoyo, espacios accesibles, actividad física y participación | Personas mayores, asociaciones, centros de participación, atención primaria y servicios sociales | Grupos de conversación, recorridos accesibles y mapas comunitarios |
+| **Uso saludable de pantallas y dispositivos** | Alternativas de ocio, redes educativas, lugares de socialización y apoyo digital | Jóvenes, familias, escuelas, bibliotecas y asociaciones | Talleres juveniles, entrevistas y cartografía participativa |
+| **Violencia de género** | Redes seguras de apoyo, prevención y recursos especializados | Servicios de igualdad, asociaciones pertinentes y equipos profesionales expertos | Contraste con servicios especializados y revisión segura; nunca mapas públicos de personas, refugios ni direcciones confidenciales |
+| **Desigualdades de salud en un barrio ERACIS** | Barreras de acceso, redes vecinales, espacios comunitarios y oportunidades de salud | Vecindario, asociaciones, equipos ERACIS, servicios sociales, educativos y sanitarios | Paseos acordados, entrevistas y mapeos participativos accesibles, definiendo el barrio solo tras confirmarlo |
 
-**Contraste de muestra:** dedicar la demostración a tres o cuatro asuntos de distinta naturaleza (sedentarismo, ocio juvenil, barreras arquitectónicas, bienestar emocional), sin intentar votar los 26 durante la sesión. Exigir para cada uno fuente actual, población afectada, desigualdad/barrios/anejos y necesidad de consulta.
+La técnica no viene determinada automáticamente por una etiqueta: se selecciona tras considerar accesibilidad, seguridad, finalidad, posibilidades del territorio y participación informada de las personas implicadas.
 
-**Decisión metodológica:** revisión deliberativa con sectores y colectivos, nueva consulta, opción mixta o recuperación documental previa. Registrar motivación y grado de consenso; si no hay acuerdo, consignarlo expresamente.
+## 3. Demostración de la posible nueva priorización con COMPÁS-NG y REDCap
 
-**Selección de líneas:** convertir problemas relacionados en propuestas temáticas solo después de deliberar, de forma que cada línea quede vinculada a una o más prioridades concretas, la población y territorio afectados, las fuentes y el acuerdo registrado. EPVSA 2024–2030 y ESCA 2026–2030 orientan la coherencia, pero no imponen prioridades locales. Los objetivos e indicadores del Plan de Acción se desarrollarán después.
+COMPÁS-NG Renovado (repositorio distinto) ofrece diez temáticas con selección de hasta cinco y un diccionario `papeleta_pri_tematica` para importar a REDCap mediante su Gestor de Encuestas. **COMPÁS no publica por sí mismo la encuesta ni recoge votos.**
 
-## 3. Demostración breve de COMPÁS-NG como herramienta externa
+Antes de ofrecerla a Loja, comprobar adaptación de categorías a barreras arquitectónicas, ocio juvenil, empleo, desigualdad, entornos rurales, etc.; especificar destinatarios, accesibilidad, canales, permisos, seguridad, calendario y devolución. Un recuento por autoselección no garantiza representatividad.
 
-COMPÁS-NG Renovado (repositorio independiente del Aula) dispone de una herramienta de priorización temática con **diez categorías y selección de hasta cinco** y un **Gestor de Encuestas** que genera el diccionario de un formulario `papeleta_pri_tematica` para REDCap.
+Si la nueva consulta es necesaria, el resultado del bloque 05 será **un escenario de líneas provisional**, no una decisión definitiva. En el bloque 06 se pueden contrastar posibles equipos y técnicas, pero deben someterse a revisión tras la priorización antes de ejecutarlos.
 
-**Límites:** COMPÁS-NG **no publica una encuesta ni recoge votos directamente**. La recogida requeriría configurar y probar una encuesta en una instancia institucional de REDCap, con permisos, condiciones de tratamiento de datos, canales accesibles y devolución a la comunidad; posteriormente se podría importar CSV. Revisar las categorías antes de utilizar la papeleta en Loja: las de 2022 incluyen barreras arquitectónicas, ocio juvenil, empleo, desigualdad y diferencias rurales que la versión de diez temas no distingue claramente. No prometer compatibilidad técnica del CSV si se modifica el cuestionario.
+## 4. Después de la reunión: ejecutar mapeos condicionados a líneas
 
-La encuesta de *actores y sectores* de la primera reunión es distinta y no debe confundirse ni reutilizarse automáticamente.
+**Diferencia esencial:** diseñar el mapeo con el Grupo Motor durante esta sesión no equivale a realizar el trabajo de campo ni a dar por válidos los recursos encontrados.
 
-## 4. Después de seleccionar líneas: mapeo de activos orientado a prioridades
+La ejecución se desarrollará, según las líneas acordadas, mediante:
+1. Comprobar qué partes del inventario histórico guardan relación pertinente con cada línea. Un recurso puede ayudar a varias.
+2. Revisar individualmente ese subconjunto, su vigencia, aportación real, acceso y condición de activo contrastado.
+3. Completar vacíos mediante la técnica y los equipos acordados para cada línea y territorio.
+4. Separar **recurso identificado**, **activo reconocido/contrastado** y **validación o publicación en Localiza Salud**, que requiere perfiles autorizados.
+5. Registrar fecha, evidencia, estado, responsabilidades y revisión periódica.
 
-La fase posterior (no incluida en el orden del día de esta sesión) se diseñará **línea por línea**:
+Los datos **162 recursos / 5 validados / 157 pendientes** proceden del inventario histórico migrado a COMPÁS; **no describen el estado actual de Localiza Salud**. Se verificará la situación real cuando se prepare la ejecución, sin asumir que el mapeo del Plan deba abarcar el catálogo completo.
 
-1. **Partir de la línea seleccionada y su población/territorio**: formular qué capacidades, lugares, grupos y oportunidades pueden contribuir a abordar las prioridades vinculadas.
-2. **Filtrar inventario existente por relación demostrable con la línea**. Revisar registro a registro **solo ese subconjunto**, conservando identificador, vigencia, acceso, reconocimiento comunitario y situación actual en Localiza Salud. Un recurso puede servir a varias líneas.
-3. **Detectar vacíos** (poblaciones, barrios o anejos sin acceso) y organizar en ellos procesos participativos: recorridos, mapas escolares o juveniles si la línea lo demanda, grupos vecinales o entidades.
-4. **Contrastar y validar**, distinguiendo identificación de un recurso, reconocimiento como activo, y alta/validación administrativa oficial por perfiles autorizados.
-5. **Dejar fuera del mapa específico del Plan** los recursos sin relación suficiente con ninguna línea. Eso no determina su baja automática de un inventario general ni del portal ministerial.
-
-La cifra **162 registros / 5 validados / 157 pendientes** es una fotografía histórica migrada a COMPÁS, **no el estado vigente de Localiza Salud**, que habrá que obtener con permisos y fecha de corte cuando comience esta fase.
-
-### Herramientas reservadas para la etapa de mapeo
-
-- [Ficha individual de revisión](ficha-revision-activos.html): se cumplimenta después de asociar cada recurso a una línea seleccionada; solo permite imprimir, no guardar ni enviar.
-- [Plantilla CSV vacía](plantilla_revision_recursos_loja.csv): facilitar revisión por equipos, con columnas de línea seleccionada, pertinencia y estado de comprobación.
-- [Guía para contrastar activos](GUIA_REVISION_INDIVIDUAL_ACTIVOS.md): trabajo únicamente sobre subconjunto pertinente a las líneas.
-
-No programar desde la sesión de priorización una auditoría del 100 % del inventario histórico. Si una entidad desea mantener actualizado el catálogo general, deberá organizarlo como tarea administrativa aparte.
+Herramientas de esta **ejecución posterior**:
+- [Guía visual de mapeo](guia-mapeo.html), no enlazar al Markdown plano como lectura docente.
+- [Ficha individual por línea](ficha-revision-activos.html).
+- [Plantilla CSV vacía](plantilla_revision_recursos_loja.csv) y su diccionario `GUIA_REVISION_INDIVIDUAL_ACTIVOS.md` conservado como fuente editable.
 
 ## 5. Acta mínima de la segunda sesión
 
-| Cuestión | Acuerdo a recoger | Estado |
+| Asunto | Acuerdo, responsable y plazo | Condición |
 | --- | --- | --- |
-| Priorización histórica | Qué se verifica, quién aporta originales/actas y en qué plazo | Pendiente |
-| Necesidad de actualización | Revisión deliberativa / consulta / mixta / pendiente, con justificación | Pendiente |
-| Si hay consulta | Responsable metodológico y REDCap, destinatarios, calendario, accesibilidad y devolución | Condicionado a decisión |
-| Líneas estratégicas | Seleccionadas con trazabilidad **o** fecha/procedimiento para decidirlas tras consulta | Pendiente |
-| Fase posterior de mapeo | Se inicia **tras** selección de líneas y se circunscribe a activos relacionados | Posterior |
-| Próxima reunión | Fecha, participantes y documentos necesarios | Pendiente |
+| Prioridades 2022 | Fuentes, cambios y actas pendientes | Confirmar vigencia |
+| Procedimiento de priorización | Ratificación deliberativa o preparación de consulta | Si se consulta, devolver resultados |
+| Grandes líneas estratégicas | Líneas aprobadas con fundamento, o hipótesis pendientes | **No presentar hipótesis como acuerdos** |
+| **Qué activos mapear por línea** | Capacidades y oportunidades buscadas; barrios, anejos y grupos afectados | Adaptado a cada prioridad |
+| **Con quién y mediante qué técnicas** | Colectivos, instituciones, métodos de identificación y contraste | Seguridad, privacidad, participación y equidad |
+| Coordinación y fechas | Equipo facilitador, hitos y próxima reunión | Trabajo de campo solo después de confirmar líneas |
 
-Los datos reales de recursos, participantes y actas deben custodiarse por medios institucionales. Los formularios HTML del Aula no guardan respuestas y no sustituyen acuerdos municipales.
+La información real de participantes y recursos requiere custodia institucional. Los formularios HTML de apoyo no guardan respuestas y no sustituyen el acta del Grupo Motor.
 
 ## Fuentes de contexto
 
-- Primer taller preservado en [Taller de impulso](taller-impulso.html); itinerario de Loja en [portada del módulo](index.html).
-- Priorización 2022: expediente conservado de Loja en COMPÁS-NG Renovado, transcripciones de los ODT citados, **originales y actas pendientes de cotejo**.
-- COMPÁS-NG: prioridad temática y generador de diccionario REDCap como **referencia técnica externa**, sin modificaciones en ese repositorio.
-- EPVSA y ESCA: referencias para formular líneas coherentes con el marco autonómico tras la priorización.
+- [Primer taller de impulso](taller-impulso.html) (16 de octubre de 2026; programa histórico).
+- Priorización de 2022: expediente conservado en COMPÁS-NG Renovado, pendiente de cotejo de ODT y actas originales.
+- COMPÁS-NG y REDCap: herramientas externas de apoyo para decidir la posible nueva consulta; no se desarrolla COMPÁS en esta intervención.
+- EPVSA y ESCA: referentes de coherencia al formular las grandes líneas, sin imponer cuáles corresponderán a Loja.
