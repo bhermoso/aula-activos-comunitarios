@@ -139,7 +139,7 @@ test('La guía de mapeo es visual y distingue planificación en sesión 2 y ejec
  const g=read('guia-mapeo.html');
  for(const x of ['id="criterio"','id="metodo"','id="ficha"','id="ejemplo"',
  'id="garantias"','matriz-planificacion-mapeo.html','Seis pasos para construir un mapa útil',
- 'guía visual','líneas estratégicas']){
+ 'content-grid','líneas estratégicas']){
   assert.ok(g.toLowerCase().includes(x.toLowerCase()),'Falta '+x);
  }
  assert.ok(second.includes('href="guia-mapeo.html"'));
