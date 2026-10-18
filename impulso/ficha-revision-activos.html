@@ -22,8 +22,19 @@ ul{margin:8px 0 0;padding-left:22px}.actionbox{border:1px solid #a7c4b5;backgrou
 @media(max-width:660px){.grid{grid-template-columns:1fr}section{padding:14px}.wide{grid-column:auto}}
 @media print{@page{size:A4;margin:11mm}body{background:#fff;font-size:10pt}.top{background:white;color:#111;padding:0}.top a,.actions,.status{display:none}.top p{color:#111}.top h1{font-size:23pt}main{padding:10px 0}.notice{background:#f4f4f4}section{padding:10px 0;margin:0;border:none;break-inside:avoid}h2{font-size:16pt}label{font-size:9pt}input,select,textarea{border:1px solid #aaa;padding:4px 6px;min-height:26px;background:white}.grid{gap:7px}textarea{min-height:48px}.actionbox{padding:7px}.printlabel{display:block;font-size:9pt} }
 </style>
-</head>
+<link rel="stylesheet" href="../assets/loja-navegacion.css?v=20261018d"></head>
 <body>
+<nav class="loja-global-nav" aria-label="Navegación global de Loja">
+<a class="loja-nav-brand" href="../index.html" aria-label="Aula de Salud Comunitaria · inicio"><span class="loja-nav-mark" aria-hidden="true">A</span><span class="loja-nav-label">AULA · SALUD COMUNITARIA</span></a>
+<div class="loja-nav-links">
+<a href="../index.html">⌂ Aula</a>
+<a href="index.html">Inicio Loja</a>
+<a href="taller-impulso.html">Taller de impulso</a>
+<a href="sesion-2.html">Priorización</a>
+<a href="guia-mapeo.html" aria-current="page">Guía de activos</a>
+<button type="button" class="loja-nav-back" data-loja-volver data-fallback="guia-mapeo.html">← Volver</button>
+</div></nav>
+
 <header class="top">
 <a href="sesion-2.html">← Segunda sesión del Grupo Motor de Loja</a>
 <h1>Ficha de revisión de activos por línea estratégica</h1>
@@ -81,7 +92,7 @@ ul{margin:8px 0 0;padding-left:22px}.actionbox{border:1px solid #a7c4b5;backgrou
 <button type="button" id="imprimir" class="button">Imprimir ficha cumplimentada</button>
 <button type="reset" form="revision" class="button ghost">Limpiar ficha</button>
 <a href="plantilla_revision_recursos_loja.csv" download class="button ghost">Descargar plantilla CSV vacía</a>
-<a href="GUIA_REVISION_INDIVIDUAL_ACTIVOS.md" class="button ghost">Consultar guía metodológica</a>
+<a href="guia-mapeo.html" class="button ghost">Consultar guía metodológica</a>
 </div>
 </main>
 <script>
@@ -98,5 +109,5 @@ select.addEventListener("change",()=>{document.getElementById("sugerencia").text
 document.getElementById("imprimir").addEventListener("click",()=>window.print());
 document.getElementById("revision").addEventListener("reset",()=>{document.getElementById("sugerencia").textContent=sugerencias["sin-revisar"];});
 </script>
-</body>
+<script src="../assets/loja-navegacion.js?v=20261018d" defer></script></body>
 </html>
