@@ -28,7 +28,7 @@ test('Sesión 2: dos decisiones principales y sin Plan de Acción prematuro',()=
  assert.ok(session.includes('href="SESION_2_MAPEO_Y_PRIORIZACION.md"'));
 });
 test('Documentación: no confundir inventario histórico, decisiones y herramientas',()=>{
- for(const phrase of ['162 recursos','157 pendientes','No equivale','40 participantes','26 problemas','COMPÁS-NG','no ejecuta','no se presenta como acuerdo vigente'].slice(0,5)) {
+ for(const phrase of ['162 recursos','157 pendientes','No afirmar','40 participantes','26 problemas','COMPÁS-NG','no ejecuta','no se presenta como acuerdo vigente'].slice(0,5)) {
   assert.ok(guide.toLowerCase().includes(phrase.toLowerCase()),'No consta: '+phrase);
  }
  assert.match(guide,/fuera de alcance|vendrá después|fase posterior|materia de una sesión posterior|paso posterior/i);
