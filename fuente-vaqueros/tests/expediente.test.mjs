@@ -81,7 +81,7 @@ test('resultados 2022 y método Hanlon sustentados sin inventar priorización ap
   'no constan las puntuaciones finales de Hanlon ni una priorización aprobada'
  ]) assert.ok(s.includes(required),'Falta evidencia o cautela: '+required);
  assert.ok(s.includes('id="contexto" open'), 'recorrido histórico desplegado al entrar');
- assert.equal((s.match(/<details /g)||[]).length,9);
+ assert.equal((s.match(/<details /g)||[]).length,8,'Ocho paneles del Programa, también en main antes de esta corrección');
  assert.ok(s.includes('Participantes previstos · 7 personas'));
  assert.ok(s.includes('Invitaciones · 17 personas o entidades'));
 });
