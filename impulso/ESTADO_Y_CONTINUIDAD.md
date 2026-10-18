@@ -41,3 +41,14 @@
 
 ## Revisión de la ficha del 16/10/2026
 Se amplió el formulario para no excluir actores por taxonomías cerradas: sectores (26 opciones), tipos de actor (13), ámbitos territoriales (7), texto libre contextual, opciones «Otro» y posibilidad de expresar interés personal en participar sin facilitar contactos. El aviso flotante relativo al almacenamiento exclusivo en navegador fue retirado. La ficha y las reglas deben desplegarse juntas; publicar reglas antiguas bloquearía el nuevo esquema. El cierre funcional de la recepción sigue sujeto a una prueba real desde una sesión externa.
+
+
+## 18/10/2026 · Preparación de la próxima sesión del Grupo Motor
+
+**Nuevo borrador solo en rama:** `PROPUESTA_GRUPO_MOTOR_MAPEO_PRIORIZACION_PLAN_2026.md`. El usuario concreta que la reunión siguiente debe: (1) planificar mapeo y revisar **uno por uno** los recursos heredados aún no validados; conciliar previamente con Localiza Salud, (2) recuperar y revisar la priorización histórica de Loja y (3) mostrar priorización temática y Gestor de Encuestas de COMPÁS-NG Renovado; decidir si una nueva consulta vía REDCap es útil, (4) fijar momento de definición de líneas y preparar borrador de plan local conforme EPVSA y ESCA.
+
+**Hallazgo documental:** `bhermoso/compas-ng-renovado`, `master` (`28e36f631a914f17b95d4ca693b0ccd7c3c6fdd4`) conserva en `public/seeds/compas-ng-workspace-loja.json` la transcripción de `problemas priorizados y propuesta plan de accion.odt` con **40 participantes y 26 problemas ordenados/puntuados en 2022** y el borrador `Plan Acción Loja.odt` con dos ejes, Vida Activa y Saludable / Medio Ambiente físico y social. **No consta verificada la aprobación institucional definitiva**. La foto 162/5/157 es del inventario migrado en COMPÁS; estado actual y permisos de Localiza Salud por verificar.
+
+**COMPÁS verificado en código:** 10 temas, límite de cinco marcas, exportación de diccionario REDCap `papeleta_pri_tematica`, importación posterior de CSV; **no captura pública de votos**. La encuesta de actores de la PR #20 es otro instrumento y no está operativa. El catálogo de temas requiere revisar cobertura local (barreras, ocio, desigualdades, trabajo, ruralidad) antes de lanzar consulta; adaptación técnica podría exigir cambios coordinados en diccionario y parser.
+
+**Pendiente:** cotejar ODT originales y actas 2022; inventario bruto y listados actuales de Localiza Salud; responsable acreditado para validación; definición de poblaciones y procesos participativos; fecha y duración efectiva de la reunión; decisión y acta del Grupo Motor. **No fusionar ni publicar el borrador sin autorización expresa.**
