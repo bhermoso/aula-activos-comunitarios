@@ -6,9 +6,9 @@ const html=readFileSync(new URL('../index.html',import.meta.url),'utf8');
 const program=html.split('<section class="section active" id="programa">')[1]?.split('</section>')[0] ?? '';
 const cover=html.split('<div class="portada-cursos">')[1]?.split('<div class="portada-pie">')[0] ?? '';
 
-test('bloque 03 anuncia el informe sobre la situación de salud de Fuente Vaqueros',()=>{
-  assert.ok(program.includes('<span class="num">03</span><h3>Informe sobre la situación de salud de Fuente Vaqueros</h3>'));
-  assert.ok(program.includes('Carlos del Moral Campaña</strong> · presentación del informe sobre la situación de salud del municipio'));
+test('bloque 03 anuncia el análisis de la situación de salud a cargo de Carlos del Moral',()=>{
+  assert.ok(program.includes('<span class="num">03</span><h3>Análisis de la situación de salud</h3>'));
+  assert.ok(program.includes('Carlos del Moral Campaña</strong> · Distrito Sanitario.'));
   assert.ok(!program.includes('<span class="num">03</span><h3>Indicadores de enfermedad</h3>'));
   assert.ok(cover.includes('<span>Informe de situación de salud</span>'));
   const block03=program.split('<span class="num">03</span>')[1]?.split('<span class="num">04</span>')[0] ?? '';
