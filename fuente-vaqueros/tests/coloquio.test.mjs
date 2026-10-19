@@ -10,24 +10,22 @@ function section(id){
   return html.slice(start,html.indexOf('</section>',start)+10);
 }
 
-test('la mesa conecta los indicadores epidemiológicos con cuatro miradas humanas diferenciadas',()=>{
+test('la mesa conecta los indicadores epidemiológicos con tres perspectivas humanas diferenciadas',()=>{
   const s=section('moderacion');
   for(const t of [
     'Mesa-coloquio · guion por ámbitos',
     'Carlos del Moral Campaña',
-    'Entrada de Rubén, moderador',
+    'Entrada de Rubén García Martín, moderador',
     'Alicia Bellido González',
     'María Martín Calvo',
     'Francisco J. Pigne Marín',
-    'Margarita Rut Goena Martínez',
     'Atención primaria',
     'Familias y escuela',
     'Salud en el ámbito educativo',
-    'Bienestar emocional y salud mental'
+    'El bienestar emocional sigue formando parte de los problemas de salud'
   ]) assert.ok(s.includes(t),'Falta perspectiva: '+t);
   assert.ok(s.indexOf('Alicia Bellido González')<s.indexOf('María Martín Calvo'));
   assert.ok(s.indexOf('María Martín Calvo')<s.indexOf('Francisco J. Pigne Marín'));
-  assert.ok(s.indexOf('Francisco J. Pigne Marín')<s.indexOf('Margarita Rut Goena Martínez'));
 });
 
 test('preguntas abiertas por ámbito, no examen técnico ni presunción de patologías',()=>{
@@ -37,12 +35,11 @@ test('preguntas abiertas por ámbito, no examen técnico ni presunción de patol
     '¿Qué ha cambiado en las personas que atendéis y en sus necesidades?',
     '¿cómo veis el bienestar de los niños, las niñas y los adolescentes?',
     '¿qué necesidades de salud detectas entre el alumnado?',
-    '¿cómo percibes el bienestar emocional de la población?',
     'barreras de acceso',
     'utilización frecuente de consultas',
     'problemas de salud emergentes',
     'No se presupone que todas esas situaciones se estén produciendo',
-    'sin solicitar información personal o clínica',
+    'Evitar casos individuales identificables',
     'no equivalen a prioridades formalmente acordadas'
   ]) assert.ok(s.toLowerCase().includes(t.toLowerCase()),'Falta: '+t);
   for(const old of [
@@ -58,12 +55,12 @@ test('el programa distingue la presentación de Carlos, mesa y conclusiones de B
   const mesa=s.indexOf('04</span><h3>Mesa-coloquio intersectorial');
   const conclusiones=s.indexOf('05</span><h3>Conclusiones y propuestas de continuidad');
   assert.ok(epi>=0&&mesa>epi&&conclusiones>mesa,'Secuencia del programa alterada');
-  for(const name of ['Alicia Bellido González','María Martín Calvo','Francisco J. Pigne Marín','Margarita Rut Goena Martínez']){
+  for(const name of ['Alicia Bellido González','María Martín Calvo','Francisco J. Pigne Marín']){
     const block=s.slice(mesa,conclusiones);
     assert.ok(block.includes(name),'Falta nombre en el bloque 04: '+name);
   }
   assert.ok(s.includes('Composición de la mesa pendiente de confirmación'));
-  assert.ok(s.includes('Moderación a cargo de Rubén (área de Cultura del Ayuntamiento de Fuente Vaqueros; apellidos pendientes)'));
+  assert.ok(s.includes('Moderación a cargo de Rubén García Martín, técnico de Cultura del Ayuntamiento de Fuente Vaqueros'));
   assert.ok(s.includes('Blas Hermoso Rico'));
   assert.ok(s.includes('Cultura del Ayuntamiento'));
   assert.ok(!s.includes('Raúl'));
@@ -84,7 +81,22 @@ test('se conservan los cinco apartados, mapeo y navegación',()=>{
 
 test('pregunta central visible y apoyos opcionales desplegables',()=>{
  const s=section('moderacion');
- assert.equal((s.match(/<details class="fv-detalle">/g)||[]).length,4);
+ assert.equal((s.match(/<details class="fv-detalle">/g)||[]).length,3);
  assert.ok(s.includes('Claves para profundizar'));
  assert.ok(s.includes('trabajo en el ámbito educativo'));
+});
+
+
+test('la baja de Salud Mental elimina la cuarta ponencia y mantiene tres preguntas de mesa',()=>{
+ const prog=section('programa');
+ const people=section('participantes');
+ const moderation=section('moderacion');
+ for(const text of [prog,people,moderation]) assert.ok(!text.includes('Margarita Rut Goena Martínez'));
+ assert.ok(prog.includes('Miradas complementarias:</strong> atención primaria, familias y salud escolar'));
+ assert.ok(people.includes('Rubén García Martín'));
+ assert.ok(html.includes('Participantes previstos · 6 personas'));
+ assert.ok(html.includes('Invitaciones · 17 personas o entidades'));
+ assert.ok(moderation.includes('tres perspectivas sobre la salud cotidiana'));
+ assert.equal((moderation.match(/<details class="fv-detalle">/g)||[]).length,3);
+ assert.ok(!moderation.includes('¿cómo percibes el bienestar emocional de la población?'));
 });

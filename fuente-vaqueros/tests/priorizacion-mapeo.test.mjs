@@ -9,7 +9,7 @@ const read=p=>readFileSync(path.join(root,p),'utf8');
 const first=read('index.html'),next=read('sesion-priorizacion-mapeo.html'),guide=read('SESION_PRIORIZACION_Y_MAPEO.md');
 
 test('El taller de impulso conserva 7 bloques, fecha, moderador, y no suplanta la segunda sesión',()=>{
- for(const x of ['22 de octubre de 2026','Rubén','Cultura del Ayuntamiento',
+ for(const x of ['22 de octubre de 2026','Rubén García Martín','técnico de Cultura del Ayuntamiento',
  'Carlos del Moral Campaña','Apertura institucional','Trayectoria del Plan Local',
  'Mesa-coloquio intersectorial','Conclusiones y propuestas de continuidad',
  'Trabajo participativo','Puesta en común y cierre'])

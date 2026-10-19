@@ -16,9 +16,9 @@ Se incorporó a **`main` (publicado)** la información local documentada que fal
 ## Qué se ha cambiado
 - Bloque «Punto de partida»: cronología real 2021–2022 con límites documentales, y preguntas por verificar con municipio.
 - Programa: siete bloques por **contenido institucional**; se recupera la trayectoria local y se plantea revisión del proceso, no un taller inicial ex novo.
-- Personas: los **siete participantes previstos y 17 personas/entidades invitadas** aparecen tanto en el programa como en la sección de participantes, indicando su estatus.
+- Personas: **seis participantes previstos** y 17 personas/entidades invitadas aparecen tanto en el programa como en la sección de participantes, indicando su estatus. La propuesta inicial contenía una séptima intervención desde trabajo social de Salud Mental, cancelada por indicación posterior de la organización.
 - Carlos del Moral se identifica como **Carlos del Moral Campaña** porque el segundo apellido consta en el programa de 2021.
-- **Rectificación comunicada el 18/10/2026:** modera **Rubén**, vinculado al **área de Cultura del Ayuntamiento de Fuente Vaqueros**. Sus apellidos y cargo específico están pendientes de confirmar. El documento preparatorio original ya citaba «Rubén»; queda anulada la atribución a otro nombre introducida el 17/10/2026. La composición de la mesa continúa por confirmar.
+- **Rectificación de 18/10 y ampliación confirmada el 19/10/2026:** el moderador es **Rubén García Martín, técnico de Cultura del Ayuntamiento de Fuente Vaqueros**, según información directa del usuario. El documento preparatorio original ya citaba «Rubén»; queda anulada la atribución a otro nombre introducida el 17/10/2026. La composición de la mesa continúa por confirmar.
 - **Actualización organizativa confirmada por el usuario el 17/10/2026:** Carlos del Moral Campaña **está confirmado** para presentar el «Informe sobre la situación de salud de Fuente Vaqueros». No extender la indicación de «pendiente de confirmación» a Carlos. Los estados del resto de intervenciones se anotarán únicamente cuando estén documentados o comunicados por la organización.
 - No se publican teléfonos de contacto, firmas escaneadas ni las respuestas individuales de los cuestionarios.
 
@@ -40,25 +40,25 @@ La propuesta de contenidos afecta a portada, «Punto de partida», programa, pre
 
 **Finalidad:** recoger la visión de la salud y el bienestar de Fuente Vaqueros desde la experiencia de cada persona o entidad invitada, sin someterla a preguntas técnicas sobre RELAS ni presuponer que conoce la priorización de 2022.
 
-**Secuencia de la conversación:** Carlos del Moral Campaña presentará el «Informe sobre la situación de salud de Fuente Vaqueros» (bloque 03; intervención confirmada por el usuario). No anticipar un contenido concreto del informe que no conste en su documentación. En el bloque 04, Rubén (área de Cultura del Ayuntamiento; apellidos pendientes) facilita perspectivas humanas y sectoriales diferenciadas, previstas en el guion y sujetas a validación organizativa: **Alicia Bellido González**, enfermera comunitaria, sobre atención primaria, necesidades que llegan a consulta, acceso y nuevas demandas; **María Martín Calvo**, AMPA del CEIP Soto de Roma, sobre bienestar desde las familias; **Francisco J. Pigne Marín**, enfermero escolar, sobre salud desde el sistema educativo y coordinación con familias/servicios; y **Margarita Rut Goena Martínez**, trabajadora social de Salud Mental de Santa Fe (participación efectiva pendiente de confirmación), sobre bienestar emocional, condiciones sociales, apoyo familiar y redes.
+**Secuencia de la conversación:** Carlos del Moral Campaña presentará el «Informe sobre la situación de salud de Fuente Vaqueros» (bloque 03; intervención confirmada por el usuario). No anticipar un contenido concreto del informe que no conste en su documentación. En el bloque 04, Rubén García Martín, técnico de Cultura del Ayuntamiento de Fuente Vaqueros, facilita perspectivas humanas y sectoriales diferenciadas, previstas en el guion y sujetas a validación organizativa: **Alicia Bellido González**, enfermera comunitaria, sobre atención primaria, necesidades que llegan a consulta, acceso y nuevas demandas; **María Martín Calvo**, AMPA del CEIP Soto de Roma, sobre bienestar desde las familias; **Francisco J. Pigne Marín**, enfermero escolar, sobre salud desde el sistema educativo y coordinación con familias/servicios. La intervención específica de trabajo social de Salud Mental prevista en el borrador anterior queda retirada del programa por confirmación de que no asistirá.
 
-**Forma de preguntar:** una pregunta amplia dirigida a la experiencia de cada participante y posibles repreguntas contextuales, sin solicitar un diagnóstico epidemiológico ni asumir que hay nuevos problemas o hiperfrecuentación. Distinguir perspectiva de usuarios, de familias, profesional escolar y social de salud mental; no exigir historias clínicas ni casos identificables. Evitar presentar estas observaciones como hechos poblacionales representativos o como prioridades ya aprobadas.
+**Forma de preguntar:** una pregunta amplia dirigida a la experiencia de cada participante y posibles repreguntas contextuales, sin solicitar un diagnóstico epidemiológico ni asumir que hay nuevos problemas o hiperfrecuentación. Distinguir perspectiva de atención primaria, familias y profesional escolar; no exigir historias clínicas ni casos identificables. Evitar presentar estas observaciones como hechos poblacionales representativos o como prioridades ya aprobadas.
 
 **Relación con el programa:** la historia de RELAS, la encuesta de 2022 y la eventual actualización de prioridades se presentan en los bloques técnicos. La intervención propuesta de Blas Hermoso recoge después como líneas de continuidad la revisión de la priorización y el mapeo participativo de activos. **Las intervenciones de la mesa no equivalen a una priorización formal ni a un acuerdo del grupo motor.**
 
-**Estado:** entrevista publicada mediante PR #23. Se mantienen los listados completos de participantes e invitados. **Rectificación del 18/10/2026:** modera Rubén, vinculado al área de Cultura del Ayuntamiento, con apellidos pendientes; la mesa, por separado, tiene su composición pendiente de confirmación.
+**Estado:** entrevista publicada mediante PR #23. Se mantienen los listados completos de participantes e invitados. **Confirmación del 19/10/2026:** modera **Rubén García Martín, técnico de Cultura del Ayuntamiento de Fuente Vaqueros**; la mesa, por separado, tiene su composición pendiente de confirmación.
 
 ## Reorganización de la navegación · 17/10/2026
 
 Por solicitud editorial, el antiguo apartado independiente **«Punto de partida»** se integra en el bloque **02 «Trayectoria del Plan Local de Salud y recuperación del proceso»**, dentro de la pestaña **Programa**. Se conserva el contenido histórico completo: antecedentes RELAS, cronología, cautelas documentales, cuestiones de verificación, propuestas para reimpulso y lista de fuentes. El bloque incorpora un panel desplegable que se muestra abierto inicialmente y puede cerrarse si se desea consultar el resto del programa.
 
-La navegación pasa de seis a cinco pestañas: Programa, Participantes, Moderación, Hoja de ruta y Mapa de activos. El acceso desde portada abre Programa y los antiguos enlaces con `#contexto` se redirigen a Programa. La moderación está asignada a Rubén (área de Cultura del Ayuntamiento; apellidos pendientes); no se modifica la composición de la mesa ni el resto de las intervenciones.
+La navegación pasa de seis a cinco pestañas: Programa, Participantes, Moderación, Hoja de ruta y Mapa de activos. El acceso desde portada abre Programa y los antiguos enlaces con `#contexto` se redirigen a Programa. La moderación está asignada a **Rubén García Martín, técnico de Cultura del Ayuntamiento de Fuente Vaqueros** (identidad completada el 19/10/2026); las demás intervenciones se mantienen según las confirmaciones existentes.
 
 **Estado de esta reorganización:** publicada mediante PR #26, fusión `03394ca` y despliegue Pages finalizado correctamente (acción #39006512504).
 
 ## Ajuste del enfoque de la mesa · 17/10/2026
 
-Se corrige la guía demasiado genérica de preguntas comunes: la finalidad no es que todas las personas respondan lo mismo, sino **contrastar datos epidemiológicos agregados con experiencias concretas de cuatro ámbitos de salud**. El Programa 04 identifica las miradas previstas y la sección Moderación recoge una pregunta abierta por ámbito, con apoyos no obligatorios. Las posibles dificultades de acceso, uso frecuente de consultas y patologías emergentes se **plantean como exploración**, nunca se afirman como hechos sin fuente. No cambiar de lugar la revisión de la priorización ni el mapeo de activos: continúan en las conclusiones propuestas de Blas.
+Se corrige la guía demasiado genérica de preguntas comunes: la finalidad no es que todas las personas respondan lo mismo, sino **contrastar datos epidemiológicos agregados con experiencias concretas de tres ámbitos representados en la mesa: atención primaria, familias y salud escolar**. El Programa 04 identifica las miradas previstas y la sección Moderación recoge una pregunta abierta por ámbito, con apoyos no obligatorios. Las posibles dificultades de acceso, uso frecuente de consultas y patologías emergentes se **plantean como exploración**, nunca se afirman como hechos sin fuente. No cambiar de lugar la revisión de la priorización ni el mapeo de activos: continúan en las conclusiones propuestas de Blas.
 
 **Estado de este ajuste:** PR específico en la rama `fuente-mesa-vision-profesional-familias-20261017`, sin fusionar ni publicar hasta autorización expresa.
 
@@ -78,7 +78,7 @@ Se corrige la guía demasiado genérica de preguntas comunes: la finalidad no es
 
 - Bloque **Programa 02 «Trayectoria»**: resumen visible (102 cuestionarios, identificación y Hanlon sin cierre acreditado), y detalle histórico abierto por defecto y plegable con 9 recuentos, método y fuentes.
 - Bloques **01, 03, 04, 05, 06 y 07**: máximo una frase descriptiva visible por sesión, con datos o matices ampliables mediante `<details>`.
-- Bloque **04**: las perspectivas de atención primaria, familias, enfermería escolar y trabajo social de salud mental se tratan como intervenciones previstas, no asistencia confirmada; el guion de moderación muestra una pregunta visible por persona y apoyos desplegables.
+- Bloque **04**: las perspectivas de atención primaria, familias y enfermería escolar se tratan como intervenciones previstas, no asistencia confirmada; el guion de moderación muestra una pregunta visible por persona y apoyos desplegables. La intervención anteriormente planteada desde trabajo social de Salud Mental se cancela; el bienestar emocional permanece como tema de salud pertinente, sin ponencia atribuida.
 - Bloque **05**: las conclusiones **propuestas** de Blas diferencian revisar si se completó o debe renovarse la priorización y desarrollar un mapeo participativo de activos orientado a las prioridades acordadas, sin inventar resultados ni asumir su aprobación.
 - Relación de participantes e invitaciones: conserva los nombres en Programa y en Participantes; en Programa se puede desplegar para no saturar la lectura.
 - Mantener la documentación original **fuera del repositorio público** por la posible presencia de firmas o respuestas individuales.
@@ -100,8 +100,22 @@ La ficha sigue guardando propuestas en `localStorage` del dispositivo; no envía
 2. Actas posteriores al 29/04/2022 y continuidad del grupo motor después del verano.
 3. Fecha real de la interrupción y causas contrastadas.
 4. Existencia y aprobación de priorización Hanlon o del I Plan Local de Salud.
-5. Comprobar la composición de la mesa, el estado de las demás intervenciones cuando existan fuentes, la participación de representantes institucionales, el lugar y el horario; completar los apellidos y el cargo específico de Rubén, del área de Cultura del Ayuntamiento. **Carlos del Moral Campaña está confirmado.**
+5. Comprobar la composición de la mesa, el estado de las demás intervenciones cuando existan fuentes, la participación de representantes institucionales; el lugar y horario del 22/10 ya han sido comunicados: **Ayuntamiento de Fuente Vaqueros, Sala de audiovisuales (1.ª planta), Plaza del Doctor Pareja, 1, de 10:30 a 12:00**. Mantener la identificación confirmada de **Rubén García Martín, técnico de Cultura del Ayuntamiento**, sin atribuirle un cargo político distinto. **Carlos del Moral Campaña está confirmado.**
 6. Revisión de los datos del informe histórico antes de una presentación de situación actual en 2026.
 
 ## Control de cambios
 El expediente y el programa ya están integrados en `main` mediante PR #22 y PR #23. Las futuras modificaciones deberán prepararse en rama y **no fusionarse ni desplegarse sin autorización expresa**. Mantener la fuente primaria en el archivo privado/institucional; no subir documentos firmados, teléfonos ni respuestas individuales a GitHub. No cambiar otros módulos del Aula. La intervención depende de validación con el municipio y el Distrito.
+
+## 19/10/2026 · Identificación completa de la persona moderadora
+
+**Dato facilitado directamente por la organización:** la moderación de la mesa-coloquio del taller de impulso del 22/10/2026 corresponde a **Rubén García Martín, técnico de Cultura del Ayuntamiento de Fuente Vaqueros**. Esta precisión **sustituye todas las menciones anteriores a «Rubén, apellidos pendientes»**. No implica confirmar la asistencia o intervención de otras personas cuya participación siga pendiente.
+
+
+## 19/10/2026 · Actualización de asistencia a la mesa-coloquio
+
+**La organización comunica que la trabajadora social de Salud Mental inicialmente prevista no asistirá** al encuentro del 22/10/2026. Se elimina de la lista operativa de participantes, del bloque 04 y del guion de moderación. La mesa queda planteada desde **tres perspectivas: atención primaria, familias/AMPA y salud escolar**. Participantes previstos: **6**, frente a los 7 del documento preparatorio anterior. No se modifica el número de invitaciones a personas y entidades (**17**), ni se interpreta la retirada como eliminación del bienestar emocional de los contenidos del análisis de salud.
+
+
+## 19/10/2026 · Sede y hora del taller confirmadas por la organización
+
+**Taller de impulso · 22 de octubre de 2026 · 10:30–12:00 (90 minutos).** **Ayuntamiento de Fuente Vaqueros, Sala de audiovisuales (1.ª planta), Plaza del Doctor Pareja, 1.** Información facilitada directamente por el usuario. Se actualiza la portada y el programa de siete bloques, además de ambas vistas de participantes y los datos generales. **No se inventan horas de inicio por bloque** dentro del horario total. La fecha del encuentro posterior de priorización y planificación de mapeos continúa **por acordar**; no trasladar automáticamente a él esta sede y hora.
