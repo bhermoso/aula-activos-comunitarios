@@ -1,5 +1,7 @@
 # Fuente Vaqueros · estado y continuidad
 
+> **SITUACIÓN DE LA MESA · 19/10/2026:** la trabajadora social de Salud Mental previamente prevista **no acudirá** al taller del 22/10. Retirada de la relación de participantes y de la moderación. Quedan **6 personas previstas**, **17 invitaciones** y **3 perspectivas** para la mesa-coloquio (atención primaria, familias/AMPA y salud escolar), moderada por Rubén García Martín, técnico de Cultura del Ayuntamiento de Fuente Vaqueros. La composición y la asistencia de las restantes personas no se dan por confirmadas.
+
 > **ACTUALIZACIÓN VIGENTE · 19/10/2026.** Moderación del taller del 22/10: **Rubén García Martín, técnico de Cultura del Ayuntamiento de Fuente Vaqueros** (identificación comunicada directamente por el usuario). Las menciones de «apellidos pendientes» de los antecedentes del 18/10 han quedado **superadas**. La composición de la mesa de participantes continúa sujeta a las confirmaciones ya indicadas.
 
 > **ESTADO VIGENTE · PUBLICADO 18/10/2026 · PR #37.** El taller de impulso **previsto para el 22/10/2026** se conserva en `index.html`. Una **sesión posterior** de Grupo Motor está preparada en `sesion-priorizacion-mapeo.html`: primero revisar/priorizar problemas y elegir grandes líneas si existe base; después, en esa misma sesión, **planificar los mapeos** (qué activos, dónde, con quién, técnicas y coordinación); ejecución y posibles altas administrativas después. Agenda orientativa de 120 minutos: **10 + 20 + 20 + 15 + 15 + 30 + 10**. Si se prepara encuesta, líneas y planes son provisionales.
@@ -49,3 +51,8 @@ Se propone la siguiente secuencia, paralela a Loja pero **sin transferir datos e
 ## 19/10/2026 · Moderación identificada íntegramente
 
 El usuario confirma: **Rubén García Martín, técnico de Cultura del Ayuntamiento de Fuente Vaqueros**. Se actualizan portada, programa, participantes, guion, expediente y pruebas sin cambiar el reparto de intervenciones ni los acuerdos metodológicos. Esta información deja sin efecto la indicación anterior de apellidos/cargo pendientes.
+
+
+## 19/10/2026 · Rectificación transversal por baja de participante
+
+La organización comunica que la trabajadora social de Salud Mental no vendrá. Se elimina su intervención prevista del programa, del listado duplicado de participantes, del guion de preguntas de Rubén García Martín y de las expectativas de cuatro perspectivas. **No se sustituye automáticamente por otra persona**. Quedan tres perspectivas propuestas y seis participantes previstos; las 17 invitaciones de entidades y personas se mantienen. El bienestar emocional continúa como aspecto histórico de salud, sin ponencia específica de la profesional ausente. Se comprueban tests, expediente, documentación de continuidad y la independencia de la posterior sesión de priorización/mapeo. Corrección incluida en PR #39, pendiente de autorización para su publicación.
