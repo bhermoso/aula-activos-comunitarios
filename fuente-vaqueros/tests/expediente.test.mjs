@@ -15,7 +15,7 @@ test('el expediente RELAS se integra en el bloque 02 del Programa',()=>{
 });
 test('programa completo por bloques y personas citadas como previstas/invitadas',()=>{
  const prog=section('programa');
- for(const t of ['Apertura institucional','Trayectoria del Plan Local','Informe sobre la situación de salud de Fuente Vaqueros','La visión de la salud local desde la Atención Primaria, las familias y la comunidad educativa','Conclusiones y propuestas de continuidad','Trabajo participativo','Puesta en común']){
+ for(const t of ['Apertura institucional','Trayectoria del Plan Local','Análisis de la situación de salud','La visión de la salud local desde la Atención Primaria, las familias y la comunidad educativa','Próximos pasos: perfil de salud local, priorización y mapeo de activos','Trabajo participativo','Puesta en común']){
   assert.ok(prog.includes(t),'Falta bloque: '+t);
  }
  for(const n of ['José Miguel Muñoz Ortega','Carlos del Moral Campaña','Alicia Bellido González','María Martín Calvo','Francisco J. Pigne Marín','Blas Hermoso Rico','Raquel Cal','Jenifer González','Inserta Andalucía','Asociación de Regantes']){
@@ -135,7 +135,16 @@ test('el programa conserva siete bloques sin imponer recuperar la priorización 
  const first=prog.indexOf('<span class="num">02</span>');
  const second=prog.indexOf('<span class="num">03</span>');
  const two=prog.slice(first,second);
- assert.ok(two.includes('<h3>Trayectoria del Plan Local de Salud</h3><p><strong>Blas Hermoso</strong> (Distrito Sanitario) · <strong>Carlos del Moral</strong> (Distrito Sanitario)</p><details class="fv-trayectoria" id="contexto">'));
+ assert.ok(two.includes('<h3>Trayectoria del Plan Local de Salud</h3><details class="fv-trayectoria" id="contexto">'));
+ assert.ok(!two.includes('Blas Hermoso')&&!two.includes('Carlos del Moral'),'La trayectoria no tiene los ponentes de los otros bloques');
+ const three=prog.slice(second,prog.indexOf('<span class="num">04</span>'));
+ assert.ok(three.includes('<h3>Análisis de la situación de salud</h3>'));
+ assert.ok(three.includes('Carlos del Moral Campaña</strong> · Distrito Sanitario'));
+ const blockFive=prog.slice(prog.indexOf('<span class="num">05</span>'),prog.indexOf('<span class="num">06</span>'));
+ assert.ok(blockFive.includes('Próximos pasos: perfil de salud local, priorización y mapeo de activos'));
+ assert.ok(blockFive.includes('Blas Hermoso Rico</strong> · Distrito Sanitario'));
+ assert.ok(!blockFive.includes('Carlos del Moral'));
+ assert.ok(!three.includes('Blas Hermoso'));
  assert.ok(!two.includes('RELAS desde 2021. En 2022 se recogieron'),'En 02 solo personas, sin explicación histórica visible');
  assert.ok(!two.includes('id="contexto" open'),'El histórico debe estar cerrado por defecto');
  const five=prog.slice(prog.indexOf('<span class="num">05</span>'),prog.indexOf('<span class="num">06</span>'));
