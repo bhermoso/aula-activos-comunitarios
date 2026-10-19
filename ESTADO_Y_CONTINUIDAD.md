@@ -1,5 +1,7 @@
 # Aula de Salud Comunitaria Basada en Activos — estado y continuidad
 
+> **FUENTE VAQUEROS · CONVOCATORIA CONFIRMADA 19/10/2026:** Taller del **22/10/2026, 10:30–12:00**, **Ayuntamiento de Fuente Vaqueros, Sala de audiovisuales (1.ª planta), Plaza del Doctor Pareja, 1**. La sede y el horario se mostrarán en portada, programa y ambas secciones de participantes de la PR #39. La siguiente sesión de priorización y planificación de mapeos mantiene fecha por acordar. No confundir ambos encuentros.
+
 > **CORRECCIÓN OPERATIVA · 19/10/2026 · Fuente Vaqueros:** La trabajadora social de Salud Mental inicialmente prevista **no asistirá**. Se retira de los listados de participantes y del guion de la mesa-coloquio; quedan **6 participantes previstos** y **3 perspectivas del coloquio** (atención primaria, familias/AMPA y salud escolar), coordinadas por **Rubén García Martín, técnico de Cultura del Ayuntamiento**. La materia de bienestar emocional permanece en el diagnóstico histórico, sin una intervención asignada. Publicación de esta actualización pendiente de autorización.
 
 > **ACTUALIZACIÓN FUENTE VAQUEROS · 19/10/2026:** **Rubén García Martín, técnico de Cultura del Ayuntamiento de Fuente Vaqueros**, es la persona designada para la moderación del taller del 22/10/2026, según indicación directa del usuario. Esta información completa y sustituye las referencias previas a «Rubén, apellidos pendientes»; no altera las personas invitadas ni su estado de confirmación.
@@ -85,7 +87,7 @@ La web `redcap/index.html` está publicada con unidades y materiales PDF, CSV y 
 - No reutilizar la colección o datos municipales para expedientes del alumnado.
 
 ## 7. Prioridades y próximo paso recomendado
-1. **Fuente Vaqueros antes del encuentro del 22/10/2026:** confirmar intervenciones, mesa, lugar y horario; corregir expediente histórico hasta donde exista fuente; comprobar Localiza Salud; preparar presentación breve de Blas centrada en priorización + mapeo; validar que el coloquio escucha experiencias y no exige método.
+1. **Fuente Vaqueros antes del encuentro del 22/10/2026:** confirmar intervenciones y composición definitiva de la mesa (lugar y horario del taller del 22/10 ya confirmados); corregir expediente histórico hasta donde exista fuente; comprobar Localiza Salud; preparar presentación breve de Blas centrada en priorización + mapeo; validar que el coloquio escucha experiencias y no exige método.
 2. **Loja:** completar REDCap y QR mediante el PR #20, sin dar por funcional el formulario actual; conservar por separado eventuales datos históricos y verificar si existen.
 3. **Auditoría del Aula en cinco módulos:** navegar todas las pantallas, comprobar enlaces, accesibilidad, móvil y materiales; priorizar errores antes de añadir funcionalidades.
 4. **Gestión de alumnado:** revisar proyecto Firebase real y PR #2, acordar el esquema legal/técnico y hacer pruebas controladas antes de fusionar o desplegar.
@@ -184,3 +186,8 @@ Fusionadas PR #36 y PR #37 con agendas de 120 minutos y planificación de mapeo 
 ## 19/10/2026 · Baja comunicada en la mesa de Fuente Vaqueros
 
 El usuario informa que la trabajadora social de Salud Mental inicialmente prevista **no asistirá** al taller del 22/10. Se actualizan el programa, las dos vistas de participantes, el guion de moderación, el expediente, recuentos, pruebas y continuidad; la mesa queda planteada con **3 perspectivas y 6 personas previstas**, sin variar las **17 invitaciones** ni la confirmación de Carlos del Moral Campaña. El bienestar emocional sigue como problema identificado en la consulta histórica y no se asigna ninguna pregunta a una cuarta persona ausente. La secuencia de priorización → elección de líneas → planificación de los mapeos no cambia. Los cambios permanecen en la PR #39 hasta publicación autorizada.
+
+
+### 19/10/2026 · Horario y lugar del taller de Fuente Vaqueros
+
+Confirmación directa del usuario para la cita del **22 de octubre de 2026**: **de 10:30 a 12:00**, **Ayuntamiento de Fuente Vaqueros — Sala de audiovisuales (1.ª planta), Plaza del Doctor Pareja, 1**. Aplicado a la portada, los siete bloques del programa (sin inventar tiempos individuales), ambas relaciones de participantes, datos generales, expediente, pruebas y continuidad. La nueva sesión de priorización y preparación de mapeos no tiene aún fecha/horario; no trasladar estos datos. PR #39 sigue en borrador, sin despliegue.
