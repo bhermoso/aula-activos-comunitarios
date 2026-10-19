@@ -15,7 +15,7 @@ test('la mesa conecta los indicadores epidemiológicos con cuatro miradas humana
   for(const t of [
     'Mesa-coloquio · guion por ámbitos',
     'Carlos del Moral Campaña',
-    'Entrada de Rubén, moderador',
+    'Entrada de Rubén García Martín, moderador',
     'Alicia Bellido González',
     'María Martín Calvo',
     'Francisco J. Pigne Marín',
@@ -63,7 +63,7 @@ test('el programa distingue la presentación de Carlos, mesa y conclusiones de B
     assert.ok(block.includes(name),'Falta nombre en el bloque 04: '+name);
   }
   assert.ok(s.includes('Composición de la mesa pendiente de confirmación'));
-  assert.ok(s.includes('Moderación a cargo de Rubén (área de Cultura del Ayuntamiento de Fuente Vaqueros; apellidos pendientes)'));
+  assert.ok(s.includes('Moderación a cargo de Rubén García Martín, técnico de Cultura del Ayuntamiento de Fuente Vaqueros'));
   assert.ok(s.includes('Blas Hermoso Rico'));
   assert.ok(s.includes('Cultura del Ayuntamiento'));
   assert.ok(!s.includes('Raúl'));
