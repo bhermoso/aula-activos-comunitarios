@@ -54,7 +54,7 @@ Las cuatro líneas proceden como **ejemplos metodológicos**, no como objetivos 
 
 ## Relación con el taller de impulso del 22 de octubre
 
-El programa del 22/10 incluye contexto histórico, informe presentado por Carlos del Moral Campaña, mesa-coloquio moderada por Rubén (área de Cultura del Ayuntamiento; apellidos pendientes), conclusiones de Blas y trabajo participativo. **No se transforma ese encuentro en una sesión de priorización final ni en un mapeo ejecutado**: sus aportaciones exploratorias ayudan a preparar la agenda de la reunión siguiente.
+El programa del 22/10 incluye contexto histórico, informe presentado por Carlos del Moral Campaña, mesa-coloquio moderada por **Rubén García Martín, técnico de Cultura del Ayuntamiento de Fuente Vaqueros**, conclusiones de Blas y trabajo participativo. **No se transforma ese encuentro en una sesión de priorización final ni en un mapeo ejecutado**: sus aportaciones exploratorias ayudan a preparar la agenda de la reunión siguiente.
 
 La ficha de ideas de actores/recursos de esa jornada sigue siendo borrador local en el navegador, sin envío a Localiza Salud, sin validación y sin prioridades aprobadas. La hoja de ruta del propio taller indica ahora esta dependencia.
 
