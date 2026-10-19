@@ -1,5 +1,7 @@
 # Fuente Vaqueros · estado y continuidad
 
+> **LUGAR Y HORARIO CONFIRMADOS · 19/10/2026:** Taller de impulso del **22/10/2026**, **10:30–12:00**, en el **Ayuntamiento de Fuente Vaqueros, Sala de audiovisuales (1.ª planta), Plaza del Doctor Pareja, 1**. Se aplica a portada, programa, sección de participantes, ficha ampliada de participantes y expediente, sin inventar minutaje por bloque. La sesión posterior de priorización y planificación del mapeo aún no tiene fecha ni horario establecidos.
+
 > **SITUACIÓN DE LA MESA · 19/10/2026:** la trabajadora social de Salud Mental previamente prevista **no acudirá** al taller del 22/10. Retirada de la relación de participantes y de la moderación. Quedan **6 personas previstas**, **17 invitaciones** y **3 perspectivas** para la mesa-coloquio (atención primaria, familias/AMPA y salud escolar), moderada por Rubén García Martín, técnico de Cultura del Ayuntamiento de Fuente Vaqueros. La composición y la asistencia de las restantes personas no se dan por confirmadas.
 
 > **ACTUALIZACIÓN VIGENTE · 19/10/2026.** Moderación del taller del 22/10: **Rubén García Martín, técnico de Cultura del Ayuntamiento de Fuente Vaqueros** (identificación comunicada directamente por el usuario). Las menciones de «apellidos pendientes» de los antecedentes del 18/10 han quedado **superadas**. La composición de la mesa de participantes continúa sujeta a las confirmaciones ya indicadas.
@@ -56,3 +58,8 @@ El usuario confirma: **Rubén García Martín, técnico de Cultura del Ayuntamie
 ## 19/10/2026 · Rectificación transversal por baja de participante
 
 La organización comunica que la trabajadora social de Salud Mental no vendrá. Se elimina su intervención prevista del programa, del listado duplicado de participantes, del guion de preguntas de Rubén García Martín y de las expectativas de cuatro perspectivas. **No se sustituye automáticamente por otra persona**. Quedan tres perspectivas propuestas y seis participantes previstos; las 17 invitaciones de entidades y personas se mantienen. El bienestar emocional continúa como aspecto histórico de salud, sin ponencia específica de la profesional ausente. Se comprueban tests, expediente, documentación de continuidad y la independencia de la posterior sesión de priorización/mapeo. Corrección incluida en PR #39, pendiente de autorización para su publicación.
+
+
+## 19/10/2026 · Convocatoria: localización y franja horaria
+
+El usuario comunica que el taller del 22/10 tendrá lugar en el **Ayuntamiento de Fuente Vaqueros, Sala de audiovisuales (1.ª planta), Plaza del Doctor Pareja, 1**, de **10:30 a 12:00**. Se han eliminado de las páginas del primer encuentro las etiquetas de sede y horario «por confirmar». Verificación transversal: portada, programa, información general y dos relaciones de participantes; no confundir el encuentro del 22/10 con la siguiente reunión del Grupo Motor aún por convocar. No se fija horario ficticio para los siete bloques; su reparto se acordará en el taller. Este cambio se incorpora a PR #39, aún no fusionada ni publicada.
