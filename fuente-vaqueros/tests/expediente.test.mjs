@@ -135,7 +135,8 @@ test('el programa conserva siete bloques sin imponer recuperar la priorización 
  const first=prog.indexOf('<span class="num">02</span>');
  const second=prog.indexOf('<span class="num">03</span>');
  const two=prog.slice(first,second);
- assert.ok(two.includes('<h3>Trayectoria del Plan Local de Salud</h3><details class="fv-trayectoria" id="contexto">'));
+ assert.ok(two.includes('<h3>Trayectoria del Plan Local de Salud</h3><p><strong>Blas Hermoso</strong> (Distrito Sanitario) · <strong>Carlos del Moral</strong> (Distrito Sanitario)</p><details class="fv-trayectoria" id="contexto">'));
+ assert.ok(!two.includes('RELAS desde 2021. En 2022 se recogieron'),'En 02 solo personas, sin explicación histórica visible');
  assert.ok(!two.includes('id="contexto" open'),'El histórico debe estar cerrado por defecto');
  const five=prog.slice(prog.indexOf('<span class="num">05</span>'),prog.indexOf('<span class="num">06</span>'));
  assert.ok(five.includes('revisar la priorización existente y decidir si resulta válida o si necesita actualizarse'));
