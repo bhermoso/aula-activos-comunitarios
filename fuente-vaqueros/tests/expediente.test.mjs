@@ -48,10 +48,10 @@ test('conclusiones de Blas: priorización de 2022 y mapeo vinculado a líneas pr
   const programa=section('programa');
   const proceso=section('proceso');
   const practica=section('practica');
-  for(const t of ['revisar la priorización existente', 'Localiza Salud','pendiente de verificación']){
+  for(const t of ['perfil de salud local', 'Localiza Salud','pendiente de verificación']){
     assert.ok(contexto.toLowerCase().includes(t.toLowerCase()),'Contexto omite '+t);
   }
-  for(const t of ['Blas Hermoso Rico','revisar la priorización existente','decidir si resulta válida','Composición de la mesa']){
+  for(const t of ['Blas Hermoso Rico','Próximos pasos: perfil de salud local, priorización y mapeo de activos','decidir si los resultados','Composición de la mesa']){
     assert.ok(programa.includes(t),'Programa omite '+t);
   }
   for(const t of ['Revisión técnica','Deliberación del grupo motor','Consulta a la ciudadanía','Procedimiento combinado','Localiza Salud','no significa ausencia de activos reales']){
@@ -148,7 +148,9 @@ test('el programa conserva siete bloques sin imponer recuperar la priorización 
  assert.ok(!two.includes('RELAS desde 2021. En 2022 se recogieron'),'En 02 solo personas, sin explicación histórica visible');
  assert.ok(!two.includes('id="contexto" open'),'El histórico debe estar cerrado por defecto');
  const five=prog.slice(prog.indexOf('<span class="num">05</span>'),prog.indexOf('<span class="num">06</span>'));
- assert.ok(five.includes('revisar la priorización existente y decidir si resulta válida o si necesita actualizarse'));
+ assert.ok(five.includes('Próximos pasos: perfil de salud local, priorización y mapeo de activos'));
+ assert.ok(five.includes('Blas Hermoso Rico</strong> · Distrito Sanitario'));
+ assert.ok(five.includes('decidir si los resultados, el procedimiento y su vigencia son adecuados'));
  assert.ok(!five.includes('recuperar los problemas más señalados en 2022'));
  const six=prog.slice(prog.indexOf('<span class="num">06</span>'),prog.indexOf('<span class="num">07</span>'));
  assert.ok(six.includes('Planificar participativamente cómo revisar'));
