@@ -124,3 +124,8 @@ El expediente y el programa ya están integrados en `main` mediante PR #22 y PR 
 ## 19/10/2026 · Corrección metodológica expresa del programa (vigente para la siguiente publicación)
 
 Por aclaración directa del usuario, el programa del 22/10/2026 debe **conservar los siete bloques originales**, con estos contenidos visibles: **02** solo título de trayectoria, sin explicación (material histórico consultable en desplegable cerrado); **04** «La visión de la salud local desde la Atención Primaria, las familias y la comunidad educativa»; **05** Blas Hermoso Rico: **revisar la priorización disponible y decidir si vale o no, sin dar por supuesto que se vaya a recuperar ni reutilizar la priorización histórica**; **06** trabajo participativo: **planificar la revisión/priorización y cómo se podrán organizar el mapeo o los mapeos una vez seleccionadas las grandes líneas estratégicas**, no identificar activos ni seleccionar líneas en el taller. La ejecución de mapeos será posterior. No introducir horarios individuales que no han sido pactados. Esta decisión prevalece sobre frases contradictorias de notas de octubre anteriores.
+
+
+## 19/10/2026 · Ponentes del bloque 02 «Trayectoria del Plan Local de Salud»
+
+Según precisión comunicada por el usuario, el bloque 02 incorpora **Blas Hermoso (Distrito Sanitario)** y **Carlos del Moral (Distrito Sanitario)**. El programa visible mantiene únicamente estas identificaciones bajo el título, sin explicación histórica; el material de 2022 permanece accesible en desplegable cerrado y no supone un criterio de priorización automáticamente ratificado.
