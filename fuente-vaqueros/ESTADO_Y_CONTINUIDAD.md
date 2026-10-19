@@ -1,5 +1,8 @@
 # Fuente Vaqueros · estado y continuidad
 
+> **CORRECCIÓN METODOLÓGICA VIGENTE · 19/10/2026:** el programa del taller del 22/10 permanece con **siete bloques**. **02** Trayectoria: solo título y desplegable histórico cerrado. **04** título literal «La visión de la salud local desde la Atención Primaria, las familias y la comunidad educativa». **05** Blas: **revisar la priorización y decidir si vale o no**, sin asumir las prioridades 2022 como líneas actuales ni imponer una nueva priorización. **06** trabajo participativo: **planificar cómo abordar la priorización y preparar los mapeos SOLO una vez seleccionadas las grandes líneas estratégicas**; no mapear en el taller. La documentación anterior sobre «recuperar la priorización de 2022» queda superada como instrucción metodológica.
+
+
 > **LUGAR Y HORARIO CONFIRMADOS · 19/10/2026:** Taller de impulso del **22/10/2026**, **10:30–12:00**, en el **Ayuntamiento de Fuente Vaqueros, Sala de audiovisuales (1.ª planta), Plaza del Doctor Pareja, 1**. Se aplica a portada, programa, sección de participantes, ficha ampliada de participantes y expediente, sin inventar minutaje por bloque. La sesión posterior de priorización y planificación del mapeo aún no tiene fecha ni horario establecidos.
 
 > **SITUACIÓN DE LA MESA · 19/10/2026:** la trabajadora social de Salud Mental previamente prevista **no acudirá** al taller del 22/10. Retirada de la relación de participantes y de la moderación. Quedan **6 personas previstas**, **17 invitaciones** y **3 perspectivas** para la mesa-coloquio (atención primaria, familias/AMPA y salud escolar), moderada por Rubén García Martín, técnico de Cultura del Ayuntamiento de Fuente Vaqueros. La composición y la asistencia de las restantes personas no se dan por confirmadas.
@@ -63,3 +66,8 @@ La organización comunica que la trabajadora social de Salud Mental no vendrá. 
 ## 19/10/2026 · Convocatoria: localización y franja horaria
 
 El usuario comunica que el taller del 22/10 tendrá lugar en el **Ayuntamiento de Fuente Vaqueros, Sala de audiovisuales (1.ª planta), Plaza del Doctor Pareja, 1**, de **10:30 a 12:00**. Se han eliminado de las páginas del primer encuentro las etiquetas de sede y horario «por confirmar». Verificación transversal: portada, programa, información general y dos relaciones de participantes; no confundir el encuentro del 22/10 con la siguiente reunión del Grupo Motor aún por convocar. No se fija horario ficticio para los siete bloques; su reparto se acordará en el taller. Este cambio se incorpora a PR #39, aún no fusionada ni publicada.
+
+
+## 19/10/2026 · Nueva precisión del usuario sobre el programa
+
+Se elimina la explicación visible de la trayectoria (se conserva la fuente histórica en desplegable cerrado). Se sustituye el título genérico del coloquio por la visión de la salud local desde atención primaria, familias y comunidad educativa. Conclusiones: revisar la priorización y decidir si es válida o requiere actualización, sin suponer reutilización automática de los problemas de 2022. Trabajo participativo: planificar los pasos de priorización y preparar cómo se abordarán los mapeos después de elegir las grandes líneas. PDF imprimible con los siete bloques y los desplegables cerrados generado aparte; cambios del Aula en rama pendiente de fusión/publicación autorizadas.
