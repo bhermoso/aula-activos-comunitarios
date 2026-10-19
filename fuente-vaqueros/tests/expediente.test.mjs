@@ -99,3 +99,28 @@ test('moderación: nombre completo, función municipal y ninguna etiqueta desact
  for(const check of checks)assert.ok(html.includes(check),'Falta corregir: '+check);
  assert.ok(!/apellidos? pendientes?|apellido está pendiente|apellidos por confirmar/i.test(html),'Queda un aviso antiguo de apellido pendiente');
 });
+
+
+test('Sede y horario se reflejan en portada, programa, participantes y datos generales',()=>{
+ const venue='Ayuntamiento de Fuente Vaqueros · Sala de audiovisuales (1.ª planta) · Plaza del Doctor Pareja, 1';
+ const hours='10:30–12:00';
+ const cover=html.slice(html.indexOf('<section class="portada'),html.indexOf('<div class="actividad-app"'));
+ const opening=html.slice(html.indexOf('<div class="actividad-app"'),html.indexOf('<section class="section active" id="programa">'));
+ const program=section('programa');
+ const attendees=section('participantes');
+ for(const [label,fragment] of [['portada',cover],['cabecera interior',opening],['programa',program],['participantes',attendees]]){
+   assert.ok(fragment.includes(venue),label+' sin dirección/sala');
+   assert.ok(fragment.includes(hours),label+' sin 10:30–12:00');
+   assert.ok(!/Lugar y horario por confirmar|Lugar y horario: por confirmar|Lugar y horario pendientes de concretar/i.test(fragment),label+' aún sin corregir');
+ }
+ assert.ok(program.includes('Los siete bloques se desarrollarán dentro de los 90 minutos'));
+ assert.ok(attendees.includes('Rubén García Martín'));
+ assert.ok(html.includes('Siguiente sesión del Grupo Motor · fecha por acordar'),'No atribuir franja horaria al siguiente encuentro');
+});
+
+test('El expediente conserva la convocatoria completa sin asignar tiempos ficticios a cada bloque',()=>{
+ const expediente=readFileSync(new URL('../EXPEDIENTE_2021_2022_Y_PROGRAMA.md',import.meta.url),'utf8');
+ for(const term of ['22 de octubre de 2026','10:30–12:00','Sala de audiovisuales (1.ª planta)','Plaza del Doctor Pareja, 1']){
+   assert.ok(expediente.includes(term),'Falta dato de convocatoria: '+term);
+ }
+});
