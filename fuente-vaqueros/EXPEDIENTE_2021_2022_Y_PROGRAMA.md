@@ -100,7 +100,7 @@ La ficha sigue guardando propuestas en `localStorage` del dispositivo; no envía
 2. Actas posteriores al 29/04/2022 y continuidad del grupo motor después del verano.
 3. Fecha real de la interrupción y causas contrastadas.
 4. Existencia y aprobación de priorización Hanlon o del I Plan Local de Salud.
-5. Comprobar la composición de la mesa, el estado de las demás intervenciones cuando existan fuentes, la participación de representantes institucionales, el lugar y el horario; mantener la identificación confirmada de **Rubén García Martín, técnico de Cultura del Ayuntamiento**, sin atribuirle un cargo político distinto. **Carlos del Moral Campaña está confirmado.**
+5. Comprobar la composición de la mesa, el estado de las demás intervenciones cuando existan fuentes, la participación de representantes institucionales; el lugar y horario del 22/10 ya han sido comunicados: **Ayuntamiento de Fuente Vaqueros, Sala de audiovisuales (1.ª planta), Plaza del Doctor Pareja, 1, de 10:30 a 12:00**. Mantener la identificación confirmada de **Rubén García Martín, técnico de Cultura del Ayuntamiento**, sin atribuirle un cargo político distinto. **Carlos del Moral Campaña está confirmado.**
 6. Revisión de los datos del informe histórico antes de una presentación de situación actual en 2026.
 
 ## Control de cambios
@@ -114,3 +114,8 @@ El expediente y el programa ya están integrados en `main` mediante PR #22 y PR 
 ## 19/10/2026 · Actualización de asistencia a la mesa-coloquio
 
 **La organización comunica que la trabajadora social de Salud Mental inicialmente prevista no asistirá** al encuentro del 22/10/2026. Se elimina de la lista operativa de participantes, del bloque 04 y del guion de moderación. La mesa queda planteada desde **tres perspectivas: atención primaria, familias/AMPA y salud escolar**. Participantes previstos: **6**, frente a los 7 del documento preparatorio anterior. No se modifica el número de invitaciones a personas y entidades (**17**), ni se interpreta la retirada como eliminación del bienestar emocional de los contenidos del análisis de salud.
+
+
+## 19/10/2026 · Sede y hora del taller confirmadas por la organización
+
+**Taller de impulso · 22 de octubre de 2026 · 10:30–12:00 (90 minutos).** **Ayuntamiento de Fuente Vaqueros, Sala de audiovisuales (1.ª planta), Plaza del Doctor Pareja, 1.** Información facilitada directamente por el usuario. Se actualiza la portada y el programa de siete bloques, además de ambas vistas de participantes y los datos generales. **No se inventan horas de inicio por bloque** dentro del horario total. La fecha del encuentro posterior de priorización y planificación de mapeos continúa **por acordar**; no trasladar automáticamente a él esta sede y hora.
