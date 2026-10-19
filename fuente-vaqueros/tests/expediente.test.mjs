@@ -85,3 +85,17 @@ test('resultados 2022 y método Hanlon sustentados sin inventar priorización ap
  assert.ok(s.includes('Participantes previstos · 7 personas'));
  assert.ok(s.includes('Invitaciones · 17 personas o entidades'));
 });
+
+test('moderación: nombre completo, función municipal y ninguna etiqueta desactualizada',()=>{
+ const html=readFileSync(new URL('../index.html',import.meta.url),'utf8');
+ const checks=[
+  'Moderación: Rubén García Martín',
+  'Modera <strong>Rubén García Martín</strong>',
+  'Moderación a cargo de Rubén García Martín, técnico de Cultura del Ayuntamiento de Fuente Vaqueros',
+  'La moderación estará a cargo de <strong>Rubén García Martín</strong>',
+  '<strong>Moderación:</strong> Rubén García Martín',
+  'Entrada de Rubén García Martín, moderador'
+ ];
+ for(const check of checks)assert.ok(html.includes(check),'Falta corregir: '+check);
+ assert.ok(!/apellidos? pendientes?|apellido está pendiente|apellidos por confirmar/i.test(html),'Queda un aviso antiguo de apellido pendiente');
+});
