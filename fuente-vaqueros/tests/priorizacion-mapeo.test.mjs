@@ -16,7 +16,9 @@ test('El taller de impulso conserva 7 bloques, fecha, moderador, y no suplanta l
   assert.ok(first.includes(x),'Falta '+x);
  assert.ok(first.includes('href="sesion-priorizacion-mapeo.html"'));
  assert.ok(first.includes('revisar la priorización existente'));
- assert.ok(first.includes('sin iniciar mapeos ni aprobar prioridades'));
+ assert.ok(first.includes('sin iniciarlos ahora'));
+ assert.ok(first.includes('una vez seleccionadas las grandes líneas estratégicas'));
+ assert.ok(first.includes('decidir si resulta válida o si necesita actualizarse'));
 });
 
 test('Prioridades Fuente Vaqueros 2022 y Localiza Salud mantienen cautelas documentales',()=>{
