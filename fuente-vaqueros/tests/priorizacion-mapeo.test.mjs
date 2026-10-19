@@ -18,7 +18,8 @@ test('El taller de impulso conserva 7 bloques, fecha, moderador, y no suplanta l
  assert.ok(first.includes('revisar la priorización existente'));
  assert.ok(first.includes('sin iniciarlos ahora'));
  assert.ok(first.includes('una vez seleccionadas las grandes líneas estratégicas'));
- assert.ok(first.includes('decidir si resulta válida o si necesita actualizarse'));
+ assert.ok(first.includes('decidir si los resultados, el procedimiento y su vigencia son adecuados'));
+ assert.ok(first.includes('Próximos pasos: perfil de salud local, priorización y mapeo de activos'));
 });
 
 test('Prioridades Fuente Vaqueros 2022 y Localiza Salud mantienen cautelas documentales',()=>{
