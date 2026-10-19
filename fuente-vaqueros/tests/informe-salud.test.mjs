@@ -23,6 +23,8 @@ test('sin alterar los cinco apartados y el guion de mesa',()=>{
   const tabs=[...html.matchAll(/class="tab" data-tab="([^"]+)"/g)].map(x=>x[1]);
   assert.deepEqual(tabs,['programa','participantes','moderacion','proceso','practica']);
   assert.ok(html.includes('Alicia Bellido González'));
-  assert.ok(html.includes('Margarita Rut Goena Martínez'));
+  assert.ok(!html.includes('Margarita Rut Goena Martínez'));
+  assert.ok(html.includes('Participantes previstos · 6 personas'));
+  assert.ok(html.includes('tres perspectivas sobre la salud cotidiana'));
   assert.ok(html.includes('data-cover-open="practica"'));
 });
