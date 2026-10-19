@@ -64,7 +64,8 @@ test('el programa distingue la presentación de Carlos, mesa y conclusiones de B
   assert.ok(s.includes('Blas Hermoso Rico'));
   assert.ok(s.includes('Cultura del Ayuntamiento'));
   assert.ok(!s.includes('Raúl'));
-  assert.ok(s.includes('revisar la priorización existente'));
+  assert.ok(s.includes('Próximos pasos: perfil de salud local, priorización y mapeo de activos'));
+  assert.ok(s.includes('Blas Hermoso Rico</strong> · Distrito Sanitario'));
 });
 
 test('se conservan los cinco apartados, mapeo y navegación',()=>{
