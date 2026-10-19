@@ -51,9 +51,9 @@ test('preguntas abiertas por ámbito, no examen técnico ni presunción de patol
 
 test('el programa distingue la presentación de Carlos, mesa y conclusiones de Blas',()=>{
   const s=section('programa');
-  const epi=s.indexOf('03</span><h3>Informe sobre la situación de salud de Fuente Vaqueros');
+  const epi=s.indexOf('03</span><h3>Análisis de la situación de salud');
   const mesa=s.indexOf('04</span><h3>La visión de la salud local desde la Atención Primaria, las familias y la comunidad educativa');
-  const conclusiones=s.indexOf('05</span><h3>Conclusiones y propuestas de continuidad');
+  const conclusiones=s.indexOf('05</span><h3>Próximos pasos: perfil de salud local, priorización y mapeo de activos');
   assert.ok(epi>=0&&mesa>epi&&conclusiones>mesa,'Secuencia del programa alterada');
   for(const name of ['Alicia Bellido González','María Martín Calvo','Francisco J. Pigne Marín']){
     const block=s.slice(mesa,conclusiones);
