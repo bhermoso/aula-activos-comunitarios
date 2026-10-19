@@ -11,11 +11,11 @@ const first=read('index.html'),next=read('sesion-priorizacion-mapeo.html'),guide
 test('El taller de impulso conserva 7 bloques, fecha, moderador, y no suplanta la segunda sesión',()=>{
  for(const x of ['22 de octubre de 2026','Rubén García Martín','técnico de Cultura del Ayuntamiento',
  'Carlos del Moral Campaña','Apertura institucional','Trayectoria del Plan Local',
- 'Mesa-coloquio intersectorial','Conclusiones y propuestas de continuidad',
+ 'La visión de la salud local desde la Atención Primaria, las familias y la comunidad educativa','Conclusiones y propuestas de continuidad',
  'Trabajo participativo','Puesta en común y cierre'])
   assert.ok(first.includes(x),'Falta '+x);
  assert.ok(first.includes('href="sesion-priorizacion-mapeo.html"'));
- assert.ok(first.includes('priorizar problemas y grandes líneas'));
+ assert.ok(first.includes('revisar la priorización existente'));
  assert.ok(first.includes('sin iniciar mapeos ni aprobar prioridades'));
 });
 
