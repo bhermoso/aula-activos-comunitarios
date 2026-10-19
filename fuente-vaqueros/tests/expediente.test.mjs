@@ -18,7 +18,7 @@ test('programa completo por bloques y personas citadas como previstas/invitadas'
  for(const t of ['Apertura institucional','Trayectoria del Plan Local','Informe sobre la situación de salud de Fuente Vaqueros','Mesa-coloquio intersectorial','Conclusiones y propuestas de continuidad','Trabajo participativo','Puesta en común']){
   assert.ok(prog.includes(t),'Falta bloque: '+t);
  }
- for(const n of ['José Miguel Muñoz Ortega','Carlos del Moral Campaña','Alicia Bellido González','María Martín Calvo','Francisco J. Pigne Marín','Blas Hermoso Rico','Margarita Rut Goena Martínez','Raquel Cal','Jenifer González','Inserta Andalucía','Asociación de Regantes']){
+ for(const n of ['José Miguel Muñoz Ortega','Carlos del Moral Campaña','Alicia Bellido González','María Martín Calvo','Francisco J. Pigne Marín','Blas Hermoso Rico','Raquel Cal','Jenifer González','Inserta Andalucía','Asociación de Regantes']){
   assert.ok(prog.includes(n),'No citado en programa: '+n);
   assert.ok(section('participantes').includes(n),'No citado en participantes: '+n);
  }
@@ -82,7 +82,7 @@ test('resultados 2022 y método Hanlon sustentados sin inventar priorización ap
  ]) assert.ok(s.includes(required),'Falta evidencia o cautela: '+required);
  assert.ok(s.includes('id="contexto" open'), 'recorrido histórico desplegado al entrar');
  assert.equal((s.match(/<details /g)||[]).length,8,'Ocho paneles del Programa, también en main antes de esta corrección');
- assert.ok(s.includes('Participantes previstos · 7 personas'));
+ assert.ok(s.includes('Participantes previstos · 6 personas'));
  assert.ok(s.includes('Invitaciones · 17 personas o entidades'));
 });
 
