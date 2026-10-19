@@ -71,3 +71,8 @@ El usuario comunica que el taller del 22/10 tendrá lugar en el **Ayuntamiento d
 ## 19/10/2026 · Nueva precisión del usuario sobre el programa
 
 Se elimina la explicación visible de la trayectoria (se conserva la fuente histórica en desplegable cerrado). Se sustituye el título genérico del coloquio por la visión de la salud local desde atención primaria, familias y comunidad educativa. Conclusiones: revisar la priorización y decidir si es válida o requiere actualización, sin suponer reutilización automática de los problemas de 2022. Trabajo participativo: planificar los pasos de priorización y preparar cómo se abordarán los mapeos después de elegir las grandes líneas. PDF imprimible con los siete bloques y los desplegables cerrados generado aparte; cambios del Aula en rama pendiente de fusión/publicación autorizadas.
+
+
+## 19/10/2026 · Ponentes del bloque 02 «Trayectoria del Plan Local de Salud»
+
+Según precisión comunicada por el usuario, el bloque 02 incorpora **Blas Hermoso (Distrito Sanitario)** y **Carlos del Moral (Distrito Sanitario)**. El programa visible mantiene únicamente estas identificaciones bajo el título, sin explicación histórica; el material de 2022 permanece accesible en desplegable cerrado y no supone un criterio de priorización automáticamente ratificado.
