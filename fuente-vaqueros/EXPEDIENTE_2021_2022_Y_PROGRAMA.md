@@ -24,8 +24,8 @@ Se incorporó a **`main` (publicado)** la información local documentada que fal
 
 ## Orientación de la intervención de Blas Hermoso Rico (propuesta para el 22/10/2026)
 La intervención del técnico de salud **no se limita al ciclo teórico de RELAS**. Se proponen **dos conclusiones concretas**, sujetas al debate del taller:
-1. **Revisar la priorización trabajada en 2022** (cuestionarios y propuesta Hanlon) y decidir si necesita actualización. El procedimiento no está decidido: contraste técnico, deliberación en grupo motor, nueva encuesta a la ciudadanía o combinación justificada de los tres, con responsables y calendario. No se ha localizado aprobación definitiva de la priorización de 2022.
-2. **Iniciar un mapeo participativo de activos para la salud**, orientado a las líneas prioritarias acordadas; identificar recursos, redes, asociaciones y capacidades reales, documentarlos y contrastarlos con la comunidad, valorar su incorporación a Localiza Salud conforme al procedimiento vigente, y asegurar mantenimiento del mapa.
+1. **Revisar la priorización existente y decidir si resulta válida o necesita actualizarse.** La revisión no equivale a ratificar, recuperar o rehacer automáticamente prioridades anteriores. Si la documentación es insuficiente, decidir después qué procedimiento hace falta, sin imponerlo de antemano.
+2. **Planificar cómo se realizará la priorización y cómo se organizarán los futuros mapeos** cuando las grandes líneas estratégicas estén efectivamente priorizadas. El taller del 22/10 no inicia mapeos, no identifica líneas definitivas ni valida activos. Los mapeos concretos se diseñarán en función de las líneas seleccionadas.
 
 **Localiza Salud (información facilitada por el usuario en esta revisión):** Fuente Vaqueros figura con **cero recursos/activos registrados**. La comprobación directa y fechada en el portal **está pendiente**. No confundir cero *registros* con cero *activos existentes*. No atribuir el dato al expediente RELAS de 2021–2022. La ficha del Aula solo guarda borradores en el navegador; **no registra activos en Localiza Salud ni constituye una priorización aprobada**.
 
@@ -44,7 +44,7 @@ La propuesta de contenidos afecta a portada, «Punto de partida», programa, pre
 
 **Forma de preguntar:** una pregunta amplia dirigida a la experiencia de cada participante y posibles repreguntas contextuales, sin solicitar un diagnóstico epidemiológico ni asumir que hay nuevos problemas o hiperfrecuentación. Distinguir perspectiva de atención primaria, familias y profesional escolar; no exigir historias clínicas ni casos identificables. Evitar presentar estas observaciones como hechos poblacionales representativos o como prioridades ya aprobadas.
 
-**Relación con el programa:** la historia de RELAS, la encuesta de 2022 y la eventual actualización de prioridades se presentan en los bloques técnicos. La intervención propuesta de Blas Hermoso recoge después como líneas de continuidad la revisión de la priorización y el mapeo participativo de activos. **Las intervenciones de la mesa no equivalen a una priorización formal ni a un acuerdo del grupo motor.**
+**Relación con el programa:** la historia de RELAS, la encuesta de 2022 y la eventual actualización de prioridades se presentan en los bloques técnicos. La intervención propuesta de Blas Hermoso plantea revisar la priorización y decidir si sirve o necesita actualizarse; el trabajo participativo prepara su proceso y condiciona los mapeos a la selección de grandes líneas. **Las intervenciones de la mesa no equivalen a una priorización formal ni a un acuerdo del grupo motor.**
 
 **Estado:** entrevista publicada mediante PR #23. Se mantienen los listados completos de participantes e invitados. **Confirmación del 19/10/2026:** modera **Rubén García Martín, técnico de Cultura del Ayuntamiento de Fuente Vaqueros**; la mesa, por separado, tiene su composición pendiente de confirmación.
 
@@ -76,10 +76,10 @@ Se corrige la guía demasiado genérica de preguntas comunes: la finalidad no es
 
 ### Consecuencia editorial para el Taller 2026
 
-- Bloque **Programa 02 «Trayectoria»**: resumen visible (102 cuestionarios, identificación y Hanlon sin cierre acreditado), y detalle histórico abierto por defecto y plegable con 9 recuentos, método y fuentes.
+- Bloque **Programa 02 «Trayectoria»**: solo el título visible, sin explicación; el expediente de 2022 permanece en un desplegable **cerrado por defecto** para consulta opcional, no como criterio de priorización automáticamente vigente.
 - Bloques **01, 03, 04, 05, 06 y 07**: máximo una frase descriptiva visible por sesión, con datos o matices ampliables mediante `<details>`.
 - Bloque **04**: las perspectivas de atención primaria, familias y enfermería escolar se tratan como intervenciones previstas, no asistencia confirmada; el guion de moderación muestra una pregunta visible por persona y apoyos desplegables. La intervención anteriormente planteada desde trabajo social de Salud Mental se cancela; el bienestar emocional permanece como tema de salud pertinente, sin ponencia atribuida.
-- Bloque **05**: las conclusiones **propuestas** de Blas diferencian revisar si se completó o debe renovarse la priorización y desarrollar un mapeo participativo de activos orientado a las prioridades acordadas, sin inventar resultados ni asumir su aprobación.
+- Bloque **05**: revisar la priorización y **decidir si sirve o no**. No se plantea recuperar y reutilizar las prioridades de 2022 como base obligatoria, ni iniciar un nuevo proceso sin decidirlo.
 - Relación de participantes e invitaciones: conserva los nombres en Programa y en Participantes; en Programa se puede desplegar para no saturar la lectura.
 - Mantener la documentación original **fuera del repositorio público** por la posible presencia de firmas o respuestas individuales.
 
@@ -119,3 +119,13 @@ El expediente y el programa ya están integrados en `main` mediante PR #22 y PR 
 ## 19/10/2026 · Sede y hora del taller confirmadas por la organización
 
 **Taller de impulso · 22 de octubre de 2026 · 10:30–12:00 (90 minutos).** **Ayuntamiento de Fuente Vaqueros, Sala de audiovisuales (1.ª planta), Plaza del Doctor Pareja, 1.** Información facilitada directamente por el usuario. Se actualiza la portada y el programa de siete bloques, además de ambas vistas de participantes y los datos generales. **No se inventan horas de inicio por bloque** dentro del horario total. La fecha del encuentro posterior de priorización y planificación de mapeos continúa **por acordar**; no trasladar automáticamente a él esta sede y hora.
+
+
+## 19/10/2026 · Corrección metodológica expresa del programa (vigente para la siguiente publicación)
+
+Por aclaración directa del usuario, el programa del 22/10/2026 debe **conservar los siete bloques originales**, con estos contenidos visibles: **02** solo título de trayectoria, sin explicación (material histórico consultable en desplegable cerrado); **04** «La visión de la salud local desde la Atención Primaria, las familias y la comunidad educativa»; **05** Blas Hermoso Rico: **revisar la priorización disponible y decidir si vale o no, sin dar por supuesto que se vaya a recuperar ni reutilizar la priorización histórica**; **06** trabajo participativo: **planificar la revisión/priorización y cómo se podrán organizar el mapeo o los mapeos una vez seleccionadas las grandes líneas estratégicas**, no identificar activos ni seleccionar líneas en el taller. La ejecución de mapeos será posterior. No introducir horarios individuales que no han sido pactados. Esta decisión prevalece sobre frases contradictorias de notas de octubre anteriores.
+
+
+## 19/10/2026 · Reparto definitivo de intervenciones
+
+**Rectificación posterior del usuario que sustituye la propuesta anterior:** **02 «Trayectoria del Plan Local de Salud»** sin ponentes ni explicación visible (histórico en desplegable cerrado); **03 «Análisis de la situación de salud»**, solo **Carlos del Moral Campaña (Distrito Sanitario)**; **05 «Próximos pasos: perfil de salud local, priorización y mapeo de activos»**, **Blas Hermoso Rico (Distrito Sanitario)**. No duplicar a Carlos en el bloque 02 ni situar a Blas allí. El trabajo participativo planifica la revisión de la priorización y los mapeos pertinentes tras seleccionar las grandes líneas estratégicas, sin asumir prioridades históricas como válidas.

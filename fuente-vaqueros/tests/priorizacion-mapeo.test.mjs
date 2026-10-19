@@ -11,12 +11,15 @@ const first=read('index.html'),next=read('sesion-priorizacion-mapeo.html'),guide
 test('El taller de impulso conserva 7 bloques, fecha, moderador, y no suplanta la segunda sesión',()=>{
  for(const x of ['22 de octubre de 2026','Rubén García Martín','técnico de Cultura del Ayuntamiento',
  'Carlos del Moral Campaña','Apertura institucional','Trayectoria del Plan Local',
- 'Mesa-coloquio intersectorial','Conclusiones y propuestas de continuidad',
+ 'La visión de la salud local desde la Atención Primaria, las familias y la comunidad educativa','Próximos pasos: perfil de salud local, priorización y mapeo de activos',
  'Trabajo participativo','Puesta en común y cierre'])
   assert.ok(first.includes(x),'Falta '+x);
  assert.ok(first.includes('href="sesion-priorizacion-mapeo.html"'));
- assert.ok(first.includes('priorizar problemas y grandes líneas'));
- assert.ok(first.includes('sin iniciar mapeos ni aprobar prioridades'));
+ assert.ok(first.includes('revisar la priorización existente'));
+ assert.ok(first.includes('sin iniciarlos ahora'));
+ assert.ok(first.includes('una vez seleccionadas las grandes líneas estratégicas'));
+ assert.ok(first.includes('decidir si los resultados, el procedimiento y su vigencia son adecuados'));
+ assert.ok(first.includes('Próximos pasos: perfil de salud local, priorización y mapeo de activos'));
 });
 
 test('Prioridades Fuente Vaqueros 2022 y Localiza Salud mantienen cautelas documentales',()=>{

@@ -51,9 +51,9 @@ test('preguntas abiertas por ámbito, no examen técnico ni presunción de patol
 
 test('el programa distingue la presentación de Carlos, mesa y conclusiones de Blas',()=>{
   const s=section('programa');
-  const epi=s.indexOf('03</span><h3>Informe sobre la situación de salud de Fuente Vaqueros');
-  const mesa=s.indexOf('04</span><h3>Mesa-coloquio intersectorial');
-  const conclusiones=s.indexOf('05</span><h3>Conclusiones y propuestas de continuidad');
+  const epi=s.indexOf('03</span><h3>Análisis de la situación de salud');
+  const mesa=s.indexOf('04</span><h3>La visión de la salud local desde la Atención Primaria, las familias y la comunidad educativa');
+  const conclusiones=s.indexOf('05</span><h3>Próximos pasos: perfil de salud local, priorización y mapeo de activos');
   assert.ok(epi>=0&&mesa>epi&&conclusiones>mesa,'Secuencia del programa alterada');
   for(const name of ['Alicia Bellido González','María Martín Calvo','Francisco J. Pigne Marín']){
     const block=s.slice(mesa,conclusiones);
@@ -64,7 +64,8 @@ test('el programa distingue la presentación de Carlos, mesa y conclusiones de B
   assert.ok(s.includes('Blas Hermoso Rico'));
   assert.ok(s.includes('Cultura del Ayuntamiento'));
   assert.ok(!s.includes('Raúl'));
-  assert.ok(s.includes('revisar el trabajo de priorización de 2022'));
+  assert.ok(s.includes('Próximos pasos: perfil de salud local, priorización y mapeo de activos'));
+  assert.ok(s.includes('Blas Hermoso Rico</strong> · Distrito Sanitario'));
 });
 
 test('se conservan los cinco apartados, mapeo y navegación',()=>{
@@ -73,7 +74,7 @@ test('se conservan los cinco apartados, mapeo y navegación',()=>{
     assert.ok(html.includes('id="'+id+'"'));
   }
   assert.ok(!html.includes('data-tab="contexto"'));
-  assert.ok(section('programa').includes('id="contexto" open'));
+  assert.ok(section('programa').includes('id="contexto">'));
   assert.ok(section('proceso').includes('Revisión técnica'));
   assert.ok(section('proceso').includes('Consulta a la ciudadanía'));
   assert.ok(section('practica').includes('id="fv-prioridad"'));
@@ -92,7 +93,7 @@ test('la baja de Salud Mental elimina la cuarta ponencia y mantiene tres pregunt
  const people=section('participantes');
  const moderation=section('moderacion');
  for(const text of [prog,people,moderation]) assert.ok(!text.includes('Margarita Rut Goena Martínez'));
- assert.ok(prog.includes('Miradas complementarias:</strong> atención primaria, familias y salud escolar'));
+ assert.ok(prog.includes('La visión de la salud local desde la Atención Primaria, las familias y la comunidad educativa'));
  assert.ok(people.includes('Rubén García Martín'));
  assert.ok(html.includes('Participantes previstos · 6 personas'));
  assert.ok(html.includes('Invitaciones · 17 personas o entidades'));
