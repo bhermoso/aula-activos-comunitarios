@@ -1,5 +1,7 @@
 # Fuente Vaqueros · estado y continuidad
 
+> **ACTUALIZACIÓN VIGENTE · 19/10/2026.** Moderación del taller del 22/10: **Rubén García Martín, técnico de Cultura del Ayuntamiento de Fuente Vaqueros** (identificación comunicada directamente por el usuario). Las menciones de «apellidos pendientes» de los antecedentes del 18/10 han quedado **superadas**. La composición de la mesa de participantes continúa sujeta a las confirmaciones ya indicadas.
+
 > **ESTADO VIGENTE · PUBLICADO 18/10/2026 · PR #37.** El taller de impulso **previsto para el 22/10/2026** se conserva en `index.html`. Una **sesión posterior** de Grupo Motor está preparada en `sesion-priorizacion-mapeo.html`: primero revisar/priorizar problemas y elegir grandes líneas si existe base; después, en esa misma sesión, **planificar los mapeos** (qué activos, dónde, con quién, técnicas y coordinación); ejecución y posibles altas administrativas después. Agenda orientativa de 120 minutos: **10 + 20 + 20 + 15 + 15 + 30 + 10**. Si se prepara encuesta, líneas y planes son provisionales.
 >
 > **Dato comunicado, no comprobado en portal:** Fuente Vaqueros no tiene activos registrados en Localiza Salud, según el usuario. No confundir cero registros con cero activos existentes. El expediente histórico conserva 102 cuestionarios de 2022; falta verificar aprobación del resultado Hanlon. No se ha iniciado una encuesta real ni tramitado recursos. **Los apartados siguientes registran decisiones y ramas históricas**, no instrucciones pendientes de fusión o despliegue.
@@ -29,7 +31,7 @@ Actualizar **solo** `fuente-vaqueros/index.html`, con fondo arena y verde profun
 
 ## 18/10/2026 · Identificación del moderador
 
-**Rectificación aportada por el usuario:** el moderador de la mesa-coloquio del 22/10/2026 es **Rubén**, persona vinculada al **área de Cultura del Ayuntamiento de Fuente Vaqueros**. El programa preparatorio inicial ya señalaba «Rubén»; la identificación diferente publicada el 17/10/2026 era errónea. Apellidos y cargo concreto aún no verificados: no inferirlos ni atribuírsele la Concejalía de Cultura. Cambios en portada, programa, relación de participantes y guion de moderación, con pruebas ajustadas. Esta corrección queda preparada en rama para revisión; no se fusiona ni despliega sin autorización expresa.
+**Rectificación aportada por el usuario el 18/10/2026, completada el 19/10/2026:** el moderador de la mesa-coloquio del 22/10/2026 es **Rubén García Martín, técnico de Cultura del Ayuntamiento de Fuente Vaqueros**. El programa preparatorio inicial ya señalaba «Rubén»; la identificación diferente publicada el 17/10/2026 era errónea. El 18/10 aún no se habían confirmado los apellidos ni la función concreta; **el usuario los confirmó el 19/10**. No atribuirle la Concejalía de Cultura. Cambios en portada, programa, relación de participantes y guion de moderación, con pruebas ajustadas. Esta corrección queda preparada en rama para revisión; no se fusiona ni despliega sin autorización expresa.
 
 ## 18/10/2026 · Priorización previa a la planificación del mapeo
 
@@ -42,3 +44,8 @@ Se propone la siguiente secuencia, paralela a Loja pero **sin transferir datos e
 **Archivos nuevos en rama `feat/fuente-vaqueros-priorizacion-mapeo-20261018`:** `sesion-priorizacion-mapeo.html` (sesión futura de 120 min, matriz por líneas imprimible y no persistente), `SESION_PRIORIZACION_Y_MAPEO.md` (guion docente) y `tests/priorizacion-mapeo.test.mjs`; `index.html` enlaza a esta fase y corrige instrucciones prematuras de mapeo. **No fusionado ni desplegado**; no publicar sin autorización. No modifica Loja ni COMPÁS-NG.
 
 **Secuencia de agenda:** 10 apertura, 20 antecedentes 2022, 20 contraste, 15 decisión de consulta, 15 líneas, **30 planificación del mapeo por línea**, 10 cierre = 120 min. Casos de envejecimiento, pantallas, violencia de género y desigualdades: ilustrativos, no prioridades municipales elegidas. Seguridad especial para violencia de género y recursos confidenciales. Los formatos HTML son materiales de trabajo, no acuerdos ni registros oficiales.
+
+
+## 19/10/2026 · Moderación identificada íntegramente
+
+El usuario confirma: **Rubén García Martín, técnico de Cultura del Ayuntamiento de Fuente Vaqueros**. Se actualizan portada, programa, participantes, guion, expediente y pruebas sin cambiar el reparto de intervenciones ni los acuerdos metodológicos. Esta información deja sin efecto la indicación anterior de apellidos/cargo pendientes.
