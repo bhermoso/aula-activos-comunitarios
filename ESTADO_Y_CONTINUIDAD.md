@@ -1,5 +1,8 @@
 # Aula de Salud Comunitaria Basada en Activos — estado y continuidad
 
+> **FUENTE VAQUEROS · REPARTO DEFINITIVO DE PONENCIAS (19/10/2026):** el bloque **02 «Trayectoria del Plan Local de Salud»** no tiene ponentes asignados ni explicación visible; **03 «Análisis de la situación de salud»** corresponde exclusivamente a **Carlos del Moral Campaña (Distrito Sanitario)**; **05 «Próximos pasos: perfil de salud local, priorización y mapeo de activos»** corresponde a **Blas Hermoso Rico (Distrito Sanitario)**. Es una rectificación posterior que **sustituye la propuesta de atribuir a ambos el bloque 02**. Cambios en PR #40, aún sin publicar.
+
+
 > **FUENTE VAQUEROS · REVISIÓN DEL PROGRAMA 19/10/2026:** **Sin modificar estructura ni duración** del taller de 22/10 (10:30–12:00), se reduce la trayectoria del bloque 02 a título y desplegable cerrado; bloque 04 pasa a «La visión de la salud local desde la Atención Primaria, las familias y la comunidad educativa»; bloque 05 revisa la priorización para **decidir si es válida o no**, sin reciclar automáticamente las prioridades anteriores; bloque 06 **planifica cómo abordar la priorización y preparar futuros mapeos, que dependerán de las grandes líneas estratégicas seleccionadas**. No afirmar que el taller actualiza, ratifica o realiza mapeo antes de decidir el método. Archivos modificados en rama de propuesta, publicación pendiente de autorización.
 
 
