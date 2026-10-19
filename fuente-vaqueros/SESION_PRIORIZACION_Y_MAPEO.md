@@ -4,7 +4,7 @@
 
 ## Propósito y orden de decisiones
 
-1. **Priorizar:** reconstruir qué se identificó en 2022, localizar los acuerdos posteriores si existen, deliberar qué necesidades siguen vigentes y decidir si hace falta una nueva consulta.
+1. **Revisar la priorización disponible:** comprobar si existe una priorización concluida y examinar su validez y vigencia; **decidir si sirve o no**, y solamente entonces concretar si es necesario actualizarla o realizar un proceso de priorización. Los datos de 2022 son antecedentes, no líneas que deban reutilizarse automáticamente.
 2. **Seleccionar grandes líneas estratégicas** si existe información suficiente. En caso de nueva encuesta, las líneas quedan como **hipótesis explícitamente provisionales** hasta examinar y deliberar los resultados.
 3. **Planificar el mapeo en esta misma sesión**, después de la priorización: por cada línea, concretar qué activos buscar, dónde, con quién, mediante qué técnica y qué equipo coordinará.
 4. **Ejecutar posteriormente** mapeos participativos y revisar los posibles activos pertinentes para tramitar los registros y validaciones por los canales oficiales.
@@ -77,3 +77,8 @@ No mezclar expediente, cifras, prioridades ni mapas de Fuente Vaqueros con Loja.
 - Competencias y responsables municipales/sanitarios para validar recursos en Localiza Salud.
 
 **Estado:** propuesta en rama del Aula, sin aprobación municipal, sin nuevas encuestas, sin intervención en COMPÁS-NG ni despliegue.
+
+
+### Precisión organizativa comunicada el 19/10/2026
+
+El **taller del 22 de octubre** no debe presentarse como un ejercicio de recuperación y reaprobación de prioridades históricas. En sus conclusiones se **revisará la priorización para decidir si es válida o necesita actualización**; su trabajo participativo **planificará cómo abordar la priorización** y preparará los criterios para **planificar futuros mapeos únicamente cuando las grandes líneas estratégicas estén priorizadas**. No confundir este taller inicial de 90 minutos con una sesión posterior de decisión sobre líneas y diseño de mapeos, cuya agenda deberá adaptarse a lo que el Grupo Motor acuerde sobre la vigencia de la priorización.
