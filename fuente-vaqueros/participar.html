@@ -43,30 +43,70 @@ button[disabled]{opacity:.55;cursor:not-allowed}
 footer{padding:10px 16px 30px;text-align:center;font-size:12px;color:var(--muted)}
 @media(max-width:670px){header{padding:20px 18px 47px}.card{padding:17px}.grid{grid-template-columns:1fr;gap:12px}label.wide{grid-column:auto}.actions button{flex:1;min-width:125px}header p{font-size:14px}.card h2{font-size:23px}}
 @media print{body{background:#fff}header{background:#fff;color:#111;padding:0 0 20px}header p,header .over{color:#222}main{margin:0;padding:0}.card{box-shadow:none}button{display:none!important}}
+
+/* Ficha de práctica: campos esenciales a la vista, complementarios desplegables. */
+html{scroll-behavior:auto}
+body{min-height:100svh;display:flex;flex-direction:column;overflow-x:hidden}
+header{flex:none;padding:12px max(14px,calc((100vw - 900px)/2)) 26px}
+header .over{font-size:10px;letter-spacing:.09em}
+header h1{font-size:clamp(25px,3vw,35px);margin:5px 0}
+header p{font-size:13px;line-height:1.4}
+main{flex:1 1 auto;width:100%;max-width:940px;margin:-15px auto 0;padding:0 14px 11px;display:flex;flex-direction:column;gap:8px}
+.card{margin:0;padding:13px 18px;border-radius:13px;box-shadow:0 3px 14px #123c2810}
+.card h2{font-size:23px;margin:0 0 5px}
+.intro-drawer,.receipt-card{flex:0 0 auto;overflow:hidden}
+.intro-drawer>summary,.receipt-card>summary,.extra-fields>summary{list-style:none;cursor:pointer;font-size:14px;font-weight:850;color:#245f4a;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.intro-drawer>summary::-webkit-details-marker,.receipt-card>summary::-webkit-details-marker,.extra-fields>summary::-webkit-details-marker{display:none}
+.intro-drawer>summary::after,.receipt-card>summary::after,.extra-fields>summary::after{content:"＋";font-size:21px;line-height:1}
+.intro-drawer[open]>summary::after,.receipt-card[open]>summary::after,.extra-fields[open]>summary::after{content:"−"}
+.intro-content{padding-top:8px}
+.intro-content p{font-size:13px;line-height:1.42}
+.intro .steps{margin-top:8px}
+.intro .steps span{font-size:10px;padding:5px 8px}
+.form-card{flex:1 1 auto;display:flex;flex-direction:column;min-height:0}
+.form-card form{display:flex;flex-direction:column;flex:1}
+.form-instructions{margin:3px 0 12px;font-size:13px;line-height:1.42;color:#425f55}
+.primary-grid{gap:12px}
+.extra-fields{border:1px solid #ccded0;background:#f6faf6;border-radius:10px;padding:10px 13px;margin-top:13px}
+.extra-grid{padding-top:13px}
+.grid{gap:11px}
+label{font-size:12px}
+input,select,textarea{padding:9px 10px;font-size:16px}
+textarea{min-height:73px}
+.form-card .actions{margin-top:auto;padding-top:14px}
+.form-card .actions button{width:100%;min-height:43px;font-size:14px}
+.form-card .status{font-size:13px;margin:7px 0 0}
+.receipt-card>div{padding-top:8px}
+.receipt-card p{margin:3px 0!important}
+footer{flex:0 0 auto;padding:6px 12px 10px;font-size:10px}
+@media(min-width:750px) and (min-height:630px){body{height:100svh;overflow:hidden}.form-card{justify-content:center}.form-card form{flex:0 0 auto}.form-card .actions{margin-top:9px;padding-top:6px}}
+@media(min-width:750px) and (max-height:629px){header p{display:none}.card{padding:9px 13px}.form-instructions{margin:2px 0 7px}footer{display:none}}
+@media(max-width:670px){header{padding:11px 14px 25px}.card{padding:11px 13px}.grid{grid-template-columns:1fr}.primary-grid{gap:10px}.form-card h2{font-size:20px}.form-instructions{font-size:12px;margin-bottom:9px}.extra-fields{margin-top:10px}.card h2{font-size:21px}footer{font-size:9px}}
+@media(max-width:670px) and (max-height:680px){header p{display:none}main{gap:7px}.form-card .actions{padding-top:10px}footer{padding:4px 10px 7px}}
+@media print{body{display:block;height:auto!important;overflow:visible!important}header{padding:0 0 20px}main{display:block;margin:0;padding:0}.card{margin:10px 0}.form-card{display:block}.form-card form{display:block}.intro-drawer,.receipt-card,.extra-fields{display:block}}
 </style>
 </head>
 <body>
 <header>
 <div class="over">Proceso local de salud · Fuente Vaqueros · 22 de octubre de 2026</div>
-<h1>Ficha participativa de actores y capacidades comunitarias</h1>
-<p>Una aportación exploratoria para preparar futuras decisiones sobre líneas estratégicas de salud y mapeo de activos.</p>
+<h1>Tu propuesta para Fuente Vaqueros</h1>
+<p>Identifica apoyos, iniciativas y recursos para fortalecer la salud y el bienestar local.</p>
 </header>
 <main>
-<section class="card intro" aria-label="Instrucciones">
-<p><strong>¿Qué entidades, redes o iniciativas ayudan a vivir mejor en Fuente Vaqueros?</strong> Comparte una idea sobre sus aportaciones a la salud y el bienestar. Estas propuestas nos servirán para continuar el trabajo participativo; todavía no constituyen un mapa de activos definitivo.</p>
+<details class="card intro intro-drawer"><summary>Indicaciones para participar</summary><div class="intro-content"><p><strong>¿Qué entidades, redes o iniciativas ayudan a vivir mejor en Fuente Vaqueros?</strong> Comparte una idea sobre sus aportaciones a la salud y el bienestar. Estas propuestas nos servirán para continuar el trabajo participativo; todavía no constituyen un mapa de activos definitivo.</p>
 <div class="steps"><span>1 · Identifica</span><span>2 · Explica qué aporta</span><span>3 · Envía al taller</span></div>
-<p class="note" style="margin-top:13px"><strong>Importante:</strong> no incluyas nombres de personas particulares, teléfonos ni información sobre la salud de personas concretas. Al terminar, pulsa <strong>«Enviar propuesta»</strong>.</p>
-</section>
-<section class="card" aria-labelledby="form-title">
-<h2 id="form-title">Añadir una propuesta</h2>
+<p class="note" style="margin-top:13px"><strong>Importante:</strong> no incluyas nombres de personas particulares, teléfonos ni información sobre la salud de personas concretas. Al terminar, pulsa <strong>«Enviar propuesta»</strong>.</p></div></details>
+<section class="card form-card" aria-labelledby="form-title">
+<h2 id="form-title">Tu propuesta</h2><p class="form-instructions">Identifica una entidad, red o iniciativa y explica qué aporta al bienestar de Fuente Vaqueros. <strong>Evita datos personales.</strong></p>
 <form id="proposal-form">
-<div class="grid">
+<div class="grid primary-grid">
 <label>Sector o ámbito *
 <select id="sector" required>
 <option value="">Selecciona un sector</option><option>Salud y atención sanitaria</option><option>Servicios sociales e inclusión</option><option>Educación y familias</option><option>Personas mayores y cuidados</option><option>Asociaciones y participación</option><option>Empleo y actividad económica</option><option>Medio ambiente, agua y agricultura</option><option>Seguridad y convivencia</option><option>Administración pública</option><option>Cultura, deporte y ocio</option><option>Otros</option>
 </select></label>
 <label>Tipo de actor o recurso *
 <input id="tipo" required maxlength="120" placeholder="Asociación, centro educativo, red vecinal…" autocomplete="off"></label>
+</div><details class="extra-fields"><summary>Ampliar mi propuesta (opcional)</summary><div class="grid extra-grid">
 <label>Entidad o colectivo
 <input id="entidad" maxlength="120" placeholder="Solo nombre público, no datos personales" autocomplete="off"></label>
 <label>Posible aportación
@@ -75,12 +115,12 @@ footer{padding:10px 16px 30px;text-align:center;font-size:12px;color:var(--muted
 <input id="prioridad" maxlength="180" placeholder="Solo propuesta para debatir; sin líneas aprobadas"></label>
 <label>Qué habría que contrastar
 <textarea id="observa" maxlength="450" placeholder="¿Con quién verificar? ¿Qué información falta?"></textarea></label>
-</div>
+</div></details>
 <div class="actions"><button type="submit" id="send" disabled>Enviar propuesta a la organización</button></div>
 </form>
 <p id="status" class="status" role="status" aria-live="polite"></p>
 </section>
-<section class="card" aria-labelledby="list-title"><h2 id="list-title">Mis aportaciones enviadas <span id="count">(0)</span></h2><p id="receipts" class="note">Aquí verás cuántas propuestas has enviado durante esta actividad.</p><p class="note">Si tienes otra idea, puedes rellenar de nuevo la ficha.</p></section>
+<details class="card receipt-card"><summary id="list-title">Mis aportaciones enviadas <span id="count">(0)</span></summary><div><p id="receipts" class="note">Aquí verás cuántas propuestas has enviado durante esta actividad.</p><p class="note">Si tienes otra idea, puedes rellenar de nuevo la ficha.</p></div></details>
 </main>
 <footer>Fuente Vaqueros · Taller de impulso del I Plan Local de Salud · Ficha de preparación del mapeo</footer>
 <script src="./firebase-config.js"></script>
