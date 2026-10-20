@@ -1,0 +1,14 @@
+{
+  "hosting": {
+    "target": "fuente-vaqueros-participantes",
+    "public": "dist-fuente-vaqueros",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "predeploy": [
+      "node scripts/prepare-fuente-vaqueros-hosting.cjs"
+    ]
+  }
+}
