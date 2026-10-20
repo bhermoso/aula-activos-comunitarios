@@ -171,6 +171,64 @@ body.pres .workspace{max-width:1200px;font-size:18px}body.pres .panel h2{font-si
 
 @media (max-width:900px){.layout{grid-template-columns:minmax(0,1fr)}.rail{position:static;height:auto;border-right:0;border-bottom:1px solid var(--line)}.sub{display:none}.menu{grid-auto-flow:column;grid-auto-columns:minmax(190px,1fr);overflow-x:auto;padding-bottom:4px}.nav-text small,.rail-desc,.rail-bottom span{display:none}.rail{padding:16px 10px}.portada-hero{grid-template-columns:minmax(0,1fr)}.form-art{display:none}.portada-cursos{grid-template-columns:minmax(0,1fr)}.pasos{grid-template-columns:repeat(2,minmax(0,1fr))}.head-actions,.portada-bar a{margin-right:0}.site-head{padding-top:56px}.portada-bar{padding-top:56px}}
 @media print{.site-head,.rail,.controls,#aula-home-global,.aula-back,.timer-widget{display:none!important}.layout{display:block}.panel{box-shadow:none;border:0}}
+
+/* Escala coordinada con el Aula: REDCap conserva toda su información y scroll. */
+#portada .portada-bar{padding:12px clamp(16px,3.5vw,48px);font-size:11px}
+#portada .portada-hero{
+  max-width:1400px;
+  grid-template-columns:minmax(0,1.32fr) minmax(0,.92fr);
+  gap:clamp(16px,2.7vw,32px);
+  padding:clamp(18px,3vw,34px) clamp(16px,3.5vw,48px) 13px;
+}
+#portada .p-kicker{font-size:11px;letter-spacing:.12em}
+#portada h1{font-size:clamp(36px,4.7vw,60px);line-height:1.06;margin:8px 0 12px}
+#portada h1 span{margin-top:5px}
+#portada .portada-hero p{font-size:clamp(14px,1.35vw,16px);line-height:1.46;max-width:70ch}
+#portada .fecha{margin-top:14px;font-size:12px;padding:6px 12px}
+#portada .form-art{max-width:345px;padding:15px 18px;border-radius:16px;transform:rotate(-1deg)}
+#portada .form-art .fr{grid-template-columns:110px 1fr;gap:8px;padding:5px 0}
+#portada .form-art .fh{margin-bottom:6px}
+#portada .form-art .save{margin-top:7px}
+#portada .portada-cursos{max-width:1400px;padding:9px clamp(16px,3.5vw,48px) 18px;gap:14px}
+#portada .pcard{padding:19px 22px;border-radius:16px;gap:8px}
+#portada .pcard h2{font-size:clamp(23px,2.4vw,29px)}
+#portada .pcard p{font-size:13px;line-height:1.46}
+#portada .pcard .units{margin:2px 0}
+#portada .pcard .units span{font-size:10px}
+#portada .cta{padding:10px 15px;font-size:13px;border-radius:9px}
+#portada .portada-pasos{max-width:1400px;padding:0 clamp(16px,3.5vw,48px) 17px}
+#portada .portada-pasos h3{font-size:20px;margin-bottom:8px}
+#portada .pasos{gap:8px}
+#portada .pasos div{padding:10px 11px;border-radius:11px;font-size:12px}
+#portada .pasos div b{font-size:13px}
+#portada .portada-pasos p{font-size:12px!important;margin-top:9px!important}
+#portada .portada-pie{padding:10px clamp(16px,3.5vw,48px);font-size:11px}
+@media(max-width:900px){
+ #portada .portada-hero{grid-template-columns:1fr;padding:15px 17px 10px}
+ #portada .form-art{display:none}
+ #portada .portada-cursos{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;padding:7px 17px 16px}
+ #portada .portada-bar{padding:12px 17px}
+ #portada .portada-bar a{margin-right:0}
+ #portada .pasos{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:600px){
+ #portada .portada-bar{padding-top:56px}
+ #portada h1{font-size:clamp(29px,7vw,43px)}
+ #portada .portada-hero p{font-size:13px}
+ #portada .portada-cursos{grid-template-columns:1fr;padding:8px 14px 14px}
+ #portada .pcard{padding:14px 17px}
+ #portada .pcard h2{font-size:24px}
+ #portada .portada-pasos{padding:0 14px 16px}
+ #portada .pasos{grid-template-columns:repeat(2,minmax(0,1fr))}
+ #portada .pasos div{padding:9px}
+}
+@media(max-height:700px) and (min-width:901px){
+ #portada .portada-hero{padding-top:12px;padding-bottom:8px}
+ #portada h1{font-size:clamp(33px,4vw,48px)}
+ #portada .form-art{max-width:285px;padding:10px 13px}
+ #portada .form-art .fr{padding:3px 0}
+ #portada .pcard{padding:14px 17px}
+}
 </style><style>.recursos-contexto{margin-top:20px;padding:17px;border:1px solid #cbded1;background:#f1f7f3;border-radius:13px;color:#183a37}.recursos-contexto strong{display:block;margin-bottom:10px}.recursos-contexto a{display:inline-block;margin:3px 7px 3px 0;padding:8px 11px;border:1px solid #bbd4c5;background:white;border-radius:8px;color:#176052;font-size:12px;font-weight:700;text-decoration:underline;text-underline-offset:3px}</style><style id="rhizome-style">
 .rizoma{margin-top:22px;border-top:1px solid #cfdfd6;padding-top:20px;color:#183a37}.rizoma h3{font:600 22px Georgia,serif;margin:0 0 8px;color:#183a37}.rizoma p{font-size:13px;color:#60766e;margin:0 0 13px}.rizoma-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:9px}
 .rizoma-link{border:1px solid #bfd4c8;background:#f6faf7;border-radius:11px;padding:13px;text-decoration:none;color:#174c42;display:flex;flex-direction:column;gap:4px}.rizoma-link:hover,.rizoma-link:focus-visible{border-color:#137c73;background:#e8f4ef}.rizoma-link small{font:750 10px system-ui,sans-serif;letter-spacing:.05em;color:#5a786d}.rizoma-link b{font:650 14px system-ui,sans-serif}.rizoma-link span{font-size:12px;line-height:1.4;color:#526b60}.rizoma-index{border:1px solid #cdded5;background:#f3f8f4;border-radius:13px;padding:19px;margin-bottom:16px}.rizoma-index h2{font:600 25px Georgia,serif;margin:0 0 6px;color:#183a37}.rizoma-index p{margin:0 0 14px;color:#587267;font-size:13px}.rizoma-index button{border:1px solid #bdD6ca;background:#fff;color:#1b5c50;padding:9px 12px;border-radius:9px;cursor:pointer;margin:0 7px 7px 0;font-size:12px;font-weight:750}.rizoma-index button:hover{background:#e5f3e9}
