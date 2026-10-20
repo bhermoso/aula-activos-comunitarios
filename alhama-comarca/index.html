@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#102a28"><meta name="description" content="I Plan Comarcal de Salud de la Mancomunidad de Municipios de la Comarca de Alhama de Granada. Programa, trayectoria, coloquio y trabajo participativo.">
+<title>Plan Comarcal de Salud · Comarca de Alhama de Granada · Aula</title>
+<link rel="stylesheet" href="../assets/aula-portadas.css?v=20261020-escala1">
+<style>
+:root{--ink:#173c34;--dark:#102a28;--accent:#bfe0af;--soft:#eff6ed;--muted:#546c61;--line:#d3e3d8}
+*{box-sizing:border-box}
+html{scroll-behavior:auto}
+body{margin:0;background:#f7f7f2;color:var(--ink);font:14px/1.5 Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+button,a{font:inherit}
+button{cursor:pointer}
+a{color:#1b6047}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #ddb558;outline-offset:2px}
+#cover{min-height:100svh;display:flex;flex-direction:column}
+#cover .portada-hero{padding:clamp(15px,2.5vh,30px) clamp(17px,4vw,53px) 11px}
+#cover .portada-hero h1{font-size:clamp(30px,4.3vw,55px);margin:8px 0 10px}
+#cover .portada-hero p{font-size:clamp(13px,1.35vw,16px);line-height:1.48;max-width:75ch}
+#cover .form-art{max-width:325px;padding:13px 17px}
+#cover .form-art .fr{padding:5px 0}
+#cover .fecha{font-size:12px;padding:6px 11px;margin-top:14px}
+#cover .portada-cursos{max-width:1350px;flex:1;align-content:stretch;padding:9px clamp(17px,4vw,53px) 13px;gap:13px}
+#cover .pcard{min-height:0;padding:clamp(14px,2vw,22px);border-radius:15px}
+#cover .pcard h2{font-size:clamp(23px,2.5vw,30px)}
+#cover .pcard p{font-size:13px;line-height:1.47}
+#cover .pcard .cta{font-size:13px;padding:10px 13px}
+#cover .portada-pie{padding:10px clamp(17px,4vw,53px)}
+#app[hidden],#cover[hidden]{display:none!important}
+#app:not([hidden]){height:100svh;display:flex;flex-direction:column;min-height:0;overflow:hidden}
+.app-top{background:var(--dark);color:#fff;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;padding:9px clamp(14px,3vw,37px);flex:none}
+.app-top strong{font-size:11px;letter-spacing:.1em}
+.app-top a,.app-top button{color:#e9f5ec;background:transparent;border:1px solid #65917b;border-radius:9px;padding:7px 11px;font-size:11px;font-weight:800;text-decoration:none}
+.app-main{max-width:1400px;width:100%;margin:0 auto;padding:9px clamp(12px,3vw,39px) 9px;display:flex;flex-direction:column;flex:1;min-height:0}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px;flex:none;background:#ecf1e9;padding:6px;border:1px solid #dce7dc;border-radius:10px}
+.tab{background:transparent;color:#285540;border:1px solid transparent;border-radius:8px;padding:8px 14px;font-size:12px;font-weight:800}
+.tab[aria-selected=true]{background:#fff;border-color:#bcd4c4}
+.slide{display:none;min-height:0;min-width:0;overflow-y:auto;scrollbar-gutter:stable;padding:6px 4px 13px}
+.slide.active{display:block;flex:1}
+.slide h2{font:600 clamp(22px,2.7vw,32px)/1.17 Georgia,serif;margin:3px 0 9px;color:var(--dark)}
+.lead{margin:3px 0 13px;background:#eaf3e8;border-left:4px solid #76a88b;border-radius:0 10px 10px 0;padding:10px 13px;font-size:14px;line-height:1.5;color:#315747}
+.surface{background:#fff;border:1px solid var(--line);border-radius:13px;padding:12px 15px}
+.mini-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px}
+.mini{padding:13px;border:1px solid var(--line);border-radius:11px;background:#fff}
+.mini strong{display:block;font:600 18px/1.3 Georgia,serif;color:#20573f;margin-bottom:5px}
+.mini p{font-size:12px;margin:0;color:#4e655b}
+.agenda-list{border:1px solid var(--line);border-radius:12px;background:#fff;overflow:hidden}
+.agenda-line{border-bottom:1px solid var(--line)}
+.agenda-line:last-child{border-bottom:0}
+.agenda-line>summary{list-style:none;display:grid;grid-template-columns:34px minmax(0,1fr) 75px;gap:9px;align-items:center;padding:11px 14px;cursor:pointer}
+.agenda-line>summary::-webkit-details-marker{display:none}
+.agenda-line>summary span{color:#217052;font-weight:900}
+.agenda-line>summary strong{font:600 clamp(14px,1.5vw,18px)/1.25 Georgia,serif}
+.agenda-line>summary small{text-align:right;font-size:10px;color:#547162}
+.agenda-line[open]>summary{background:#edf6ed}
+.agenda-body{padding:9px 18px 14px 56px;border-top:1px solid var(--line);font-size:13px}
+.agenda-body p{margin:4px 0}
+.drawer{border:1px solid var(--line);border-radius:10px;background:#fff;margin-top:11px;overflow:hidden}
+.drawer>summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:9px;align-items:center;padding:12px 15px;color:#1f5a3d;font-size:13px;font-weight:800}
+.drawer>summary::-webkit-details-marker{display:none}
+.drawer>summary::after{content:"＋";font-size:21px;font-weight:400}
+.drawer[open]>summary{background:#edf6ed}
+.drawer[open]>summary::after{content:"−"}
+.drawer-body{padding:10px 15px 15px}
+.drawer-body p{margin:6px 0}
+.municipalities{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;list-style:none;padding:0;margin:10px 0}
+.municipalities li{background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px;font-weight:800;font-size:13px}
+.citation-link{font-size:12px}
+.steps{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px;margin:12px 0}
+.step{background:#fff;border:1px solid var(--line);border-radius:11px;padding:12px;min-width:0}
+.step b{display:block;color:#247454;font-size:14px;margin-bottom:5px}
+.step strong{font-size:13px}
+.step p{font-size:12px;color:#587166;margin:4px 0 0}
+.stage-callout{background:#fff;border:1px solid #d3e4d6;border-radius:12px;padding:12px 15px;margin-top:11px;font-size:13px}
+.semicircle{position:relative;background:radial-gradient(ellipse at 50% 115%,#dfeee1 0%,#f7faf6 67%);border:1px solid #cde0cf;border-radius:18px;height:325px;margin:10px 0 12px;overflow:hidden}
+.semi-label{position:absolute;left:0;right:0;top:11px;text-align:center;text-transform:uppercase;letter-spacing:.1em;font-size:10px;font-weight:900;color:#3a8060}
+.semi-line{position:absolute;inset:20px 0 0;width:100%;height:265px;pointer-events:none}
+.semi-people{list-style:none;margin:0;padding:0}
+.chair{position:absolute;transform:translateX(-50%);width:175px;min-height:95px;padding:10px 8px;background:#fff;border:1px solid #bed8c7;border-radius:12px;box-shadow:0 6px 15px #123d2810;text-align:center;display:flex;flex-direction:column;align-items:center;gap:3px}
+.chair-1{left:11%;top:173px}.chair-2{left:29%;top:77px}.chair-3{left:50%;top:36px}.chair-4{left:71%;top:77px}.chair-5{left:89%;top:173px}
+.chair .face{width:27px;height:27px;border-radius:50%;background:linear-gradient(#76af90 0 32%,#cbe1d0 32%);border:2px solid #e3f0e5}
+.chair strong{font:600 15px/1.15 Georgia,serif}
+.chair small{font-size:10px;color:#738579}
+.moderation{position:absolute;left:50%;transform:translateX(-50%);bottom:13px;width:min(310px,80%);background:#174839;color:#fff;border-radius:12px;text-align:center;padding:10px}
+.moderation span{display:block;color:#b8dbc2;font-size:10px;letter-spacing:.08em;text-transform:uppercase;font-weight:850}
+.moderation strong{font:600 18px Georgia,serif}
+.question{background:#eaf4e8;border:1px solid #bcd8c2;border-left:4px solid #6b9d77;border-radius:9px;padding:11px 14px;font:600 clamp(17px,2vw,22px)/1.35 Georgia,serif}
+.voice-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.voice{border:1px solid var(--line);border-radius:10px;background:#fff}
+.voice>summary{list-style:none;display:flex;align-items:center;gap:9px;padding:10px 12px;cursor:pointer}
+.voice>summary::-webkit-details-marker{display:none}
+.voice>summary>span:last-child{display:flex;flex-direction:column}
+.voice .voice-no{font-size:12px;font-weight:850;color:#26774a}
+.voice>summary strong{font:600 15px Georgia,serif}
+.voice>summary small{font-size:11px;color:#607d6a}
+.voice p{font-size:13px;margin:0;padding:0 12px 12px}
+.proposal-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.proposal-grid .mini{min-height:100px}
+.navigation{display:flex;align-items:center;justify-content:space-between;gap:11px;border-top:1px solid var(--line);padding:8px 0 0;flex:none}
+.navigation button{background:#205b43;color:#fff;border:1px solid #205b43;border-radius:9px;padding:9px 13px;font-size:12px;font-weight:800}
+.navigation button:first-child{background:#fff;color:#225941;border-color:#c0d9c9}
+.navigation button:disabled{opacity:.4;cursor:default}
+.navigation span{font-weight:800;color:#597268;font-size:11px}
+@media(max-width:1000px){.semicircle .chair{width:145px}.chair strong{font-size:13px}.chair-1{left:13%}.chair-5{left:87%}}
+@media(max-width:760px){#cover .form-art{display:none}#cover .portada-cursos{grid-template-columns:repeat(2,minmax(0,1fr))}#cover .pcard p{display:none}.tabs{flex-wrap:nowrap;overflow-x:auto;white-space:nowrap}.tab{flex:0 0 auto}.mini-grid,.municipalities{grid-template-columns:repeat(2,minmax(0,1fr))}.steps{grid-template-columns:repeat(2,minmax(0,1fr))}.voice-grid{grid-template-columns:1fr}.proposal-grid{grid-template-columns:1fr}.semicircle{height:auto;padding:34px 10px 12px}.semi-line{display:none}.semi-people{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.chair{position:static;transform:none;width:auto;min-height:83px}.chair-3{grid-column:1/-1;grid-row:1;justify-self:center;width:min(100%,235px)}.moderation{position:static;transform:none;margin:12px auto 0}.agenda-line>summary{grid-template-columns:25px 1fr 18px;padding:9px}.agenda-line>summary small{font-size:0}.agenda-line>summary small i{font-size:15px}}
+@media(max-width:480px){#cover .portada-cursos{grid-template-columns:1fr}#cover .portada-hero{padding:14px 16px 6px}#cover .portada-hero h1{font-size:28px}#cover .portada-hero p{font-size:12px}#cover .pcard{padding:13px}#cover .pcard h2{font-size:21px}.app-top{padding:8px 12px}.app-main{padding:6px 9px}.tab{padding:7px 10px}.slide h2{font-size:23px}.lead{font-size:12px}}
+@media print{#cover,.app-top,.tabs,.navigation{display:none!important}#app,#app[hidden]{display:block!important;height:auto;overflow:visible}.app-main{display:block}.slide{display:block!important;overflow:visible;page-break-before:always}.drawer,.voice{break-inside:avoid}}
+</style></head><body>
+<section class="portada" id="cover" data-module="comarca" aria-label="Portada del I Plan Comarcal de Salud">
+<div class="portada-bar"><strong>AULA · SALUD COMUNITARIA</strong><a href="../index.html">← Aula principal</a></div>
+<div class="portada-hero"><div><div class="p-kicker">Mancomunidad · Comarca de Alhama de Granada · RELAS</div>
+<h1>I Plan Comarcal de Salud <span>Comarca de Alhama de Granada</span></h1>
+<p>La salud de los municipios de la Mancomunidad se trabaja desde una mirada comarcal, con participación ciudadana, colaboración institucional y atención a los recursos y capacidades de cada territorio.</p>
+<span class="fecha">Plan iniciado en 2025 · Próximo encuentro: fecha y lugar por confirmar</span></div>
+<div class="form-art" aria-hidden="true"><div class="fh"><span>PLAN COMARCAL DE SALUD</span><span>MANCOMUNIDAD</span></div><div class="fr"><b>Territorio</b><span>Ocho municipios</span></div><div class="fr"><b>Salud</b><span>Información y bienestar</span></div><div class="fr"><b>Comunidad</b><span>Participación y redes</span></div><div class="fr"><b>Itinerario</b><span>Priorizar · Mapear · Actuar</span></div><div class="br">Diálogo · Salud en positivo · Colaboración</div></div></div>
+<div class="portada-cursos">
+<article class="pcard"><div class="lv">Plan Comarcal de Salud · Encuentro intersectorial</div><h2>Programa y trabajo comunitario</h2><p>Trayectoria, propuesta de coloquio, planificación del proceso y relación de sectores pendientes de confirmar.</p><div class="units"><span>RELAS</span><span>Comarca</span><span>Participación</span></div><a class="cta" href="#programa" data-enter="programa">Entrar al plan →</a></article>
+<article class="pcard"><div class="lv">Grupo motor comarcal · Sesión por concretar</div><h2>Priorización y mapeo de activos</h2><p>Propuesta para acordar líneas estratégicas en positivo y decidir después qué activos mapear y cómo.</p><div class="units"><span>Priorización</span><span>Capacidades</span><span>Coordinación</span></div><a class="cta" href="sesion-priorizacion-mapeo.html">Ver próxima sesión →</a></article>
+</div><div class="portada-pie"><span>Mancomunidad de Municipios de la Comarca de Alhama de Granada</span><a href="../index.html">Volver al Aula →</a></div>
+</section>
+<div id="app" hidden>
+<nav class="app-top" aria-label="Navegación del Plan Comarcal"><strong>I PLAN COMARCAL DE SALUD · COMARCA DE ALHAMA</strong><div><a href="../index.html">← Aula</a> <button type="button" id="cover-button">⌂ Portada</button> <a href="sesion-priorizacion-mapeo.html">Sesión posterior →</a></div></nav>
+<main class="app-main">
+<nav class="tabs" role="tablist" aria-label="Secciones del plan">
+<button class="tab" data-tab="programa" aria-selected="true">Programa</button>
+<button class="tab" data-tab="trayectoria" aria-selected="false">Trayectoria</button>
+<button class="tab" data-tab="coloquio" aria-selected="false">Coloquio</button>
+<button class="tab" data-tab="hoja" aria-selected="false">Hoja de ruta</button>
+<button class="tab" data-tab="practica" aria-selected="false">Práctica</button>
+<button class="tab" data-tab="participantes" aria-selected="false">Participantes</button>
+</nav>
+<section class="slide active" id="programa" aria-labelledby="programa-title">
+<h2 id="programa-title">Programa de trabajo · Propuesta para el encuentro comarcal</h2>
+<p class="lead">Apertura institucional → antecedentes y situación de salud → coloquio intersectorial → próximos pasos → práctica participativa → puesta en común. <strong>La relación de participantes figura al final.</strong></p>
+<div class="agenda-list"><details class="agenda-line"><summary><span>01</span><strong>Apertura y sentido del Plan Comarcal</strong><small>Detalles <i aria-hidden="true">⌄</i></small></summary><div class="agenda-body"><p>Situar el proyecto común y el propósito del encuentro. Intervenciones institucionales pendientes de confirmar.</p><p><strong>Orientación:</strong> Una comarca, una conversación compartida.</p></div></details>
+<details class="agenda-line"><summary><span>02</span><strong>Trayectoria del Plan Comarcal de Salud</strong><small>Detalles <i aria-hidden="true">⌄</i></small></summary><div class="agenda-body"><p>Recuperar la presentación de RELAS del 21 de abril de 2025 y revisar los pasos posteriores con la Mancomunidad.</p><p><strong>Orientación:</strong> Partir de antecedentes comprobados.</p></div></details>
+<details class="agenda-line"><summary><span>03</span><strong>Situación de salud de la comarca</strong><small>Detalles <i aria-hidden="true">⌄</i></small></summary><div class="agenda-body"><p>Presentar la información disponible con sus ámbitos, fuentes y periodos. Ponencia, indicadores y alcance por confirmar.</p><p><strong>Orientación:</strong> Evidencia para dialogar, no prioridades automáticas.</p></div></details>
+<details class="agenda-line"><summary><span>04</span><strong>Coloquio · Salud y bienestar en la comarca</strong><small>Detalles <i aria-hidden="true">⌄</i></small></summary><div class="agenda-body"><p>Conversación entre distintos ámbitos de la vida comunitaria. Composición y moderación pendientes de confirmación.</p><p><strong>Orientación:</strong> Escuchar a la comunidad y reconocer sus capacidades.</p></div></details>
+<details class="agenda-line"><summary><span>05</span><strong>Próximos pasos del Plan Comarcal</strong><small>Detalles <i aria-hidden="true">⌄</i></small></summary><div class="agenda-body"><p>Contrastar el perfil de salud, formular y priorizar líneas estratégicas en positivo y planificar después el mapeo pertinente.</p><p><strong>Orientación:</strong> Primero prioridades; después activos.</p></div></details>
+<details class="agenda-line"><summary><span>06</span><strong>Práctica participativa</strong><small>Detalles <i aria-hidden="true">⌄</i></small></summary><div class="agenda-body"><p>Recoger propuestas sobre entidades, iniciativas y capacidades presentes en los distintos municipios; acordar cómo contrastarlas.</p><p><strong>Orientación:</strong> Aportaciones exploratorias, aún no inventario validado.</p></div></details>
+<details class="agenda-line"><summary><span>07</span><strong>Puesta en común y cierre</strong><small>Detalles <i aria-hidden="true">⌄</i></small></summary><div class="agenda-body"><p>Sintetizar lo aportado e identificar encargos y calendario únicamente cuando se acuerden.</p><p><strong>Orientación:</strong> Distinguir propuestas de decisiones.</p></div></details></div>
+</section>
+<section class="slide" id="trayectoria" aria-labelledby="trayectoria-title">
+<h2 id="trayectoria-title">De la presentación de RELAS al Plan Comarcal de Salud</h2>
+<p class="lead">La Mancomunidad presentó públicamente el proyecto RELAS el <strong>21 de abril de 2025</strong>. Es un punto de partida documentado; las actuaciones y acuerdos posteriores deben reconstruirse con la documentación del proceso.</p>
+<div class="mini-grid"><article class="mini"><strong>2025 · Inicio</strong><p>Presentación institucional del proyecto comarcal RELAS.</p></article><article class="mini"><strong>Situación de salud</strong><p>Recopilar indicadores comparables y perspectivas territoriales con sus fuentes.</p></article><article class="mini"><strong>Participación</strong><p>Escuchar a los municipios, agentes, profesionales y ciudadanía.</p></article><article class="mini"><strong>Continuidad</strong><p>Priorizar líneas de bienestar y acordar cómo movilizar capacidades.</p></article></div>
+<details class="drawer"><summary>Los ocho municipios de la Mancomunidad</summary><div class="drawer-body"><ul class="municipalities"><li>Alhama de Granada</li><li>Arenas del Rey</li><li>Cacín</li><li>Fornes</li><li>Játar</li><li>Jayena</li><li>Santa Cruz del Comercio</li><li>Zafarraya</li></ul><p class="citation-link">Relación conforme a la modificación estatutaria publicada en el <a href="https://www.juntadeandalucia.es/boja/2019/73/113.html" target="_blank" rel="noopener noreferrer">BOJA de 2019</a>.</p></div></details>
+<details class="drawer"><summary>Fuentes y documentación para completar la trayectoria</summary><div class="drawer-body"><p><a href="https://www.alhama.com/digital/comarca/noticias-comarca-alhama/16753-la-mancomunidad-impulsa-el-plan-comarcal-de-salud" target="_blank" rel="noopener noreferrer">Presentación institucional de abril de 2025</a>. Pendiente de añadir: actas, constitución y composición del grupo motor, perfil de salud comarcal y acuerdos adoptados.</p><p>La presentación del proyecto no se interpreta aquí como aprobación definitiva del plan ni de líneas prioritarias.</p></div></details>
+</section>
+<section class="slide" id="coloquio" aria-labelledby="coloquio-title">
+<h2 id="coloquio-title">Salud y bienestar en la comarca: cinco perspectivas para dialogar</h2>
+<p class="lead">Representación orientativa de ámbitos que convendría escuchar. <strong>La composición de la mesa y la moderación aún no están confirmadas.</strong></p>
+<figure class="semicircle" aria-label="Cinco ámbitos de participación en semicírculo, con moderación pendiente de confirmar">
+<figcaption class="semi-label">Una comarca · Diversas voces · Objetivos compartidos</figcaption>
+<svg class="semi-line" viewBox="0 0 1000 380" preserveAspectRatio="none" aria-hidden="true"><path d="M 65 310 C 110 75, 310 20, 500 15 C 690 20, 890 75, 935 310" fill="none" stroke="#c4ddc9" stroke-width="2.5" stroke-dasharray="8 9"/></svg>
+<ul class="semi-people"><li class="chair chair-1"><span class="face" aria-hidden="true"></span><strong>Epidemiología</strong><small>Por confirmar</small></li>
+<li class="chair chair-2"><span class="face" aria-hidden="true"></span><strong>Atención Primaria</strong><small>Por confirmar</small></li>
+<li class="chair chair-3"><span class="face" aria-hidden="true"></span><strong>Familias y asociaciones</strong><small>Por confirmar</small></li>
+<li class="chair chair-4"><span class="face" aria-hidden="true"></span><strong>Educación</strong><small>Por confirmar</small></li>
+<li class="chair chair-5"><span class="face" aria-hidden="true"></span><strong>Servicios sociales y bienestar emocional</strong><small>Por confirmar</small></li></ul>
+<div class="moderation"><span>Moderación y dinamización</span><strong>Por confirmar</strong></div>
+</figure>
+<div class="question">¿Qué favorece hoy la salud y el bienestar en los municipios de la comarca? ¿Qué capacidades podemos fortalecer conjuntamente?</div>
+<details class="drawer"><summary>Consultar preguntas propuestas para cada ámbito</summary><div class="drawer-body"><div class="voice-grid"><details class="voice"><summary><span class="voice-no">01</span><span><strong>Epidemiología</strong><small>Datos y diferencias territoriales</small></span></summary><p>¿Qué nos dicen los datos disponibles de los distintos municipios? ¿Qué necesitamos contrastar con la experiencia comunitaria?</p></details>
+<details class="voice"><summary><span class="voice-no">02</span><span><strong>Atención Primaria</strong><small>Promoción y cuidados</small></span></summary><p>¿Qué apoyos favorecen la salud en la comarca? ¿Dónde existen oportunidades para reforzar la prevención y la coordinación?</p></details>
+<details class="voice"><summary><span class="voice-no">03</span><span><strong>Familias y asociaciones</strong><small>Apoyos cotidianos</small></span></summary><p>¿Qué iniciativas y relaciones sostienen el bienestar en nuestros municipios? ¿Qué redes pueden fortalecerse?</p></details>
+<details class="voice"><summary><span class="voice-no">04</span><span><strong>Educación</strong><small>Infancia y juventud</small></span></summary><p>¿Qué espacios, prácticas y alianzas ayudan a crecer con salud? ¿Qué colaboración entre escuela, familias y territorio puede ampliarse?</p></details>
+<details class="voice"><summary><span class="voice-no">05</span><span><strong>Servicios sociales y bienestar emocional</strong><small>Equidad y redes de cuidados</small></span></summary><p>¿Qué barreras y recursos comunitarios conviene reconocer? ¿Cómo conectar servicios, asociaciones y apoyo mutuo?</p></details></div></div></details>
+</section>
+<section class="slide" id="hoja" aria-labelledby="hoja-title">
+<h2 id="hoja-title">Hoja de ruta · De la información compartida a la acción comarcal</h2>
+<p class="lead"><strong>La mirada comarcal debe reconocer diferencias entre municipios.</strong> Las prioridades se construyen participativamente; solo después se decide qué capacidades y activos conviene mapear.</p>
+<div class="steps"><div class="step"><b>01</b><strong>Memoria y perfil</strong><p>Antecedentes y situación de salud con información comparable.</p></div><div class="step"><b>02</b><strong>Escucha territorial</strong><p>Entidades, servicios y ciudadanía de todos los municipios.</p></div><div class="step"><b>03</b><strong>Líneas en positivo</strong><p>Deliberación y priorización de objetivos de bienestar.</p></div><div class="step"><b>04</b><strong>Mapeo pertinente</strong><p>Qué recursos buscar, dónde, cómo y con quién.</p></div><div class="step"><b>05</b><strong>Acción y evaluación</strong><p>Responsabilidades, colaboración y seguimiento.</p></div></div>
+<div class="stage-callout"><strong>Siguiente paso propuesto:</strong> reconstruir los acuerdos desde 2025 y concretar una sesión del grupo motor para revisar el perfil, acordar el procedimiento de priorización y preparar el mapeo según las líneas seleccionadas. <a href="sesion-priorizacion-mapeo.html">Consultar propuesta de sesión →</a></div>
+</section>
+<section class="slide" id="practica" aria-labelledby="practica-title">
+<h2 id="practica-title">Práctica participativa · Identificar capacidades comarcales</h2>
+<p class="lead">El objetivo inicial es reconocer posibilidades, <strong>no elaborar aún un inventario de activos validado</strong>. Cada aportación debe indicar a qué municipio, municipios o ámbito comarcal se refiere.</p>
+<div class="proposal-grid">
+<article class="mini"><strong>01 · Situar</strong><p>¿Dónde actúa la iniciativa, entidad, red o recurso? ¿Es municipal o comarcal?</p></article>
+<article class="mini"><strong>02 · Reconocer</strong><p>¿Qué aporta al bienestar, la convivencia, los cuidados o la participación?</p></article>
+<article class="mini"><strong>03 · Contrastar</strong><p>¿Con quién habría que verificar su actividad y en qué línea podría ayudar?</p></article>
+</div>
+<div class="stage-callout"><strong>Ficha para participantes:</strong> pendiente de acordar con la organización. No se reutiliza el QR ni el formulario de Fuente Vaqueros: las propuestas de ambos territorios deben mantenerse separadas.</div>
+</section>
+<section class="slide" id="participantes" aria-labelledby="participantes-title">
+<h2 id="participantes-title">Participantes e invitaciones · Por confirmar</h2>
+<p class="lead">La convocatoria de este encuentro comarcal está pendiente de concretar. Las categorías siguientes describen <strong>ámbitos a considerar</strong>, no compromisos de asistencia ni asignaciones a la mesa.</p>
+<details class="drawer"><summary>Instituciones y coordinación comarcal</summary><div class="drawer-body"><p>Representación de la Mancomunidad y de los ayuntamientos integrantes; coordinación del Plan Comarcal y moderación. <strong>Nombres, funciones y asistencia por confirmar.</strong></p></div></details>
+<details class="drawer"><summary>Salud, cuidados y servicios públicos</summary><div class="drawer-body"><p>Atención Primaria, salud pública y epidemiología, servicios sociales, salud mental, educación, cuidados y otros dispositivos según el programa definitivo. <strong>Ponentes y representantes por confirmar.</strong></p></div></details>
+<details class="drawer"><summary>Comunidad y tejido asociativo de los municipios</summary><div class="drawer-body"><p>Asociaciones, familias, juventud, personas mayores, iniciativas vecinales y agentes de la vida comunitaria. Será necesario equilibrar la participación territorial. <strong>Invitaciones y asistencias por confirmar.</strong></p></div></details>
+<p class="stage-callout"><strong>Convocatoria:</strong> fecha, hora, sede, moderación y composición definitiva pendientes de confirmar con la Mancomunidad.</p>
+</section>
+<nav class="navigation" aria-label="Navegación de diapositivas"><button id="prev" type="button">← Anterior</button><span id="count">1 de 6</span><button id="next" type="button">Siguiente →</button></nav>
+</main></div>
+<script>
+(function(){
+const cover=document.getElementById('cover'),app=document.getElementById('app');
+const ids=['programa','trayectoria','coloquio','hoja','practica','participantes'];
+let current='programa';
+function show(id){if(!ids.includes(id))id='programa';current=id;
+ document.querySelectorAll('.slide').forEach(e=>e.classList.toggle('active',e.id===id));
+ document.querySelectorAll('.tab').forEach(e=>e.setAttribute('aria-selected',e.dataset.tab===id?'true':'false'));
+ const i=ids.indexOf(id);document.getElementById('prev').disabled=i===0;document.getElementById('next').disabled=i===ids.length-1;
+ document.getElementById('count').textContent=(i+1)+' de '+ids.length;
+ document.getElementById(id).scrollTop=0;
+}
+function enter(id){cover.hidden=true;app.hidden=false;document.body.style.overflow='hidden';show(id);if(location.hash!=='#'+id)history.replaceState(null,'','#'+id)}
+function leave(){app.hidden=true;cover.hidden=false;document.body.style.overflow='';history.replaceState(null,'',location.pathname+location.search)}
+document.querySelectorAll('[data-enter]').forEach(e=>e.addEventListener('click',event=>{event.preventDefault();enter(e.dataset.enter)}));
+document.querySelectorAll('.tab').forEach(e=>e.addEventListener('click',()=>enter(e.dataset.tab)));
+document.getElementById('prev').addEventListener('click',()=>enter(ids[Math.max(0,ids.indexOf(current)-1)]));
+document.getElementById('next').addEventListener('click',()=>enter(ids[Math.min(ids.length-1,ids.indexOf(current)+1)]));
+document.getElementById('cover-button').addEventListener('click',leave);
+window.addEventListener('hashchange',()=>{const id=location.hash.slice(1);if(ids.includes(id))enter(id);else if(id==='')leave()});
+if(ids.includes(location.hash.slice(1)))enter(location.hash.slice(1));
+})();
+</script>
+</body></html>
