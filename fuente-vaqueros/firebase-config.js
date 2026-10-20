@@ -1,7 +1,13 @@
-// Configuración pública de la app web Firebase utilizada para Fuente Vaqueros.
-// Pendiente de asignar el proyecto aprobado y activar Firestore, Auth anónimo y App Check.
-// NO introducir credenciales privadas ni claves de cuenta de servicio aquí.
-// Rellenar la configuración web mostrada en Firebase Console > Configuración de proyecto > Tus apps.
-window.FV_FIREBASE_CONFIG = null; // { apiKey: "...", authDomain: "...", projectId: "...", appId: "..." }
-window.FV_FIREBASE_APPCHECK_KEY = null; // Clave PÚBLICA del sitio reCAPTCHA v3 asociada a App Check.
-// La página se mantiene deshabilitada hasta completar ambos valores.
+// Configuración PÚBLICA del formulario Fuente Vaqueros.
+// Proyecto confirmado por la organización: aula-salud-comunitaria.
+// Falta obtener de Firebase Console > Configuración del proyecto > Tus aplicaciones
+// los valores públicos de la aplicación web. No incluir secretos ni cuentas de servicio.
+window.FV_FIREBASE_CONFIG = {
+  projectId: "aula-salud-comunitaria",
+  apiKey: "",
+  authDomain: "",
+  appId: ""
+};
+// App Check: clave PÚBLICA del sitio reCAPTCHA v3 configurada para este dominio.
+window.FV_FIREBASE_APPCHECK_KEY = null;
+// Hasta completar estos valores, el formulario no habilita envíos.
