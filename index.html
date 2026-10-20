@@ -1,4 +1,52 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102a28"><meta name="description" content="Aula de salud comunitaria basada en activos. Cursos y talleres de salud comunitaria y acción local en salud."><title>Aula de salud comunitaria basada en activos</title><link rel="stylesheet" href="./assets/aula-portadas.css?v=20261015"><style>body{margin:0;background:#102a28;font-family:Inter,system-ui,sans-serif}.portada{min-height:100vh}.portada-hero{padding-bottom:36px}.portada-cursos{grid-template-columns:repeat(2,minmax(0,1fr))}.portada .pcard{min-height:225px}.portada .form-art{max-width:430px}@media(max-width:900px){.portada-cursos{grid-template-columns:1fr}}</style></head><body>
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102a28"><meta name="description" content="Aula de salud comunitaria basada en activos. Cursos y talleres de salud comunitaria y acción local en salud."><title>Aula de salud comunitaria basada en activos</title><link rel="stylesheet" href="./assets/aula-portadas.css?v=20261015">
+<style>
+body{margin:0;background:#102a28;font-family:Inter,system-ui,sans-serif}
+.portada--aula{min-height:100vh;min-height:100svh;display:flex;flex-direction:column}
+.portada--aula .portada-bar{padding:11px clamp(15px,3vw,44px);font-size:11px}
+.portada--aula .portada-hero{display:block;max-width:1480px;padding:16px clamp(15px,3vw,44px) 8px}
+.portada--aula .p-kicker{font-size:10px;letter-spacing:.12em}
+.portada--aula h1{font-size:clamp(27px,3.6vw,48px);line-height:1.1;margin:5px 0 7px}
+.portada--aula h1 span{display:inline;color:#b9dba9;font-size:1em;margin:0}
+.portada--aula .portada-hero p{font-size:clamp(12px,1.2vw,15px);line-height:1.4;max-width:90ch}
+.portada--aula .form-art,.portada--aula .fecha{display:none}
+.portada--aula .portada-cursos{max-width:1480px;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;padding:10px clamp(15px,3vw,44px) 12px;align-content:start}
+.portada--aula .pcard{min-height:185px;border-radius:14px;padding:15px 16px;gap:6px;transition:transform .16s ease,border-color .16s ease}
+.portada--aula .pcard:hover{transform:translateY(-2px);border-color:#639387}
+.portada--aula .pcard h2{font-size:clamp(17px,1.7vw,23px);line-height:1.16}
+.portada--aula .pcard p{font-size:12px;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.portada--aula .pcard .lv{font-size:10px;letter-spacing:.07em}
+.portada--aula .pcard .units{gap:4px;margin:1px 0}
+.portada--aula .pcard .units span{font-size:9px;padding:3px 7px}
+.portada--aula .pcard .cta{font-size:12px;border-radius:8px;padding:9px 12px;min-height:36px;align-items:center}
+.portada--aula .portada-pie{padding:9px clamp(15px,3vw,44px);font-size:10px;margin-top:auto}
+.portada--aula .aula-pages{display:flex;align-items:center;justify-content:center;gap:13px;padding:2px 15px 10px;font-size:12px;color:#cee7d7}
+.portada--aula .aula-pages[hidden],.portada--aula .pcard[hidden]{display:none!important}
+.portada--aula .aula-pages button{background:#244e46;color:#f3fff7;border:1px solid #56897a;border-radius:8px;padding:7px 13px;cursor:pointer;min-height:34px}
+.portada--aula .aula-pages button:disabled{opacity:.43;cursor:default}
+.portada--aula .aula-pages button:focus-visible{outline:3px solid #edb957;outline-offset:2px}
+.portada--aula.aula-densa .pcard{min-height:130px;padding:10px 12px;gap:4px}
+.portada--aula.aula-densa .pcard h2{font-size:clamp(15px,1.35vw,19px)}
+.portada--aula.aula-densa .pcard p,.portada--aula.aula-densa .pcard .units{display:none}
+.portada--aula.aula-densa .pcard .cta{font-size:11px;padding:7px 10px;min-height:32px}
+@media(max-width:1130px){.portada--aula .portada-cursos{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:720px){
+.portada--aula .portada-bar{padding:10px 14px;font-size:10px;letter-spacing:.04em}
+.portada--aula .portada-hero{padding:12px 14px 8px}
+.portada--aula h1{font-size:clamp(24px,5vw,32px);margin:4px 0}
+.portada--aula .portada-hero p{font-size:12px;line-height:1.35}
+.portada--aula .portada-cursos{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding:8px 13px 9px}
+.portada--aula .pcard{padding:11px;min-height:150px;gap:5px;border-radius:11px}
+.portada--aula .pcard h2{font-size:clamp(15px,3.5vw,19px)}
+.portada--aula .pcard p,.portada--aula .pcard .units{display:none}
+.portada--aula .pcard .lv{font-size:9px;letter-spacing:.04em}
+.portada--aula .pcard .cta{font-size:11px;min-height:34px;padding:7px 9px}
+.portada--aula .portada-pie{padding:9px 14px;font-size:10px}
+.portada--aula.aula-densa .pcard{min-height:130px}
+}
+@media(max-width:340px){.portada--aula .pcard{padding:9px}.portada--aula .pcard h2{font-size:14px}.portada--aula .portada-bar span{display:none}}
+@media(max-height:720px) and (min-width:721px){.portada--aula .portada-hero{padding-top:12px}.portada--aula .pcard{min-height:159px;padding:12px}.portada--aula .portada-cursos{gap:9px}}
+@media(prefers-reduced-motion:reduce){.portada--aula .pcard{transition:none}}
+</style></head><body>
 <section class="portada portada--aula" id="inicio" aria-label="Portada del Aula de salud comunitaria basada en activos">
 <div class="portada-bar"><strong>AULA · SALUD COMUNITARIA</strong><span>Formación y acción local en salud</span></div>
 <div class="portada-hero"><div><div class="p-kicker">Formación · Salud comunitaria · Andalucía</div><h1>Aula de salud comunitaria <span>basada en activos</span></h1><p>Formación y procesos locales: encuentra de un vistazo el curso o proceso que buscas.</p><div class="fecha">Cursos · Talleres · Recursos para la práctica</div></div>
