@@ -96,21 +96,27 @@ const config=window.FV_FIREBASE_CONFIG;
 const siteKey=window.FV_FIREBASE_APPCHECK_KEY;
 const send=$('send');
 let db,auth,count=0;
-if(!config?.projectId||!config?.apiKey||!config?.appId){
-  status('La recogida central todavía no está configurada. No se puede enviar.');
-}else{
+async function activate(){
+  if(!config?.projectId||!config?.apiKey||!config?.appId){
+    status('La recogida central todavía no está configurada. No se puede enviar.');return;
+  }
   try{
     const app=initializeApp(config);
     if(siteKey) initializeAppCheck(app,{provider:new ReCaptchaV3Provider(siteKey),isTokenAutoRefreshEnabled:true});
     auth=getAuth(app);
     db=getFirestore(app);
+    status('Comprobando acceso seguro al formulario…');
+    await signInAnonymously(auth);
     send.disabled=false;
-    status('Conexión preparada. La recepción solo se confirmará después de que Firebase acepte la propuesta.');
+    status('Conexión establecida. La recepción solo se confirmará después de que Firestore acepte la propuesta.');
   }catch(err){
-    status('No se pudo configurar la conexión a Firebase. No envíes la ficha hasta resolverlo.');
-    console.error('Firebase init error',err);
+    const code=String(err?.code||'');
+    if(code.includes('operation-not-allowed')) status('La organización debe habilitar Authentication anónimo en Firebase. El envío aún no está disponible.');
+    else status('No se ha podido validar el acceso al formulario. Todavía no se pueden enviar propuestas.');
+    console.error('Error al activar el formulario',err);
   }
 }
+activate();
 $('proposal-form').addEventListener('submit',async e=>{
   e.preventDefault();
   if(!db||!auth){status('El envío a Firebase no está disponible. No se ha guardado ninguna respuesta.');return}
