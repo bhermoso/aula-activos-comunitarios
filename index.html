@@ -88,6 +88,69 @@ body{margin:0;background:#102a28;font-family:Inter,system-ui,sans-serif}
 .portada--aula.aula-seis .pcard p{font-size:12px;line-height:1.4;-webkit-line-clamp:3}
 .portada--aula.aula-seis .pcard .cta{font-size:12px;padding:9px 11px}
 }
+
+/* Cinco entradas actuales: distribución 3 + 2, ocupando toda la anchura.
+   Con poco espacio se compacta; si no caben, se pagina sin cortar texto. */
+.portada--aula.aula-cinco{height:100svh;min-height:0}
+.portada--aula.aula-cinco .portada-hero{padding-top:clamp(10px,2vh,23px);padding-bottom:clamp(6px,1.1vh,12px)}
+.portada--aula.aula-cinco .portada-cursos{
+  max-width:1400px;flex:1 1 auto;min-height:0;
+  grid-template-columns:repeat(6,minmax(0,1fr));
+  grid-template-rows:repeat(2,minmax(0,1fr));
+  align-content:stretch;gap:clamp(8px,1.5vh,15px);
+  padding:7px clamp(14px,3vw,44px) clamp(9px,1.5vh,17px);
+}
+.portada--aula.aula-cinco .pcard{
+  grid-column:span 2;min-height:0;overflow:visible;
+  padding:clamp(12px,1.9vh,22px) clamp(13px,2vw,24px);
+  gap:clamp(4px,.8vh,9px);border-radius:14px;
+}
+.portada--aula.aula-cinco .pcard:nth-child(4),
+.portada--aula.aula-cinco .pcard:nth-child(5){grid-column:span 3}
+.portada--aula.aula-cinco .pcard h2{font-size:clamp(18px,1.8vw,25px);line-height:1.15}
+.portada--aula.aula-cinco .pcard .lv{font-size:10px;line-height:1.25}
+.portada--aula.aula-cinco .pcard p{font-size:clamp(11px,1vw,13px);line-height:1.38;-webkit-line-clamp:2}
+.portada--aula.aula-cinco .pcard .units{margin:0}
+.portada--aula.aula-cinco .pcard .cta{padding:8px 12px;min-height:35px;font-size:12px}
+.portada--aula.aula-cinco .portada-pie{padding-top:8px;padding-bottom:8px}
+@media(max-width:920px){
+ .portada--aula.aula-cinco .portada-cursos{
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  grid-template-rows:repeat(3,minmax(0,1fr));
+ }
+ .portada--aula.aula-cinco .pcard,
+ .portada--aula.aula-cinco .pcard:nth-child(4){grid-column:auto}
+ .portada--aula.aula-cinco .pcard:nth-child(5){grid-column:span 2}
+}
+@media(max-width:720px){
+ .portada--aula.aula-cinco .portada-hero{padding:10px 13px 6px}
+ .portada--aula.aula-cinco h1{font-size:clamp(23px,5.4vw,32px);line-height:1.1}
+ .portada--aula.aula-cinco .portada-hero p{font-size:11px;line-height:1.3}
+ .portada--aula.aula-cinco .portada-cursos{gap:7px;padding:6px 11px 9px}
+ .portada--aula.aula-cinco .pcard{padding:clamp(9px,1.5vh,14px);gap:4px;border-radius:11px}
+ .portada--aula.aula-cinco .pcard h2{font-size:clamp(14px,3.65vw,19px)}
+ .portada--aula.aula-cinco .pcard .lv{font-size:9px}
+ .portada--aula.aula-cinco .pcard p,
+ .portada--aula.aula-cinco .pcard .units{display:none}
+ .portada--aula.aula-cinco .pcard .cta{font-size:11px;padding:7px 9px;min-height:32px}
+}
+/* Variante más reducida activada solo si las dimensiones lo exigen. */
+.portada--aula.aula-cinco.aula-cinco-ajustada .portada-hero p,
+.portada--aula.aula-cinco.aula-cinco-ajustada .pcard p,
+.portada--aula.aula-cinco.aula-cinco-ajustada .pcard .units{display:none}
+.portada--aula.aula-cinco.aula-cinco-ajustada .pcard{padding:9px 12px;gap:3px}
+.portada--aula.aula-cinco.aula-cinco-ajustada .pcard h2{font-size:clamp(15px,1.6vw,21px)}
+.portada--aula.aula-cinco.aula-cinco-ajustada .portada-hero{padding-top:7px;padding-bottom:5px}
+.portada--aula.aula-cinco.aula-cinco-ajustada .pcard .cta{min-height:31px;padding:6px 9px}
+/* Paginación de seguridad en ventanas muy bajas: nunca ocultar el enlace. */
+.portada--aula.aula-cinco.aula-cinco-paginado .portada-cursos{grid-template-rows:minmax(0,1fr)}
+@media(max-width:920px){
+ .portada--aula.aula-cinco.aula-cinco-paginado .pcard:nth-child(5){grid-column:auto}
+}
+@media(max-height:420px){
+ .portada--aula.aula-cinco{height:auto;min-height:100svh}
+ .portada--aula.aula-cinco .portada-cursos{min-height:110px}
+}
 </style></head><body>
 <section class="portada portada--aula" id="inicio" aria-label="Portada del Aula de salud comunitaria basada en activos">
 <div class="portada-bar"><strong>AULA · SALUD COMUNITARIA</strong><span>Formación y acción local en salud</span></div>
@@ -109,7 +172,8 @@ const pager=document.getElementById('aula-pages');
 if(!cover||!grid||!pager)return;
 const tiles=Array.from(grid.querySelectorAll('article.pcard'));
 cover.classList.toggle('aula-cuatro',tiles.length===4);
-cover.classList.toggle('aula-seis',tiles.length>=5&&tiles.length<=6);
+cover.classList.toggle('aula-cinco',tiles.length===5);
+cover.classList.toggle('aula-seis',tiles.length===6);
 const previous=document.getElementById('aula-page-prev');
 const next=document.getElementById('aula-page-next');
 const status=document.getElementById('aula-page-status');
@@ -124,9 +188,21 @@ function render(){
   next.disabled=page>=pages-1;
 }
 function adapt(){
-  // Con las cuatro entradas actuales se muestran todas, sin paginación.
   if(tiles.length===4){capacity=4;page=0;render();return}
-  if(tiles.length>=5&&tiles.length<=6&&window.innerWidth>=1000&&window.innerHeight>=690){capacity=tiles.length;page=0;render();return}
+  if(tiles.length===5){
+    cover.classList.remove('aula-cinco-ajustada','aula-cinco-paginado');
+    capacity=5;page=0;render();
+    const overflows=()=>cover.scrollHeight>cover.clientHeight+2 ||
+      tiles.some(tile=>!tile.hidden&&tile.scrollHeight>tile.clientHeight+2);
+    if(overflows())cover.classList.add('aula-cinco-ajustada');
+    if(overflows()){
+      cover.classList.add('aula-cinco-paginado');
+      capacity=window.innerWidth>920?3:2;
+      render();
+    }
+    return;
+  }
+  if(tiles.length===6&&window.innerWidth>=1000&&window.innerHeight>=690){capacity=6;page=0;render();return}
   const w=window.innerWidth;
   const columns=w>1130?4:w>720?3:2;
   cover.classList.toggle('aula-densa',tiles.length>8);
