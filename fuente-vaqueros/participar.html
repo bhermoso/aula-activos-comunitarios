@@ -96,17 +96,20 @@ const config=window.FV_FIREBASE_CONFIG;
 const siteKey=window.FV_FIREBASE_APPCHECK_KEY;
 const send=$('send');
 let db,auth,count=0;
-if(!config?.projectId||!config?.apiKey||!config?.appId||!siteKey){
-  status('La recogida central todavía no está habilitada. No envíes esta ficha hasta que la organización active Firebase.');
+if(!config?.projectId||!config?.apiKey||!config?.appId){
+  status('La recogida central todavía no está configurada. No se puede enviar.');
 }else{
   try{
     const app=initializeApp(config);
-    initializeAppCheck(app,{provider:new ReCaptchaV3Provider(siteKey),isTokenAutoRefreshEnabled:true});
+    if(siteKey) initializeAppCheck(app,{provider:new ReCaptchaV3Provider(siteKey),isTokenAutoRefreshEnabled:true});
     auth=getAuth(app);
     db=getFirestore(app);
     send.disabled=false;
-    status('Ficha preparada. Tus respuestas se enviarán a Firebase al pulsar «Enviar».');
-  }catch(err){status('No se pudo activar el envío a Firebase. Contacta con la organización.');console.error('Firebase init error',err)}
+    status('Conexión preparada. La recepción solo se confirmará después de que Firebase acepte la propuesta.');
+  }catch(err){
+    status('No se pudo configurar la conexión a Firebase. No envíes la ficha hasta resolverlo.');
+    console.error('Firebase init error',err);
+  }
 }
 $('proposal-form').addEventListener('submit',async e=>{
   e.preventDefault();
@@ -125,7 +128,10 @@ $('proposal-form').addEventListener('submit',async e=>{
     status('Propuesta recibida en Firebase. Puedes enviar otra.');
   }catch(err){
     console.error('Error al enviar propuesta',err);
-    status('No se ha confirmado el envío a Firebase. La propuesta sigue en el formulario: revisa la conexión o contacta con la organización.');
+    const code=String(err?.code||'');
+    if(code.includes('operation-not-allowed')) status('Firebase no admite el acceso anónimo todavía. La organización debe activarlo; esta propuesta NO se ha recibido.');
+    else if(code.includes('permission-denied')) status('Firebase ha rechazado la escritura. Hay que revisar las reglas de Firestore o App Check. La propuesta NO se ha recibido.');
+    else status('No se ha confirmado el envío a Firebase. La propuesta sigue en el formulario. Revisa la conexión o consulta a la organización.');
   }finally{send.disabled=false}
 });
 </script>
