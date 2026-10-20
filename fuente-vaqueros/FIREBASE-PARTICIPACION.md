@@ -2,7 +2,7 @@
 
 **Proyecto identificado:** `aula-salud-comunitaria` (indicado por la organización, 20-10-2026).
 
-**Estado (20-10-2026):** configuración pública de la app web integrada; código de escritura en Firestore y Hosting aislado preparados. **No se ha confirmado recepción real ni desplegado la página de Firebase Hosting.** Falta revisar Authentication anónimo, la base de datos, reglas, App Check y crear/asociar el sitio de Hosting. En la presentación, la práctica permanece pendiente de QR para evitar falsas recepciones.
+**Estado (20-10-2026):** configuración pública de la app web integrada; código de escritura en Firestore y Hosting aislado preparados. **No se ha confirmado recepción real ni desplegado la página de Firebase Hosting.** **Cloud Firestore `(default)` ya está creada y disponible en la región `nam5`, confirmado por la organización desde Firebase Console.** Falta revisar Authentication anónimo, reglas, App Check y crear/asociar el sitio de Hosting. En la presentación, la práctica permanece pendiente de QR para evitar falsas recepciones.
 
 ## Destino de las aportaciones
 
@@ -13,8 +13,8 @@ Una aportación incluye sector, tipo, entidad, aporte, prioridad, observa, proce
 ## Activar el proyecto
 
 1. **Completado:** configuración web pública recibida del responsable del proyecto y añadida a `fuente-vaqueros/firebase-config.js` (incluye `projectId: aula-salud-comunitaria`). No se almacenan credenciales administrativas.
-2. **Pendiente de verificar en consola:** que exista la base de datos Cloud Firestore y se permita escribir en la colección indicada.
-3. Comprobar **Authentication → Método de acceso → Anónimo** y activarlo si no lo está.
+2. **Confirmado:** existe Cloud Firestore `(default)` en `nam5`. **Pendiente:** comprobar que las reglas permiten crear documentos válidos en la colección indicada sin lectura pública.
+3. **Siguiente comprobación:** en **Authentication → Método de acceso → Anónimo**, confirmar y activar el proveedor si está deshabilitado. La ficha mantendrá deshabilitado «Enviar» hasta que Firebase confirme el inicio de sesión anónimo.
 4. Antes de difusión al público: **App Check → aplicación web → reCAPTCHA v3**, dominio final de Hosting, clave pública del sitio en `FV_FIREBASE_APPCHECK_KEY` y comprobar tokens válidos antes de activar enforcement en Firestore. El SDK puede intentar escritura sin App Check si la protección todavía no está activada; para la publicación al público, se recomienda protección antiabuso.
 5. Integrar y publicar **solo la regla pertinente** de `fuente-vaqueros/firestore.rules.example`, conservando las reglas de las restantes aplicaciones del mismo Firebase. Testear la escritura anónima válida y denegar lectura pública. La consola o un entorno administrativo autenticado permitirán consultar los resultados.
 6. Crear un **nuevo sitio de Firebase Hosting** dedicado a la ficha. No desplegar sobre el sitio predeterminado del proyecto si aloja otros contenidos.
