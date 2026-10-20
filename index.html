@@ -57,4 +57,44 @@ body{margin:0;background:#102a28;font-family:Inter,system-ui,sans-serif}
 <article class="pcard"><div class="lv">Proceso local · Fuente Vaqueros · 2026</div><h2>Fuente Vaqueros · Proceso local de salud</h2><p>Encuentro intersectorial para revisar la situación local y orientar los próximos pasos.</p><div class="units"><span>Fuente Vaqueros</span><span>RELAS</span><span>Participación</span></div><a class="cta" href="./fuente-vaqueros/">Ver proceso local →</a></article>
 <article class="pcard"><div class="lv">Cursos · 2027</div><h2>Diseño de cuestionarios en salud con REDCap</h2><p>Dos itinerarios de aprendizaje: REDCap Básico y REDCap Avanzado.</p><div class="units"><span>REDCap Básico</span><span>REDCap Avanzado</span><span>Prácticas</span></div><a class="cta" href="./redcap/">Entrar a los cursos →</a></article>
 </div><nav id="aula-pages" class="aula-pages" aria-label="Otras entradas del Aula" hidden><button type="button" id="aula-page-prev">← Anteriores</button><span id="aula-page-status" aria-live="polite"></span><button type="button" id="aula-page-next">Siguientes →</button></nav><div class="portada-pie"><span>Aula de salud comunitaria basada en activos</span><span>Materiales de formación y trabajo</span></div>
-</section></body></html>
+</section><script>
+(function(){
+'use strict';
+const cover=document.querySelector('.portada--aula');
+const grid=document.getElementById('aula-catalogo');
+const pager=document.getElementById('aula-pages');
+if(!cover||!grid||!pager)return;
+const tiles=Array.from(grid.querySelectorAll('article.pcard'));
+const previous=document.getElementById('aula-page-prev');
+const next=document.getElementById('aula-page-next');
+const status=document.getElementById('aula-page-status');
+let page=0,capacity=Math.max(tiles.length,1);
+function render(){
+  const pages=Math.max(1,Math.ceil(tiles.length/capacity));
+  page=Math.min(page,pages-1);
+  tiles.forEach((tile,i)=>{tile.hidden=i<page*capacity||i>=(page+1)*capacity});
+  pager.hidden=pages<=1;
+  status.textContent='Página '+(page+1)+' de '+pages+' · '+tiles.length+' entradas';
+  previous.disabled=page===0;
+  next.disabled=page>=pages-1;
+}
+function adapt(){
+  const w=window.innerWidth;
+  const columns=w>1130?4:w>720?3:2;
+  cover.classList.toggle('aula-densa',tiles.length>8);
+  const tileHeight=w<=720?(tiles.length>8?145:166):(tiles.length>8?148:195);
+  const reserved=document.querySelector('.portada-bar').getBoundingClientRect().height+
+    document.querySelector('.portada-hero').getBoundingClientRect().height+
+    document.querySelector('.portada-pie').getBoundingClientRect().height+55;
+  const available=window.innerHeight-reserved;
+  let rows=Math.max(1,Math.min(4,Math.floor(available/tileHeight)));
+  if(tiles.length>columns*rows && Math.floor((available-42)/tileHeight)<rows)rows=Math.max(1,rows-1);
+  capacity=Math.max(columns,columns*rows);
+  render();
+}
+previous.addEventListener('click',()=>{page=Math.max(0,page-1);render()});
+next.addEventListener('click',()=>{page+=1;render()});
+window.addEventListener('resize',adapt,{passive:true});
+adapt();
+})();
+</script></body></html>
