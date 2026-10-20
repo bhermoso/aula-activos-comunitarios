@@ -2,7 +2,7 @@
 
 **Proyecto identificado:** `aula-salud-comunitaria` (indicado por la organización, 20-10-2026).
 
-**Estado:** integración y Hosting aislado preparados en GitHub. **No está operativo ni desplegado:** faltan configuración pública de la aplicación web, App Check, habilitación de Firestore/Authentication, reglas comprobadas y creación del sitio específico de Hosting.
+**Estado (20-10-2026):** configuración pública de la app web integrada; código de escritura en Firestore y Hosting aislado preparados. **No se ha confirmado recepción real ni desplegado la página de Firebase Hosting.** Falta revisar Authentication anónimo, la base de datos, reglas, App Check y crear/asociar el sitio de Hosting. En la presentación, la práctica permanece pendiente de QR para evitar falsas recepciones.
 
 ## Destino de las aportaciones
 
@@ -12,10 +12,10 @@ Una aportación incluye sector, tipo, entidad, aporte, prioridad, observa, proce
 
 ## Activar el proyecto
 
-1. En [Firebase Console](https://console.firebase.google.com/project/aula-salud-comunitaria/settings/general), abrir **Configuración del proyecto → General → Tus aplicaciones**. Registrar o seleccionar una **aplicación web**. Copiar el bloque público `firebaseConfig` (en particular `apiKey`, `authDomain`, `projectId` y `appId`). No compartir cuentas de servicio ni secretos privados.
-2. Sustituir los campos vacíos en `fuente-vaqueros/firebase-config.js`. `projectId` ya está fijado a `aula-salud-comunitaria`.
-3. Activar **Cloud Firestore** y **Authentication → Método de acceso → Anónimo**.
-4. Activar **App Check → aplicación web → reCAPTCHA v3**, registrar el dominio final de Hosting y configurar `FV_FIREBASE_APPCHECK_KEY` con la clave **pública** de sitio. Comprobar que funciona antes de activar enforcement en Cloud Firestore.
+1. **Completado:** configuración web pública recibida del responsable del proyecto y añadida a `fuente-vaqueros/firebase-config.js` (incluye `projectId: aula-salud-comunitaria`). No se almacenan credenciales administrativas.
+2. **Pendiente de verificar en consola:** que exista la base de datos Cloud Firestore y se permita escribir en la colección indicada.
+3. Comprobar **Authentication → Método de acceso → Anónimo** y activarlo si no lo está.
+4. Antes de difusión al público: **App Check → aplicación web → reCAPTCHA v3**, dominio final de Hosting, clave pública del sitio en `FV_FIREBASE_APPCHECK_KEY` y comprobar tokens válidos antes de activar enforcement en Firestore. El SDK puede intentar escritura sin App Check si la protección todavía no está activada; para la publicación al público, se recomienda protección antiabuso.
 5. Integrar y publicar **solo la regla pertinente** de `fuente-vaqueros/firestore.rules.example`, conservando las reglas de las restantes aplicaciones del mismo Firebase. Testear la escritura anónima válida y denegar lectura pública. La consola o un entorno administrativo autenticado permitirán consultar los resultados.
 6. Crear un **nuevo sitio de Firebase Hosting** dedicado a la ficha. No desplegar sobre el sitio predeterminado del proyecto si aloja otros contenidos.
 
@@ -40,6 +40,6 @@ El `firebase.json` de la raíz usa expresamente el **target** `fuente-vaqueros-p
 - Escribir una aportación de prueba sin datos personales y verificar su documento en Firestore.
 - Confirmar que sin conexión no se muestra una falsa recepción.
 - Comprobar que un usuario anónimo no puede leer respuestas ajenas.
-- Generar entonces el QR con la URL verificada de Hosting y mostrarlo en la diapositiva «Práctica».
+- Generar entonces el QR con la URL verificada de Hosting y sustituir el marcador pendiente en la diapositiva «Práctica». La versión antigua que guardaba solo en localStorage fue desactivada en el Aula.
 
 **Un QR es un acceso por enlace, no control de autorización.** Eliminar el enlace del Aula de la ficha no vuelve privado el repositorio público de GitHub Pages.
