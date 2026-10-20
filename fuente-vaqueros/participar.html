@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#102a28">
+<meta name="description" content="Ficha participativa de Fuente Vaqueros: identificar actores, redes y capacidades comunitarias.">
+<title>Ficha participativa · Fuente Vaqueros</title>
+<style>
+:root{color-scheme:light;--deep:#102a28;--ink:#183a37;--muted:#546e64;--pale:#eef5ea;--line:#d3e1d5;--green:#246c53}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f6f6f1;color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+header{background:var(--deep);color:#fff;padding:24px max(18px,calc((100vw - 880px)/2)) 48px}
+header .over{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#a9dcc4}
+h1{font:600 clamp(31px,5vw,45px)/1.12 Georgia,serif;margin:11px 0 8px}
+header p{max-width:68ch;color:#d6e8de;margin:0;font-size:15px}
+main{max-width:900px;margin:-28px auto 0;padding:0 18px 45px;position:relative}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px;margin:0 0 14px;box-shadow:0 8px 22px #123c2810}
+.card h2{font:600 25px/1.2 Georgia,serif;margin:0 0 10px}
+.intro{background:var(--pale);border-color:#bad4c2}
+.intro p{margin:0 0 7px}
+.steps{display:flex;gap:8px;flex-wrap:wrap;margin-top:13px}
+.steps span{background:#fff;border:1px solid #c5d9cb;padding:7px 10px;border-radius:8px;font-size:12px;font-weight:800}
+.note{font-size:13px;line-height:1.45;color:#536a60}
+fieldset{border:0;margin:0;padding:0;min-width:0}
+legend{font-weight:800;font-size:14px;margin-bottom:13px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+label{display:flex;flex-direction:column;gap:5px;font-size:13px;font-weight:800}
+label.wide{grid-column:1/-1}
+input,select,textarea{background:#fff;color:var(--ink);width:100%;border:1px solid #9db7a6;border-radius:10px;font:16px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;padding:11px 12px}
+textarea{min-height:93px;resize:vertical}
+input:focus-visible,select:focus-visible,textarea:focus-visible,button:focus-visible{outline:3px solid #d8ad4d;outline-offset:2px}
+.hint{font-size:12px;font-weight:400;color:var(--muted)}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+button{padding:12px 16px;border:1px solid var(--green);border-radius:10px;cursor:pointer;font-size:14px;font-weight:800;background:var(--green);color:#fff;min-height:46px}
+button.secondary{background:#fff;color:var(--green)}
+button.danger{background:#fff;border-color:#ba8e80;color:#843e32}
+button[disabled]{opacity:.55;cursor:not-allowed}
+.status{font-size:14px;color:#185c45;min-height:23px;margin:10px 0 0}
+.entry{background:#f3f8f2;border:1px solid #dae9dc;border-radius:10px;padding:13px;margin:8px 0}
+.entry h3{font-size:15px;margin:0 0 5px}
+.entry p{font-size:13px;margin:5px 0;overflow-wrap:anywhere}
+.entry button{font-size:12px;min-height:36px;padding:7px 11px;margin-top:6px}
+footer{padding:10px 16px 30px;text-align:center;font-size:12px;color:var(--muted)}
+@media(max-width:670px){header{padding:20px 18px 47px}.card{padding:17px}.grid{grid-template-columns:1fr;gap:12px}label.wide{grid-column:auto}.actions button{flex:1;min-width:125px}header p{font-size:14px}.card h2{font-size:23px}}
+@media print{body{background:#fff}header{background:#fff;color:#111;padding:0 0 20px}header p,header .over{color:#222}main{margin:0;padding:0}.card{box-shadow:none}button{display:none!important}}
+</style>
+</head>
+<body>
+<header>
+<div class="over">Proceso local de salud · Fuente Vaqueros · 22 de octubre de 2026</div>
+<h1>Ficha participativa de actores y capacidades comunitarias</h1>
+<p>Una aportación exploratoria para preparar futuras decisiones sobre líneas estratégicas de salud y mapeo de activos.</p>
+</header>
+<main>
+<section class="card intro" aria-label="Instrucciones">
+<p><strong>No estamos realizando todavía el mapeo de activos.</strong> Antes se acordarán participativamente las líneas estratégicas de salud en positivo. Esta ficha recoge posibles personas jurídicas, entidades, redes y capacidades para explorar después.</p>
+<div class="steps"><span>1 · Identifica</span><span>2 · Explica qué aporta</span><span>3 · Guarda y comparte</span></div>
+<p class="note" style="margin-top:13px"><strong>Privacidad:</strong> no escribas datos de personas particulares, teléfonos ni información clínica. <strong>Las respuestas se guardan solo en este dispositivo y no se envían automáticamente al taller.</strong> Al terminar, pulsa «Compartir» o «Descargar» para entregarlas por el canal que indique la organización.</p>
+</section>
+<section class="card" aria-labelledby="form-title">
+<h2 id="form-title">Añadir una propuesta</h2>
+<form id="proposal-form">
+<div class="grid">
+<label>Sector o ámbito *
+<select id="sector" required>
+<option value="">Selecciona un sector</option><option>Salud y atención sanitaria</option><option>Servicios sociales e inclusión</option><option>Educación y familias</option><option>Personas mayores y cuidados</option><option>Asociaciones y participación</option><option>Empleo y actividad económica</option><option>Medio ambiente, agua y agricultura</option><option>Seguridad y convivencia</option><option>Administración pública</option><option>Cultura, deporte y ocio</option><option>Otros</option>
+</select></label>
+<label>Tipo de actor o recurso *
+<input id="tipo" required maxlength="120" placeholder="Asociación, centro educativo, red vecinal…" autocomplete="off"></label>
+<label>Entidad o colectivo
+<input id="entidad" maxlength="120" placeholder="Solo nombre público, no datos personales" autocomplete="off"></label>
+<label>Posible aportación
+<textarea id="aporte" maxlength="450" placeholder="¿Qué sabe hacer, qué capacidades o recursos aporta?"></textarea></label>
+<label>Línea estratégica posible
+<input id="prioridad" maxlength="180" placeholder="Solo propuesta para debatir; sin líneas aprobadas"></label>
+<label>Qué habría que contrastar
+<textarea id="observa" maxlength="450" placeholder="¿Con quién verificar, qué información falta?"></textarea></label>
+</div>
+<div class="actions"><button type="submit">+ Añadir al listado</button></div>
+</form>
+<p id="status" class="status" role="status" aria-live="polite"></p>
+</section>
+<section class="card" aria-labelledby="list-title">
+<h2 id="list-title">Mis propuestas <span id="count">(0)</span></h2>
+<div id="list"><p class="note">Todavía no hay propuestas guardadas.</p></div>
+<div class="actions">
+<button type="button" id="share">Compartir respuestas</button>
+<button type="button" class="secondary" id="download">Descargar .txt</button>
+<button type="button" class="danger" id="clear">Borrar listado</button>
+</div>
+<p class="note">Para recuperar tus aportaciones, utiliza este mismo teléfono y navegador. No hay envío automático, sincronización ni consulta de propuestas de otras personas.</p>
+</section>
+</main>
+<footer>Fuente Vaqueros · Taller de impulso del I Plan Local de Salud · Ficha de preparación del mapeo</footer>
+<script>
+(function(){
+'use strict';
+const key='fuente-vaqueros-actores-v1', names=['sector','tipo','entidad','aporte','prioridad','observa'];
+const $=id=>document.getElementById(id);
+let data=[];
+try{const saved=JSON.parse(localStorage.getItem(key)||'[]');if(Array.isArray(saved))data=saved.filter(x=>x&&typeof x.sector==='string'&&typeof x.tipo==='string')}catch(e){}
+const clean=s=>String(s||'').trim();
+function status(t){$('status').textContent=t}
+function persist(){try{localStorage.setItem(key,JSON.stringify(data));status('Guardado en este dispositivo. Recuerda compartir o descargar al terminar.')}catch(e){status('No se pudo guardar en este navegador. Descarga el listado ahora.')}}
+function el(tag,text){const e=document.createElement(tag);e.textContent=text;return e}
+function render(){
+ const list=$('list');list.replaceChildren();$('count').textContent='('+data.length+')';
+ if(!data.length){list.appendChild(el('p','Todavía no hay propuestas guardadas.'));return}
+ data.forEach((d,i)=>{const card=el('article','');card.className='entry';card.appendChild(el('h3',(i+1)+'. '+d.sector+' · '+d.tipo));
+ for(const [k,label] of [['entidad','Entidad'],['aporte','Aportación'],['prioridad','Posible línea'],['observa','Por contrastar']])if(d[k])card.appendChild(el('p',label+': '+d[k]));
+ const button=el('button','Eliminar esta propuesta');button.type='button';button.className='danger';button.addEventListener('click',()=>{data.splice(i,1);persist();render()});card.appendChild(button);list.appendChild(card)});
+}
+function asText(){return 'FUENTE VAQUEROS · FICHA PARTICIPATIVA · 22 OCT 2026\nPROPUESTAS EXPLORATORIAS — NO MAPEO VALIDADO\n\n'+data.map((d,i)=>[
+ (i+1)+'. Sector: '+d.sector,'Tipo de actor o recurso: '+d.tipo,'Entidad: '+(d.entidad||'—'),
+ 'Posible aportación: '+(d.aporte||'—'),'Posible línea estratégica: '+(d.prioridad||'—'),
+ 'Cuestiones por contrastar: '+(d.observa||'—')].join('\n')).join('\n\n')}
+function download(){if(!data.length){status('Añade alguna propuesta antes de descargar.');return}
+ const blob=new Blob([asText()],{type:'text/plain;charset=utf-8'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='aportaciones-fuente-vaqueros.txt';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500);status('Archivo descargado. Entrégalo por el canal indicado por la organización.')}
+$('proposal-form').addEventListener('submit',e=>{e.preventDefault();const obj={};names.forEach(k=>obj[k]=clean($(k).value));if(!obj.sector||!obj.tipo){status('Indica el sector y el tipo de actor o recurso.');return}
+ data.push(obj);persist();render();$('proposal-form').reset();$('sector').focus()});
+$('download').addEventListener('click',download);
+$('share').addEventListener('click',async()=>{if(!data.length){status('Añade alguna propuesta antes de compartir.');return}
+ const t=asText();
+ if(navigator.share){try{await navigator.share({title:'Aportaciones Fuente Vaqueros',text:t});status('Has abierto las opciones de compartir del dispositivo.');return}catch(e){if(e.name==='AbortError')return}}
+ if(navigator.clipboard&&navigator.clipboard.writeText){try{await navigator.clipboard.writeText(t);status('Respuestas copiadas. Pégalas en el canal indicado por la organización.');return}catch(e){}}
+ download();
+});
+$('clear').addEventListener('click',()=>{if(!data.length)return;if(confirm('¿Borrar todas las propuestas de este dispositivo?')){data=[];try{localStorage.removeItem(key)}catch(e){}render();status('Listado borrado.')}});
+render();
+})();
+</script>
+</body>
+</html>
