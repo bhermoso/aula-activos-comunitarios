@@ -54,8 +54,8 @@ footer{padding:10px 16px 30px;text-align:center;font-size:12px;color:var(--muted
 <main>
 <section class="card intro" aria-label="Instrucciones">
 <p><strong>No estamos realizando todavía el mapeo de activos.</strong> Antes se acordarán participativamente las líneas estratégicas de salud en positivo. Esta ficha recoge posibles personas jurídicas, entidades, redes y capacidades para explorar después.</p>
-<div class="steps"><span>1 · Identifica</span><span>2 · Explica qué aporta</span><span>3 · Guarda y comparte</span></div>
-<p class="note" style="margin-top:13px"><strong>Privacidad:</strong> no escribas datos de personas particulares, teléfonos ni información clínica. <strong>Las respuestas se guardan solo en este dispositivo y no se envían automáticamente al taller.</strong> Al terminar, pulsa «Compartir» o «Descargar» para entregarlas por el canal que indique la organización.</p>
+<div class="steps"><span>1 · Identifica</span><span>2 · Explica qué aporta</span><span>3 · Envía al taller</span></div>
+<p class="note" style="margin-top:13px"><strong>Privacidad:</strong> no escribas datos de personas particulares, teléfonos ni información clínica. <strong>Al pulsar «Enviar», las respuestas se enviarán a la base de datos Firebase del proceso local.</strong> No se publican las aportaciones de otras personas ni se piden datos de contacto.</p>
 </section>
 <section class="card" aria-labelledby="form-title">
 <h2 id="form-title">Añadir una propuesta</h2>
@@ -76,58 +76,58 @@ footer{padding:10px 16px 30px;text-align:center;font-size:12px;color:var(--muted
 <label>Qué habría que contrastar
 <textarea id="observa" maxlength="450" placeholder="¿Con quién verificar, qué información falta?"></textarea></label>
 </div>
-<div class="actions"><button type="submit">+ Añadir al listado</button></div>
+<div class="actions"><button type="submit" id="send" disabled>Enviar propuesta a la organización</button></div>
 </form>
 <p id="status" class="status" role="status" aria-live="polite"></p>
 </section>
-<section class="card" aria-labelledby="list-title">
-<h2 id="list-title">Mis propuestas <span id="count">(0)</span></h2>
-<div id="list"><p class="note">Todavía no hay propuestas guardadas.</p></div>
-<div class="actions">
-<button type="button" id="share">Compartir respuestas</button>
-<button type="button" class="secondary" id="download">Descargar .txt</button>
-<button type="button" class="danger" id="clear">Borrar listado</button>
-</div>
-<p class="note">Para recuperar tus aportaciones, utiliza este mismo teléfono y navegador. No hay envío automático, sincronización ni consulta de propuestas de otras personas.</p>
-</section>
+<section class="card" aria-labelledby="list-title"><h2 id="list-title">Propuestas recibidas <span id="count">(0)</span></h2><p id="receipts" class="note">Aquí aparecerá la confirmación de los envíos realizados desde esta página mientras permanezca abierta.</p><p class="note">Cada propuesta se transmite a Firebase por separado. Solo se mostrará como recibida cuando la base de datos confirme el envío. No se comparten públicamente las respuestas.</p></section>
 </main>
 <footer>Fuente Vaqueros · Taller de impulso del I Plan Local de Salud · Ficha de preparación del mapeo</footer>
-<script>
-(function(){
-'use strict';
-const key='fuente-vaqueros-actores-v1', names=['sector','tipo','entidad','aporte','prioridad','observa'];
+<script src="./firebase-config.js"></script>
+<script type="module">
+import {initializeApp} from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js';
+import {initializeAppCheck,ReCaptchaV3Provider} from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-app-check.js';
+import {getAuth,signInAnonymously} from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js';
+import {getFirestore,addDoc,collection,serverTimestamp} from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js';
 const $=id=>document.getElementById(id);
-let data=[];
-try{const saved=JSON.parse(localStorage.getItem(key)||'[]');if(Array.isArray(saved))data=saved.filter(x=>x&&typeof x.sector==='string'&&typeof x.tipo==='string')}catch(e){}
-const clean=s=>String(s||'').trim();
-function status(t){$('status').textContent=t}
-function persist(){try{localStorage.setItem(key,JSON.stringify(data));status('Guardado en este dispositivo. Recuerda compartir o descargar al terminar.')}catch(e){status('No se pudo guardar en este navegador. Descarga el listado ahora.')}}
-function el(tag,text){const e=document.createElement(tag);e.textContent=text;return e}
-function render(){
- const list=$('list');list.replaceChildren();$('count').textContent='('+data.length+')';
- if(!data.length){list.appendChild(el('p','Todavía no hay propuestas guardadas.'));return}
- data.forEach((d,i)=>{const card=el('article','');card.className='entry';card.appendChild(el('h3',(i+1)+'. '+d.sector+' · '+d.tipo));
- for(const [k,label] of [['entidad','Entidad'],['aporte','Aportación'],['prioridad','Posible línea'],['observa','Por contrastar']])if(d[k])card.appendChild(el('p',label+': '+d[k]));
- const button=el('button','Eliminar esta propuesta');button.type='button';button.className='danger';button.addEventListener('click',()=>{data.splice(i,1);persist();render()});card.appendChild(button);list.appendChild(card)});
+const fields=['sector','tipo','entidad','aporte','prioridad','observa'];
+const status=t=>{$('status').textContent=t};
+const config=window.FV_FIREBASE_CONFIG;
+const siteKey=window.FV_FIREBASE_APPCHECK_KEY;
+const send=$('send');
+let db,auth,count=0;
+if(!config?.projectId||!config?.apiKey||!config?.appId||!siteKey){
+  status('La recogida central todavía no está habilitada. No envíes esta ficha hasta que la organización active Firebase.');
+}else{
+  try{
+    const app=initializeApp(config);
+    initializeAppCheck(app,{provider:new ReCaptchaV3Provider(siteKey),isTokenAutoRefreshEnabled:true});
+    auth=getAuth(app);
+    db=getFirestore(app);
+    send.disabled=false;
+    status('Ficha preparada. Tus respuestas se enviarán a Firebase al pulsar «Enviar».');
+  }catch(err){status('No se pudo activar el envío a Firebase. Contacta con la organización.');console.error('Firebase init error',err)}
 }
-function asText(){return 'FUENTE VAQUEROS · FICHA PARTICIPATIVA · 22 OCT 2026\nPROPUESTAS EXPLORATORIAS — NO MAPEO VALIDADO\n\n'+data.map((d,i)=>[
- (i+1)+'. Sector: '+d.sector,'Tipo de actor o recurso: '+d.tipo,'Entidad: '+(d.entidad||'—'),
- 'Posible aportación: '+(d.aporte||'—'),'Posible línea estratégica: '+(d.prioridad||'—'),
- 'Cuestiones por contrastar: '+(d.observa||'—')].join('\n')).join('\n\n')}
-function download(){if(!data.length){status('Añade alguna propuesta antes de descargar.');return}
- const blob=new Blob([asText()],{type:'text/plain;charset=utf-8'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='aportaciones-fuente-vaqueros.txt';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500);status('Archivo descargado. Entrégalo por el canal indicado por la organización.')}
-$('proposal-form').addEventListener('submit',e=>{e.preventDefault();const obj={};names.forEach(k=>obj[k]=clean($(k).value));if(!obj.sector||!obj.tipo){status('Indica el sector y el tipo de actor o recurso.');return}
- data.push(obj);persist();render();$('proposal-form').reset();$('sector').focus()});
-$('download').addEventListener('click',download);
-$('share').addEventListener('click',async()=>{if(!data.length){status('Añade alguna propuesta antes de compartir.');return}
- const t=asText();
- if(navigator.share){try{await navigator.share({title:'Aportaciones Fuente Vaqueros',text:t});status('Has abierto las opciones de compartir del dispositivo.');return}catch(e){if(e.name==='AbortError')return}}
- if(navigator.clipboard&&navigator.clipboard.writeText){try{await navigator.clipboard.writeText(t);status('Respuestas copiadas. Pégalas en el canal indicado por la organización.');return}catch(e){}}
- download();
+$('proposal-form').addEventListener('submit',async e=>{
+  e.preventDefault();
+  if(!db||!auth){status('El envío a Firebase no está disponible. No se ha guardado ninguna respuesta.');return}
+  const d={};for(const field of fields)d[field]=$(field).value.trim();
+  if(!d.sector||!d.tipo){status('Selecciona el sector e indica el tipo de actor o recurso.');return}
+  send.disabled=true;status('Enviando la propuesta a Firebase…');
+  try{
+    if(!auth.currentUser)await signInAnonymously(auth);
+    await addDoc(collection(db,'procesos_locales','fuente-vaqueros-2026','aportaciones'),{
+      ...d,proceso:'fuente-vaqueros-2026',edicion:'2026-10-22',origen:'qr',createdAt:serverTimestamp()
+    });
+    count++;$('count').textContent='('+count+')';
+    $('receipts').textContent=count===1?'1 propuesta enviada y confirmada por Firebase.':count+' propuestas enviadas y confirmadas por Firebase.';
+    $('proposal-form').reset();
+    status('Propuesta recibida en Firebase. Puedes enviar otra.');
+  }catch(err){
+    console.error('Error al enviar propuesta',err);
+    status('No se ha confirmado el envío a Firebase. La propuesta sigue en el formulario: revisa la conexión o contacta con la organización.');
+  }finally{send.disabled=false}
 });
-$('clear').addEventListener('click',()=>{if(!data.length)return;if(confirm('¿Borrar todas las propuestas de este dispositivo?')){data=[];try{localStorage.removeItem(key)}catch(e){}render();status('Listado borrado.')}});
-render();
-})();
 </script>
 </body>
 </html>
