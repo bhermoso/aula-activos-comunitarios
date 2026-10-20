@@ -46,6 +46,37 @@ body{margin:0;background:#102a28;font-family:Inter,system-ui,sans-serif}
 @media(max-width:340px){.portada--aula .pcard{padding:9px}.portada--aula .pcard h2{font-size:14px}.portada--aula .portada-bar span{display:none}}
 @media(max-height:720px) and (min-width:721px){.portada--aula .portada-hero{padding-top:12px}.portada--aula .pcard{min-height:159px;padding:12px}.portada--aula .portada-cursos{gap:9px}}
 @media(prefers-reduced-motion:reduce){.portada--aula .pcard{transition:none}}
+
+/* Cuatro entradas: dos filas que ocupan la altura disponible sin desplazamiento.
+   Al añadir una quinta, vuelve automáticamente al catálogo paginado. */
+.portada--aula.aula-cuatro{height:100svh;min-height:0}
+.portada--aula.aula-cuatro .portada-hero{padding-top:clamp(13px,2.4vh,27px);padding-bottom:clamp(8px,1.5vh,16px)}
+.portada--aula.aula-cuatro .portada-cursos{flex:1 1 auto;min-height:0;max-width:1330px;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));gap:clamp(10px,1.7vh,19px);padding-top:8px;padding-bottom:clamp(12px,2vh,22px);align-content:stretch}
+.portada--aula.aula-cuatro .pcard{min-height:0;padding:clamp(15px,2.4vh,25px) clamp(16px,2.4vw,28px);gap:clamp(5px,1vh,11px);border-radius:16px}
+.portada--aula.aula-cuatro .pcard h2{font-size:clamp(20px,2.2vw,31px);line-height:1.17}
+.portada--aula.aula-cuatro .pcard p{font-size:clamp(12px,1.12vw,15px);line-height:1.44;-webkit-line-clamp:3}
+.portada--aula.aula-cuatro .pcard .lv{font-size:11px}
+.portada--aula.aula-cuatro .pcard .units span{font-size:10px}
+.portada--aula.aula-cuatro .pcard .cta{font-size:13px;padding:10px 14px}
+@media(max-width:720px){
+.portada--aula.aula-cuatro .portada-cursos{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));gap:9px;padding:7px 12px 13px}
+.portada--aula.aula-cuatro .pcard{min-height:0;padding:clamp(9px,1.9vh,15px);gap:clamp(5px,1vh,9px);border-radius:12px}
+.portada--aula.aula-cuatro .pcard h2{font-size:clamp(15px,3.8vw,20px)}
+.portada--aula.aula-cuatro .pcard p,.portada--aula.aula-cuatro .pcard .units{display:none}
+.portada--aula.aula-cuatro .pcard .lv{font-size:9px}
+.portada--aula.aula-cuatro .pcard .cta{font-size:11px;padding:8px 9px;min-height:34px}
+}
+@media(max-height:680px){
+.portada--aula.aula-cuatro .portada-hero{padding-top:10px;padding-bottom:6px}
+.portada--aula.aula-cuatro .pcard{padding-top:11px;padding-bottom:11px}
+.portada--aula.aula-cuatro .pcard p{-webkit-line-clamp:2}
+.portada--aula.aula-cuatro .pcard .units{display:none}
+}
+@media(max-width:720px) and (max-height:580px){
+.portada--aula.aula-cuatro .portada-hero p{display:none}
+.portada--aula.aula-cuatro .pcard .cta{padding:6px 8px}
+}
+@media(max-height:490px){.portada--aula.aula-cuatro{height:auto;min-height:100svh}.portada--aula.aula-cuatro .pcard{min-height:125px}}
 </style></head><body>
 <section class="portada portada--aula" id="inicio" aria-label="Portada del Aula de salud comunitaria basada en activos">
 <div class="portada-bar"><strong>AULA · SALUD COMUNITARIA</strong><span>Formación y acción local en salud</span></div>
@@ -65,6 +96,7 @@ const grid=document.getElementById('aula-catalogo');
 const pager=document.getElementById('aula-pages');
 if(!cover||!grid||!pager)return;
 const tiles=Array.from(grid.querySelectorAll('article.pcard'));
+cover.classList.toggle('aula-cuatro',tiles.length===4);
 const previous=document.getElementById('aula-page-prev');
 const next=document.getElementById('aula-page-next');
 const status=document.getElementById('aula-page-status');
@@ -79,6 +111,8 @@ function render(){
   next.disabled=page>=pages-1;
 }
 function adapt(){
+  // Con las cuatro entradas actuales se muestran todas, sin paginación.
+  if(tiles.length===4){capacity=4;page=0;render();return}
   const w=window.innerWidth;
   const columns=w>1130?4:w>720?3:2;
   cover.classList.toggle('aula-densa',tiles.length>8);
