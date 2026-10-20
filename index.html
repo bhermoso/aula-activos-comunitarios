@@ -77,6 +77,17 @@ body{margin:0;background:#102a28;font-family:Inter,system-ui,sans-serif}
 .portada--aula.aula-cuatro .pcard .cta{padding:6px 8px}
 }
 @media(max-height:490px){.portada--aula.aula-cuatro{height:auto;min-height:100svh}.portada--aula.aula-cuatro .pcard{min-height:125px}}
+
+/* Cinco o seis portadas: tres columnas en dos filas sin huecos enormes. */
+.portada--aula.aula-seis{min-height:100svh}
+@media(min-width:1000px) and (min-height:690px){
+.portada--aula.aula-seis{height:100svh;min-height:0}
+.portada--aula.aula-seis .portada-cursos{flex:1 1 auto;min-height:0;max-width:1400px;grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));align-content:stretch;gap:clamp(10px,1.6vh,18px);padding:9px clamp(15px,3vw,44px) 12px}
+.portada--aula.aula-seis .pcard{min-height:0;padding:clamp(15px,2vh,23px);gap:7px}
+.portada--aula.aula-seis .pcard h2{font-size:clamp(19px,1.9vw,26px)}
+.portada--aula.aula-seis .pcard p{font-size:12px;line-height:1.4;-webkit-line-clamp:3}
+.portada--aula.aula-seis .pcard .cta{font-size:12px;padding:9px 11px}
+}
 </style></head><body>
 <section class="portada portada--aula" id="inicio" aria-label="Portada del Aula de salud comunitaria basada en activos">
 <div class="portada-bar"><strong>AULA · SALUD COMUNITARIA</strong><span>Formación y acción local en salud</span></div>
@@ -84,9 +95,10 @@ body{margin:0;background:#102a28;font-family:Inter,system-ui,sans-serif}
 <div class="form-art" aria-hidden="true"><div class="fh"><span>ACCIÓN COMUNITARIA</span><span>ITINERARIO</span></div><div class="fr"><b>Territorio</b><span>Contexto y situación de salud</span></div><div class="fr"><b>Participación</b><span>Personas, entidades y sectores</span></div><div class="fr"><b>Activos</b><span>Capacidades, recursos y redes</span></div><div class="fr"><b>Planificación</b><span>Prioridades y actuaciones</span></div><div class="br">Conocimiento · Participación · Acción local</div></div></div>
 <div class="portada-cursos" id="aula-catalogo" aria-label="Cursos y procesos locales">
 <article class="pcard"><div class="lv">Curso · 2026</div><h2>Salud comunitaria basada en activos</h2><p>Fundamentos, identificación y mapeo de activos, planificación y Localiza Salud.</p><div class="units"><span>Mapeo</span><span>Atención Primaria</span><span>Localiza Salud</span></div><a class="cta" href="./activos/">Entrar al curso →</a></article>
-<article class="pcard"><div class="lv">Proceso local · Loja · 2026</div><h2>Loja · Proceso local de salud</h2><p>Dos encuentros para priorizar líneas de salud y planificar el mapeo comunitario.</p><div class="units"><span>Impulso</span><span>Priorización</span><span>Mapeo por líneas</span></div><a class="cta" href="./impulso/">Ver itinerario de Loja →</a></article>
-<article class="pcard"><div class="lv">Proceso local · Fuente Vaqueros · 2026</div><h2>Fuente Vaqueros · Proceso local de salud</h2><p>Encuentro intersectorial para revisar la situación local y orientar los próximos pasos.</p><div class="units"><span>Fuente Vaqueros</span><span>RELAS</span><span>Participación</span></div><a class="cta" href="./fuente-vaqueros/">Ver proceso local →</a></article>
+<article class="pcard"><div class="lv">Plan Local de Salud · Loja · 2026</div><h2>Loja · Plan Local de Salud</h2><p>Dos encuentros para priorizar líneas de salud y planificar el mapeo comunitario.</p><div class="units"><span>Impulso</span><span>Priorización</span><span>Mapeo por líneas</span></div><a class="cta" href="./impulso/">Ver itinerario de Loja →</a></article>
+<article class="pcard"><div class="lv">Plan Local de Salud · Fuente Vaqueros · 2026</div><h2>Fuente Vaqueros · Plan Local de Salud</h2><p>Encuentro intersectorial para revisar la situación local y orientar los próximos pasos.</p><div class="units"><span>Fuente Vaqueros</span><span>RELAS</span><span>Participación</span></div><a class="cta" href="./fuente-vaqueros/">Ver proceso local →</a></article>
 <article class="pcard"><div class="lv">Cursos · 2027</div><h2>Diseño de cuestionarios en salud con REDCap</h2><p>Dos itinerarios de aprendizaje: REDCap Básico y REDCap Avanzado.</p><div class="units"><span>REDCap Básico</span><span>REDCap Avanzado</span><span>Prácticas</span></div><a class="cta" href="./redcap/">Entrar a los cursos →</a></article>
+<article class="pcard"><div class="lv">Plan Comarcal de Salud · Mancomunidad de Alhama</div><h2>Comarca de Alhama de Granada</h2><p>Ocho municipios, un Plan Comarcal de Salud: participación, bienestar y trabajo intersectorial.</p><div class="units"><span>Mancomunidad</span><span>RELAS</span><span>Plan Comarcal</span></div><a class="cta" href="./alhama-comarca/">Ver Plan Comarcal →</a></article>
 </div><nav id="aula-pages" class="aula-pages" aria-label="Otras entradas del Aula" hidden><button type="button" id="aula-page-prev">← Anteriores</button><span id="aula-page-status" aria-live="polite"></span><button type="button" id="aula-page-next">Siguientes →</button></nav><div class="portada-pie"><span>Aula de salud comunitaria basada en activos</span><span>Materiales de formación y trabajo</span></div>
 </section><script>
 (function(){
@@ -97,6 +109,7 @@ const pager=document.getElementById('aula-pages');
 if(!cover||!grid||!pager)return;
 const tiles=Array.from(grid.querySelectorAll('article.pcard'));
 cover.classList.toggle('aula-cuatro',tiles.length===4);
+cover.classList.toggle('aula-seis',tiles.length>=5&&tiles.length<=6);
 const previous=document.getElementById('aula-page-prev');
 const next=document.getElementById('aula-page-next');
 const status=document.getElementById('aula-page-status');
@@ -113,6 +126,7 @@ function render(){
 function adapt(){
   // Con las cuatro entradas actuales se muestran todas, sin paginación.
   if(tiles.length===4){capacity=4;page=0;render();return}
+  if(tiles.length>=5&&tiles.length<=6&&window.innerWidth>=1000&&window.innerHeight>=690){capacity=tiles.length;page=0;render();return}
   const w=window.innerWidth;
   const columns=w>1130?4:w>720?3:2;
   cover.classList.toggle('aula-densa',tiles.length>8);
