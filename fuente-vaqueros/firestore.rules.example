@@ -1,44 +1,47 @@
-// REGLAS PARA INTEGRAR EN EL PROYECTO FIREBASE EXISTENTE.
-// No reemplazar las reglas de otros módulos/colecciones sin revisión.
-// En Firebase Console > App Check: aplicar (enforce) a Cloud Firestore.
-// En Firebase Authentication: habilitar inicio de sesión anónimo.
-rules_version = '2';
-service cloud.firestore {
-  match /databases/{database}/documents {
-    match /procesos_locales/fuente-vaqueros-2026/aportaciones/{aportacionId} {
-      function validStr(key, maxLen) {
-        return request.resource.data[key] is string
-          && request.resource.data[key].size() <= maxLen;
-      }
-      function validPayload() {
-        let d = request.resource.data;
-        return d.keys().hasOnly([
-            'sector','tipo','entidad','aporte','prioridad','observa',
-            'proceso','edicion','origen','createdAt'
-          ])
-          && d.keys().hasAll([
-            'sector','tipo','entidad','aporte','prioridad','observa',
-            'proceso','edicion','origen','createdAt'
-          ])
-          && d.proceso == 'fuente-vaqueros-2026'
-          && d.edicion == '2026-10-22'
-          && d.origen == 'qr'
-          && d.createdAt == request.time
-          && validStr('sector', 80) && d.sector.size() > 0
-          && validStr('tipo', 120) && d.tipo.size() > 0
-          && validStr('entidad', 120)
-          && validStr('aporte', 450)
-          && validStr('prioridad', 180)
-          && validStr('observa', 450);
-      }
-      allow create: if request.auth != null
-        && request.auth.token.firebase.sign_in_provider == 'anonymous'
-        && validPayload();
-      allow read, update, delete: if false;
-    }
+// FUENTE VAQUEROS · REGLA ADITIVA · NO SUSTITUYE LAS REGLAS DE COMPÁS
+//
+// Copiar ÚNICAMENTE este bloque MATCH dentro del match ya existente:
+//   service cloud.firestore { match /databases/{database}/documents { ... AQUÍ ... } }
+// Pegar justo DESPUÉS del cierre del match de /relas_scopes/{scope}/reviews/{moduleId},
+// ANTES del cierre del match /databases/{database}/documents.
+// No volver a declarar rules_version, service ni match /databases: YA EXISTEN.
+// Conservar intactas las demás funciones y reglas de Compás.
+//
+// Firestore (default) · proyecto aula-salud-comunitaria (nam5)
+// Requiere Firebase Authentication > Anónimo habilitado (confirmado).
+// Para difusión del QR: configurar App Check, pruebas y límites antiabuso.
+
+match /procesos_locales/fuente-vaqueros-2026/aportaciones/{aportacionId} {
+  function fvValidString(field, maxLen) {
+    return request.resource.data[field] is string
+      && request.resource.data[field].size() <= maxLen;
   }
+
+  function fvValidContribution() {
+    let d = request.resource.data;
+    return d.keys().hasOnly([
+        'sector', 'tipo', 'entidad', 'aporte', 'prioridad', 'observa',
+        'proceso', 'edicion', 'origen', 'createdAt'
+      ])
+      && d.keys().hasAll([
+        'sector', 'tipo', 'entidad', 'aporte', 'prioridad', 'observa',
+        'proceso', 'edicion', 'origen', 'createdAt'
+      ])
+      && d.proceso == 'fuente-vaqueros-2026'
+      && d.edicion == '2026-10-22'
+      && d.origen == 'qr'
+      && d.createdAt == request.time
+      && fvValidString('sector', 80) && d.sector.size() > 0
+      && fvValidString('tipo', 120) && d.tipo.size() > 0
+      && fvValidString('entidad', 120)
+      && fvValidString('aporte', 450)
+      && fvValidString('prioridad', 180)
+      && fvValidString('observa', 450);
+  }
+
+  allow create: if request.auth != null
+    && request.auth.token.firebase.sign_in_provider == 'anonymous'
+    && fvValidContribution();
+
+  allow get, list, update, delete: if false;
 }
-// Lectura y exportación para la organización: solo mediante consola Firebase,
-// credenciales administrativas o backend autenticado separado.
-// NOTA: las reglas de Firestore no sustituyen los controles antiabuso;
-// activar App Check con enforcement y aplicar límites adecuados.
