@@ -10,7 +10,7 @@ function reveal(on){
   cover.hidden=on;
   app.hidden=!on;
   document.body.classList.toggle('actividad-abierta',on);
-  window.scrollTo({top:0,behavior:'instant'});
+  try{window.scrollTo(0,0)}catch(e){};
 }
 function selectSection(target){
   if(mode==='loja'){
