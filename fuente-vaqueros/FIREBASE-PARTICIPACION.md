@@ -1,23 +1,45 @@
-# Fuente Vaqueros — participación mediante QR y Firebase
+# Fuente Vaqueros — ficha QR conectada a Firebase
 
-Estado: IMPLEMENTACIÓN PREPARADA; NO OPERATIVA hasta definir proyecto Firebase y desplegar.
+**Proyecto identificado:** `aula-salud-comunitaria` (indicado por la organización, 20-10-2026).
 
-## Contrato de datos
-Collection: \`procesos_locales/fuente-vaqueros-2026/aportaciones\`.
+**Estado:** integración y Hosting aislado preparados en GitHub. **No está operativo ni desplegado:** faltan configuración pública de la aplicación web, App Check, habilitación de Firestore/Authentication, reglas comprobadas y creación del sitio específico de Hosting.
 
-Cada envío contiene: sector, tipo, entidad, aporte, prioridad, observa, proceso, edicion, origen y createdAt (serverTimestamp). No pedir teléfonos, nombres de personas físicas ni información clínica.
+## Destino de las aportaciones
 
-## Requisitos de Firebase
-1. Elegir/crear un proyecto Firebase específico (o uno existente autorizado) y registrar una aplicación web. Obtener valores **públicos** del objeto firebaseConfig: apiKey, authDomain, projectId, appId.
-2. Activar Cloud Firestore y Firebase Authentication con inicio de sesión **anónimo**.
-3. Activar Firebase App Check con reCAPTCHA v3, registrar el dominio de Firebase Hosting y proporcionar clave **pública** del sitio; configurar enforcement de Cloud Firestore después de verificar.
-4. Integrar las reglas de \`firestore.rules.example\` en las reglas existentes sin borrar las de otras aplicaciones; probar creación anónima con campos válidos y rechazo de lectura.
-5. Configurar \`firebase-config.js\` del formulario y desplegar el **sitio de participantes independientemente del Aula**, preferentemente en Firebase Hosting. No compartir un QR antes de haber comprobado una escritura de prueba en Firestore y su lectura desde la consola.
-6. Generar QR apuntando exclusivamente a la URL de Firebase Hosting de este formulario.
+Colección Firestore: `procesos_locales/fuente-vaqueros-2026/aportaciones`.
 
-## Precauciones
-- Un QR público no es control de acceso; evita enseñar la URL de la portada del Aula, pero no privatiza páginas de GitHub Pages ya públicas.
-- La aplicación web Firebase contiene datos de configuración públicos; **nunca** insertar claves de cuentas de servicio, secretos o credenciales administrativas en GitHub.
-- Los formularios deben confirmar escritura en Firestore; un mensaje local de «guardado» no demuestra recepción.
-- Firestore no tiene aquí una vista pública de las respuestas: únicamente la organización con permisos de Firebase puede consultarlas.
-- Pendiente: proyecto Firebase, configuración web pública, reCAPTCHA App Check y URL de Firebase Hosting. Hasta entonces el botón «Enviar» permanece deshabilitado.
+Una aportación incluye sector, tipo, entidad, aporte, prioridad, observa, proceso, edicion, origen y `createdAt` del servidor. La web no solicita datos personales ni clínicos.
+
+## Activar el proyecto
+
+1. En [Firebase Console](https://console.firebase.google.com/project/aula-salud-comunitaria/settings/general), abrir **Configuración del proyecto → General → Tus aplicaciones**. Registrar o seleccionar una **aplicación web**. Copiar el bloque público `firebaseConfig` (en particular `apiKey`, `authDomain`, `projectId` y `appId`). No compartir cuentas de servicio ni secretos privados.
+2. Sustituir los campos vacíos en `fuente-vaqueros/firebase-config.js`. `projectId` ya está fijado a `aula-salud-comunitaria`.
+3. Activar **Cloud Firestore** y **Authentication → Método de acceso → Anónimo**.
+4. Activar **App Check → aplicación web → reCAPTCHA v3**, registrar el dominio final de Hosting y configurar `FV_FIREBASE_APPCHECK_KEY` con la clave **pública** de sitio. Comprobar que funciona antes de activar enforcement en Cloud Firestore.
+5. Integrar y publicar **solo la regla pertinente** de `fuente-vaqueros/firestore.rules.example`, conservando las reglas de las restantes aplicaciones del mismo Firebase. Testear la escritura anónima válida y denegar lectura pública. La consola o un entorno administrativo autenticado permitirán consultar los resultados.
+6. Crear un **nuevo sitio de Firebase Hosting** dedicado a la ficha. No desplegar sobre el sitio predeterminado del proyecto si aloja otros contenidos.
+
+## Preparar el sitio separado sin publicar el Aula
+
+Desde una terminal con Node, Firebase CLI y acceso autorizado al proyecto:
+
+```bash
+firebase login
+firebase hosting:sites:create <ID-DE-SITIO-UNICO> --project aula-salud-comunitaria
+firebase target:apply hosting fuente-vaqueros-participantes <ID-DE-SITIO-UNICO> --project aula-salud-comunitaria
+firebase deploy --only hosting:fuente-vaqueros-participantes --project aula-salud-comunitaria
+```
+
+El `firebase.json` de la raíz usa expresamente el **target** `fuente-vaqueros-participantes` (no el Hosting predeterminado). Su paso previo genera `dist-fuente-vaqueros/` copiando únicamente `fuente-vaqueros/participar.html` como `index.html` y `fuente-vaqueros/firebase-config.js`. No publica la portada ni las otras páginas del Aula.
+
+**Importante:** no ejecutar `firebase deploy --only hosting` sin target; podría desplegar un sitio distinto del deseado según la configuración y los permisos del proyecto.
+
+## Verificaciones antes de imprimir el QR
+
+- Abrir la URL final de Hosting desde un móvil; comprobar que no aparecen enlaces al Aula.
+- Escribir una aportación de prueba sin datos personales y verificar su documento en Firestore.
+- Confirmar que sin conexión no se muestra una falsa recepción.
+- Comprobar que un usuario anónimo no puede leer respuestas ajenas.
+- Generar entonces el QR con la URL verificada de Hosting y mostrarlo en la diapositiva «Práctica».
+
+**Un QR es un acceso por enlace, no control de autorización.** Eliminar el enlace del Aula de la ficha no vuelve privado el repositorio público de GitHub Pages.
