@@ -32,3 +32,59 @@
 @media print{.portada{display:none!important}}
 
 .portada[hidden],.actividad-app[hidden]{display:none!important}
+
+/* Escala coordinada de portadas del Aula · octubre 2026
+   Se aplica a las portadas de cursos/talleres con data-module, no a las
+   pantallas interiores ni a REDCap (cuya portada tiene CSS propio). */
+.portada[data-module]{min-height:100svh}
+.portada[data-module] .portada-bar{padding:11px clamp(16px,3.5vw,49px);font-size:11px}
+.portada[data-module] .portada-hero{
+  max-width:1350px;
+  padding:clamp(15px,2.8vh,32px) clamp(16px,3.5vw,49px) clamp(11px,2vh,20px);
+  gap:clamp(15px,3vw,32px);
+}
+.portada[data-module] .p-kicker{font-size:11px;letter-spacing:.12em}
+.portada[data-module] h1{font-size:clamp(34px,4.4vw,56px);line-height:1.06;margin:8px 0 11px}
+.portada[data-module] h1 span{margin-top:5px}
+.portada[data-module] .portada-hero p{font-size:clamp(13px,1.35vw,16px);line-height:1.45}
+.portada[data-module] .fecha{margin-top:13px;padding:6px 12px;font-size:12px}
+.portada[data-module] .form-art{max-width:350px;padding:14px 17px;transform:rotate(-1deg);border-radius:15px}
+.portada[data-module] .form-art .fr{padding:6px 0}
+.portada[data-module] .portada-cursos{max-width:1350px;gap:clamp(9px,1.5vw,16px);padding:8px clamp(16px,3.5vw,49px) 15px}
+.portada[data-module] .pcard{border-radius:15px;padding:clamp(15px,2.2vw,22px);gap:7px}
+.portada[data-module] .pcard h2{font-size:clamp(21px,2vw,27px);line-height:1.15}
+.portada[data-module] .pcard p{font-size:13px;line-height:1.46}
+.portada[data-module] .pcard .units{gap:5px;margin:1px 0}
+.portada[data-module] .pcard .units span{font-size:10px;padding:3px 7px}
+.portada[data-module] .pcard .cta{font-size:13px;padding:10px 14px;min-height:39px;align-items:center}
+.portada[data-module] .portada-pie{padding:10px clamp(16px,3.5vw,49px);font-size:11px}
+@media(min-width:901px) and (min-height:650px){
+  .portada[data-module] .portada-cursos{flex:1 1 auto;align-content:stretch}
+  .portada[data-module] .pcard{min-height:0}
+}
+@media(max-width:900px){
+  .portada[data-module] .portada-hero{grid-template-columns:1fr}
+  .portada[data-module] .form-art{display:none}
+  .portada[data-module] .portada-cursos{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:620px){
+  .portada[data-module] .portada-hero{padding:13px 15px 9px}
+  .portada[data-module] h1{font-size:clamp(27px,6vw,38px);margin:7px 0 9px}
+  .portada[data-module] .portada-hero p{font-size:13px;line-height:1.39}
+  .portada[data-module] .fecha{font-size:11px;margin-top:9px}
+  .portada[data-module] .portada-cursos{grid-template-columns:1fr;gap:9px;padding:6px 15px 13px}
+  .portada[data-module] .pcard{padding:13px 15px;gap:5px}
+  .portada[data-module] .pcard h2{font-size:22px}
+  .portada[data-module] .pcard .units{display:none}
+  .portada[data-module] .pcard .cta{padding:9px 12px}
+  .portada[data-module] .portada-pie{padding:9px 15px}
+}
+@media(max-height:650px) and (min-width:621px){
+  .portada[data-module] .portada-hero{padding-top:9px;padding-bottom:6px}
+  .portada[data-module] h1{font-size:clamp(30px,3.5vw,44px)}
+  .portada[data-module] .portada-hero p{font-size:13px}
+  .portada[data-module] .form-art{max-width:285px;padding:10px 13px}
+  .portada[data-module] .form-art .fr{padding:3px 0}
+  .portada[data-module] .pcard{padding:12px 15px}
+}
+@media print{.portada[data-module]{min-height:0}}
