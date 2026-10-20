@@ -1,0 +1,119 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102a28">
+<meta name="description" content="Propuesta de sesión del Grupo Motor del Plan Comarcal de Salud de la Comarca de Alhama de Granada. Priorización de líneas de bienestar y planificación del mapeo de activos.">
+<title>Sesión de priorización y mapeo · Plan Comarcal de Salud · Alhama</title>
+<style>
+:root{--dark:#102a28;--ink:#204134;--green:#22664e;--paper:#f6f7f2;--muted:#587269;--line:#d6e5d8}*{box-sizing:border-box}html{scroll-behavior:auto}body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.49 Inter,system-ui,-apple-system,"Segoe UI",sans-serif;height:100svh;display:flex;flex-direction:column;overflow:hidden}
+a{color:#1d674a}a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #dfb459;outline-offset:2px}
+.top{background:var(--dark);color:#fff;display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;padding:9px clamp(12px,3vw,39px);flex:none}
+.top strong{font-size:11px;letter-spacing:.07em}
+.top a{display:inline-block;border:1px solid #5e9076;border-radius:9px;padding:7px 11px;font-size:11px;font-weight:750;color:#dff3e4;text-decoration:none}
+header{flex:none;background:var(--dark);color:#fff;padding:11px clamp(12px,3vw,39px)}
+.kicker{font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:#bde1c6;font-weight:800}
+header h1{font:600 clamp(24px,3vw,35px)/1.1 Georgia,serif;margin:4px 0 6px}
+header p{font-size:13px;margin:0;max-width:100ch;color:#dceee1}
+header .meta{display:flex;gap:6px;flex-wrap:wrap;margin:7px 0 0}
+header .meta span{font-size:10px;border:1px solid #57826b;border-radius:99px;padding:3px 8px}
+main{flex:1;min-height:0;max-width:1450px;width:100%;margin:0 auto;padding:9px clamp(12px,3vw,39px);display:flex;flex-direction:column}
+.tabs{display:flex;gap:7px;flex:none;overflow-x:auto;margin-bottom:9px}
+.tab{flex:1 0 auto;min-width:115px;border:1px solid #bfd6c7;border-radius:9px;color:#305b45;background:#e8f1e7;padding:9px 12px;font-size:12px;font-weight:800;cursor:pointer}
+.tab[aria-selected=true]{background:var(--green);color:#fff;border-color:var(--green)}
+.page{display:none;flex:1;min-height:0;overflow-y:auto;scrollbar-gutter:stable;background:#fff;border:1px solid var(--line);border-radius:13px;padding:clamp(13px,2.2vw,24px)}
+.page.active{display:block}
+.page h2{font:600 clamp(21px,2.5vw,30px)/1.19 Georgia,serif;margin:0 0 9px}
+.page p{font-size:13px;line-height:1.52;margin:7px 0}
+.lead{background:#eaf4e8;border-left:4px solid #7bad8b;padding:10px 14px;border-radius:0 10px 10px 0}
+.flow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin:12px 0}
+.flow>div{border:1px solid var(--line);border-radius:11px;padding:12px;background:#f6faf6}
+.flow b{display:block;font-size:13px;color:#28744f;margin-bottom:4px}
+.flow span{font-size:12px;line-height:1.35;display:block}
+.rows{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px;margin:13px 0}
+.panel{border:1px solid var(--line);border-radius:11px;padding:12px}
+.panel h3{font:600 18px Georgia,serif;margin:0 0 5px}
+.panel p{margin:0}
+.draw{border:1px solid #cfdfd4;border-radius:10px;margin:10px 0;background:#fbfdfa}
+.draw>summary{padding:11px 14px;cursor:pointer;list-style:none;font-weight:800;color:#26583f;font-size:13px}
+.draw>summary::-webkit-details-marker{display:none}
+.draw[open]>summary{background:#edf5eb;border-bottom:1px solid var(--line)}
+.inside{padding:13px}
+.inside p{margin:5px 0 11px}
+.sheet{border:1px solid var(--line);border-radius:11px;margin:9px 0;padding:12px;background:#fff}
+.sheet h3{font:600 19px Georgia,serif;color:#275c45;margin:0 0 10px}
+.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+label{display:block;font-size:12px;font-weight:800}
+label input,label select,label textarea{display:block;width:100%;margin-top:4px;border:1px solid #b1cbbc;background:#fff;color:var(--ink);border-radius:8px;padding:9px 10px;font:inherit;font-weight:400}
+textarea{min-height:64px;resize:vertical}
+.wide{grid-column:1/-1}
+button{font:750 12px Inter,system-ui,sans-serif;background:var(--green);color:#fff;border:1px solid var(--green);border-radius:8px;padding:10px 14px;cursor:pointer}
+button.secondary{background:#fff;color:var(--green);border-color:#a5c7b2}
+.buttons{display:flex;gap:8px;flex-wrap:wrap;margin:9px 0}
+table{border-collapse:collapse;width:100%;font-size:12px}
+th,td{text-align:left;border-bottom:1px solid var(--line);vertical-align:top;padding:9px}
+th{background:#edf5ed}
+.pagination{display:flex;justify-content:space-between;align-items:center;gap:9px;flex:none;padding:8px 0 0}
+.pagination span{font-size:12px;color:#526e5c;font-weight:800}
+.pagination button:disabled{opacity:.4;cursor:default}
+footer{flex:none;text-align:center;color:#637a70;font-size:10px;padding:4px 12px 8px}
+@media(max-width:760px){.top{padding:7px 11px}.top a{padding:6px 7px;font-size:10px}header{padding:9px 11px}header h1{font-size:25px}header p{display:none}.tabs{gap:5px}.tab{font-size:11px;min-width:105px;padding:8px 9px}main{padding:7px 9px}.flow,.rows{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.page{padding:12px}.form-grid{grid-template-columns:1fr}.wide{grid-column:auto}}
+@media(max-width:480px){.flow,.rows{grid-template-columns:1fr}.page h2{font-size:23px}footer{display:none}}
+@media print{body{height:auto;display:block;overflow:visible}.top,.tabs,.pagination,.buttons{display:none!important}header{background:#fff;color:#111;padding:0 0 16px}header p{display:block;color:#333}main{display:block}.page{display:block!important;overflow:visible;break-before:page;border:0;padding:0}.draw>.inside{display:block}.sheet{break-inside:avoid}footer{display:block}}
+</style></head><body>
+<nav class="top"><strong>PLAN COMARCAL DE SALUD · COMARCA DE ALHAMA</strong><div><a href="../index.html">⌂ Aula</a> <a href="index.html">← Plan Comarcal</a></div></nav>
+<header><div class="kicker">Grupo Motor Comarcal · Sesión propuesta · Fecha por confirmar</div><h1>Priorizar y planificar el mapeo de activos</h1><p>Una propuesta de trabajo compartido para la Mancomunidad: revisar la situación de salud, acordar líneas estratégicas positivas y organizar después la identificación de activos de cada territorio.</p><div class="meta"><span>Fecha y sede por confirmar</span><span>Duración por acordar</span><span>Propuesta, no acta de acuerdos</span></div></header>
+<main><nav class="tabs" aria-label="Apartados de la sesión">
+<button class="tab" data-tab="secuencia" aria-selected="true">01 · Secuencia</button>
+<button class="tab" data-tab="antecedentes" aria-selected="false">02 · Antecedentes</button>
+<button class="tab" data-tab="priorizar" aria-selected="false">03 · Priorización</button>
+<button class="tab" data-tab="mapeo" aria-selected="false">04 · Mapeo</button>
+<button class="tab" data-tab="cierre" aria-selected="false">05 · Acuerdos</button></nav>
+<section class="page active" id="secuencia"><h2>Primero decidir qué queremos mejorar; después planificar el mapa</h2><p class="lead">Este encuentro debe partir del trabajo impulsado por RELAS en 2025 y de los acuerdos que efectivamente consten. El mapeo de activos se diseña a partir de líneas estratégicas elegidas con la comunidad, no antes.</p>
+<div class="flow"><div><b>01 · Recuperar</b><span>Documentación, indicadores y estado real del Plan Comarcal.</span></div><div><b>02 · Priorizar</b><span>Líneas estratégicas de salud en positivo.</span></div><div><b>03 · Planificar</b><span>Ámbitos, agentes y técnicas de mapeo por línea.</span></div><div><b>04 · Ejecutar después</b><span>Contrastar, registrar, actuar y evaluar.</span></div></div>
+<p>Las diferencias entre los ocho municipios deben incorporarse tanto a las decisiones estratégicas como al diseño del mapeo.</p></section>
+<section class="page" id="antecedentes"><h2>Comenzamos con lo documentado y reconocemos lo pendiente</h2>
+<p class="lead">El proyecto RELAS de la Mancomunidad fue presentado el 21 de abril de 2025. No se han incorporado aquí resultados de consultas, indicadores específicos, prioridades aprobadas ni actas posteriores que no hayan sido aportados.</p>
+<div class="rows"><div class="panel"><h3>Qué recuperar</h3><p>Actas, documentos de trabajo, composición del Grupo Motor, fuentes epidemiológicas, participación de municipios y posibles acuerdos previos.</p></div><div class="panel"><h3>Qué contrastar</h3><p>Representatividad territorial, diferencias de acceso, necesidades sentidas, activos reconocidos y oportunidades para la colaboración intermunicipal.</p></div></div>
+<details class="draw"><summary>Documentación institucional de referencia</summary><div class="inside"><p><a href="https://www.alhama.com/digital/comarca/mancomunidad-municipios/16739-la-mancomunidad-y-la-delegacion-de-salud-de-la-junta-de-andalucia-presenta-el-desarrollo-de-la-red-local-de-accion-en-salud-relas" target="_blank" rel="noopener noreferrer">Convocatoria institucional de RELAS · Abril de 2025</a></p><p><a href="https://www.juntadeandalucia.es/boja/2019/73/113.html" target="_blank" rel="noopener noreferrer">Estatutos: ocho municipios de la Mancomunidad</a></p></div></details></section>
+<section class="page" id="priorizar"><h2>Acordar las líneas estratégicas de salud en positivo</h2>
+<p class="lead">La información sanitaria y la experiencia de los municipios sirven para formular aspiraciones compartidas: qué condiciones de bienestar fortalecer y qué desigualdades reducir.</p>
+<div class="rows"><div class="panel"><h3>Criterios a deliberar</h3><p>Equidad territorial, relevancia social, posibilidad de acción conjunta, participación comunitaria y viabilidad.</p></div><div class="panel"><h3>Procedimiento por acordar</h3><p>Decidir quién participa, cómo se recoge la información, cómo se contrasta y cuándo se adoptan acuerdos.</p></div></div>
+<p>Si el Grupo Motor decide realizar una nueva consulta, la priorización quedará pendiente hasta conocer y deliberar sus resultados. No se presentarán ejemplos como acuerdos aprobados.</p></section>
+<section class="page" id="mapeo"><h2>Diseñar el mapeo para cada línea acordada</h2>
+<p class="lead">Precisar qué redes, espacios, recursos, iniciativas y capacidades pueden contribuir a cada objetivo comarcal, respetando el alcance de cada municipio y las precauciones de privacidad.</p>
+<details class="draw"><summary>Orientaciones para organizar la identificación</summary><div class="inside"><div class="rows"><div class="panel"><h3>Qué y dónde</h3><p>Municipio o ámbito comarcal, entornos, población implicada, capacidades y posibles vacíos.</p></div><div class="panel"><h3>Con quién y cómo</h3><p>Comunidad, instituciones, asociaciones y servicios; entrevistas, talleres, recorridos o contraste de recursos según cada línea.</p></div></div></div></details>
+<details class="draw" id="worksheets"><summary>Fichas para planificar líneas de trabajo</summary><div class="inside"><div id="lines"><article class="sheet" data-line><h3>Línea de trabajo 01</h3><div class="form-grid">
+<label class="wide">Línea de salud en positivo<input name="linea" placeholder="Acuerdo o hipótesis pendiente de priorizar"></label>
+<label>Estado<select name="estado"><option>Pendiente de acuerdo</option><option>Seleccionada por el Grupo Motor</option></select></label>
+<label>Ámbito territorial<select name="territorio"><option>Comarca · varios municipios</option><option>Alhama de Granada</option><option>Arenas del Rey</option><option>Cacín</option><option>Fornes</option><option>Játar</option><option>Jayena</option><option>Santa Cruz del Comercio</option><option>Zafarraya</option></select></label>
+<label class="wide">¿Qué capacidades o recursos interesa identificar?<textarea name="que"></textarea></label>
+<label>¿Con quién y mediante qué técnicas?<textarea name="como"></textarea></label>
+<label>Responsables, plazo y precauciones<textarea name="encargo"></textarea></label>
+</div></article></div>
+<div class="buttons"><button id="add" type="button">+ Añadir otra línea</button><button id="print" class="secondary" type="button">Imprimir fichas</button></div>
+<p>Estas fichas no envían ni guardan propuestas. Sirven únicamente para preparar e imprimir la planificación del grupo.</p></div></details></section>
+<section class="page" id="cierre"><h2>Acuerdos que deberá recoger el Grupo Motor</h2><table><thead><tr><th>Cuestión</th><th>Qué debe constar</th></tr></thead><tbody>
+<tr><td>Estado del plan</td><td>Documentación revisada y compromisos institucionales acreditados.</td></tr>
+<tr><td>Participación</td><td>Municipios, agentes, consulta comunitaria y proceso acordado.</td></tr>
+<tr><td>Prioridades</td><td>Grandes líneas aprobadas o deliberación todavía pendiente.</td></tr>
+<tr><td>Mapeo</td><td>Qué activos, en qué municipios, con quién, técnicas y coordinación.</td></tr>
+<tr><td>Seguimiento</td><td>Responsables, calendario y próxima devolución pública.</td></tr>
+</tbody></table><p>Las propuestas de esta página no suponen acuerdos ni asistencia confirmada.</p><div class="buttons"><a href="index.html">← Volver al Plan Comarcal</a></div></section>
+<nav class="pagination"><button id="prev" class="secondary" type="button">← Anterior</button><span id="count">1 de 5</span><button id="next" type="button">Siguiente →</button></nav></main>
+<footer>Mancomunidad de Municipios de la Comarca de Alhama de Granada · Plan Comarcal de Salud</footer>
+<script>
+(function(){const ids=['secuencia','antecedentes','priorizar','mapeo','cierre'];let current='secuencia';
+function show(id){if(!ids.includes(id))id='secuencia';current=id;
+document.querySelectorAll('.page').forEach(el=>el.classList.toggle('active',el.id===id));
+document.querySelectorAll('.tab').forEach(el=>el.setAttribute('aria-selected',el.dataset.tab===id?'true':'false'));
+const i=ids.indexOf(id);document.getElementById('prev').disabled=i===0;document.getElementById('next').disabled=i===ids.length-1;
+document.getElementById('count').textContent=(i+1)+' de 5';document.getElementById(id).scrollTop=0;
+}
+function go(id){show(id);history.replaceState(null,'','#'+id)}
+document.querySelectorAll('.tab').forEach(el=>el.addEventListener('click',()=>go(el.dataset.tab)));
+document.getElementById('prev').addEventListener('click',()=>go(ids[Math.max(0,ids.indexOf(current)-1)]));
+document.getElementById('next').addEventListener('click',()=>go(ids[Math.min(ids.length-1,ids.indexOf(current)+1)]));
+window.addEventListener('hashchange',()=>show(location.hash.slice(1)));
+const lines=document.getElementById('lines'),source=lines.querySelector('[data-line]').cloneNode(true);
+document.getElementById('add').addEventListener('click',()=>{const item=source.cloneNode(true),n=lines.querySelectorAll('[data-line]').length+1;item.querySelector('h3').textContent='Línea de trabajo '+String(n).padStart(2,'0');lines.append(item);item.querySelector('input').focus()});
+document.getElementById('print').addEventListener('click',()=>window.print());
+show(location.hash.slice(1));
+})();
+</script></body></html>
