@@ -53,9 +53,9 @@ footer{padding:10px 16px 30px;text-align:center;font-size:12px;color:var(--muted
 </header>
 <main>
 <section class="card intro" aria-label="Instrucciones">
-<p><strong>No estamos realizando todavía el mapeo de activos.</strong> Antes se acordarán participativamente las líneas estratégicas de salud en positivo. Esta ficha recoge posibles personas jurídicas, entidades, redes y capacidades para explorar después.</p>
+<p><strong>¿Qué entidades, redes o iniciativas ayudan a vivir mejor en Fuente Vaqueros?</strong> Comparte una idea sobre sus aportaciones a la salud y el bienestar. Estas propuestas nos servirán para continuar el trabajo participativo; todavía no constituyen un mapa de activos definitivo.</p>
 <div class="steps"><span>1 · Identifica</span><span>2 · Explica qué aporta</span><span>3 · Envía al taller</span></div>
-<p class="note" style="margin-top:13px"><strong>Privacidad:</strong> no escribas datos de personas particulares, teléfonos ni información clínica. <strong>Al pulsar «Enviar», las respuestas se enviarán a la base de datos Firebase del proceso local.</strong> No se publican las aportaciones de otras personas ni se piden datos de contacto.</p>
+<p class="note" style="margin-top:13px"><strong>Importante:</strong> no incluyas nombres de personas particulares, teléfonos ni información sobre la salud de personas concretas. Al terminar, pulsa <strong>«Enviar propuesta»</strong>.</p>
 </section>
 <section class="card" aria-labelledby="form-title">
 <h2 id="form-title">Añadir una propuesta</h2>
@@ -80,7 +80,7 @@ footer{padding:10px 16px 30px;text-align:center;font-size:12px;color:var(--muted
 </form>
 <p id="status" class="status" role="status" aria-live="polite"></p>
 </section>
-<section class="card" aria-labelledby="list-title"><h2 id="list-title">Propuestas recibidas <span id="count">(0)</span></h2><p id="receipts" class="note">Aquí aparecerá la confirmación de los envíos realizados desde esta página mientras permanezca abierta.</p><p class="note">Cada propuesta se transmite a Firebase por separado. Solo se mostrará como recibida cuando la base de datos confirme el envío. No se comparten públicamente las respuestas.</p></section>
+<section class="card" aria-labelledby="list-title"><h2 id="list-title">Mis aportaciones enviadas <span id="count">(0)</span></h2><p id="receipts" class="note">Aquí verás cuántas propuestas has enviado durante esta actividad.</p><p class="note">Si tienes otra idea, puedes rellenar de nuevo la ficha.</p></section>
 </main>
 <footer>Fuente Vaqueros · Taller de impulso del I Plan Local de Salud · Ficha de preparación del mapeo</footer>
 <script src="./firebase-config.js"></script>
@@ -98,46 +98,46 @@ const send=$('send');
 let db,auth,count=0;
 async function activate(){
   if(!config?.projectId||!config?.apiKey||!config?.appId){
-    status('La recogida central todavía no está configurada. No se puede enviar.');return;
+    status('La ficha no está disponible en este momento. Consulta con la organización.');return;
   }
   try{
     const app=initializeApp(config);
     if(siteKey) initializeAppCheck(app,{provider:new ReCaptchaV3Provider(siteKey),isTokenAutoRefreshEnabled:true});
     auth=getAuth(app);
     db=getFirestore(app);
-    status('Comprobando acceso seguro al formulario…');
+    status('Preparando la ficha…');
     await signInAnonymously(auth);
     send.disabled=false;
-    status('Conexión establecida. La recepción solo se confirmará después de que Firestore acepte la propuesta.');
+    status('Ya puedes enviar tu propuesta.');
   }catch(err){
     const code=String(err?.code||'');
-    if(code.includes('operation-not-allowed')) status('La organización debe habilitar Authentication anónimo en Firebase. El envío aún no está disponible.');
-    else status('No se ha podido validar el acceso al formulario. Todavía no se pueden enviar propuestas.');
+    if(code.includes('operation-not-allowed')) status('La ficha no está disponible ahora. Consulta con la organización.');
+    else status('No se puede enviar en este momento. Consulta con la organización.');
     console.error('Error al activar el formulario',err);
   }
 }
 activate();
 $('proposal-form').addEventListener('submit',async e=>{
   e.preventDefault();
-  if(!db||!auth){status('El envío a Firebase no está disponible. No se ha guardado ninguna respuesta.');return}
+  if(!db||!auth){status('La ficha no está disponible en este momento. No se ha enviado ninguna propuesta.');return}
   const d={};for(const field of fields)d[field]=$(field).value.trim();
   if(!d.sector||!d.tipo){status('Selecciona el sector e indica el tipo de actor o recurso.');return}
-  send.disabled=true;status('Enviando la propuesta a Firebase…');
+  send.disabled=true;status('Enviando tu propuesta…');
   try{
     if(!auth.currentUser)await signInAnonymously(auth);
     await addDoc(collection(db,'procesos_locales','fuente-vaqueros-2026','aportaciones'),{
       ...d,proceso:'fuente-vaqueros-2026',edicion:'2026-10-22',origen:'qr',createdAt:serverTimestamp()
     });
     count++;$('count').textContent='('+count+')';
-    $('receipts').textContent=count===1?'1 propuesta enviada y confirmada por Firebase.':count+' propuestas enviadas y confirmadas por Firebase.';
+    $('receipts').textContent=count===1?'Has enviado 1 propuesta.':'Has enviado '+count+' propuestas.';
     $('proposal-form').reset();
-    status('Propuesta recibida en Firebase. Puedes enviar otra.');
+    status('¡Propuesta enviada! Gracias por participar. Puedes enviar otra.');
   }catch(err){
     console.error('Error al enviar propuesta',err);
     const code=String(err?.code||'');
-    if(code.includes('operation-not-allowed')) status('Firebase no admite el acceso anónimo todavía. La organización debe activarlo; esta propuesta NO se ha recibido.');
-    else if(code.includes('permission-denied')) status('Firebase ha rechazado la escritura. Hay que revisar las reglas de Firestore o App Check. La propuesta NO se ha recibido.');
-    else status('No se ha confirmado el envío a Firebase. La propuesta sigue en el formulario. Revisa la conexión o consulta a la organización.');
+    if(code.includes('operation-not-allowed')) status('Ahora no se puede enviar. Tu propuesta sigue en el formulario. Consulta con la organización.');
+    else if(code.includes('permission-denied')) status('No se ha podido enviar la propuesta. Conserva el texto y consulta con la organización.');
+    else status('No se ha podido enviar la propuesta. Sigue en el formulario; revisa la conexión o consulta con la organización.');
   }finally{send.disabled=false}
 });
 </script>
