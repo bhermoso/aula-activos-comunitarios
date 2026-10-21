@@ -336,6 +336,11 @@ body:has(.actividad-app:not([hidden])){overflow:hidden}
 #epi .fv-colloquium-heading h2{font:600 clamp(24px,3vw,34px)/1.2 Georgia,serif;margin:0 0 8px;color:var(--deep)}
 #epi .fv-colloquium-heading p{font-size:14px;line-height:1.5;margin:4px 0}
 #epi .fv-epi-view{border:1px solid #bbd6c6;border-radius:12px;overflow:hidden;background:#f5f8f3}
+#epi .fv-epi-toolbar{display:flex;justify-content:flex-end;gap:10px;background:#e6efe5;padding:8px 12px}
+#epi .fv-epi-toolbar button{border:0;border-radius:8px;color:#fff;background:#24664a;padding:9px 13px;font-weight:750;cursor:pointer}
+#epi .fv-epi-toolbar button[hidden]{display:none}
+#epi .fv-epi-view:fullscreen{background:#101612;width:100vw;height:100vh;display:flex;flex-direction:column;border:0;border-radius:0}
+#epi .fv-epi-view:fullscreen iframe{flex:1;height:100%;min-height:0}
 #epi .fv-epi-view iframe{display:block;width:100%;height:min(76vh,820px);min-height:500px;border:0}
 #epi .fv-epi-help{display:flex;gap:18px;flex-wrap:wrap;font-size:13px;margin:10px 0 2px}
 @media(max-width:650px){#epi .fv-epi-view iframe{height:70vh;min-height:465px}}
@@ -380,7 +385,8 @@ body:has(.actividad-app:not([hidden])){overflow:hidden}
 <h2 id="fv-epi-title">Informe sobre la Situación de Salud en el Municipio de Fuente Vaqueros</h2>
 <p class="fv-colloquium-lead"><strong>Carlos del Moral Campaña</strong> · Epidemiólogo · Unidad PPVS Granada-Metropolitano</p>
 </div>
-<div class="fv-epi-view">
+<div class="fv-epi-view" id="fv-epi-visor">
+<div class="fv-epi-toolbar"><button type="button" id="fv-epi-ampliar">⛶ Pantalla completa</button><button type="button" id="fv-epi-salir" hidden>Salir de pantalla completa</button></div>
 <iframe src="https://drive.google.com/file/d/1-yro5x9cEaafcxJ8vZgPlKlkWLyuESIR/preview" title="Informe sobre la Situación de Salud en el Municipio de Fuente Vaqueros · PDF original del ponente" loading="lazy" allowfullscreen></iframe>
 </div>
 <p class="fv-epi-help"><a class="fv-history-link" href="https://drive.google.com/file/d/1-yro5x9cEaafcxJ8vZgPlKlkWLyuESIR/view" target="_blank" rel="noopener noreferrer">Abrir PDF original ↗</a> · <a class="fv-history-link" href="epi.html" target="_blank" rel="noopener noreferrer">Pantalla independiente ↗</a> · <a class="fv-history-link" href="#moderacion" data-tab-link="moderacion">Continuar al coloquio →</a></p>
@@ -437,4 +443,4 @@ document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()
 // Código QR local: bitmap de la URL de la ficha (sin servicios externos).
 (function(){const canvas=document.getElementById('fv-practica-qr');if(!canvas)return;const ctx=canvas.getContext('2d');if(!ctx)return;const raw=atob('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+qMAj+AQWb4AQQC6+ZVy6AXQqu9XQC661Qq6AQSx30QQD+qqqr+AAA/dqAACf/dOUuANJdbuugCij0PXaAYmQ4SvwCWWpuDSAQq3S3GACH0Tjy+AIDTAyrwCb/RtGKALCOOGoAD+YXEUqAICRNJaQAT/MC/gAYsqNmFgCL/aVZSAVPgxgPQC7BrmLAAaH/QnGADrQdZX+AXtAQA3QC3Swtf6AAFjcFFgD+nR/qiAQXCZbEgC630k/kAXVe4gxwC6Yw8QiAQThoyXwD+2hmNCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=');const size=45,unit=10;ctx.fillStyle='#ffffff';ctx.fillRect(0,0,canvas.width,canvas.height);ctx.fillStyle='#102a28';for(let i=0;i<size*size;i++){const bit=(raw.charCodeAt(i>>3)>>(7-(i&7)))&1;if(bit)ctx.fillRect((i%size)*unit,Math.floor(i/size)*unit,unit,unit)}})();
 
-</script></div><script src="../assets/aula-portadas.js?v=20261020a" defer></script></body></html>
+</script></div><script src="./epi-pantalla.js" defer></script><script src="../assets/aula-portadas.js?v=20261020a" defer></script></body></html>
