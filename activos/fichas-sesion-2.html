@@ -53,7 +53,7 @@ body{background:#fff;color:#111;font:10.4pt/1.31 Arial,sans-serif}
 <script type="module">
 import {gruposSesion2} from './content/grupos-sesion-2.js?v=20261021b';
 const host=document.getElementById('fichas'),select=document.getElementById('choose');
-function esc(x){return String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;':'&quot;'}[c]))}
+function esc(x){return String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 for(const g of gruposSesion2){
 const el=document.createElement('article');el.className='ficha';el.id='grupo-'+g.num;
 el.innerHTML='<div class="ficha-header"><div><span class="kicker">Grupo '+g.num+' · '+esc(g.tipo)+'</span><h2>'+esc(g.titulo)+'</h2><p class="context">'+esc(g.subtitulo)+'</p></div><span class="badge">10:00–10:30</span></div>'
