@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#123b34"><meta name="description" content="Segunda sesión presencial del curso de Salud Comunitaria Basada en Activos: tres grupos temáticos, dos supuestos prácticos y exposiciones en plenario.">
+<title>Segunda sesión presencial · Salud Comunitaria Basada en Activos</title>
+<style>
+:root{--ink:#173b36;--deep:#123b34;--green:#225f47;--paper:#f5f5ef;--line:#d2e0d5;--pale:#eaf3e8;--muted:#587368}
+*{box-sizing:border-box}html{scroll-behavior:auto}body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.5 Inter,system-ui,-apple-system,"Segoe UI",sans-serif;min-height:100svh;height:100svh;display:flex;flex-direction:column;overflow:hidden}
+a{color:#1b6548}a:focus-visible,button:focus-visible,summary:focus-visible,textarea:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #daae50;outline-offset:2px}
+button{cursor:pointer;font:inherit}
+.top{background:var(--deep);color:#fff;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;flex:none;padding:9px clamp(13px,3vw,42px)}
+.top strong{font-size:11px;letter-spacing:.085em}
+.top a{color:#edfaef;border:1px solid #65927d;border-radius:8px;text-decoration:none;padding:7px 11px;font-size:11px;font-weight:800}
+.hero{flex:none;background:var(--deep);color:#fff;padding:11px clamp(13px,3vw,42px) 13px;border-top:1px solid #3b6353}
+.kicker{font-size:10px;text-transform:uppercase;letter-spacing:.11em;color:#c0dfc6;font-weight:850}
+.hero h1{font:600 clamp(23px,3.1vw,37px)/1.14 Georgia,serif;margin:4px 0 7px;max-width:1200px}
+.hero p{font-size:13px;color:#dbeddf;margin:0;max-width:118ch}
+.tags{display:flex;gap:7px;flex-wrap:wrap;margin:8px 0 0}.tags span{font-size:10px;font-weight:800;color:#e2f3e3;border:1px solid #608a75;padding:3px 10px;border-radius:99px}
+main{flex:1 1 auto;min-height:0;max-width:1450px;width:100%;margin:0 auto;padding:9px clamp(12px,3vw,42px);display:flex;flex-direction:column}
+.tabs{display:flex;flex:none;gap:6px;overflow-x:auto;margin:0 0 8px;padding-bottom:3px}
+.tab{flex:1 0 auto;min-width:110px;border:1px solid #c9dbcc;background:#ebf3ea;color:#295b46;border-radius:9px;padding:9px 12px;font-size:12px;font-weight:850;white-space:nowrap}
+.tab[aria-selected=true]{background:#215f46;color:#fff;border-color:#215f46}
+.page{display:none;min-height:0;overflow:auto;scrollbar-gutter:stable;overscroll-behavior:contain;background:#fff;border:1px solid var(--line);border-radius:13px;padding:clamp(14px,2.2vw,24px)}
+.page.active{display:block;flex:1 1 auto}
+.page h2{font:600 clamp(21px,2.7vw,32px)/1.16 Georgia,serif;margin:0 0 10px}
+.page h3{font:600 clamp(17px,2vw,21px)/1.25 Georgia,serif;margin:1px 0 7px}
+.page p{margin:5px 0 11px;font-size:13px;line-height:1.55}
+.lead{background:#ecf5e9;border-left:4px solid #82ad8c;color:#315943;padding:11px 15px;border-radius:0 9px 9px 0;margin:6px 0 13px!important}
+.program{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.program-item{background:#fafcf9;border:1px solid var(--line);border-radius:9px;padding:10px 13px;display:grid;grid-template-columns:104px minmax(0,1fr);gap:9px}
+.program-item time{color:#226a4d;font-size:13px;font-weight:900}
+.program-item strong{display:block;font-size:13px}
+.program-item small{display:block;font-size:12px;color:#637568;line-height:1.44}
+.program-item.break{background:#f1f5e7}
+.note{border:1px solid #e0ce9b;background:#fff9e9;border-radius:10px;padding:10px 13px;margin:11px 0;font-size:12px}
+.number-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px}
+.number-card{border:1px solid var(--line);background:#f9fcf9;border-radius:11px;padding:13px;min-width:0}
+.number-card .num{display:inline-block;background:#dbece0;border-radius:7px;font-weight:900;font-size:11px;color:#266345;padding:4px 7px;margin-bottom:9px}
+.number-card h3{font-size:16px}
+.number-card p{font-size:12px;line-height:1.44}
+.number-card span{display:block;font-size:11px;font-weight:800;color:#387056;margin:4px 0}
+.group-menu{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin:12px 0}
+.group-button{background:#eef5eb;border:1px solid #cadccb;color:#234b38;border-radius:10px;padding:10px;text-align:left;min-height:80px;display:flex;flex-direction:column;gap:3px}
+.group-button small{color:#40745a;font-size:10px;font-weight:850;text-transform:uppercase}
+.group-button strong{font-size:13px;line-height:1.3}
+.group-button[aria-pressed=true]{background:#205c45;border-color:#205c45;color:#fff}
+.group-button[aria-pressed=true] small{color:#c1e4ca}
+.group-display{border:1px solid var(--line);border-radius:12px;padding:17px;background:#f9fbf8}
+.group-display .type{display:inline-block;color:#2a6b4b;background:#e1efe2;border-radius:99px;font-size:11px;font-weight:850;padding:4px 9px;margin-bottom:8px}
+.group-display h3{font-size:clamp(21px,2.4vw,27px)}
+.group-display .sub{font-size:14px;color:#577263;font-weight:800}
+.group-display ul{padding-left:22px}
+.group-display li{font-size:13px;line-height:1.5;margin:6px 0}
+.group-display .result{border-left:4px solid #7aa982;padding:10px 13px;background:#fff;border-radius:0 9px 9px 0}
+.group-display .limit{font-size:12px;color:#596d61}
+.cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.box{border:1px solid var(--line);border-radius:10px;padding:14px;background:#fcfdfb}
+.box ul{padding-left:19px;margin:6px 0}
+.box li{font-size:13px;margin:6px 0;line-height:1.5}
+.path{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.path .box b{display:block;color:#297350;font-size:11px;letter-spacing:.04em;margin-bottom:5px}
+details.panel{border:1px solid var(--line);border-radius:10px;margin:9px 0;background:#fff}
+details.panel>summary{list-style:none;cursor:pointer;padding:12px 15px;font-weight:850;color:#276347;display:flex;justify-content:space-between;gap:8px}
+details.panel>summary::-webkit-details-marker{display:none}
+details.panel>summary::after{content:"＋";font-size:20px;line-height:1;font-weight:400}
+details.panel[open]>summary::after{content:"−"}
+details.panel .inside{padding:4px 15px 14px}
+.inside p{margin:6px 0}
+.sheet{max-width:970px}
+.sheet fieldset{border:1px solid var(--line);padding:14px;border-radius:10px;margin:12px 0}
+.sheet legend{font:600 18px Georgia,serif;color:#205640;padding:0 6px}
+.sheet label{display:block;font-size:12px;font-weight:850;color:#3a6048}
+.sheet select,.sheet textarea,.sheet input{width:100%;margin-top:5px;border:1px solid #a6c7b4;background:#fff;color:#174434;padding:10px 11px;border-radius:8px;font:14px/1.45 system-ui,sans-serif}
+.sheet textarea{min-height:89px;resize:vertical}
+.fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.wide{grid-column:1/-1}
+.actions{display:flex;flex-wrap:wrap;align-items:center;gap:9px;margin-top:12px}
+.action{display:inline-block;border:1px solid #215e45;border-radius:9px;padding:10px 13px;background:#215e45;color:#fff;text-decoration:none;font-weight:850;font-size:12px}
+.action.secondary{border-color:#b1ceb9;background:#fff;color:#215e45}
+.rundown{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin:10px 0}
+.rundown div{border:1px solid var(--line);background:#f7faf6;border-radius:11px;padding:12px}
+.rundown strong{display:block;font-size:15px;color:#20553f}
+.rundown time{display:block;font-size:11px;font-weight:850;color:#587566}
+.rundown p{font-size:12px;margin:6px 0}
+.bottom{display:flex;justify-content:space-between;align-items:center;gap:12px;flex:none;padding:8px 0 0}
+.bottom button{background:#fff;color:#245d46;border:1px solid #bed6c5;border-radius:9px;padding:8px 13px;font-size:12px;font-weight:850}
+.bottom button:last-child{background:#215e45;border-color:#215e45;color:#fff}
+.bottom button:disabled{opacity:.42;cursor:default}
+.bottom span{font-size:12px;font-weight:800;color:#596f62}
+footer{flex:none;padding:5px 13px 9px;text-align:center;color:#677f70;font-size:10px}
+@media(max-width:900px){.number-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.group-menu{grid-template-columns:repeat(3,minmax(0,1fr))}.program{grid-template-columns:1fr}.rundown{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:650px){.top{padding:7px 10px}.hero{padding:9px 12px}.hero h1{font-size:24px}.hero p{display:none}.tags{margin-top:5px}.tab{padding:8px 10px}.page{padding:12px}.page h2{font-size:23px}.cols,.fields,.path{grid-template-columns:1fr}.wide{grid-column:auto}.number-grid,.group-menu{grid-template-columns:repeat(2,minmax(0,1fr))}.rundown{grid-template-columns:repeat(2,minmax(0,1fr))}.program-item{grid-template-columns:90px 1fr}footer{display:none}}
+@media print{body{display:block;height:auto;overflow:visible}.top,.tabs,.bottom,footer,.actions{display:none!important}.hero{background:#fff;color:#111;padding:0 0 12px}.hero h1,.hero p{color:#111!important}.hero p{display:block}main{display:block}.page{display:none!important}.page.active{display:block!important;overflow:visible;border:0;padding:0}.group-menu{display:none}}
+</style></head><body>
+<nav class="top"><strong>AULA · SALUD COMUNITARIA BASADA EN ACTIVOS</strong><div><a href="../index.html">⌂ Aula</a> <a href="index.html#panel">← Primera sesión y materiales</a> <a href="fichas-sesion-2.html">Fichas para imprimir ↗</a></div></nav>
+<header class="hero"><div class="kicker">Segunda sesión presencial · 26 de octubre de 2026</div>
+<h1>Del mapeo a la recomendación comunitaria de activos</h1>
+<p>El mapeo se trabajó en la primera sesión. En esta jornada se analizan mapeo, registro y recomendación; dos grupos diseñan intervenciones concretas. El uso de Localiza Salud corresponde al docente.</p>
+<div class="tags"><span>09:00–13:00</span><span>Sala Triangular · Distrito Sanitario</span><span>Cinco grupos de cinco</span><span>Plenario 11:30–12:30</span></div></header>
+<main><nav class="tabs" aria-label="Contenido de la segunda sesión">
+<button type="button" class="tab" data-page="programa" aria-selected="true">01 · Programa</button>
+<button type="button" class="tab" data-page="grupos" aria-selected="false">02 · Los cinco grupos</button>
+<button type="button" class="tab" data-page="guion" aria-selected="false">03 · Guion de trabajo</button>
+<button type="button" class="tab" data-page="ficha" aria-selected="false">04 · Ficha y resultados</button>
+<button type="button" class="tab" data-page="plenario" aria-selected="false">05 · Plenario</button></nav>
+<section class="page active" id="programa">
+<h2>Programa · Segunda sesión presencial</h2>
+<p class="lead">Cinco grupos: <strong>tres analizan fases del trabajo comunitario</strong> y <strong>dos resuelven supuestos de diseño</strong>. Todos preparan una exposición y la presentan en plenario después del desayuno, diez minutos por grupo.</p>
+<div class="program">
+<div class="program-item"><time>09:00–09:15</time><div><strong>Repaso del curso y de la sesión</strong><small>Vincular esta jornada con el mapeo abordado en la primera.</small></div></div>
+<div class="program-item"><time>09:15–10:00</time><div><strong>Dudas e incidencias en Localiza Salud</strong><small>Demostración y ejemplos únicamente a cargo del docente; preguntas del alumnado.</small></div></div>
+<div class="program-item"><time>10:00–10:30</time><div><strong>Trabajo de los cinco grupos</strong><small>Tres áreas temáticas y dos supuestos de diseño. Elaboración de resultados y preparación de la exposición.</small></div></div>
+<div class="program-item break"><time>10:30–11:30</time><div><strong>Desayuno y descanso</strong><small>Pausa anterior a las presentaciones.</small></div></div>
+<div class="program-item"><time>11:30–12:30</time><div><strong>Plenario de los cinco grupos</strong><small>10 minutos por grupo (50 en total), más 10 minutos para contraste y debate compartido.</small></div></div>
+<div class="program-item"><time>12:30–13:00</time><div><strong>Conclusiones</strong><small>Aprendizajes, transferencia al trabajo cotidiano y acuerdos metodológicos.</small></div></div>
+</div>
+<div class="note"><strong>Delimitación:</strong> el alumnado no realiza un nuevo mapeo ni accede a Localiza Salud durante los grupos. El grupo de registro reflexiona sobre criterios, incidencias y propuestas de mejora.</div>
+</section>
+<section class="page" id="grupos">
+<h2>Cinco encargos · Tres áreas y dos supuestos</h2>
+<p class="lead">Los grupos 1, 2 y 3 analizan una parte del proceso; los grupos 4 y 5 diseñan una actuación. <strong>Todos deben resolver su tarea y exponer después su propuesta en plenario.</strong></p>
+<div class="group-menu" id="group-buttons" aria-label="Seleccionar grupo"></div>
+<div class="group-display" id="group-display" aria-live="polite"></div>
+<div class="actions"><a class="action" href="fichas-sesion-2.html">Ver y repartir las cinco fichas →</a><button type="button" class="action secondary" data-go="ficha">Abrir ficha de preparación →</button></div>
+</section>
+<section class="page" id="guion">
+<h2>Guion común · Pensar, resolver y comunicar</h2>
+<p class="lead">El trabajo de cada grupo tiene dos productos inseparables: <strong>una respuesta o propuesta clara</strong> y <strong>una exposición de diez minutos</strong> para compartirla, justificar las decisiones y recibir preguntas.</p>
+<div class="path">
+<div class="box"><b>10:00–10:10</b><h3>Delimitar</h3><p>Leer las preguntas o el supuesto y acordar qué mensajes son fundamentales.</p></div>
+<div class="box"><b>10:10–10:20</b><h3>Resolver</h3><p>Preparar las decisiones principales, argumentos, criterios y ejemplos.</p></div>
+<div class="box"><b>10:20–10:30</b><h3>Organizar la exposición</h3><p>Esquematizar el resultado, repartir intervenciones y anticipar las preguntas.</p></div>
+</div>
+<div class="cols" style="margin-top:11px">
+<div class="box"><h3>Los grupos temáticos (1, 2 y 3)</h3><ul>
+<li>Recuperan los conocimientos trabajados previamente.</li>
+<li>Responden a las cuestiones de su tema sin repetir ejercicios ya realizados.</li>
+<li>Identifican problemas y proponen criterios o mejoras justificadas.</li>
+<li>Preparan una síntesis útil para el resto de grupos.</li></ul></div>
+<div class="box"><h3>Los grupos con supuesto (4 y 5)</h3><ul>
+<li>Diseñan una actuación posible a partir de activos ya mapeados.</li>
+<li>Concretan objetivos, participantes, metodología y resultados esperados.</li>
+<li>Distinguen recomendación profesional de recomendación ciudadana.</li>
+<li>Explican cómo sabrían si la actuación ha servido para algo.</li></ul></div>
+</div>
+<details class="panel"><summary>Dos recomendaciones metodológicas</summary><div class="inside">
+<p><strong>Localiza Salud:</strong> el docente trabaja la aplicación en la franja de 09:15 a 10:00; la reflexión posterior no necesita teléfonos ni registros reales.</p>
+<p><strong>Diraya:</strong> se puede abordar la recomendación sanitaria cuando esté disponible y con arreglo a los procedimientos habilitados. No equivale a la recomendación horizontal de asociaciones y ciudadanía.</p></div></details>
+</section>
+<section class="page" id="ficha">
+<h2>Ficha de grupo · Resolver y preparar la exposición</h2>
+<p class="lead">Anotad lo imprescindible: respuestas o diseño, decisiones justificadas, dudas y el esquema de los diez minutos en plenario. Podéis descargar la ficha como texto editable. No se envía a ningún servidor.</p>
+<form class="sheet" id="worksheet"><fieldset><legend>Identificación</legend><div class="fields">
+<label>Grupo y tarea<select id="task-picker" name="grupo"><option value="">Selecciona un grupo</option></select></label>
+<label>Portavocía o reparto de la exposición<input type="text" name="portavocia" placeholder="Quién presenta cada parte del trabajo"></label></div></fieldset>
+<fieldset><legend>Producto del grupo</legend><div class="fields">
+<label class="wide">Respuestas, análisis o diseño de la intervención<textarea name="solucion" rows="5" placeholder="Anotad las decisiones que vais a defender, con ejemplos concretos."></textarea></label>
+<label class="wide">Criterios, barreras y precauciones<textarea name="criterios" rows="3" placeholder="Qué hay que comprobar, qué dificultades pueden aparecer y cómo abordarlas."></textarea></label>
+<label class="wide">Qué proponéis al resto de profesionales o a la comunidad<textarea name="propuesta" rows="3" placeholder="Una síntesis de la aportación del grupo."></textarea></label>
+</div></fieldset>
+<fieldset><legend>Exposición en plenario · 10 minutos</legend><div class="fields">
+<label class="wide">Esquema de presentación<textarea name="exposicion" rows="4" placeholder="0–2 min: encargo y contexto. 2–7 min: propuesta y argumentos. 7–9 min: aprendizajes. 9–10 min: pregunta del plenario."></textarea></label>
+<label class="wide">Pregunta que queréis plantear al resto de grupos<textarea name="pregunta" rows="2" placeholder="Una cuestión que abra un intercambio productivo."></textarea></label>
+</div></fieldset>
+<div class="actions"><button type="button" class="action" id="save-text">Descargar ficha (.txt)</button><button type="reset" class="action secondary">Vaciar ficha</button><span id="sheet-message" role="status" aria-live="polite" style="font-size:12px;color:var(--muted)"></span></div>
+</form>
+</section>
+<section class="page" id="plenario">
+<h2>Plenario · 11:30–12:30</h2>
+<p class="lead">Los cinco grupos exponen después del desayuno. <strong>Diez minutos por grupo</strong>, incluyendo una breve pregunta o devolución. Los diez minutos restantes se utilizan para comparar aprendizajes de los cinco encargos.</p>
+<div class="rundown">
+<div><time>11:30–11:40</time><strong>Grupo 1</strong><p>Mapeo de activos</p></div>
+<div><time>11:40–11:50</time><strong>Grupo 2</strong><p>Registro en Localiza Salud</p></div>
+<div><time>11:50–12:00</time><strong>Grupo 3</strong><p>Difusión y recomendación</p></div>
+<div><time>12:00–12:10</time><strong>Grupo 4</strong><p>Sesión clínica de la unidad</p></div>
+<div><time>12:10–12:20</time><strong>Grupo 5</strong><p>Intervención con asociaciones</p></div>
+</div>
+<div class="cols">
+<div class="box"><h3>Estructura orientativa de cada exposición</h3><p><strong>2 min:</strong> encargo y situación de partida. <strong>5 min:</strong> análisis o propuesta diseñada, decisiones y justificación. <strong>2 min:</strong> conclusiones y aplicación posible. <strong>1 min:</strong> pregunta o comentario del plenario.</p></div>
+<div class="box"><h3>12:20–12:30 · Debate conjunto</h3><p>¿Qué une mapeo, registro y recomendación? ¿Qué aporta la comunidad que no sustituye la consulta sanitaria? ¿Qué barreras deben resolverse para facilitar la participación real?</p></div>
+</div>
+<div class="note"><strong>12:30–13:00 · Conclusiones:</strong> sintetizar aprendizajes, cuestiones abiertas y posibilidades de transferencia a las unidades asistenciales y al tejido asociativo.</div>
+<div class="actions"><a class="action" href="fichas-sesion-2.html">Fichas de todos los grupos ↗</a><button type="button" class="action secondary" data-go="programa">Volver al programa</button></div>
+</section>
+<div class="bottom"><button type="button" id="previous">← Anterior</button><span id="page-count" aria-live="polite">1 de 5</span><button type="button" id="following">Siguiente →</button></div>
+</main><footer>Curso Salud Comunitaria Basada en Activos · Segunda sesión presencial · 26 octubre 2026</footer>
+<script type="module">
+import {gruposSesion2} from './content/grupos-sesion-2.js?v=20261021b';
+const ids=['programa','grupos','guion','ficha','plenario'];let current='programa',selected=0;
+const $=id=>document.getElementById(id);
+function show(id){if(!ids.includes(id))id='programa';current=id;document.querySelectorAll('.page').forEach(e=>e.classList.toggle('active',e.id===id));document.querySelectorAll('.tab').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.page===id)));const i=ids.indexOf(id);$('previous').disabled=i===0;$('following').disabled=i===ids.length-1;$('page-count').textContent=(i+1)+' de '+ids.length;$(id).scrollTop=0;history.replaceState(null,'','#'+id)}
+function escapeHTML(v){return String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function renderGroup(i){selected=i;let g=gruposSesion2[i];document.querySelectorAll('.group-button').forEach((b,j)=>b.setAttribute('aria-pressed',String(j===i)));$('group-display').innerHTML=
+'<span class="type">'+escapeHTML(g.tipo)+' · Grupo '+g.num+'</span><h3>'+escapeHTML(g.titulo)+'</h3><p class="sub">'+escapeHTML(g.subtitulo)+'</p><p>'+escapeHTML(g.situacion)+'</p><h4>Cuestiones que debe resolver</h4><ul>'+g.preguntas.map(x=>'<li>'+escapeHTML(x)+'</li>').join('')+'</ul><p class="result"><strong>Producto esperado:</strong> '+escapeHTML(g.producto)+'</p><p><strong>Presentación en plenario (10 minutos):</strong> '+escapeHTML(g.plenario)+'</p><p class="limit"><strong>Importante:</strong> '+escapeHTML(g.limite)+'</p>';
+$('task-picker').value=g.titulo;}
+$('group-buttons').innerHTML=gruposSesion2.map(g=>'<button type="button" class="group-button" data-group="'+(g.num-1)+'" aria-pressed="false"><small>Grupo '+g.num+' · '+escapeHTML(g.tipo)+'</small><strong>'+escapeHTML(g.titulo)+'</strong></button>').join('');
+$('task-picker').insertAdjacentHTML('beforeend',gruposSesion2.map(g=>'<option value="'+escapeHTML(g.titulo)+'">Grupo '+g.num+' · '+escapeHTML(g.titulo)+'</option>').join(''));
+document.querySelectorAll('.group-button').forEach(b=>b.addEventListener('click',()=>renderGroup(Number(b.dataset.group))));
+renderGroup(0);
+document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>show(b.dataset.page)));
+document.querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>show(b.dataset.go)));
+$('previous').addEventListener('click',()=>show(ids[Math.max(0,ids.indexOf(current)-1)]));
+$('following').addEventListener('click',()=>show(ids[Math.min(ids.length-1,ids.indexOf(current)+1)]));
+window.addEventListener('hashchange',()=>{if(ids.includes(location.hash.slice(1)))show(location.hash.slice(1))});
+$('save-text').addEventListener('click',()=>{
+ const f=$('worksheet'),d=new FormData(f),value=k=>String(d.get(k)||'').trim();
+ const items=['SEGUNDA SESIÓN PRESENCIAL · CURSO SALUD COMUNITARIA BASADA EN ACTIVOS','26/10/2026','','Grupo y tarea: '+value('grupo'),'Portavocía: '+value('portavocia'),'','RESPUESTAS O DISEÑO','',value('solucion'),'','CRITERIOS Y BARRERAS','',value('criterios'),'','PROPUESTA','',value('propuesta'),'','EXPOSICIÓN DE DIEZ MINUTOS','',value('exposicion'),'','PREGUNTA PARA EL PLENARIO','',value('pregunta'),''];
+ const blob=new Blob([items.join('\n')],{type:'text/plain;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='sesion2-trabajo-grupo.txt';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);$('sheet-message').textContent='Ficha descargada.';
+});
+$('worksheet').addEventListener('reset',()=>{setTimeout(()=>{$('sheet-message').textContent=''},0)});
+show(ids.includes(location.hash.slice(1))?location.hash.slice(1):'programa');
+</script></body></html>
