@@ -23,16 +23,15 @@ export const gruposSesion2 = [
     "tipo": "Grupo temático",
     "titulo": "Registro en Localiza Salud",
     "subtitulo": "Criterios, dificultades y posibles mejoras",
-    "situacion": "Tras la revisión conjunta de incidencias y ejemplos en Localiza Salud realizada por el docente, el grupo reflexiona sobre el procedimiento de registro y la diferencia entre proponer, comprobar y validar un activo.",
+    "situacion": "Después de la revisión de dudas e incidencias en Localiza Salud realizada por el docente, comentad vuestra experiencia con la subida de activos a la aplicación.",
     "preguntas": [
-      "¿Qué cuestiones deben revisarse antes de dar de alta un activo (existencia, información pública, accesibilidad y valoración comunitaria)?",
-      "¿Qué elementos de la ficha de registro son esenciales para que el recurso sea localizable y útil?",
-      "¿Qué diferencia hay entre proponer un registro, contrastar la información y obtener una validación por el perfil autorizado?",
-      "¿Cuáles son las principales dificultades o incidencias que pueden presentarse?",
-      "¿Qué tres mejoras concretas sugeriría el grupo para la aplicación o el procedimiento?"
+      "¿Qué cuestiones habéis considerado antes de subir el activo?",
+      "¿Cuáles son las claves a la hora de subir un activo?",
+      "¿Cuáles son las principales dificultades a la hora de realizar el proceso de subida de un activo?",
+      "Si pudierais plantear mejoras a la aplicación, ¿cuáles introduciríais?"
     ],
-    "producto": "Una lista ordenada de comprobaciones previas, dificultades previsibles y tres propuestas de mejora.",
-    "plenario": "Explicar el proceso, las incidencias y las mejoras; diferenciar registro y validación.",
+    "producto": "Síntesis de las respuestas del grupo sobre la subida de activos a Localiza Salud, las dificultades encontradas y las mejoras propuestas.",
+    "plenario": "Compartir la experiencia del grupo con la subida de activos, las dificultades y las mejoras propuestas.",
     "limite": "Ninguna persona del grupo tiene que entrar ni operar en Localiza Salud. Su manejo se reserva a la demostración inicial del docente."
   },
   {
