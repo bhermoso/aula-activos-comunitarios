@@ -11,7 +11,11 @@ export function enhanceSession(){
  ];
  if(panel){
   const old=panel.querySelector('.tiles');
-  if(old)old.outerHTML='<div class="session-directory">'+menu.map(([id,num,title,desc])=>'<a class="directory-link" href="#'+id+'"><span>'+num+'</span><strong>'+title+'</strong><small>'+desc+'</small><b aria-hidden="true">↗</b></a>').join('')+'</div>';
+  if(old){
+   old.outerHTML='<div class="session-directory">'+menu.map(([id,num,title,desc])=>'<a class="directory-link" href="#'+id+'"><span>'+num+'</span><strong>'+title+'</strong><small>'+desc+'</small><b aria-hidden="true">↗</b></a>').join('')+'</div>';
+   // La segunda sesión tiene su propio itinerario, no altera las páginas de la primera.
+   panel.querySelector('.session-directory')?.insertAdjacentHTML('beforeend','<a class="directory-link" href="./sesion-2.html"><span>05</span><strong>Segunda sesión · 26 octubre</strong><small>Tres grupos temáticos · Dos supuestos · Plenario</small><b aria-hidden="true">↗</b></a>');
+  }
  }
  if(program){
   const summary=document.createElement('div');
