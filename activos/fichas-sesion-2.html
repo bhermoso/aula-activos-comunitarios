@@ -1,0 +1,75 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#123b34"><meta name="description" content="Fichas imprimibles para los cinco grupos de la segunda sesión presencial de Salud Comunitaria Basada en Activos.">
+<title>Fichas de los cinco grupos · Segunda sesión presencial</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:auto}body{margin:0;background:#eef1e9;color:#203d30;font:14px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:#1c6247}button{cursor:pointer;font:inherit}
+.header{background:#123b34;color:#fff;padding:14px clamp(16px,4vw,50px)}
+.header h1{font:600 clamp(25px,3.5vw,37px)/1.15 Georgia,serif;margin:7px 0}
+.header p{margin:0;font-size:13px;max-width:100ch}
+.toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:9px;margin:13px auto;max-width:1120px;padding:0 16px}
+.toolbar a,.toolbar button,.toolbar select{background:#fff;color:#20553b;border:1px solid #b4cab6;border-radius:9px;padding:9px 12px;font-size:12px;font-weight:800;text-decoration:none}
+.toolbar button{background:#205e44;color:#fff}
+.toolbar select{font-size:13px}
+.caption{max-width:1120px;margin:0 auto 12px;padding:0 16px;font-size:12px;color:#506a5b}
+.fichas{max-width:1120px;margin:0 auto;padding:0 16px 35px;display:grid;gap:15px}
+.ficha{background:#fff;border:1px solid #d0ddcf;border-radius:13px;padding:clamp(18px,3vw,29px);box-shadow:0 3px 16px #123c2810;break-inside:avoid}
+.ficha-header{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;border-bottom:2px solid #dce9de;padding-bottom:12px}
+.kicker{font-size:11px;font-weight:850;text-transform:uppercase;letter-spacing:.08em;color:#34654b}
+.ficha h2{font:600 clamp(22px,2.7vw,29px)/1.2 Georgia,serif;margin:5px 0}
+.ficha h3{font:600 17px Georgia,serif;margin:14px 0 6px}
+.ficha .context{color:#5e7468;font-size:13px;margin:2px 0}
+.ficha .badge{flex:none;background:#e6f1e7;border:1px solid #bcd8c3;border-radius:20px;padding:5px 10px;font-size:11px;font-weight:850}
+.ficha p{font-size:13px;margin:7px 0}
+.ficha ol{padding-left:23px;margin:6px 0}
+.ficha li{margin:6px 0;font-size:13px;line-height:1.5}
+.expected{border-left:4px solid #77ac87;background:#eef6ec;border-radius:0 10px 10px 0;padding:10px 13px}
+.warning{font-size:12px!important;color:#5f7064}
+.expose{border:1px solid #d2e2d5;padding:10px 12px;border-radius:9px}
+.writing-lines{margin:6px 0}
+.writing-lines div{height:25px;border-bottom:1px solid #bed2c5}
+.ficha[hidden]{display:none!important}
+footer{padding:14px;text-align:center;font-size:11px;color:#526b5a}
+@media print{
+@page{size:A4;margin:12mm}
+body{background:#fff;color:#111;font:10.4pt/1.31 Arial,sans-serif}
+.header,.toolbar,.caption,footer{display:none!important}
+.fichas{max-width:none;padding:0;display:block}
+.ficha{border:0;border-radius:0;box-shadow:none;padding:0;margin:0;break-inside:auto;page-break-after:always}
+.ficha:last-child{page-break-after:auto}
+.ficha h2{font-size:20pt}.ficha h3{font-size:12pt;margin:10px 0 4px}
+.ficha li,.ficha p{font-size:9.7pt;line-height:1.33;margin:4px 0}
+.ficha .context{font-size:10pt}.ficha .badge{font-size:9pt}
+.ficha ol{padding-left:20px;margin:5px 0}
+.expected{padding:7px 9px}.expose{padding:7px 9px}
+.writing-lines div{height:18px}
+}
+</style></head><body>
+<header class="header"><div>Curso de Salud Comunitaria Basada en Activos · 26/10/2026</div><h1>Fichas de trabajo · Cinco grupos</h1><p>Tres grupos temáticos (mapeo, registro y recomendación) y dos encargos de diseño (sesión clínica e intervención comunitaria). Trabajo: 10:00–10:30. Plenario: 11:30–12:30, diez minutos por grupo.</p></header>
+<nav class="toolbar" aria-label="Opciones de fichas"><a href="sesion-2.html#grupos">← Segunda sesión</a><label for="choose">Seleccionar ficha</label><select id="choose"><option value="all">Todas · 5 fichas</option></select><button type="button" id="print">Imprimir / Guardar PDF</button></nav>
+<p class="caption">Selecciona una ficha para imprimirla por separado o elige «Todas». Los grupos 4 y 5 tienen supuestos prácticos; los grupos 1, 2 y 3 trabajan un área temática, sin supuesto narrativo.</p>
+<main class="fichas" id="fichas"></main>
+<footer>Aula · Curso Salud Comunitaria Basada en Activos · Segunda sesión presencial</footer>
+<script type="module">
+import {gruposSesion2} from './content/grupos-sesion-2.js?v=20261021b';
+const host=document.getElementById('fichas'),select=document.getElementById('choose');
+function esc(x){return String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;':'&quot;'}[c]))}
+for(const g of gruposSesion2){
+const el=document.createElement('article');el.className='ficha';el.id='grupo-'+g.num;
+el.innerHTML='<div class="ficha-header"><div><span class="kicker">Grupo '+g.num+' · '+esc(g.tipo)+'</span><h2>'+esc(g.titulo)+'</h2><p class="context">'+esc(g.subtitulo)+'</p></div><span class="badge">10:00–10:30</span></div>'
++'<h3>Situación y encargo</h3><p>'+esc(g.situacion)+'</p>'
++'<h3>Preguntas que debéis abordar</h3><ol>'+g.preguntas.map(q=>'<li>'+esc(q)+'</li>').join('')+'</ol>'
++'<p class="expected"><strong>Producto del trabajo:</strong> '+esc(g.producto)+'</p>'
++'<p class="warning"><strong>Precaución:</strong> '+esc(g.limite)+'</p>'
++'<div class="expose"><h3>Presentación en plenario · 10 minutos</h3><p>'+esc(g.plenario)+'</p><p><strong>Secuencia orientativa:</strong> 2 min para presentar el encargo, 5 min para explicar la propuesta, 2 min para conclusiones y 1 min para preguntas.</p></div>'
++'<h3>Anotaciones para el grupo</h3><div class="writing-lines"><div></div><div></div><div></div></div>';
+host.append(el);
+const option=document.createElement('option');option.value=String(g.num);option.textContent='Grupo '+g.num+' · '+g.titulo;select.append(option);
+}
+function display(){const v=select.value;host.querySelectorAll('.ficha').forEach(e=>e.hidden=v!=='all'&&e.id!=='grupo-'+v)}
+select.addEventListener('change',display);
+document.getElementById('print').addEventListener('click',()=>window.print());
+const specified=location.hash.match(/^#grupo-(\d)$/)?.[1];
+if(specified&&gruposSesion2.some(g=>String(g.num)===specified))select.value=specified;
+display();
+</script></body></html>
