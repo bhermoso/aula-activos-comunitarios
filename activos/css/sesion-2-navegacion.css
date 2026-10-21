@@ -1,0 +1,23 @@
+/* Navegación común del taller presencial 2 y sus fichas.
+   No afecta a la primera sesión ni a otros módulos del Aula. */
+.s2-nav{display:flex;align-items:center;gap:7px;flex-wrap:wrap;min-width:0}
+.s2-nav .s2-link,.s2-nav button.s2-link{
+  display:inline-flex;align-items:center;justify-content:center;
+  text-decoration:none;white-space:nowrap;min-height:35px;padding:7px 11px;
+  border:1px solid #6e9b83;border-radius:9px;
+  background:#214f42;color:#f3fff8;
+  font:800 12px/1.2 system-ui,-apple-system,"Segoe UI",sans-serif;
+  cursor:pointer;box-shadow:none
+}
+.s2-nav .s2-link:hover,.s2-nav .s2-link:focus-visible{background:#2f6b54;color:#fff}
+.s2-nav .s2-link:focus-visible{outline:3px solid #ecc06c;outline-offset:2px}
+.s2-nav .s2-link[aria-current=page]{background:#d9eddb;border-color:#d9eddb;color:#184935}
+.s2-nav--light{padding:9px clamp(13px,3vw,42px);background:#ecf3e9;border-bottom:1px solid #c9dccc}
+.s2-nav--light .s2-link,.s2-nav--light button.s2-link{background:#fff;color:#245c42;border-color:#b7d0be}
+.s2-nav--light .s2-link:hover,.s2-nav--light .s2-link:focus-visible{background:#e2f0e5;color:#194530}
+@media(max-width:680px){
+  .s2-nav{gap:5px}
+  .s2-nav .s2-link,.s2-nav button.s2-link{padding:7px 9px;min-height:34px;font-size:11px}
+  .s2-nav--light{padding:8px 11px}
+}
+@media print{.s2-nav,.s2-nav--light{display:none!important}}
