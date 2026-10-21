@@ -5,7 +5,6 @@ export const gruposSesion2 = [
     "num": 1,
     "tipo": "Grupo temático",
     "titulo": "Mapeo de activos para la salud",
-    "subtitulo": "Revisión crítica de lo trabajado en la sesión 1",
     "situacion": "En la primera sesión diseñasteis el mapeo de activos para la salud en vuestro ámbito de referencia. Recuperad las decisiones que tomasteis sobre el diagnóstico comunitario, la delimitación, la participación y las técnicas utilizadas.",
     "preguntas": [
       "¿Habéis tenido en cuenta en vuestro diseño de mapeo el diagnóstico comunitario? En caso negativo, ¿por qué no? En caso afirmativo, ¿qué aporta el diagnóstico comunitario al diseño del mapeo?",
@@ -14,15 +13,13 @@ export const gruposSesion2 = [
       "¿Qué técnicas se analizaron y qué aportaría combinarlas?"
     ],
     "producto": "Síntesis de las decisiones fundamentales del mapeo, los riesgos que conviene tener presentes y las recomendaciones para mejorar la participación.",
-    "plenario": "Explicar qué caracteriza un buen mapeo, qué decisiones resultan más importantes y qué errores conviene evitar.",
-    "limite": "No realizar un nuevo diseño de mapeo ni trabajo de campo."
+    "plenario": "Explicar qué caracteriza un buen mapeo, qué decisiones resultan más importantes y qué errores conviene evitar."
   },
   {
     "id": "registro",
     "num": 2,
     "tipo": "Grupo temático",
     "titulo": "Registro en Localiza Salud",
-    "subtitulo": "Criterios, dificultades y posibles mejoras",
     "situacion": "Después de la revisión de dudas e incidencias en Localiza Salud realizada por el docente, comentad vuestra experiencia con la subida de activos a la aplicación.",
     "preguntas": [
       "¿Qué cuestiones habéis considerado antes de subir el activo?",
@@ -31,15 +28,13 @@ export const gruposSesion2 = [
       "Si pudierais plantear mejoras a la aplicación, ¿cuáles introduciríais?"
     ],
     "producto": "Síntesis de las respuestas del grupo sobre la subida de activos a Localiza Salud, las dificultades encontradas y las mejoras propuestas.",
-    "plenario": "Compartir la experiencia del grupo con la subida de activos, las dificultades y las mejoras propuestas.",
-    "limite": "Ninguna persona del grupo tiene que entrar ni operar en Localiza Salud. Su manejo se reserva a la demostración inicial del docente."
+    "plenario": "Compartir la experiencia del grupo con la subida de activos, las dificultades y las mejoras propuestas."
   },
   {
     "id": "recomendacion",
     "num": 3,
     "tipo": "Grupo temático",
     "titulo": "Difusión y recomendación de activos",
-    "subtitulo": "Comparar circuitos sanitarios, intersectoriales y comunitarios",
     "situacion": "Partiendo del trabajo de mapeo de activos para la salud, reflexionad sobre cómo organizaríais su difusión y recomendación en la comunidad.",
     "preguntas": [
       "¿Qué proceso realizaríais para la difusión y recomendación de activos? Indicad las posibles fases o pasos a seguir.",
@@ -49,15 +44,13 @@ export const gruposSesion2 = [
       "¿Y con la ciudadanía?"
     ],
     "producto": "Propuesta de proceso de difusión y recomendación de activos, con las fases o pasos previstos y su desarrollo con profesionales, asociaciones y ciudadanía.",
-    "plenario": "Explicar el proceso propuesto y cómo se desarrollaría con los distintos grupos y agentes de la comunidad.",
-    "limite": "No se presupone que cualquier recurso sea visible o recomendable en Diraya ni se realiza una recomendación real durante la práctica."
+    "plenario": "Explicar el proceso propuesto y cómo se desarrollaría con los distintos grupos y agentes de la comunidad."
   },
   {
     "id": "clinica",
     "num": 4,
     "tipo": "Supuesto de diseño",
     "titulo": "Sesión clínica sobre recomendación de activos",
-    "subtitulo": "Sesión clínica liderada e impartida por profesionales sanitarios del centro de salud para su unidad asistencial",
     "situacion": "Una unidad asistencial ya ha completado un proceso de mapeo de activos de su zona de referencia y cuenta con información contrastada sobre determinadas oportunidades comunitarias. Algunos profesionales todavía no conocen bien esas iniciativas ni tienen claro cuándo y cómo recomendarlas. Profesionales sanitarios del centro de salud —preferentemente enfermería comunitaria, con participación de la trabajadora social— liderarán e impartirán una sesión clínica para formar al resto de profesionales de la unidad y acordar un circuito viable de recomendación.",
     "preguntas": [
       "¿Qué objetivos de aprendizaje tendrá la sesión clínica?",
@@ -68,15 +61,13 @@ export const gruposSesion2 = [
       "¿Cómo recogeréis dudas y comprobaréis posteriormente si el equipo sabe recomendar con responsabilidad?"
     ],
     "producto": "Programa de una sesión clínica liderada e impartida por profesionales sanitarios del centro de salud: objetivos, asistentes, equipo docente, contenidos, secuencia, dinámica, materiales y comprobación del aprendizaje.",
-    "plenario": "Presentar en diez minutos la sesión clínica que impartiría el equipo sanitario del centro de salud, preferentemente enfermería comunitaria con participación de la trabajadora social, y justificar cómo mejoraría la recomendación de activos desde la unidad.",
-    "limite": "La docencia y conducción corresponden a profesionales sanitarios del centro de salud, con participación de trabajo social. El grupo diseña la formación: no registra recursos ni accede a Localiza Salud. El uso de Diraya se ajustará a los procedimientos habilitados."
+    "plenario": "Presentar en diez minutos la sesión clínica que impartiría el equipo sanitario del centro de salud, preferentemente enfermería comunitaria con participación de la trabajadora social, y justificar cómo mejoraría la recomendación de activos desde la unidad."
   },
   {
     "id": "asociaciones",
     "num": 5,
     "tipo": "Supuesto de diseño",
     "titulo": "Sesión formativa para líderes del tejido asociativo",
-    "subtitulo": "Formación liderada por profesionales sanitarios para que líderes asociativos aprendan a recomendar activos",
     "situacion": "En la zona de referencia de un centro de salud ya se ha realizado un mapeo participativo y contrastado los activos comunitarios. El equipo sanitario del centro de salud —preferentemente enfermería comunitaria, con participación de la trabajadora social— liderará, organizará e impartirá una sesión formativa dirigida a líderes del tejido asociativo. Su propósito es enseñarles cómo recomendar activos de forma responsable, facilitar la participación y promover una cultura de recomendación entre iguales. La sesión no es clínica: sus destinatarios son las asociaciones, que podrán realizar recomendaciones horizontales después de recibir la formación.",
     "preguntas": [
       "¿Qué objetivos concretos tendrá la formación para líderes del tejido asociativo? ¿Qué deberán saber y poder hacer al finalizar?",
@@ -88,7 +79,6 @@ export const gruposSesion2 = [
       "¿Cómo comprobaríais si las personas participantes han aprendido a recomendar y qué seguimiento comunitario sería útil?"
     ],
     "producto": "Programa de sesión formativa dirigida, liderada e impartida por profesionales sanitarios del centro de salud, preferentemente enfermería comunitaria con participación de trabajo social: objetivos, líderes destinatarios, contenidos, metodología práctica para aprender a recomendar, materiales y evaluación.",
-    "plenario": "Presentar en diez minutos cómo el equipo sanitario del centro de salud lideraría e impartiría la sesión formativa a líderes asociativos, incluir una breve demostración de cómo recomendar activos y explicar cómo los participantes extenderían después esa cultura de recomendación.",
-    "limite": "La actividad formativa está liderada e impartida por profesionales sanitarios del centro de salud, con participación de la trabajadora social. Quienes reciben la formación son líderes del tejido asociativo; después podrán recomendar activos a otras personas desde sus redes. No es una sesión clínica ni una actividad de prescripción por Diraya, y no se repite el mapeo."
+    "plenario": "Presentar en diez minutos cómo el equipo sanitario del centro de salud lideraría e impartiría la sesión formativa a líderes asociativos, incluir una breve demostración de cómo recomendar activos y explicar cómo los participantes extenderían después esa cultura de recomendación."
   }
 ];
