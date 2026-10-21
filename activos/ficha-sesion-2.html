@@ -1,0 +1,139 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#123b34">
+<meta name="description" content="Ficha de trabajo de los cinco grupos de la segunda sesión presencial del curso Salud Comunitaria Basada en Activos. Envío de las aportaciones a la organización.">
+<title>Entregar ficha · Segunda sesión de Activos Comunitarios</title>
+<style>
+:root{--dark:#123b34;--green:#205e45;--pale:#eaf3e8;--line:#d4e3d7;--ink:#193e32;--muted:#576f63}
+*{box-sizing:border-box}body{margin:0;min-height:100svh;background:#f7f8f3;color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:#225d44}a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #daae50;outline-offset:3px}
+header{background:var(--dark);color:#fff;padding:15px max(16px,calc((100vw - 930px)/2)) 38px}
+header .eyebrow{font-size:11px;text-transform:uppercase;color:#bce3c5;letter-spacing:.12em;font-weight:800}
+header h1{font:600 clamp(27px,3.8vw,39px)/1.14 Georgia,serif;margin:5px 0 8px}
+header p{font-size:13px;line-height:1.48;color:#d6e8dc;margin:0;max-width:82ch}
+main{max-width:950px;padding:0 14px 26px;margin:-23px auto 0;position:relative}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:clamp(15px,2.6vw,24px);margin:0 0 12px;box-shadow:0 5px 20px #123c2810}
+.card h2{font:600 24px/1.22 Georgia,serif;margin:0 0 9px}
+.intro{background:var(--pale)}.intro p{font-size:13px;margin:5px 0}
+.card label{font-size:13px;font-weight:800;display:block;color:#2c523e}
+.card input,.card select,.card textarea{font:16px/1.42 system-ui,sans-serif;width:100%;border:1px solid #aac5b1;border-radius:8px;background:white;color:#1d4032;margin-top:6px;padding:11px 12px;min-width:0}
+textarea{resize:vertical;min-height:98px}
+#respuestas{min-height:178px}#exposicion{min-height:120px}
+.hint{font-size:12px;color:var(--muted);line-height:1.46;margin:5px 0 0;font-weight:400}
+.grupo-description{background:#f5f9f4;border:1px solid var(--line);border-radius:10px;padding:13px 15px;margin:12px 0}
+.grupo-description strong{display:block;font-size:15px;color:#1c573f}
+.grupo-description .type{display:block;color:#65776b;font-size:11px;font-weight:800;text-transform:uppercase}
+.grupo-description p{font-size:13px;margin:7px 0}
+.grupo-description ol{font-size:12px;line-height:1.48;padding-left:21px;margin:5px 0}
+.grupo-description li{margin:5px 0}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.field{margin-top:14px}
+.field .hint{display:block}
+.optional{font-size:11px;color:#66786b;font-weight:400}
+button{cursor:pointer;border:1px solid var(--green);background:var(--green);color:white;border-radius:9px;padding:12px 19px;font:800 14px system-ui,sans-serif;min-height:45px}
+button:disabled{opacity:.5;cursor:default}
+.back{background:#fff;color:var(--green);border-color:#aac7b5}
+.controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:19px}
+.note{font-size:12px;line-height:1.45;color:#5b7265}
+.confirmation{display:none;background:#eaf5e8;border:1px solid #9ecaad;border-radius:12px;padding:15px;color:#205337;margin:14px 0}
+.confirmation[hidden]{display:none!important}.confirmation:not([hidden]){display:block}
+.confirmation strong{display:block;font-size:17px;margin-bottom:5px}
+.status{min-height:21px;font-size:13px;margin:10px 0 0;color:#245941}
+details{border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:13px 0 0}
+details summary{padding:10px 13px;color:#265b3f;cursor:pointer;font-size:13px;font-weight:800}
+details>div{padding:0 13px 12px}
+.required{color:#a33f24}
+footer{text-align:center;font-size:11px;color:#6d8172;margin:15px 12px 25px}
+@media(max-width:650px){header{padding:13px 14px 37px}header h1{font-size:29px}main{padding:0 11px 20px}.card{padding:15px}.grid{grid-template-columns:1fr}#respuestas{min-height:160px}.controls button{width:100%}}
+@media print{header{background:white;color:#111;padding:0 0 18px}header p{color:#333}main{margin:0;padding:0}.card{box-shadow:none;border-color:#ccc}.controls{display:none}.confirmation{display:none!important}}
+</style></head><body>
+<header><div class="eyebrow">Aula · Salud Comunitaria Basada en Activos · 26 de octubre de 2026</div><h1>Ficha de trabajo del grupo</h1><p>Preparad las respuestas y el esquema para el plenario de las 11:30. Una persona puede enviar la ficha consensuada por cada grupo. No se solicitan datos personales ni clínicos.</p></header>
+<main><div class="card intro"><h2>Elegid vuestro grupo</h2><label for="grupo">Grupo de trabajo <span class="required">*</span>
+<select id="grupo" required><option value="">Selecciona uno de los cinco grupos</option></select></label>
+<div id="encargo" class="grupo-description" hidden></div>
+<p class="note">Grupos 1–3: mapeo, registro y recomendación. Grupos 4–5: sesión clínica e intervención comunitaria con asociaciones.</p>
+</div>
+<section class="card" aria-labelledby="h-ficha"><h2 id="h-ficha">Respuestas y propuesta para el plenario</h2>
+<form id="entrega">
+<label class="field" for="respuestas">Respuesta o diseño principal <span class="required">*</span>
+<span class="hint">Sintetizad las ideas acordadas por el grupo a partir de sus preguntas o del supuesto recibido.</span>
+<textarea id="respuestas" name="respuestas" required maxlength="4500" placeholder="Escribid la respuesta principal del grupo y sus decisiones…" rows="7"></textarea></label>
+<div class="grid">
+<label class="field" for="criterios">Criterios, dificultades y precauciones <span class="optional">opcional</span>
+<textarea id="criterios" name="criterios" maxlength="2500" rows="4" placeholder="Qué debería comprobarse y qué barreras existen…"></textarea></label>
+<label class="field" for="propuesta">Conclusión o propuesta del grupo <span class="optional">opcional</span>
+<textarea id="propuesta" name="propuesta" maxlength="2500" rows="4" placeholder="Qué recomendaríais llevar a la práctica…"></textarea></label>
+</div>
+<label class="field" for="exposicion">Guion para la exposición de diez minutos <span class="required">*</span>
+<span class="hint">Indicad qué explicaréis en el plenario y cómo repartiréis el tiempo: introducción (2 min), desarrollo (5 min), conclusiones (2 min), pregunta (1 min).</span>
+<textarea id="exposicion" name="exposicion" required maxlength="3000" rows="5" placeholder="0–2 min: … 2–7 min: … 7–9 min: … 9–10 min: …"></textarea></label>
+<label class="field" for="pregunta">Una pregunta para el plenario <span class="optional">opcional</span>
+<input id="pregunta" name="pregunta" maxlength="450" placeholder="¿Qué queréis contrastar con el resto de grupos?"></label>
+<div class="controls"><button type="submit" id="send" disabled>Enviar ficha a la organización</button><button type="button" class="back" id="download">Descargar copia de seguridad</button></div>
+<p class="note">La ficha se guarda cuando aparezca la confirmación de recepción. Conservad una copia de seguridad si la conexión falla. No utilicéis este formulario para registrar activos en Localiza Salud.</p>
+<p class="status" id="status" role="status" aria-live="polite">Preparando la conexión…</p>
+</form>
+<div class="confirmation" id="confirmation" hidden aria-live="polite"><strong>Ficha recibida por la organización</strong><span id="confirmation-text"></span><p class="note">El envío se ha confirmado. Puedes guardar una copia antes de cerrar esta página. No es necesario enviar de nuevo salvo que quieras remitir una versión corregida.</p></div>
+<details><summary>¿Qué ocurre con la ficha enviada?</summary><div><p class="note">Se conserva como aportación del grupo para la sesión del 26 de octubre. Solo la organización debe consultar las entregas; el resto del alumnado no puede leer fichas ajenas desde esta página.</p><p class="note">Se puede enviar otra versión corregida, que se almacenará como una entrega adicional. Acordad dentro del grupo quién envía la versión definitiva.</p></div></details>
+</section>
+<p><a href="sesion-2.html#grupos">← Volver a la segunda sesión</a> · <a href="fichas-sesion-2.html">Ver fichas de los cinco grupos</a></p>
+</main><footer>Curso Salud Comunitaria Basada en Activos · 26 de octubre de 2026</footer>
+<script src="./firebase-config.js"></script>
+<script type="module">
+import {gruposSesion2} from './content/grupos-sesion-2.js?v=20261021b';
+import {initializeApp} from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js';
+import {initializeAppCheck,ReCaptchaV3Provider} from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-app-check.js';
+import {getAuth,signInAnonymously} from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js';
+import {getFirestore,addDoc,collection,serverTimestamp} from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js';
+const $=id=>document.getElementById(id),choose=$('grupo'),status=message=>{$('status').textContent=message};
+const config=window.ACTIVOS_FIREBASE_CONFIG,siteKey=window.ACTIVOS_APPCHECK_SITE_KEY,send=$('send');
+let db,auth,ready=false,received=false;
+const esc=x=>String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+for(const g of gruposSesion2){const o=document.createElement('option');o.value=String(g.num);o.textContent='Grupo '+g.num+' · '+g.titulo;choose.append(o)}
+function selected(){return gruposSesion2.find(g=>String(g.num)===choose.value)}
+function render(){
+const g=selected(),box=$('encargo');box.hidden=!g;
+if(g)box.innerHTML='<span class="type">'+esc(g.tipo)+'</span><strong>'+esc(g.titulo)+'</strong><p>'+esc(g.situacion)+'</p><p><b>Cuestiones de trabajo</b></p><ol>'+g.preguntas.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ol><p><b>Producto esperado:</b> '+esc(g.producto)+'</p>';
+send.disabled=!ready||received||!g;
+}
+choose.addEventListener('change',render);
+const preset=new URLSearchParams(location.search).get('grupo');if(gruposSesion2.some(g=>String(g.num)===preset))choose.value=preset;
+render();
+async function init(){
+if(!config?.projectId||!config?.apiKey||!config?.appId){status('La ficha no está configurada todavía. No se puede enviar.');return}
+try{
+const app=initializeApp(config);
+if(siteKey)initializeAppCheck(app,{provider:new ReCaptchaV3Provider(siteKey),isTokenAutoRefreshEnabled:true});
+auth=getAuth(app);db=getFirestore(app);
+await signInAnonymously(auth);
+ready=true;status('Ficha preparada para enviar.');render();
+}catch(error){console.error('Error al preparar el envío',error);status('No ha sido posible preparar el envío. Consulta con la organización.')}
+}
+init();
+function data(){const get=id=>String($(id).value||'').trim();const g=selected();return {grupoNumero:g?.num,grupoId:g?.id,respuestas:get('respuestas'),criterios:get('criterios'),propuesta:get('propuesta'),exposicion:get('exposicion'),pregunta:get('pregunta')}}
+$('entrega').addEventListener('submit',async event=>{
+event.preventDefault();
+const d=data();if(!d.grupoNumero||!d.respuestas||!d.exposicion){status('Selecciona el grupo y completa la respuesta principal y el guion de exposición.');return}
+if(!ready||!auth||!db){status('No hay conexión habilitada para enviar. Conserva una copia de seguridad.');return}
+send.disabled=true;status('Enviando la ficha del grupo…');
+try{
+if(!auth.currentUser)await signInAnonymously(auth);
+const ref=await addDoc(collection(db,'cursos','salud-comunitaria-activos-2026','sesion2_entregas'),{
+...d,curso:'salud-comunitaria-activos-2026',sesion:'2026-10-26',origen:'qr-aula',createdAt:serverTimestamp()
+});
+received=true;
+$('confirmation-text').textContent='Grupo '+d.grupoNumero+' · Código de recepción: '+ref.id.slice(-8).toUpperCase()+'.';
+$('confirmation').hidden=false;
+status('Ficha recibida correctamente. No es necesario reenviarla.');
+$('confirmation').scrollIntoView({block:'nearest',behavior:'smooth'});
+}catch(error){
+console.error('No se ha recibido la ficha',error);
+const code=String(error?.code||'');
+status(code.includes('permission-denied')?'Envío rechazado por los permisos del servicio. La ficha sigue en pantalla. Avisa a la organización.':'No se ha podido confirmar la recepción. Conserva una copia y consulta con la organización.');
+send.disabled=false;
+}
+});
+$('download').addEventListener('click',()=>{
+const d=data(),g=selected();
+const lines=['CURSO SALUD COMUNITARIA BASADA EN ACTIVOS · SESIÓN 2','26 de octubre de 2026',g?'Grupo '+g.num+' · '+g.titulo:'Grupo sin seleccionar','','RESPUESTA PRINCIPAL',d.respuestas,'','CRITERIOS Y DIFICULTADES',d.criterios,'','CONCLUSIÓN O PROPUESTA',d.propuesta,'','GUION PARA EL PLENARIO',d.exposicion,'','PREGUNTA',d.pregunta];
+const blob=new Blob([lines.join('\n')],{type:'text/plain;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='sesion2-grupo-'+(d.grupoNumero||'sin-seleccionar')+'.txt';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+});
+</script></body></html>
