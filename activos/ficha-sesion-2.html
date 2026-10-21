@@ -55,7 +55,7 @@ footer{text-align:center;font-size:11px;color:#6d8172;margin:15px 12px 25px}
 <main><div class="card intro"><h2>Elegid vuestro grupo</h2><label for="grupo">Grupo de trabajo <span class="required">*</span>
 <select id="grupo" required><option value="">Selecciona uno de los cinco grupos</option></select></label>
 <div id="encargo" class="grupo-description" hidden></div>
-<p class="note">Grupos 1–3: mapeo, registro y recomendación. Grupos 4–5: dos sesiones lideradas e impartidas por profesionales sanitarios del centro de salud, una clínica para la unidad asistencial y otra formativa para líderes asociativos.</p>
+<p class="note">Elegid el grupo, responded a las cuestiones y preparad vuestra exposición para el plenario. Enviad una ficha consensuada por grupo.</p>
 </div>
 <section class="card" aria-labelledby="h-ficha"><h2 id="h-ficha">Respuestas y propuesta para el plenario</h2>
 <form id="entrega">
@@ -84,7 +84,7 @@ footer{text-align:center;font-size:11px;color:#6d8172;margin:15px 12px 25px}
 </main><footer>Curso Salud Comunitaria Basada en Activos · 26 de octubre de 2026</footer>
 <script src="./firebase-config.js"></script>
 <script type="module">
-import {gruposSesion2} from './content/grupos-sesion-2.js?v=20261021-liderazgo-sanitario';
+import {gruposSesion2} from './content/grupos-sesion-2.js?v=20261021-mapeo-alumnado';
 import {initializeApp} from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js';
 import {initializeAppCheck,ReCaptchaV3Provider} from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-app-check.js';
 import {getAuth,signInAnonymously} from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js';
@@ -102,7 +102,7 @@ for(const g of gruposSesion2){const o=document.createElement('option');o.value=S
 function selected(){return gruposSesion2.find(g=>String(g.num)===choose.value)}
 function render(){
 const g=selected(),box=$('encargo');box.hidden=!g;
-if(g)box.innerHTML='<span class="type">'+esc(g.tipo)+'</span><strong>'+esc(g.titulo)+'</strong><p>'+esc(g.situacion)+'</p><p><b>Cuestiones de trabajo</b></p><ol>'+g.preguntas.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ol><p><b>Producto esperado:</b> '+esc(g.producto)+'</p>';
+if(g)box.innerHTML='<strong>'+esc(g.titulo)+'</strong><p><b>Punto de partida</b></p><p>'+esc(g.situacion)+'</p><p><b>Cuestiones de trabajo</b></p><ol>'+g.preguntas.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ol><p><b>Producto esperado:</b> '+esc(g.producto)+'</p>';
 send.disabled=!ready||received||!g;
 }
 choose.addEventListener('change',render);
