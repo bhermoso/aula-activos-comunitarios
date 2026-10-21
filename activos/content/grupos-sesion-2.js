@@ -6,15 +6,14 @@ export const gruposSesion2 = [
     "tipo": "Grupo temático",
     "titulo": "Mapeo de activos para la salud",
     "subtitulo": "Revisión crítica de lo trabajado en la sesión 1",
-    "situacion": "En la primera sesión se abordaron la planificación del mapeo, las técnicas participativas y las decisiones necesarias para realizarlo. Este grupo no empieza otro mapeo: revisa los aprendizajes y propone criterios para valorar su calidad.",
+    "situacion": "En la primera sesión diseñasteis el mapeo de activos para la salud en vuestro ámbito de referencia. Recuperad las decisiones que tomasteis sobre el diagnóstico comunitario, la delimitación, la participación y las técnicas utilizadas.",
     "preguntas": [
-      "¿Qué significa realizar un diagnóstico comunitario reflexivo y no limitarse a enumerar recursos?",
+      "¿Habéis tenido en cuenta en vuestro diseño de mapeo el diagnóstico comunitario? En caso negativo, ¿por qué no? En caso afirmativo, ¿qué aporta el diagnóstico comunitario al diseño del mapeo?",
       "¿Con qué criterios se delimitan el territorio, la población y la finalidad de un mapeo?",
-      "¿Quién participa en el Grupo de Investigación-Acción (GIA) y cómo se evita que el proceso sea exclusivamente profesional?",
-      "¿Qué técnicas se analizaron y qué aportaría combinarlas?",
-      "¿Cómo se contrasta la utilidad de un activo con la comunidad y cómo se devuelven los resultados?"
+      "¿Quiénes forman parte del Grupo de Identificación de Activos (GIA)?",
+      "¿Qué técnicas se analizaron y qué aportaría combinarlas?"
     ],
-    "producto": "Esquema de cinco decisiones fundamentales del mapeo, dos riesgos frecuentes y dos recomendaciones para mejorar la participación.",
+    "producto": "Síntesis de las decisiones fundamentales del mapeo, los riesgos que conviene tener presentes y las recomendaciones para mejorar la participación.",
     "plenario": "Explicar qué caracteriza un buen mapeo, qué decisiones resultan más importantes y qué errores conviene evitar.",
     "limite": "No realizar un nuevo diseño de mapeo ni trabajo de campo."
   },
