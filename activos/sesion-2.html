@@ -100,8 +100,13 @@ footer{flex:none;padding:5px 13px 9px;text-align:center;color:#677f70;font-size:
 .qr-instructions li{font-size:14px;margin:8px 0}
 .qr-instructions .action{font-size:13px}
 @media(max-width:680px){.qr-area{grid-template-columns:1fr}.qr-frame{max-width:300px;margin:auto;width:100%}.qr-instructions ol li{font-size:13px}}
-</style></head><body>
-<nav class="top"><strong>AULA · SALUD COMUNITARIA BASADA EN ACTIVOS</strong><div><a href="../index.html">⌂ Aula</a> <a href="index.html#panel">← Primera sesión y materiales</a> <a href="fichas-sesion-2.html">Fichas para imprimir ↗</a></div></nav>
+</style><link rel="stylesheet" href="./css/sesion-2-navegacion.css?v=20261021-nav1"></head><body>
+<nav class="top" aria-label="Navegación principal de la segunda sesión"><strong>CURSO · SALUD COMUNITARIA BASADA EN ACTIVOS</strong>
+<div class="s2-nav"><button type="button" class="s2-link" id="s2-volver" title="Volver a la pantalla anterior o al curso">← Volver</button>
+<button type="button" class="s2-link" id="s2-inicio" title="Ir al programa del taller">⌂ Inicio del taller</button>
+<a class="s2-link" href="index.html" title="Portada del curso">Curso</a>
+<a class="s2-link" href="../index.html" title="Portada principal del Aula">Aula principal</a>
+<a class="s2-link" href="fichas-sesion-2.html">Fichas ↗</a></div></nav>
 <header class="hero"><div class="kicker">Segunda sesión presencial · 26 de octubre de 2026</div>
 <h1>Del mapeo a la recomendación comunitaria de activos</h1>
 <p>El mapeo se trabajó en la primera sesión. En esta jornada se analizan mapeo, registro y recomendación; dos grupos diseñan intervenciones concretas. El uso de Localiza Salud corresponde al docente.</p>
@@ -188,8 +193,9 @@ footer{flex:none;padding:5px 13px 9px;text-align:center;color:#677f70;font-size:
 <script type="module">
 import {gruposSesion2} from './content/grupos-sesion-2.js?v=20261021b';
 const ids=['programa','grupos','guion','ficha','plenario'];let current='programa',selected=0;
+const previousViews=[];
 const $=id=>document.getElementById(id);
-function show(id){if(!ids.includes(id))id='programa';current=id;document.querySelectorAll('.page').forEach(e=>e.classList.toggle('active',e.id===id));document.querySelectorAll('.tab').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.page===id)));const i=ids.indexOf(id);$('previous').disabled=i===0;$('following').disabled=i===ids.length-1;$('page-count').textContent=(i+1)+' de '+ids.length;$(id).scrollTop=0;history.replaceState(null,'','#'+id)}
+function show(id,{remember=true}={}){if(!ids.includes(id))id='programa';if(remember&&id!==current)previousViews.push(current);current=id;document.querySelectorAll('.page').forEach(e=>e.classList.toggle('active',e.id===id));document.querySelectorAll('.tab').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.page===id)));const i=ids.indexOf(id);$('previous').disabled=i===0;$('following').disabled=i===ids.length-1;$('page-count').textContent=(i+1)+' de '+ids.length;$(id).scrollTop=0;history.replaceState(null,'','#'+id)}
 function escapeHTML(v){return String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function renderGroup(i){selected=i;let g=gruposSesion2[i];document.querySelectorAll('.group-button').forEach((b,j)=>b.setAttribute('aria-pressed',String(j===i)));$('group-display').innerHTML=
 '<span class="type">'+escapeHTML(g.tipo)+' · Grupo '+g.num+'</span><h3>'+escapeHTML(g.titulo)+'</h3><p class="sub">'+escapeHTML(g.subtitulo)+'</p><p>'+escapeHTML(g.situacion)+'</p><h4>Cuestiones que debe resolver</h4><ul>'+g.preguntas.map(x=>'<li>'+escapeHTML(x)+'</li>').join('')+'</ul><p class="result"><strong>Producto esperado:</strong> '+escapeHTML(g.producto)+'</p><p><strong>Presentación en plenario (10 minutos):</strong> '+escapeHTML(g.plenario)+'</p><p class="limit"><strong>Importante:</strong> '+escapeHTML(g.limite)+'</p><p><a class="action" href="ficha-sesion-2.html?grupo='+g.num+'" target="_blank" rel="noopener noreferrer">Abrir ficha del grupo '+g.num+' →</a></p>';
@@ -198,6 +204,11 @@ $('group-buttons').innerHTML=gruposSesion2.map(g=>'<button type="button" class="
 document.querySelectorAll('.group-button').forEach(b=>b.addEventListener('click',()=>renderGroup(Number(b.dataset.group))));
 renderGroup(0);
 document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>show(b.dataset.page)));
+$('s2-inicio').addEventListener('click',()=>show('programa'));
+$('s2-volver').addEventListener('click',()=>{
+  if(previousViews.length)show(previousViews.pop(),{remember:false});
+  else location.href='index.html';
+});
 document.querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>show(b.dataset.go)));
 $('previous').addEventListener('click',()=>show(ids[Math.max(0,ids.indexOf(current)-1)]));
 $('following').addEventListener('click',()=>show(ids[Math.min(ids.length-1,ids.indexOf(current)+1)]));
@@ -213,5 +224,5 @@ for(let i=0;i<side*side;i++){
  if((raw.charCodeAt(i>>3)>>(7-(i&7)))&1)ctx.fillRect((i%side)*unit,Math.floor(i/side)*unit,unit,unit)
 }
 })();
-show(ids.includes(location.hash.slice(1))?location.hash.slice(1):'programa');
+show(ids.includes(location.hash.slice(1))?location.hash.slice(1):'programa',{remember:false});
 </script></body></html>
