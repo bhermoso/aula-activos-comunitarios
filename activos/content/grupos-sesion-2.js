@@ -40,17 +40,16 @@ export const gruposSesion2 = [
     "tipo": "Grupo temático",
     "titulo": "Difusión y recomendación de activos",
     "subtitulo": "Comparar circuitos sanitarios, intersectoriales y comunitarios",
-    "situacion": "Partimos de activos previamente identificados y contrastados. El grupo diseña los pasos que permiten dar a conocer oportunidades comunitarias y facilitar que puedan recomendarse y utilizarse, sin limitar la iniciativa al sistema sanitario.",
+    "situacion": "Partiendo del trabajo de mapeo de activos para la salud, reflexionad sobre cómo organizaríais su difusión y recomendación en la comunidad.",
     "preguntas": [
-      "¿Qué fases debe recorrer un activo desde su identificación hasta su difusión y recomendación responsable?",
-      "¿Cómo sería el circuito desde profesionales sanitarios y, cuando proceda, en Diraya?",
-      "¿Cómo participarían trabajo social, educación, servicios sociales y otros profesionales?",
-      "¿Qué mecanismos de difusión y recomendación pueden impulsar asociaciones y ONG?",
-      "¿Cómo favorecer recomendaciones horizontales entre ciudadanos sin mediación sanitaria?",
-      "¿Cómo comprobar que la difusión llega a la población y que las barreras de acceso se tienen en cuenta?"
+      "¿Qué proceso realizaríais para la difusión y recomendación de activos? Indicad las posibles fases o pasos a seguir.",
+      "¿Cómo lo plantearíais con los profesionales sanitarios?",
+      "¿Y con el resto de profesionales del ámbito comunitario?",
+      "¿Y con las asociaciones y ONG?",
+      "¿Y con la ciudadanía?"
     ],
-    "producto": "Un esquema comparativo de circuitos profesional, intersectorial y ciudadano, con agentes, canales y precauciones.",
-    "plenario": "Exponer el circuito y explicar cómo se relacionan la recomendación clínica y la recomendación horizontal, sin confundirlas.",
+    "producto": "Propuesta de proceso de difusión y recomendación de activos, con las fases o pasos previstos y su desarrollo con profesionales, asociaciones y ciudadanía.",
+    "plenario": "Explicar el proceso propuesto y cómo se desarrollaría con los distintos grupos y agentes de la comunidad.",
     "limite": "No se presupone que cualquier recurso sea visible o recomendable en Diraya ni se realiza una recomendación real durante la práctica."
   },
   {
