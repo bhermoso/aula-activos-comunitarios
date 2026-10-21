@@ -58,7 +58,7 @@ footer{border-top:1px solid var(--line);padding:21px;text-align:center;font-size
 <div class="panel soft"><h3>Acuerdos que conviene recoger</h3><ul><li>Problemas, necesidades y fortalezas considerados.</li><li>Líneas priorizadas y justificación del acuerdo.</li><li>Participantes y mecanismo de deliberación.</li><li>Cuestiones pendientes de contrastar.</li><li>Quién coordinará cada fase del mapeo.</li></ul></div>
 </div>
 <div class="panel" style="margin-top:15px"><h3>Cuaderno provisional de líneas propuestas</h3><p class="text-muted">Solo para preparar la sesión. Se guarda en este navegador; no se publica ni se presenta como acuerdo institucional.</p>
-<form id="priority-form" class="form-stack"><div class="label-pair"><div><label for="priority-name">Línea propuesta</label><input id="priority-name" maxlength="140" required placeholder="Escribir una propuesta, sin darla por aprobada"></div><div><label for="priority-state">Estado</label><select id="priority-state"><option>Propuesta pendiente de deliberación</option><option>En deliberación</option><option>Acuerdo documentado por el grupo</option></select></div></div><div><label for="priority-note">Fundamento, observaciones o acuerdo</label><textarea id="priority-note" maxlength="800" placeholder="Información disponible, argumentos, acta o aspectos por contrastar"></textarea></div><div><button type="submit">Añadir línea al cuaderno</button></div></form>
+<form id="priority-form" class="form-stack"><div class="label-pair"><div><label for="priority-name">Línea propuesta</label><input id="priority-name" maxlength="140" required placeholder="Escribir una propuesta, sin darla por aprobada"></div><div><label for="priority-state">Estado</label><select id="priority-state"><option>Propuesta pendiente de deliberación</option><option>En deliberación</option><option>Acuerdo documentado por el grupo</option></select></div></div><div><label for="priority-note">Fundamento, observaciones o acuerdo</label><textarea id="priority-note" maxlength="800" placeholder="Información disponible, argumentos, acta o aspectos por contrastar"></textarea></div><div class="row-actions"><button type="submit">Añadir línea al cuaderno</button><button type="button" id="export-priorities" class="action alt">Exportar propuestas CSV</button></div></form>
 <div id="priority-list" class="card-list" aria-live="polite"></div></div>
 </section>
 <section id="mapeo">
@@ -114,6 +114,14 @@ function renderPriorities(){
  if(a.note)card.append(elt('p','text-muted',a.note));const b=elt('button','','Retirar propuesta');b.type='button';b.addEventListener('click',()=>{if(confirm('¿Retirar esta propuesta del cuaderno local?')){priorities.splice(i,1);save(keyP,priorities);renderPriorities()}});card.append(b);target.append(card)})
 }
 $('priority-form').addEventListener('submit',e=>{e.preventDefault();priorities.push({name:$('priority-name').value.trim(),state:$('priority-state').value,note:$('priority-note').value.trim()});if(save(keyP,priorities)){$('priority-form').reset();renderPriorities()}});
+$('export-priorities').addEventListener('click',()=>{
+ if(!priorities.length){alert('Todavía no hay propuestas para exportar.');return}
+ const esc=value=>{let v=String(value==null?'':value);if(/^[\\s]*[=+\\-@]/.test(v))v="'"+v;return '"'+v.replace(/"/g,'""')+'"'};
+ const rows=[['Línea propuesta','Estado','Observaciones'],...priorities.map(p=>[p.name,p.state,p.note])];
+ const csv='\\uFEFF'+rows.map(row=>row.map(esc).join(',')).join('\\r\\n');
+ const u=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));
+ const a=document.createElement('a');a.href=u;a.download='zagra-lineas-priorizacion-provisional.csv';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1000);
+});
 function renderAssets(){
  $('asset-count').textContent=assets.length?assets.length+' activo(s) en este navegador.':'Sin registros en este navegador.';
  const target=$('asset-list');target.replaceChildren();if(!assets.length){target.append(elt('p','text-muted','Aún no se han incorporado activos.'));return}
