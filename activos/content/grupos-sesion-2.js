@@ -67,7 +67,7 @@ export const gruposSesion2 = [
     "num": 5,
     "tipo": "Supuesto de diseño",
     "titulo": "Sesión formativa para líderes del tejido asociativo",
-    "situacion": "En la zona de referencia de un centro de salud ya se ha realizado un mapeo participativo y contrastado los activos comunitarios. El equipo sanitario del centro de salud —preferentemente enfermería comunitaria, con participación de la trabajadora social— liderará, organizará e impartirá una sesión formativa dirigida a líderes del tejido asociativo. Su propósito es enseñarles cómo recomendar activos de forma responsable, facilitar la participación y promover una cultura de recomendación entre iguales. La sesión no es clínica: sus destinatarios son las asociaciones, que podrán realizar recomendaciones horizontales después de recibir la formación.",
+    "situacion": "En la zona de referencia de un centro de salud ya se ha realizado un mapeo participativo y contrastado los activos comunitarios. El equipo sanitario del centro de salud —preferentemente enfermería comunitaria, con participación de la trabajadora social— liderará, organizará e impartirá una sesión formativa dirigida a líderes del tejido asociativo. Su propósito es enseñarles cómo recomendar activos de forma responsable, facilitar la participación y promover una cultura de recomendación entre iguales.",
     "preguntas": [
       "¿Qué objetivos concretos tendrá la formación para líderes del tejido asociativo? ¿Qué deberán saber y poder hacer al finalizar?",
       "¿A qué asociaciones y personas con capacidad de dinamización comunitaria convocaríais? ¿Cómo favoreceríais la participación de colectivos menos representados?",
