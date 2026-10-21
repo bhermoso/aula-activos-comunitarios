@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#10261d">
+<title>Informe sobre la Situación de Salud en el Municipio de Fuente Vaqueros · Presentación revisada</title>
+<meta name="description" content="Presentación tipográficamente revisada del informe de salud de Fuente Vaqueros. Se conserva el PDF original del ponente.">
+<style>
+*{box-sizing:border-box}
+:root{font-family:Arial,Helvetica,system-ui,sans-serif;color:#193b2e;background:#0d1b16}
+html,body{height:100%;margin:0}
+#deck{display:flex;flex-direction:column;height:100dvh;min-height:360px}
+header,footer{flex:none;display:flex;align-items:center;justify-content:space-between;gap:8px 16px;padding:9px 15px;color:#e6f2ea;background:#133528;font-size:13px}
+header>div{display:flex;flex-direction:column;gap:2px}
+header strong{letter-spacing:.035em}header small{color:#c5e3cf}
+header a{color:#d8f1e0;text-decoration:underline;text-underline-offset:3px}
+#screen{flex:1;display:flex;justify-content:center;align-items:center;min-height:0;padding:10px;overflow:auto}
+.slide{display:none;position:relative;width:100%;height:100%;max-width:1340px;max-height:900px;min-height:300px;background:#fff;overflow:auto;border-radius:4px;box-shadow:0 5px 36px #0006}
+.slide.active{display:flex;flex-direction:column}
+.slide:before{content:'';position:absolute;z-index:0;right:8%;top:0;width:95px;height:87px;background:#7eb2a7}
+.slide-heading{position:relative;z-index:1;background:#b8e67b;margin:24px 5% 0 0;padding:15px clamp(17px,3.5vw,53px);font-size:clamp(17px,2.15vw,30px);line-height:1.2;font-weight:500;color:#fff}
+.slide-body{position:relative;z-index:1;display:flex;justify-content:center;flex-direction:column;flex:1;gap:12px;padding:24px clamp(24px,7%,94px) 34px;font-size:clamp(15px,1.58vw,23px);line-height:1.4}
+.slide-body h1,.slide-body h2{font-size:1.12em;margin:0 0 9px;font-weight:750;color:#182922}
+.slide-body p{margin:0 0 7px}
+.slide-body ul{margin:0;padding-left:24px}
+.slide-body li{margin:0 0 11px}
+.slide-body strong{font-weight:760}
+.slide-body .medium{font-size:.9em}.slide-body .small{font-size:.77em}
+.center{text-align:center}.opening{font-size:1.08em;text-align:center}.opening h1{font-size:1.45em!important;margin:10px 0}
+.thanks{text-align:center;font-weight:750;font-size:clamp(29px,4.1vw,54px);color:#17382b}
+table{border-collapse:collapse;width:100%;font-size:.84em;line-height:1.22;text-align:left;background:#fff}
+th,td{border:1px solid #b2c5b8;padding:7px 9px;vertical-align:top}
+th{background:#e5efdf;color:#17372d;font-weight:750}
+tbody tr:nth-child(even){background:#f7faf5}
+table.dense{font-size:clamp(10px,1.02vw,15px);line-height:1.2}
+table.dense th,table.dense td{padding:6px 7px}
+.scroll-x{overflow-x:auto;width:100%}
+.graph{width:100%;min-height:0;max-height:95%;flex:1;display:flex;align-items:center}
+.graph svg{width:100%;height:100%;max-height:600px;overflow:visible}
+.graph text{font-family:Arial,Helvetica,system-ui,sans-serif;fill:#243c31}
+.footnote{font-size:12px;color:#597366;line-height:1.3;margin-top:4px}
+footer button{cursor:pointer;padding:10px 13px;border:1px solid #90bba3;background:#246449;color:white;border-radius:7px;font:700 13px Arial,sans-serif}
+footer button:hover:not(:disabled),footer button:focus-visible{background:#357853}
+footer button:disabled{opacity:.38;cursor:default}
+footer button[hidden]{display:none}
+footer #count{min-width:68px;text-align:center;font-weight:750}
+.controls{display:flex;gap:7px;align-items:center}
+body:fullscreen #deck,#deck:fullscreen{width:100vw;height:100vh}
+#deck:fullscreen header{padding:5px 12px}
+#deck:fullscreen footer{padding:6px 12px}
+#deck:fullscreen #screen{padding:3px}
+@media(max-width:740px){header small,.hide-small{display:none}.slide-heading{padding:13px 17px}.slide-body{padding:16px 20px 23px;font-size:14px}.slide-body li{margin-bottom:8px}footer{padding:7px 8px}footer button{padding:9px 10px}}
+@media print{header,footer{display:none!important}#deck{display:block;height:auto}#screen{display:block;overflow:visible;padding:0}.slide{display:flex!important;page-break-after:always;height:190mm;width:277mm;max-width:none;box-shadow:none}.slide-body{font-size:19px}@page{size:A4 landscape;margin:0}}
+</style>
+</head>
+<body>
+<div id="deck">
+<header><div><strong>FUENTE VAQUEROS · INFORME DE SALUD</strong><small>Presentación tipográficamente revisada · Carlos del Moral Campaña</small></div><div><a href="./Informe%20sobre%20la%20Situaci%C3%B3n%20de%20Salud%20en%20el%20Municipio%20de%20Fuente%20Vaqueros.pdf" target="_blank" rel="noopener noreferrer">PDF original del ponente ↗</a> <a href="index.html#epi">Volver al taller ↗</a></div></header>
+<main id="screen" aria-live="polite"></main>
+<footer><div class="controls"><button type="button" id="prev">← Anterior</button><span id="count">1 / 14</span><button type="button" id="next">Siguiente →</button></div><span class="hide-small">← → Espacio · Inicio/Fin · Esc</span><div class="controls"><button type="button" id="present">⛶ Presentar</button><button type="button" id="exit" hidden>Salir</button></div></footer>
+</div>
+<script>
+(() => {
+const TITLE='Informe sobre la Situación de Salud en el Municipio de Fuente Vaqueros';
+const table=(headers,rows,cls='')=>'<div class="scroll-x"><table class="'+cls+'"><thead><tr>'+headers.map(h=>'<th>'+h+'</th>').join('')+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+r.map(c=>'<td>'+c+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>';
+const list=items=>'<ul>'+items.map(i=>'<li>'+i+'</li>').join('')+'</ul>';
+function barChart(title,groups,series,max){
+const W=1050,H=580,L=285,T=57,R=108,B=63;
+const ww=W-L-R,hh=H-T-B,step=hh/groups.length,bar=step/(series.length+0.85);
+let s='<svg role="img" aria-label="'+title+'" viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="xMidYMid meet"><title>'+title+'</title>';
+for(let k=0;k<=5;k++){const x=L+ww*k/5;s+='<line x1="'+x+'" y1="'+T+'" x2="'+x+'" y2="'+(H-B)+'" stroke="#d7e0d7"/><text x="'+x+'" y="'+(H-B+24)+'" text-anchor="middle" font-size="14">'+(Math.round(max*k/5*10)/10).toLocaleString('es-ES')+'</text>';}
+const colors=['#2e7194','#e08f2d','#4d985d'];
+groups.forEach((g,i)=>{const y=T+i*step+step/2;s+='<text x="'+(L-14)+'" y="'+(y+4)+'" text-anchor="end" font-size="'+(groups.length>8?15:18)+'">'+g.label+'</text>';g.values.forEach((v,j)=>{const yy=T+i*step+9+j*bar;const bw=v/max*ww;s+='<rect x="'+L+'" y="'+yy+'" width="'+Math.max(bw,1)+'" height="'+(bar-3)+'" fill="'+colors[j]+'"/><text x="'+(L+bw+5)+'" y="'+(yy+bar-7)+'" font-size="'+(groups.length>8?12:14)+'">'+(String(v).replace('.',','))+'</text>'})});
+series.forEach((name,j)=>{const x=L+15+j*195;s+='<rect x="'+x+'" y="13" width="18" height="12" fill="'+colors[j]+'"/><text x="'+(x+24)+'" y="24" font-size="15">'+name+'</text>'});
+s+='</svg>';return '<div class="graph">'+s+'</div>';
+}
+const slides=[
+{body:'<div class="opening"><h1>Análisis demográfico, morbilidad, mortalidad y estrategias de prevención</h1><p><strong>M. Carlos del Moral Campaña</strong></p><p>Epidemiólogo · Unidad PPVS Granada Metropolitano</p><p>Fuente Vaqueros, 22 de octubre de 2026</p></div>'},
+{body:'<h2>Introducción y Estructura Demográfica</h2>'+table(['Indicador','2025'],[['Población total','4.744'],['Hombres','2.368'],['Mujeres','2.376'],['Edad media','42,7 años'],['Población menor de 20 años','20,20 %'],['Población de 65 o más años','18,30 %']])},
+{body:'<h2>Dinámica Poblacional y Movimientos Migratorios (2024)</h2>'+list([
+'<strong>Dinámica poblacional:</strong> Saldo vegetativo positivo (45 nacimientos y 44 defunciones).',
+'<strong>Saldo migratorio positivo</strong> con 114 personas netas (327 inmigraciones y 213 emigraciones).',
+'<strong>Crecimiento demográfico:</strong> Incremento del 3,3 % en la última década (2014–2024).',
+'<strong>Tendencia:</strong> Estructura demográfica definida por un envejecimiento poblacional progresivo.',
+'<strong>Población extranjera:</strong> 242 residentes nacidos fuera de España en 2025, predominantemente de nacionalidad boliviana (48,3 %).'])},
+{body:'<h2>Principales enfermedades crónicas registradas en el municipio (casos 2025)</h2>'+list([
+'<strong>Hipertensión:</strong> 1.076 casos (594 mujeres / 482 hombres).',
+'<strong>Dislipemia:</strong> 1.073 casos (550 mujeres / 523 hombres).',
+'<strong>Artrosis / Espondilosis:</strong> 893 casos (590 mujeres / 303 hombres).',
+'<strong>Asma:</strong> 610 casos (321 hombres / 289 mujeres).',
+'<strong>Diabetes:</strong> 468 casos (240 hombres / 228 mujeres).',
+'<strong>Patologías de salud mental:</strong> 434 casos de trastornos de ansiedad y 236 de trastornos del estado de ánimo.'])},
+{body:'<h2>Prevalencia de enfermedades crónicas (casos por 10.000 personas-año)</h2>'+barChart('Comparación de prevalencias crónicas: Fuente Vaqueros y Andalucía',[
+{label:'Hipertensión',values:[2439.5,2327.7]}, {label:'Diabetes',values:[1049.3,966.4]}, {label:'Asma',values:[1381.1,1187.1]}, {label:'Dermatitis atópica',values:[446.6,246.6]}, {label:'Dependencia del tabaco',values:[688.0,513.4]}, {label:'Obesidad',values:[894.3,538.8]}],['Fuente Vaqueros','Andalucía'],2600)},
+{body:'<h2>Incidencia de cáncer (2016–2020)</h2>'+table(['Tipo de cáncer','Hombres','Mujeres','Ambos sexos','Tasa bruta F. Vaqueros','Tasa estand. F. Vaqueros','Tasa estand. Granada'],[
+['Piel (no melanoma)','26','21','47','214','221','207'],['Mama','—','15','15','137 (mujeres)','140 (mujeres)','113 (mujeres)'],['Próstata','11','—','11','100 (hombres)','134 (hombres)','127 (hombres)'],['Colon-recto','10','1','11','50','52','78'],['Pulmón, tráquea y bronquios','8','1','9','41','43','51'],['Vejiga','5','3','8','36','41','40'],['Total cánceres','77','70','147','669','722','722']],'dense')+'<p class="footnote">Tasas medias anuales por 100.000 habitantes. Cifras conservadas del informe original.</p>'},
+{body:'<h2>Prevalencia de cáncer (casos por 10.000 habitantes), 2025</h2>'+table(['Neoplasia','Fuente Vaqueros','Granada','Andalucía'],[
+['Cáncer de mama','123,02','136,69','123,83'],['Cáncer colorrectal','70,98','73,60','70,61'],['Cáncer de próstata','52,17','72,58','75,33'],['Cáncer de vejiga','50,65','42,54','43,07'],['Cáncer de hueso y tejidos blandos','38,64','25,10','10,73'],['Melanoma de piel','28,07','39,97','34,39'],['Cáncer de útero','26,50','21,81','18,95'],['Cáncer de cabeza y cuello','21,95','30,07','25,74'],['Leucemia','17,69','17,25','15,07'],['Linfoma no Hodgkin','14,69','22,86','25,57'],['Cáncer de bronquio y pulmón','16,91','17,74','19,19']],'dense')},
+{body:'<h2>Análisis de mortalidad general (2024)</h2><p><strong>Total de defunciones:</strong> 44 muertes registradas.</p><p><strong>Principales causas y comparativa porcentual:</strong></p>'+list([
+'<strong>Enfermedades circulatorias:</strong> Primera causa (27,27 %), en línea con Granada y Andalucía.',
+'<strong>Tumores (cáncer):</strong> Segunda causa (20,45 %), inferior a Granada y Andalucía.',
+'<strong>Enfermedades respiratorias:</strong> Tercera causa (18,18 %), superior a Granada y Andalucía.',
+'<strong>Enfermedades del sistema nervioso y sentidos:</strong> 6 muertes (13,64 %), duplicando la tasa de Granada y Andalucía.'])},
+{body:'<h2>Principales causas de mortalidad (%), 2024</h2>'+barChart('Distribución porcentual de causas de mortalidad',[
+{label:'Enf. circulatorias',values:[27.3,26.9,27.0]},{label:'Tumores (cáncer)',values:[20.4,24.5,26.0]},{label:'Enf. respiratorias',values:[18.2,11.1,10.8]},{label:'Sist. nervioso y sentidos',values:[13.6,6.3,6.1]},{label:'Síntomas / hallazgos',values:[6.8,5.0,4.9]},{label:'Sistema digestivo',values:[4.5,5.5,5.6]},{label:'Causas externas',values:[4.5,4.1,4.1]},{label:'Infecciosas y parasitarias',values:[2.3,2.8,2.7]},{label:'Endocrinas y metabólicas',values:[2.3,3.5,3.4]}
+],['Fuente Vaqueros','Granada','Andalucía'],30)},
+{body:'<h2>Programas de prevención secundaria (cribados 2025)</h2>'+list([
+'<strong>Cáncer de cuello uterino:</strong> Éxito notable. Tasa de participación del 30,61 % sobre invitadas, triplicando la media andaluza (8,68 %), con una adherencia del 88,24 %.',
+'<strong>Cáncer de mama:</strong> Cobertura baja (16 %), pero una adherencia óptima del 92,65 % en las mujeres citadas.',
+'<strong>Cáncer colorrectal:</strong> Punto crítico. A pesar del 100 % de cobertura de invitación, la participación real fue de solo el 22,31 % (11 puntos por debajo de Granada).'])},
+{body:'<h2>Coberturas vacunales</h2><p><strong>Inmunización infantil (2025): margen de mejora</strong></p>'+table(['Indicador vacunal','Año','F. Vaqueros (%)','Distrito Metro (%)'],[
+['Captación','2025','98,11','98,52'],['Primovacunación','2025','98,11','97,38'],['1.ª dosis triple vírica','2024','93,02','96,25'],['Vacunación completa','2024','88,37','92,49'],['2.ª dosis triple vírica','2022','86,27','93,51']])},
+{body:'<h2>Alertas en EDO (2022–2026)</h2>'+list([
+'<strong>Infecciones respiratorias agudas comunitarias:</strong> Lideradas históricamente por COVID-19 (82 casos concentrados en 2022–2023) y un brote severo de tosferina (23 casos en 2024).',
+'<strong>Infecciones de transmisión sexual (ITS):</strong> Presencia constante en la población, con 15 casos de <em>Chlamydia trachomatis</em>, 11 de infección gonocócica, 4 de sífilis y 2 de herpes genital.',
+'<strong>Infecciones relacionadas con la asistencia sanitaria (IRAS):</strong> Carga continuada de bacterias multirresistentes en pacientes frágiles, destacando 30 casos de <em>E. coli</em> y 16 de <em>Klebsiella</em>.'])},
+{body:'<h2>Conclusiones y prioridades de intervención en salud pública</h2>'+list([
+'<strong>Salud pulmonar:</strong> Intervención prioritaria contra el tabaquismo y control del asma ante el exceso de mortalidad respiratoria.',
+'<strong>Abordaje de la obesidad:</strong> Programas comunitarios de ejercicio y nutrición para frenar el riesgo cardiovascular.',
+'<strong>Cribado de colon:</strong> Campañas de sensibilización dirigidas al grupo de 50 a 69 años para elevar la participación.',
+'<strong>Bioseguridad en residencias:</strong> Supervisión de protocolos higiénico-alimentarios.',
+'<strong>Salud sexual y vacunas:</strong> Talleres afectivo-sexuales para jóvenes y seguimiento de vacunación infantil.'])},
+{body:'<div class="thanks">Gracias por su atención</div>'}
+];
+const screen=document.getElementById('screen'),deck=document.getElementById('deck');
+slides.forEach((s,i)=>{const article=document.createElement('article');article.className='slide';article.setAttribute('aria-label','Diapositiva '+(i+1)+' de '+slides.length);article.innerHTML='<div class="slide-heading">'+TITLE+'</div><div class="slide-body">'+s.body+'</div>';screen.appendChild(article)});
+const elements=[...screen.children];let at=0;
+const update=n=>{at=Math.min(Math.max(0,n),elements.length-1);elements.forEach((s,i)=>s.classList.toggle('active',i===at));document.getElementById('count').textContent=(at+1)+' / '+elements.length;document.getElementById('prev').disabled=at===0;document.getElementById('next').disabled=at===elements.length-1};
+document.getElementById('prev').addEventListener('click',()=>update(at-1));
+document.getElementById('next').addEventListener('click',()=>update(at+1));
+document.addEventListener('keydown',e=>{if(e.ctrlKey||e.altKey||e.metaKey||/^(BUTTON|A|INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName))return;let n=null;if(['ArrowRight','PageDown',' ','ArrowDown'].includes(e.key))n=at+1;else if(['ArrowLeft','PageUp','Backspace','ArrowUp'].includes(e.key))n=at-1;else if(e.key==='Home')n=0;else if(e.key==='End')n=slides.length-1;if(n!==null){e.preventDefault();update(n)}});
+let touchX=null;screen.addEventListener('touchstart',e=>{if(e.touches.length===1)touchX=e.touches[0].clientX},{passive:true});screen.addEventListener('touchend',e=>{if(touchX===null)return;const dx=e.changedTouches[0].clientX-touchX;touchX=null;if(Math.abs(dx)>80)update(at+(dx<0?1:-1))},{passive:true});
+const present=document.getElementById('present'),exit=document.getElementById('exit');present.addEventListener('click',()=>{if(deck.requestFullscreen)deck.requestFullscreen().catch(()=>{})});exit.addEventListener('click',()=>{if(document.fullscreenElement&&document.exitFullscreen)document.exitFullscreen()});document.addEventListener('fullscreenchange',()=>{const f=!!document.fullscreenElement;present.hidden=f;exit.hidden=!f});update(0);
+})();
+</script>
+</body></html>
