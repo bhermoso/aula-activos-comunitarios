@@ -159,7 +159,7 @@ footer{flex:none;padding:5px 13px 9px;text-align:center;color:#677f70;font-size:
 <section class="page" id="ficha">
 <h2>Ficha de grupo · Acceso con QR y envío a Firebase</h2>
 <p class="lead">Proyecta el QR. Cada grupo abre la ficha desde su móvil, selecciona su número, completa las respuestas y el guion del plenario y envía una aportación consensuada.</p>
-<div class="qr-area"><div class="qr-frame"><canvas id="qr-ficha" width="450" height="450" role="img" aria-label="Código QR para abrir la ficha de trabajo de la segunda sesión">Código QR de la ficha de grupo</canvas></div>
+<div class="qr-area"><div class="qr-frame"><canvas id="qr-ficha" width="456" height="456" role="img" aria-label="Código QR para abrir la ficha de trabajo de la segunda sesión">Código QR de la ficha de grupo</canvas></div>
 <div class="qr-instructions"><h3>Una ficha por grupo</h3>
 <ol><li>Escanear el QR o abrir el enlace.</li><li>Seleccionar del grupo 1 al 5.</li><li>Preparar las respuestas y la exposición de diez minutos.</li><li>Pulsar «Enviar ficha a la organización» y comprobar la confirmación.</li></ol>
 <p><a class="action" href="ficha-sesion-2.html" target="_blank" rel="noopener noreferrer">Abrir la ficha desde este dispositivo →</a></p>
@@ -206,7 +206,7 @@ window.addEventListener('hashchange',()=>{if(ids.includes(location.hash.slice(1)
 (function(){
 const el=document.getElementById('qr-ficha');if(!el)return;
 const ctx=el.getContext('2d');if(!ctx)return;
-const raw=atob('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+v+Aj+AQVw8AQQC6ogxi6AXTGu9XQC6ihRq6AQQ738QQD+qqqr+AACsdqAACfulG0uABDZP6ugC74ctfaAVBJ4xvwDHPZuDSAPtHQ/GADyTxyS+AbM3QyrwDf4xPmKATHkaCoAAnFvGcqAPmTJZaQBKEsG/gAbOKtuFgBGR8FZSActYgkPQA2BhmDAASs8UnGADPKVZX+AUKxYz3QCTKxtf+AAGHeFFgD+k1+KiAQXOZfEgC666G/kAXXI5kxwC6BAcQiAQSKsw3wD+qAiLCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA='),side=45,unit=10;
+const raw=atob('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+M01sQL+AQWud8hnQQC6Fgr1Ga6AXTbzKsKXQC6Q8v3SC6AQUQ9GjEQQD+qqqqqr+AAHO/E3jAAAPflPw6rEAKnLG3YW6ADi2B9+T/4AEMT+n/5VQBqsXLP3NsAHECii4U1gBvV/K+2yIAWPCCOgWVAAmZpLaPuqAcGKSo7mZgBL6rmlbz4ABuuqWB8tQDSOsxZ2K8AdJgRH+O8ACv2i/ugvgALF8vH61FgBq/E6rz6qAbEXHEmHGACv/+fiV/oACKAUTv4ZQCjdmJa/nKAPr+DxkFvgCWX9FrU4oACt31Tgw9QB3AKKqfNaAAmsGWa01AA3HBPrywoADLxnvk05QCDTXVK2paAOjrRByk3ABHJUlsEhAAOLLlZn5ZQDiBh/43vsAAHs5EE3GAD+076+Oq4AQU5RFnfFAC61PPmuP8AXRs9pG1bwC6OSLl27AAQQlZUk6jgD+ZhHz+gOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA='),side=57,unit=8;
 ctx.fillStyle='#fff';ctx.fillRect(0,0,el.width,el.height);
 ctx.fillStyle='#102a28';
 for(let i=0;i<side*side;i++){
