@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101d19">
+<title>Informe sobre la Situación de Salud en el Municipio de Fuente Vaqueros · Presentación</title>
+<style>
+:root{color-scheme:dark}
+*{box-sizing:border-box}html,body{margin:0;height:100%;background:#101713;color:#fff;font:14px/1.4 system-ui,-apple-system,Segoe UI,sans-serif}
+#deck{display:flex;flex-direction:column;height:100dvh;min-height:320px}
+header{flex:none;display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;padding:11px 18px;background:#172c22}
+header .brand{font-weight:800;font-size:13px;letter-spacing:.045em}
+header .sub{font-size:12px;color:#b8d8c5}
+header a{color:#d4ecdb;text-decoration:none;font-size:13px}
+main{position:relative;display:flex;flex:1;min-height:0;overflow:hidden;align-items:center;justify-content:center;padding:10px;background:#121612}
+#slide{max-width:100%;max-height:100%;height:auto;width:auto;display:block;background:white;box-shadow:0 7px 35px #0009}
+#message{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;background:#121b16;color:#e6f3e8;font-size:16px;z-index:1}
+#message[hidden]{display:none}
+#message a{color:#d3e9d7}
+footer{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:9px 14px;background:#172c22;flex:none}
+.controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+button{appearance:none;border:1px solid #799c85;background:#24553d;color:#fff;border-radius:8px;padding:9px 13px;cursor:pointer;font-weight:750;font-size:13px}
+button:disabled{opacity:.35;cursor:default}button:hover:not(:disabled),button:focus-visible{background:#34704f}
+#counter{min-width:100px;text-align:center;font-weight:750}
+.hint{font-size:12px;color:#bfd4c5}
+#deck:fullscreen{width:100%;height:100%;background:#111}
+#deck:fullscreen header{padding:5px 14px}
+#deck:fullscreen footer{padding:5px 12px}
+#deck:fullscreen main{padding:2px}
+@media(max-width:650px){header{padding:8px 11px}header .sub,.hint{display:none}footer{padding:6px 8px}button{padding:9px 10px}#counter{min-width:78px}}
+@media print{header,footer{display:none}#deck,main{height:100%}#slide{max-height:100vh}}
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js" defer></script>
+<script src="./epi-presentacion.js" defer></script>
+</head>
+<body>
+<div id="deck">
+<header><div><div class="brand">FUENTE VAQUEROS · INFORME DE SALUD</div><div class="sub">Carlos del Moral Campaña · Documento original, sin alteraciones</div></div><a href="index.html#epi">← Volver al taller</a></header>
+<main id="screen" aria-label="Diapositiva actual"><canvas id="slide" role="img" aria-label="Página del informe original"></canvas><div id="message" role="status">Preparando las diapositivas originales…</div></main>
+<footer><div class="controls"><button id="prev" type="button" aria-label="Diapositiva anterior">← Anterior</button><span id="counter" aria-live="polite">— / 14</span><button id="next" type="button" aria-label="Siguiente diapositiva">Siguiente →</button></div>
+<span class="hint">Flechas ← → · Espacio · AvPág · Esc</span>
+<div class="controls"><button id="fullscreen" type="button">⛶ Presentar</button><button id="exit" type="button" hidden>Salir</button></div></footer>
+</div></body></html>
