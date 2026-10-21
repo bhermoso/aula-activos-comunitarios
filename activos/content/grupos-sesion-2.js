@@ -51,17 +51,16 @@ export const gruposSesion2 = [
     "num": 4,
     "tipo": "Supuesto de diseño",
     "titulo": "Sesión clínica sobre recomendación de activos",
-    "situacion": "Una unidad asistencial ya ha completado un proceso de mapeo de activos de su zona de referencia y cuenta con información contrastada sobre determinadas oportunidades comunitarias. Algunos profesionales todavía no conocen bien esas iniciativas ni tienen claro cuándo y cómo recomendarlas. Profesionales sanitarios del centro de salud —preferentemente enfermería comunitaria, con participación de la trabajadora social— liderarán e impartirán una sesión clínica para formar al resto de profesionales de la unidad y acordar un circuito viable de recomendación.",
+    "situacion": "Una unidad asistencial ya ha completado un proceso de mapeo de activos de su zona de referencia y dispone de información contrastada sobre determinadas oportunidades comunitarias. Algunos profesionales todavía no conocen bien esas iniciativas ni tienen claro cuándo y cómo recomendarlas. La sesión clínica para formar al resto de profesionales de la unidad será impartida por el/la profesional de enfermería comunitaria, la trabajadora social y/o el profesional del centro de salud que haya participado en el mapeo.",
     "preguntas": [
       "¿Qué objetivos de aprendizaje tendrá la sesión clínica?",
-      "¿A qué profesionales de la unidad se dirigirá la sesión? ¿Qué profesionales sanitarios del centro de salud la liderarán e impartirán y qué papel tendrá la trabajadora social?",
       "¿Cómo presentaréis los activos ya mapeados y los criterios de adecuación y acceso?",
-      "¿Qué ejemplos de conversación clínica y de recomendación ofreceréis? ¿Cómo abordaréis Diraya cuando el procedimiento esté disponible?",
-      "¿Cómo involucraréis a trabajo social y otros profesionales de la unidad?",
+      "En el marco del acto clínico (la consulta), ¿con qué discurso o conversación introduciríais la recomendación de activos para la salud? ¿Cómo abordaríais Diraya cuando el procedimiento esté disponible?",
+      "¿Cómo se integraría la recomendación de activos en la práctica de los distintos profesionales de la unidad?",
       "¿Cómo recogeréis dudas y comprobaréis posteriormente si el equipo sabe recomendar con responsabilidad?"
     ],
-    "producto": "Programa de una sesión clínica liderada e impartida por profesionales sanitarios del centro de salud: objetivos, asistentes, equipo docente, contenidos, secuencia, dinámica, materiales y comprobación del aprendizaje.",
-    "plenario": "Presentar en diez minutos la sesión clínica que impartiría el equipo sanitario del centro de salud, preferentemente enfermería comunitaria con participación de la trabajadora social, y justificar cómo mejoraría la recomendación de activos desde la unidad."
+    "producto": "Programa de la sesión clínica para formar a los profesionales de la unidad: objetivos, contenidos, secuencia, dinámica, materiales y comprobación del aprendizaje.",
+    "plenario": "Presentar en diez minutos la sesión clínica impartida por los profesionales del centro de salud que han participado en el mapeo y explicar cómo se introduciría la recomendación de activos en la consulta."
   },
   {
     "id": "asociaciones",
