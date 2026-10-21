@@ -21,17 +21,17 @@ p{font-size:12px;color:#4d695b;margin:0}
 iframe{border:1px solid #c7d6c7;border-radius:9px;width:100%;min-height:540px;flex:1;background:#fff}
 .open{color:#215f46;font-weight:700}
 @media(max-width:650px){nav{padding:10px 12px}main{padding:10px 9px}iframe{min-height:69vh}}
-</style>
+#visor-pdf:fullscreen{display:flex;flex-direction:column;background:#111;width:100vw;height:100vh;padding:0}#visor-pdf:fullscreen iframe{flex:1;min-height:0;border:0;border-radius:0}#visor-pdf{display:flex;flex:1;min-height:0;flex-direction:column;gap:7px}#visor-pdf iframe{flex:1}#ampliar-pdf{align-self:flex-end;border:0;border-radius:8px;background:#24664a;color:#fff;padding:9px 14px;font-weight:700;cursor:pointer}#visor-pdf:fullscreen #ampliar-pdf{display:none}</style>
 </head>
 <body>
 <nav aria-label="Navegación del taller"><strong>FUENTE VAQUEROS · INFORME DE SALUD</strong><div>
 <a href="index.html#epi">← Volver al taller</a>
-<a href="https://drive.google.com/file/d/1-yro5x9cEaafcxJ8vZgPlKlkWLyuESIR/view" target="_blank" rel="noopener noreferrer">Abrir PDF original ↗</a>
+<a href="./Informe%20sobre%20la%20Situaci%C3%B3n%20de%20Salud%20en%20el%20Municipio%20de%20Fuente%20Vaqueros.pdf" target="_blank" rel="noopener noreferrer">Abrir PDF original ↗</a>
 <a href="../index.html">Aula principal</a></div></nav>
 <main>
 <h1>Informe sobre la Situación de Salud en el Municipio de Fuente Vaqueros</h1>
 <p>Carlos del Moral Campaña · Documento original de 14 diapositivas, sin adaptación ni modificación del contenido.</p>
-<iframe src="https://drive.google.com/file/d/1-yro5x9cEaafcxJ8vZgPlKlkWLyuESIR/preview" title="Informe sobre la Situación de Salud en el Municipio de Fuente Vaqueros · PDF original" allowfullscreen loading="eager"></iframe>
-<p>Si el visor solicita acceso, usa <a class="open" href="https://drive.google.com/file/d/1-yro5x9cEaafcxJ8vZgPlKlkWLyuESIR/view" target="_blank" rel="noopener noreferrer">Abrir PDF original</a>.</p>
+<div id="visor-pdf"><button type="button" id="ampliar-pdf">⛶ Pantalla completa</button><iframe src="./Informe%20sobre%20la%20Situaci%C3%B3n%20de%20Salud%20en%20el%20Municipio%20de%20Fuente%20Vaqueros.pdf" title="Informe sobre la Situación de Salud en el Municipio de Fuente Vaqueros · PDF original" allowfullscreen loading="eager"></iframe></div>
+<p>Si el navegador no muestra el PDF integrado, puedes <a class="open" href="./Informe%20sobre%20la%20Situaci%C3%B3n%20de%20Salud%20en%20el%20Municipio%20de%20Fuente%20Vaqueros.pdf" target="_blank" rel="noopener noreferrer">abrir el documento original en una pestaña</a>.</p>
 </main>
-</body></html>
+<script>document.getElementById("ampliar-pdf").addEventListener("click",function(){const visor=document.getElementById("visor-pdf");if(visor.requestFullscreen)visor.requestFullscreen().catch(function(){})});</script></body></html>
