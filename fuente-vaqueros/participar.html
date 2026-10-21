@@ -44,47 +44,70 @@ footer{padding:10px 16px 30px;text-align:center;font-size:12px;color:var(--muted
 @media(max-width:670px){header{padding:20px 18px 47px}.card{padding:17px}.grid{grid-template-columns:1fr;gap:12px}label.wide{grid-column:auto}.actions button{flex:1;min-width:125px}header p{font-size:14px}.card h2{font-size:23px}}
 @media print{body{background:#fff}header{background:#fff;color:#111;padding:0 0 20px}header p,header .over{color:#222}main{margin:0;padding:0}.card{box-shadow:none}button{display:none!important}}
 
-/* Ficha de práctica: campos esenciales a la vista, complementarios desplegables. */
+/* Ficha sustantiva del taller: tres bloques visibles y lectura cómoda en móvil. */
 html{scroll-behavior:auto}
 body{min-height:100svh;display:flex;flex-direction:column;overflow-x:hidden}
-header{flex:none;padding:12px max(14px,calc((100vw - 900px)/2)) 26px}
-header .over{font-size:10px;letter-spacing:.09em}
-header h1{font-size:clamp(25px,3vw,35px);margin:5px 0}
-header p{font-size:13px;line-height:1.4}
-main{flex:1 1 auto;width:100%;max-width:940px;margin:-15px auto 0;padding:0 14px 11px;display:flex;flex-direction:column;gap:8px}
-.card{margin:0;padding:13px 18px;border-radius:13px;box-shadow:0 3px 14px #123c2810}
-.card h2{font-size:23px;margin:0 0 5px}
-.intro-drawer,.receipt-card{flex:0 0 auto;overflow:hidden}
-.intro-drawer>summary,.receipt-card>summary,.extra-fields>summary{list-style:none;cursor:pointer;font-size:14px;font-weight:850;color:#245f4a;display:flex;justify-content:space-between;align-items:center;gap:10px}
-.intro-drawer>summary::-webkit-details-marker,.receipt-card>summary::-webkit-details-marker,.extra-fields>summary::-webkit-details-marker{display:none}
-.intro-drawer>summary::after,.receipt-card>summary::after,.extra-fields>summary::after{content:"＋";font-size:21px;line-height:1}
-.intro-drawer[open]>summary::after,.receipt-card[open]>summary::after,.extra-fields[open]>summary::after{content:"−"}
-.intro-content{padding-top:8px}
-.intro-content p{font-size:13px;line-height:1.42}
-.intro .steps{margin-top:8px}
-.intro .steps span{font-size:10px;padding:5px 8px}
-.form-card{flex:1 1 auto;display:flex;flex-direction:column;min-height:0}
-.form-card form{display:flex;flex-direction:column;flex:1}
-.form-instructions{margin:3px 0 12px;font-size:13px;line-height:1.42;color:#425f55}
-.primary-grid{gap:12px}
-.extra-fields{border:1px solid #ccded0;background:#f6faf6;border-radius:10px;padding:10px 13px;margin-top:13px}
-.extra-grid{padding-top:13px}
-.grid{gap:11px}
-label{font-size:12px}
-input,select,textarea{padding:9px 10px;font-size:16px}
-textarea{min-height:73px}
-.form-card .actions{margin-top:auto;padding-top:14px}
-.form-card .actions button{width:100%;min-height:43px;font-size:14px}
-.form-card .status{font-size:13px;margin:7px 0 0}
-.receipt-card>div{padding-top:8px}
-.receipt-card p{margin:3px 0!important}
-footer{flex:0 0 auto;padding:6px 12px 10px;font-size:10px}
-@media(min-width:750px) and (min-height:630px){body{height:100svh;overflow:hidden}.form-card{justify-content:center}.form-card form{flex:0 0 auto}.form-card .actions{margin-top:9px;padding-top:6px}}
-@media(min-width:750px) and (max-height:629px){header p{display:none}.card{padding:9px 13px}.form-instructions{margin:2px 0 7px}footer{display:none}}
-@media(max-width:670px){header{padding:11px 14px 25px}.card{padding:11px 13px}.grid{grid-template-columns:1fr}.primary-grid{gap:10px}.form-card h2{font-size:20px}.form-instructions{font-size:12px;margin-bottom:9px}.extra-fields{margin-top:10px}.card h2{font-size:21px}footer{font-size:9px}}
-@media(max-width:670px) and (max-height:680px){header p{display:none}main{gap:7px}.form-card .actions{padding-top:10px}footer{padding:4px 10px 7px}}
-@media print{body{display:block;height:auto!important;overflow:visible!important}header{padding:0 0 20px}main{display:block;margin:0;padding:0}.card{margin:10px 0}.form-card{display:block}.form-card form{display:block}.intro-drawer,.receipt-card,.extra-fields{display:block}}
-
+header{flex:0 0 auto;padding:17px max(18px,calc((100vw - 900px)/2)) 33px}
+header .over{font-size:10px;letter-spacing:.1em}
+header h1{font-size:clamp(28px,3.5vw,39px);margin:6px 0}
+header p{font-size:14px;line-height:1.42}
+main{flex:1 0 auto;display:flex;flex-direction:column;gap:12px;max-width:940px;width:100%;margin:-20px auto 0;padding:0 16px 22px;position:relative}
+.card{margin:0;border-radius:15px;padding:clamp(16px,2vw,25px);box-shadow:0 4px 17px #123c2810}
+.card h2{font-size:clamp(21px,2.4vw,26px);margin:0 0 9px}
+.intro{background:#eaf4e8}
+.intro-head{display:flex;align-items:baseline;justify-content:space-between;gap:11px;flex-wrap:wrap}
+.intro-head h2{font-size:clamp(20px,2.4vw,25px)}
+.time-note{border:1px solid #bad6c3;border-radius:20px;background:#fff;padding:4px 9px;font-size:11px;font-weight:800;color:#276044}
+.intro p{font-size:13px;line-height:1.5;margin:5px 0}
+.intro .note{margin:9px 0 0;font-size:12px}
+.form-card{display:block;min-height:0}
+.form-card form{display:block}
+.form-section{border:0;border-top:1px solid #d8e5da;padding:17px 0 15px;margin:8px 0 0;min-width:0}
+.form-section:first-child{margin-top:8px}
+.form-section legend{float:none;font:600 clamp(18px,2.1vw,22px)/1.3 Georgia,serif;color:#1b4c39;padding:0 7px 0 0;margin:0 0 4px}
+.step-number{display:inline-flex;align-items:center;justify-content:center;vertical-align:2px;font:850 12px system-ui,sans-serif;background:#e2f1e3;color:#256046;border-radius:7px;min-width:31px;padding:5px 7px;margin-right:5px}
+.section-help{font-size:12px;line-height:1.45;color:#607669;margin:2px 0 12px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:15px;row-gap:14px}
+.grid .wide{grid-column:1/-1}
+label{display:flex;flex-direction:column;gap:6px;font-size:13px;font-weight:800;color:#315442}
+.required{font-size:14px;color:#a33f24}
+.optional{font:400 12px/1.4 system-ui,sans-serif;color:#647b6e}
+.hint{font:400 12px/1.48 system-ui,sans-serif;color:#5d776b}
+input,select,textarea{width:100%;min-width:0;min-height:43px;padding:10px 11px;font-size:16px;line-height:1.45;border-radius:9px}
+textarea{min-height:102px;resize:vertical}
+#aporte{min-height:121px}
+#observa{min-height:94px}
+.example-drawer{border:1px solid #c8dccc;border-radius:11px;background:#f5faf5;overflow:hidden;margin:9px 0 0}
+.example-drawer>summary,.receipt-card>summary{list-style:none;cursor:pointer;font-size:13px;font-weight:800;color:#2b634a;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 14px}
+.example-drawer>summary::-webkit-details-marker,.receipt-card>summary::-webkit-details-marker{display:none}
+.example-drawer>summary::after,.receipt-card>summary::after{content:"＋";font-size:21px;font-weight:400;line-height:1}
+.example-drawer[open]>summary::after,.receipt-card[open]>summary::after{content:"−"}
+.example-content{padding:0 14px 13px}
+.example-content p{font-size:12px;line-height:1.48;margin:6px 0}
+.submit-row{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-top:16px;flex-wrap:wrap}
+.submit-row .note{font-size:12px;margin:0;max-width:46ch}
+.submit-row button{padding:11px 18px;min-height:46px;flex:0 0 auto}
+.status{font-size:13px;line-height:1.45;margin:9px 0 0;min-height:0}
+.receipt-card{padding:0}
+.receipt-card>summary{padding:13px 17px}
+.receipt-card>div{padding:0 17px 15px}
+.receipt-card p{margin:4px 0!important}
+footer{flex:0 0 auto;padding:7px 12px 15px;font-size:11px}
+@media(max-width:670px){
+ header{padding:15px 15px 30px}header h1{font-size:28px}header p{font-size:13px}
+ main{padding:0 12px 17px;gap:10px}
+ .card{padding:15px}
+ .grid{grid-template-columns:1fr;gap:14px}
+ .grid .wide{grid-column:auto}
+ .form-section{padding:15px 0 10px}
+ .form-section legend{font-size:19px}
+ .intro-head{align-items:flex-start}
+ .intro-head h2{font-size:21px;margin-bottom:3px}
+ .submit-row{display:block}
+ .submit-row button{width:100%;margin-top:11px}
+ .receipt-card{padding:0}
+}
+@media print{body{display:block;height:auto!important;overflow:visible!important}header{background:#fff;color:#111;padding:0 0 18px}main{margin:0;padding:0;display:block}.card{margin:10px 0}.form-section{break-inside:avoid}.submit-row button{display:none}.receipt-card{display:block}}
 /* Justificantes de propuestas enviadas en esta visita; no lectura pública. */
 .sent-list{display:grid;gap:8px;margin:10px 0}
 .sent-proposal{background:#f2f8f2;border:1px solid #c8e2cf;border-radius:10px;padding:10px 12px}
@@ -101,30 +124,56 @@ footer{flex:0 0 auto;padding:6px 12px 10px;font-size:10px}
 <p>Identifica apoyos, iniciativas y recursos para fortalecer la salud y el bienestar local.</p>
 </header>
 <main>
-<details class="card intro intro-drawer"><summary>Indicaciones para participar</summary><div class="intro-content"><p><strong>¿Qué entidades, redes o iniciativas ayudan a vivir mejor en Fuente Vaqueros?</strong> Comparte una idea sobre sus aportaciones a la salud y el bienestar. Estas propuestas nos servirán para continuar el trabajo participativo; todavía no constituyen un mapa de activos definitivo.</p>
-<div class="steps"><span>1 · Identifica</span><span>2 · Explica qué aporta</span><span>3 · Envía al taller</span></div>
-<p class="note" style="margin-top:13px"><strong>Importante:</strong> no incluyas nombres de personas particulares, teléfonos ni información sobre la salud de personas concretas. Al terminar, pulsa <strong>«Enviar propuesta»</strong>.</p></div></details>
+<section class="card intro" aria-labelledby="intro-title">
+  <div class="intro-head"><h2 id="intro-title">Reconocer lo que ya aporta salud</h2><span class="time-note">3 pasos · Una propuesta por ficha</span></div>
+  <p>Piensa en una <strong>entidad, grupo, red, actividad, iniciativa o espacio de Fuente Vaqueros</strong> que ayude a vivir mejor. Queremos conocer qué hace, a quién beneficia y qué oportunidades ofrece para la comunidad.</p>
+  <p class="note"><strong>Esta es una primera exploración:</strong> las aportaciones se contrastarán más adelante y no constituyen todavía un mapa definitivo. No incluyas nombres de personas particulares, teléfonos ni datos sobre la salud de nadie.</p>
+</section>
 <section class="card form-card" aria-labelledby="form-title">
-<h2 id="form-title">Tu propuesta</h2><p class="form-instructions">Identifica una entidad, red o iniciativa y explica qué aporta al bienestar de Fuente Vaqueros. <strong>Evita datos personales.</strong></p>
+<h2 id="form-title">Ficha de tu propuesta</h2>
 <form id="proposal-form">
-<div class="grid primary-grid">
-<label>Sector o ámbito *
+<fieldset class="form-section">
+<legend><span class="step-number">01</span> Identifica la iniciativa o recurso</legend>
+<p class="section-help">Puede ser una asociación, un servicio, un grupo informal, una actividad o un lugar de encuentro.</p>
+<div class="grid">
+<label for="sector">Sector o ámbito <span class="required">*</span>
 <select id="sector" required>
-<option value="">Selecciona un sector</option><option>Salud y atención sanitaria</option><option>Servicios sociales e inclusión</option><option>Educación y familias</option><option>Personas mayores y cuidados</option><option>Asociaciones y participación</option><option>Empleo y actividad económica</option><option>Medio ambiente, agua y agricultura</option><option>Seguridad y convivencia</option><option>Administración pública</option><option>Cultura, deporte y ocio</option><option>Otros</option>
+<option value="">Selecciona un ámbito</option><option>Salud y atención sanitaria</option><option>Servicios sociales e inclusión</option><option>Educación y familias</option><option>Personas mayores y cuidados</option><option>Asociaciones y participación</option><option>Empleo y actividad económica</option><option>Medio ambiente, agua y agricultura</option><option>Seguridad y convivencia</option><option>Administración pública</option><option>Cultura, deporte y ocio</option><option>Otros</option>
 </select></label>
-<label>Tipo de actor o recurso *
-<input id="tipo" required maxlength="120" placeholder="Asociación, centro educativo, red vecinal…" autocomplete="off"></label>
-</div><details class="extra-fields"><summary>Ampliar mi propuesta (opcional)</summary><div class="grid extra-grid">
-<label>Entidad o colectivo
-<input id="entidad" maxlength="120" placeholder="Solo nombre público, no datos personales" autocomplete="off"></label>
-<label>Posible aportación
-<textarea id="aporte" maxlength="450" placeholder="¿Qué sabe hacer? ¿Qué capacidades o recursos aporta?"></textarea></label>
-<label>Línea estratégica posible
-<input id="prioridad" maxlength="180" placeholder="Solo propuesta para debatir; sin líneas aprobadas"></label>
-<label>Qué habría que contrastar
-<textarea id="observa" maxlength="450" placeholder="¿Con quién verificar? ¿Qué información falta?"></textarea></label>
+<label for="tipo">¿Qué tipo de actor, actividad o recurso es? <span class="required">*</span>
+<input id="tipo" required maxlength="120" placeholder="Asociación, taller, red vecinal, parque…" autocomplete="off"></label>
+<label class="wide" for="entidad">¿Cómo se llama? <span class="optional">(si lo sabes)</span>
+<input id="entidad" maxlength="120" placeholder="Nombre público de la entidad, actividad o espacio" autocomplete="off"></label>
+</div>
+</fieldset>
+<fieldset class="form-section">
+<legend><span class="step-number">02</span> Explica qué aporta a la salud y el bienestar</legend>
+<label for="aporte">¿Qué hace y por qué es valioso para Fuente Vaqueros? <span class="required">*</span>
+<span class="hint">Puedes contar qué actividades ofrece, qué personas o grupos se benefician y cómo favorece el encuentro, los cuidados, la autonomía, la salud o la convivencia.</span>
+<textarea id="aporte" required maxlength="450" rows="4" placeholder="Por ejemplo: organiza actividades abiertas, favorece las relaciones entre vecinos y ofrece un espacio donde participar…"></textarea>
+</label>
+</fieldset>
+<fieldset class="form-section">
+<legend><span class="step-number">03</span> Mira hacia el futuro <span class="optional">(opcional)</span></legend>
+<p class="section-help">Estas ideas servirán para conversar más adelante; no estamos decidiendo todavía las líneas estratégicas.</p>
+<div class="grid">
+<label for="prioridad">¿Qué bienestar o capacidad podríamos fortalecer?
+<input id="prioridad" maxlength="180" placeholder="Por ejemplo: convivencia, vida activa, apoyo mutuo, infancia…"></label>
+<label for="observa">¿Qué convendría conocer o contrastar mejor?
+<textarea id="observa" maxlength="450" rows="3" placeholder="Dónde actúa, quiénes pueden participar, con quién hablar o qué información falta…"></textarea></label>
+</div>
+</fieldset>
+<details class="example-drawer"><summary>Ver un ejemplo orientativo de propuesta</summary>
+<div class="example-content">
+<p><strong>Tipo:</strong> grupo vecinal que organiza paseos.</p>
+<p><strong>Aportación:</strong> facilita la actividad física y permite que las personas se encuentren y se conozcan.</p>
+<p><strong>Por explorar:</strong> saber si participa gente de distintas edades y cómo facilitar el acceso a quienes tienen dificultades para desplazarse.</p>
+<p class="note">Es un ejemplo ficticio, no un recurso identificado o validado en el municipio.</p>
 </div></details>
-<div class="actions"><button type="submit" id="send" disabled>Enviar propuesta a la organización</button></div>
+<div class="submit-row">
+<p class="note"><strong>*</strong> Campos imprescindibles. Puedes enviar otras propuestas rellenando de nuevo esta ficha.</p>
+<button type="submit" id="send" disabled>Enviar propuesta</button>
+</div>
 </form>
 <p id="status" class="status" role="status" aria-live="polite"></p>
 </section>
@@ -169,7 +218,7 @@ $('proposal-form').addEventListener('submit',async e=>{
   e.preventDefault();
   if(!db||!auth){status('La ficha no está disponible en este momento. No se ha enviado ninguna propuesta.');return}
   const d={};for(const field of fields)d[field]=$(field).value.trim();
-  if(!d.sector||!d.tipo){status('Selecciona el sector e indica el tipo de actor o recurso.');return}
+  if(!d.sector||!d.tipo||!d.aporte){status('Completa el ámbito, el tipo de iniciativa y qué aporta al bienestar.');return}
   send.disabled=true;status('Enviando tu propuesta…');
   try{
     if(!auth.currentUser)await signInAnonymously(auth);
@@ -186,7 +235,7 @@ $('proposal-form').addEventListener('submit',async e=>{
     const heading=document.createElement('h3');
     heading.textContent='Propuesta '+count+' · Recibida';
     receipt.appendChild(heading);
-    const labels={sector:'Ámbito',tipo:'Tipo de actor o recurso',entidad:'Entidad o colectivo',aporte:'Posible aportación',prioridad:'Línea estratégica posible',observa:'Qué habría que contrastar'};
+    const labels={sector:'Ámbito',tipo:'Tipo de iniciativa o recurso',entidad:'Nombre de la iniciativa',aporte:'Aportación a la salud y el bienestar',prioridad:'Bienestar o capacidad que podría fortalecerse',observa:'Qué convendría contrastar'};
     for(const field of fields){
       if(!d[field])continue;
       const line=document.createElement('p');
@@ -199,7 +248,6 @@ $('proposal-form').addEventListener('submit',async e=>{
     $('sent-list').prepend(receipt);
     $('my-receipts').open=true;
     $('proposal-form').reset();
-    document.querySelector('.extra-fields').open=false;
     status('¡Propuesta enviada! Gracias por participar. Puedes verla en «Mis propuestas confirmadas».');
     try{$('my-receipts').scrollIntoView({block:'nearest',behavior:'smooth'})}catch(_){}
   }catch(err){
