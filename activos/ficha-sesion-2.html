@@ -44,7 +44,13 @@ details>div{padding:0 13px 12px}
 footer{text-align:center;font-size:11px;color:#6d8172;margin:15px 12px 25px}
 @media(max-width:650px){header{padding:13px 14px 37px}header h1{font-size:29px}main{padding:0 11px 20px}.card{padding:15px}.grid{grid-template-columns:1fr}#respuestas{min-height:160px}.controls button{width:100%}}
 @media print{header{background:white;color:#111;padding:0 0 18px}header p{color:#333}main{margin:0;padding:0}.card{box-shadow:none;border-color:#ccc}.controls{display:none}.confirmation{display:none!important}}
-</style></head><body>
+</style><link rel="stylesheet" href="./css/sesion-2-navegacion.css?v=20261021-nav1"></head><body>
+<nav class="s2-nav s2-nav--light" aria-label="Volver y navegar por el Aula">
+<a class="s2-link" href="sesion-2.html#ficha">← Volver al taller</a>
+<a class="s2-link" href="sesion-2.html#programa">⌂ Inicio del taller</a>
+<a class="s2-link" href="index.html">Curso</a>
+<a class="s2-link" href="../index.html">Aula principal</a>
+</nav>
 <header><div class="eyebrow">Aula · Salud Comunitaria Basada en Activos · 26 de octubre de 2026</div><h1>Ficha de trabajo del grupo</h1><p>Preparad las respuestas y el esquema para el plenario de las 11:30. Una persona puede enviar la ficha consensuada por cada grupo. No se solicitan datos personales ni clínicos.</p></header>
 <main><div class="card intro"><h2>Elegid vuestro grupo</h2><label for="grupo">Grupo de trabajo <span class="required">*</span>
 <select id="grupo" required><option value="">Selecciona uno de los cinco grupos</option></select></label>
@@ -85,6 +91,11 @@ import {getAuth,signInAnonymously} from 'https://www.gstatic.com/firebasejs/11.1
 import {getFirestore,addDoc,collection,serverTimestamp} from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js';
 const $=id=>document.getElementById(id),choose=$('grupo'),status=message=>{$('status').textContent=message};
 const config=window.ACTIVOS_FIREBASE_CONFIG,siteKey=window.ACTIVOS_APPCHECK_SITE_KEY,send=$('send');
+// Evitar que la navegación del Aula haga perder una ficha escrita pero aún no enviada.
+document.querySelectorAll('.s2-nav a').forEach(link=>link.addEventListener('click',event=>{
+ if(received||![...document.querySelectorAll('#entrega textarea,#entrega input')].some(field=>field.value.trim()))return;
+ if(!window.confirm('La ficha tiene respuestas sin enviar. ¿Quieres salir sin guardarlas?'))event.preventDefault();
+}));
 let db,auth,ready=false,received=false;
 const esc=x=>String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 for(const g of gruposSesion2){const o=document.createElement('option');o.value=String(g.num);o.textContent='Grupo '+g.num+' · '+g.titulo;choose.append(o)}
