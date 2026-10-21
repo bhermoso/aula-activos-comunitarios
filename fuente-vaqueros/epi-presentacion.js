@@ -86,7 +86,7 @@
     if (!ctx) { inform('Este navegador no permite representar diapositivas.'); return; }
     window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
     try {
-      const task = window.pdfjsLib.getDocument({ url: file });
+      const task = window.pdfjsLib.getDocument({ url: file, isEvalSupported: false });
       pdf = await task.promise;
       refresh();
       await show(1);
