@@ -65,17 +65,17 @@ body{background:#fff;color:#111;font:10.4pt/1.31 Arial,sans-serif}
 <main class="fichas" id="fichas"></main>
 <footer>Aula · Curso Salud Comunitaria Basada en Activos · Segunda sesión presencial</footer>
 <script type="module">
-import {gruposSesion2} from './content/grupos-sesion-2.js?v=20261021-liderazgo-sanitario';
+import {gruposSesion2} from './content/grupos-sesion-2.js?v=20261021-mapeo-alumnado';
 const host=document.getElementById('fichas'),select=document.getElementById('choose');
 function esc(x){return String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 for(const g of gruposSesion2){
 const el=document.createElement('article');el.className='ficha';el.id='grupo-'+g.num;
-el.innerHTML='<div class="ficha-header"><div><span class="kicker">Grupo '+g.num+' · '+esc(g.tipo)+'</span><h2>'+esc(g.titulo)+'</h2><p class="context">'+esc(g.subtitulo)+'</p></div><span class="badge">10:00–10:30</span></div>'
-+'<div class="sheet-qr"><canvas class="paper-qr" width="366" height="366" data-group="'+g.num+'" role="img" aria-label="QR para entregar la ficha del grupo '+g.num+'"></canvas><div><strong>Envía el trabajo a Firebase</strong><p>Escanea el QR al terminar y remite la ficha consensuada por tu grupo.</p><a href="ficha-sesion-2.html?grupo='+g.num+'">Abrir ficha del grupo '+g.num+' →</a></div></div>'
-+'<h3>Situación y encargo</h3><p>'+esc(g.situacion)+'</p>'
+el.innerHTML='<div class="ficha-header"><div><span class="kicker">Grupo '+g.num+'</span><h2>'+esc(g.titulo)+'</h2></div><span class="badge">10:00–10:30</span></div>'
++'<div class="sheet-qr"><canvas class="paper-qr" width="366" height="366" data-group="'+g.num+'" role="img" aria-label="QR para entregar la ficha del grupo '+g.num+'"></canvas><div><strong>Envía la ficha del grupo</strong><p>Escanead el QR, completad la ficha y pulsad «Enviar ficha a la organización».</p><a href="ficha-sesion-2.html?grupo='+g.num+'">Abrir ficha del grupo '+g.num+' →</a></div></div>'
++'<h3>Punto de partida</h3><p>'+esc(g.situacion)+'</p>'
 +'<h3>Preguntas que debéis abordar</h3><ol>'+g.preguntas.map(q=>'<li>'+esc(q)+'</li>').join('')+'</ol>'
 +'<p class="expected"><strong>Producto del trabajo:</strong> '+esc(g.producto)+'</p>'
-+'<p class="warning"><strong>Precaución:</strong> '+esc(g.limite)+'</p>'
+
 +'<div class="expose"><h3>Presentación en plenario · 10 minutos</h3><p>'+esc(g.plenario)+'</p><p><strong>Secuencia orientativa:</strong> 2 min para presentar el encargo, 5 min para explicar la propuesta, 2 min para conclusiones y 1 min para preguntas.</p></div>'
 +'<h3>Anotaciones para el grupo</h3><div class="writing-lines"><div></div><div></div><div></div></div>';
 host.append(el);
