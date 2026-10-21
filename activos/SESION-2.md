@@ -20,10 +20,10 @@ Se mantienen las franjas de `PLANIFICACIÓN SESIÓN 2.odt` facilitadas por la or
 2. **Registro en Localiza Salud:** comprobaciones, incidencias, criterios, validación y propuestas de mejora, sin usar la aplicación (solo la utiliza el docente en la demostración conjunta).
 3. **Difusión y recomendación:** circuitos sanitarios, intersectoriales y horizontales ciudadanos. Diraya se aborda solo cuando el procedimiento esté disponible.
 
-**Grupos 4 y 5: supuestos para diseñar una intervención:**
+**Grupos 4 y 5: supuestos para diseñar sesiones formativas impartidas desde el ámbito sanitario:**
 
 4. **Sesión clínica:** una unidad asistencial que ya ha mapeado sus activos quiere formar al resto de profesionales en su recomendación. El grupo diseña el encuentro, no registra ni recomienda pacientes reales.
-5. **Intervención comunitaria:** las asociaciones y la ciudadanía organizan una actuación para dar a conocer y recomendar activos entre iguales. **No son profesionales sanitarios quienes recomiendan**. No se plantea Diraya.
+5. **Sesión formativa para líderes asociativos:** profesionales del centro de salud, preferentemente enfermería comunitaria y la trabajadora social, diseñan e imparten una formación sobre **cómo recomendar activos para la salud**. Las personas dirigentes y dinamizadoras del tejido asociativo aprenden a recomendar activos desde sus propias redes ciudadanas, a facilitar su acceso y a fomentar una **cultura de recomendación horizontal**. A diferencia del grupo 4, no es una sesión clínica: es formación comunitaria impartida desde el centro de salud. No se plantea el uso de Diraya por las asociaciones.
 
 Cada grupo presenta el producto y lo defiende en el plenario, durante diez minutos.
 
