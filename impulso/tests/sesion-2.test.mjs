@@ -21,7 +21,8 @@ test('La portada presenta encuentros separados y ejecución del mapeo después',
   assert.ok(hub.includes(str),'Falta '+str);
  assert.equal((hub.match(/<article class="card /g)||[]).length,2);
  assert.ok(!hub.includes('id="actividad-app"'));
- assert.ok(rootPage.includes('Loja · Impulso y planificación del mapeo'));
+ assert.ok(rootPage.includes('Loja · Plan Local de Salud'));
+ assert.ok(rootPage.includes('Dos encuentros para priorizar líneas de salud y planificar el mapeo comunitario.'));
  assert.ok(rootPage.includes('href="./impulso/"'));
 });
 
