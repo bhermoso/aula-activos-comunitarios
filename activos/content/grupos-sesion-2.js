@@ -78,19 +78,20 @@ export const gruposSesion2 = [
     "id": "asociaciones",
     "num": 5,
     "tipo": "Supuesto de diseño",
-    "titulo": "Intervención comunitaria con tejido asociativo",
-    "subtitulo": "Recomendación entre iguales, desde la ciudadanía",
-    "situacion": "En una zona se ha realizado un mapeo participativo y existen iniciativas comunitarias cuya información ya ha sido contrastada. Varias asociaciones plantean organizar una actividad abierta para que los propios colectivos y vecinos conozcan los activos, compartan experiencias y se recomienden oportunidades de participación. La actividad no será una sesión clínica ni estará liderada por profesionales sanitarios.",
+    "titulo": "Sesión formativa para líderes del tejido asociativo",
+    "subtitulo": "Formar para recomendar activos entre iguales y extender la cultura de recomendación",
+    "situacion": "Una zona de referencia de un centro de salud ya ha realizado el mapeo participativo y ha contrastado la información básica de sus activos comunitarios. Como parte del trabajo comunitario, profesionales del centro de salud —preferentemente enfermería comunitaria y la trabajadora social— prepararán e impartirán una sesión formativa para personas que ejercen liderazgo en asociaciones y otros colectivos locales. No se pretende que estas personas aprendan a utilizar Diraya ni que hagan una recomendación clínica: el objetivo es que sepan cómo recomendar activos adecuados desde sus propias redes, facilitar el acceso y contribuir a una cultura de recomendación ciudadana y horizontal.",
     "preguntas": [
-      "¿Qué asociaciones, colectivos y personas convocaréis y cómo repartiréis el protagonismo?",
-      "¿Cómo diseñaréis una sesión participativa para dar a conocer los activos y reflexionar sobre su utilidad?",
-      "¿Qué dinámicas permitirán que las personas recomienden actividades o espacios a otras personas?",
-      "¿Qué canales usarán las asociaciones y redes ciudadanas para sostener la recomendación horizontal?",
-      "¿Qué medidas permitirán incluir a personas que no participan habitualmente y superar barreras de acceso?",
-      "¿Qué acuerdos o mecanismos de seguimiento podrían surgir de la propia comunidad?"
+      "¿Qué objetivos concretos tendrá la formación para líderes del tejido asociativo? ¿Qué deberán saber y poder hacer al finalizar?",
+      "¿A qué asociaciones y personas con capacidad de dinamización comunitaria convocaríais? ¿Cómo favoreceríais la participación de colectivos menos representados?",
+      "¿Cómo organizarían la sesión quienes la imparten desde el centro de salud —preferentemente enfermería comunitaria y trabajo social—: duración, contenidos, dinámica y materiales?",
+      "¿Cómo explicaríais qué es un activo para la salud, cómo conocer su utilidad y accesibilidad y cómo recomendarlo responsablemente, respetando la elección de cada persona?",
+      "¿Qué práctica o simulación permitiría entrenar el «cómo recomendar»: escuchar intereses, ofrecer opciones contrastadas, facilitar contacto o acompañamiento y no imponer propuestas?",
+      "¿Cómo favoreceríais que las asociaciones, después de la formación, recomendaran activos entre iguales y contagiaran esa cultura a otras redes ciudadanas?",
+      "¿Cómo comprobaríais si las personas participantes han aprendido a recomendar y qué seguimiento comunitario sería útil?"
     ],
-    "producto": "Diseño de una intervención comunitaria con título, participantes, dinámica, papel de las asociaciones, canales horizontales y seguimiento.",
-    "plenario": "Presentar la sesión comunitaria y demostrar cómo se produce la recomendación ciudadana, sin derivarla a una consulta sanitaria.",
-    "limite": "Quienes recomiendan son las propias personas, asociaciones y redes. No intervienen profesionales sanitarios como prescriptores ni se plantea el uso de Diraya."
+    "producto": "Programa de una sesión formativa impartida desde el centro de salud: objetivos, participantes, responsables docentes, contenidos, metodología práctica de recomendación, materiales y evaluación/seguimiento.",
+    "plenario": "Exponer en diez minutos cómo impartirían enfermería comunitaria y trabajo social una formación para líderes asociativos, mostrar un breve ejemplo de recomendación horizontal y explicar cómo extender la cultura de recomendación.",
+    "limite": "Los profesionales sanitarios y trabajo social imparten la formación; después son las personas y asociaciones quienes recomiendan activos en sus redes. No se trata de una sesión clínica, de prescripción sanitaria ni de utilizar Diraya por parte de asociaciones. No se repite el mapeo."
   }
 ];
