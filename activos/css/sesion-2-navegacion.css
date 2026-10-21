@@ -12,7 +12,7 @@
 .s2-nav .s2-link:hover,.s2-nav .s2-link:focus-visible{background:#2f6b54;color:#fff}
 .s2-nav .s2-link:focus-visible{outline:3px solid #ecc06c;outline-offset:2px}
 .s2-nav .s2-link[aria-current=page]{background:#d9eddb;border-color:#d9eddb;color:#184935}
-.s2-nav--light{padding:9px clamp(13px,3vw,42px);background:#ecf3e9;border-bottom:1px solid #c9dccc}
+.s2-nav--light{position:sticky;top:0;z-index:30;padding:9px clamp(13px,3vw,42px);background:#ecf3e9;border-bottom:1px solid #c9dccc}
 .s2-nav--light .s2-link,.s2-nav--light button.s2-link{background:#fff;color:#245c42;border-color:#b7d0be}
 .s2-nav--light .s2-link:hover,.s2-nav--light .s2-link:focus-visible{background:#e2f0e5;color:#194530}
 @media(max-width:680px){
