@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#173d35">
+<meta name="description" content="Espacio de trabajo de Zagra: priorización participativa, mapeo comunitario y registro provisional de activos para la salud.">
+<title>Zagra · Priorización, mapeo y activos · Aula de Salud Comunitaria</title>
+<style>
+:root{color-scheme:light;--deep:#173d35;--mid:#25694f;--sage:#e8f0e6;--surface:#fff;--muted:#466459;--line:#c9d9cd;--sand:#f7f0e3}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f2f5f1;color:#183a30;font:16px/1.55 system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+a{color:#14553d}button,input,select,textarea{font:inherit}button,a{touch-action:manipulation}
+.skip{position:absolute;top:-100px;left:5px;background:white;padding:9px}.skip:focus{top:5px;z-index:20}
+header{background:var(--deep);color:#fff}header .top{max-width:1170px;margin:auto;padding:13px 22px;display:flex;justify-content:space-between;gap:16px;align-items:center}
+header a{color:#fff;text-decoration:none;font-size:14px}header .brand{font-weight:750;letter-spacing:.025em}
+.hero{max-width:1170px;margin:auto;padding:48px 22px 43px;display:grid;grid-template-columns:1.7fr 1fr;align-items:center;gap:24px}
+.eyebrow{font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#c6e6cb}.hero h1{font:600 clamp(37px,5vw,62px)/1.06 Georgia,serif;margin:9px 0 18px;letter-spacing:-.02em}
+.hero p{max-width:710px;color:#e2eee8;margin:0 0 20px;font-size:17px}.hero .highlights{display:flex;gap:8px;flex-wrap:wrap}.hero .highlights span{border:1px solid #668f7d;border-radius:100px;padding:5px 10px;font-size:12px;font-weight:700}
+.hero aside{border:1px solid #658579;border-radius:16px;background:#ffffff10;padding:23px}.hero aside strong{display:block;font:600 23px Georgia,serif;margin-bottom:9px}.hero aside p{font-size:14px;line-height:1.55;margin:0}
+nav.steps{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line);z-index:10}nav.steps .inner{max-width:1170px;margin:auto;display:flex;gap:8px;overflow-x:auto;padding:8px 20px}nav.steps a{display:inline-block;white-space:nowrap;padding:10px 12px;border-radius:8px;text-decoration:none;font-size:13px;font-weight:750;color:var(--deep)}nav.steps a:hover,nav.steps a:focus-visible{background:var(--sage)}
+main{max-width:1170px;margin:auto;padding:23px 22px 60px}
+section{scroll-margin-top:82px;margin:17px 0 30px}.section-head{display:flex;align-items:baseline;gap:15px;border-bottom:2px solid var(--line);padding-bottom:12px;margin-bottom:18px}.num{color:var(--mid);font-size:12px;letter-spacing:.12em;font-weight:900}h2{font:600 clamp(26px,3.5vw,36px)/1.2 Georgia,serif;margin:0}h3{font:600 20px/1.27 Georgia,serif;margin:0 0 9px}p{margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.panel{padding:21px;border:1px solid var(--line);border-radius:14px;background:var(--surface)}.panel p:last-child{margin-bottom:0}
+.panel.soft{background:var(--sage)}.panel.sand{background:var(--sand)}.text-muted{color:var(--muted);font-size:14px}
+.stage{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;background:#e9e9f1;border-radius:100px;padding:4px 9px;color:#405}
+ul{padding-left:20px;margin:8px 0}li{margin:7px 0}
+.notice{padding:15px 17px;border-left:4px solid #628b69;background:#e9f1e9;color:#224936;border-radius:0 10px 10px 0;font-size:14px}
+.form-stack{display:grid;gap:14px}label{display:block;font-size:13px;font-weight:800;color:var(--deep);margin-bottom:5px}
+input,textarea,select{width:100%;padding:10px 11px;border:1px solid #9ebca9;border-radius:8px;background:#fff;color:#173d35}
+textarea{min-height:84px;resize:vertical}input:focus,textarea:focus,select:focus{outline:2px solid #438e61;outline-offset:1px}
+button,.action{display:inline-block;background:var(--mid);color:#fff;border:0;border-radius:8px;padding:11px 14px;font-size:14px;font-weight:800;text-decoration:none;cursor:pointer}
+button:hover,.action:hover{background:#164e3c;color:#fff}.action.alt{background:#eef3ed;color:var(--deep);border:1px solid #a4c3ac}.action.alt:hover{background:#d7e9d8;color:var(--deep)}
+.row-actions{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin:12px 0}.label-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.card-list{display:grid;gap:9px;margin:12px 0}.entry{border:1px solid var(--line);border-radius:9px;background:#fff;padding:12px 14px}.entry strong{display:block;font-size:15px}.entry small{color:var(--muted)}.entry button{font-size:12px;padding:5px 9px;margin-top:7px;background:#f1e6e3;color:#773e37;border:1px solid #dab8ae}
+.tools{display:flex;flex-wrap:wrap;gap:13px}.tool{display:block;flex:1;min-width:240px;background:#fff;border:1px solid #b9d2c3;border-radius:12px;padding:17px 18px;text-decoration:none}.tool span{display:block;font-size:12px;color:#4e695b}.tool strong{display:block;font-size:18px;color:var(--deep);margin:2px 0 7px}.tool:hover{border-color:#247048;background:#f8fff7}
+footer{border-top:1px solid var(--line);padding:21px;text-align:center;font-size:13px;color:var(--muted)}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:34px}.grid,.grid.three,.label-pair{grid-template-columns:1fr}.section-head{gap:10px}.hero aside{padding:16px}main{padding-left:14px;padding-right:14px}}
+@media print{nav.steps,button,.row-actions,.skip{display:none!important}.hero{background:#fff;color:#183a30}header{background:#fff;color:#183a30}.hero p,header a{color:#183a30}.panel{break-inside:avoid}section{break-before:page}}
+</style>
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<header>
+<div class="top"><a class="brand" href="../index.html">← AULA · SALUD COMUNITARIA</a><span>ZAGRA · PROCESO LOCAL</span></div>
+<div class="hero">
+<div><span class="eyebrow">Zagra · Espacio de trabajo comunitario</span><h1>Priorizar, mapear<br>y reconocer activos</h1><p>Un contenedor para deliberar sobre las prioridades locales de salud, organizar el mapeo participativo y mantener un inventario provisional de activos que aportan bienestar en Zagra.</p><div class="highlights"><span>01 Priorización</span><span>02 Mapeo</span><span>03 Registro de activos</span></div></div>
+<aside><strong>Decidir colectivamente antes de actuar</strong><p>Las líneas estratégicas, participantes, fechas y acuerdos concretos no se presuponen. Este espacio reúne los instrumentos para trabajar y documentar lo que el grupo acuerde.</p></aside>
+</div>
+</header>
+<nav class="steps" aria-label="Secciones de Zagra"><div class="inner"><a href="#priorizacion">01 · Priorización</a><a href="#mapeo">02 · Mapeo</a><a href="#registro">03 · Registro</a><a href="#herramientas">Herramientas</a><a href="../index.html">Aula principal</a></div></nav>
+<main id="contenido">
+<section id="priorizacion">
+<div class="section-head"><span class="num">01 / ACORDAR</span><h2>Priorización participativa</h2></div>
+<div class="notice"><strong>Situación de partida:</strong> no se consignan prioridades definitivas sin una deliberación y acuerdo documentados. Las propuestas de trabajo no equivalen a decisiones aprobadas.</div>
+<div class="grid" style="margin-top:16px">
+<div class="panel"><h3>¿Sobre qué deliberamos?</h3><p>Partimos de la información sobre la situación de salud, las preocupaciones expresadas por la comunidad y las capacidades ya existentes. Formulamos las posibles líneas de actuación <strong>en términos de salud y bienestar</strong>.</p><p class="text-muted">Criterios que se pueden discutir: relevancia comunitaria, desigualdades, posibilidades de colaboración, capacidad de acción local y evidencia disponible. El grupo determina cómo emplearlos.</p></div>
+<div class="panel soft"><h3>Acuerdos que conviene recoger</h3><ul><li>Problemas, necesidades y fortalezas considerados.</li><li>Líneas priorizadas y justificación del acuerdo.</li><li>Participantes y mecanismo de deliberación.</li><li>Cuestiones pendientes de contrastar.</li><li>Quién coordinará cada fase del mapeo.</li></ul></div>
+</div>
+<div class="panel" style="margin-top:15px"><h3>Cuaderno provisional de líneas propuestas</h3><p class="text-muted">Solo para preparar la sesión. Se guarda en este navegador; no se publica ni se presenta como acuerdo institucional.</p>
+<form id="priority-form" class="form-stack"><div class="label-pair"><div><label for="priority-name">Línea propuesta</label><input id="priority-name" maxlength="140" required placeholder="Escribir una propuesta, sin darla por aprobada"></div><div><label for="priority-state">Estado</label><select id="priority-state"><option>Propuesta pendiente de deliberación</option><option>En deliberación</option><option>Acuerdo documentado por el grupo</option></select></div></div><div><label for="priority-note">Fundamento, observaciones o acuerdo</label><textarea id="priority-note" maxlength="800" placeholder="Información disponible, argumentos, acta o aspectos por contrastar"></textarea></div><div><button type="submit">Añadir línea al cuaderno</button></div></form>
+<div id="priority-list" class="card-list" aria-live="polite"></div></div>
+</section>
+<section id="mapeo">
+<div class="section-head"><span class="num">02 / DESCUBRIR</span><h2>Mapeo comunitario de activos</h2></div>
+<p>Una vez delimitadas las líneas de trabajo, el mapeo identifica qué personas, redes, organizaciones, espacios, servicios y capacidades de la comunidad pueden contribuir a la salud y al bienestar. <strong>No se reduce a un listado de actividades ni de instalaciones.</strong></p>
+<div class="grid three">
+<div class="panel"><h3>Preparar</h3><ul><li>Para qué línea y población mapear.</li><li>Con quién realizar la búsqueda.</li><li>Qué fuentes y recorridos emplear.</li><li>Cómo recoger la voz comunitaria.</li></ul></div>
+<div class="panel"><h3>Identificar</h3><ul><li>Personas y capacidades.</li><li>Asociaciones, entidades y redes.</li><li>Espacios e infraestructuras.</li><li>Servicios, iniciativas y actividades.</li></ul></div>
+<div class="panel"><h3>Contrastar</h3><ul><li>Comprobar si el activo existe y sigue activo.</li><li>Identificar su aportación a la salud.</li><li>Reconocer accesibilidad y barreras.</li><li>Validar con sus responsables y la comunidad.</li></ul></div>
+</div>
+<div class="grid" style="margin-top:15px"><div class="panel sand"><h3>Del inventario al mapa</h3><p>El registro del siguiente apartado facilita una primera clasificación territorial. El <strong>mapa público de recursos y activos</strong> se consulta en Localiza Salud. La geolocalización y el alta oficial de cada recurso requieren su propio proceso de validación.</p><a class="action alt" href="https://localizasalud.sanidad.gob.es/" target="_blank" rel="noopener noreferrer">Consultar mapa · Localiza Salud ↗</a></div>
+<div class="panel"><h3>Trabajo por líneas acordadas</h3><p>Para cada línea, concretar qué se va a mapear, a quién se va a escuchar, cómo se recogerán los activos y quién contrastará los resultados. La ficha de registro de abajo permite documentar propuestas sin confundirlas con altas oficiales.</p></div></div>
+</section>
+<section id="registro">
+<div class="section-head"><span class="num">03 / DOCUMENTAR</span><h2>Registro provisional de activos</h2></div>
+<div class="notice"><strong>Inventario local de trabajo.</strong> Estos registros permanecen solo en este navegador, salvo que los exportes. No se envían a Firebase, COMPÁS ni Localiza Salud. Evita introducir datos personales o de contacto de terceros sin su autorización. No utilices un ordenador compartido para conservar el inventario sin exportarlo y borrarlo después.</div>
+<div class="grid" style="margin-top:15px">
+<div class="panel"><h3>Ficha de identificación</h3><form id="asset-form" class="form-stack">
+<div><label for="asset-name">Nombre del activo</label><input id="asset-name" required maxlength="180" placeholder="Denominación conocida en la comunidad"></div>
+<div class="label-pair"><div><label for="asset-kind">Tipo de activo</label><select id="asset-kind" required><option value="">Seleccionar</option><option>Personas y capacidades comunitarias</option><option>Asociación u organización</option><option>Red o grupo comunitario</option><option>Servicio o institución</option><option>Espacio físico o infraestructura</option><option>Actividad o iniciativa</option><option>Otros activos</option></select></div><div><label for="asset-place">Lugar o zona en Zagra</label><input id="asset-place" maxlength="120" placeholder="Barrio, zona, ámbito o referencia"></div></div>
+<div><label for="asset-health">¿Cómo contribuye a la salud o al bienestar?</label><textarea id="asset-health" maxlength="700" required placeholder="Describir su capacidad y el beneficio comunitario"></textarea></div>
+<div><label for="asset-line">Línea prioritaria relacionada (si existe)</label><input id="asset-line" maxlength="140" placeholder="Puede quedar sin asignar"></div>
+<div class="label-pair"><div><label for="asset-access">Accesibilidad y condiciones de uso</label><input id="asset-access" maxlength="180" placeholder="A quién llega, posibles barreras"></div><div><label for="asset-status">Comprobación</label><select id="asset-status"><option>Propuesta pendiente de verificar</option><option>Contrastado con la comunidad</option><option>Confirmado por responsable autorizado</option></select></div></div>
+<div><button type="submit">Añadir al inventario local</button></div>
+</form></div>
+<div class="panel soft"><h3>Inventario de la sesión</h3><p id="asset-count" class="text-muted" aria-live="polite">Sin registros en este navegador.</p><div class="row-actions"><button id="export-assets" type="button">Exportar CSV</button><button id="clear-assets" type="button" class="action alt">Vaciar inventario</button></div><div id="asset-list" class="card-list" aria-live="polite"></div><p class="text-muted">El CSV permite revisar los registros fuera del Aula. No equivale a un registro validado en Localiza Salud.</p></div>
+</div>
+</section>
+<section id="herramientas">
+<div class="section-head"><span class="num">04 / CONECTAR</span><h2>Herramientas del proceso</h2></div>
+<div class="tools">
+<a class="tool" href="https://bhermoso.github.io/compas-ng-renovado/?fase=priorizacion" target="_blank" rel="noopener noreferrer"><span>COMPÁS-NG-MEJORADO · Fase 03</span><strong>Priorización ↗</strong><span>Acceso al expediente y la fase de deliberación de prioridades. No transfiere el cuaderno local de Zagra.</span></a>
+<a class="tool" href="https://bhermoso.github.io/compas-ng-renovado/?fase=repositorio" target="_blank" rel="noopener noreferrer"><span>COMPÁS-NG-MEJORADO · Fase 01</span><strong>Diagnóstico y activos ↗</strong><span>Documentación territorial y activos dentro del diagnóstico; no se crea automáticamente un expediente de Zagra.</span></a>
+<a class="tool" href="https://localizasalud.sanidad.gob.es/" target="_blank" rel="noopener noreferrer"><span>Ministerio de Sanidad</span><strong>Localiza Salud · Mapa ↗</strong><span>Consultar recursos, activos y actividades comunitarias.</span></a>
+<a class="tool" href="https://localizasalud.sanidad.gob.es/adminrecursos/main/" target="_blank" rel="noopener noreferrer"><span>Ministerio de Sanidad</span><strong>Alta o gestión de activos ↗</strong><span>Registro oficial, según sus requisitos y autorizaciones; el Aula no envía fichas automáticamente.</span></a>
+</div>
+</section>
+</main>
+<footer>Aula de salud comunitaria basada en activos · Zagra · Instrumentos de trabajo, no acuerdos institucionales preestablecidos. <a href="../index.html">Volver al Aula</a></footer>
+<script>
+(function(){
+'use strict';
+const keyP='aula-zagra-prioridades-v1',keyA='aula-zagra-activos-v1';
+const $=id=>document.getElementById(id);
+const load=key=>{try{const a=JSON.parse(localStorage.getItem(key)||'[]');return Array.isArray(a)?a:[]}catch(e){return []}};
+const save=(key,a)=>{try{localStorage.setItem(key,JSON.stringify(a));return true}catch(e){alert('El navegador no permite guardar aquí. Exporta los datos antes de salir.');return false}};
+const elt=(tag,cls,txt)=>{const node=document.createElement(tag);if(cls)node.className=cls;if(txt!=null)node.textContent=txt;return node};
+let priorities=load(keyP),assets=load(keyA);
+function renderPriorities(){
+ const target=$('priority-list');target.replaceChildren();
+ if(!priorities.length){target.append(elt('p','text-muted','Todavía no hay propuestas recogidas.'));return}
+ priorities.forEach((a,i)=>{const card=elt('div','entry');card.append(elt('strong','',a.name));card.append(elt('small','',a.state));
+ if(a.note)card.append(elt('p','text-muted',a.note));const b=elt('button','','Retirar propuesta');b.type='button';b.addEventListener('click',()=>{if(confirm('¿Retirar esta propuesta del cuaderno local?')){priorities.splice(i,1);save(keyP,priorities);renderPriorities()}});card.append(b);target.append(card)})
+}
+$('priority-form').addEventListener('submit',e=>{e.preventDefault();priorities.push({name:$('priority-name').value.trim(),state:$('priority-state').value,note:$('priority-note').value.trim()});if(save(keyP,priorities)){$('priority-form').reset();renderPriorities()}});
+function renderAssets(){
+ $('asset-count').textContent=assets.length?assets.length+' activo(s) en este navegador.':'Sin registros en este navegador.';
+ const target=$('asset-list');target.replaceChildren();if(!assets.length){target.append(elt('p','text-muted','Aún no se han incorporado activos.'));return}
+ assets.forEach((a,i)=>{const card=elt('div','entry');card.append(elt('strong','',a.name));card.append(elt('small','',a.kind+(a.place?' · '+a.place:'')));card.append(elt('p','',a.health));if(a.line)card.append(elt('p','text-muted','Línea: '+a.line));card.append(elt('small','',a.status));const b=elt('button','','Retirar');b.type='button';b.addEventListener('click',()=>{if(confirm('¿Retirar este activo del inventario local?')){assets.splice(i,1);save(keyA,assets);renderAssets()}});card.append(b);target.append(card)})
+}
+$('asset-form').addEventListener('submit',e=>{e.preventDefault();assets.push({name:$('asset-name').value.trim(),kind:$('asset-kind').value,place:$('asset-place').value.trim(),health:$('asset-health').value.trim(),line:$('asset-line').value.trim(),access:$('asset-access').value.trim(),status:$('asset-status').value});if(save(keyA,assets)){$('asset-form').reset();renderAssets()}});
+$('clear-assets').addEventListener('click',()=>{if(assets.length&&confirm('¿Vaciar todos los activos guardados en este navegador? Esta acción no se puede deshacer.')){assets=[];save(keyA,assets);renderAssets()}});
+$('export-assets').addEventListener('click',()=>{
+ if(!assets.length){alert('No hay activos para exportar.');return}
+ const columns=[['name','Nombre'],['kind','Tipo'],['place','Zona'],['health','Contribución a salud'],['line','Línea'],['access','Accesibilidad'],['status','Verificación']];
+ const safe=value=>{let v=String(value==null?'':value);if(/^[\s]*[=+\-@]/.test(v))v="'"+v;return '"'+v.replace(/"/g,'""')+'"'};
+ const csv='\uFEFF'+columns.map(c=>safe(c[1])).join(',')+'\r\n'+assets.map(a=>columns.map(c=>safe(a[c[0]])).join(',')).join('\r\n');
+ const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='zagra-activos-inventario-provisional.csv';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+});
+renderPriorities();renderAssets();
+})();
+</script>
+</body></html>
