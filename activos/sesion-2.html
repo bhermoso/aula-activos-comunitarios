@@ -162,13 +162,13 @@ footer{flex:none;padding:5px 13px 9px;text-align:center;color:#677f70;font-size:
 <p><strong>Diraya:</strong> se puede abordar la recomendación sanitaria cuando esté disponible y con arreglo a los procedimientos habilitados. No equivale a la recomendación horizontal de asociaciones y ciudadanía.</p></div></details>
 </section>
 <section class="page" id="ficha">
-<h2>Ficha de grupo · Acceso con QR y envío a Firebase</h2>
+<h2>Ficha de grupo · Acceso con QR</h2>
 <p class="lead">Proyecta el QR. Cada grupo abre la ficha desde su móvil, selecciona su número, completa las respuestas y el guion del plenario y envía una aportación consensuada.</p>
 <div class="qr-area"><div class="qr-frame"><canvas id="qr-ficha" width="456" height="456" role="img" aria-label="Código QR para abrir la ficha de trabajo de la segunda sesión">Código QR de la ficha de grupo</canvas></div>
 <div class="qr-instructions"><h3>Una ficha por grupo</h3>
 <ol><li>Escanear el QR o abrir el enlace.</li><li>Seleccionar del grupo 1 al 5.</li><li>Preparar las respuestas y la exposición de diez minutos.</li><li>Pulsar «Enviar ficha a la organización» y comprobar la confirmación.</li></ol>
 <p><a class="action" href="ficha-sesion-2.html" target="_blank" rel="noopener noreferrer">Abrir la ficha desde este dispositivo →</a></p>
-<p class="note"><strong>Destino:</strong> entregas de la segunda sesión del curso en Firebase, separadas de Fuente Vaqueros. El alumnado no puede consultar las fichas de otros grupos.</p>
+<p class="note">Cuando terminéis, enviad la ficha consensuada del grupo y comprobad que aparece el mensaje de recepción.</p>
 <p><a href="fichas-sesion-2.html">Fichas imprimibles de los cinco grupos →</a></p></div></div>
 </section>
 <section class="page" id="plenario">
@@ -191,16 +191,16 @@ footer{flex:none;padding:5px 13px 9px;text-align:center;color:#677f70;font-size:
 <div class="bottom"><button type="button" id="previous">← Anterior</button><span id="page-count" aria-live="polite">1 de 5</span><button type="button" id="following">Siguiente →</button></div>
 </main><footer>Curso Salud Comunitaria Basada en Activos · Segunda sesión presencial · 26 octubre 2026</footer>
 <script type="module">
-import {gruposSesion2} from './content/grupos-sesion-2.js?v=20261021-liderazgo-sanitario';
+import {gruposSesion2} from './content/grupos-sesion-2.js?v=20261021-mapeo-alumnado';
 const ids=['programa','grupos','guion','ficha','plenario'];let current='programa',selected=0;
 const previousViews=[];
 const $=id=>document.getElementById(id);
 function show(id,{remember=true}={}){if(!ids.includes(id))id='programa';if(remember&&id!==current)previousViews.push(current);current=id;document.querySelectorAll('.page').forEach(e=>e.classList.toggle('active',e.id===id));document.querySelectorAll('.tab').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.page===id)));const i=ids.indexOf(id);$('previous').disabled=i===0;$('following').disabled=i===ids.length-1;$('page-count').textContent=(i+1)+' de '+ids.length;$(id).scrollTop=0;history.replaceState(null,'','#'+id)}
 function escapeHTML(v){return String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function renderGroup(i){selected=i;let g=gruposSesion2[i];document.querySelectorAll('.group-button').forEach((b,j)=>b.setAttribute('aria-pressed',String(j===i)));$('group-display').innerHTML=
-'<span class="type">'+escapeHTML(g.tipo)+' · Grupo '+g.num+'</span><h3>'+escapeHTML(g.titulo)+'</h3><p class="sub">'+escapeHTML(g.subtitulo)+'</p><p>'+escapeHTML(g.situacion)+'</p><h4>Cuestiones que debe resolver</h4><ul>'+g.preguntas.map(x=>'<li>'+escapeHTML(x)+'</li>').join('')+'</ul><p class="result"><strong>Producto esperado:</strong> '+escapeHTML(g.producto)+'</p><p><strong>Presentación en plenario (10 minutos):</strong> '+escapeHTML(g.plenario)+'</p><p class="limit"><strong>Importante:</strong> '+escapeHTML(g.limite)+'</p><p><a class="action" href="ficha-sesion-2.html?grupo='+g.num+'" target="_blank" rel="noopener noreferrer">Abrir ficha del grupo '+g.num+' →</a></p>';
+'<span class="type">Grupo '+g.num+'</span><h3>'+escapeHTML(g.titulo)+'</h3><h4>Punto de partida</h4><p>'+escapeHTML(g.situacion)+'</p><h4>Cuestiones que debe resolver</h4><ul>'+g.preguntas.map(x=>'<li>'+escapeHTML(x)+'</li>').join('')+'</ul><p class="result"><strong>Producto esperado:</strong> '+escapeHTML(g.producto)+'</p><p><strong>Presentación en plenario (10 minutos):</strong> '+escapeHTML(g.plenario)+'</p><p><a class="action" href="ficha-sesion-2.html?grupo='+g.num+'" target="_blank" rel="noopener noreferrer">Abrir ficha del grupo '+g.num+' →</a></p>';
 }
-$('group-buttons').innerHTML=gruposSesion2.map(g=>'<button type="button" class="group-button" data-group="'+(g.num-1)+'" aria-pressed="false"><small>Grupo '+g.num+' · '+escapeHTML(g.tipo)+'</small><strong>'+escapeHTML(g.titulo)+'</strong></button>').join('');
+$('group-buttons').innerHTML=gruposSesion2.map(g=>'<button type="button" class="group-button" data-group="'+(g.num-1)+'" aria-pressed="false"><small>Grupo '+g.num+'</small><strong>'+escapeHTML(g.titulo)+'</strong></button>').join('');
 document.querySelectorAll('.group-button').forEach(b=>b.addEventListener('click',()=>renderGroup(Number(b.dataset.group))));
 renderGroup(0);
 document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>show(b.dataset.page)));
