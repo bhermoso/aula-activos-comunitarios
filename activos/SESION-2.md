@@ -29,13 +29,15 @@ Cada grupo presenta el producto y lo defiende en el plenario, durante diez minut
 
 ## Materiales web
 
-- `sesion-2.html`: cinco pantallas navegables, programa, encargos, guion, ficha editable descargable y plenario.
-- `fichas-sesion-2.html`: cinco fichas imprimibles, individuales o juntas.
-- `content/grupos-sesion-2.js`: única definición estructurada de los cinco encargos; ambas páginas la comparten.
+- `sesion-2.html`: cinco pantallas navegables, programa, encargos, guion, QR compartido para la ficha online y plenario.
+- `ficha-sesion-2.html`: ficha móvil de cada grupo (selección de grupo o enlace con `?grupo=1` a `?grupo=5`). Los envíos confirmados se guardan en Firestore; muestra un código de recepción y permite descargar una copia de seguridad.
+- `fichas-sesion-2.html`: cinco fichas imprimibles, individuales o juntas, cada una con su QR que preselecciona el grupo.
+- `content/grupos-sesion-2.js`: única definición estructurada de los cinco encargos; la ficha online y las fichas impresas la comparten.
+- `firebase-config.js`, `firestore.sesion-2.rules.example` y `FIREBASE-SESION-2.md`: configuración pública, regla aditiva de seguridad e instrucciones de activación.
 
 ## Relación con sesión 1
 
-No se modifican sus páginas ni su itinerario. La nueva sesión se enlaza desde la portada del curso, la barra de navegación y el directorio de contenidos. La ficha editable de la segunda sesión se descarga a un archivo de texto, sin envío de datos.
+No se modifican sus páginas ni su itinerario. La nueva sesión se enlaza desde la portada del curso, la barra de navegación y el directorio de contenidos. La ficha móvil de la segunda sesión envía los datos a una colección propia en Firebase Firestore. El formulario permite además descargar una copia local como respaldo. Para que los envíos funcionen hay que publicar previamente la regla Firestore aditiva y comprobarlos en el proyecto `aula-salud-comunitaria`.
 
 **Advertencias metodológicas:** identificación, registro, validación, difusión y recomendación son pasos distintos. No presumir que todo registro equivale a activo validado, ni que todo activo aparece en Diraya. Evitar datos personales en los ejemplos y materiales.
 
