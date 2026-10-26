@@ -1,6 +1,6 @@
 # Zagra — Estado y continuidad
 
-Actualizado: 21 de octubre de 2026.
+Actualizado: 26 de octubre de 2026.
 
 ## Propósito
 Espacio territorial de Zagra en el Aula de salud comunitaria basada en activos.
@@ -8,6 +8,7 @@ Espacio territorial de Zagra en el Aula de salud comunitaria basada en activos.
 Flujo: **priorización participativa → planificación y realización del mapeo de activos → registro provisional → contraste y, cuando proceda, alta oficial en Localiza Salud.**
 
 ## Estado comprobable del Aula
+- `zagra/presentacion-perfil.html` (26/10/2026): presentación de 15 diapositivas para la sesión del 28/10/2026. Síntesis para todos los públicos del Perfil de Salud Local de Zagra (borrador de 26/10/2026, sin validar). Reproduce los datos epidemiológicos del Informe de Salud de Zagra (2017) tal como constan en él, recuerda la priorización temática de mayo de 2026 (158 papeletas completas) y plantea, como propuesta para el Grupo Motor y no como acuerdo, una línea de envejecimiento saludable que reúna alimentación, actividad física, bienestar emocional y soledad no deseada, con enlace a la fase Plan de Acción de COMPÁS (`?fase=plan`). Navegación con teclado, pantalla completa e impresión a PDF (una diapositiva por página).
 - `zagra/index.html`: cuaderno de líneas propuestas y registro provisional de activos.
 - El registro permite clasificar personas/capacidades, organizaciones, redes, servicios, espacios, actividades y otros activos.
 - El registro y las propuestas se almacenan exclusivamente en el navegador con las claves `aula-zagra-activos-v1` y `aula-zagra-prioridades-v1`.
@@ -35,4 +36,4 @@ Flujo: **priorización participativa → planificación y realización del mapeo
 ## Precauciones
 - El navegador almacena datos provisionalmente; limpiar caché, usar sesión privada u otro equipo puede hacerlos inaccesibles. Exportar CSV y evitar conservar datos en equipos ajenos.
 - La confirmación de un activo no equivale a alta oficial.
-- No asumir que COMPÁS ya contiene un expediente de Zagra.
+- COMPÁS contiene un expediente de Zagra (13 documentos a 26/10/2026); el Aula no lo modifica ni lee.

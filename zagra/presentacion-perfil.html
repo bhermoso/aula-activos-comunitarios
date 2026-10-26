@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#173d35">
+<meta name="description" content="Síntesis del Perfil de Salud Local de Zagra para todos los públicos: situación de salud, voz de la comunidad, activos y paso al Plan de Acción.">
+<title>Zagra · Síntesis del Perfil de Salud Local · Presentación</title>
+<style>
+:root{--deep:#173d35;--mid:#25694f;--sage:#e8f0e6;--sand:#f7f0e3;--line:#c9d9cd;--ink:#183a30;--muted:#466459;--accent:#b7791f}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#0f1c18;color:var(--ink);font:16px/1.4 system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+#deck{display:flex;flex-direction:column;height:100dvh}
+.bar{flex:none;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:8px 16px;background:#173d35;color:#fff}
+.bar a{color:#d6ecdc;text-decoration:none;font-size:13px}.bar .brand{font-weight:800;font-size:13px;letter-spacing:.05em}
+.stage{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;overflow:hidden;padding:8px}
+.frame{width:1600px;height:900px;transform-origin:center center;flex:none}
+.slide{display:none;width:1600px;height:900px;background:#fbfaf6;border-radius:6px;padding:64px 86px 90px;position:relative;overflow:hidden;flex-direction:column;gap:22px}
+.slide.on{display:flex}
+.slide .meta{font:800 15px system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--mid)}
+.slide h1{font:600 76px/1.04 Georgia,serif;margin:0;color:var(--deep);letter-spacing:-.01em}
+.slide h2{font:600 52px/1.1 Georgia,serif;margin:0;color:var(--deep);text-wrap:balance}
+.lead{font-size:28px;line-height:1.38;color:#2f5146;margin:0;max-width:1350px}
+.src{position:absolute;left:86px;right:86px;bottom:24px;font-size:15px;color:#5c756c;border-top:1px solid var(--line);padding-top:8px}
+.grid{display:grid;gap:20px;flex:none;align-content:start}
+.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px 26px}
+.card h3{font:600 30px/1.2 Georgia,serif;margin:0 0 8px;color:var(--deep)}
+.card p{font-size:23px;line-height:1.4;margin:0;color:#35564b}
+.card.soft{background:var(--sage)}.card.sand{background:var(--sand)}
+.big{font:700 72px/1 Georgia,serif;color:var(--mid);display:block;margin-bottom:6px}
+.big small{font-size:32px}
+table{border-collapse:collapse;width:100%;font-size:25px;background:#fff;border-radius:14px;overflow:hidden}
+th,td{padding:13px 20px;border-bottom:1px solid var(--line);text-align:left}
+th{background:var(--deep);color:#fff;font-weight:700;font-size:21px;letter-spacing:.02em}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f5146}ul.clean li{margin:6px 0}
+.cover{background:linear-gradient(135deg,#173d35 0%,#25694f 100%);color:#fff;justify-content:center}
+.cover h1{color:#fff;font-size:88px}.cover .lead{color:#dcefe2;font-size:32px}.cover .meta{color:#bfe3c9}
+.cover .src{color:#bfd9c7;border-color:#3f7a62}
+.timeline{display:grid;grid-template-columns:repeat(7,1fr);gap:12px;flex:1;align-content:center}
+.tl{border-top:6px solid var(--mid);padding-top:14px}.tl b{font:700 32px Georgia,serif;color:var(--deep);display:block}.tl span{font-size:24px;color:#35564b;line-height:1.35;display:block;margin-top:6px}
+.tl.now{border-color:var(--accent)}
+.bars{display:flex;flex-direction:column;gap:10px}
+.brow{display:grid;grid-template-columns:420px 1fr 100px;align-items:center;gap:16px;font-size:23px}
+.brow .track{height:30px;background:#e4ece5;border-radius:6px;overflow:hidden}.brow .fill{height:100%;background:var(--mid)}
+.brow.top .fill{background:var(--deep)}.brow .pct{font-weight:800;text-align:right;font-variant-numeric:tabular-nums}
+.umbrella{display:grid;grid-template-columns:1fr;gap:18px;flex:none}
+.umb-head{background:var(--deep);color:#fff;border-radius:18px;padding:22px 30px;font:600 40px Georgia,serif;text-align:center}
+.umb-head small{display:block;font:400 22px system-ui;color:#cfe8d6;margin-top:6px}
+.pill{display:inline-block;font:800 14px system-ui;letter-spacing:.08em;text-transform:uppercase;border-radius:100px;padding:5px 12px;background:#e9efe8;color:var(--mid);margin-bottom:10px}
+.pill.alt{background:#f6e7cf;color:#8a5a12}
+.chain{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;align-items:stretch;flex:none}
+.chain div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px;position:relative;font-size:22px;color:#35564b}
+.chain div b{display:block;font:600 30px Georgia,serif;color:var(--deep);margin-bottom:8px}
+.chain div:not(:last-child)::after{content:"→";position:absolute;right:-25px;top:50%;transform:translateY(-50%);font:700 36px system-ui;color:var(--mid);z-index:2}
+.chain .here{background:var(--sage);border-color:var(--mid)}
+.cta{display:inline-block;background:var(--mid);color:#fff;text-decoration:none;font-weight:800;font-size:24px;border-radius:12px;padding:16px 26px}
+.foot{flex:none;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:7px 14px;background:#173d35;color:#fff}
+.foot button{appearance:none;border:1px solid #79a38b;background:#25694f;color:#fff;border-radius:8px;padding:8px 13px;font-weight:750;font-size:13px;cursor:pointer}
+.foot button:disabled{opacity:.35;cursor:default}.foot button:focus-visible{outline:3px solid #edb957}
+#counter{min-width:90px;text-align:center;font-weight:750;font-size:14px}.hint{font-size:12px;color:#bfd4c5}
+#deck:fullscreen .bar{display:none}
+@media(max-width:650px){.hint,.bar .sub{display:none}}
+@media print{
+ @page{size:1600px 900px;margin:0}
+ html,body{background:#fff;height:auto}.bar,.foot{display:none}#deck{display:block;height:auto}
+ .stage{display:block;padding:0;overflow:visible}.frame{transform:none!important;width:auto;height:auto}
+ .slide{display:flex!important;break-after:page;border-radius:0}
+}
+</style>
+</head>
+<body>
+<div id="deck">
+<div class="bar"><span class="brand">ZAGRA · PERFIL DE SALUD LOCAL · SÍNTESIS</span><a href="index.html">← Volver al espacio de Zagra</a></div>
+<div class="stage" id="stage"><div class="frame" id="frame">
+
+<section class="slide cover">
+<span class="meta">Zagra · 28 de octubre de 2026</span>
+<h1>Lo que sabemos<br>de la salud de Zagra</h1>
+<p class="lead">Síntesis del Perfil de Salud Local para vecinas, vecinos, profesionales y responsables municipales. Del diagnóstico a las decisiones del Plan de Acción.</p>
+<p class="src">Perfil de Salud Local de Zagra · borrador de trabajo pendiente de validación por el equipo técnico y el Grupo Motor</p>
+</section>
+
+<section class="slide">
+<span class="meta">01 · De dónde venimos</span>
+<h2>Zagra ya ha recorrido parte del camino</h2>
+<div class="timeline">
+<div class="tl"><b>2016</b><span>El Ayuntamiento pide entrar en la Red Local de Acción en Salud (RELAS)</span></div>
+<div class="tl"><b>Feb. 2017</b><span>Acuerdo de colaboración con la Consejería de Salud</span></div>
+<div class="tl"><b>Mar. 2017</b><span>Taller de impulso y presentación del Informe de Salud de Zagra</span></div>
+<div class="tl"><b>Abr. 2017</b><span>El Grupo Motor identifica y ordena 18 problemas de salud</span></div>
+<div class="tl"><b>2018</b><span>Primer Perfil de Salud Local de Zagra</span></div>
+<div class="tl"><b>2020</b><span>El Ayuntamiento reitera su compromiso con el proyecto</span></div>
+<div class="tl now"><b>2026</b><span>Priorización temática ciudadana y nuevo Perfil de Salud Local</span></div>
+</div>
+<p class="src">Fuentes: solicitud de adhesión (20-10-2016); acuerdo de colaboración (15-02-2017); programa del taller (30-03-2017); problemas priorizados (27-04-2017); Perfil de Salud Local (enero de 2018); escrito del Ayuntamiento (31-01-2020); priorización temática (mayo de 2026).</p>
+</section>
+
+<section class="slide">
+<span class="meta">02 · Zagra hoy</span>
+<h2>Un pueblo pequeño, que envejece y que cambia</h2>
+<div class="grid g4">
+<div class="card"><span class="big">843</span><p>habitantes en 2025. En 2024 hubo 3 nacimientos y 16 defunciones.</p></div>
+<div class="card"><span class="big">23,5<small> %</small></span><p>de la población tiene 65 años o más.</p></div>
+<div class="card"><span class="big">1 de 3</span><p>hogares es de una sola persona (33,4 %).</p></div>
+<div class="card"><span class="big">113</span><p>vecinas y vecinos de nacionalidad extranjera, el 77,0 % de Marruecos. En 2016 eran 13.</p></div>
+</div>
+<div class="grid g2">
+<div class="card soft"><h3>Renta</h3><p>10.656 euros netos por persona, frente a 13.509 en la provincia. El 37,0 % de la población vive por debajo del umbral del 60 % de la mediana (provincia: 27,8 %).</p></div>
+<div class="card soft"><h3>Trabajo</h3><p>Una economía agrícola, con el olivar de secano como base. 34 personas en paro registrado en 2025; de 576 contratos, 370 fueron temporales.</p></div>
+</div>
+<p class="src">Fuentes: IECA, SIMA, ficha municipal de Zagra (actualizada el 09-10-2026); INE, Atlas de Distribución de Renta de los Hogares 2024 (tablas 31025, 31030, 31033 y 53694); Informe de Salud de Zagra (2017), p. 17.</p>
+</section>
+
+<section class="slide">
+<span class="meta">03 · Informe de Salud de Zagra</span>
+<h2>Enfermedades crónicas registradas en el consultorio</h2>
+<p class="lead">Zagra registraba más diabetes, hipertensión, EPOC y demencia que el conjunto del Distrito Granada Metropolitano.</p>
+<table>
+<thead><tr><th>Enfermedad o factor de riesgo</th><th class="n">Zagra</th><th class="n">Distrito</th></tr></thead>
+<tbody>
+<tr><td>Hipertensión arterial</td><td class="n">27,56 %</td><td class="n">12,32 %</td></tr>
+<tr><td>Diabetes</td><td class="n">10,36 %</td><td class="n">7,01 %</td></tr>
+<tr><td>EPOC</td><td class="n">4,39 %</td><td class="n">3,99 %</td></tr>
+<tr><td>Demencia</td><td class="n">4,39 %</td><td class="n">3,7 %</td></tr>
+<tr><td>Insuficiencia cardíaca</td><td class="n">0,44 %</td><td class="n">4,84 %</td></tr>
+<tr><td>Pacientes en anticoagulación</td><td class="n">44,8 %</td><td class="n">23,3 %</td></tr>
+</tbody></table>
+<p class="src">Fuente: Informe de Salud de Zagra (2017), p. 34. Datos de 2015.</p>
+</section>
+
+<section class="slide">
+<span class="meta">04 · Informe de Salud de Zagra</span>
+<h2>Mortalidad: dónde estaba el exceso de riesgo</h2>
+<div class="grid g2">
+<div class="card"><h3>En 2015</h3><p>Fallecieron 17 personas, 9 hombres y 8 mujeres: una tasa bruta de mortalidad de 18,9 por mil (Andalucía: 8,58).</p><p style="margin-top:14px">La mortalidad general estaba aumentada frente a España en hombres de 65 a 84 años y en mujeres de 75 a 84.</p></div>
+<div class="card soft"><h3>Exceso de riesgo frente a España</h3><ul class="clean"><li>Suicidio: hombres mayores de 15 años y mujeres de 15 a 45</li><li>Accidentes de tráfico: hombres de 45 a 64</li><li>Cáncer de hígado y de pulmón</li><li>Enfermedad cerebrovascular, cardiopatía isquémica y EPOC</li></ul></div>
+</div>
+<div class="card sand"><p>Los años potenciales de vida perdidos se debían sobre todo al <b>suicidio</b> y a los <b>accidentes de tráfico</b> en los hombres, y a la <b>diabetes</b> en las mujeres.</p></div>
+<p class="src">Fuente: Informe de Salud de Zagra (2017), pp. 30 y 32.</p>
+</section>
+
+<section class="slide">
+<span class="meta">05 · Informe de Salud de Zagra</span>
+<h2>Lo que el informe señalaba como favorable</h2>
+<div class="grid g3">
+<div class="card"><span class="big">277,1</span><h3>Cáncer</h3><p>casos por 100.000 habitantes en 2008-2012, muy por debajo de la provincia (459,3). Solo el cáncer de cerebro y sistema nervioso era superior.</p></div>
+<div class="card"><span class="big">1</span><h3>Infecciones</h3><p>único caso de infección de transmisión sexual declarado en 2012-2016. Ningún caso de tuberculosis ni brotes.</p></div>
+<div class="card"><span class="big">&gt;95<small> %</small></span><h3>Vacunación</h3><p>de cobertura en recién nacidos, que ha protegido a la población frente a los brotes de los últimos años.</p></div>
+</div>
+<p class="src">Fuente: Informe de Salud de Zagra (2017), p. 33.</p>
+</section>
+
+<section class="slide">
+<span class="meta">06 · La voz de la comunidad</span>
+<h2>Lo que preocupa a Zagra: 2017 y 2026</h2>
+<div class="grid g2">
+<div class="card"><span class="pill">2017 · Taller del Grupo Motor</span><ul class="clean"><li><b>1.</b> Sedentarismo</li><li><b>2.</b> Desmotivación y falta de participación</li><li><b>3.</b> Soledad de la población mayor</li><li><b>4.</b> Salud mental y emocional</li><li><b>5.</b> Sobrecarga de las cuidadoras</li></ul><p style="margin-top:10px;font-size:19px;color:#5c756c">18 problemas identificados; también obesidad (6.º) y mala alimentación (7.º).</p></div>
+<div class="card soft"><span class="pill">2026 · Priorización temática</span><div class="bars" id="bars"></div><p style="margin-top:10px;font-size:19px;color:#5c756c">158 papeletas completas, del 14 al 24 de mayo.</p></div>
+</div>
+<p class="src">Fuentes: problemas priorizados del taller de 27-04-2017; priorización temática ciudadana de Zagra (REDCap), mayo de 2026, porcentaje de papeletas que eligieron cada tema.</p>
+</section>
+
+<section class="slide">
+<span class="meta">07 · Con qué cuenta Zagra</span>
+<h2>Recursos que ya sostienen la salud</h2>
+<div class="grid g3">
+<div class="card"><span class="pill">Localiza Salud</span><h3>Asociación de Mujeres ZAHRA</h3><p>Envejecimiento activo, yoga y deporte, charlas de salud, excursiones y una red de apoyo contra la soledad.</p></div>
+<div class="card"><span class="pill">Localiza Salud</span><h3>Complejo deportivo municipal</h3><p>Piscina, gimnasio, yoga, baile, pádel y talleres de socialización contra la soledad no deseada.</p></div>
+<div class="card"><span class="pill">Localiza Salud</span><h3>Punto Vuela</h3><p>Formación y acceso digital para toda la población.</p></div>
+</div>
+<div class="card sand"><p><b>Y más por reconocer:</b> en 2016 se recogían la casa de la cultura, la biblioteca, el centro Guadalinfo, la Asociación Juvenil, las reuniones de mujeres del centro de salud, Cáritas y otras entidades. Falta comprobar con la comunidad cuáles funcionan hoy como activos.</p></div>
+<p class="src">Fuentes: Localiza Salud, recursos de Zagra (expediente, 21-10-2026); plan de actuación del centro de salud de Loja para Zagra (2016), mapa de activos.</p>
+</section>
+
+<section class="slide">
+<span class="meta">08 · Qué concluye el Perfil</span>
+<h2>Cinco ideas para llevarse</h2>
+<div class="grid g2">
+<div class="card"><h3>1 · Envejecimiento</h3><p>Zagra pierde población por saldo natural y casi una de cada cuatro personas tiene más de 65 años.</p></div>
+<div class="card"><h3>2 · Bienestar emocional</h3><p>Es la preocupación más compartida: la eligió el 84,8 % en 2026, y la soledad y la salud mental ya estaban arriba en 2017.</p></div>
+<div class="card"><h3>3 · Moverse y comer</h3><p>La comunidad lo pide desde 2017; la actividad física y la alimentación son el 2.º y 3.º tema de 2026.</p></div>
+<div class="card"><h3>4 · Recursos que crecen</h3><p>El complejo deportivo y la Asociación de Mujeres ofrecen hoy lo que en 2016 estaba pendiente.</p></div>
+</div>
+<div class="card soft"><h3>5 · Una población que se renueva</h3><p>Las familias de origen marroquí son ya parte de Zagra y todavía no han tenido voz en las consultas.</p></div>
+<p class="src">Fuente: Perfil de Salud Local de Zagra (borrador, 26-10-2026), apartado 2. Conclusiones propuestas, pendientes de validación por el equipo técnico.</p>
+</section>
+
+<section class="slide">
+<span class="meta">09 · Para seguir avanzando</span>
+<h2>Información que conviene incorporar</h2>
+<div class="grid g2">
+<div class="card"><h3>Datos de salud actualizados</h3><p>Pedir al Distrito la actualización del Informe de Salud de Zagra, con los datos del consultorio de Zagra.</p></div>
+<div class="card"><h3>Cómo vivimos</h3><p>Cómo come, cuánto se mueve, cómo duerme y cómo se siente la población: un estudio propio con el Gestor de Encuestas de COMPÁS.</p></div>
+<div class="card"><h3>Quién cuida</h3><p>Cuántas personas mayores viven solas, cuántas dependen de otras y quién las cuida, con Servicios Sociales.</p></div>
+<div class="card"><h3>Todas las voces</h3><p>Escuchar a las familias de origen marroquí y comprobar con la comunidad qué recursos funcionan como activos.</p></div>
+</div>
+<p class="src">Fuente: Perfil de Salud Local de Zagra (borrador, 26-10-2026), apartados 4 y 5.</p>
+</section>
+
+<section class="slide">
+<span class="meta">10 · La priorización ya hecha</span>
+<h2>Zagra ya ha elegido sus temas</h2>
+<p class="lead">En mayo de 2026, 158 personas eligieron hasta cinco temas para su Plan Local de Salud. Ese resultado sigue siendo el punto de partida.</p>
+<div class="grid g4" style="flex:none">
+<div class="card soft"><span class="big">84,8<small> %</small></span><p>Bienestar emocional y salud mental</p></div>
+<div class="card soft"><span class="big">74,7<small> %</small></span><p>Actividad física</p></div>
+<div class="card soft"><span class="big">71,5<small> %</small></span><p>Alimentación</p></div>
+<div class="card soft"><span class="big">65,8<small> %</small></span><p>Sueño y descanso</p></div>
+</div>
+<div class="card sand"><p>La pregunta para hoy: <b>a la luz del Perfil, ¿trabajamos estos temas por separado o los reunimos en una línea que los ordene?</b></p></div>
+<p class="src">Fuente: priorización temática ciudadana de Zagra (REDCap), 14-24 de mayo de 2026; 164 registros, 158 papeletas completas.</p>
+</section>
+
+<section class="slide">
+<span class="meta">11 · Una propuesta para debatir</span>
+<h2>Envejecimiento saludable: una línea que reúne lo que Zagra ha pedido</h2>
+<div class="umbrella">
+<div class="umb-head">Envejecimiento saludable<small>Envejecer con autonomía, bienestar y compañía empieza a cuidarse a cualquier edad</small></div>
+<div class="grid g4" style="flex:none">
+<div class="card"><h3>Alimentación</h3><p>3.er tema de 2026; mala alimentación y obesidad en 2017.</p></div>
+<div class="card"><h3>Actividad física</h3><p>2.º tema de 2026; sedentarismo, primer problema en 2017.</p></div>
+<div class="card"><h3>Bienestar emocional</h3><p>1.er tema de 2026; salud mental, 4.º problema en 2017.</p></div>
+<div class="card"><h3>Soledad no deseada</h3><p>3.er problema en 2017; uno de cada tres hogares es unipersonal.</p></div>
+</div>
+<div class="grid g4" style="flex:none">
+<div class="card sand"><span class="pill alt">Otras posibles</span><h3>Sueño y descanso</h3><p>4.º tema de 2026.</p></div>
+<div class="card sand"><span class="pill alt">Otras posibles</span><h3>Apoyo a quien cuida</h3><p>5.º problema en 2017.</p></div>
+<div class="card sand"><span class="pill alt">Otras posibles</span><h3>Memoria y autonomía</h3><p>Miedo al deterioro cognitivo, 2017.</p></div>
+<div class="card sand"><span class="pill alt">Otras posibles</span><h3>Brecha digital</h3><p>Punto Vuela y Guadalinfo como apoyo.</p></div>
+</div>
+</div>
+<p class="src">Propuesta de trabajo para el Grupo Motor, no un acuerdo. Fuentes: priorización temática 2026; problemas priorizados 27-04-2017; INE, ADRH 2024 (tabla 31033); Localiza Salud.</p>
+</section>
+
+<section class="slide">
+<span class="meta">12 · Cómo decidir</span>
+<h2>Una línea o varias: lo decide el Grupo Motor</h2>
+<div class="grid g2">
+<div class="card soft"><span class="pill">Opción A</span><h3>Una sola línea: Envejecimiento saludable</h3><p>Reúne alimentación, actividad física, bienestar emocional y soledad no deseada bajo un mismo objetivo. Encaja con la estructura de edad de Zagra y con los recursos que ya existen.</p></div>
+<div class="card"><span class="pill">Opción B</span><h3>Envejecimiento saludable y otras líneas</h3><p>La línea de envejecimiento saludable se acompaña de otras para temas que la desbordan o que afectan a toda la población, como el sueño y el descanso.</p></div>
+</div>
+<div class="card sand"><h3>Preguntas para hoy</h3><ul class="clean"><li>¿Recoge esta línea lo que votó la comunidad en 2026?</li><li>¿Qué quedaría fuera y cómo lo atendemos?</li><li>¿Quién más tiene que estar en la mesa: cuidadoras, jóvenes, familias de origen marroquí?</li></ul></div>
+<p class="src">El Perfil concluye y recomienda; la priorización corresponde al Grupo Motor y las actuaciones, al Plan de Acción.</p>
+</section>
+
+<section class="slide">
+<span class="meta">13 · Del Perfil al Plan</span>
+<h2>El siguiente paso: el Plan de Acción en COMPÁS</h2>
+<div class="chain">
+<div><b>Perfil</b>Lo que sabemos y lo que conviene hacer</div>
+<div><b>Grupo Motor</b>Decide las líneas: una o varias</div>
+<div class="here"><b>Plan de Acción</b>Objetivos, actuaciones, responsables e indicadores</div>
+<div><b>Implantación</b>Agenda de actuaciones y seguimiento</div>
+</div>
+<div class="grid g2" style="flex:none">
+<div class="card"><h3>Línea disponible en COMPÁS</h3><p>«Envejecimiento saludable», con objetivos sobre autonomía y bienestar emocional, soledad no deseada, relaciones y apoyo social, participación comunitaria, entornos accesibles y brecha digital. La alimentación y la actividad física se incorporan al adaptarla a Zagra.</p></div>
+<div class="card soft" style="display:flex;flex-direction:column;justify-content:center;gap:16px"><p>Abrir la herramienta de Plan de Acción de COMPÁS:</p><a class="cta" href="https://bhermoso.github.io/compas-ng-renovado/?fase=plan" target="_blank" rel="noopener noreferrer">COMPÁS · Plan de Acción ↗</a><p style="font-size:18px;color:#5c756c">Seleccionar el ámbito de Zagra antes de trabajar.</p></div>
+</div>
+<p class="src">Fuente: COMPÁS, catálogo del Plan de Acción, módulo «Envejecimiento saludable» (versión 3.1).</p>
+</section>
+
+<section class="slide cover">
+<span class="meta">Zagra · Perfil de Salud Local</span>
+<h1>Gracias</h1>
+<p class="lead">El Perfil completo, con todas sus fuentes, está disponible para el equipo técnico y el Grupo Motor. Sus conclusiones y recomendaciones son propuestas abiertas a revisión.</p>
+<p class="src">Fuentes principales: Informe de Salud de Zagra (2017); Perfil de Salud Local de Zagra (2018); IECA, SIMA (2026); INE, ADRH 2024; priorización temática de Zagra (2026); Localiza Salud.</p>
+</section>
+
+</div></div>
+<div class="foot"><div><button id="prev" type="button">← Anterior</button> <span id="counter">1 / 1</span> <button id="next" type="button">Siguiente →</button></div><span class="hint">Flechas ← → · Espacio · Inicio/Fin · F pantalla completa</span><button id="fs" type="button">⛶ Presentar</button></div>
+</div>
+<script>
+(function(){
+'use strict';
+const temas=[['Bienestar emocional y salud mental',84.8],['Actividad física',74.7],['Alimentación',71.5],['Sueño y descanso',65.8],['Sexualidad y salud',34.8],['Tabaco, vapeadores, alcohol y otras drogas',34.2],['Medioambiente y municipio',29.1],['Uso de pantallas y redes sociales',28.5],['Violencia de género',24.7],['Accidentes en el hogar y la vía pública',16.5]];
+const bars=document.getElementById('bars');
+temas.forEach(([t,p],i)=>{const r=document.createElement('div');r.className='brow'+(i<5?' top':'');r.style.gridTemplateColumns='310px 1fr 80px';r.style.fontSize='19px';
+ const l=document.createElement('span');l.textContent=t;const tr=document.createElement('div');tr.className='track';const f=document.createElement('div');f.className='fill';f.style.width=p+'%';tr.append(f);
+ const v=document.createElement('span');v.className='pct';v.textContent=String(p).replace('.',',')+' %';r.append(l,tr,v);bars.append(r)});
+const slides=[...document.querySelectorAll('.slide')];let i=0;
+const counter=document.getElementById('counter'),prev=document.getElementById('prev'),next=document.getElementById('next');
+function fromHash(){const n=parseInt((location.hash||'').replace(/\D/g,''),10);return n>=1&&n<=slides.length?n-1:0}
+function show(n){i=Math.max(0,Math.min(slides.length-1,n));slides.forEach((s,k)=>s.classList.toggle('on',k===i));counter.textContent=(i+1)+' / '+slides.length;prev.disabled=i===0;next.disabled=i===slides.length-1;try{history.replaceState(null,'','#'+(i+1))}catch(e){}}
+function fit(){const st=document.getElementById('stage'),fr=document.getElementById('frame');const s=Math.min(st.clientWidth/1600,st.clientHeight/900);fr.style.transform='scale('+s+')';fr.style.margin=((st.clientHeight-900*s)/2>0?0:0)+'px'}
+prev.addEventListener('click',()=>show(i-1));next.addEventListener('click',()=>show(i+1));
+document.getElementById('fs').addEventListener('click',()=>{const d=document.getElementById('deck');if(!document.fullscreenElement&&d.requestFullscreen)d.requestFullscreen().catch(()=>{});else if(document.exitFullscreen)document.exitFullscreen().catch(()=>{})});
+document.addEventListener('keydown',e=>{if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();show(i+1)}else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();show(i-1)}else if(e.key==='Home')show(0);else if(e.key==='End')show(slides.length-1);else if(e.key==='f'||e.key==='F')document.getElementById('fs').click()});
+window.addEventListener('resize',fit);document.addEventListener('fullscreenchange',()=>setTimeout(fit,50));
+show(fromHash());fit();
+})();
+</script>
+</body>
+</html>
