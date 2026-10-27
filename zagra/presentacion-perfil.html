@@ -45,7 +45,7 @@ ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f514
 .brow{display:grid;grid-template-columns:420px 1fr 100px;align-items:center;gap:16px;font-size:23px}
 .brow .track{height:30px;background:#e4ece5;border-radius:6px;overflow:hidden}.brow .fill{height:100%;background:var(--mid)}
 .brow.top .fill{background:var(--deep)}.brow .pct{font-weight:800;text-align:right;font-variant-numeric:tabular-nums}
-.umbrella{display:grid;grid-template-columns:1fr;gap:18px;flex:none}
+.umbrella{display:grid;grid-template-columns:1fr;gap:12px;flex:none}.umbrella .card{padding:15px 20px}.umbrella .card h3{font-size:26px}.umbrella .card p{font-size:20px}
 .umb-head{background:var(--deep);color:#fff;border-radius:18px;padding:22px 30px;font:600 40px Georgia,serif;text-align:center}
 .umb-head small{display:block;font:400 22px system-ui;color:#cfe8d6;margin-top:6px}
 .pill{display:inline-block;font:800 14px system-ui;letter-spacing:.08em;text-transform:uppercase;border-radius:100px;padding:5px 12px;background:#e9efe8;color:var(--mid);margin-bottom:10px}
@@ -72,21 +72,21 @@ ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f514
 </head>
 <body>
 <div id="deck">
-<div class="bar"><span class="brand">ZAGRA · PERFIL DE SALUD LOCAL · SÍNTESIS</span><a href="index.html">← Volver al espacio de Zagra</a></div>
+<div class="bar"><span class="brand">ZAGRA · PERFIL DE SALUD LOCAL · SÍNTESIS</span><details style="max-width:790px"><summary style="cursor:pointer;font-size:13px">¿Media o mediana? · explicación visual</summary><div style="position:absolute;top:45px;left:16%;right:16%;z-index:20;background:#fff;color:#173d35;border:2px solid #25694f;border-radius:12px;padding:20px;font-size:19px"><strong>Ejemplo de cinco rentas: 1.000 · 1.100 · 1.200 · 1.300 · 10.000 €</strong><p>Media = 2.920 €. Mediana = 1.200 €. La renta muy alta eleva la media, pero no desplaza el valor central. Por eso la mediana describe mejor la renta típica.</p></div></details><a href="index.html">← Volver al espacio de Zagra</a></div>
 <div class="stage" id="stage"><div class="frame" id="frame">
 
 <section class="slide cover">
 <span class="meta">Zagra · 28 de octubre de 2026</span>
 <h1>Lo que sabemos<br>de la salud de Zagra</h1>
 <p class="lead">Síntesis del Perfil de Salud Local para vecinas, vecinos, profesionales y responsables municipales. Del diagnóstico a las decisiones del Plan de Acción.</p>
-<p class="src">Perfil de Salud Local de Zagra · borrador de trabajo pendiente de validación por el equipo técnico y el Grupo Motor</p>
+<p class="src">Perfil de Salud Local de Zagra · borrador de trabajo pendiente de validación por el Grupo Motor</p>
 </section>
 
 <section class="slide">
 <span class="meta">01 · De dónde venimos</span>
 <h2>Zagra ya ha recorrido parte del camino</h2>
 <div class="timeline">
-<div class="tl"><b>2016</b><span>El Ayuntamiento pide entrar en la Red Local de Acción en Salud (RELAS)</span></div>
+<div class="tl"><b>2016</b><span>El Ayuntamiento se adhiere a la Red Local de Acción en Salud (RELAS)</span></div>
 <div class="tl"><b>Feb. 2017</b><span>Acuerdo de colaboración con la Consejería de Salud</span></div>
 <div class="tl"><b>Mar. 2017</b><span>Taller de impulso y presentación del Informe de Salud de Zagra</span></div>
 <div class="tl"><b>Abr. 2017</b><span>El Grupo Motor identifica y ordena 18 problemas de salud</span></div>
@@ -94,7 +94,7 @@ ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f514
 <div class="tl"><b>2020</b><span>El Ayuntamiento reitera su compromiso con el proyecto</span></div>
 <div class="tl now"><b>2026</b><span>Priorización temática ciudadana y nuevo Perfil de Salud Local</span></div>
 </div>
-<p class="src">Fuentes: solicitud de adhesión (20-10-2016); acuerdo de colaboración (15-02-2017); programa del taller (30-03-2017); problemas priorizados (27-04-2017); Perfil de Salud Local (enero de 2018); escrito del Ayuntamiento (31-01-2020); priorización temática (mayo de 2026).</p>
+<p class="src">Fuentes: adhesión municipal (20-10-2016); acuerdo de colaboración (15-02-2017); programa del taller (30-03-2017); problemas priorizados (27-04-2017); Perfil de Salud Local (enero de 2018); escrito del Ayuntamiento (31-01-2020); priorización temática (mayo de 2026).</p>
 </section>
 
 <section class="slide">
@@ -134,7 +134,7 @@ ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f514
 <span class="meta">04 · Informe de Salud de Zagra</span>
 <h2>Mortalidad: dónde estaba el exceso de riesgo</h2>
 <div class="grid g2">
-<div class="card"><h3>En 2015</h3><p>Fallecieron 17 personas, 9 hombres y 8 mujeres: una tasa bruta de mortalidad de 18,9 por mil (Andalucía: 8,58).</p><p style="margin-top:14px">La mortalidad general estaba aumentada frente a España en hombres de 65 a 84 años y en mujeres de 75 a 84.</p></div>
+<div class="card"><h3>En 2015</h3><p>Fallecieron 17 personas, 9 hombres y 8 mujeres: una tasa bruta de mortalidad de 18,9 por mil (Andalucía: 8,58).</p><p style="margin-top:14px">La mortalidad general era superior a la registrada en España en hombres de 65 a 84 años y en mujeres de 75 a 84.</p></div>
 <div class="card soft"><h3>Exceso de riesgo frente a España</h3><ul class="clean"><li>Suicidio: hombres mayores de 15 años y mujeres de 15 a 45</li><li>Accidentes de tráfico: hombres de 45 a 64</li><li>Cáncer de hígado y de pulmón</li><li>Enfermedad cerebrovascular, cardiopatía isquémica y EPOC</li></ul></div>
 </div>
 <div class="card sand"><p>Los años potenciales de vida perdidos se debían sobre todo al <b>suicidio</b> y a los <b>accidentes de tráfico</b> en los hombres, y a la <b>diabetes</b> en las mujeres.</p></div>
@@ -145,7 +145,7 @@ ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f514
 <span class="meta">05 · Informe de Salud de Zagra</span>
 <h2>Lo que el informe señalaba como favorable</h2>
 <div class="grid g3">
-<div class="card"><span class="big">277,1</span><h3>Cáncer</h3><p>casos por 100.000 habitantes en 2008-2012, muy por debajo de la provincia (459,3). Solo el cáncer de cerebro y sistema nervioso era superior.</p></div>
+<div class="card"><span class="big">277,1</span><h3>Cáncer</h3><p>casos por 100.000 habitantes en 2008-2012, muy por debajo de la provincia (459,3). La categoría de cáncer de cerebro y del sistema nervioso registraba una incidencia superior; denominación pendiente de cotejo con el informe original.</p></div>
 <div class="card"><span class="big">1</span><h3>Infecciones</h3><p>único caso de infección de transmisión sexual declarado en 2012-2016. Ningún caso de tuberculosis ni brotes.</p></div>
 <div class="card"><span class="big">&gt;95<small> %</small></span><h3>Vacunación</h3><p>de cobertura en recién nacidos, que ha protegido a la población frente a los brotes de los últimos años.</p></div>
 </div>
@@ -170,7 +170,7 @@ ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f514
 <div class="card"><span class="pill">Localiza Salud</span><h3>Complejo deportivo municipal</h3><p>Piscina, gimnasio, yoga, baile, pádel y talleres de socialización contra la soledad no deseada.</p></div>
 <div class="card"><span class="pill">Localiza Salud</span><h3>Punto Vuela</h3><p>Formación y acceso digital para toda la población.</p></div>
 </div>
-<div class="card sand"><p><b>Y más por reconocer:</b> en 2016 se recogían la casa de la cultura, la biblioteca, el centro Guadalinfo, la Asociación Juvenil, las reuniones de mujeres del centro de salud, Cáritas y otras entidades. Falta comprobar con la comunidad cuáles funcionan hoy como activos.</p></div>
+<div class="card sand"><p><b>Y más por reconocer:</b> en 2016 se recogían la casa de la cultura, la biblioteca, el Punto Vuela (entonces denominado Guadalinfo), la Asociación Juvenil, las reuniones de mujeres del centro de salud, Cáritas y otras entidades. Falta comprobar con la comunidad cuáles funcionan hoy como activos.</p></div>
 <p class="src">Fuentes: Localiza Salud, recursos de Zagra (expediente, 21-10-2026); plan de actuación del centro de salud de Loja para Zagra (2016), mapa de activos.</p>
 </section>
 
@@ -184,14 +184,14 @@ ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f514
 <div class="card"><h3>4 · Recursos que crecen</h3><p>El complejo deportivo y la Asociación de Mujeres ofrecen hoy lo que en 2016 estaba pendiente.</p></div>
 </div>
 <div class="card soft"><h3>5 · Una población que se renueva</h3><p>Las familias de origen marroquí son ya parte de Zagra y todavía no han tenido voz en las consultas.</p></div>
-<p class="src">Fuente: Perfil de Salud Local de Zagra (borrador, 26-10-2026), apartado 2. Conclusiones propuestas, pendientes de validación por el equipo técnico.</p>
+<p class="src">Fuente: Perfil de Salud Local de Zagra (borrador, 26-10-2026), apartado 2. Conclusiones propuestas, pendientes de validación por el Grupo Motor.</p>
 </section>
 
 <section class="slide">
 <span class="meta">09 · Para seguir avanzando</span>
 <h2>Información que conviene incorporar</h2>
 <div class="grid g2">
-<div class="card"><h3>Datos de salud actualizados</h3><p>Pedir al Distrito la actualización del Informe de Salud de Zagra, con los datos del consultorio de Zagra.</p></div>
+<div class="card"><h3>Del diagnóstico a las decisiones</h3><p>Que el Grupo Motor, con el acompañamiento del distrito sanitario, concrete los problemas identificados en objetivos, estrategias, planes de acción y programas, con responsables, recursos y seguimiento. La prioridad es actuar con la información disponible.</p></div>
 <div class="card"><h3>Cómo vivimos</h3><p>Cómo come, cuánto se mueve, cómo duerme y cómo se siente la población: un estudio propio con el Gestor de Encuestas de COMPÁS.</p></div>
 <div class="card"><h3>Quién cuida</h3><p>Cuántas personas mayores viven solas, cuántas dependen de otras y quién las cuida, con Servicios Sociales.</p></div>
 <div class="card"><h3>Todas las voces</h3><p>Escuchar a las familias de origen marroquí y comprobar con la comunidad qué recursos funcionan como activos.</p></div>
@@ -200,9 +200,9 @@ ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f514
 </section>
 
 <section class="slide">
-<span class="meta">10 · La priorización ya hecha</span>
-<h2>Zagra ya ha elegido sus temas</h2>
-<p class="lead">En mayo de 2026, 158 personas eligieron hasta cinco temas para su Plan Local de Salud. Ese resultado sigue siendo el punto de partida.</p>
+<span class="meta">10 · Priorización temática</span>
+<h2>Priorización temática: resultados para deliberar</h2>
+<p class="lead">En mayo de 2026, 158 personas seleccionaron hasta cinco temas en una consulta ciudadana. Los resultados orientan la deliberación, pero no constituyen un acuerdo del Grupo Motor.</p>
 <div class="grid g4" style="flex:none">
 <div class="card soft"><span class="big">84,8<small> %</small></span><p>Bienestar emocional y salud mental</p></div>
 <div class="card soft"><span class="big">74,7<small> %</small></span><p>Actividad física</p></div>
@@ -210,14 +210,14 @@ ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f514
 <div class="card soft"><span class="big">65,8<small> %</small></span><p>Sueño y descanso</p></div>
 </div>
 <div class="card sand"><p>La pregunta para hoy: <b>a la luz del Perfil, ¿trabajamos estos temas por separado o los reunimos en una línea que los ordene?</b></p></div>
-<p class="src">Fuente: priorización temática ciudadana de Zagra (REDCap), 14-24 de mayo de 2026; 164 registros, 158 papeletas completas.</p>
+<p class="src">Fuentes: priorización temática 2026; problemas priorizados 27-04-2017; INE, ADRH 2024 (tabla 31033); Localiza Salud. Consulta ciudadana: 158 papeletas completas.</p>
 </section>
 
 <section class="slide">
 <span class="meta">11 · Una propuesta para debatir</span>
-<h2>Envejecimiento saludable: una línea que reúne lo que Zagra ha pedido</h2>
+<h2>Áreas temáticas para debatir, todavía no líneas aprobadas</h2>
 <div class="umbrella">
-<div class="umb-head">Envejecimiento saludable<small>Envejecer con autonomía, bienestar y compañía empieza a cuidarse a cualquier edad</small></div>
+<div class="umb-head">Envejecimiento saludable · área propuesta<small>Una posible agrupación de áreas, sujeta a deliberación del Grupo Motor</small></div>
 <div class="grid g4" style="flex:none">
 <div class="card"><h3>Alimentación</h3><p>3.er tema de 2026; mala alimentación y obesidad en 2017.</p></div>
 <div class="card"><h3>Actividad física</h3><p>2.º tema de 2026; sedentarismo, primer problema en 2017.</p></div>
@@ -225,37 +225,37 @@ ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f514
 <div class="card"><h3>Soledad no deseada</h3><p>3.er problema en 2017; uno de cada tres hogares es unipersonal.</p></div>
 </div>
 <div class="grid g4" style="flex:none">
-<div class="card sand"><span class="pill alt">Otras posibles</span><h3>Sueño y descanso</h3><p>4.º tema de 2026.</p></div>
-<div class="card sand"><span class="pill alt">Otras posibles</span><h3>Apoyo a quien cuida</h3><p>5.º problema en 2017.</p></div>
-<div class="card sand"><span class="pill alt">Otras posibles</span><h3>Memoria y autonomía</h3><p>Miedo al deterioro cognitivo, 2017.</p></div>
-<div class="card sand"><span class="pill alt">Otras posibles</span><h3>Brecha digital</h3><p>Punto Vuela y Guadalinfo como apoyo.</p></div>
+<div class="card sand"><span class="pill alt">Área por valorar</span><h3>Sueño y descanso</h3><p>4.º tema de 2026.</p></div>
+<div class="card sand"><span class="pill alt">Área por valorar</span><h3>Apoyo a quien cuida</h3><p>5.º problema en 2017.</p></div>
+<div class="card sand"><span class="pill alt">Área por valorar</span><h3>Memoria y autonomía</h3><p>Miedo al deterioro cognitivo, 2017.</p></div>
+<div class="card sand"><span class="pill alt">Área por valorar</span><h3>Brecha digital</h3><p>Punto Vuela como recurso comunitario.</p></div>
 </div>
 </div>
-<p class="src">Propuesta de trabajo para el Grupo Motor, no un acuerdo. Fuentes: priorización temática 2026; problemas priorizados 27-04-2017; INE, ADRH 2024 (tabla 31033); Localiza Salud.</p>
+<p class="src" style="bottom:14px;padding-top:5px">Propuesta de trabajo para el Grupo Motor, no un acuerdo. Fuentes: priorización temática 2026; problemas priorizados 27-04-2017; INE, ADRH 2024 (tabla 31033); Localiza Salud.</p>
 </section>
 
 <section class="slide">
 <span class="meta">12 · Cómo decidir</span>
-<h2>Una línea o varias: lo decide el Grupo Motor</h2>
+<h2>Áreas y líneas de actuación: decide el Grupo Motor</h2>
 <div class="grid g2">
-<div class="card soft"><span class="pill">Opción A</span><h3>Una sola línea: Envejecimiento saludable</h3><p>Reúne alimentación, actividad física, bienestar emocional y soledad no deseada bajo un mismo objetivo. Encaja con la estructura de edad de Zagra y con los recursos que ya existen.</p></div>
-<div class="card"><span class="pill">Opción B</span><h3>Envejecimiento saludable y otras líneas</h3><p>La línea de envejecimiento saludable se acompaña de otras para temas que la desbordan o que afectan a toda la población, como el sueño y el descanso.</p></div>
+<div class="card soft"><span class="pill">Opción A</span><h3>Un área integradora: envejecimiento saludable</h3><p>Agrupa alimentación, actividad física, bienestar emocional y soledad no deseada como ámbitos de trabajo. Encaja con la estructura de edad de Zagra y con los recursos que ya existen.</p></div>
+<div class="card"><span class="pill">Opción B</span><h3>Varias áreas temáticas con líneas específicas</h3><p>El envejecimiento saludable puede coexistir con hábitos saludables, sueño y descanso, cribados e inmunización; después se definirán las líneas y actuaciones de cada área.</p></div>
 </div>
-<div class="card sand"><h3>Preguntas para hoy</h3><ul class="clean"><li>¿Recoge esta línea lo que votó la comunidad en 2026?</li><li>¿Qué quedaría fuera y cómo lo atendemos?</li><li>¿Quién más tiene que estar en la mesa: cuidadoras, jóvenes, familias de origen marroquí?</li></ul></div>
-<p class="src">El Perfil concluye y recomienda; la priorización corresponde al Grupo Motor y las actuaciones, al Plan de Acción.</p>
+<div class="card sand"><h3>Preguntas para hoy</h3><ul class="clean"><li>¿Recogen estas áreas los temas seleccionados en 2026?</li><li>¿Qué quedaría fuera y cómo lo atendemos?</li><li>¿Quién más tiene que estar en la mesa: cuidadoras, jóvenes, familias de origen marroquí?</li></ul></div>
+<p class="src">El Perfil propone áreas de intervención; el Grupo Motor delibera y acuerda; la planificación concreta objetivos estratégicos, estrategias, planes de acción y programas.</p>
 </section>
 
 <section class="slide">
 <span class="meta">13 · Del Perfil al Plan</span>
-<h2>El siguiente paso: el Plan de Acción en COMPÁS</h2>
+<h2>Planificación estratégica: del Perfil a los programas</h2>
 <div class="chain">
 <div><b>Perfil</b>Lo que sabemos y lo que conviene hacer</div>
 <div><b>Grupo Motor</b>Decide las líneas: una o varias</div>
-<div class="here"><b>Plan de Acción</b>Objetivos, actuaciones, responsables e indicadores</div>
+<div class="here"><b>Plan de Acción</b>Objetivos estratégicos → estrategias → planes de acción → programas</div>
 <div><b>Implantación</b>Agenda de actuaciones y seguimiento</div>
 </div>
 <div class="grid g2" style="flex:none">
-<div class="card"><h3>Línea disponible en COMPÁS</h3><p>«Envejecimiento saludable», con objetivos sobre autonomía y bienestar emocional, soledad no deseada, relaciones y apoyo social, participación comunitaria, entornos accesibles y brecha digital. La alimentación y la actividad física se incorporan al adaptarla a Zagra.</p></div>
+<div class="card"><h3>Área disponible en COMPÁS</h3><p>«Envejecimiento saludable», con objetivos sobre autonomía y bienestar emocional, soledad no deseada, relaciones y apoyo social, participación comunitaria, entornos accesibles y brecha digital. La concreción en estrategias, planes de acción y programas corresponde al Grupo Motor.</p></div>
 <div class="card soft" style="display:flex;flex-direction:column;justify-content:center;gap:16px"><p>Abrir la herramienta de Plan de Acción de COMPÁS:</p><a class="cta" href="https://bhermoso.github.io/compas-ng-renovado/?fase=plan" target="_blank" rel="noopener noreferrer">COMPÁS · Plan de Acción ↗</a><p style="font-size:18px;color:#5c756c">Seleccionar el ámbito de Zagra antes de trabajar.</p></div>
 </div>
 <p class="src">Fuente: COMPÁS, catálogo del Plan de Acción, módulo «Envejecimiento saludable» (versión 3.1).</p>
@@ -264,7 +264,7 @@ ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f514
 <section class="slide cover">
 <span class="meta">Zagra · Perfil de Salud Local</span>
 <h1>Gracias</h1>
-<p class="lead">El Perfil completo, con todas sus fuentes, está disponible para el equipo técnico y el Grupo Motor. Sus conclusiones y recomendaciones son propuestas abiertas a revisión.</p>
+<p class="lead">El Perfil completo, con todas sus fuentes, está disponible para el Grupo Motor. Sus conclusiones y recomendaciones son propuestas abiertas a revisión.</p>
 <p class="src">Fuentes principales: Informe de Salud de Zagra (2017); Perfil de Salud Local de Zagra (2018); IECA, SIMA (2026); INE, ADRH 2024; priorización temática de Zagra (2026); Localiza Salud.</p>
 </section>
 
