@@ -1,11 +1,18 @@
 # Zagra — Estado y continuidad
 
-Actualizado: 26 de octubre de 2026.
+Actualizado: 29 de octubre de 2026.
 
 ## Propósito
 Espacio territorial de Zagra en el Aula de salud comunitaria basada en activos.
 
 Flujo: **priorización participativa → planificación y realización del mapeo de activos → registro provisional → contraste y, cuando proceda, alta oficial en Localiza Salud.**
+
+## Revisión propuesta 29/10/2026 (rama sin publicar)
+- Presentación de Zagra ampliada de 15 a 17 diapositivas, preservando navegación y estructura.
+- Incorporadas dos diapositivas sobre lo tratado en la reunión del 28/10: mapa del envejecimiento, posibles valoraciones mediante Gestor de Encuestas o consultorio/Diraya, detección precoz y conexión con activos comunitarios.
+- Esta vía es una **propuesta pendiente de acuerdo y viabilidad**, no una implantación en historia clínica ni un protocolo validado. Cualquier información comunitaria derivada de datos asistenciales requerirá garantías de confidencialidad y tratamiento agregado o adecuadamente anonimizado.
+- El CSV REDCap tiene **164 registros confirmados por revisión del usuario**; la presentación preexistente mostraba porcentajes calculados sobre 158 registros completos. Las otras seis papeletas requieren revisión individual de selecciones; porcentajes **provisionales**, sin inventar nuevo denominador.
+- El cambio se mantiene en una rama independiente sin despliegue, pendiente de revisión y autorización para fusionar.
 
 ## Estado comprobable del Aula
 - `zagra/presentacion-perfil.html` (26/10/2026): presentación de 15 diapositivas para la sesión del 28/10/2026. Síntesis para todos los públicos del Perfil de Salud Local de Zagra (borrador de 26/10/2026, sin validar). Reproduce los datos epidemiológicos del Informe de Salud de Zagra (2017) tal como constan en él, recuerda la priorización temática de mayo de 2026 (158 papeletas completas) y plantea, como propuesta para el Grupo Motor y no como acuerdo, una línea de envejecimiento saludable que reúna alimentación, actividad física, bienestar emocional y soledad no deseada, con enlace a la fase Plan de Acción de COMPÁS (`?fase=plan`). Navegación con teclado, pantalla completa e impresión a PDF (una diapositiva por página).
