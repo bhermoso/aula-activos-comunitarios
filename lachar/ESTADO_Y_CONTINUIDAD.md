@@ -1,8 +1,8 @@
-# Láchar y Peñuelas — estado y continuidad
+# Láchar — estado y continuidad
 Actualizado: 29/10/2026. Fase: **preadhesión a RELAS** (no adherido, según información comunicada por el responsable del encargo).
 
 ## Entregado en esta rama
-- `lachar/index.html`: página para Láchar y Peñuelas, con perfil documental inicial, datos SIMA de 2025, fuentes oficiales, ruta de adhesión, bibliografía y acceso a herramientas consolidadas del Aula, REDCap, Localiza Salud y COMPÁS.
+- `lachar/index.html`: página municipal de Láchar (incluye Peñuelas como núcleo en el diagnóstico), con perfil documental inicial, datos SIMA de 2025, fuentes oficiales, ruta de adhesión, bibliografía y acceso a herramientas consolidadas del Aula, REDCap, Localiza Salud y COMPÁS.
 - Formulario local para registrar recursos provisionales por núcleo/categoría con descarga CSV. Persistencia local en navegador: `aula-lachar-recursos-provisionales-v1`. No hay backend ni sincronización.
 - Tarjeta de acceso en la portada del Aula.
 - Primer Perfil de Salud Local en Word y PDF creado para la conversación, sin subir documento a GitHub ni darlo por validado.
