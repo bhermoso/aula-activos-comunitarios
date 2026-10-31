@@ -40,7 +40,19 @@ solo cambian cabecera, pie y notas.
 
 ## Cautelas
 
-- El caso Sierranueva es ficticio; sus cifras no describen ningún municipio.
+- El caso de trabajo es Zagra (Granada). Fuentes: expediente de Zagra en
+  COMPÁS NG (`municipalities/zagra/`: priorización de 27/04/2017, inventario de
+  activos, presentaciones del técnico de acción local), población INE 2025
+  (`fixtures/population/zagra-population-2025.ts`) y síntesis del Perfil de
+  Salud Local publicada en `zagra/presentacion-perfil.html` (borrador de
+  26/10/2026, sin validar). No se reproducen nombres ni teléfonos del
+  inventario de activos.
+- La hoja de priorización de 2017 tiene incoherencias (escala 1-3 con valores de
+  hasta 13, columnas de magnitud y dificultad idénticas, total sin fórmula
+  documentada). El curso las presenta como material de análisis, sin
+  corregirlas.
+- El Plan de Acción de Zagra en COMPÁS adapta la estructura de cuatro bloques
+  del Zaidín: es una propuesta técnica, no un acuerdo del Grupo Motor.
 - Las listas de comprobación originales incluyen la frase «una buena
   planificación determina el 80 % del éxito del programa». No consta fuente para
   esa cifra y no se ha reproducido en el curso.

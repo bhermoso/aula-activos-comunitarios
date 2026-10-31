@@ -21,6 +21,7 @@ button{font:inherit;cursor:pointer}[hidden]{display:none!important}
 .tabs button{flex:0 0 auto;border:1px solid var(--line);background:var(--sand);color:var(--ink);border-radius:30px;padding:6px 13px;font-size:13px;font-weight:600}
 .tabs button[aria-selected="true"]{background:var(--acc);border-color:var(--acc);color:#fff}
 .tabs button .k{opacity:.7;font-weight:700;margin-right:5px}
+main:focus{outline:none}
 main{max-width:980px;margin:0 auto;padding:26px clamp(16px,4vw,32px) 80px}
 .doc-head{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px 26px;box-shadow:var(--shadow);margin-bottom:18px}
 .doc-head .meta{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--acc);font-weight:800}
@@ -55,7 +56,7 @@ footer{font-size:12.5px;color:var(--muted);text-align:center;padding:20px 16px 4
 
 <section class="portada" id="portada" aria-label="Portada del curso">
 <div class="portada-bar"><strong>AULA · SALUD COMUNITARIA</strong><a href="../">← Volver al Aula</a></div>
-<div class="portada-hero"><div><div class="p-kicker">Curso · Propuesta 2027 · 30 horas</div><h1>Planificación y evaluación <span>de la promoción de la salud y la acción local</span></h1><p>Para enfermería familiar y comunitaria, trabajo social y medicina. Un único recorrido: priorizar con evidencia, diseñar actuaciones con responsable y planificar desde el inicio cómo se evaluará.</p><div class="fecha">3 sesiones presenciales · 3 trabajos no presenciales · Caso progresivo</div></div>
+<div class="portada-hero"><div><div class="p-kicker">Curso · Propuesta 2027 · 30 horas</div><h1>Planificación y evaluación <span>de la promoción de la salud y la acción local</span></h1><p>Para enfermería familiar y comunitaria, trabajo social y medicina. Un único recorrido: priorizar con evidencia, diseñar actuaciones con responsable y planificar desde el inicio cómo se evaluará.</p><div class="fecha">3 sesiones presenciales · 3 trabajos no presenciales · Caso real: Zagra</div></div>
 <div class="form-art" aria-hidden="true"><div class="fh"><span>PLAN EVALUABLE</span><span>FICHA</span></div><div class="fr"><b>Prioridad</b><span>Decisión deliberativa documentada</span></div><div class="fr"><b>Objetivo</b><span>Cambio verificable con plazo</span></div><div class="fr"><b>Actuación</b><span>Responsable · calendario · recursos</span></div><div class="fr"><b>Indicador</b><span>Tiempo cero · meta · fuente</span></div><div class="br">Evaluar se decide al planificar</div></div></div>
 <div class="portada-cursos">
 <article class="pcard"><div class="lv">Sesión 1 · Trabajo 1</div><h2>Del territorio a las prioridades</h2><p>Ciclo de planificación, estatuto de la evidencia, activos, participación y priorización deliberativa.</p><div class="units"><span>Ciclo</span><span>Necesidades</span><span>Hanlon</span></div><a class="cta" href="#sesion_1" data-open="sesion_1">Entrar →</a></article>
@@ -76,7 +77,7 @@ footer{font-size:12.5px;color:var(--muted);text-align:center;padding:20px 16px 4
 <script>
 (function(){
 'use strict';
-const SHORT={programa_planificacion_evaluacion_2027:['','Programa'],caso_sierranueva:['','Caso'],sesion_1:['S1','Territorio y prioridades'],trabajo_1:['T1','Priorización'],sesion_2:['S2','Objetivo y actuación'],trabajo_2:['T2','Plan de acción'],sesion_3:['S3','Evaluar'],trabajo_3:['T3','Marco de evaluación'],plantillas:['','Plantillas'],bibliografia:['','Bibliografía']};
+const SHORT={programa_planificacion_evaluacion_2027:['','Programa'],caso_zagra:['','Caso'],sesion_1:['S1','Territorio y prioridades'],trabajo_1:['T1','Priorización'],sesion_2:['S2','Objetivo y actuación'],trabajo_2:['T2','Plan de acción'],sesion_3:['S3','Evaluar'],trabajo_3:['T3','Marco de evaluación'],plantillas:['','Plantillas'],bibliografia:['','Bibliografía']};
 const TEMPLATES=[
  ['plantilla_priorizacion.csv','Priorización','Necesidades, evidencia, estatuto, criterios Hanlon, filtro PEARL y decisión motivada. Trabajo 1.'],
  ['plantilla_plan_accion.csv','Plan de acción','Cadena prioridad, objetivos, actuaciones, titularidad, responsable, calendario e indicadores. Trabajo 2.'],
@@ -118,7 +119,7 @@ window.addEventListener('hashchange',()=>{const h=location.hash.slice(1);if(data
 tabs.addEventListener('click',e=>{const b=e.target.closest('button[data-id]');if(b)show(b.dataset.id,true);});
 function start(d){
  data=d;
- order=['programa_planificacion_evaluacion_2027','caso_sierranueva','sesion_1','trabajo_1','sesion_2','trabajo_2','sesion_3','trabajo_3','plantillas','bibliografia'].filter(id=>id==='plantillas'||d.docs.some(x=>x.id===id));
+ order=['programa_planificacion_evaluacion_2027','caso_zagra','sesion_1','trabajo_1','sesion_2','trabajo_2','sesion_3','trabajo_3','plantillas','bibliografia'].filter(id=>id==='plantillas'||d.docs.some(x=>x.id===id));
  tabs.innerHTML=order.map(id=>'<button type="button" role="tab" data-id="'+id+'">'+(SHORT[id][0]?'<span class="k">'+SHORT[id][0]+'</span>':'')+esc(SHORT[id][1])+'</button>').join('');
  document.getElementById('estado').textContent=d.intro;
  const h=location.hash.slice(1);if(h&&order.includes(h))open(h);

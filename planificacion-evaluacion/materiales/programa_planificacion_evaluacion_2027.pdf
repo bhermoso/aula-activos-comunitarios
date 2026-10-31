@@ -70,7 +70,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 9 0 R /F2 10 0 R >> >> /Contents 6 0 R >>
 endobj
 6 0 obj
-<< /Length 5109 >>
+<< /Length 5556 >>
 stream
 0.14 0.42 0.33 rg 0 826.89 595.28 15 re f
 0.92 0.95 0.91 rg 0 713.89 595.28 113 re f
@@ -96,29 +96,31 @@ BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 532.69 Tm (T3 · 5 h) Tj ET
 BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 521.49 Tm (Contenido: Marco de evaluación y plan de devolución · Formato: No presencial) Tj ET
 BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 471.89 Tm (Metodología) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 459.89 m 544.28 459.89 l S
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 443.89 Tm (Aprendizaje basado en un caso progresivo: Sierranueva, municipio ficticio con datos inventados para la docencia. Cada sesión) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 429.69 Tm (parte del producto entregado en el trabajo anterior, de modo que al final el alumnado dispone de una cadena completa:) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 415.49 Tm (prioridad, objetivos, actuaciones, indicadores y marco de evaluación. Se admite trabajar sobre el territorio propio si se) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 401.29 Tm (dispone de información pública o autorizada; en ese caso no se incorporan datos personales ni información clínica individual.) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 387.09 Tm (Trabajo en grupos interprofesionales de 4 a 5 personas, procurando que en cada grupo haya perfiles de enfermería, trabajo) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 372.89 Tm (social y medicina.) Tj ET
-BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 336.69 Tm (Aportación de cada perfil profesional) Tj ET
-0.81 0.88 0.82 RG 0.6 w 51 324.69 m 544.28 324.69 l S
-0.92 0.95 0.91 rg 51 261.69 493.28 59 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 308.69 Tm (Enfermería Familiar y Comunitaria) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 297.49 Tm (Aportación habitual al ciclo: Conocimiento de familias y cuidados, educación para la salud grupal, recomendación de activos,) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 285.89 Tm (seguimiento de actuaciones en el centro de salud · Riesgo que conviene vigilar: Reducir la acción local a actividades grupales del) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 274.29 Tm (centro de salud) Tj ET
-0.92 0.95 0.91 rg 51 198.69 493.28 59 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 245.69 Tm (Trabajo social) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 234.49 Tm (Aportación habitual al ciclo: Lectura de determinantes sociales, redes y recursos del territorio, coordinación intersectorial y) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 222.89 Tm (con servicios sociales comunitarios · Riesgo que conviene vigilar: Que el diagnóstico social quede como anexo y no informe la) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 211.29 Tm (priorización) Tj ET
-0.92 0.95 0.91 rg 51 135.69 493.28 59 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 182.69 Tm (Medicina) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 171.49 Tm (Aportación habitual al ciclo: Lectura epidemiológica, consulta orientada a la comunidad, identificación de patrones en la práctica) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 159.89 Tm (clínica, comparación de indicadores · Riesgo que conviene vigilar: Priorizar solo lo que se mide bien y desatender necesidades) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 148.29 Tm (sentidas) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 443.89 Tm (Aprendizaje basado en un caso real y progresivo: el proceso de planificación local de Zagra \(Granada\), con adhesión a RELAS) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 429.69 Tm (en 2016, un primer ciclo en 2017-2018 y un segundo ciclo abierto en 2026. El caso permite trabajar con lo que suele) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 415.49 Tm (encontrarse en la práctica: fuentes de fechas distintas, una priorización antigua con un método poco documentado, una) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 401.29 Tm (consulta ciudadana reciente y una propuesta de plan que todavía no es una decisión. Cada sesión parte del producto entregado) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 387.09 Tm (en el trabajo anterior, de modo que al final el alumnado dispone de una cadena completa: prioridad, objetivos, actuaciones,) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 372.89 Tm (indicadores y marco de evaluación. Se admite trabajar sobre el territorio propio si se dispone de información pública o) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 358.69 Tm (autorizada; en ningún caso se incorporan datos personales ni información clínica individual. Trabajo en grupos) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 344.49 Tm (interprofesionales de 4 a 5 personas, procurando que en cada grupo haya perfiles de enfermería, trabajo social y medicina.) Tj ET
+BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 308.29 Tm (Aportación de cada perfil profesional) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 296.29 m 544.28 296.29 l S
+0.92 0.95 0.91 rg 51 233.29 493.28 59 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 280.29 Tm (Enfermería Familiar y Comunitaria) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 269.09 Tm (Aportación habitual al ciclo: Conocimiento de familias y cuidados, educación para la salud grupal, recomendación de activos,) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 257.49 Tm (seguimiento de actuaciones en el centro de salud · Riesgo que conviene vigilar: Reducir la acción local a actividades grupales del) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 245.89 Tm (centro de salud) Tj ET
+0.92 0.95 0.91 rg 51 170.29 493.28 59 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 217.29 Tm (Trabajo social) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 206.09 Tm (Aportación habitual al ciclo: Lectura de determinantes sociales, redes y recursos del territorio, coordinación intersectorial y) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 194.49 Tm (con servicios sociales comunitarios · Riesgo que conviene vigilar: Que el diagnóstico social quede como anexo y no informe la) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 182.89 Tm (priorización) Tj ET
+0.92 0.95 0.91 rg 51 107.29 493.28 59 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 154.29 Tm (Medicina) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 143.09 Tm (Aportación habitual al ciclo: Lectura epidemiológica, consulta orientada a la comunidad, identificación de patrones en la práctica) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 131.49 Tm (clínica, comparación de indicadores · Riesgo que conviene vigilar: Priorizar solo lo que se mide bien y desatender necesidades) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 119.89 Tm (sentidas) Tj ET
 BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 39 Tm (Planificación y evaluación en salud local  -  2 / 3) Tj ET
 BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 440.28 39 Tm (Revision 31/10/2026) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 51 m 544.28 51 l S
@@ -128,7 +130,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 9 0 R /F2 10 0 R >> >> /Contents 8 0 R >>
 endobj
 8 0 obj
-<< /Length 4266 >>
+<< /Length 4600 >>
 stream
 0.14 0.42 0.33 rg 0 826.89 595.28 15 re f
 0.92 0.95 0.91 rg 0 713.89 595.28 113 re f
@@ -167,10 +169,12 @@ BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 363.69 Tm (Trabajos no presenciales) 
 BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 314.09 Tm (Estado de esta propuesta) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 302.09 m 544.28 302.09 l S
 BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 286.09 Tm (Propuesta docente. Fechas, sede, acreditación y profesorado pendientes de concretar y validar por la entidad organizadora.) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 271.89 Tm (El caso Sierranueva es ficticio: sus cifras no describen ningún municipio real y no deben citarse fuera del curso.) Tj ET
-0.81 0.88 0.82 RG 0.6 w 51 247.69 m 544.28 247.69 l S
-BT /F1 8.1 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 230.69 Tm (El caso Sierranueva es ficticio: sus datos son inventados para la docencia. No incorporar datos personales ni información clínica individual) Tj ET
-BT /F1 8.1 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 218.19 Tm (en los trabajos.) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 271.89 Tm (El caso Zagra usa documentación del expediente territorial; antes de cada edición conviene comprobar con el equipo del) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 257.69 Tm (distrito y el Ayuntamiento si ha cambiado la situación del proceso \(acuerdos del Grupo Motor, Perfil validado, Plan) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 243.49 Tm (aprobado\). Del inventario de activos de 2016 no se reproducen nombres ni teléfonos de personas.) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 219.29 m 544.28 219.29 l S
+BT /F1 8.1 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 202.29 Tm (Caso de trabajo: Zagra, con datos del expediente territorial y sus fuentes. No incorporar datos personales ni información clínica individual) Tj ET
+BT /F1 8.1 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 189.79 Tm (en los trabajos.) Tj ET
 BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 39 Tm (Planificación y evaluación en salud local  -  3 / 3) Tj ET
 BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 440.28 39 Tm (Revision 31/10/2026) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 51 m 544.28 51 l S
@@ -191,12 +195,12 @@ xref
 0000000276 00000 n 
 0000005786 00000 n 
 0000005929 00000 n 
-0000011089 00000 n 
-0000011232 00000 n 
-0000015549 00000 n 
-0000015646 00000 n 
+0000011536 00000 n 
+0000011679 00000 n 
+0000016330 00000 n 
+0000016427 00000 n 
 trailer
 << /Root 1 0 R /Size 11 >>
 startxref
-15749
+16530
 %%EOF
