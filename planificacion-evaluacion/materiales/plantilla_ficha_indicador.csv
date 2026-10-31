@@ -1,0 +1,16 @@
+campo;contenido
+nombre;
+tipo(proceso/resultado/impacto);
+objetivo_o_actuacion_vinculada;
+definicion_operativa;
+numerador;
+denominador;
+fuente_y_custodia;
+frecuencia_de_medicion;
+tiempo_cero_valor;
+tiempo_cero_fecha;
+meta;
+justificacion_de_la_meta;
+responsable_de_medicion(cargo);
+actuaciones_que_aportan_datos;
+cautelas;

@@ -1,0 +1,127 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102a28"><meta name="description" content="Curso de planificación y evaluación de la promoción de la salud y la acción local en salud. Aula de salud comunitaria."><title>Planificación y evaluación en salud local</title>
+<link rel="stylesheet" href="../assets/aula-portadas.css?v=20261020-escala1">
+<style>
+/* Misma identidad que el Aula: verde profundo, papel claro, Georgia en titulares. Acento propio del curso: azul pizarra. */
+:root{color-scheme:light;--ink:#183a37;--deep:#102a28;--muted:#5d716f;--teal:#137c73;--acc:#2f5f86;--acc-soft:#e7eff6;--acc-line:#bcd0e2;--sand:#f6f5ef;--line:#dce5e0;--white:#fff;--warn-bg:#fff7e9;--warn-line:#d9b781;--shadow:0 14px 45px rgba(18,52,45,.07)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;color:#243b39;background:var(--sand);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.58;font-size:15px}
+a{color:var(--teal)}a:focus-visible,button:focus-visible{outline:3px solid #edb957;outline-offset:3px}
+button{font:inherit;cursor:pointer}[hidden]{display:none!important}
+.skip{position:absolute;left:-999px;top:0;background:#fff;padding:1rem;z-index:90}.skip:focus{left:0}
+.portada{--cover-accent:#b9d3ea;min-height:100svh}
+.portada .pcard .lv{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--cover-accent);font-weight:800}
+.portada-cursos{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:900px){.portada-cursos{grid-template-columns:minmax(0,1fr)}}
+.portada .cta{cursor:pointer;border:0}
+/* aplicación */
+.top{position:sticky;top:0;z-index:20;background:var(--deep);color:#fff;display:flex;align-items:center;gap:14px;padding:10px clamp(16px,4vw,40px);flex-wrap:wrap}
+.top strong{font-size:12px;letter-spacing:.12em}.top a,.top button{color:#cfe8dc;background:none;border:0;font-size:13px;text-decoration:none;padding:0}
+.top .sp{flex:1}
+.tabs{display:flex;gap:6px;overflow-x:auto;padding:10px clamp(16px,4vw,40px);background:#fff;border-bottom:1px solid var(--line);position:sticky;top:42px;z-index:19;scrollbar-width:thin}
+.tabs button{flex:0 0 auto;border:1px solid var(--line);background:var(--sand);color:var(--ink);border-radius:30px;padding:6px 13px;font-size:13px;font-weight:600}
+.tabs button[aria-selected="true"]{background:var(--acc);border-color:var(--acc);color:#fff}
+.tabs button .k{opacity:.7;font-weight:700;margin-right:5px}
+main{max-width:980px;margin:0 auto;padding:26px clamp(16px,4vw,32px) 80px}
+.doc-head{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px 26px;box-shadow:var(--shadow);margin-bottom:18px}
+.doc-head .meta{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--acc);font-weight:800}
+.doc-head h1{font-family:Georgia,serif;font-weight:600;font-size:clamp(26px,4vw,38px);line-height:1.12;letter-spacing:-.02em;margin:8px 0 10px;color:var(--ink)}
+.doc-head p{margin:0;color:var(--muted);font-size:16px;max-width:70ch}
+.doc-head .acts{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.btn{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--acc);color:var(--acc);background:#fff;border-radius:9px;padding:7px 13px;font-size:13px;font-weight:700;text-decoration:none}
+.btn.solid{background:var(--acc);color:#fff}
+section.blk{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px 24px;margin:0 0 14px}
+section.blk h2{font-family:Georgia,serif;font-weight:600;font-size:21px;color:var(--ink);margin:0 0 10px;line-height:1.25}
+section.blk p{margin:0 0 10px;max-width:75ch}
+section.blk ul{margin:0;padding-left:20px}section.blk li{margin:5px 0;max-width:75ch}
+.tw{overflow-x:auto;margin-top:6px}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;vertical-align:top;padding:9px 10px;border-bottom:1px solid var(--line)}
+th{background:var(--acc-soft);color:var(--ink);font-size:12.5px;letter-spacing:.02em}
+td:first-child{font-weight:600;color:var(--ink)}
+.note{border-left:4px solid var(--warn-line);background:var(--warn-bg);padding:12px 16px;border-radius:8px;margin:0 0 16px;font-size:14px}
+.chain{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:4px 0 12px}
+.chain span{background:var(--acc-soft);border:1px solid var(--acc-line);border-radius:8px;padding:5px 10px;font-size:13px;font-weight:600;color:var(--ink)}
+.chain i{color:var(--muted);font-style:normal}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media(max-width:700px){.grid{grid-template-columns:1fr}}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.card h3{margin:0 0 6px;font-size:16px;color:var(--ink)}.card p{margin:0 0 10px;font-size:14px;color:var(--muted)}
+.pager{display:flex;justify-content:space-between;gap:10px;margin-top:22px}
+footer{font-size:12.5px;color:var(--muted);text-align:center;padding:20px 16px 40px}
+@media(max-width:600px){section.blk{padding:16px}.doc-head{padding:18px}.tabs{top:0;position:static}}
+@media print{.top,.tabs,.pager,.acts,footer{display:none!important}body{background:#fff}section.blk,.doc-head{box-shadow:none;break-inside:avoid}}
+</style></head><body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<section class="portada" id="portada" aria-label="Portada del curso">
+<div class="portada-bar"><strong>AULA · SALUD COMUNITARIA</strong><a href="../">← Volver al Aula</a></div>
+<div class="portada-hero"><div><div class="p-kicker">Curso · Propuesta 2027 · 30 horas</div><h1>Planificación y evaluación <span>de la promoción de la salud y la acción local</span></h1><p>Para enfermería familiar y comunitaria, trabajo social y medicina. Un único recorrido: priorizar con evidencia, diseñar actuaciones con responsable y planificar desde el inicio cómo se evaluará.</p><div class="fecha">3 sesiones presenciales · 3 trabajos no presenciales · Caso progresivo</div></div>
+<div class="form-art" aria-hidden="true"><div class="fh"><span>PLAN EVALUABLE</span><span>FICHA</span></div><div class="fr"><b>Prioridad</b><span>Decisión deliberativa documentada</span></div><div class="fr"><b>Objetivo</b><span>Cambio verificable con plazo</span></div><div class="fr"><b>Actuación</b><span>Responsable · calendario · recursos</span></div><div class="fr"><b>Indicador</b><span>Tiempo cero · meta · fuente</span></div><div class="br">Evaluar se decide al planificar</div></div></div>
+<div class="portada-cursos">
+<article class="pcard"><div class="lv">Sesión 1 · Trabajo 1</div><h2>Del territorio a las prioridades</h2><p>Ciclo de planificación, estatuto de la evidencia, activos, participación y priorización deliberativa.</p><div class="units"><span>Ciclo</span><span>Necesidades</span><span>Hanlon</span></div><button class="cta" data-open="sesion_1">Entrar →</button></article>
+<article class="pcard"><div class="lv">Sesión 2 · Trabajo 2</div><h2>Del objetivo a la actuación</h2><p>Objetivos verificables, actuaciones y actividades, responsables, fichas de indicador y revisión de EpS grupal.</p><div class="units"><span>Objetivos</span><span>Indicadores</span><span>Checklist</span></div><button class="cta" data-open="sesion_2">Entrar →</button></article>
+<article class="pcard"><div class="lv">Sesión 3 · Trabajo 3</div><h2>Evaluar la acción local</h2><p>Seguimiento y evaluación, registros de actividad, métodos cualitativos, devolución y cierre del ciclo.</p><div class="units"><span>Proceso</span><span>Resultados</span><span>Devolución</span></div><button class="cta" data-open="sesion_3">Entrar →</button></article>
+</div>
+<div class="portada-pie" style="text-align:center;padding:0 16px 28px"><button class="cta" data-open="programa_planificacion_evaluacion_2027" style="background:none;color:#cfe8dc;text-decoration:underline">Ver el programa completo</button></div>
+</section>
+
+<div id="app" hidden>
+<div class="top"><strong>PLANIFICACIÓN Y EVALUACIÓN</strong><span class="sp"></span><button type="button" data-cover>Portada del curso</button><a href="../">Aula</a></div>
+<nav class="tabs" id="tabs" role="tablist" aria-label="Materiales del curso"></nav>
+<main id="contenido" tabindex="-1"><div class="note" id="estado"></div><div id="doc"></div><div class="pager" id="pager"></div></main>
+<footer>Aula de Salud Comunitaria · Propuesta docente pendiente de validación institucional · Textos: Blas R. Hermoso</footer>
+</div>
+
+<script>
+(function(){
+'use strict';
+const SHORT={programa_planificacion_evaluacion_2027:['','Programa'],caso_sierranueva:['','Caso'],sesion_1:['S1','Territorio y prioridades'],trabajo_1:['T1','Priorización'],sesion_2:['S2','Objetivo y actuación'],trabajo_2:['T2','Plan de acción'],sesion_3:['S3','Evaluar'],trabajo_3:['T3','Marco de evaluación'],plantillas:['','Plantillas'],bibliografia:['','Bibliografía']};
+const TEMPLATES=[
+ ['plantilla_priorizacion.csv','Priorización','Necesidades, evidencia, estatuto, criterios Hanlon, filtro PEARL y decisión motivada. Trabajo 1.'],
+ ['plantilla_plan_accion.csv','Plan de acción','Cadena prioridad, objetivos, actuaciones, titularidad, responsable, calendario e indicadores. Trabajo 2.'],
+ ['plantilla_ficha_indicador.csv','Ficha de indicador','Definición operativa, fuente, tiempo cero, meta, responsable y cautelas. Trabajos 2 y 3.'],
+ ['plantilla_plan_evaluacion.csv','Plan de evaluación','Preguntas, decisiones que informan, fuentes, momentos, responsables y devolución. Trabajo 3.']];
+const TOOLS=[
+ ['https://github.com/bhermoso/CHECKLISTPLANIFICACION','Lista de comprobación de planificación de EpS grupal','44 ítems en siete secciones. Sesión 2 y Trabajo 2.'],
+ ['https://github.com/bhermoso/CHECKLISTEVALUACION','Lista de comprobación de evaluación de EpS grupal','33 ítems en seis secciones. Sesión 3 y Trabajo 3.']];
+const cover=document.getElementById('portada'),app=document.getElementById('app');
+const tabs=document.getElementById('tabs'),out=document.getElementById('doc'),pager=document.getElementById('pager');
+let data=null,order=[];
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function el(html){const t=document.createElement('template');t.innerHTML=html.trim();return t.content;}
+function table(t){return '<div class="tw"><table><thead><tr>'+t.head.map(h=>'<th scope="col">'+esc(h)+'</th>').join('')+'</tr></thead><tbody>'+t.rows.map(r=>'<tr>'+r.map(c=>'<td>'+esc(c)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>';}
+function chain(p){const parts=p.split('. ');const first=parts[0];if(first.indexOf('→')<0)return '<p>'+esc(p)+'</p>';const items=first.split('→').map(s=>s.trim());return '<div class="chain">'+items.map((x,i)=>(i?'<i>→</i>':'')+'<span>'+esc(x.charAt(0).toUpperCase()+x.slice(1))+'</span>').join('')+'</div><p>'+esc(parts.slice(1).join('. '))+'</p>';}
+function renderDoc(doc){
+ let h='<header class="doc-head"><div class="meta">'+esc(doc.nivel)+' · '+esc(doc.clase)+' · '+esc(doc.duracion)+'</div><h1>'+esc(doc.titulo)+'</h1><p>'+esc(doc.subtitulo)+'</p><div class="acts"><a class="btn solid" href="materiales/'+doc.id+'.pdf" download>Descargar PDF</a><button class="btn" type="button" onclick="window.print()">Imprimir</button></div></header>';
+ for(const s of doc.sections){h+='<section class="blk"><h2>'+esc(s.h)+'</h2>';if(s.p)h+=(s.p.indexOf('→')>=0?chain(s.p):'<p>'+esc(s.p)+'</p>');if(s.bullets)h+='<ul>'+s.bullets.map(b=>'<li>'+esc(b)+'</li>').join('')+'</ul>';if(s.table)h+=table(s.table);h+='</section>';}
+ return h;}
+function renderTemplates(){
+ let h='<header class="doc-head"><div class="meta">Curso · Herramientas</div><h1>Plantillas y listas de comprobación</h1><p>Plantillas CSV separadas por punto y coma, para abrir con una hoja de cálculo. Se completan sin datos personales ni información clínica individual.</p></header>';
+ h+='<section class="blk"><h2>Plantillas de los trabajos</h2><div class="grid">'+TEMPLATES.map(t=>'<div class="card"><h3>'+esc(t[1])+'</h3><p>'+esc(t[2])+'</p><a class="btn" href="materiales/'+t[0]+'" download>Descargar CSV</a></div>').join('')+'</div></section>';
+ h+='<section class="blk"><h2>Listas de comprobación de EpS grupal</h2><p>B. R. Hermoso y J. Serrano, Distrito AP Granada-Metropolitano, 2025. En el curso interesa menos el porcentaje total que las secciones con menor cumplimiento.</p><div class="grid">'+TOOLS.map(t=>'<div class="card"><h3>'+esc(t[1])+'</h3><p>'+esc(t[2])+'</p><a class="btn" href="'+t[0]+'" rel="noopener">Abrir repositorio</a></div>').join('')+'</div></section>';
+ return h;}
+function show(id,focus){
+ if(!order.includes(id))id=order[0];
+ out.innerHTML=id==='plantillas'?renderTemplates():renderDoc(data.docs.find(d=>d.id===id));
+ tabs.querySelectorAll('button').forEach(b=>b.setAttribute('aria-selected',b.dataset.id===id?'true':'false'));
+ const sel=tabs.querySelector('[aria-selected="true"]');if(sel&&sel.scrollIntoView)sel.scrollIntoView({block:'nearest',inline:'center'});
+ const i=order.indexOf(id),prev=order[i-1],next=order[i+1];
+ pager.innerHTML=(prev?'<button class="btn" data-go="'+prev+'">← '+esc(SHORT[prev][1])+'</button>':'<span></span>')+(next?'<button class="btn solid" data-go="'+next+'">'+esc(SHORT[next][1])+' →</button>':'');
+ if(location.hash!=='#'+id)history.replaceState(null,'','#'+id);
+ if(focus){window.scrollTo(0,0);document.getElementById('contenido').focus({preventScroll:true});}
+}
+function open(id){cover.hidden=true;app.hidden=false;show(id,true);}
+function closeApp(){app.hidden=true;cover.hidden=false;history.replaceState(null,'',location.pathname);window.scrollTo(0,0);}
+document.addEventListener('click',e=>{const o=e.target.closest('[data-open]');if(o){e.preventDefault();open(o.dataset.open);return;}const g=e.target.closest('[data-go]');if(g){show(g.dataset.go,true);return;}if(e.target.closest('[data-cover]'))closeApp();});
+window.addEventListener('hashchange',()=>{const h=location.hash.slice(1);if(data&&order.includes(h))open(h);});
+tabs.addEventListener('click',e=>{const b=e.target.closest('button[data-id]');if(b)show(b.dataset.id,true);});
+fetch('materiales_2027.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json();}).then(d=>{
+ data=d;
+ order=['programa_planificacion_evaluacion_2027','caso_sierranueva','sesion_1','trabajo_1','sesion_2','trabajo_2','sesion_3','trabajo_3','plantillas','bibliografia'].filter(id=>id==='plantillas'||d.docs.some(x=>x.id===id));
+ tabs.innerHTML=order.map(id=>'<button type="button" role="tab" data-id="'+id+'">'+(SHORT[id][0]?'<span class="k">'+SHORT[id][0]+'</span>':'')+esc(SHORT[id][1])+'</button>').join('');
+ document.getElementById('estado').textContent=d.intro;
+ const h=location.hash.slice(1);if(h&&order.includes(h))open(h);
+}).catch(()=>{document.querySelectorAll('[data-open]').forEach(b=>b.disabled=true);const n=document.createElement('p');n.style.cssText='color:#fff;text-align:center;padding:0 16px 30px';n.textContent='No se han podido cargar los materiales. Abra la página desde un servidor web (no como archivo local).';cover.appendChild(n);});
+})();
+</script>
+</body></html>
