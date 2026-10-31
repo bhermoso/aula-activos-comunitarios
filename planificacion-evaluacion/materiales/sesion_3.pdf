@@ -72,7 +72,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 11 0 R /F2 12 0 R >> >> /Contents 6 0 R >>
 endobj
 6 0 obj
-<< /Length 5009 >>
+<< /Length 5097 >>
 stream
 0.14 0.42 0.33 rg 0 826.89 595.28 15 re f
 0.92 0.95 0.91 rg 0 713.89 595.28 113 re f
@@ -91,38 +91,39 @@ BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 591.29 Tm (Contribución y atribución
 BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 563.29 Tm (En un plan local de cuatro años rara vez puede atribuirse un cambio en la salud de la población a las actuaciones del plan:) Tj ET
 BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 549.09 Tm (influyen otros factores y el tamaño de la población limita la precisión. Lo razonable suele ser evaluar el proceso con) Tj ET
 BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 534.89 Tm (exhaustividad, los resultados intermedios con rigor y el impacto como contribución plausible, declarando los límites.) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 520.69 Tm (Prometer impacto atribuible que no podrá demostrarse debilita la credibilidad del plan.) Tj ET
-BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 484.49 Tm (Dimensiones útiles \(marco RE-AIM\)) Tj ET
-0.81 0.88 0.82 RG 0.6 w 51 472.49 m 544.28 472.49 l S
-0.92 0.95 0.91 rg 51 432.69 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 456.49 Tm (Alcance) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 445.29 Tm (¿Qué proporción de la población destinataria participó? ¿Quién quedó fuera?) Tj ET
-0.92 0.95 0.91 rg 51 392.89 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 416.69 Tm (Efectividad) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 405.49 Tm (¿Qué cambió en quienes participaron?) Tj ET
-0.92 0.95 0.91 rg 51 353.09 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 376.89 Tm (Adopción) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 365.69 Tm (¿Qué entidades y profesionales se sumaron?) Tj ET
-0.92 0.95 0.91 rg 51 313.29 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 337.09 Tm (Implementación) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 325.89 Tm (¿Se hizo lo previsto? ¿Qué se adaptó y por qué?) Tj ET
-0.92 0.95 0.91 rg 51 273.49 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 297.29 Tm (Mantenimiento) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 286.09 Tm (¿Continúa la actuación cuando termina el apoyo inicial?) Tj ET
-BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 236.49 Tm (2. Qué dice un registro de actividad) Tj ET
-0.81 0.88 0.82 RG 0.6 w 51 224.49 m 544.28 224.49 l S
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 208.49 Tm (El RAPS \(Registro de Actuaciones de Promoción de la Salud\) recoge en REDCap las actividades de promoción de la salud que) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 194.29 Tm (registran los profesionales del Distrito Sanitario Granada-Metropolitano y permite explorarlas por distrito, unidad y) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 180.09 Tm (profesional, con procesamiento local en el navegador. Un registro así es una buena fuente para el seguimiento de proceso.) Tj ET
-0.14 0.42 0.33 rg 52 161.99 4 4 re f
-BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 160.89 Tm (Puede informar: qué actividades se hicieron, dónde, cuándo, con qué temática y cuántas sesiones.) Tj ET
-0.14 0.42 0.33 rg 52 143.79 4 4 re f
-BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 142.69 Tm (Requiere cautela: la exhaustividad depende de que se registre todo lo realizado; sin registro no se puede afirmar que algo) Tj ET
-BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 129.49 Tm (no se hizo.) Tj ET
-0.14 0.42 0.33 rg 52 112.39 4 4 re f
-BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 111.29 Tm (No puede informar por sí solo: si las personas cambiaron sus conductas o si mejoró su salud.) Tj ET
-0.14 0.42 0.33 rg 52 94.19 4 4 re f
-BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 93.09 Tm (Asistencias no equivalen a personas: sin identificador único no se eliminan duplicados.) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 520.69 Tm (Prometer impacto atribuible que no podrá demostrarse debilita la credibilidad del plan. Zagra lo muestra con claridad: 17) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 506.49 Tm (defunciones en 2015 dieron una tasa bruta de 18,9 por mil; con esa población, la variación de un año a otro puede deberse al) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 492.29 Tm (azar. Un plan local para un municipio de este tamaño debe evaluarse sobre todo por su proceso y por los cambios en las) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 478.09 Tm (personas participantes.) Tj ET
+BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 441.89 Tm (Dimensiones útiles \(marco RE-AIM\)) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 429.89 m 544.28 429.89 l S
+0.92 0.95 0.91 rg 51 390.09 493.28 35.8 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 413.89 Tm (Alcance) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 402.69 Tm (¿Qué proporción de la población destinataria participó? ¿Quién quedó fuera?) Tj ET
+0.92 0.95 0.91 rg 51 350.29 493.28 35.8 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 374.09 Tm (Efectividad) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 362.89 Tm (¿Qué cambió en quienes participaron?) Tj ET
+0.92 0.95 0.91 rg 51 310.49 493.28 35.8 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 334.29 Tm (Adopción) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 323.09 Tm (¿Qué entidades y profesionales se sumaron?) Tj ET
+0.92 0.95 0.91 rg 51 270.69 493.28 35.8 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 294.49 Tm (Implementación) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 283.29 Tm (¿Se hizo lo previsto? ¿Qué se adaptó y por qué?) Tj ET
+0.92 0.95 0.91 rg 51 230.89 493.28 35.8 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 254.69 Tm (Mantenimiento) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 243.49 Tm (¿Continúa la actuación cuando termina el apoyo inicial?) Tj ET
+BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 193.89 Tm (Preguntas de evaluación para Zagra \(ejemplos\)) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 181.89 m 544.28 181.89 l S
+0.14 0.42 0.33 rg 52 166.99 4 4 re f
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 165.89 Tm (Alcance: ¿qué proporción de las 198 personas de 65 años o más ha participado en alguna actuación? ¿Han participado) Tj ET
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 152.69 Tm (hombres y mujeres, y población de nacionalidad extranjera?) Tj ET
+0.14 0.42 0.33 rg 52 135.59 4 4 re f
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 134.49 Tm (Efectividad: ¿ha disminuido la soledad percibida en las personas incorporadas a la intervención, medida con la misma escala) Tj ET
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 121.29 Tm (al inicio y en el seguimiento?) Tj ET
+0.14 0.42 0.33 rg 52 104.19 4 4 re f
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 103.09 Tm (Adopción: ¿cuántos de los activos registrados en Localiza Salud participan en el plan?) Tj ET
+0.14 0.42 0.33 rg 52 85.99 4 4 re f
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 84.89 Tm (Implementación: ¿se mantuvieron las actividades previstas? ¿Qué se adaptó?) Tj ET
 BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 39 Tm (Planificación y evaluación en salud local  -  2 / 4) Tj ET
 BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 440.28 39 Tm (Revision 31/10/2026) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 51 m 544.28 51 l S
@@ -132,7 +133,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 11 0 R /F2 12 0 R >> >> /Contents 8 0 R >>
 endobj
 8 0 obj
-<< /Length 4478 >>
+<< /Length 4785 >>
 stream
 0.14 0.42 0.33 rg 0 826.89 595.28 15 re f
 0.92 0.95 0.91 rg 0 713.89 595.28 113 re f
@@ -140,46 +141,48 @@ BT /F2 8 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 802.89 Tm (AULA DE SALUD COMUNITARIA · 
 BT /F2 17.3 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 775.89 Tm (Evaluar la promoción de la salud y la acción local) Tj ET
 BT /F1 8.2 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 724.89 Tm (SESIÓN 3   |   Sesión presencial   |   5 horas presenciales) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 708.89 m 544.28 708.89 l S
-BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 679.89 Tm (3. Matriz de evaluación) Tj ET
-0.81 0.88 0.82 RG 0.6 w 51 667.89 m 544.28 667.89 l S
-0.92 0.95 0.91 rg 51 628.09 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 651.89 Tm (Pregunta de evaluación) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 640.69 Tm (Qué se quiere saber y para qué decisión) Tj ET
-0.92 0.95 0.91 rg 51 588.29 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 612.09 Tm (Indicador o información) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 600.89 Tm (Cuantitativa o cualitativa) Tj ET
-0.92 0.95 0.91 rg 51 548.49 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 572.29 Tm (Fuente e instrumento) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 561.09 Tm (Registro, cuestionario, entrevista, grupo, observación) Tj ET
-0.92 0.95 0.91 rg 51 508.69 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 532.49 Tm (Momento) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 521.29 Tm (Tiempo cero, durante la ejecución, al final, seguimiento) Tj ET
-0.92 0.95 0.91 rg 51 468.89 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 492.69 Tm (Responsable) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 481.49 Tm (Cargo) Tj ET
-0.92 0.95 0.91 rg 51 429.09 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 452.89 Tm (Uso previsto) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 441.69 Tm (Quién recibirá el resultado y qué podrá decidir con él) Tj ET
-BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 392.09 Tm (Lista de comprobación de evaluación de EpS grupal) Tj ET
-0.81 0.88 0.82 RG 0.6 w 51 380.09 m 544.28 380.09 l S
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 364.09 Tm (33 ítems en seis secciones: planificación de la evaluación, proceso, resultados, impacto, instrumentos, y análisis y uso de) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 349.89 Tm (resultados. Se aplica a la actuación grupal revisada en T2. Ítems que suelen fallar: línea base asegurada antes de empezar,) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 335.69 Tm (instrumentos pilotados, estrategia para reducir pérdidas de seguimiento y devolución de resultados a participantes.) Tj ET
-BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 299.49 Tm (4. Métodos cualitativos y participativos) Tj ET
-0.81 0.88 0.82 RG 0.6 w 51 287.49 m 544.28 287.49 l S
-0.14 0.42 0.33 rg 52 272.59 4 4 re f
-BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 271.49 Tm (Grupos de discusión y entrevistas: por qué funcionó o no, para quién y en qué condiciones.) Tj ET
-0.14 0.42 0.33 rg 52 254.39 4 4 re f
-BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 253.29 Tm (Técnica del cambio más significativo: relatos de cambio seleccionados colectivamente.) Tj ET
-0.14 0.42 0.33 rg 52 236.19 4 4 re f
-BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 235.09 Tm (Observación y diario de campo de las actividades.) Tj ET
-0.14 0.42 0.33 rg 52 217.99 4 4 re f
-BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 216.89 Tm (Evaluación con la comunidad: el Grupo Motor y los participantes interpretan los resultados, no solo los reciben.) Tj ET
-BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 181.69 Tm (Devolución y cierre del ciclo) Tj ET
-0.81 0.88 0.82 RG 0.6 w 51 169.69 m 544.28 169.69 l S
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 153.69 Tm (El informe de evaluación tiene al menos tres destinatarios: el Grupo Motor y la corporación \(decisiones\), los equipos que) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 139.49 Tm (ejecutan \(mejora\) y la comunidad \(rendición de cuentas\). Cada uno necesita un formato distinto. La evaluación final es el) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 125.29 Tm (punto de partida del siguiente diagnóstico: lo que se midió con la misma definición se convierte en serie temporal.) Tj ET
+0.14 0.42 0.33 rg 52 692.99 4 4 re f
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 691.89 Tm (Mantenimiento: ¿siguen las actuaciones cuando cambia el personal del consultorio o la corporación municipal? En Zagra, el) Tj ET
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 678.69 Tm (ciclo de 2017-2018 no consta que se completara.) Tj ET
+BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 643.49 Tm (2. Qué dice un registro de actividad) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 631.49 m 544.28 631.49 l S
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 615.49 Tm (El RAPS \(Registro de Actuaciones de Promoción de la Salud\) recoge en REDCap las actividades de promoción de la salud que) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 601.29 Tm (registran los profesionales del Distrito Sanitario Granada-Metropolitano y permite explorarlas por distrito, unidad y) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 587.09 Tm (profesional, con procesamiento local en el navegador. Un registro así es una buena fuente para el seguimiento de proceso.) Tj ET
+0.14 0.42 0.33 rg 52 568.99 4 4 re f
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 567.89 Tm (Puede informar: qué actividades se hicieron, dónde, cuándo, con qué temática y cuántas sesiones.) Tj ET
+0.14 0.42 0.33 rg 52 550.79 4 4 re f
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 549.69 Tm (Requiere cautela: la exhaustividad depende de que se registre todo lo realizado; sin registro no se puede afirmar que algo) Tj ET
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 536.49 Tm (no se hizo.) Tj ET
+0.14 0.42 0.33 rg 52 519.39 4 4 re f
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 518.29 Tm (No puede informar por sí solo: si las personas cambiaron sus conductas o si mejoró su salud.) Tj ET
+0.14 0.42 0.33 rg 52 501.19 4 4 re f
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 500.09 Tm (Asistencias no equivalen a personas: sin identificador único no se eliminan duplicados.) Tj ET
+BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 464.89 Tm (3. Matriz de evaluación) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 452.89 m 544.28 452.89 l S
+0.92 0.95 0.91 rg 51 413.09 493.28 35.8 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 436.89 Tm (Pregunta de evaluación) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 425.69 Tm (Qué se quiere saber y para qué decisión) Tj ET
+0.92 0.95 0.91 rg 51 373.29 493.28 35.8 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 397.09 Tm (Indicador o información) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 385.89 Tm (Cuantitativa o cualitativa) Tj ET
+0.92 0.95 0.91 rg 51 333.49 493.28 35.8 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 357.29 Tm (Fuente e instrumento) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 346.09 Tm (Registro, cuestionario, entrevista, grupo, observación) Tj ET
+0.92 0.95 0.91 rg 51 293.69 493.28 35.8 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 317.49 Tm (Momento) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 306.29 Tm (Tiempo cero, durante la ejecución, al final, seguimiento) Tj ET
+0.92 0.95 0.91 rg 51 253.89 493.28 35.8 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 277.69 Tm (Responsable) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 266.49 Tm (Cargo) Tj ET
+0.92 0.95 0.91 rg 51 214.09 493.28 35.8 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 237.89 Tm (Uso previsto) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 226.69 Tm (Quién recibirá el resultado y qué podrá decidir con él) Tj ET
+BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 177.09 Tm (Lista de comprobación de evaluación de EpS grupal) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 165.09 m 544.28 165.09 l S
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 149.09 Tm (33 ítems en seis secciones: planificación de la evaluación, proceso, resultados, impacto, instrumentos, y análisis y uso de) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 134.89 Tm (resultados. Se aplica a la actuación grupal revisada en T2. Ítems que suelen fallar: línea base asegurada antes de empezar,) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 120.69 Tm (instrumentos pilotados, estrategia para reducir pérdidas de seguimiento y devolución de resultados a participantes.) Tj ET
 BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 39 Tm (Planificación y evaluación en salud local  -  3 / 4) Tj ET
 BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 440.28 39 Tm (Revision 31/10/2026) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 51 m 544.28 51 l S
@@ -189,7 +192,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 11 0 R /F2 12 0 R >> >> /Contents 10 0 R >>
 endobj
 10 0 obj
-<< /Length 1443 >>
+<< /Length 3014 >>
 stream
 0.14 0.42 0.33 rg 0 826.89 595.28 15 re f
 0.92 0.95 0.91 rg 0 713.89 595.28 113 re f
@@ -197,13 +200,28 @@ BT /F2 8 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 802.89 Tm (AULA DE SALUD COMUNITARIA · 
 BT /F2 17.3 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 775.89 Tm (Evaluar la promoción de la salud y la acción local) Tj ET
 BT /F1 8.2 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 724.89 Tm (SESIÓN 3   |   Sesión presencial   |   5 horas presenciales) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 708.89 m 544.28 708.89 l S
-BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 679.89 Tm (Criterio de cierre) Tj ET
+BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 679.89 Tm (4. Métodos cualitativos y participativos) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 667.89 m 544.28 667.89 l S
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 651.89 Tm (Cada grupo presenta tres preguntas de evaluación de su plan y explica con qué información responderá a cada una y quién) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 637.69 Tm (usará la respuesta.) Tj ET
-0.81 0.88 0.82 RG 0.6 w 51 613.49 m 544.28 613.49 l S
-BT /F1 8.1 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 596.49 Tm (El caso Sierranueva es ficticio: sus datos son inventados para la docencia. No incorporar datos personales ni información clínica individual) Tj ET
-BT /F1 8.1 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 583.99 Tm (en los trabajos.) Tj ET
+0.14 0.42 0.33 rg 52 652.99 4 4 re f
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 651.89 Tm (Grupos de discusión y entrevistas: por qué funcionó o no, para quién y en qué condiciones.) Tj ET
+0.14 0.42 0.33 rg 52 634.79 4 4 re f
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 633.69 Tm (Técnica del cambio más significativo: relatos de cambio seleccionados colectivamente.) Tj ET
+0.14 0.42 0.33 rg 52 616.59 4 4 re f
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 615.49 Tm (Observación y diario de campo de las actividades.) Tj ET
+0.14 0.42 0.33 rg 52 598.39 4 4 re f
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 597.29 Tm (Evaluación con la comunidad: el Grupo Motor y los participantes interpretan los resultados, no solo los reciben.) Tj ET
+BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 562.09 Tm (Devolución y cierre del ciclo) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 550.09 m 544.28 550.09 l S
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 534.09 Tm (El informe de evaluación tiene al menos tres destinatarios: el Grupo Motor y la corporación \(decisiones\), los equipos que) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 519.89 Tm (ejecutan \(mejora\) y la comunidad \(rendición de cuentas\). Cada uno necesita un formato distinto. La evaluación final es el) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 505.69 Tm (punto de partida del siguiente diagnóstico: lo que se midió con la misma definición se convierte en serie temporal.) Tj ET
+BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 469.49 Tm (Criterio de cierre) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 457.49 m 544.28 457.49 l S
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 441.49 Tm (Cada grupo presenta tres preguntas de evaluación de su plan y explica con qué información responderá a cada una y quién) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 427.29 Tm (usará la respuesta.) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 403.09 m 544.28 403.09 l S
+BT /F1 8.1 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 386.09 Tm (Caso de trabajo: Zagra, con datos del expediente territorial y sus fuentes. No incorporar datos personales ni información clínica individual) Tj ET
+BT /F1 8.1 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 373.59 Tm (en los trabajos.) Tj ET
 BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 39 Tm (Planificación y evaluación en salud local  -  4 / 4) Tj ET
 BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 440.28 39 Tm (Revision 31/10/2026) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 51 m 544.28 51 l S
@@ -224,14 +242,14 @@ xref
 0000000283 00000 n 
 0000004872 00000 n 
 0000005016 00000 n 
-0000010076 00000 n 
-0000010220 00000 n 
-0000014749 00000 n 
-0000014894 00000 n 
-0000016389 00000 n 
-0000016487 00000 n 
+0000010164 00000 n 
+0000010308 00000 n 
+0000015144 00000 n 
+0000015289 00000 n 
+0000018355 00000 n 
+0000018453 00000 n 
 trailer
 << /Root 1 0 R /Size 13 >>
 startxref
-16590
+18556
 %%EOF

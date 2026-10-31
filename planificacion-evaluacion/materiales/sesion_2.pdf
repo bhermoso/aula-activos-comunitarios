@@ -4,10 +4,10 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Count 4 /Kids [3 0 R 5 0 R 7 0 R 9 0 R] >>
+<< /Type /Pages /Count 5 /Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R] >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 11 0 R /F2 12 0 R >> >> /Contents 4 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 13 0 R /F2 14 0 R >> >> /Contents 4 0 R >>
 endobj
 4 0 obj
 << /Length 4540 >>
@@ -61,16 +61,16 @@ BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 164.09 Tm (1. Cadena del plan) Tj ET
 BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 136.09 Tm (Prioridad  ->  objetivo general  ->  objetivos específicos  ->  actuaciones  ->  actividades. Cada objetivo tiene al menos un) Tj ET
 BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 121.89 Tm (indicador de resultado; cada actuación, un responsable, un calendario y un indicador de proceso; cada indicador, tiempo cero y) Tj ET
 BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 107.69 Tm (meta. Si un elemento no puede enlazarse con el anterior, falta una decisión o sobra el elemento.) Tj ET
-BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 39 Tm (Planificación y evaluación en salud local  -  1 / 4) Tj ET
+BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 39 Tm (Planificación y evaluación en salud local  -  1 / 5) Tj ET
 BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 440.28 39 Tm (Revision 31/10/2026) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 51 m 544.28 51 l S
 endstream
 endobj
 5 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 11 0 R /F2 12 0 R >> >> /Contents 6 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 13 0 R /F2 14 0 R >> >> /Contents 6 0 R >>
 endobj
 6 0 obj
-<< /Length 5146 >>
+<< /Length 5421 >>
 stream
 0.14 0.42 0.33 rg 0 826.89 595.28 15 re f
 0.92 0.95 0.91 rg 0 713.89 595.28 113 re f
@@ -90,48 +90,48 @@ BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 615.49 Tm (Un objetivo sin indicador n
 BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 597.29 Tm (Un objetivo no describe una tarea del equipo: «realizar talleres» es una actuación, no un objetivo.) Tj ET
 BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 562.09 Tm (Ejercicio de reescritura \(20 minutos\)) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 550.09 m 544.28 550.09 l S
-0.92 0.95 0.91 rg 51 498.69 493.28 47.4 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 534.09 Tm (Concienciar a la población sobre la soledad.) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 522.89 Tm (Problema: Vago, sin población ni plazo · Reescritura posible: Aumentar la proporción de personas mayores que conocen al menos) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 511.29 Tm (un recurso de encuentro del municipio, entre la medición inicial y diciembre de 2028) Tj ET
-0.92 0.95 0.91 rg 51 447.29 493.28 47.4 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 482.69 Tm (Hacer 10 talleres para jóvenes.) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 471.49 Tm (Problema: Es una actuación · Reescritura posible: Ofrecer a la población de 14 a 17 años alternativas de ocio sin alcohol con) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 459.89 Tm (participación juvenil en su diseño \(objetivo\); los talleres serían una actividad) Tj ET
-0.92 0.95 0.91 rg 51 395.89 493.28 47.4 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 431.29 Tm (Mejorar la salud de las personas mayores.) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 420.09 Tm (Problema: Objetivo general sin cambio identificable · Reescritura posible: Reducir el aislamiento social de las personas mayores) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 408.49 Tm (que viven solas) Tj ET
-BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 358.89 Tm (2. Actuación, actividad, entrega y consolidación) Tj ET
-0.81 0.88 0.82 RG 0.6 w 51 346.89 m 544.28 346.89 l S
-0.92 0.95 0.91 rg 51 295.49 493.28 47.4 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 330.89 Tm (Actuación) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 319.69 Tm (Definición de trabajo: Unidad de intervención comprometida en el plan: finalidad, población, responsable, calendario, recursos y) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 308.09 Tm (vínculo con indicadores · Ejemplo: Programa de acompañamiento a personas mayores que viven solas) Tj ET
-0.92 0.95 0.91 rg 51 244.09 493.28 47.4 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 279.49 Tm (Actividad) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 268.29 Tm (Definición de trabajo: Unidad concreta de ejecución dentro de una actuación: sesión, taller, reunión, campaña o entrega) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 256.69 Tm (verificable · Ejemplo: Sesión mensual del grupo de paseo intergeneracional) Tj ET
-0.92 0.95 0.91 rg 51 192.69 493.28 47.4 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 228.09 Tm (Entrega) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 216.89 Tm (Definición de trabajo: Comunicación periódica de datos desde una actuación a quien consolida el indicador · Ejemplo: Registro) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 205.29 Tm (trimestral de participantes únicos) Tj ET
-0.92 0.95 0.91 rg 51 141.29 493.28 47.4 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 176.69 Tm (Consolidación) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 165.49 Tm (Definición de trabajo: Revisión técnica del indicador agregando las entregas sin duplicar personas ni fuentes · Ejemplo: Cálculo) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 153.89 Tm (semestral del número de personas mayores alcanzadas) Tj ET
-BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 104.29 Tm (Responsables) Tj ET
-0.81 0.88 0.82 RG 0.6 w 51 92.29 m 544.28 92.29 l S
-BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 39 Tm (Planificación y evaluación en salud local  -  2 / 4) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 534.09 Tm (Las propuestas del taller de Zagra de 2017 son material valioso, pero casi todas son actividades. Reescribirlas como parte) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 519.89 Tm (de una cadena objetivo  ->  actuación  ->  actividad.) Tj ET
+0.92 0.95 0.91 rg 51 465.29 493.28 47.4 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 500.69 Tm (Taller de baile para parejas de adultos) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 489.49 Tm (Qué es: Actividad · Cadena posible: Objetivo: mejorar los contactos sociales de las personas mayores. Actuación: programa de) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 477.89 Tm (encuentros en el complejo deportivo y la Asociación de Mujeres. Actividad: taller de baile) Tj ET
+0.92 0.95 0.91 rg 51 413.89 493.28 47.4 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 449.29 Tm (Carnet de puntos por participar, con sorteo) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 438.09 Tm (Qué es: Incentivo dentro de una actividad · Cadena posible: Objetivo: aumentar la participación de quienes no suelen participar.) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 426.49 Tm (Hay que definir antes quiénes son y medir su participación de partida) Tj ET
+0.92 0.95 0.91 rg 51 362.49 493.28 47.4 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 397.89 Tm (Hacer una asociación de hombres) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 386.69 Tm (Qué es: Propuesta de actuación comunitaria · Cadena posible: Objetivo: aumentar la participación de los hombres en actividades) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 375.09 Tm (comunitarias. El ayuntamiento puede apoyar, pero la decisión de asociarse es de los vecinos) Tj ET
+0.92 0.95 0.91 rg 51 311.09 493.28 47.4 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 346.49 Tm (Prescripción médica de rutas de senderismo) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 335.29 Tm (Qué es: Actuación del centro de salud · Cadena posible: Recomendación de activos \(nivel individual de la ESCA\), vinculada a un) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 323.69 Tm (objetivo de actividad física y con registro en el centro de salud) Tj ET
+BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 274.09 Tm (2. Actuación, actividad, entrega y consolidación) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 262.09 m 544.28 262.09 l S
+0.92 0.95 0.91 rg 51 210.69 493.28 47.4 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 246.09 Tm (Actuación) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 234.89 Tm (Definición de trabajo: Unidad de intervención comprometida en el plan: finalidad, población, responsable, calendario, recursos y) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 223.29 Tm (vínculo con indicadores · Ejemplo: Programa de acompañamiento a personas mayores que viven solas) Tj ET
+0.92 0.95 0.91 rg 51 159.29 493.28 47.4 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 194.69 Tm (Actividad) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 183.49 Tm (Definición de trabajo: Unidad concreta de ejecución dentro de una actuación: sesión, taller, reunión, campaña o entrega) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 171.89 Tm (verificable · Ejemplo: Sesión mensual del grupo de paseo intergeneracional) Tj ET
+0.92 0.95 0.91 rg 51 107.89 493.28 47.4 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 143.29 Tm (Entrega) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 132.09 Tm (Definición de trabajo: Comunicación periódica de datos desde una actuación a quien consolida el indicador · Ejemplo: Registro) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 120.49 Tm (trimestral de participantes únicos) Tj ET
+BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 39 Tm (Planificación y evaluación en salud local  -  2 / 5) Tj ET
 BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 440.28 39 Tm (Revision 31/10/2026) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 51 m 544.28 51 l S
 endstream
 endobj
 7 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 11 0 R /F2 12 0 R >> >> /Contents 8 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 13 0 R /F2 14 0 R >> >> /Contents 8 0 R >>
 endobj
 8 0 obj
-<< /Length 4161 >>
+<< /Length 5224 >>
 stream
 0.14 0.42 0.33 rg 0 826.89 595.28 15 re f
 0.92 0.95 0.91 rg 0 713.89 595.28 113 re f
@@ -139,56 +139,54 @@ BT /F2 8 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 802.89 Tm (AULA DE SALUD COMUNITARIA · 
 BT /F2 17.3 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 775.89 Tm (Del objetivo a la actuación: un plan que pueda evaluarse) Tj ET
 BT /F1 8.2 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 724.89 Tm (SESIÓN 2   |   Sesión presencial   |   5 horas presenciales) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 708.89 m 544.28 708.89 l S
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 691.89 Tm (El responsable es un cargo identificable, no una institución: «el Ayuntamiento» no puede ser interpelado cuando una actuación) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 677.69 Tm (no se ejecuta; «la persona titular de la concejalía de Bienestar Social» sí. Conviene distinguir el responsable estratégico) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 663.49 Tm (\(responde del plan\), el operativo \(ejecuta la actuación\) y el de seguimiento \(mide y comunica el indicador\).) Tj ET
-BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 627.29 Tm (Municipio y sistema sanitario) Tj ET
-0.81 0.88 0.82 RG 0.6 w 51 615.29 m 544.28 615.29 l S
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 599.29 Tm (Para cada actuación se indica si es propia del municipio, del sistema sanitario \(por ejemplo, educación para la salud grupal o) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 585.09 Tm (mapa de activos encargados por la ESCA a la unidad de gestión clínica\) o conjunta. Las actuaciones del sistema sanitario se) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 570.89 Tm (referencian en el plan local, no se duplican.) Tj ET
-BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 534.69 Tm (3. Ficha de indicador) Tj ET
-0.81 0.88 0.82 RG 0.6 w 51 522.69 m 544.28 522.69 l S
-0.92 0.95 0.91 rg 51 482.89 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 506.69 Tm (Nombre) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 495.49 Tm (Breve y sin ambigüedad) Tj ET
-0.92 0.95 0.91 rg 51 443.09 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 466.89 Tm (Tipo) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 455.69 Tm (Proceso, resultado o impacto) Tj ET
-0.92 0.95 0.91 rg 51 403.29 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 427.09 Tm (Definición operativa) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 415.89 Tm (Qué se cuenta exactamente) Tj ET
-0.92 0.95 0.91 rg 51 363.49 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 387.29 Tm (Numerador y denominador) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 376.09 Tm (Con unidad y población de referencia) Tj ET
-0.92 0.95 0.91 rg 51 323.69 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 347.49 Tm (Fuente) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 336.29 Tm (Registro, encuesta, padrón u otra; quién custodia el dato) Tj ET
-0.92 0.95 0.91 rg 51 283.89 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 307.69 Tm (Frecuencia) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 296.49 Tm (Cuándo se mide) Tj ET
-0.92 0.95 0.91 rg 51 244.09 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 267.89 Tm (Tiempo cero) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 256.69 Tm (Valor de partida y fecha, registrado antes de ejecutar) Tj ET
-0.92 0.95 0.91 rg 51 204.29 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 228.09 Tm (Meta) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 216.89 Tm (Valor esperado al final del periodo y justificación) Tj ET
-0.92 0.95 0.91 rg 51 164.49 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 188.29 Tm (Responsable de medición) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 177.09 Tm (Cargo) Tj ET
-0.92 0.95 0.91 rg 51 124.69 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 148.49 Tm (Cautelas) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 137.29 Tm (Qué no puede concluirse con este indicador) Tj ET
-BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 39 Tm (Planificación y evaluación en salud local  -  3 / 4) Tj ET
+0.92 0.95 0.91 rg 51 656.49 493.28 47.4 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 691.89 Tm (Consolidación) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 680.69 Tm (Definición de trabajo: Revisión técnica del indicador agregando las entregas sin duplicar personas ni fuentes · Ejemplo: Cálculo) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 669.09 Tm (semestral del número de personas mayores alcanzadas) Tj ET
+BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 619.49 Tm (Responsables) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 607.49 m 544.28 607.49 l S
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 591.49 Tm (El responsable es un cargo identificable, no una institución: «el Ayuntamiento» no puede ser interpelado cuando una actuación) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 577.29 Tm (no se ejecuta; «la persona titular de la concejalía de Bienestar Social» sí. Conviene distinguir el responsable estratégico) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 563.09 Tm (\(responde del plan\), el operativo \(ejecuta la actuación\) y el de seguimiento \(mide y comunica el indicador\).) Tj ET
+BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 526.89 Tm (Municipio y sistema sanitario) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 514.89 m 544.28 514.89 l S
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 498.89 Tm (Para cada actuación se indica si es propia del municipio, del sistema sanitario \(por ejemplo, educación para la salud grupal o) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 484.69 Tm (mapa de activos encargados por la ESCA a la unidad de gestión clínica\) o conjunta. Las actuaciones del sistema sanitario se) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 470.49 Tm (referencian en el plan local, no se duplican.) Tj ET
+BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 434.29 Tm (Referencia: objetivos de envejecimiento saludable en COMPÁS) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 422.29 m 544.28 422.29 l S
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 406.29 Tm (Si el Grupo Motor de Zagra eligiera un área de envejecimiento saludable, COMPÁS ofrece una propuesta de partida con) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 392.09 Tm (cuatro bloques, adaptada del Plan de Acción del Zaidín. Sirve para practicar la cadena, no como plan de Zagra.) Tj ET
+0.92 0.95 0.91 rg 51 325.89 493.28 59 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 372.89 Tm (Soledad no deseada) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 361.69 Tm (Objetivo específico \(ejemplo\): Reducir la soledad percibida entre las personas mayores incorporadas a una intervención por) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 350.09 Tm (situación de soledad · Indicador propuesto: % de participantes que reducen su nivel de soledad entre la valoración inicial y el) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 338.49 Tm (seguimiento \(escala de De Jong Gierveld\)) Tj ET
+0.92 0.95 0.91 rg 51 274.49 493.28 47.4 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 309.89 Tm (Soledad no deseada) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 298.69 Tm (Objetivo específico \(ejemplo\): Mejorar los contactos sociales de las personas mayores · Indicador propuesto: % de) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 287.09 Tm (participantes con riesgo inicial de aislamiento que mejoran su puntuación en la escala LSNS-6) Tj ET
+0.92 0.95 0.91 rg 51 211.49 493.28 59 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 258.49 Tm (Soledad no deseada) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 247.29 Tm (Objetivo específico \(ejemplo\): Incrementar el aprovechamiento de los activos comunitarios en actuaciones que favorecen) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 235.69 Tm (relaciones sociales · Indicador propuesto: Nº de activos comunitarios que participan de forma efectiva en al menos una) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 224.09 Tm (actuación durante el periodo) Tj ET
+0.92 0.95 0.91 rg 51 160.09 493.28 47.4 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 195.49 Tm (Participación) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 184.29 Tm (Objetivo específico \(ejemplo\): Aumentar la participación de las personas mayores en actividades comunitarias significativas) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 172.69 Tm (para ellas · Indicador propuesto: % de participantes que incorporan o recuperan al menos una actividad comunitaria significativa) Tj ET
+BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 123.09 Tm (3. Ficha de indicador) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 111.09 m 544.28 111.09 l S
+BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 39 Tm (Planificación y evaluación en salud local  -  3 / 5) Tj ET
 BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 440.28 39 Tm (Revision 31/10/2026) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 51 m 544.28 51 l S
 endstream
 endobj
 9 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 11 0 R /F2 12 0 R >> >> /Contents 10 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 13 0 R /F2 14 0 R >> >> /Contents 10 0 R >>
 endobj
 10 0 obj
-<< /Length 3777 >>
+<< /Length 4530 >>
 stream
 0.14 0.42 0.33 rg 0 826.89 595.28 15 re f
 0.92 0.95 0.91 rg 0 713.89 595.28 113 re f
@@ -196,62 +194,114 @@ BT /F2 8 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 802.89 Tm (AULA DE SALUD COMUNITARIA · 
 BT /F2 17.3 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 775.89 Tm (Del objetivo a la actuación: un plan que pueda evaluarse) Tj ET
 BT /F1 8.2 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 724.89 Tm (SESIÓN 2   |   Sesión presencial   |   5 horas presenciales) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 708.89 m 544.28 708.89 l S
-BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 679.89 Tm (Ejemplo de referencia) Tj ET
-0.81 0.88 0.82 RG 0.6 w 51 667.89 m 544.28 667.89 l S
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 651.89 Tm (La EPVSA asocia cada objetivo estratégico a indicadores de contexto \(situación de partida\) e indicadores de impacto,) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 637.69 Tm (muchos procedentes de la Encuesta Andaluza de Salud. Esa lógica, partida y llegada medidas con la misma definición, es la que) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 623.49 Tm (se pide a cada indicador local. Un indicador autonómico no suele tener resolución municipal: no sirve como tiempo cero de un) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 609.29 Tm (plan local si no se dispone del dato para el municipio.) Tj ET
-BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 573.09 Tm (Reglas de prudencia) Tj ET
-0.81 0.88 0.82 RG 0.6 w 51 561.09 m 544.28 561.09 l S
-0.14 0.42 0.33 rg 52 546.19 4 4 re f
-BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 545.09 Tm (No promediar porcentajes de actuaciones distintas para obtener un indicador agregado.) Tj ET
-0.14 0.42 0.33 rg 52 527.99 4 4 re f
-BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 526.89 Tm (No sumar participantes de varias actividades sin eliminar duplicados.) Tj ET
-0.14 0.42 0.33 rg 52 509.79 4 4 re f
-BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 508.69 Tm (No usar un indicador de actividad del servicio como indicador de necesidad.) Tj ET
-0.14 0.42 0.33 rg 52 491.59 4 4 re f
-BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 490.49 Tm (Si no hay tiempo cero, decirlo y planificar su medición antes de empezar.) Tj ET
-BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 455.29 Tm (4. Lista de comprobación de planificación de EpS grupal) Tj ET
-0.81 0.88 0.82 RG 0.6 w 51 443.29 m 544.28 443.29 l S
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 427.29 Tm (44 ítems en siete secciones: análisis de la situación, objetivos, contenidos y metodología, recursos y logística, cronograma,) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 413.09 Tm (evaluación, y actores y coordinación. Se aplica en parejas a una propuesta de taller incluida en el caso. Interesa menos el) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 398.89 Tm (porcentaje total que las secciones con menor cumplimiento: indican dónde hay que volver antes de ejecutar.) Tj ET
-BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 362.69 Tm (Criterio de cierre) Tj ET
-0.81 0.88 0.82 RG 0.6 w 51 350.69 m 544.28 350.69 l S
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 334.69 Tm (Cada grupo sale con una prioridad desplegada en un objetivo general, al menos dos objetivos específicos y una ficha de) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 320.49 Tm (indicador completa.) Tj ET
-0.81 0.88 0.82 RG 0.6 w 51 296.29 m 544.28 296.29 l S
-BT /F1 8.1 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 279.29 Tm (El caso Sierranueva es ficticio: sus datos son inventados para la docencia. No incorporar datos personales ni información clínica individual) Tj ET
-BT /F1 8.1 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 266.79 Tm (en los trabajos.) Tj ET
-BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 39 Tm (Planificación y evaluación en salud local  -  4 / 4) Tj ET
+0.92 0.95 0.91 rg 51 668.09 493.28 35.8 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 691.89 Tm (Nombre) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 680.69 Tm (Breve y sin ambigüedad) Tj ET
+0.92 0.95 0.91 rg 51 628.29 493.28 35.8 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 652.09 Tm (Tipo) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 640.89 Tm (Proceso, resultado o impacto) Tj ET
+0.92 0.95 0.91 rg 51 588.49 493.28 35.8 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 612.29 Tm (Definición operativa) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 601.09 Tm (Qué se cuenta exactamente) Tj ET
+0.92 0.95 0.91 rg 51 548.69 493.28 35.8 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 572.49 Tm (Numerador y denominador) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 561.29 Tm (Con unidad y población de referencia) Tj ET
+0.92 0.95 0.91 rg 51 508.89 493.28 35.8 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 532.69 Tm (Fuente) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 521.49 Tm (Registro, encuesta, padrón u otra; quién custodia el dato) Tj ET
+0.92 0.95 0.91 rg 51 469.09 493.28 35.8 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 492.89 Tm (Frecuencia) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 481.69 Tm (Cuándo se mide) Tj ET
+0.92 0.95 0.91 rg 51 429.29 493.28 35.8 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 453.09 Tm (Tiempo cero) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 441.89 Tm (Valor de partida y fecha, registrado antes de ejecutar) Tj ET
+0.92 0.95 0.91 rg 51 389.49 493.28 35.8 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 413.29 Tm (Meta) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 402.09 Tm (Valor esperado al final del periodo y justificación) Tj ET
+0.92 0.95 0.91 rg 51 349.69 493.28 35.8 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 373.49 Tm (Responsable de medición) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 362.29 Tm (Cargo) Tj ET
+0.92 0.95 0.91 rg 51 309.89 493.28 35.8 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 333.69 Tm (Cautelas) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 322.49 Tm (Qué no puede concluirse con este indicador) Tj ET
+BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 272.89 Tm (Ejemplo de referencia) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 260.89 m 544.28 260.89 l S
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 244.89 Tm (La EPVSA asocia cada objetivo estratégico a indicadores de contexto \(situación de partida\) e indicadores de impacto,) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 230.69 Tm (muchos procedentes de la Encuesta Andaluza de Salud. Esa lógica, partida y llegada medidas con la misma definición, es la que) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 216.49 Tm (se pide a cada indicador local. Un indicador autonómico no suele tener resolución municipal: no sirve como tiempo cero de un) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 202.29 Tm (plan local si no se dispone del dato para el municipio. En Zagra, los indicadores de la tabla anterior se miden en las personas) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 188.09 Tm (participantes, no en la población: son indicadores de resultado de una actuación. Con 843 habitantes, una encuesta poblacional) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 173.89 Tm (repetida puede ser factible, pero hay que decidirlo antes de empezar.) Tj ET
+BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 137.69 Tm (Reglas de prudencia) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 125.69 m 544.28 125.69 l S
+0.14 0.42 0.33 rg 52 110.79 4 4 re f
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 109.69 Tm (No promediar porcentajes de actuaciones distintas para obtener un indicador agregado.) Tj ET
+0.14 0.42 0.33 rg 52 92.59 4 4 re f
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 91.49 Tm (No sumar participantes de varias actividades sin eliminar duplicados.) Tj ET
+BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 39 Tm (Planificación y evaluación en salud local  -  4 / 5) Tj ET
 BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 440.28 39 Tm (Revision 31/10/2026) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 51 m 544.28 51 l S
 endstream
 endobj
 11 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 13 0 R /F2 14 0 R >> >> /Contents 12 0 R >>
 endobj
 12 0 obj
+<< /Length 2646 >>
+stream
+0.14 0.42 0.33 rg 0 826.89 595.28 15 re f
+0.92 0.95 0.91 rg 0 713.89 595.28 113 re f
+BT /F2 8 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 802.89 Tm (AULA DE SALUD COMUNITARIA · PLANIFICACIÓN Y EVALUACIÓN 2027) Tj ET
+BT /F2 17.3 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 775.89 Tm (Del objetivo a la actuación: un plan que pueda evaluarse) Tj ET
+BT /F1 8.2 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 724.89 Tm (SESIÓN 2   |   Sesión presencial   |   5 horas presenciales) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 708.89 m 544.28 708.89 l S
+0.14 0.42 0.33 rg 52 692.99 4 4 re f
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 691.89 Tm (No usar un indicador de actividad del servicio como indicador de necesidad.) Tj ET
+0.14 0.42 0.33 rg 52 674.79 4 4 re f
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 673.69 Tm (Si no hay tiempo cero, decirlo y planificar su medición antes de empezar.) Tj ET
+BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 638.49 Tm (4. Lista de comprobación de planificación de EpS grupal) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 626.49 m 544.28 626.49 l S
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 610.49 Tm (44 ítems en siete secciones: análisis de la situación, objetivos, contenidos y metodología, recursos y logística, cronograma,) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 596.29 Tm (evaluación, y actores y coordinación. Se aplica en parejas a una actividad grupal propuesta para Zagra \(por ejemplo, un taller) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 582.09 Tm (de alimentación para todas las edades o actividades para cuidadoras\). Interesa menos el porcentaje total que las secciones) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 567.89 Tm (con menor cumplimiento: indican dónde hay que volver antes de ejecutar.) Tj ET
+BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 531.69 Tm (Criterio de cierre) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 519.69 m 544.28 519.69 l S
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 503.69 Tm (Cada grupo sale con una prioridad desplegada en un objetivo general, al menos dos objetivos específicos y una ficha de) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 489.49 Tm (indicador completa.) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 465.29 m 544.28 465.29 l S
+BT /F1 8.1 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 448.29 Tm (Caso de trabajo: Zagra, con datos del expediente territorial y sus fuentes. No incorporar datos personales ni información clínica individual) Tj ET
+BT /F1 8.1 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 435.79 Tm (en los trabajos.) Tj ET
+BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 39 Tm (Planificación y evaluación en salud local  -  5 / 5) Tj ET
+BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 440.28 39 Tm (Revision 31/10/2026) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 51 m 544.28 51 l S
+endstream
+endobj
+13 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+14 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
 endobj
 xref
-0 13
+0 15
 0000000000 65535 f 
 0000000015 00000 n 
 0000000064 00000 n 
-0000000139 00000 n 
-0000000283 00000 n 
-0000004874 00000 n 
-0000005018 00000 n 
-0000010215 00000 n 
-0000010359 00000 n 
-0000014571 00000 n 
-0000014716 00000 n 
-0000018545 00000 n 
-0000018643 00000 n 
+0000000146 00000 n 
+0000000290 00000 n 
+0000004881 00000 n 
+0000005025 00000 n 
+0000010497 00000 n 
+0000010641 00000 n 
+0000015916 00000 n 
+0000016061 00000 n 
+0000020643 00000 n 
+0000020789 00000 n 
+0000023487 00000 n 
+0000023585 00000 n 
 trailer
-<< /Root 1 0 R /Size 13 >>
+<< /Root 1 0 R /Size 15 >>
 startxref
-18746
+23688
 %%EOF

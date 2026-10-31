@@ -25,7 +25,7 @@ export function makePdf(doc, revision="31/10/2026") {
  paragraph("Propuesta docente en revisión: "+revision+". Pendiente de validación institucional.",8.2,12.2);
  paragraph(doc.subtitulo,10,15);
  for(const sec of doc.sections||[]){heading(sec.h);if(sec.p)paragraph(sec.p);if(sec.bullets)for(const b of sec.bullets)bullet(b);if(sec.table)table(sec.table);y-=5}
- ensure(30);line(L,y,W-R,y);y-=17;paragraph("El caso Sierranueva es ficticio: sus datos son inventados para la docencia. No incorporar datos personales ni información clínica individual en los trabajos.",8.1,12.5);
+ ensure(30);line(L,y,W-R,y);y-=17;paragraph("Caso de trabajo: Zagra, con datos del expediente territorial y sus fuentes. No incorporar datos personales ni información clínica individual en los trabajos.",8.1,12.5);
  pages.push(ops.join("\n")+"\n");
  const N=pages.length,objects=[];objects.push("<< /Type /Catalog /Pages 2 0 R >>");objects.push("<< /Type /Pages /Count "+N+" /Kids ["+pages.map((_,i)=>(3+i*2)+" 0 R").join(" ")+"] >>");const fontA=3+2*N,fontB=fontA+1;
  for(let i=0;i<N;i++){const pageId=3+i*2,streamId=pageId+1;objects.push("<< /Type /Page /Parent 2 0 R /MediaBox [0 0 "+f(W)+" "+f(H)+"] /Resources << /Font << /F1 "+fontA+" 0 R /F2 "+fontB+" 0 R >> >> /Contents "+streamId+" 0 R >>");

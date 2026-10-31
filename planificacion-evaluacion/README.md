@@ -10,16 +10,19 @@ institucional. Fechas, sede, acreditación y profesorado sin concretar.
 ## Fuente única
 
 `materiales_2027.json` contiene todos los textos (programa, caso, tres sesiones,
-tres trabajos y bibliografía). La página `index.html` lo lee en el navegador y
-`generar_pdfs.mjs` produce los PDF de `materiales/`:
+tres trabajos y bibliografía). Tras editarlo, ejecutar:
 
 ```bash
 node planificacion-evaluacion/generar_pdfs.mjs
 ```
 
+El script regenera los PDF de `materiales/` e incrusta el JSON en `index.html`
+(`<script id="datos-curso">`). Así la página funciona aunque falle la petición
+del JSON o se abra como archivo local. Si los datos incrustados faltan, la
+página intenta cargar `materiales_2027.json`.
+
 `generar_pdf.mjs` deriva de `redcap/generar_pdf_2027.mjs` (sin dependencias);
-solo cambian cabecera, pie y notas. La página necesita servidor web (no
-funciona como `file://`).
+solo cambian cabecera, pie y notas.
 
 ## Bases metodológicas
 
@@ -37,7 +40,19 @@ funciona como `file://`).
 
 ## Cautelas
 
-- El caso Sierranueva es ficticio; sus cifras no describen ningún municipio.
+- El caso de trabajo es Zagra (Granada). Fuentes: expediente de Zagra en
+  COMPÁS NG (`municipalities/zagra/`: priorización de 27/04/2017, inventario de
+  activos, presentaciones del técnico de acción local), población INE 2025
+  (`fixtures/population/zagra-population-2025.ts`) y síntesis del Perfil de
+  Salud Local publicada en `zagra/presentacion-perfil.html` (borrador de
+  26/10/2026, sin validar). No se reproducen nombres ni teléfonos del
+  inventario de activos.
+- La hoja de priorización de 2017 tiene incoherencias (escala 1-3 con valores de
+  hasta 13, columnas de magnitud y dificultad idénticas, total sin fórmula
+  documentada). El curso las presenta como material de análisis, sin
+  corregirlas.
+- El Plan de Acción de Zagra en COMPÁS adapta la estructura de cuatro bloques
+  del Zaidín: es una propuesta técnica, no un acuerdo del Grupo Motor.
 - Las listas de comprobación originales incluyen la frase «una buena
   planificación determina el 80 % del éxito del programa». No consta fuente para
   esa cifra y no se ha reproducido en el curso.
