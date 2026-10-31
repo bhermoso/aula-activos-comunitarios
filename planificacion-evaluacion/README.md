@@ -10,16 +10,19 @@ institucional. Fechas, sede, acreditación y profesorado sin concretar.
 ## Fuente única
 
 `materiales_2027.json` contiene todos los textos (programa, caso, tres sesiones,
-tres trabajos y bibliografía). La página `index.html` lo lee en el navegador y
-`generar_pdfs.mjs` produce los PDF de `materiales/`:
+tres trabajos y bibliografía). Tras editarlo, ejecutar:
 
 ```bash
 node planificacion-evaluacion/generar_pdfs.mjs
 ```
 
+El script regenera los PDF de `materiales/` e incrusta el JSON en `index.html`
+(`<script id="datos-curso">`). Así la página funciona aunque falle la petición
+del JSON o se abra como archivo local. Si los datos incrustados faltan, la
+página intenta cargar `materiales_2027.json`.
+
 `generar_pdf.mjs` deriva de `redcap/generar_pdf_2027.mjs` (sin dependencias);
-solo cambian cabecera, pie y notas. La página necesita servidor web (no
-funciona como `file://`).
+solo cambian cabecera, pie y notas.
 
 ## Bases metodológicas
 
