@@ -1,6 +1,6 @@
 # Planificación y evaluación en salud local · propuesta 2027
 
-Curso de 30 horas (15 presenciales + 15 no presenciales) sobre planificación y
+Curso de 20 horas (10 presenciales en 2 sesiones + 10 virtuales) sobre planificación y
 evaluación de la promoción de la salud y la acción local en salud. Dirigido a
 Enfermería Familiar y Comunitaria, trabajo social y medicina.
 
@@ -9,8 +9,8 @@ institucional. Fechas, sede, acreditación y profesorado sin concretar.
 
 ## Fuente única
 
-`materiales_2027.json` contiene todos los textos (programa, caso, tres sesiones,
-tres trabajos y bibliografía). Tras editarlo, ejecutar:
+`materiales_2027.json` contiene todos los textos (programa, caso, dos sesiones presenciales,
+dos bloques virtuales y bibliografía). Tras editarlo, ejecutar:
 
 ```bash
 node planificacion-evaluacion/generar_pdfs.mjs
