@@ -165,7 +165,7 @@ function table(t){return '<div class="tw"><table><thead><tr>'+t.head.map(h=>'<th
 function agenda(t,v){return '<ol class="agenda'+(v?' v':'')+'">'+t.rows.map(r=>'<li'+(/descanso|pausa/i.test(r[1])?' class="pausa"':'')+'><span class="t">'+esc(r[0])+'</span><span class="d"></span><span class="x">'+esc(r[1])+'</span></li>').join('')+'</ol>';}
 function chain(p){const parts=p.split('. ');const first=parts[0];if(first.indexOf('→')<0)return '<p>'+esc(p)+'</p>';const items=first.split('→').map(s=>s.trim());return '<div class="chain">'+items.map((x,i)=>(i?'<i>→</i>':'')+'<span>'+esc(x.charAt(0).toUpperCase()+x.slice(1))+'</span>').join('')+'</div><p>'+esc(parts.slice(1).join('. '))+'</p>';}
 function isAgenda(s){return s.table&&s.table.head[0]==='Hora';}
-function sectionsOf(id){if(id==='plantillas')return [{h:'Listas de comprobación de EpS grupal'},{h:'Plantillas de las entregas'}];return data.docs.find(d=>d.id===id).sections;}
+function sectionsOf(id){if(id==='plantillas')return [{h:'Listas de comprobación de EpS grupal'},{h:'Plantillas de las entregas'},{h:'Guía del profesorado'}];return data.docs.find(d=>d.id===id).sections;}
 function renderDoc(doc){
  const u=UNITS[doc.id];
  let h='<h2>'+esc(doc.titulo)+'</h2><p class="lead">'+esc(doc.subtitulo)+'</p><div class="acts"><a class="btn solid" href="materiales/'+doc.id+'.pdf" download>Descargar PDF</a><button class="btn" type="button" onclick="window.print()">Imprimir</button>'+(DOC_PRES[doc.id]?'<a class="btn" href="'+DOC_PRES[doc.id]+'" target="_blank" rel="noopener">▣ Presentación ↗</a>':'')+(DOC_TOOLS[doc.id]||[]).map(k=>toolBtn(TOOLS.find(t=>t.key===k),false)).join('')+'</div>';
@@ -175,7 +175,8 @@ function renderTools(){
  let h='<h2>Herramientas del curso</h2><p class="lead">Listas de comprobación interactivas y plantillas para las entregas. Se completan sin datos personales ni información clínica individual.</p>';
  h+='<section class="sec" id="sec-0"><h3>Listas de comprobación de EpS grupal</h3><p>B. R. Hermoso y J. Serrano, Distrito AP Granada-Metropolitano, 2025. Se abren en una pestaña nueva y calculan el cumplimiento total y por sección. No guardan los datos: conviene imprimir o guardar como PDF el resultado antes de cerrar. En el curso interesa menos el porcentaje total que las secciones con menor cumplimiento.</p><div class="grid">'+TOOLS.map(t=>'<div class="card"><h4>'+esc(t.title)+'</h4><p>'+esc(t.desc)+'</p><div class="acts" style="margin-top:0">'+toolBtn(t,true)+'<a class="btn" href="'+t.repo+'" rel="noopener">Código fuente</a></div></div>').join('')+'</div></section>';
  h+='<section class="sec" id="sec-1"><h3>Plantillas de las entregas</h3><p>Archivos CSV separados por punto y coma, para abrir con una hoja de cálculo.</p><div class="grid">'+TEMPLATES.map(t=>'<div class="card"><h4>'+esc(t[1])+'</h4><p>'+esc(t[2])+'</p><a class="btn" href="materiales/'+t[0]+'" download>Descargar CSV</a></div>').join('')+'</div></section>';
- return h;}
+ h+='<section class="sec" id="sec-2"><h3>Guía del profesorado</h3><p>Soluciones, dinámica y criterios de corrección de las once prácticas presenciales y de las actividades A-D. Material del profesorado.</p><div class="acts"><a class="btn solid" href="profesorado/guia_profesorado_del_dato_a_la_accion.pdf" target="_blank" rel="noopener">Abrir la guía del profesorado (PDF) ↗</a></div></section>';
+  return h;}
 function buildRail(){
  let h='<div class="rail-group">Sesiones y bloques</div>';
  for(const id of Object.keys(UNITS)){const u=UNITS[id];h+='<button type="button" class="nav-item" data-go="'+id+'"><span class="nav-num">'+u.n+'</span><span class="nav-text">'+esc(u.label)+'<small>'+esc(u.small)+'</small><span class="tagp'+(u.v?' v':'')+'">'+esc(u.tag)+'</span></span></button><ul class="sub" data-sub="'+id+'" hidden></ul>';}
@@ -195,7 +196,7 @@ function show(id,focus){
  if(location.hash!=='#'+id)history.replaceState(null,'','#'+id);
  if(focus){window.scrollTo(0,0);$('contenido').focus({preventScroll:true});}
  spy();}
-function spy(){const secs=[...out.querySelectorAll('.sec')];const ul=railNav.querySelector('.sub:not([hidden])');if(!ul)return;let k=0;secs.forEach((s,j)=>{if(s.getBoundingClientRect().top<140)k=j;});ul.querySelectorAll('button').forEach(b=>b.setAttribute('aria-current',String(+b.dataset.sec===k)));}
+function spy(){const secs=[...out.querySelectorAll('.sec')];const ul=railNav.querySelector('.sub:not([hidden])');if(!ul)return;let k=0;secs.forEach((s,j)=>{if(s.getBoundingClientRect().top<140)k=j;});if(window.innerHeight+window.scrollY>=document.documentElement.scrollHeight-4)k=secs.length-1;ul.querySelectorAll('button').forEach(b=>b.setAttribute('aria-current',String(+b.dataset.sec===k)));}
 window.addEventListener('scroll',()=>{if(!app.hidden)spy();},{passive:true});
 function open(id){if(!data)return;cover.hidden=true;app.hidden=false;show(id,true);}
 function closeApp(){document.body.classList.remove('pres');app.hidden=true;cover.hidden=false;history.replaceState(null,'',location.pathname);window.scrollTo(0,0);}

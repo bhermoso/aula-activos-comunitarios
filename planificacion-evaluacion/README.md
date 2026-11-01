@@ -62,8 +62,7 @@ la cabecera de S1 y S2.
 `profesorado/guia_profesorado_del_dato_a_la_accion.pdf`, generado con
 `node planificacion-evaluacion/profesorado/generar_guia.mjs`. Contiene
 soluciones y criterios de corrección. Por decisión del autor se guarda en este
-repositorio público, sin enlace desde las páginas del curso: es accesible para
-quien conozca la dirección. Las fichas y presentaciones del alumnado no incluyen
+repositorio público y se enlaza desde la pestaña «Herramientas» del curso. Las fichas y presentaciones del alumnado no incluyen
 respuestas.
 
 ## Bases metodológicas
