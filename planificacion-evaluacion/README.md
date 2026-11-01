@@ -24,6 +24,14 @@ página intenta cargar `materiales_2027.json`.
 `generar_pdf.mjs` deriva de `redcap/generar_pdf_2027.mjs` (sin dependencias);
 solo cambian cabecera, pie y notas.
 
+## Herramientas integradas
+
+`herramientas/checklist-planificacion.html` y `herramientas/checklist-evaluacion.html`
+son copias literales, sin modificar, de `bhermoso/CHECKLISTPLANIFICACION`
+(commit `b0b149b`) y `bhermoso/CHECKLISTEVALUACION` (commit `ccf8fd7`), licencia MIT. El
+curso las enlaza desde la portada, la pestaña «Herramientas», la sesión 2 y la
+entrega V2. Si cambian los originales, volver a copiarlas.
+
 ## Bases metodológicas
 
 - COMPÁS NG (`bhermoso/compas-ng-renovado`): ciclo de seis etapas y regla de no

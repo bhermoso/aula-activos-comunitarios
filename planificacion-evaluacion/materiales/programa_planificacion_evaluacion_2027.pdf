@@ -131,7 +131,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 9 0 R /F2 10 0 R >> >> /Contents 8 0 R >>
 endobj
 8 0 obj
-<< /Length 4053 >>
+<< /Length 4099 >>
 stream
 0.14 0.42 0.33 rg 0 826.89 595.28 15 re f
 0.92 0.95 0.91 rg 0 713.89 595.28 113 re f
@@ -147,10 +147,10 @@ BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 673.69 Tm (Encuesta de satisfacción y 
 BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 638.49 Tm (Herramientas propias que se utilizan) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 626.49 m 544.28 626.49 l S
 0.92 0.95 0.91 rg 51 586.69 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 610.49 Tm (Lista de comprobación de planificación de EpS grupal \(B. Hermoso, J. Serrano; 44 ítems\)) Tj ET
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 610.49 Tm (Lista de comprobación de planificación de EpS grupal \(B. Hermoso, J. Serrano; 44 ítems\), integrada en el curso) Tj ET
 BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 599.29 Tm (S2: revisar una actuación grupal antes de ejecutarla) Tj ET
 0.92 0.95 0.91 rg 51 546.89 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 570.69 Tm (Lista de comprobación de evaluación de EpS grupal \(B. Hermoso, J. Serrano; 33 ítems\)) Tj ET
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 570.69 Tm (Lista de comprobación de evaluación de EpS grupal \(B. Hermoso, J. Serrano; 33 ítems\), integrada en el curso) Tj ET
 BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 559.49 Tm (S2 y V2: revisar el sistema de evaluación de una actuación) Tj ET
 0.92 0.95 0.91 rg 51 507.09 493.28 35.8 re f
 BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 530.89 Tm (Modelo metodológico de COMPÁS NG \(ciclo, gramática del plan, fichas de actuación e indicador\)) Tj ET
@@ -192,10 +192,10 @@ xref
 0000005923 00000 n 
 0000011793 00000 n 
 0000011936 00000 n 
-0000016040 00000 n 
-0000016137 00000 n 
+0000016086 00000 n 
+0000016183 00000 n 
 trailer
 << /Root 1 0 R /Size 11 >>
 startxref
-16240
+16286
 %%EOF
