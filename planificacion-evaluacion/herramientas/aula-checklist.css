@@ -1,0 +1,48 @@
+/* Capa de estilo del Aula de Salud Comunitaria para las listas de comprobación.
+   Se carga después del CSS original: no cambia textos, ítems, cálculos ni lógica,
+   solo la apariencia (verde profundo, papel claro, Georgia en titulares). */
+:root{--deep:#102a28;--ink:#183a37;--muted:#617574;--teal:#137c73;--soft:#e3f1ec;--soft-line:#b9dccf;--sand:#f6f5ef;--line:#dce5e0;--ochre:#9a5b12}
+html body{background:var(--sand)!important;color:#243b39;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif!important;line-height:1.58;padding:0!important}
+.aula-bar{position:sticky;top:0;z-index:1001;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;background:var(--deep);color:#fff;padding:12px clamp(16px,4vw,48px);border-bottom:3px solid #b5e0cd;font-size:12px;letter-spacing:.12em}
+.aula-bar strong{font-weight:800}.aula-bar strong span{font-weight:500;color:#cfe8dc;margin-left:6px}
+.aula-bar nav{display:flex;gap:8px;flex-wrap:wrap;letter-spacing:0}
+.aula-bar a,.aula-bar button{color:#fff;text-decoration:none;border:1px solid #3d6a62;border-radius:30px;padding:6px 13px;font:700 12.5px Inter,system-ui,sans-serif;background:none;cursor:pointer}
+.aula-bar a:hover,.aula-bar button:hover{border-color:#b5e0cd}
+.aula-bar a:focus-visible,.aula-bar button:focus-visible{outline:3px solid #edb957;outline-offset:3px}
+.container{max-width:1000px!important;margin:24px auto 90px!important;background:transparent!important;box-shadow:none!important;border-radius:0!important;padding:0 clamp(14px,3vw,24px)!important}
+header{background:var(--deep)!important;color:#fff!important;border-radius:20px!important;padding:clamp(22px,4vw,38px)!important;text-align:left!important;box-shadow:0 14px 45px rgba(18,52,45,.12)!important}
+header h1{font-family:Georgia,serif!important;font-weight:600!important;letter-spacing:-.02em;font-size:clamp(28px,4.4vw,44px)!important;text-shadow:none!important;margin:0 0 8px!important;color:#fff!important}
+header .subtitle{color:#aed8bf!important;font-size:17px!important;opacity:1!important}
+header .authors{color:#cfe1da!important;opacity:1!important}
+.content{background:#fff!important;border:1px solid var(--line)!important;border-radius:20px!important;margin-top:16px!important;padding:clamp(20px,4vw,40px)!important;box-shadow:0 14px 45px rgba(18,52,45,.07)!important}
+h2{font-family:Georgia,serif!important;font-weight:600!important;color:var(--deep)!important;text-transform:none!important;letter-spacing:-.01em!important;border-bottom:1px solid var(--line)!important}
+h3,.checklist-section h3,.summary-section h3{color:var(--ink)!important;font-family:Georgia,serif!important;font-weight:600!important;border-color:var(--soft-line)!important}
+.intro-text{background:var(--soft)!important;border-left:4px solid var(--teal)!important;border-radius:0 13px 13px 0!important}
+.destacado{background:#fff7e9!important;border-left:4px solid #d9b781!important;border-radius:0 13px 13px 0!important}
+.destacado h4,.intro-text strong{color:var(--ink)!important}
+.checklist-section{background:transparent!important}
+.checklist-item{background:#f6faf7!important;border:1px solid var(--line)!important;border-left:4px solid var(--soft-line)!important;border-radius:12px!important;box-shadow:none!important}
+.checklist-item:hover{border-left-color:var(--teal)!important;background:#fff!important;transform:none!important}
+.checklist-item label{color:var(--ink)!important}
+.checklist-descripcion{color:var(--muted)!important}
+.checklist-item input[type="checkbox"]{accent-color:var(--teal)}
+.progress-bar-container{background:#ffffffee!important;backdrop-filter:blur(6px);border-top:1px solid var(--line)!important;box-shadow:none!important}
+.progress-bar-container span,.progress-bar-container div[style*="color: #0074c8"]{color:var(--teal)!important}
+.progress-bar{background:#dfe7dd!important;border:0!important;box-shadow:none!important}
+.progress-fill{background:var(--teal)!important;color:#fff!important}
+.summary-table th{background:var(--soft)!important;color:var(--ink)!important}
+.summary-table td,.summary-table th{border-color:var(--line)!important}
+.summary-table tr:hover{background:#f6faf7!important}
+.estado-badge{border-radius:20px!important;font-size:10px!important;letter-spacing:.08em;text-transform:uppercase;font-weight:800!important}
+.estado-badge.sin-iniciar{background:#eef1ef!important;color:var(--muted)!important}
+.estado-badge.iniciado{background:#fff3df!important;color:#8a5a14!important}
+.estado-badge.avanzado{background:#e7eff6!important;color:#2f5f86!important}
+.estado-badge.completado{background:var(--soft)!important;color:var(--teal)!important}
+.feedback-box{border-radius:14px!important;border-width:0 0 0 4px!important}
+footer{background:var(--deep)!important;border-radius:20px!important;margin-top:16px!important}
+footer h3,footer h4,footer p{color:#e4f3ec!important}
+a{color:var(--teal)}
+@media print{.aula-bar{display:none!important}.container{margin:0!important}header{border-radius:0!important}}
+.summary-section{background:#f6faf7!important;border:1px solid var(--soft-line)!important;border-radius:16px!important}
+.summary-table{width:100%!important;table-layout:auto}
+@media(max-width:600px){.summary-section{padding:16px 12px!important}.summary-table{font-size:13px!important}.summary-table th,.summary-table td{padding:8px 6px!important;word-break:break-word}.content{padding:16px 12px!important}.checklist-item{padding:12px!important}}
