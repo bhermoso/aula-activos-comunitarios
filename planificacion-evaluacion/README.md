@@ -27,10 +27,25 @@ solo cambian cabecera, pie y notas.
 ## Herramientas integradas
 
 `herramientas/checklist-planificacion.html` y `herramientas/checklist-evaluacion.html`
-son copias literales, sin modificar, de `bhermoso/CHECKLISTPLANIFICACION`
-(commit `b0b149b`) y `bhermoso/CHECKLISTEVALUACION` (commit `ccf8fd7`), licencia MIT. El
-curso las enlaza desde la portada, la pestaña «Herramientas», la sesión 2 y la
-entrega V2. Si cambian los originales, volver a copiarlas.
+proceden de `bhermoso/CHECKLISTPLANIFICACION` (commit `b0b149b`) y
+`bhermoso/CHECKLISTEVALUACION` (commit `ccf8fd7`), licencia MIT. Textos, ítems,
+umbrales y JavaScript se conservan sin cambios. Solo se añaden dos líneas:
+
+- `<link rel="stylesheet" href="aula-checklist.css">` antes de `</head>`, con la
+  capa de estilo del Aula (verde profundo, papel claro, Georgia);
+- una barra superior (`.aula-bar`) tras `<body>`, con «Volver al curso»,
+  «Imprimir o guardar PDF» y «Aula · Inicio».
+
+Para actualizar desde los originales: copiar de nuevo `index.html` y volver a
+insertar esas dos líneas (están marcadas con comentarios «capa del Aula»).
+
+## Aspecto del curso
+
+La aplicación sigue el patrón del curso de REDCap del Aula: cabecera oscura,
+barra lateral con sesiones numeradas y distintivos (presencial en verde
+azulado, virtual en ocre), subapartados navegables, agenda como línea temporal
+y controles «Anterior / Siguiente». Flechas del teclado para avanzar y modo
+«Presentar» que oculta la barra lateral.
 
 ## Bases metodológicas
 
