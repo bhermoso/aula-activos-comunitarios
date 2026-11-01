@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Checklist de Planificación de Educación para la Salud Grupal - Distrito AP Granada-Metropolitano">
+    <meta name="author" content="Blas R. Hermoso y Jesús Serrano">
+    <title>Checklist de Planificación - EpS Grupal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #0074c8 0%, #0074c8 60%, #00acd9 60%, #00acd9 73%, #94d40b 73%, #94d40b 80%, #ffb61b 80%, #ffb61b 87%, #ff6600 87%, #ff6600 94%, #dc143c 94%, #dc143c 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: visible;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0074c8 0%, #0062aa 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            border-radius: 15px 15px 0 0;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            opacity: 0.9;
+        }
+
+        .authors {
+            font-size: 0.9em;
+            opacity: 0.85;
+        }
+
+        .content {
+            padding: 40px;
+            position: relative;
+        }
+
+        h2 {
+            color: #0074c8;
+            font-size: 2em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #00abd9;
+        }
+
+        h3 {
+            color: #0074c8;
+            font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        .intro-text {
+            background: #e8f4f8;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border-left: 5px solid #00abd9;
+        }
+
+        .intro-text p {
+            margin: 8px 0;
+        }
+
+        .destacado {
+            background: #fff8dc;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #ffa500;
+            margin: 20px 0;
+        }
+
+        .destacado h4 {
+            color: #0074c8;
+            margin-bottom: 10px;
+        }
+
+        /* Progress Bar - Flotante */
+        .progress-bar-container {
+            position: -webkit-sticky; /* Safari */
+            position: sticky;
+            top: 0;
+            z-index: 999;
+            background: white;
+            padding: 20px;
+            margin: -40px -40px 30px -40px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            border-bottom: 3px solid #00abd9;
+            backdrop-filter: blur(10px);
+        }
+
+        .progress-bar-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: white;
+            opacity: 0.95;
+            z-index: -1;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 40px;
+            background: #e0e0e0;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: inset 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .progress-fill {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(135deg, #dc3545 0%, #ff6b6b 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 1.2em;
+            transition: width 0.5s ease, background 0.5s ease;
+        }
+
+        /* Checklist Section */
+        .checklist-section {
+            margin: 30px 0;
+        }
+
+        .checklist-item {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 12px 0;
+            transition: all 0.3s ease;
+        }
+
+        .checklist-item:hover {
+            border-color: #0074c8;
+            box-shadow: 0 4px 12px rgba(0,116,200,0.1);
+        }
+
+        .checklist-item input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            margin-right: 12px;
+            cursor: pointer;
+        }
+
+        .checklist-item label {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #0074c8;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .checklist-descripcion {
+            margin-top: 8px;
+            margin-left: 32px;
+            color: #666;
+            font-size: 0.95em;
+            line-height: 1.5;
+        }
+
+        /* Summary Section */
+        .summary-section {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+            border: 3px solid #0064c8;
+        }
+
+        .summary-section h2 {
+            color: #0064c8;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+
+        .summary-section h3 {
+            color: #0064c8;
+            margin: 25px 0 15px 0;
+            font-size: 1.3em;
+        }
+
+        .summary-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .summary-table th {
+            background: linear-gradient(135deg, #0064c8 0%, #00a0c8 100%);
+            color: white;
+            font-weight: 600;
+            padding: 15px;
+            text-align: left;
+        }
+
+        .summary-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .summary-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .summary-table tr:hover {
+            background: #f8f9fa;
+        }
+
+        /* Estado badges */
+        .estado-badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            font-weight: 600;
+            text-align: center;
+            min-width: 90px;
+        }
+
+        .estado-badge.completado {
+            background: #28a745;
+            color: white;
+        }
+
+        .estado-badge.avanzado {
+            background: #17a2b8;
+            color: white;
+        }
+
+        .estado-badge.iniciado {
+            background: #ffc107;
+            color: #333;
+        }
+
+        .estado-badge.sin-iniciar {
+            background: #6c757d;
+            color: white;
+        }
+
+        /* Feedback Box */
+        .feedback-box {
+            padding: 25px;
+            border-radius: 10px;
+            margin: 30px 0;
+            border: 3px solid;
+            transition: all 0.5s ease;
+        }
+
+        .feedback-box h3 {
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        .feedback-box h4 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        .feedback-box p {
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        .feedback-box.excelente {
+            background: #d4edda;
+            border-color: #28a745;
+        }
+
+        .feedback-box.excelente h3,
+        .feedback-box.excelente h4 {
+            color: #155724;
+        }
+
+        .feedback-box.bueno {
+            background: #d1ecf1;
+            border-color: #17a2b8;
+        }
+
+        .feedback-box.bueno h3,
+        .feedback-box.bueno h4 {
+            color: #0c5460;
+        }
+
+        .feedback-box.aceptable {
+            background: #fff3cd;
+            border-color: #ffc107;
+        }
+
+        .feedback-box.aceptable h3,
+        .feedback-box.aceptable h4 {
+            color: #856404;
+        }
+
+        .feedback-box.insuficiente {
+            background: #f8d7da;
+            border-color: #dc3545;
+        }
+
+        .feedback-box.insuficiente h3,
+        .feedback-box.insuficiente h4 {
+            color: #721c24;
+        }
+
+        .feedback-box ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .feedback-box li {
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+
+
+        /* Responsive */
+        @media print {
+            .progress-bar, footer { display: none; }
+            .container { box-shadow: none; }
+        }
+
+        @media (max-width: 768px) {
+            header h1 { font-size: 1.8em; }
+            .content { padding: 20px; }
+            .summary-table { font-size: 0.9em; }
+            .progress-bar-container { 
+                margin: -20px -20px 20px -20px; 
+                padding: 15px;
+            }
+            .progress-bar-container span {
+                font-size: 0.8em !important;
+            }
+            .progress-bar {
+                height: 35px;
+            }
+            .progress-fill {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📋 Checklist de Planificación</h1>
+            <div class="subtitle">Educación para la Salud Grupal</div>
+            <div class="authors">
+                <p><strong>Autores:</strong> Blas R. Hermoso y Jesús Serrano</p>
+                <p><strong>Institución:</strong> Distrito AP Granada-Metropolitano, Servicio Andaluz de Salud</p>
+            </div>
+        </header>
+
+        <div class="content">
+            <h2>LISTA DE COMPROBACIÓN DE PLANIFICACIÓN</h2>
+            
+            <div class="intro-text">
+                <p><strong>Objetivo:</strong> Asegurar que tu programa contempla todos los elementos esenciales para el éxito</p>
+                <p><strong>Total de criterios:</strong> 44 ítems verificables</p>
+                <p><strong>Duración estimada:</strong> 45-50 minutos</p>
+            </div>
+
+            <div class="destacado">
+                <h4>¿Para qué sirve esta lista de comprobación?</h4>
+                <p>Esta herramienta te ayudará a verificar que has contemplado todos los elementos esenciales en la planificación de tu programa de educación para la salud grupal.</p>
+                <p><strong>Dato clave:</strong> Una buena planificación determina el 80% del éxito del programa.</p>
+            </div>
+
+            <!-- Barra de progreso flotante -->
+            <div class="progress-bar-container">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                    <span style="font-weight: 600; color: #0074c8; font-size: 0.95em;">Progreso de tu planificación</span>
+                    <span id="progress-text" style="font-weight: 700; color: #666; font-size: 0.9em;">0 de 44 criterios</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressPlan">0%</div>
+                </div>
+            </div>
+
+            <div class="checklist-section">
+                <h3>1. ANÁLISIS DE LA SITUACIÓN (5 ítems)</h3>
+                
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan1-1" onchange="updateProgressPlan()">
+                    <label for="plan1-1">1.1 Problema de salud prioritario identificado</label>
+                    <div class="checklist-descripcion">
+                        He identificado el problema de salud prioritario que abordará el programa, con datos y evidencias que lo respaldan.
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan1-2" onchange="updateProgressPlan()">
+                    <label for="plan1-2">1.2 Hábito saludable a promover definido</label>
+                    <div class="checklist-descripcion">
+                        He definido claramente qué hábito saludable específico quiero promover y cómo este hábito contribuye a la salud.
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan1-3" onchange="updateProgressPlan()">
+                    <label for="plan1-3">1.3 Población diana caracterizada y necesidades analizadas</label>
+                    <div class="checklist-descripcion">
+                        Conozco las características de mi población diana (sociodemográficas, nivel educativo) y he analizado sus necesidades expresadas y detectadas.
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan1-4" onchange="updateProgressPlan()">
+                    <label for="plan1-4">1.4 Recursos disponibles identificados</label>
+                    <div class="checklist-descripcion">
+                        He identificado los recursos humanos, materiales, espacios e institucionales disponibles para el programa.
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan1-5" onchange="updateProgressPlan()">
+                    <label for="plan1-5">1.5 Barreras y facilitadores analizados</label>
+                    <div class="checklist-descripcion">
+                        He analizado las barreras y facilitadores que pueden afectar a la participación y al éxito del programa.
+                    </div>
+                </div>
+
+                <h3>2. OBJETIVOS (4 ítems)</h3>
+                
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan2-1" onchange="updateProgressPlan()">
+                    <label for="plan2-1">2.1 Objetivo general SMART formulado</label>
+                    <div class="checklist-descripcion">
+                        He formulado un objetivo general SMART (Específico, Medible, Alcanzable, Relevante, Temporal).
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan2-2" onchange="updateProgressPlan()">
+                    <label for="plan2-2">2.2 Objetivos específicos definidos (2-4)</label>
+                    <div class="checklist-descripcion">
+                        Tengo entre 2 y 4 objetivos específicos claramente definidos y medibles.
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan2-3" onchange="updateProgressPlan()">
+                    <label for="plan2-3">2.3 Objetivos alcanzables con recursos disponibles</label>
+                    <div class="checklist-descripcion">
+                        Los objetivos son alcanzables con los recursos disponibles y en el tiempo planificado.
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan2-4" onchange="updateProgressPlan()">
+                    <label for="plan2-4">2.4 Objetivos responden a necesidades identificadas</label>
+                    <div class="checklist-descripcion">
+                        Los objetivos responden a las necesidades reales identificadas en el análisis de la situación.
+                    </div>
+                </div>
+
+                <h3>3. CONTENIDOS Y METODOLOGÍA (7 ítems)</h3>
+                
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan3-1" onchange="updateProgressPlan()">
+                    <label for="plan3-1">3.1 Contenidos adaptados a la población diana</label>
+                    <div class="checklist-descripcion">
+                        Los contenidos están adaptados al nivel educativo, cultural y lingüístico de la población diana.
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan3-2" onchange="updateProgressPlan()">
+                    <label for="plan3-2">3.2 Metodologías participativas seleccionadas</label>
+                    <div class="checklist-descripcion">
+                        He seleccionado metodologías participativas que favorecen el aprendizaje activo.
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan3-3" onchange="updateProgressPlan()">
+                    <label for="plan3-3">3.3 Técnicas vivenciales incluidas</label>
+                    <div class="checklist-descripcion">
+                        Incluyo técnicas vivenciales (talleres prácticos, role-play, demostraciones, casos prácticos).
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan3-4" onchange="updateProgressPlan()">
+                    <label for="plan3-4">3.4 Cohesión grupal potenciada</label>
+                    <div class="checklist-descripcion">
+                        El programa potencia la cohesión grupal y el apoyo mutuo entre participantes.
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan3-5" onchange="updateProgressPlan()">
+                    <label for="plan3-5">3.5 Actividades parten de la realidad de los participantes</label>
+                    <div class="checklist-descripcion">
+                        He diseñado actividades que parten de la realidad y experiencias de los participantes.
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan3-6" onchange="updateProgressPlan()">
+                    <label for="plan3-6">3.6 Enfoque salutogénico aplicado</label>
+                    <div class="checklist-descripcion">
+                        Aplico un enfoque salutogénico (centrado en recursos y fortalezas, no solo en problemas).
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan3-7" onchange="updateProgressPlan()">
+                    <label for="plan3-7">3.7 Materiales didácticos preparados</label>
+                    <div class="checklist-descripcion">
+                        He preparado materiales didácticos de apoyo (presentaciones, folletos, fichas prácticas).
+                    </div>
+                </div>
+
+                <h3>4. RECURSOS Y LOGÍSTICA (6 ítems)</h3>
+                
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan4-1" onchange="updateProgressPlan()">
+                    <label for="plan4-1">4.1 Espacio físico identificado</label>
+                    <div class="checklist-descripcion">
+                        He identificado y reservado el espacio físico necesario (accesible, adecuado al tamaño del grupo).
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan4-2" onchange="updateProgressPlan()">
+                    <label for="plan4-2">4.2 Material fungible listado</label>
+                    <div class="checklist-descripcion">
+                        Tengo listado el material fungible necesario (papel, rotuladores, etc.).
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan4-3" onchange="updateProgressPlan()">
+                    <label for="plan4-3">4.3 Equipamiento técnico previsto</label>
+                    <div class="checklist-descripcion">
+                        He previsto el equipamiento técnico necesario (proyector, ordenador, sistema de sonido).
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan4-4" onchange="updateProgressPlan()">
+                    <label for="plan4-4">4.4 Presupuesto conocido y financiación asegurada</label>
+                    <div class="checklist-descripcion">
+                        Conozco el presupuesto total necesario y tengo la financiación asegurada.
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan4-5" onchange="updateProgressPlan()">
+                    <label for="plan4-5">4.5 Equipo de profesionales planificado</label>
+                    <div class="checklist-descripcion">
+                        He planificado el equipo de profesionales necesario (facilitadores, apoyo técnico).
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan4-6" onchange="updateProgressPlan()">
+                    <label for="plan4-6">4.6 Recursos para necesidades especiales previstos</label>
+                    <div class="checklist-descripcion">
+                        He previsto recursos para personas con necesidades especiales (accesibilidad, materiales adaptados).
+                    </div>
+                </div>
+
+                <h3>5. CRONOGRAMA (6 ítems)</h3>
+                
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan5-1" onchange="updateProgressPlan()">
+                    <label for="plan5-1">5.1 Número total de sesiones definido</label>
+                    <div class="checklist-descripcion">
+                        Tengo definido el número total de sesiones del programa.
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan5-2" onchange="updateProgressPlan()">
+                    <label for="plan5-2">5.2 Duración de cada sesión establecida</label>
+                    <div class="checklist-descripcion">
+                        Cada sesión tiene una duración establecida (habitualmente entre 90-120 minutos).
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan5-3" onchange="updateProgressPlan()">
+                    <label for="plan5-3">5.3 Frecuencia de sesiones planificada</label>
+                    <div class="checklist-descripcion">
+                        He planificado la frecuencia de las sesiones (semanal, quincenal, mensual).
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan5-4" onchange="updateProgressPlan()">
+                    <label for="plan5-4">5.4 Fechas de inicio y fin establecidas</label>
+                    <div class="checklist-descripcion">
+                        Tengo establecidas las fechas de inicio y fin del programa.
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan5-5" onchange="updateProgressPlan()">
+                    <label for="plan5-5">5.5 Plan de sesión detallado para cada encuentro</label>
+                    <div class="checklist-descripcion">
+                        He diseñado un plan de sesión detallado para cada encuentro (objetivos, actividades, tiempos).
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan5-6" onchange="updateProgressPlan()">
+                    <label for="plan5-6">5.6 Horario compatible con población diana</label>
+                    <div class="checklist-descripcion">
+                        El horario elegido es compatible con la disponibilidad de la población diana.
+                    </div>
+                </div>
+
+                <h3>6. EVALUACIÓN (8 ítems)</h3>
+                
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan6-1" onchange="updateProgressPlan()">
+                    <label for="plan6-1">6.1 Indicadores medibles definidos</label>
+                    <div class="checklist-descripcion">
+                        He definido indicadores medibles para cada objetivo del programa.
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan6-2" onchange="updateProgressPlan()">
+                    <label for="plan6-2">6.2 Instrumentos de evaluación preparados</label>
+                    <div class="checklist-descripcion">
+                        Tengo preparados los instrumentos de evaluación (cuestionarios, escalas, registros).
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan6-3" onchange="updateProgressPlan()">
+                    <label for="plan6-3">6.3 Evaluación de proceso planificada</label>
+                    <div class="checklist-descripcion">
+                        Planeo evaluar el proceso (asistencia, satisfacción, incidencias).
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan6-4" onchange="updateProgressPlan()">
+                    <label for="plan6-4">6.4 Evaluación de resultados planificada</label>
+                    <div class="checklist-descripcion">
+                        Planeo evaluar los resultados (cambios en conocimientos, actitudes y conductas).
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan6-5" onchange="updateProgressPlan()">
+                    <label for="plan6-5">6.5 Evaluación de impacto planificada</label>
+                    <div class="checklist-descripcion">
+                        Planeo evaluar el impacto (efectos a medio-largo plazo en la salud de los participantes).
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan6-6" onchange="updateProgressPlan()">
+                    <label for="plan6-6">6.6 Momentos de evaluación establecidos</label>
+                    <div class="checklist-descripcion">
+                        He establecido momentos concretos de evaluación (pre-intervención, post-intervención, seguimiento).
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan6-7" onchange="updateProgressPlan()">
+                    <label for="plan6-7">6.7 Sistema de documentación y análisis previsto</label>
+                    <div class="checklist-descripcion">
+                        Tengo previsto cómo documentar y analizar los datos recogidos.
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan6-8" onchange="updateProgressPlan()">
+                    <label for="plan6-8">6.8 Uso de resultados para mejora continua planificado</label>
+                    <div class="checklist-descripcion">
+                        He planificado cómo utilizaré los resultados para la mejora continua del programa.
+                    </div>
+                </div>
+
+                <h3>7. ACTORES Y COORDINACIÓN (8 ítems)</h3>
+                
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan7-1" onchange="updateProgressPlan()">
+                    <label for="plan7-1">7.1 Actores implicados identificados</label>
+                    <div class="checklist-descripcion">
+                        He identificado a todos los actores implicados (participantes, profesionales, instituciones, comunidad).
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan7-2" onchange="updateProgressPlan()">
+                    <label for="plan7-2">7.2 Estrategia de captación definida</label>
+                    <div class="checklist-descripcion">
+                        Tengo una estrategia de captación de participantes definida (difusión, canales, mensajes).
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan7-3" onchange="updateProgressPlan()">
+                    <label for="plan7-3">7.3 Criterios de inclusión/exclusión establecidos</label>
+                    <div class="checklist-descripcion">
+                        He establecido criterios de inclusión y exclusión claros para los participantes.
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan7-4" onchange="updateProgressPlan()">
+                    <label for="plan7-4">7.4 Coordinación con instituciones relevantes</label>
+                    <div class="checklist-descripcion">
+                        He coordinado con las instituciones relevantes (centros de salud, ayuntamiento, asociaciones).
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan7-5" onchange="updateProgressPlan()">
+                    <label for="plan7-5">7.5 Apoyo institucional confirmado por escrito</label>
+                    <div class="checklist-descripcion">
+                        Tengo el apoyo institucional confirmado por escrito.
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan7-6" onchange="updateProgressPlan()">
+                    <label for="plan7-6">7.6 Agentes comunitarios identificados</label>
+                    <div class="checklist-descripcion">
+                        He identificado agentes comunitarios clave para el éxito del programa.
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan7-7" onchange="updateProgressPlan()">
+                    <label for="plan7-7">7.7 Mecanismos de coordinación del equipo establecidos</label>
+                    <div class="checklist-descripcion">
+                        He establecido mecanismos de coordinación entre los profesionales del equipo.
+                    </div>
+                </div>
+
+                <div class="checklist-item">
+                    <input type="checkbox" id="plan7-8" onchange="updateProgressPlan()">
+                    <label for="plan7-8">7.8 Comunicación de resultados prevista</label>
+                    <div class="checklist-descripcion">
+                        Tengo previsto cómo comunicar los resultados a los participantes y a la comunidad.
+                    </div>
+                </div>
+            </div>
+
+            <!-- RESUMEN AUTOMÁTICO -->
+            <div class="summary-section">
+                <h2>RESUMEN DE VERIFICACIÓN Y ANÁLISIS</h2>
+                
+                <table class="summary-table">
+                    <tr>
+                        <th>Concepto</th>
+                        <th>Valor</th>
+                    </tr>
+                    <tr>
+                        <td>Total de criterios del checklist</td>
+                        <td><strong>44</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Criterios cumplidos (☑)</td>
+                        <td><strong><span id="criterios-cumplidos-plan">0</span> / 44</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Porcentaje de cumplimiento</td>
+                        <td><strong><span id="porcentaje-cumplimiento-plan">0</span> %</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Criterio de calidad mínimo</td>
+                        <td><strong>85% (38/44 criterios)</strong></td>
+                    </tr>
+                </table>
+                
+                <p><strong>Fórmula de cálculo:</strong> Porcentaje = (Criterios cumplidos / 44) × 100</p>
+
+                <h3>Análisis por Secciones</h3>
+                <p>Identifica las áreas con menor cumplimiento para priorizar mejoras:</p>
+
+                <table class="summary-table">
+                    <tr>
+                        <th>Sección</th>
+                        <th>Cumplimiento</th>
+                        <th>Estado</th>
+                    </tr>
+                    <tr>
+                        <td>1. Análisis de la situación</td>
+                        <td><span id="seccion1-cumplidos">0</span> / 5</td>
+                        <td><span id="seccion1-estado" class="estado-badge sin-iniciar">Sin iniciar</span></td>
+                    </tr>
+                    <tr>
+                        <td>2. Objetivos</td>
+                        <td><span id="seccion2-cumplidos">0</span> / 4</td>
+                        <td><span id="seccion2-estado" class="estado-badge sin-iniciar">Sin iniciar</span></td>
+                    </tr>
+                    <tr>
+                        <td>3. Contenidos y metodología</td>
+                        <td><span id="seccion3-cumplidos">0</span> / 7</td>
+                        <td><span id="seccion3-estado" class="estado-badge sin-iniciar">Sin iniciar</span></td>
+                    </tr>
+                    <tr>
+                        <td>4. Recursos y logística</td>
+                        <td><span id="seccion4-cumplidos">0</span> / 6</td>
+                        <td><span id="seccion4-estado" class="estado-badge sin-iniciar">Sin iniciar</span></td>
+                    </tr>
+                    <tr>
+                        <td>5. Cronograma</td>
+                        <td><span id="seccion5-cumplidos">0</span> / 6</td>
+                        <td><span id="seccion5-estado" class="estado-badge sin-iniciar">Sin iniciar</span></td>
+                    </tr>
+                    <tr>
+                        <td>6. Evaluación</td>
+                        <td><span id="seccion6-cumplidos">0</span> / 8</td>
+                        <td><span id="seccion6-estado" class="estado-badge sin-iniciar">Sin iniciar</span></td>
+                    </tr>
+                    <tr>
+                        <td>7. Actores y coordinación</td>
+                        <td><span id="seccion7-cumplidos">0</span> / 8</td>
+                        <td><span id="seccion7-estado" class="estado-badge sin-iniciar">Sin iniciar</span></td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- FEEDBACK DINÁMICO -->
+            <div id="feedback-box-plan" class="feedback-box" style="display: none;">
+                <h3 id="feedback-titulo-plan">Evaluación de tu planificación</h3>
+                <p id="feedback-mensaje-plan"></p>
+                <div id="feedback-recomendaciones-plan">
+                    <h4>Recomendaciones prioritarias:</h4>
+                    <ul id="lista-recomendaciones-plan"></ul>
+                </div>
+            </div>
+
+            <div class="destacado" style="margin-top: 40px;">
+                <h3>Interpretación de Resultados</h3>
+                <ul>
+                    <li><strong>95-100% (42-44 criterios):</strong> Planificación excelente. Programa muy completo y riguroso.</li>
+                    <li><strong>85-94% (38-41 criterios):</strong> Planificación buena. Cumple estándares de calidad mínimos.</li>
+                    <li><strong>70-84% (31-37 criterios):</strong> Planificación aceptable pero mejorable. Revisar criterios no cumplidos.</li>
+                    <li><strong>&lt; 70% (&lt; 31 criterios):</strong> Planificación insuficiente. Requiere revisión profunda antes de implementar.</li>
+                </ul>
+            </div>
+        </div>
+
+        <footer style="background: linear-gradient(135deg, #0074c8 0%, #0074c8 60%, #00acd9 60%, #00acd9 73%, #94d40b 73%, #94d40b 80%, #ffb61b 80%, #ffb61b 87%, #ff6600 87%, #ff6600 94%, #dc143c 94%, #dc143c 100%); color: white; padding: 20px 15px; margin-top: 30px; border-radius: 0 0 15px 15px;">
+        <div style="max-width: 900px; margin: 0 auto;">
+            
+            <!-- Título compacto -->
+            <div style="text-align: center; margin-bottom: 15px;">
+                <h2 style="font-size: 1.4em; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">📜 Licencia y Créditos</h2>
+            </div>
+
+            <!-- Contenido en dos columnas compactas -->
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 15px;">
+                
+                <!-- Columna 1: Licencia y Autoría -->
+                <div style="background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px;">
+                    <h3 style="font-size: 1em; margin: 0 0 8px 0; color: #8cc800;">⚖️ Licencia MIT</h3>
+                    <p style="font-size: 0.8em; line-height: 1.4; margin: 0 0 8px 0;">
+                        <strong>© 2025 Blas Hermoso</strong><br>
+                        Libre uso y distribución bajo Licencia MIT.
+                    </p>
+                    <p style="font-size: 0.7em; font-style: italic; opacity: 0.8; line-height: 1.2; margin: 0;">
+                        Software "tal cual", sin garantías.
+                    </p>
+                </div>
+
+                <!-- Columna 2: Información Institucional -->
+                <div style="background: rgba(255,255,255,0.1); padding: 12px; border-radius: 8px;">
+                    <h3 style="font-size: 1em; margin: 0 0 8px 0; color: #8cc800;">🏥 Información</h3>
+                    <p style="font-size: 0.8em; line-height: 1.4; margin: 0;">
+                        <strong>Distrito Granada-Metropolitano</strong><br>
+                        SAS • Textos: B. Hermoso, J. Serrano<br>
+                        Desarrollo: B. Hermoso • v1.0 (2025)
+                    </p>
+                </div>
+            </div>
+
+            <!-- Paleta de 6 colores institucionales HIPER COMPACTA -->
+            <div style="background: rgba(255,255,255,0.1); padding: 3px; border-radius: 4px; margin-bottom: 3px;">
+                <h3 style="font-size: 0.55em; margin: 0 0 2px 0; text-align: center; color: #94d40b;">🎨 Colores (6)</h3>
+                <div style="display: flex; justify-content: center; gap: 2px; flex-wrap: wrap;">
+                    <div style="text-align: center;">
+                        <div style="width: 12px; height: 12px; background: #0074c8; border-radius: 2px; margin-bottom: 1px;"></div>
+                        <p style="font-size: 0.38em; margin: 0; line-height: 1;">#0074c8</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="width: 12px; height: 12px; background: #00acd9; border-radius: 2px; margin-bottom: 1px;"></div>
+                        <p style="font-size: 0.38em; margin: 0; line-height: 1;">#00acd9</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="width: 12px; height: 12px; background: #94d40b; border-radius: 2px; margin-bottom: 1px;"></div>
+                        <p style="font-size: 0.38em; margin: 0; line-height: 1;">#94d40b</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="width: 12px; height: 12px; background: #ffb61b; border-radius: 2px; margin-bottom: 1px;"></div>
+                        <p style="font-size: 0.38em; margin: 0; line-height: 1;">#ffb61b</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="width: 12px; height: 12px; background: #ff6600; border-radius: 2px; margin-bottom: 1px;"></div>
+                        <p style="font-size: 0.38em; margin: 0; line-height: 1;">#ff6600</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="width: 12px; height: 12px; background: #dc143c; border-radius: 2px; margin-bottom: 1px;"></div>
+                        <p style="font-size: 0.38em; margin: 0; line-height: 1;">#dc143c</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tecnologías HIPER compactas -->
+            <div style="background: rgba(255,255,255,0.1); padding: 3px; border-radius: 4px; margin-bottom: 3px;">
+                <h3 style="font-size: 0.55em; margin-bottom: 2px; text-align: center; color: #00d4ff;">💻 Stack</h3>
+                <p style="font-size: 0.5em; text-align: center; line-height: 1.1; margin: 0;">
+                    HTML5 • CSS3 • JS • Claude 4.5
+                </p>
+            </div>
+
+            <!-- Pie final HIPER compacto -->
+            <div style="text-align: center; padding-top: 3px; border-top: 1px solid rgba(255,255,255,0.3); font-size: 0.5em; opacity: 0.8;">
+                <p style="margin: 0;">Material educativo de uso libre • © 2025 Blas Hermoso</p>
+            </div>
+
+        </div>
+    </footer>
+    </div>
+
+    <script>
+        // Configuración del checklist
+        const configPlanificacion = {
+            totalItems: 44,
+            umbralExcelente: 95,
+            umbralBueno: 85,
+            umbralAceptable: 70,
+            secciones: [
+                { 
+                    id: 'seccion1', 
+                    nombre: 'Análisis de la situación', 
+                    total: 5, 
+                    checkboxes: ['plan1-1', 'plan1-2', 'plan1-3', 'plan1-4', 'plan1-5'] 
+                },
+                { 
+                    id: 'seccion2', 
+                    nombre: 'Objetivos', 
+                    total: 4, 
+                    checkboxes: ['plan2-1', 'plan2-2', 'plan2-3', 'plan2-4'] 
+                },
+                { 
+                    id: 'seccion3', 
+                    nombre: 'Contenidos y metodología', 
+                    total: 7, 
+                    checkboxes: ['plan3-1', 'plan3-2', 'plan3-3', 'plan3-4', 'plan3-5', 'plan3-6', 'plan3-7'] 
+                },
+                { 
+                    id: 'seccion4', 
+                    nombre: 'Recursos y logística', 
+                    total: 6, 
+                    checkboxes: ['plan4-1', 'plan4-2', 'plan4-3', 'plan4-4', 'plan4-5', 'plan4-6'] 
+                },
+                { 
+                    id: 'seccion5', 
+                    nombre: 'Cronograma', 
+                    total: 6, 
+                    checkboxes: ['plan5-1', 'plan5-2', 'plan5-3', 'plan5-4', 'plan5-5', 'plan5-6'] 
+                },
+                { 
+                    id: 'seccion6', 
+                    nombre: 'Evaluación', 
+                    total: 8, 
+                    checkboxes: ['plan6-1', 'plan6-2', 'plan6-3', 'plan6-4', 'plan6-5', 'plan6-6', 'plan6-7', 'plan6-8'] 
+                },
+                { 
+                    id: 'seccion7', 
+                    nombre: 'Actores y coordinación', 
+                    total: 8, 
+                    checkboxes: ['plan7-1', 'plan7-2', 'plan7-3', 'plan7-4', 'plan7-5', 'plan7-6', 'plan7-7', 'plan7-8'] 
+                }
+            ]
+        };
+
+        // Función principal de actualización
+        function updateProgressPlan() {
+            const config = configPlanificacion;
+            let totalMarcados = 0;
+            
+            config.secciones.forEach(seccion => {
+                seccion.checkboxes.forEach(checkboxId => {
+                    const checkbox = document.getElementById(checkboxId);
+                    if (checkbox && checkbox.checked) totalMarcados++;
+                });
+            });
+            
+            const porcentaje = Math.round((totalMarcados / config.totalItems) * 100);
+            
+            const progressBar = document.getElementById('progressPlan');
+            progressBar.style.width = porcentaje + '%';
+            progressBar.textContent = porcentaje + '%';
+            
+            // Actualizar texto descriptivo
+            const progressText = document.getElementById('progress-text');
+            if (progressText) {
+                progressText.textContent = `${totalMarcados} de ${config.totalItems} criterios`;
+                progressText.style.color = porcentaje >= config.umbralBueno ? '#28a745' : '#666';
+            }
+            
+            if (porcentaje >= config.umbralExcelente) {
+                progressBar.style.background = 'linear-gradient(135deg, #28a745 0%, #b7d330 100%)';
+            } else if (porcentaje >= config.umbralBueno) {
+                progressBar.style.background = 'linear-gradient(135deg, #17a2b8 0%, #5dccff 100%)';
+            } else if (porcentaje >= config.umbralAceptable) {
+                progressBar.style.background = 'linear-gradient(135deg, #ffc107 0%, #ffdb4d 100%)';
+            } else {
+                progressBar.style.background = 'linear-gradient(135deg, #dc3545 0%, #ff6b6b 100%)';
+            }
+            
+            document.getElementById('criterios-cumplidos-plan').textContent = totalMarcados;
+            document.getElementById('porcentaje-cumplimiento-plan').textContent = porcentaje;
+            
+            const seccionesIncompletas = analizarSeccionesPlan(config);
+            generarFeedbackPlan(totalMarcados, porcentaje, config, seccionesIncompletas);
+        }
+
+        function analizarSeccionesPlan(config) {
+            const seccionesIncompletas = [];
+            
+            config.secciones.forEach(seccion => {
+                let cumplidos = 0;
+                
+                seccion.checkboxes.forEach(checkboxId => {
+                    const checkbox = document.getElementById(checkboxId);
+                    if (checkbox && checkbox.checked) cumplidos++;
+                });
+                
+                const porcentajeSeccion = Math.round((cumplidos / seccion.total) * 100);
+                
+                document.getElementById(`${seccion.id}-cumplidos`).textContent = cumplidos;
+                
+                const estadoBadge = document.getElementById(`${seccion.id}-estado`);
+                if (cumplidos === seccion.total) {
+                    estadoBadge.textContent = 'Completado';
+                    estadoBadge.className = 'estado-badge completado';
+                } else if (porcentajeSeccion >= 70) {
+                    estadoBadge.textContent = 'Avanzado';
+                    estadoBadge.className = 'estado-badge avanzado';
+                } else if (cumplidos > 0) {
+                    estadoBadge.textContent = 'Iniciado';
+                    estadoBadge.className = 'estado-badge iniciado';
+                } else {
+                    estadoBadge.textContent = 'Sin iniciar';
+                    estadoBadge.className = 'estado-badge sin-iniciar';
+                }
+                
+                if (porcentajeSeccion < 80) {
+                    seccionesIncompletas.push({
+                        nombre: seccion.nombre,
+                        cumplidos: cumplidos,
+                        total: seccion.total,
+                        porcentaje: porcentajeSeccion
+                    });
+                }
+            });
+            
+            return seccionesIncompletas;
+        }
+
+        function generarFeedbackPlan(totalMarcados, porcentaje, config, seccionesIncompletas) {
+            const feedbackBox = document.getElementById('feedback-box-plan');
+            const feedbackTitulo = document.getElementById('feedback-titulo-plan');
+            const feedbackMensaje = document.getElementById('feedback-mensaje-plan');
+            const listaRecomendaciones = document.getElementById('lista-recomendaciones-plan');
+            
+            feedbackBox.style.display = 'block';
+            listaRecomendaciones.innerHTML = '';
+            
+            if (porcentaje >= config.umbralExcelente) {
+                feedbackBox.className = 'feedback-box excelente';
+                feedbackTitulo.textContent = '¡Excelente planificación!';
+                feedbackMensaje.innerHTML = `Has completado <strong>${totalMarcados} de ${config.totalItems} criterios (${porcentaje}%)</strong>. Tu programa está muy bien planificado y tiene altas probabilidades de éxito.`;
+                
+                agregarRecomendacion(listaRecomendaciones, 'Documenta esta planificación para compartirla como buena práctica');
+                agregarRecomendacion(listaRecomendaciones, 'Comparte tu experiencia con el equipo');
+                
+            } else if (porcentaje >= config.umbralBueno) {
+                feedbackBox.className = 'feedback-box bueno';
+                feedbackTitulo.textContent = 'Buena planificación';
+                feedbackMensaje.innerHTML = `Has completado <strong>${totalMarcados} de ${config.totalItems} criterios (${porcentaje}%)</strong>. Cumples los estándares de calidad mínimos.`;
+                
+                if (seccionesIncompletas.length > 0) {
+                    agregarRecomendacion(listaRecomendaciones, 
+                        `Refuerza estas secciones: ${seccionesIncompletas.slice(0, 3).map(s => s.nombre).join(', ')}`);
+                }
+                
+            } else if (porcentaje >= config.umbralAceptable) {
+                feedbackBox.className = 'feedback-box aceptable';
+                feedbackTitulo.textContent = 'Planificación aceptable pero mejorable';
+                feedbackMensaje.innerHTML = `Has completado <strong>${totalMarcados} de ${config.totalItems} criterios (${porcentaje}%)</strong>. Necesitas reforzar aspectos críticos.`;
+                
+                const criteriosParaUmbral = Math.ceil(config.totalItems * config.umbralBueno / 100) - totalMarcados;
+                agregarRecomendacion(listaRecomendaciones, 
+                    `Completa al menos ${criteriosParaUmbral} criterios más para alcanzar el estándar de calidad`);
+                
+            } else {
+                feedbackBox.className = 'feedback-box insuficiente';
+                feedbackTitulo.textContent = '⚠️ Planificación insuficiente';
+                feedbackMensaje.innerHTML = `Has completado solo <strong>${totalMarcados} de ${config.totalItems} criterios (${porcentaje}%)</strong>. Requiere revisión profunda.`;
+                
+                agregarRecomendacion(listaRecomendaciones, 
+                    '<strong>ACCIÓN URGENTE:</strong> No implementes hasta completar la planificación');
+                agregarRecomendacion(listaRecomendaciones, 
+                    'Dedica tiempo a trabajar cada sección detenidamente');
+            }
+        }
+
+        function agregarRecomendacion(lista, texto) {
+            const li = document.createElement('li');
+            li.innerHTML = texto;
+            lista.appendChild(li);
+        }
+
+        // Inicializar al cargar la página
+        window.addEventListener('DOMContentLoaded', function() {
+            updateProgressPlan();
+        });
+    </script>
+</body>
+</html>

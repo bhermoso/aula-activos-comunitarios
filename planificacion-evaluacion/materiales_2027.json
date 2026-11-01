@@ -113,11 +113,11 @@
       ],
       "rows": [
        [
-        "Lista de comprobación de planificación de EpS grupal (B. Hermoso, J. Serrano; 44 ítems)",
+        "Lista de comprobación de planificación de EpS grupal (B. Hermoso, J. Serrano; 44 ítems), integrada en el curso",
         "S2: revisar una actuación grupal antes de ejecutarla"
        ],
        [
-        "Lista de comprobación de evaluación de EpS grupal (B. Hermoso, J. Serrano; 33 ítems)",
+        "Lista de comprobación de evaluación de EpS grupal (B. Hermoso, J. Serrano; 33 ítems), integrada en el curso",
         "S2 y V2: revisar el sistema de evaluación de una actuación"
        ],
        [
@@ -1164,7 +1164,7 @@
     },
     {
      "h": "2. Lista de comprobación de planificación de EpS grupal",
-     "p": "44 ítems en siete secciones: análisis de la situación, objetivos, contenidos y metodología, recursos y logística, cronograma, evaluación, y actores y coordinación. Se aplica en parejas a una actividad grupal propuesta para Zagra (por ejemplo, un taller de alimentación para todas las edades o actividades para cuidadoras). Interesa menos el porcentaje total que las secciones con menor cumplimiento: indican dónde hay que volver antes de ejecutar."
+     "p": "44 ítems en siete secciones: análisis de la situación, objetivos, contenidos y metodología, recursos y logística, cronograma, evaluación, y actores y coordinación. Se aplica en parejas a una actividad grupal propuesta para Zagra (por ejemplo, un taller de alimentación para todas las edades o actividades para cuidadoras). Interesa menos el porcentaje total que las secciones con menor cumplimiento: indican dónde hay que volver antes de ejecutar. Herramienta interactiva: https://bhermoso.github.io/aula-activos-comunitarios/planificacion-evaluacion/herramientas/checklist-planificacion.html"
     },
     {
      "h": "3. Seguimiento y evaluación",
@@ -1290,7 +1290,7 @@
     },
     {
      "h": "Lista de comprobación de evaluación de EpS grupal",
-     "p": "33 ítems en seis secciones: planificación de la evaluación, proceso, resultados, impacto, instrumentos, y análisis y uso de resultados. Se aplica a la actividad grupal revisada en la primera parte de la sesión. Ítems que suelen fallar: línea base asegurada antes de empezar, instrumentos pilotados, estrategia para reducir pérdidas de seguimiento y devolución de resultados a participantes."
+     "p": "33 ítems en seis secciones: planificación de la evaluación, proceso, resultados, impacto, instrumentos, y análisis y uso de resultados. Se aplica a la actividad grupal revisada en la primera parte de la sesión. Ítems que suelen fallar: línea base asegurada antes de empezar, instrumentos pilotados, estrategia para reducir pérdidas de seguimiento y devolución de resultados a participantes. Herramienta interactiva: https://bhermoso.github.io/aula-activos-comunitarios/planificacion-evaluacion/herramientas/checklist-evaluacion.html"
     },
     {
      "h": "Criterio de cierre",
@@ -1367,7 +1367,7 @@
       "Matriz de evaluación completa (pregunta, indicador o información, fuente, momento, responsable y uso).",
       "Dos fichas de indicador completas: una de proceso y una de resultado, con tiempo cero (valor o plan para obtenerlo antes de la primera actividad) y meta justificada.",
       "Al menos un método cualitativo o participativo, justificado.",
-      "Aplicación de la lista de comprobación de evaluación a una actuación grupal del plan, con las mejoras derivadas.",
+      "Aplicación de la lista de comprobación de evaluación a una actuación grupal del plan, con las mejoras derivadas. Herramienta: https://bhermoso.github.io/aula-activos-comunitarios/planificacion-evaluacion/herramientas/checklist-evaluacion.html (adjuntar el resumen impreso o en PDF).",
       "Plan de devolución: destinatarios, formato y momento.",
       "Reflexión individual (máximo una página): qué aporta el propio perfil profesional al plan y qué límites se han encontrado."
      ]
