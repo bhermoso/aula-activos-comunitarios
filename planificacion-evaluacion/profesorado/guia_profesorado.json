@@ -1,0 +1,362 @@
+{
+ "revision": "2026-11-01",
+ "docs": [
+  {
+   "id": "guia_profesorado",
+   "nivel": "Profesorado",
+   "clase": "Guía del profesorado",
+   "titulo": "Guía del profesorado · Del dato a la acción",
+   "subtitulo": "Soluciones, dinámica y criterios de corrección de las once prácticas presenciales y de las actividades A-D. Uso exclusivo del profesorado.",
+   "duracion": "No difundir al alumnado",
+   "sections": [
+    {
+     "h": "Uso de esta guía",
+     "p": "Material del profesorado: contiene soluciones, respuestas esperadas y criterios de corrección. Por decisión de la coordinación del curso se guarda en el espacio público del curso, sin enlace desde las páginas del alumnado. Las fichas y presentaciones del alumnado no incluyen estas indicaciones."
+    },
+    {
+     "h": "Idea que recorre el curso",
+     "p": "La posibilidad de evaluar un plan se decide al planificarlo. S1 lo muestra con lo que se perdió en Zagra entre 2017 y 2026; S2 lo muestra con lo que no puede afirmarse cuando la evaluación no se previó. Conviene retomar al final de S2 las frases que cada grupo escribió en la práctica 1 de S1."
+    },
+    {
+     "h": "Preparación general",
+     "bullets": [
+      "Grupos interprofesionales de 4 a 5 personas, decididos antes de la sesión.",
+      "Impresión por grupo: expediente del caso Zagra, plantillas de priorización y plan de acción (S1), plantillas de ficha de indicador y plan de evaluación (S2).",
+      "Acceso a internet en S2 para las checklists, o copias impresas de ambas.",
+      "Presentaciones de S1 y S2 (versión para el alumnado) y cronómetro visible.",
+      "Antes de cada edición, comprobar con el distrito y el Ayuntamiento si ha cambiado la situación del proceso de Zagra (acuerdos del Grupo Motor, Perfil validado, Plan aprobado) y actualizar el caso."
+     ]
+    },
+    {
+     "h": "S1 · Práctica 1 · Zagra 2017-2026 (30 minutos)",
+     "bullets": [
+      "Objetivo docente: que la necesidad de planificar surja del caso, no de una afirmación del profesorado.",
+      "Respuestas esperadas, qué existía en 2017: adhesión a RELAS, acuerdo con la Consejería, Informe de Salud, Grupo Motor, 18 problemas identificados, activos y propuestas de acción.",
+      "Respuestas esperadas, qué no consta: plan aprobado, objetivos, responsables, calendario, indicadores con tiempo cero, mecanismo de seguimiento y evaluación del ciclo.",
+      "Respuestas esperadas, qué reconstruye 2026: la priorización (con una consulta nueva), el inventario de activos (por contrastar), el compromiso institucional y la memoria de lo hecho.",
+      "Cautela que hay que introducir si no aparece: el expediente no permite afirmar que no se hiciera nada entre 2018 y 2026; permite afirmar que no quedó registrado. La diferencia es relevante para el argumento.",
+      "Cierre: recoger por escrito las frases de los grupos; se retoman al final de S2."
+     ]
+    },
+    {
+     "h": "S1 · Práctica 2 · Ordenar el expediente: solución",
+     "table": {
+      "head": [
+       "Elemento",
+       "Etapa"
+      ],
+      "rows": [
+       [
+        "Informe de Salud de Zagra (2017)",
+        "Diagnóstico"
+       ],
+       [
+        "Perfil de Salud Local (borrador de 2026) con cinco conclusiones",
+        "Perfil"
+       ],
+       [
+        "Hoja de 18 problemas puntuados (27/04/2017)",
+        "Priorización (inicio de la planificación)"
+       ],
+       [
+        "Propuestas del taller de 2017: baile, carnet de puntos, huertos",
+        "Ideas de actuación sin plan: mezclan priorización y ejecución"
+       ],
+       [
+        "Consulta temática ciudadana de 2026 (158 papeletas)",
+        "Diagnóstico participativo; insumo de la priorización"
+       ],
+       [
+        "Plan de Acción de cuatro bloques en COMPÁS",
+        "Borrador técnico de planificación, sin decisión"
+       ],
+       [
+        "Acuerdo plenario de aprobación del Plan Local de Salud",
+        "Decisión política (no consta en el expediente)"
+       ],
+       [
+        "Informe de evaluación del ciclo 2017-2018",
+        "Evaluación (no consta)"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "S1 · Práctica 2 · Claves de la puesta en común",
+     "bullets": [
+      "Las propuestas del taller de 2017 mezclan priorización y ejecución: se pasó del problema a la actividad sin objetivos ni responsables.",
+      "El Plan de cuatro bloques de COMPÁS es un borrador técnico: presentarlo como plan de Zagra sería mezclar planificación técnica y decisión política.",
+      "Que falten la decisión política y la evaluación es el hallazgo principal, no un defecto del ejercicio."
+     ]
+    },
+    {
+     "h": "S1 · Práctica 3 · Estatuto de los enunciados: solución",
+     "table": {
+      "head": [
+       "Enunciado",
+       "Estatuto"
+      ],
+      "rows": [
+       [
+        "Zagra tenía 843 habitantes el 1 de enero de 2025 (INE).",
+        "Hecho"
+       ],
+       [
+        "El 23,5 % de la población tiene 65 años o más.",
+        "Hecho (cálculo sobre la tabla del INE)"
+       ],
+       [
+        "Zagra registraba más hipertensión que el distrito: 27,56 % frente a 12,32 %.",
+        "Hecho referido a lo registrado en 2015; no prueba más frecuencia real"
+       ],
+       [
+        "En Zagra hay más hipertensos que en el resto del distrito.",
+        "Inferencia no sostenida: confunde registro con prevalencia y no ajusta por edad"
+       ],
+       [
+        "El bienestar emocional es la principal preocupación de la población.",
+        "Inferencia con cautela: 158 papeletas de perfil desconocido"
+       ],
+       [
+        "Uno de cada tres hogares es unipersonal, luego la soledad no deseada es frecuente.",
+        "Hipótesis: vivir solo no equivale a soledad no deseada"
+       ],
+       [
+        "El sedentarismo fue la primera prioridad de 2017.",
+        "Hecho sobre el orden de la hoja; su valor como priorización técnica es dudoso"
+       ],
+       [
+        "El Plan de Zagra se organiza en cuatro bloques de envejecimiento saludable.",
+        "Falso como decisión: es una propuesta técnica sin acuerdo del Grupo Motor"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "S1 · Práctica 3 · Tipos de necesidad: respuestas posibles",
+     "bullets": [
+      "Normativa: exceso de riesgo de suicidio o de accidentes de tráfico frente a España (Informe 2017).",
+      "Comparativa: hipertensión registrada 27,56 % frente a 12,32 % del distrito (con la cautela de registro y edad), o renta neta media 10.656 € frente a 13.509 € provinciales.",
+      "Sentida: actividad física (74,7 %) o alimentación (71,5 %) en la consulta de 2026.",
+      "Expresada: no hay datos de demanda en el expediente; la respuesta correcta es señalar qué dato habría que pedir (uso de talleres, lista de espera, consultas).",
+      "Activos relacionados: Asociación de Mujeres ZAHRA (red contra la soledad), complejo deportivo (actividad física y socialización), Punto Vuela (brecha digital)."
+     ]
+    },
+    {
+     "h": "S1 · Práctica 4 · Lectura crítica de la hoja de 2017: lo que el alumnado debe detectar",
+     "bullets": [
+      "La escala anunciada era de 1 a 3, pero aparecen valores de 4 a 13. Puede que sean sumas de las puntuaciones de varias personas: la hoja no lo dice.",
+      "Las columnas de magnitud y dificultad son idénticas en los 18 problemas. Es improbable que dos criterios distintos coincidan siempre; puede tratarse de un error de copia.",
+      "El total resulta de (magnitud + dificultad) × frecuencia, una fórmula que no figura en la presentación de la sesión, y no se explica qué mide la frecuencia.",
+      "Consecuencia: el orden de 2017 informa sobre lo que preocupaba al grupo, pero no puede usarse como priorización técnica sin reconstruir el método."
+     ]
+    },
+    {
+     "h": "S1 · Práctica 4 · Puntuación y deliberación",
+     "bullets": [
+      "No hay una priorización correcta. Se valora la coherencia entre evidencia, puntuación y decisión, y la transparencia sobre lo que queda fuera.",
+      "Candidatas habituales: bienestar emocional y salud mental, actividad física, alimentación, soledad no deseada, sueño y descanso, apoyo a quien cuida.",
+      "Punto de discusión que conviene provocar: suicidio y accidentes de tráfico concentran años potenciales de vida perdidos según el Informe de 2017 (necesidad normativa), pero apenas aparecen en la consulta de 2026. ¿Cómo se resuelve la tensión entre necesidad normativa y necesidad sentida?",
+      "Necesidades que suelen quedar fuera y deben justificarse: tabaco, vapeadores, alcohol y otras drogas (34,2 %), violencia de género (24,7 %), pantallas (28,5 %).",
+      "El acta debe recoger: prioridades, motivación, influencia de la consulta y voces ausentes (por ejemplo, población de nacionalidad extranjera y juventud)."
+     ]
+    },
+    {
+     "h": "S1 · Práctica 4 · Papeles del Grupo Motor simulado",
+     "table": {
+      "head": [
+       "Papel",
+       "Perspectiva que defiende"
+      ],
+      "rows": [
+       [
+        "Concejalía",
+        "Viabilidad, recursos municipales, visibilidad de las actuaciones y plazos compatibles con la legislatura"
+       ],
+       [
+        "Centro de salud",
+        "Datos clínicos registrados (crónicos), encargos de la ESCA al sistema sanitario y carga asistencial del consultorio"
+       ],
+       [
+        "Servicios sociales",
+        "Soledad, cuidados y situación económica: el 37,0 % de la población vive bajo el umbral del 60 % de la mediana de renta"
+       ],
+       [
+        "Asociación de Mujeres",
+        "Actividades que ya funcionan (envejecimiento activo, red de apoyo contra la soledad) y riesgo de duplicarlas"
+       ],
+       [
+        "Juventud",
+        "Ocio, pantallas y consumo; poca presencia en los procesos de consulta"
+       ],
+       [
+        "Población de nacionalidad extranjera",
+        "113 personas en 2025, el 77,0 % de Marruecos; no consta su participación en la consulta: idioma, acceso y confianza"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "S1 · Práctica 4 · Indicación para los papeles",
+     "p": "Los papeles son perspectivas para la deliberación, no portavocías reales de esas entidades. No se atribuyen opiniones a personas o entidades concretas de Zagra."
+    },
+    {
+     "h": "S1 · Práctica 5 · Reescritura de las propuestas de 2017: solución orientativa",
+     "table": {
+      "head": [
+       "Propuesta",
+       "Qué es",
+       "Cadena posible"
+      ],
+      "rows": [
+       [
+        "Taller de baile para parejas de adultos",
+        "Actividad",
+        "Objetivo: mejorar los contactos sociales de las personas mayores. Actuación: programa de encuentros en el complejo deportivo y la Asociación de Mujeres. Actividad: taller de baile"
+       ],
+       [
+        "Carnet de puntos por participar, con sorteo",
+        "Incentivo dentro de una actividad",
+        "Objetivo: aumentar la participación de quienes no suelen participar. Hay que definir antes quiénes son y medir su participación de partida"
+       ],
+       [
+        "Hacer una asociación de hombres",
+        "Propuesta de actuación comunitaria",
+        "Objetivo: aumentar la participación de los hombres en actividades comunitarias. El ayuntamiento puede apoyar, pero la decisión de asociarse es de los vecinos"
+       ],
+       [
+        "Prescripción médica de rutas de senderismo",
+        "Actuación del centro de salud",
+        "Recomendación de activos (nivel individual de la ESCA), vinculada a un objetivo de actividad física y con registro en el centro de salud"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "S1 · Práctica 5 · Errores que conviene corregir en el momento",
+     "bullets": [
+      "Objetivo redactado como actividad («hacer talleres»).",
+      "Responsable institucional genérico («el Ayuntamiento»).",
+      "Asignar al municipio actuaciones que corresponden al sistema sanitario (o al revés).",
+      "Proponer una asociación como si el Ayuntamiento pudiera crearla: puede apoyar, no decidir por los vecinos."
+     ]
+    },
+    {
+     "h": "S2 · Práctica 1 · ¿Funcionó? (25 minutos)",
+     "bullets": [
+      "Recordar al grupo que es un supuesto didáctico, no un hecho de Zagra.",
+      "Con la hoja de firmas puede afirmarse: número de sesiones celebradas y asistencias por sesión.",
+      "No puede afirmarse cuántas personas distintas participaron si no hay identificador único, ni si disminuyó la soledad.",
+      "Habría hecho falta: definir la población destinataria, medir la soledad con un instrumento (por ejemplo, la escala de De Jong Gierveld) antes de empezar y en el seguimiento, y decidir quién mide y cuándo.",
+      "Conclusión que se busca: la evaluación se decide antes de empezar, al planificar."
+     ]
+    },
+    {
+     "h": "S2 · Práctica 2 · Clasificación de las preguntas: solución orientativa",
+     "table": {
+      "head": [
+       "Pregunta",
+       "Tipo y comparación"
+      ],
+      "rows": [
+       [
+        "Alcance: ¿qué proporción de las 198 personas de 65 años o más ha participado en alguna actuación? ¿Han participado hombres y mujeres, y población de nacionalidad extranjera?",
+        "Proceso (alcance). Se compara con la población destinataria: 198 personas de 65 años o más"
+       ],
+       [
+        "Efectividad: ¿ha disminuido la soledad percibida en las personas incorporadas a la intervención, medida con la misma escala al inicio y en el seguimiento?",
+        "Resultado. Se compara con el tiempo cero medido con la misma escala"
+       ],
+       [
+        "Adopción: ¿cuántos de los activos registrados en Localiza Salud participan en el plan?",
+        "Proceso (adopción). Se compara con los activos previstos"
+       ],
+       [
+        "Implementación: ¿se mantuvieron las actividades previstas? ¿Qué se adaptó?",
+        "Seguimiento e implementación. Se compara con lo planificado"
+       ],
+       [
+        "Mantenimiento: ¿siguen las actuaciones cuando cambia el personal del consultorio o la corporación municipal? En Zagra, el ciclo de 2017-2018 no consta que se completara.",
+        "Proceso (mantenimiento). Se valora al final del apoyo inicial y después"
+       ],
+       [
+        "¿Ha bajado la mortalidad por enfermedad cardiovascular en Zagra al final del plan?",
+        "Impacto. No evaluable en el plazo del plan con 843 habitantes: pocas defunciones, variación aleatoria y tasa bruta sin ajustar por edad. Conviene reformularla como resultado intermedio"
+       ],
+       [
+        "¿Se celebraron las reuniones previstas del Grupo Motor?",
+        "Seguimiento. Se compara con lo planificado"
+       ],
+       [
+        "¿Qué opinan las personas participantes de los talleres?",
+        "Proceso (satisfacción). No informa de resultados"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "S2 · Práctica 3 · Fichas de indicador",
+     "bullets": [
+      "La prueba de calidad es el intercambio: si el otro grupo no puede calcular el indicador con lo escrito, falta definición operativa, numerador, denominador o fuente.",
+      "Errores habituales: denominador ausente, tiempo cero «a determinar» sin fecha ni responsable, meta sin justificación, fuente que no existe en el municipio, uso de un dato autonómico como tiempo cero local.",
+      "Una meta razonable se justifica con el tiempo cero, la evidencia disponible y la capacidad real de la actuación; no con un porcentaje redondo."
+     ]
+    },
+    {
+     "h": "S2 · Práctica 4 · Checklists",
+     "bullets": [
+      "Secciones que suelen salir débiles en la checklist de planificación: evaluación, recursos y presupuesto, apoyo institucional confirmado por escrito, recursos para necesidades especiales.",
+      "Ítems que suelen fallar en la checklist de evaluación: línea base asegurada antes de empezar, instrumentos pilotados, estrategia para reducir pérdidas de seguimiento y devolución de resultados a participantes.",
+      "La checklist de planificación incluye la frase «una buena planificación determina el 80 % del éxito del programa». No consta fuente para esa cifra: conviene no presentarla como dato.",
+      "Las herramientas no guardan las respuestas: pedir que se imprima o guarde el resumen, porque se usa en las actividades C y D."
+     ]
+    },
+    {
+     "h": "S2 · Práctica 5 · Registros y matriz",
+     "bullets": [
+      "Preguntas que un registro como el RAPS puede responder: qué actividades se hicieron, dónde, cuándo, con qué temática y cuántas sesiones.",
+      "Preguntas que no puede responder por sí solo: cuántas personas distintas, si cambiaron conductas o salud, y qué se hizo sin registrar.",
+      "Ejemplo de fila de matriz: ¿ha disminuido la soledad percibida en las personas incorporadas? · % de participantes que reducen su puntuación · escala de De Jong Gierveld · inicio y seis meses · cargo responsable en el centro de salud · Grupo Motor, para decidir si se mantiene la actuación."
+     ]
+    },
+    {
+     "h": "S2 · Práctica 6 · Devolución: ejemplo",
+     "table": {
+      "head": [
+       "Destinatario",
+       "Para qué",
+       "Formato orientativo"
+      ],
+      "rows": [
+       [
+        "Grupo Motor y corporación",
+        "Decidir: mantener, ampliar o cambiar",
+        "Informe breve con tres hallazgos y una propuesta de decisión"
+       ],
+       [
+        "Equipos que ejecutan",
+        "Mejorar la actuación",
+        "Reunión de trabajo con los datos de proceso y lo que se adaptó"
+       ],
+       [
+        "Comunidad y participantes",
+        "Rendir cuentas e interpretar juntos",
+        "Encuentro abierto, hoja divulgativa o espacio en la radio o web municipal"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Actividades A-D · Criterios de corrección",
+     "bullets": [
+      "A · Priorización: penalizar consultas presentadas como representativas, datos provinciales atribuidos al municipio, uso del orden de 2017 como priorización técnica y ausencia de necesidades no priorizadas.",
+      "B · Plan de acción: la cadena debe poder leerse de arriba abajo sin saltos; objetivos con plazo; responsables con cargo; titularidad municipal o del sistema sanitario explícita; al menos tres niveles de intervención.",
+      "C · Indicadores y checklist: las fichas deben poder calcularse; el tiempo cero debe tener valor o plan para obtenerlo antes de la primera actividad; la revisión con la checklist debe traducirse en cambios concretos de la actuación.",
+      "D · Marco de evaluación: preguntas vinculadas a decisiones; matriz proporcionada a un municipio de 843 habitantes; no prometer impacto atribuible; plan de devolución con destinatarios distintos; reflexión individual sobre el propio perfil profesional.",
+      "Apto propuesto: 5 o más puntos en cada actividad. Devolver cada actividad con dos fortalezas y dos mejoras por escrito."
+     ]
+    }
+   ]
+  }
+ ]
+}

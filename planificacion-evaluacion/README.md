@@ -58,10 +58,13 @@ la cabecera de S1 y S2.
 
 ## Guía del profesorado
 
-Contiene soluciones y criterios de corrección, por eso **no se publica en este
-repositorio público** ni se enlaza desde el curso. Las fichas del alumnado no
-incluyen respuestas: tampoco el análisis de las incoherencias de la hoja de
-2017, que pasa a la guía.
+`profesorado/guia_profesorado.json` (fuente) y
+`profesorado/guia_profesorado_del_dato_a_la_accion.pdf`, generado con
+`node planificacion-evaluacion/profesorado/generar_guia.mjs`. Contiene
+soluciones y criterios de corrección. Por decisión del autor se guarda en este
+repositorio público, sin enlace desde las páginas del curso: es accesible para
+quien conozca la dirección. Las fichas y presentaciones del alumnado no incluyen
+respuestas.
 
 ## Bases metodológicas
 
