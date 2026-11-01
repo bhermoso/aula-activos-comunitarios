@@ -1,4 +1,4 @@
-# Planificación y evaluación en salud local · propuesta 2027
+# Del dato a la acción: planificación y evaluación estratégicas en promoción de la salud · propuesta 2027
 
 Curso de 20 horas (10 presenciales en 2 sesiones + 10 virtuales) sobre planificación y
 evaluación de la promoción de la salud y la acción local en salud. Dirigido a
@@ -46,6 +46,22 @@ barra lateral con sesiones numeradas y distintivos (presencial en verde
 azulado, virtual en ocre), subapartados navegables, agenda como línea temporal
 y controles «Anterior / Siguiente». Flechas del teclado para avanzar y modo
 «Presentar» que oculta la barra lateral.
+
+## Presentaciones para el alumnado
+
+`presentacion-s1.html` y `presentacion-s2.html`, con `presentacion.css` y
+`presentacion.js` (formato derivado de `zagra/presentacion-perfil.html`: lienzo
+1600×900, teclado, pantalla completa e impresión de una diapositiva por
+página). El contenido de cada diapositiva está en `window.SLIDES` dentro de cada
+HTML. No incluyen soluciones ni indicaciones del profesorado. Se enlazan desde
+la cabecera de S1 y S2.
+
+## Guía del profesorado
+
+Contiene soluciones y criterios de corrección, por eso **no se publica en este
+repositorio público** ni se enlaza desde el curso. Las fichas del alumnado no
+incluyen respuestas: tampoco el análisis de las incoherencias de la hoja de
+2017, que pasa a la guía.
 
 ## Bases metodológicas
 
