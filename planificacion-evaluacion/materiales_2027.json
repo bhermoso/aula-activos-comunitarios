@@ -1,14 +1,14 @@
 {
  "revision": "2026-10-31",
  "estado": "propuesta docente, pendiente de validación institucional",
- "curso": "Planificación y evaluación en salud local",
- "intro": "Propuesta docente · revisión 31/10/2026 · 20 horas (10 presenciales + 10 virtuales) · pendiente de validación institucional. Caso de trabajo: Zagra, con datos del expediente territorial y sus fuentes.",
+ "curso": "Del dato a la acción: planificación y evaluación estratégicas en promoción de la salud",
+ "intro": "Del dato a la acción · Propuesta docente · revisión 31/10/2026 · 20 horas (10 presenciales + 10 virtuales) · pendiente de validación institucional. Caso de trabajo: Zagra, con datos del expediente territorial y sus fuentes.",
  "docs": [
   {
    "id": "programa_planificacion_evaluacion_2027",
    "nivel": "Curso",
    "clase": "Programa",
-   "titulo": "Planificación y evaluación de la promoción de la salud y la acción local en salud",
+   "titulo": "Del dato a la acción: planificación y evaluación estratégicas en promoción de la salud",
    "subtitulo": "Del conocimiento del territorio a un plan que pueda evaluarse: priorizar, diseñar actuaciones, medir y devolver resultados.",
    "duracion": "20 horas: 10 presenciales + 10 virtuales",
    "sections": [
@@ -329,7 +329,7 @@
     },
     {
      "h": "Priorización del Grupo Motor (27/04/2017)",
-     "p": "En la sesión se pidió puntuar de 1 a 3 cada problema según a cuántas personas afecta y según la facilidad de su solución. La hoja de resultados recoge 18 problemas con estas columnas:",
+     "p": "En la sesión se pidió puntuar de 1 a 3 cada problema según a cuántas personas afecta y según la facilidad de su solución. La hoja de resultados recoge 18 problemas con estas columnas: La sesión 1 analiza cómo se construyó esta hoja y qué uso admite.",
      "table": {
       "head": [
        "Problema (redacción original)",
@@ -418,15 +418,6 @@
        ]
       ]
      }
-    },
-    {
-     "h": "Lo que no cuadra en la hoja de 2017",
-     "bullets": [
-      "La escala anunciada era de 1 a 3, pero aparecen valores de 4 a 13. Puede que sean sumas de las puntuaciones de varias personas: la hoja no lo dice.",
-      "Las columnas de magnitud y dificultad son idénticas en los 18 problemas. Es improbable que dos criterios distintos coincidan siempre; puede tratarse de un error de copia.",
-      "El total resulta de (magnitud + dificultad) × frecuencia, una fórmula que no figura en la presentación de la sesión, y no se explica qué mide la frecuencia.",
-      "Consecuencia: el orden de 2017 informa sobre lo que preocupaba al grupo, pero no puede usarse como priorización técnica sin reconstruir el método."
-     ]
     },
     {
      "h": "Priorización temática ciudadana (mayo de 2026)",
@@ -557,31 +548,35 @@
       ],
       "rows": [
        [
-        "09:00–09:30",
-        "Práctica 1 · Zagra 2017-2026: ¿qué se perdió entre un ciclo y otro? Cuestionario inicial"
+        "09:00–09:15",
+        "Presentación del curso y cuestionario inicial"
        ],
        [
-        "09:30–10:15",
+        "09:15–09:45",
+        "Práctica 1 · Zagra 2017-2026: ¿qué se perdió entre un ciclo y otro?"
+       ],
+       [
+        "09:45–10:25",
         "Práctica 2 · Ordenar el expediente: el ciclo de planificación y la regla de no mezclar etapas"
        ],
        [
-        "10:15–11:00",
+        "10:25–11:05",
         "Práctica 3 · Qué sabemos y cómo lo sabemos: estatuto de la información, necesidades y activos"
        ],
        [
-        "11:00–11:30",
+        "11:05–11:35",
         "Descanso"
        ],
        [
-        "11:30–12:45",
+        "11:35–12:50",
         "Práctica 4 · Priorizar: Hanlon y deliberación de un Grupo Motor simulado"
        ],
        [
-        "12:45–13:40",
+        "12:50–13:45",
         "Práctica 5 · De la prioridad a la actuación: reescribir las propuestas de 2017"
        ],
        [
-        "13:40–14:00",
+        "13:45–14:00",
         "Herramientas del curso y presentación de las actividades virtuales V1"
        ]
       ]
@@ -594,7 +589,8 @@
       "¿Qué existía en 2017 que podría haber sostenido un plan?",
       "¿Qué no consta en el expediente y habría hecho falta para que el trabajo de 2017 continuara (plan aprobado, responsables, calendario, indicadores)?",
       "¿Qué tiene que reconstruir ahora el proceso de 2026 porque no quedó registrado?",
-      "Puesta en común: cada grupo formula en una frase para qué sirve planificar en Zagra. El profesorado recoge las frases y las retoma al final de S2."
+      "Puesta en común: cada grupo formula en una frase para qué sirve planificar en Zagra.",
+      "Tiempo: 15 minutos de trabajo en grupo y 15 de puesta en común."
      ]
     },
     {
@@ -640,48 +636,19 @@
      }
     },
     {
-     "h": "Práctica 2 · Ordenar el expediente (45 minutos)",
-     "p": "Situar cada elemento del expediente de Zagra en su etapa del ciclo y señalar dónde se mezclan etapas.",
-     "table": {
-      "head": [
-       "Elemento del expediente",
-       "Etapa (para la corrección)"
-      ],
-      "rows": [
-       [
-        "Informe de Salud de Zagra (2017)",
-        "Diagnóstico"
-       ],
-       [
-        "Perfil de Salud Local (borrador de 2026) con cinco conclusiones",
-        "Perfil"
-       ],
-       [
-        "Hoja de 18 problemas puntuados (27/04/2017)",
-        "Priorización (inicio de la planificación)"
-       ],
-       [
-        "Propuestas del taller de 2017: baile, carnet de puntos, huertos",
-        "Ideas de actuación sin plan: mezclan priorización y ejecución"
-       ],
-       [
-        "Consulta temática ciudadana de 2026 (158 papeletas)",
-        "Diagnóstico participativo; insumo de la priorización"
-       ],
-       [
-        "Plan de Acción de cuatro bloques en COMPÁS",
-        "Borrador técnico de planificación, sin decisión"
-       ],
-       [
-        "Acuerdo plenario de aprobación del Plan Local de Salud",
-        "Decisión política (no consta en el expediente)"
-       ],
-       [
-        "Informe de evaluación del ciclo 2017-2018",
-        "Evaluación (no consta)"
-       ]
-      ]
-     }
+     "h": "Práctica 2 · Ordenar el expediente (40 minutos)",
+     "p": "Situar cada elemento del expediente de Zagra en su etapa del ciclo (diagnóstico, perfil, planificación, decisión política, ejecución o evaluación), indicar si consta o no en el expediente y señalar dónde se mezclan etapas.",
+     "bullets": [
+      "Informe de Salud de Zagra (2017)",
+      "Perfil de Salud Local (borrador de 2026) con cinco conclusiones",
+      "Hoja de 18 problemas puntuados (27/04/2017)",
+      "Propuestas del taller de 2017: baile, carnet de puntos, huertos",
+      "Consulta temática ciudadana de 2026 (158 papeletas)",
+      "Plan de Acción de cuatro bloques en COMPÁS",
+      "Acuerdo plenario de aprobación del Plan Local de Salud",
+      "Informe de evaluación del ciclo 2017-2018",
+      "Tiempo: 10 minutos de fundamento (ciclo y regla de no mezclar), 20 de trabajo en grupo y 10 de puesta en común."
+     ]
     },
     {
      "h": "Fundamento · Por qué no mezclar etapas",
@@ -720,48 +687,19 @@
      }
     },
     {
-     "h": "Práctica 3 · Qué sabemos y cómo lo sabemos (45 minutos)",
-     "p": "Primera parte (25 minutos): clasificar los enunciados por su estatuto. Segunda parte (20 minutos): identificar un ejemplo de cada tipo de necesidad y relacionarlo con un activo del inventario.",
-     "table": {
-      "head": [
-       "Enunciado",
-       "Estatuto propuesto para la corrección"
-      ],
-      "rows": [
-       [
-        "Zagra tenía 843 habitantes el 1 de enero de 2025 (INE).",
-        "Hecho"
-       ],
-       [
-        "El 23,5 % de la población tiene 65 años o más.",
-        "Hecho (cálculo sobre la tabla del INE)"
-       ],
-       [
-        "Zagra registraba más hipertensión que el distrito: 27,56 % frente a 12,32 %.",
-        "Hecho referido a lo registrado en 2015; no prueba más frecuencia real"
-       ],
-       [
-        "En Zagra hay más hipertensos que en el resto del distrito.",
-        "Inferencia no sostenida: confunde registro con prevalencia y no ajusta por edad"
-       ],
-       [
-        "El bienestar emocional es la principal preocupación de la población.",
-        "Inferencia con cautela: 158 papeletas de perfil desconocido"
-       ],
-       [
-        "Uno de cada tres hogares es unipersonal, luego la soledad no deseada es frecuente.",
-        "Hipótesis: vivir solo no equivale a soledad no deseada"
-       ],
-       [
-        "El sedentarismo fue la primera prioridad de 2017.",
-        "Hecho sobre el orden de la hoja; su valor como priorización técnica es dudoso"
-       ],
-       [
-        "El Plan de Zagra se organiza en cuatro bloques de envejecimiento saludable.",
-        "Falso como decisión: es una propuesta técnica sin acuerdo del Grupo Motor"
-       ]
-      ]
-     }
+     "h": "Práctica 3 · Qué sabemos y cómo lo sabemos (40 minutos)",
+     "p": "Primera parte: clasificar cada enunciado como hecho, inferencia, hipótesis o decisión, y anotar qué haría falta para cambiar su estatuto. Segunda parte: identificar en el caso un ejemplo de cada tipo de necesidad (normativa, comparativa, sentida y expresada), distinto de los del cuadro de fundamentos, y relacionarlo con un activo del inventario.",
+     "bullets": [
+      "Zagra tenía 843 habitantes el 1 de enero de 2025 (INE).",
+      "El 23,5 % de la población tiene 65 años o más.",
+      "Zagra registraba más hipertensión que el distrito: 27,56 % frente a 12,32 %.",
+      "En Zagra hay más hipertensos que en el resto del distrito.",
+      "El bienestar emocional es la principal preocupación de la población.",
+      "Uno de cada tres hogares es unipersonal, luego la soledad no deseada es frecuente.",
+      "El sedentarismo fue la primera prioridad de 2017.",
+      "El Plan de Zagra se organiza en cuatro bloques de envejecimiento saludable.",
+      "Tiempo: 10 minutos de fundamento, 20 de trabajo en grupo y 10 de puesta en común."
+     ]
     },
     {
      "h": "Fundamento · Tipos de necesidad y activos",
@@ -799,10 +737,11 @@
     {
      "h": "Práctica 4 · Priorizar (75 minutos)",
      "bullets": [
-      "Lectura crítica (15 minutos): la hoja de 2017. ¿Qué escala se usó, qué significan los valores de hasta 13 y el total? ¿Puede usarse como priorización técnica?",
+      "Lectura crítica (15 minutos): la hoja de 2017. ¿Qué se puntuó, con qué escala y cómo se obtuvo el total? ¿Puede usarse como priorización técnica?",
       "Puntuación (25 minutos): cada grupo puntúa entre 4 y 6 necesidades actuales de Zagra con el método Hanlon y el filtro PEARL, usando la plantilla de priorización.",
       "Deliberación simulada (25 minutos): un Grupo Motor con papeles asignados (concejalía, centro de salud, servicios sociales, Asociación de Mujeres, juventud y población de nacionalidad extranjera) decide entre un área integradora de envejecimiento saludable o varias áreas.",
-      "Registro (10 minutos): acta breve con las prioridades, la motivación, cómo influyó la consulta de 2026 y qué queda fuera y por qué."
+      "Registro (10 minutos): acta breve con las prioridades, la motivación, cómo influyó la consulta de 2026 y qué queda fuera y por qué.",
+      "Tiempo: 75 minutos, distribuidos en los cuatro pasos anteriores."
      ]
     },
     {
@@ -851,36 +790,14 @@
     },
     {
      "h": "Práctica 5 · De la prioridad a la actuación (55 minutos)",
-     "p": "Con la prioridad elegida en la práctica 4, reescribir tres propuestas del taller de 2017 como una cadena prioridad → objetivo general → objetivo específico → actuación → actividad, con responsable (cargo) y titularidad (municipio, sistema sanitario o conjunta).",
-     "table": {
-      "head": [
-       "Propuesta de 2017",
-       "Qué es",
-       "Cadena posible"
-      ],
-      "rows": [
-       [
-        "Taller de baile para parejas de adultos",
-        "Actividad",
-        "Objetivo: mejorar los contactos sociales de las personas mayores. Actuación: programa de encuentros en el complejo deportivo y la Asociación de Mujeres. Actividad: taller de baile"
-       ],
-       [
-        "Carnet de puntos por participar, con sorteo",
-        "Incentivo dentro de una actividad",
-        "Objetivo: aumentar la participación de quienes no suelen participar. Hay que definir antes quiénes son y medir su participación de partida"
-       ],
-       [
-        "Hacer una asociación de hombres",
-        "Propuesta de actuación comunitaria",
-        "Objetivo: aumentar la participación de los hombres en actividades comunitarias. El ayuntamiento puede apoyar, pero la decisión de asociarse es de los vecinos"
-       ],
-       [
-        "Prescripción médica de rutas de senderismo",
-        "Actuación del centro de salud",
-        "Recomendación de activos (nivel individual de la ESCA), vinculada a un objetivo de actividad física y con registro en el centro de salud"
-       ]
-      ]
-     }
+     "p": "Con la prioridad elegida en la práctica 4, reescribir tres propuestas del taller de 2017 como una cadena prioridad → objetivo general → objetivo específico → actuación → actividad, con responsable (cargo) y titularidad (municipio, sistema sanitario o conjunta). Propuestas de partida:",
+     "bullets": [
+      "Taller de baile para parejas de adultos",
+      "Carnet de puntos por participar, con sorteo",
+      "Hacer una asociación de hombres",
+      "Prescripción médica de rutas de senderismo",
+      "Tiempo: 10 minutos de fundamento (objetivos, actuaciones, responsables y titularidad), 30 de trabajo en grupo y 15 de puesta en común."
+     ]
     },
     {
      "h": "Fundamento · Objetivos, actuaciones y responsables",
@@ -1107,11 +1024,15 @@
       ],
       "rows": [
        [
-        "09:00–09:30",
-        "Retorno de V1 y práctica 1 · ¿Funcionó? Lo que permite y lo que no permite afirmar una hoja de firmas"
+        "09:00–09:15",
+        "Retorno de las actividades A y B"
        ],
        [
-        "09:30–10:15",
+        "09:15–09:40",
+        "Práctica 1 · ¿Funcionó? Lo que permite y lo que no permite afirmar una hoja de firmas"
+       ],
+       [
+        "09:40–10:15",
         "Práctica 2 · Clasificar preguntas de evaluación: seguimiento, proceso, resultados, impacto"
        ],
        [
@@ -1136,33 +1057,34 @@
        ],
        [
         "13:45–14:00",
-        "Retomar las frases de S1 sobre para qué planificar y presentación de las actividades virtuales V2"
+        "Cierre: para qué planificar y evaluar. Presentación de las actividades virtuales V2"
        ]
       ]
      }
     },
     {
-     "h": "Práctica 1 · ¿Funcionó? (30 minutos)",
+     "h": "Práctica 1 · ¿Funcionó? (25 minutos)",
      "p": "Supuesto didáctico, no un hecho del expediente: en Zagra se organiza durante un trimestre un grupo de paseo para personas mayores que viven solas. Al final solo se dispone de la hoja de firmas de cada sesión. En grupos:",
      "bullets": [
       "¿Qué puede afirmarse con la hoja de firmas? ¿Cuántas personas distintas participaron, si no hay un identificador único?",
       "¿Puede afirmarse que disminuyó la soledad? ¿Qué habría hecho falta medir y cuándo?",
       "¿Quién quería saber si funcionó y para decidir qué?",
-      "Conclusión que se busca: la evaluación se decide antes de empezar, al planificar."
+      "Tiempo: 15 minutos de trabajo en grupo y 10 de puesta en común."
      ]
     },
     {
-     "h": "Práctica 2 · Clasificar preguntas de evaluación (45 minutos)",
+     "h": "Práctica 2 · Clasificar preguntas de evaluación (35 minutos)",
      "p": "Clasificar ocho preguntas sobre el plan de Zagra según la tabla de fundamentos y señalar, para cada una, con qué se compara. Después, discutir qué es razonable esperar en un municipio de 843 habitantes.",
      "bullets": [
-      "Alcance: ¿qué proporción de las 198 personas de 65 años o más ha participado en alguna actuación? ¿Han participado hombres y mujeres, y población de nacionalidad extranjera?",
-      "Efectividad: ¿ha disminuido la soledad percibida en las personas incorporadas a la intervención, medida con la misma escala al inicio y en el seguimiento?",
-      "Adopción: ¿cuántos de los activos registrados en Localiza Salud participan en el plan?",
-      "Implementación: ¿se mantuvieron las actividades previstas? ¿Qué se adaptó?",
-      "Mantenimiento: ¿siguen las actuaciones cuando cambia el personal del consultorio o la corporación municipal? En Zagra, el ciclo de 2017-2018 no consta que se completara.",
+      "¿qué proporción de las 198 personas de 65 años o más ha participado en alguna actuación? ¿Han participado hombres y mujeres, y población de nacionalidad extranjera?",
+      "¿ha disminuido la soledad percibida en las personas incorporadas a la intervención, medida con la misma escala al inicio y en el seguimiento?",
+      "¿cuántos de los activos registrados en Localiza Salud participan en el plan?",
+      "¿se mantuvieron las actividades previstas? ¿Qué se adaptó?",
+      "¿siguen las actuaciones cuando cambia el personal del consultorio o la corporación municipal? En Zagra, el ciclo de 2017-2018 no consta que se completara.",
       "¿Ha bajado la mortalidad por enfermedad cardiovascular en Zagra al final del plan?",
       "¿Se celebraron las reuniones previstas del Grupo Motor?",
-      "¿Qué opinan las personas participantes de los talleres?"
+      "¿Qué opinan las personas participantes de los talleres?",
+      "Tiempo: 10 minutos de fundamento, 15 de trabajo en grupo y 10 de puesta en común."
      ]
     },
     {
@@ -1251,7 +1173,10 @@
         "Qué no puede concluirse con este indicador"
        ]
       ]
-     }
+     },
+     "bullets": [
+      "Tiempo: 10 minutos de fundamento, 25 de trabajo en grupo con intercambio de fichas y 10 de puesta en común."
+     ]
     },
     {
      "h": "Fundamento · Indicadores locales y autonómicos",
@@ -1272,7 +1197,8 @@
      "bullets": [
       "Lista de comprobación de planificación: análisis de la situación, objetivos, contenidos y metodología, recursos y logística, cronograma, evaluación, y actores y coordinación.",
       "Lista de comprobación de evaluación: planificación de la evaluación, proceso, resultados, impacto, instrumentos, y análisis y uso de resultados.",
-      "Guardar o imprimir el resumen de cada checklist: se usará en V2."
+      "Guardar o imprimir el resumen de cada checklist: se usará en V2.",
+      "Tiempo: 5 minutos de presentación de las herramientas, 35 de trabajo en parejas y 10 de puesta en común."
      ]
     },
     {
@@ -1282,7 +1208,8 @@
       "Puede informar: qué actividades se hicieron, dónde, cuándo, con qué temática y cuántas sesiones.",
       "Requiere cautela: la exhaustividad depende de que se registre todo lo realizado; sin registro no se puede afirmar que algo no se hizo.",
       "No puede informar por sí solo: si las personas cambiaron sus conductas o si mejoró su salud.",
-      "Asistencias no equivalen a personas: sin identificador único no se eliminan duplicados."
+      "Asistencias no equivalen a personas: sin identificador único no se eliminan duplicados.",
+      "Tiempo: 10 minutos de fundamento, 30 de trabajo en grupo y 10 de puesta en común."
      ]
     },
     {
@@ -1359,7 +1286,8 @@
       "Grupos de discusión y entrevistas: por qué funcionó o no, para quién y en qué condiciones.",
       "Técnica del cambio más significativo: relatos de cambio seleccionados colectivamente.",
       "Observación y diario de campo de las actividades.",
-      "Evaluación con la comunidad: el Grupo Motor y los participantes interpretan los resultados, no solo los reciben."
+      "Evaluación con la comunidad: el Grupo Motor y los participantes interpretan los resultados, no solo los reciben.",
+      "Tiempo: 5 minutos de fundamento, 20 de trabajo en grupo y 10 de puesta en común."
      ]
     },
     {

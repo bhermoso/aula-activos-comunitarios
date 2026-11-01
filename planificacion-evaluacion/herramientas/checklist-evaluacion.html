@@ -379,7 +379,7 @@
 <link rel="stylesheet" href="aula-checklist.css"><!-- capa de estilo del Aula -->
 </head>
 <body>
-<div class="aula-bar"><strong>AULA · SALUD COMUNITARIA<span>Planificación y evaluación · Checklist de evaluación</span></strong><nav><a href="../#plantillas">← Volver al curso</a><button type="button" onclick="window.print()">Imprimir o guardar PDF</button><a href="../../">⌂ Aula · Inicio</a></nav></div><!-- /capa del Aula -->
+<div class="aula-bar"><strong>AULA · SALUD COMUNITARIA<span>Del dato a la acción · Checklist de evaluación</span></strong><nav><a href="../#plantillas">← Volver al curso</a><button type="button" onclick="window.print()">Imprimir o guardar PDF</button><a href="../../">⌂ Aula · Inicio</a></nav></div><!-- /capa del Aula -->
 
     <div class="container">
         <header>
@@ -944,15 +944,15 @@
             
             if (porcentaje >= config.umbralExcelente) {
                 feedbackBox.className = 'feedback-box excelente';
-                feedbackTitulo.textContent = '¡Excelente planificación!';
-                feedbackMensaje.innerHTML = `Has completado <strong>${totalMarcados} de ${config.totalItems} criterios (${porcentaje}%)</strong>. Tu programa está muy bien planificado y tiene altas probabilidades de éxito.`;
+                feedbackTitulo.textContent = 'Sistema de evaluación excelente';
+                feedbackMensaje.innerHTML = `Has completado <strong>${totalMarcados} de ${config.totalItems} criterios (${porcentaje}%)</strong>. Tu sistema de evaluación es muy completo y riguroso.`;
                 
-                agregarRecomendacion(listaRecomendaciones, 'Documenta esta planificación para compartirla como buena práctica');
+                agregarRecomendacion(listaRecomendaciones, 'Documenta este sistema de evaluación para compartirlo como buena práctica');
                 agregarRecomendacion(listaRecomendaciones, 'Comparte tu experiencia con el equipo');
                 
             } else if (porcentaje >= config.umbralBueno) {
                 feedbackBox.className = 'feedback-box bueno';
-                feedbackTitulo.textContent = 'Buena planificación';
+                feedbackTitulo.textContent = 'Buen sistema de evaluación';
                 feedbackMensaje.innerHTML = `Has completado <strong>${totalMarcados} de ${config.totalItems} criterios (${porcentaje}%)</strong>. Cumples los estándares de calidad mínimos.`;
                 
                 if (seccionesIncompletas.length > 0) {
@@ -962,7 +962,7 @@
                 
             } else if (porcentaje >= config.umbralAceptable) {
                 feedbackBox.className = 'feedback-box aceptable';
-                feedbackTitulo.textContent = 'Planificación aceptable pero mejorable';
+                feedbackTitulo.textContent = 'Sistema de evaluación aceptable pero mejorable';
                 feedbackMensaje.innerHTML = `Has completado <strong>${totalMarcados} de ${config.totalItems} criterios (${porcentaje}%)</strong>. Necesitas reforzar aspectos críticos.`;
                 
                 const criteriosParaUmbral = Math.ceil(config.totalItems * config.umbralBueno / 100) - totalMarcados;
@@ -971,11 +971,11 @@
                 
             } else {
                 feedbackBox.className = 'feedback-box insuficiente';
-                feedbackTitulo.textContent = '⚠️ Planificación insuficiente';
+                feedbackTitulo.textContent = '⚠️ Sistema de evaluación insuficiente';
                 feedbackMensaje.innerHTML = `Has completado solo <strong>${totalMarcados} de ${config.totalItems} criterios (${porcentaje}%)</strong>. Requiere revisión profunda.`;
                 
                 agregarRecomendacion(listaRecomendaciones, 
-                    '<strong>ACCIÓN URGENTE:</strong> No implementes hasta completar la planificación');
+                    '<strong>ACCIÓN URGENTE:</strong> No implementes hasta completar la planificación de la evaluación');
                 agregarRecomendacion(listaRecomendaciones, 
                     'Dedica tiempo a trabajar cada sección detenidamente');
             }
