@@ -132,7 +132,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 9 0 R /F2 10 0 R >> >> /Contents 8 0 R >>
 endobj
 8 0 obj
-<< /Length 3723 >>
+<< /Length 3735 >>
 stream
 0.14 0.42 0.33 rg 0 826.89 595.28 15 re f
 0.92 0.95 0.91 rg 0 713.89 595.28 113 re f
@@ -167,8 +167,8 @@ BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 405.09 Tm (Olvidar quién analizará los
 BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 386.89 Tm (No prever qué se hará con los resultados.) Tj ET
 BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 351.69 Tm (Formato y plazo) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 339.69 m 544.28 339.69 l S
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 323.69 Tm (Entrega en la fecha y la plataforma que indique el profesorado. Individual o en grupo, salvo la reflexión, que es individual. Sin) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 309.49 Tm (datos personales ni información clínica individual.) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 323.69 Tm (Entrega el día 30 del curso, fecha de fin, en la plataforma que se indique. Individual o en grupo, salvo la reflexión, que es) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 309.49 Tm (individual. Sin datos personales ni información clínica individual.) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 285.29 m 544.28 285.29 l S
 BT /F1 8.1 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 268.29 Tm (Caso de trabajo: Zagra, con datos del expediente territorial y sus fuentes. No incorporar datos personales ni información clínica individual) Tj ET
 BT /F1 8.1 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 255.79 Tm (en los trabajos.) Tj ET
@@ -194,10 +194,10 @@ xref
 0000005269 00000 n 
 0000009876 00000 n 
 0000010019 00000 n 
-0000013793 00000 n 
-0000013890 00000 n 
+0000013805 00000 n 
+0000013902 00000 n 
 trailer
 << /Root 1 0 R /Size 11 >>
 startxref
-13993
+14005
 %%EOF
