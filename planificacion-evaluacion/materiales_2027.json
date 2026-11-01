@@ -43,22 +43,22 @@
       "rows": [
        [
         "S1 · 5 h",
-        "Del conocimiento del territorio a las prioridades",
+        "Planificar en promoción de la salud: por qué y cómo. Cinco prácticas con el caso Zagra",
         "Presencial"
        ],
        [
         "V1 · 5 h",
-        "Del objetivo a la actuación. Entrega: priorización y plan de una prioridad",
+        "Actividad A: priorización deliberativa. Actividad B: plan de acción de una prioridad",
         "Virtual"
        ],
        [
         "S2 · 5 h",
-        "Indicadores y evaluación: un plan que pueda evaluarse",
+        "Evaluar en promoción de la salud: por qué y cómo. Seis prácticas con indicadores, checklists, registros y devolución",
         "Presencial"
        ],
        [
         "V2 · 5 h",
-        "Evaluar con la comunidad y cerrar el ciclo. Entrega: marco de evaluación",
+        "Actividad C: indicadores y revisión de una actuación grupal. Actividad D: marco de evaluación y devolución",
         "Virtual"
        ]
       ]
@@ -66,7 +66,7 @@
     },
     {
      "h": "Metodología",
-     "p": "Aprendizaje basado en un caso real y progresivo: el proceso de planificación local de Zagra (Granada), con adhesión a RELAS en 2016, un primer ciclo en 2017-2018 y un segundo ciclo abierto en 2026. El caso permite trabajar con lo que suele encontrarse en la práctica: fuentes de fechas distintas, una priorización antigua con un método poco documentado, una consulta ciudadana reciente y una propuesta de plan que todavía no es una decisión. Las sesiones presenciales se dedican a talleres y deliberación; los bloques virtuales combinan materiales de estudio breves con una entrega. Cada bloque parte del producto del anterior, de modo que al final el alumnado dispone de una cadena completa: prioridad, objetivos, actuaciones, indicadores y marco de evaluación. Se admite trabajar sobre el territorio propio si se dispone de información pública o autorizada; en ningún caso se incorporan datos personales ni información clínica individual. Trabajo en grupos interprofesionales de 4 a 5 personas, procurando que en cada grupo haya perfiles de enfermería, trabajo social y medicina."
+     "p": "Curso práctico de principio a fin. Las sesiones presenciales justifican la necesidad de planificar (S1) y de evaluar (S2) a partir de un caso real y ensayan, en prácticas breves, los fundamentos, las técnicas y las herramientas aplicadas a la promoción de la salud: cada fundamento se presenta en pocos minutos y se aplica de inmediato. Cada bloque virtual se dedica a dos actividades prácticas con producto entregable, que desarrollan lo ensayado en la sesión presencial anterior. El caso es el proceso de planificación local de Zagra (Granada), con adhesión a RELAS en 2016, un primer ciclo en 2017-2018 y un segundo ciclo abierto en 2026. Se admite trabajar sobre el territorio propio si se dispone de información pública o autorizada; en ningún caso se incorporan datos personales ni información clínica individual. Grupos interprofesionales de 4 a 5 personas, procurando que haya perfiles de enfermería, trabajo social y medicina."
     },
     {
      "h": "Aportación de cada perfil profesional",
@@ -98,9 +98,9 @@
     {
      "h": "Evaluación del alumnado (propuesta)",
      "bullets": [
-      "Asistencia a las dos sesiones presenciales, con el requisito que fije la entidad acreditadora.",
-      "Dos entregas virtuales (V1 y V2), cada una con rúbrica de 10 puntos. Propuesta de apto: 5 o más puntos en cada entrega.",
-      "Cuestionario inicial (S1) y final (V2) no calificables, para conocer el punto de partida y el cambio percibido.",
+      "Asistencia y participación en las prácticas de las dos sesiones presenciales, con el requisito que fije la entidad acreditadora.",
+      "Cuatro actividades virtuales (A y B en V1; C y D en V2), cada una con rúbrica de 10 puntos. Propuesta de apto: 5 o más puntos en cada actividad.",
+      "Cuestionario inicial (S1) y final (V2) no calificables.",
       "Encuesta de satisfacción y propuestas de mejora al cierre de V2."
      ]
     },
@@ -114,11 +114,11 @@
       "rows": [
        [
         "Lista de comprobación de planificación de EpS grupal (B. Hermoso, J. Serrano; 44 ítems), integrada en el curso",
-        "S2: revisar una actuación grupal antes de ejecutarla"
+        "S2 (práctica 4) y V2 (actividad C)"
        ],
        [
         "Lista de comprobación de evaluación de EpS grupal (B. Hermoso, J. Serrano; 33 ítems), integrada en el curso",
-        "S2 y V2: revisar el sistema de evaluación de una actuación"
+        "S2 (práctica 4) y V2 (actividad D)"
        ],
        [
         "Modelo metodológico de COMPÁS NG (ciclo, gramática del plan, fichas de actuación e indicador)",
@@ -126,7 +126,7 @@
        ],
        [
         "RAPS · Registro de Actuaciones de Promoción de la Salud (REDCap, DS Granada-Metropolitano)",
-        "S2: qué puede y qué no puede decir un registro de actividad"
+        "S2 (práctica 5): qué puede y qué no puede decir un registro de actividad"
        ],
        [
         "Plantillas CSV del curso (priorización, plan de acción, ficha de indicador, plan de evaluación)",
@@ -526,7 +526,7 @@
     },
     {
      "h": "Uso docente",
-     "p": "S1: estatuto de la información, lectura crítica de la priorización de 2017 y contraste con la consulta de 2026. V1: desarrollo de una prioridad en objetivos y actuaciones, usando como referencia los objetivos de envejecimiento saludable de COMPÁS. S2: indicadores y marco de evaluación proporcionado a un municipio de 843 habitantes. V2: evaluación participativa y devolución. Las lagunas y discordancias del expediente forman parte del ejercicio: identificarlas es una competencia de planificación."
+     "p": "S1: necesidad de planificar (práctica 1), etapas del ciclo, estatuto de la información, lectura crítica de la priorización de 2017 y deliberación simulada. V1: priorización y plan de una prioridad. S2: necesidad de evaluar, indicadores, checklists, registros y devolución, con un supuesto didáctico marcado como tal. V2: indicadores, revisión de una actuación grupal y marco de evaluación. Las lagunas y discordancias del expediente forman parte del ejercicio."
     }
    ]
   },
@@ -534,17 +534,18 @@
    "id": "sesion_1",
    "nivel": "Sesión 1",
    "clase": "Sesión presencial",
-   "titulo": "Del conocimiento del territorio a las prioridades",
-   "subtitulo": "Ciclo de planificación local, estatuto de la evidencia, activos, participación y priorización deliberativa.",
+   "titulo": "Planificar en promoción de la salud: por qué y cómo",
+   "subtitulo": "Una sesión práctica: justificar la necesidad de planificar con el caso Zagra y ensayar sus fundamentos, técnicas y herramientas, desde el diagnóstico hasta la actuación.",
    "duracion": "5 horas presenciales",
    "sections": [
     {
      "h": "Qué aprenderemos",
      "bullets": [
-      "Reconocer las seis etapas de la planificación local y los productos de cada una.",
-      "Distinguir qué marco aporta qué: RELAS (procedimiento), EPVSA (contenidos), ESCA (mandato del sistema sanitario).",
-      "Clasificar la información del diagnóstico según su estatuto: hecho, inferencia, hipótesis o decisión.",
-      "Aplicar criterios de priorización y documentar la deliberación y lo que queda fuera."
+      "Argumentar por qué la promoción de la salud local necesita planificación, a partir de lo que ocurrió en un proceso real.",
+      "Situar cada documento y cada decisión en su etapa del ciclo de planificación local.",
+      "Distinguir hechos, inferencias, hipótesis y decisiones, y leer necesidades y activos con su fuente y su fecha.",
+      "Aplicar una técnica de priorización y documentar la deliberación, incluidas las necesidades que no se priorizan.",
+      "Pasar de una prioridad a objetivos y actuaciones con responsable, distinguiendo lo municipal de lo que corresponde al sistema sanitario."
      ]
     },
     {
@@ -557,37 +558,47 @@
       "rows": [
        [
         "09:00–09:30",
-        "Presentación, cuestionario inicial y experiencias previas con planes locales"
+        "Práctica 1 · Zagra 2017-2026: ¿qué se perdió entre un ciclo y otro? Cuestionario inicial"
        ],
        [
-        "09:30–10:20",
-        "El ciclo de planificación local y la regla de no mezclar etapas. Marcos RELAS, EPVSA y ESCA"
+        "09:30–10:15",
+        "Práctica 2 · Ordenar el expediente: el ciclo de planificación y la regla de no mezclar etapas"
        ],
        [
-        "10:20–11:15",
-        "Necesidades, activos y participación como evidencia. Ejercicio: estatuto de los enunciados"
+        "10:15–11:00",
+        "Práctica 3 · Qué sabemos y cómo lo sabemos: estatuto de la información, necesidades y activos"
        ],
        [
-        "11:15–11:45",
+        "11:00–11:30",
         "Descanso"
        ],
        [
-        "11:45–13:00",
-        "Taller de priorización con el caso Zagra"
+        "11:30–12:45",
+        "Práctica 4 · Priorizar: Hanlon y deliberación de un Grupo Motor simulado"
        ],
        [
-        "13:00–13:45",
-        "Plenario: comparar priorizaciones y explicar las diferencias"
+        "12:45–13:40",
+        "Práctica 5 · De la prioridad a la actuación: reescribir las propuestas de 2017"
        ],
        [
-        "13:45–14:00",
-        "Cierre y presentación del bloque virtual V1"
+        "13:40–14:00",
+        "Herramientas del curso y presentación de las actividades virtuales V1"
        ]
       ]
      }
     },
     {
-     "h": "1. El ciclo de planificación local",
+     "h": "Práctica 1 · Zagra 2017-2026: ¿qué se perdió? (30 minutos)",
+     "p": "Para qué: justificar la necesidad de planificar con un caso, no con una declaración. En grupos, leer la trayectoria del caso Zagra (adhesión en 2016, Grupo Motor y 18 problemas en 2017, Perfil en 2018, escrito de 2020 y nueva consulta en 2026) y responder:",
+     "bullets": [
+      "¿Qué existía en 2017 que podría haber sostenido un plan?",
+      "¿Qué no consta en el expediente y habría hecho falta para que el trabajo de 2017 continuara (plan aprobado, responsables, calendario, indicadores)?",
+      "¿Qué tiene que reconstruir ahora el proceso de 2026 porque no quedó registrado?",
+      "Puesta en común: cada grupo formula en una frase para qué sirve planificar en Zagra. El profesorado recoge las frases y las retoma al final de S2."
+     ]
+    },
+    {
+     "h": "Fundamento · El ciclo de planificación local",
      "table": {
       "head": [
        "Etapa",
@@ -629,7 +640,51 @@
      }
     },
     {
-     "h": "Por qué no mezclar etapas",
+     "h": "Práctica 2 · Ordenar el expediente (45 minutos)",
+     "p": "Situar cada elemento del expediente de Zagra en su etapa del ciclo y señalar dónde se mezclan etapas.",
+     "table": {
+      "head": [
+       "Elemento del expediente",
+       "Etapa (para la corrección)"
+      ],
+      "rows": [
+       [
+        "Informe de Salud de Zagra (2017)",
+        "Diagnóstico"
+       ],
+       [
+        "Perfil de Salud Local (borrador de 2026) con cinco conclusiones",
+        "Perfil"
+       ],
+       [
+        "Hoja de 18 problemas puntuados (27/04/2017)",
+        "Priorización (inicio de la planificación)"
+       ],
+       [
+        "Propuestas del taller de 2017: baile, carnet de puntos, huertos",
+        "Ideas de actuación sin plan: mezclan priorización y ejecución"
+       ],
+       [
+        "Consulta temática ciudadana de 2026 (158 papeletas)",
+        "Diagnóstico participativo; insumo de la priorización"
+       ],
+       [
+        "Plan de Acción de cuatro bloques en COMPÁS",
+        "Borrador técnico de planificación, sin decisión"
+       ],
+       [
+        "Acuerdo plenario de aprobación del Plan Local de Salud",
+        "Decisión política (no consta en el expediente)"
+       ],
+       [
+        "Informe de evaluación del ciclo 2017-2018",
+        "Evaluación (no consta)"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Fundamento · Por qué no mezclar etapas",
      "bullets": [
       "Diagnóstico con sesgo de planificación: se busca evidencia de lo que ya se ha decidido priorizar; el diagnóstico confirma en lugar de descubrir.",
       "Perfil que ya propone actuaciones: el equipo técnico ocupa decisiones que corresponden al Grupo Motor.",
@@ -638,7 +693,7 @@
      ]
     },
     {
-     "h": "2. Qué aporta cada marco",
+     "h": "Fundamento · Qué aporta cada marco",
      "table": {
       "head": [
        "Marco",
@@ -665,48 +720,8 @@
      }
     },
     {
-     "h": "Una distinción que evita errores",
-     "p": "Lo que la ESCA encarga al centro de salud es un compromiso del sistema sanitario, no del municipio. El plan local debe identificar qué actuaciones son propias del municipio y cuáles corresponden al distrito sanitario. Así se evitan dos errores simétricos: creer que el plan local sobra porque la ESCA ya lo cubre, o diseñarlo ignorando lo que el sistema sanitario ya debe hacer."
-    },
-    {
-     "h": "3. Tipos de necesidad (Bradshaw)",
-     "table": {
-      "head": [
-       "Tipo",
-       "Quién la define",
-       "Ejemplo en Zagra"
-      ],
-      "rows": [
-       [
-        "Normativa",
-        "Criterio técnico o umbral",
-        "Exceso de riesgo de suicidio frente a España señalado por el Informe de Salud (2017)"
-       ],
-       [
-        "Comparativa",
-        "Comparación con territorios similares",
-        "37,0 % de la población bajo el umbral de renta, frente al 27,8 % provincial"
-       ],
-       [
-        "Sentida",
-        "Percepción de la población",
-        "Bienestar emocional elegido en el 84,8 % de las papeletas de 2026"
-       ],
-       [
-        "Expresada",
-        "Demanda efectiva de servicios o recursos",
-        "Uso de los talleres de socialización del complejo deportivo (dato no disponible: habría que pedirlo)"
-       ]
-      ]
-     }
-    },
-    {
-     "h": "Activos y participación",
-     "p": "Los activos se leen con el mismo rango que los déficits: un diagnóstico no es un inventario de carencias. La participación ciudadana aporta conocimiento que la epidemiología no recoge, pero su valor depende de quién ha podido participar. Una consulta que solo recoge la voz de los grupos más activos no puede presentarse como la opinión del municipio."
-    },
-    {
-     "h": "Ejercicio: estatuto de los enunciados (20 minutos)",
-     "p": "En grupo, clasificar cada enunciado sobre Zagra como hecho, inferencia, hipótesis o decisión, y señalar qué haría falta para cambiar su estatuto.",
+     "h": "Práctica 3 · Qué sabemos y cómo lo sabemos (45 minutos)",
+     "p": "Primera parte (25 minutos): clasificar los enunciados por su estatuto. Segunda parte (20 minutos): identificar un ejemplo de cada tipo de necesidad y relacionarlo con un activo del inventario.",
      "table": {
       "head": [
        "Enunciado",
@@ -749,11 +764,49 @@
      }
     },
     {
-     "h": "4. Taller de priorización",
-     "p": "Material: hoja de 2017, consulta de 2026 e indicadores del caso. Primer paso: leer críticamente la hoja de 2017 (¿qué se puntuó, con qué escala, qué significa el total?). Segundo: listar necesidades candidatas actuales con su evidencia y su fecha. Tercero: puntuar con criterios explícitos. Cuarto: deliberar, porque la puntuación orienta pero no decide. Quinto: dejar constancia de lo que no se prioriza y por qué."
+     "h": "Fundamento · Tipos de necesidad y activos",
+     "table": {
+      "head": [
+       "Tipo",
+       "Quién la define",
+       "Ejemplo en Zagra"
+      ],
+      "rows": [
+       [
+        "Normativa",
+        "Criterio técnico o umbral",
+        "Exceso de riesgo de suicidio frente a España señalado por el Informe de Salud (2017)"
+       ],
+       [
+        "Comparativa",
+        "Comparación con territorios similares",
+        "37,0 % de la población bajo el umbral de renta, frente al 27,8 % provincial"
+       ],
+       [
+        "Sentida",
+        "Percepción de la población",
+        "Bienestar emocional elegido en el 84,8 % de las papeletas de 2026"
+       ],
+       [
+        "Expresada",
+        "Demanda efectiva de servicios o recursos",
+        "Uso de los talleres de socialización del complejo deportivo (dato no disponible: habría que pedirlo)"
+       ]
+      ]
+     },
+     "p": "Los activos se leen con el mismo rango que los déficits: un diagnóstico no es un inventario de carencias. La participación ciudadana aporta conocimiento que la epidemiología no recoge, pero su valor depende de quién ha podido participar. Una consulta que solo recoge la voz de los grupos más activos no puede presentarse como la opinión del municipio."
     },
     {
-     "h": "Criterios",
+     "h": "Práctica 4 · Priorizar (75 minutos)",
+     "bullets": [
+      "Lectura crítica (15 minutos): la hoja de 2017. ¿Qué escala se usó, qué significan los valores de hasta 13 y el total? ¿Puede usarse como priorización técnica?",
+      "Puntuación (25 minutos): cada grupo puntúa entre 4 y 6 necesidades actuales de Zagra con el método Hanlon y el filtro PEARL, usando la plantilla de priorización.",
+      "Deliberación simulada (25 minutos): un Grupo Motor con papeles asignados (concejalía, centro de salud, servicios sociales, Asociación de Mujeres, juventud y población de nacionalidad extranjera) decide entre un área integradora de envejecimiento saludable o varias áreas.",
+      "Registro (10 minutos): acta breve con las prioridades, la motivación, cómo influyó la consulta de 2026 y qué queda fuera y por qué."
+     ]
+    },
+    {
+     "h": "Fundamento · Criterios de priorización",
      "table": {
       "head": [
        "Criterio",
@@ -788,7 +841,7 @@
      }
     },
     {
-     "h": "Método Hanlon (versión de trabajo)",
+     "h": "Técnica · Método Hanlon (versión de trabajo)",
      "bullets": [
       "A · Magnitud (0 a 10). B · Gravedad (0 a 10). C · Eficacia de la intervención (0 a 10).",
       "Puntuación básica = (A + 2B) × C / 3.",
@@ -797,85 +850,8 @@
      ]
     },
     {
-     "h": "Plenario",
-     "bullets": [
-      "¿Coinciden las prioridades de los grupos? ¿Qué criterio explica las diferencias?",
-      "¿Qué continuidad hay entre 2017 y 2026? ¿Es la misma preocupación o se parecen solo las palabras?",
-      "¿Una sola área de envejecimiento saludable o varias áreas? ¿Qué temas de 2026 quedarían fuera con cada opción (por ejemplo, tabaco y alcohol, o violencia de género) y cómo se justifica?",
-      "¿Qué voces faltan en la consulta de 2026, por ejemplo la población de nacionalidad extranjera?"
-     ]
-    },
-    {
-     "h": "Criterio de cierre",
-     "p": "Cada grupo debe poder explicar qué ha priorizado, con qué evidencia, qué peso tuvo la voz ciudadana y qué ha dejado fuera."
-    }
-   ]
-  },
-  {
-   "id": "virtual_1",
-   "nivel": "Virtual 1",
-   "clase": "Bloque virtual",
-   "titulo": "Del objetivo a la actuación",
-   "subtitulo": "Estudio guiado y entrega: priorización documentada y plan de una prioridad.",
-   "duracion": "5 horas virtuales",
-   "sections": [
-    {
-     "h": "Qué aprenderemos",
-     "bullets": [
-      "Documentar una priorización deliberativa, incluidas las necesidades que no se priorizan.",
-      "Formular objetivos generales y específicos verificables a partir de una prioridad.",
-      "Distinguir actuación, actividad, entrega y consolidación.",
-      "Asignar responsables identificables y separar actuaciones municipales de actuaciones del sistema sanitario."
-     ]
-    },
-    {
-     "h": "Organización (5 horas)",
-     "table": {
-      "head": [
-       "Módulo",
-       "Dedicación orientativa",
-       "Actividad"
-      ],
-      "rows": [
-       [
-        "M1 · Objetivos",
-        "1 h",
-        "Lectura y ejercicio de reescritura con propuestas de Zagra"
-       ],
-       [
-        "M2 · Actuaciones y responsables",
-        "1 h",
-        "Lectura y clasificación de ejemplos"
-       ],
-       [
-        "M3 · Referencia de COMPÁS",
-        "0,5 h",
-        "Revisión de los objetivos de envejecimiento saludable"
-       ],
-       [
-        "Entrega V1",
-        "2,5 h",
-        "Priorización y plan de una prioridad"
-       ]
-      ]
-     }
-    },
-    {
-     "h": "1. Cadena del plan",
-     "p": "Prioridad → objetivo general → objetivos específicos → actuaciones → actividades. Cada objetivo tiene al menos un indicador de resultado; cada actuación, un responsable, un calendario y un indicador de proceso; cada indicador, tiempo cero y meta. Si un elemento no puede enlazarse con el anterior, falta una decisión o sobra el elemento."
-    },
-    {
-     "h": "Objetivos",
-     "bullets": [
-      "Objetivo general: dirección del cambio para una prioridad (uno o dos por prioridad).",
-      "Objetivo específico: cambio concreto y medible en un plazo definido (entre dos y cinco por objetivo general).",
-      "Un objetivo sin indicador no es verificable; sin plazo es una aspiración.",
-      "Un objetivo no describe una tarea del equipo: «realizar talleres» es una actuación, no un objetivo."
-     ]
-    },
-    {
-     "h": "Ejercicio de reescritura",
-     "p": "Las propuestas del taller de Zagra de 2017 son material valioso, pero casi todas son actividades. Reescribirlas como parte de una cadena objetivo → actuación → actividad.",
+     "h": "Práctica 5 · De la prioridad a la actuación (55 minutos)",
+     "p": "Con la prioridad elegida en la práctica 4, reescribir tres propuestas del taller de 2017 como una cadena prioridad → objetivo general → objetivo específico → actuación → actividad, con responsable (cargo) y titularidad (municipio, sistema sanitario o conjunta).",
      "table": {
       "head": [
        "Propuesta de 2017",
@@ -907,44 +883,152 @@
      }
     },
     {
-     "h": "2. Actuación, actividad, entrega y consolidación",
+     "h": "Fundamento · Objetivos, actuaciones y responsables",
+     "bullets": [
+      "Objetivo general: dirección del cambio para una prioridad (uno o dos por prioridad).",
+      "Objetivo específico: cambio concreto y medible en un plazo definido (entre dos y cinco por objetivo general).",
+      "Un objetivo sin indicador no es verificable; sin plazo es una aspiración.",
+      "Un objetivo no describe una tarea del equipo: «realizar talleres» es una actuación, no un objetivo.",
+      "Actuación: unidad de intervención comprometida en el plan, con finalidad, población, responsable, calendario y recursos. Actividad: unidad concreta de ejecución dentro de una actuación.",
+      "El responsable es un cargo identificable, no una institución.",
+      "Para cada actuación se indica si es propia del municipio, del sistema sanitario (por ejemplo, educación para la salud grupal o mapa de activos encargados por la ESCA a la unidad de gestión clínica) o conjunta. Las actuaciones del sistema sanitario se referencian en el plan local, no se duplican."
+     ]
+    },
+    {
+     "h": "Herramientas que se usan en la sesión",
+     "bullets": [
+      "Plantilla de priorización (CSV).",
+      "Plantilla de plan de acción (CSV).",
+      "Expediente del caso Zagra.",
+      "Objetivos de envejecimiento saludable de COMPÁS como referencia para la práctica 5."
+     ]
+    },
+    {
+     "h": "Criterio de cierre",
+     "p": "Cada grupo sale con una prioridad documentada (puntuación, deliberación y necesidades no priorizadas) y un primer esbozo de cadena hasta la actuación, que desarrollará en las actividades virtuales V1."
+    }
+   ]
+  },
+  {
+   "id": "virtual_1",
+   "nivel": "Virtual 1",
+   "clase": "Bloque virtual",
+   "titulo": "Planificar: dos actividades prácticas",
+   "subtitulo": "Actividad A · Documento de priorización. Actividad B · Plan de acción de una prioridad.",
+   "duracion": "5 horas virtuales",
+   "sections": [
+    {
+     "h": "Organización (5 horas)",
      "table": {
       "head": [
-       "Elemento",
-       "Definición de trabajo",
-       "Ejemplo"
+       "Actividad",
+       "Dedicación orientativa",
+       "Producto"
       ],
       "rows": [
        [
-        "Actuación",
-        "Unidad de intervención comprometida en el plan: finalidad, población, responsable, calendario, recursos y vínculo con indicadores",
-        "Programa de acompañamiento a personas mayores que viven solas"
+        "A · Priorización deliberativa",
+        "2,5 h",
+        "Documento de priorización con plantilla y acta"
        ],
        [
-        "Actividad",
-        "Unidad concreta de ejecución dentro de una actuación: sesión, taller, reunión, campaña o entrega verificable",
-        "Sesión mensual del grupo de paseo intergeneracional"
-       ],
-       [
-        "Entrega",
-        "Comunicación periódica de datos desde una actuación a quien consolida el indicador",
-        "Registro trimestral de participantes únicos"
-       ],
-       [
-        "Consolidación",
-        "Revisión técnica del indicador agregando las entregas sin duplicar personas ni fuentes",
-        "Cálculo semestral del número de personas mayores alcanzadas"
+        "B · Plan de acción de una prioridad",
+        "2,5 h",
+        "Matriz del plan con objetivos y actuaciones"
        ]
       ]
      }
     },
     {
-     "h": "Responsables",
-     "p": "El responsable es un cargo identificable, no una institución: «el Ayuntamiento» no puede ser interpelado cuando una actuación no se ejecuta; «la persona titular de la concejalía de Bienestar Social» sí. Conviene distinguir el responsable estratégico (responde del plan), el operativo (ejecuta la actuación) y el de seguimiento (mide y comunica el indicador)."
+     "h": "Actividad A · Priorización deliberativa (2,5 horas)",
+     "p": "Objetivo: completar y documentar la priorización iniciada en S1, como si fuera a presentarse al Grupo Motor de Zagra (o del territorio propio). Producto: entre 3 y 4 páginas más la plantilla de priorización.",
+     "bullets": [
+      "Paso 1. Tabla de 4 a 6 necesidades candidatas con evidencia, fuente y año, tipo de necesidad y estatuto (hecho, inferencia o hipótesis).",
+      "Paso 2. Activos relacionados con cada necesidad, distinguiendo los registrados en Localiza Salud de los pendientes de contrastar.",
+      "Paso 3. Puntuación con Hanlon y filtro PEARL, o con otro método justificado.",
+      "Paso 4. Valoración breve de la priorización de 2017: qué puede aprovecharse y qué no.",
+      "Paso 5. Acta de deliberación: prioridades, motivación, influencia de la consulta ciudadana y voces ausentes.",
+      "Paso 6. Necesidades identificadas y no priorizadas, con justificación para cada una."
+     ]
     },
     {
-     "h": "Municipio y sistema sanitario",
-     "p": "Para cada actuación se indica si es propia del municipio, del sistema sanitario (por ejemplo, educación para la salud grupal o mapa de activos encargados por la ESCA a la unidad de gestión clínica) o conjunta. Las actuaciones del sistema sanitario se referencian en el plan local, no se duplican."
+     "h": "Rúbrica de la actividad A (10 puntos)",
+     "table": {
+      "head": [
+       "Criterio",
+       "Puntos"
+      ],
+      "rows": [
+       [
+        "Necesidades fundamentadas, con fuente, año y estatuto correctos",
+        "3"
+       ],
+       [
+        "Método aplicado con coherencia y explicado",
+        "2"
+       ],
+       [
+        "Deliberación motivada e influencia ciudadana documentada",
+        "2"
+       ],
+       [
+        "Necesidades no priorizadas justificadas",
+        "2"
+       ],
+       [
+        "Claridad y brevedad",
+        "1"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Actividad B · Plan de acción de una prioridad (2,5 horas)",
+     "p": "Objetivo: desarrollar una de las prioridades de la actividad A hasta el nivel de actuación. Producto: plantilla de plan de acción completa y una página de justificación.",
+     "bullets": [
+      "Paso 1. Objetivo general y dos o tres objetivos específicos verificables, con plazo.",
+      "Paso 2. Al menos tres actuaciones de niveles distintos (grupal, comunitario, ambiental o normativo), con sus actividades principales.",
+      "Paso 3. Para cada actuación: responsable (cargo), calendario, población destinataria, recursos estimados y titularidad (municipio, sistema sanitario o conjunta).",
+      "Paso 4. Activos del territorio que movilizan las actuaciones.",
+      "Paso 5. Una actuación grupal descrita con detalle suficiente para revisarla en S2 con la checklist de planificación.",
+      "Los indicadores se trabajan en S2 y en V2: no es necesario incluirlos todavía."
+     ]
+    },
+    {
+     "h": "Rúbrica de la actividad B (10 puntos)",
+     "table": {
+      "head": [
+       "Criterio",
+       "Puntos"
+      ],
+      "rows": [
+       [
+        "Coherencia de la cadena prioridad, objetivos y actuaciones",
+        "4"
+       ],
+       [
+        "Objetivos verificables y con plazo",
+        "2"
+       ],
+       [
+        "Responsables, calendario y reparto municipio/sistema sanitario",
+        "2"
+       ],
+       [
+        "Realismo y uso de activos existentes",
+        "2"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Material de apoyo",
+     "bullets": [
+      "Caso Zagra: trayectoria, indicadores, consulta de 2026, activos y propuestas de 2017.",
+      "Fundamentos de S1: ciclo, tipos de necesidad, criterios y método Hanlon, objetivos y actuaciones.",
+      "Referencia de COMPÁS: objetivos e indicadores de envejecimiento saludable (no es un plan de Zagra).",
+      "Plantillas de priorización y de plan de acción."
+     ]
     },
     {
      "h": "Referencia: objetivos de envejecimiento saludable en COMPÁS",
@@ -980,48 +1064,6 @@
      }
     },
     {
-     "h": "Entrega V1",
-     "p": "Sobre Zagra (segundo ciclo, 2026) o sobre el territorio propio. Entrega antes de S2, en la fecha que fije el profesorado.",
-     "bullets": [
-      "Tabla de necesidades candidatas (entre 4 y 6), con evidencia, fuente y año, tipo de necesidad y estatuto (hecho, inferencia o hipótesis), usando la plantilla de priorización.",
-      "Valoración breve de la priorización de Zagra de 2017: qué puede aprovecharse y qué no (o del antecedente equivalente en el territorio propio).",
-      "Acta breve de deliberación: prioridades seleccionadas, motivación, influencia del conocimiento ciudadano y necesidades no priorizadas con su justificación.",
-      "Para una de las prioridades: objetivo general, dos o tres objetivos específicos y al menos dos actuaciones de niveles distintos, con responsable (cargo), calendario, población destinataria y titularidad (municipio, sistema sanitario o conjunta), usando la plantilla de plan de acción.",
-      "Los indicadores se trabajan en S2: no es necesario incluirlos todavía."
-     ]
-    },
-    {
-     "h": "Rúbrica V1 (10 puntos)",
-     "table": {
-      "head": [
-       "Criterio",
-       "Puntos"
-      ],
-      "rows": [
-       [
-        "Necesidades fundamentadas, con estatuto y fuente correctos",
-        "2"
-       ],
-       [
-        "Deliberación motivada, influencia ciudadana y necesidades no priorizadas",
-        "3"
-       ],
-       [
-        "Coherencia de la cadena prioridad, objetivos y actuaciones",
-        "3"
-       ],
-       [
-        "Responsables, calendario y reparto municipio/sistema sanitario",
-        "1"
-       ],
-       [
-        "Claridad y realismo",
-        "1"
-       ]
-      ]
-     }
-    },
-    {
      "h": "Errores frecuentes",
      "bullets": [
       "Presentar una consulta ciudadana como representativa sin serlo.",
@@ -1032,8 +1074,8 @@
      ]
     },
     {
-     "h": "Formato",
-     "p": "Entre 4 y 6 páginas más las plantillas. Individual o en grupo, según indique el profesorado. Sin datos personales ni información clínica individual."
+     "h": "Formato y plazo",
+     "p": "Entrega antes de S2, en la fecha y la plataforma que indique el profesorado. Individual o en grupo, según se acuerde. Sin datos personales ni información clínica individual."
     }
    ]
   },
@@ -1041,18 +1083,19 @@
    "id": "sesion_2",
    "nivel": "Sesión 2",
    "clase": "Sesión presencial",
-   "titulo": "Indicadores y evaluación: un plan que pueda evaluarse",
-   "subtitulo": "Fichas de indicador con tiempo cero, revisión de actuaciones grupales, seguimiento y evaluación, registros de actividad y matriz de evaluación.",
+   "titulo": "Evaluar en promoción de la salud: por qué y cómo",
+   "subtitulo": "Una sesión práctica: justificar la necesidad de evaluar y ensayar sus fundamentos, técnicas y herramientas: preguntas, indicadores, checklists, registros, matriz y devolución.",
    "duracion": "5 horas presenciales",
    "sections": [
     {
      "h": "Qué aprenderemos",
      "bullets": [
-      "Construir una ficha de indicador completa, con tiempo cero, meta y responsable de medición.",
-      "Revisar una actuación de educación para la salud grupal con la lista de comprobación de planificación.",
-      "Distinguir seguimiento y evaluación, y evaluación de proceso, resultados e impacto.",
-      "Reconocer qué puede y qué no puede afirmar un registro de actividad.",
-      "Construir una matriz de evaluación proporcionada y revisarla con la lista de comprobación de evaluación."
+      "Argumentar por qué una actuación de promoción de la salud debe evaluarse y qué se pierde si no se prevé desde el inicio.",
+      "Distinguir seguimiento y evaluación, proceso, resultados e impacto, contribución y atribución.",
+      "Construir una ficha de indicador con tiempo cero, meta, fuente y responsable.",
+      "Usar las checklists de planificación y evaluación de EpS grupal para revisar una actuación.",
+      "Leer críticamente un registro de actividad y montar una matriz de evaluación proporcionada.",
+      "Diseñar la devolución de resultados a distintos destinatarios."
      ]
     },
     {
@@ -1065,41 +1108,102 @@
       "rows": [
        [
         "09:00–09:30",
-        "Retorno de la entrega V1: aciertos y errores frecuentes"
+        "Retorno de V1 y práctica 1 · ¿Funcionó? Lo que permite y lo que no permite afirmar una hoja de firmas"
        ],
        [
-        "09:30–10:30",
-        "Indicadores: taller de fichas sobre el plan de cada grupo"
+        "09:30–10:15",
+        "Práctica 2 · Clasificar preguntas de evaluación: seguimiento, proceso, resultados, impacto"
        ],
        [
-        "10:30–11:15",
-        "Lista de comprobación de planificación de EpS grupal aplicada a una actividad propuesta para Zagra"
+        "10:15–11:00",
+        "Práctica 3 · Taller de fichas de indicador sobre el plan de cada grupo"
        ],
        [
-        "11:15–11:45",
+        "11:00–11:30",
         "Descanso"
        ],
        [
-        "11:45–12:30",
-        "Seguimiento y evaluación. Contribución y atribución en un municipio de 843 habitantes. RE-AIM"
+        "11:30–12:20",
+        "Práctica 4 · Checklists de planificación y evaluación aplicadas a una actuación grupal"
        ],
        [
-        "12:30–13:15",
-        "Registros de actividad (RAPS) y taller de matriz de evaluación"
+        "12:20–13:10",
+        "Práctica 5 · Registros de actividad (RAPS) y matriz de evaluación con RE-AIM"
        ],
        [
-        "13:15–13:45",
-        "Lista de comprobación de evaluación de EpS grupal"
+        "13:10–13:45",
+        "Práctica 6 · Diseñar la devolución a tres destinatarios"
        ],
        [
         "13:45–14:00",
-        "Cierre y presentación del bloque virtual V2"
+        "Retomar las frases de S1 sobre para qué planificar y presentación de las actividades virtuales V2"
        ]
       ]
      }
     },
     {
-     "h": "1. Ficha de indicador",
+     "h": "Práctica 1 · ¿Funcionó? (30 minutos)",
+     "p": "Supuesto didáctico, no un hecho del expediente: en Zagra se organiza durante un trimestre un grupo de paseo para personas mayores que viven solas. Al final solo se dispone de la hoja de firmas de cada sesión. En grupos:",
+     "bullets": [
+      "¿Qué puede afirmarse con la hoja de firmas? ¿Cuántas personas distintas participaron, si no hay un identificador único?",
+      "¿Puede afirmarse que disminuyó la soledad? ¿Qué habría hecho falta medir y cuándo?",
+      "¿Quién quería saber si funcionó y para decidir qué?",
+      "Conclusión que se busca: la evaluación se decide antes de empezar, al planificar."
+     ]
+    },
+    {
+     "h": "Práctica 2 · Clasificar preguntas de evaluación (45 minutos)",
+     "p": "Clasificar ocho preguntas sobre el plan de Zagra según la tabla de fundamentos y señalar, para cada una, con qué se compara. Después, discutir qué es razonable esperar en un municipio de 843 habitantes.",
+     "bullets": [
+      "Alcance: ¿qué proporción de las 198 personas de 65 años o más ha participado en alguna actuación? ¿Han participado hombres y mujeres, y población de nacionalidad extranjera?",
+      "Efectividad: ¿ha disminuido la soledad percibida en las personas incorporadas a la intervención, medida con la misma escala al inicio y en el seguimiento?",
+      "Adopción: ¿cuántos de los activos registrados en Localiza Salud participan en el plan?",
+      "Implementación: ¿se mantuvieron las actividades previstas? ¿Qué se adaptó?",
+      "Mantenimiento: ¿siguen las actuaciones cuando cambia el personal del consultorio o la corporación municipal? En Zagra, el ciclo de 2017-2018 no consta que se completara.",
+      "¿Ha bajado la mortalidad por enfermedad cardiovascular en Zagra al final del plan?",
+      "¿Se celebraron las reuniones previstas del Grupo Motor?",
+      "¿Qué opinan las personas participantes de los talleres?"
+     ]
+    },
+    {
+     "h": "Fundamento · Seguimiento y evaluación",
+     "table": {
+      "head": [
+       "Pregunta",
+       "Tipo",
+       "Compara con"
+      ],
+      "rows": [
+       [
+        "¿Estamos haciendo lo que planificamos?",
+        "Seguimiento de proceso",
+        "Lo planificado"
+       ],
+       [
+        "¿Llega a quien debía llegar y como estaba previsto?",
+        "Evaluación de proceso",
+        "El diseño de la actuación"
+       ],
+       [
+        "¿Han cambiado los determinantes, conocimientos, conductas o condiciones?",
+        "Evaluación de resultados",
+        "El tiempo cero"
+       ],
+       [
+        "¿Ha mejorado la salud de la población?",
+        "Evaluación de impacto",
+        "El tiempo cero y, si es posible, un territorio de comparación"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Fundamento · Contribución y atribución",
+     "p": "En un plan local de cuatro años rara vez puede atribuirse un cambio en la salud de la población a las actuaciones del plan: influyen otros factores y el tamaño de la población limita la precisión. Lo razonable suele ser evaluar el proceso con exhaustividad, los resultados intermedios con rigor y el impacto como contribución plausible, declarando los límites. Prometer impacto atribuible que no podrá demostrarse debilita la credibilidad del plan. Zagra lo muestra con claridad: 17 defunciones en 2015 dieron una tasa bruta de 18,9 por mil; con esa población, la variación de un año a otro puede deberse al azar. Un plan local para un municipio de este tamaño debe evaluarse sobre todo por su proceso y por los cambios en las personas participantes."
+    },
+    {
+     "h": "Práctica 3 · Taller de fichas de indicador (45 minutos)",
+     "p": "Cada grupo elige un objetivo específico de su plan (actividad B de V1) y completa la ficha de un indicador de resultado. Después intercambia la ficha con otro grupo, que intenta calcular el indicador solo con lo escrito: si no puede, la ficha está incompleta.",
      "table": {
       "head": [
        "Campo",
@@ -1150,11 +1254,11 @@
      }
     },
     {
-     "h": "Ejemplo de referencia",
-     "p": "La EPVSA asocia cada objetivo estratégico a indicadores de contexto (situación de partida) e indicadores de impacto, muchos procedentes de la Encuesta Andaluza de Salud. Esa lógica, partida y llegada medidas con la misma definición, es la que se pide a cada indicador local. Un indicador autonómico no suele tener resolución municipal: no sirve como tiempo cero de un plan local si no se dispone del dato para el municipio. En Zagra, los indicadores de la tabla anterior se miden en las personas participantes, no en la población: son indicadores de resultado de una actuación. Con 843 habitantes, una encuesta poblacional repetida puede ser factible, pero hay que decidirlo antes de empezar."
+     "h": "Fundamento · Indicadores locales y autonómicos",
+     "p": "La EPVSA asocia cada objetivo estratégico a indicadores de contexto (situación de partida) e indicadores de impacto, muchos procedentes de la Encuesta Andaluza de Salud. Esa lógica, partida y llegada medidas con la misma definición, es la que se pide a cada indicador local. Un indicador autonómico no suele tener resolución municipal: no sirve como tiempo cero de un plan local si no se dispone del dato para el municipio. En Zagra, los indicadores de envejecimiento saludable de COMPÁS (véase V1) se miden en las personas participantes, no en la población: son indicadores de resultado de una actuación. Con 843 habitantes, una encuesta poblacional repetida puede ser factible, pero hay que decidirlo antes de empezar."
     },
     {
-     "h": "Reglas de prudencia",
+     "h": "Técnica · Reglas de prudencia con los datos",
      "bullets": [
       "No promediar porcentajes de actuaciones distintas para obtener un indicador agregado.",
       "No sumar participantes de varias actividades sin eliminar duplicados.",
@@ -1163,89 +1267,17 @@
      ]
     },
     {
-     "h": "2. Lista de comprobación de planificación de EpS grupal",
-     "p": "44 ítems en siete secciones: análisis de la situación, objetivos, contenidos y metodología, recursos y logística, cronograma, evaluación, y actores y coordinación. Se aplica en parejas a una actividad grupal propuesta para Zagra (por ejemplo, un taller de alimentación para todas las edades o actividades para cuidadoras). Interesa menos el porcentaje total que las secciones con menor cumplimiento: indican dónde hay que volver antes de ejecutar. Herramienta interactiva: https://bhermoso.github.io/aula-activos-comunitarios/planificacion-evaluacion/herramientas/checklist-planificacion.html"
-    },
-    {
-     "h": "3. Seguimiento y evaluación",
-     "table": {
-      "head": [
-       "Pregunta",
-       "Tipo",
-       "Compara con"
-      ],
-      "rows": [
-       [
-        "¿Estamos haciendo lo que planificamos?",
-        "Seguimiento de proceso",
-        "Lo planificado"
-       ],
-       [
-        "¿Llega a quien debía llegar y como estaba previsto?",
-        "Evaluación de proceso",
-        "El diseño de la actuación"
-       ],
-       [
-        "¿Han cambiado los determinantes, conocimientos, conductas o condiciones?",
-        "Evaluación de resultados",
-        "El tiempo cero"
-       ],
-       [
-        "¿Ha mejorado la salud de la población?",
-        "Evaluación de impacto",
-        "El tiempo cero y, si es posible, un territorio de comparación"
-       ]
-      ]
-     }
-    },
-    {
-     "h": "Contribución y atribución",
-     "p": "En un plan local de cuatro años rara vez puede atribuirse un cambio en la salud de la población a las actuaciones del plan: influyen otros factores y el tamaño de la población limita la precisión. Lo razonable suele ser evaluar el proceso con exhaustividad, los resultados intermedios con rigor y el impacto como contribución plausible, declarando los límites. Prometer impacto atribuible que no podrá demostrarse debilita la credibilidad del plan. Zagra lo muestra con claridad: 17 defunciones en 2015 dieron una tasa bruta de 18,9 por mil; con esa población, la variación de un año a otro puede deberse al azar. Un plan local para un municipio de este tamaño debe evaluarse sobre todo por su proceso y por los cambios en las personas participantes."
-    },
-    {
-     "h": "Dimensiones útiles (marco RE-AIM)",
-     "table": {
-      "head": [
-       "Dimensión",
-       "Pregunta local"
-      ],
-      "rows": [
-       [
-        "Alcance",
-        "¿Qué proporción de la población destinataria participó? ¿Quién quedó fuera?"
-       ],
-       [
-        "Efectividad",
-        "¿Qué cambió en quienes participaron?"
-       ],
-       [
-        "Adopción",
-        "¿Qué entidades y profesionales se sumaron?"
-       ],
-       [
-        "Implementación",
-        "¿Se hizo lo previsto? ¿Qué se adaptó y por qué?"
-       ],
-       [
-        "Mantenimiento",
-        "¿Continúa la actuación cuando termina el apoyo inicial?"
-       ]
-      ]
-     }
-    },
-    {
-     "h": "Preguntas de evaluación para Zagra (ejemplos)",
+     "h": "Práctica 4 · Checklists aplicadas a una actuación grupal (50 minutos)",
+     "p": "En parejas, aplicar la checklist de planificación (44 ítems) a la actuación grupal descrita en la actividad B de V1, y la checklist de evaluación (33 ítems) a su sistema de evaluación previsto. Interesa menos el porcentaje total que las secciones con menor cumplimiento: cada pareja anota tres mejoras. Herramientas: https://bhermoso.github.io/aula-activos-comunitarios/planificacion-evaluacion/herramientas/checklist-planificacion.html y https://bhermoso.github.io/aula-activos-comunitarios/planificacion-evaluacion/herramientas/checklist-evaluacion.html",
      "bullets": [
-      "Alcance: ¿qué proporción de las 198 personas de 65 años o más ha participado en alguna actuación? ¿Han participado hombres y mujeres, y población de nacionalidad extranjera?",
-      "Efectividad: ¿ha disminuido la soledad percibida en las personas incorporadas a la intervención, medida con la misma escala al inicio y en el seguimiento?",
-      "Adopción: ¿cuántos de los activos registrados en Localiza Salud participan en el plan?",
-      "Implementación: ¿se mantuvieron las actividades previstas? ¿Qué se adaptó?",
-      "Mantenimiento: ¿siguen las actuaciones cuando cambia el personal del consultorio o la corporación municipal? En Zagra, el ciclo de 2017-2018 no consta que se completara."
+      "Lista de comprobación de planificación: análisis de la situación, objetivos, contenidos y metodología, recursos y logística, cronograma, evaluación, y actores y coordinación.",
+      "Lista de comprobación de evaluación: planificación de la evaluación, proceso, resultados, impacto, instrumentos, y análisis y uso de resultados.",
+      "Guardar o imprimir el resumen de cada checklist: se usará en V2."
      ]
     },
     {
-     "h": "4. Qué dice un registro de actividad",
-     "p": "El RAPS (Registro de Actuaciones de Promoción de la Salud) recoge en REDCap las actividades de promoción de la salud que registran los profesionales del Distrito Sanitario Granada-Metropolitano y permite explorarlas por distrito, unidad y profesional, con procesamiento local en el navegador. Un registro así es una buena fuente para el seguimiento de proceso.",
+     "h": "Práctica 5 · Registros y matriz de evaluación (50 minutos)",
+     "p": "Primera parte (20 minutos): a partir de la descripción del RAPS, decidir qué preguntas del plan puede responder un registro de actividad y cuáles no. Segunda parte (30 minutos): construir la matriz de evaluación del plan del grupo para tres preguntas, usando las dimensiones RE-AIM.",
      "bullets": [
       "Puede informar: qué actividades se hicieron, dónde, cuándo, con qué temática y cuántas sesiones.",
       "Requiere cautela: la exhaustividad depende de que se registre todo lo realizado; sin registro no se puede afirmar que algo no se hizo.",
@@ -1254,7 +1286,7 @@
      ]
     },
     {
-     "h": "5. Matriz de evaluación",
+     "h": "Técnica · Matriz de evaluación y RE-AIM",
      "table": {
       "head": [
        "Columna",
@@ -1289,12 +1321,59 @@
      }
     },
     {
-     "h": "Lista de comprobación de evaluación de EpS grupal",
-     "p": "33 ítems en seis secciones: planificación de la evaluación, proceso, resultados, impacto, instrumentos, y análisis y uso de resultados. Se aplica a la actividad grupal revisada en la primera parte de la sesión. Ítems que suelen fallar: línea base asegurada antes de empezar, instrumentos pilotados, estrategia para reducir pérdidas de seguimiento y devolución de resultados a participantes. Herramienta interactiva: https://bhermoso.github.io/aula-activos-comunitarios/planificacion-evaluacion/herramientas/checklist-evaluacion.html"
+     "h": "Técnica · Dimensiones RE-AIM",
+     "table": {
+      "head": [
+       "Dimensión",
+       "Pregunta local"
+      ],
+      "rows": [
+       [
+        "Alcance",
+        "¿Qué proporción de la población destinataria participó? ¿Quién quedó fuera?"
+       ],
+       [
+        "Efectividad",
+        "¿Qué cambió en quienes participaron?"
+       ],
+       [
+        "Adopción",
+        "¿Qué entidades y profesionales se sumaron?"
+       ],
+       [
+        "Implementación",
+        "¿Se hizo lo previsto? ¿Qué se adaptó y por qué?"
+       ],
+       [
+        "Mantenimiento",
+        "¿Continúa la actuación cuando termina el apoyo inicial?"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Práctica 6 · Diseñar la devolución (35 minutos)",
+     "p": "Para un mismo resultado del plan, preparar tres devoluciones: al Grupo Motor y la corporación (para decidir), a los equipos que ejecutan (para mejorar) y a la comunidad (para rendir cuentas). Elegir formato, momento y quién la presenta.",
+     "bullets": [
+      "Métodos que pueden alimentar la devolución:",
+      "Grupos de discusión y entrevistas: por qué funcionó o no, para quién y en qué condiciones.",
+      "Técnica del cambio más significativo: relatos de cambio seleccionados colectivamente.",
+      "Observación y diario de campo de las actividades.",
+      "Evaluación con la comunidad: el Grupo Motor y los participantes interpretan los resultados, no solo los reciben."
+     ]
+    },
+    {
+     "h": "Herramientas que se usan en la sesión",
+     "bullets": [
+      "Checklist de planificación de EpS grupal: https://bhermoso.github.io/aula-activos-comunitarios/planificacion-evaluacion/herramientas/checklist-planificacion.html",
+      "Checklist de evaluación de EpS grupal: https://bhermoso.github.io/aula-activos-comunitarios/planificacion-evaluacion/herramientas/checklist-evaluacion.html",
+      "Plantillas de ficha de indicador y de plan de evaluación (CSV).",
+      "Descripción del RAPS (Registro de Actuaciones de Promoción de la Salud, REDCap)."
+     ]
     },
     {
      "h": "Criterio de cierre",
-     "p": "Cada grupo sale con una ficha de indicador completa y tres preguntas de evaluación de su plan, sabiendo con qué información responderá a cada una y quién usará la respuesta."
+     "p": "Cada grupo sale con una ficha de indicador revisada por otro grupo, los resúmenes de las dos checklists con tres mejoras cada uno y una matriz de evaluación de tres preguntas, que completará en las actividades virtuales V2."
     }
    ]
   },
@@ -1302,41 +1381,28 @@
    "id": "virtual_2",
    "nivel": "Virtual 2",
    "clase": "Bloque virtual",
-   "titulo": "Evaluar con la comunidad y cerrar el ciclo",
-   "subtitulo": "Estudio guiado y entrega: marco de evaluación y plan de devolución.",
+   "titulo": "Evaluar: dos actividades prácticas",
+   "subtitulo": "Actividad C · Indicadores y revisión de una actuación grupal. Actividad D · Marco de evaluación y plan de devolución.",
    "duracion": "5 horas virtuales",
    "sections": [
-    {
-     "h": "Qué aprenderemos",
-     "bullets": [
-      "Elegir métodos cualitativos y participativos adecuados a la pregunta de evaluación.",
-      "Planificar la devolución de resultados a quienes deciden, a quienes ejecutan y a la comunidad.",
-      "Completar el marco de evaluación del plan y conectarlo con el siguiente ciclo."
-     ]
-    },
     {
      "h": "Organización (5 horas)",
      "table": {
       "head": [
-       "Módulo",
+       "Actividad",
        "Dedicación orientativa",
-       "Actividad"
+       "Producto"
       ],
       "rows": [
        [
-        "M1 · Métodos cualitativos y participativos",
-        "1 h",
-        "Lectura y elección justificada de un método para el plan propio"
+        "C · Indicadores y revisión de una actuación grupal",
+        "2,25 h",
+        "Dos fichas de indicador y resúmenes de la checklist de planificación"
        ],
        [
-        "M2 · Devolución y cierre del ciclo",
-        "0,75 h",
-        "Lectura y esbozo del plan de devolución"
-       ],
-       [
-        "Entrega V2",
-        "3 h",
-        "Marco de evaluación"
+        "D · Marco de evaluación y devolución",
+        "2,5 h",
+        "Matriz de evaluación, checklist de evaluación, devolución y reflexión"
        ],
        [
         "Cierre",
@@ -1347,33 +1413,55 @@
      }
     },
     {
-     "h": "1. Métodos cualitativos y participativos",
+     "h": "Actividad C · Indicadores y revisión de una actuación grupal (2,25 horas)",
+     "p": "Objetivo: hacer evaluable el plan de la actividad B. Producto: dos fichas de indicador y la revisión documentada de una actuación grupal.",
      "bullets": [
-      "Grupos de discusión y entrevistas: por qué funcionó o no, para quién y en qué condiciones.",
-      "Técnica del cambio más significativo: relatos de cambio seleccionados colectivamente.",
-      "Observación y diario de campo de las actividades.",
-      "Evaluación con la comunidad: el Grupo Motor y los participantes interpretan los resultados, no solo los reciben."
+      "Paso 1. Ficha de un indicador de proceso y otra de un indicador de resultado, completas: definición operativa, numerador y denominador, fuente y custodia, frecuencia, tiempo cero (valor o plan para obtenerlo antes de la primera actividad), meta justificada, responsable de medición y cautelas.",
+      "Paso 2. Aplicar la checklist de planificación a la actuación grupal del plan, incorporando las mejoras anotadas en S2. Herramienta: https://bhermoso.github.io/aula-activos-comunitarios/planificacion-evaluacion/herramientas/checklist-planificacion.html",
+      "Paso 3. Adjuntar el resumen de la checklist (impreso o en PDF) y explicar en media página qué se ha cambiado en la actuación y por qué."
      ]
     },
     {
-     "h": "2. Devolución y cierre del ciclo",
-     "p": "El informe de evaluación tiene al menos tres destinatarios: el Grupo Motor y la corporación (decisiones), los equipos que ejecutan (mejora) y la comunidad (rendición de cuentas). Cada uno necesita un formato distinto. La evaluación final es el punto de partida del siguiente diagnóstico: lo que se midió con la misma definición se convierte en serie temporal."
+     "h": "Rúbrica de la actividad C (10 puntos)",
+     "table": {
+      "head": [
+       "Criterio",
+       "Puntos"
+      ],
+      "rows": [
+       [
+        "Fichas completas, calculables y medibles con recursos locales",
+        "4"
+       ],
+       [
+        "Tiempo cero y meta justificados",
+        "2"
+       ],
+       [
+        "Uso de la checklist y mejoras derivadas",
+        "3"
+       ],
+       [
+        "Claridad",
+        "1"
+       ]
+      ]
+     }
     },
     {
-     "h": "Entrega V2",
-     "p": "Completar el marco de evaluación del plan de la entrega V1 con la plantilla de plan de evaluación y la de ficha de indicador.",
+     "h": "Actividad D · Marco de evaluación y plan de devolución (2,5 horas)",
+     "p": "Objetivo: cerrar la cadena del plan con su marco de evaluación. Producto: plantilla de plan de evaluación completa y documentos anexos.",
      "bullets": [
-      "Entre tres y cinco preguntas de evaluación, con la decisión que cada una informa.",
-      "Matriz de evaluación completa (pregunta, indicador o información, fuente, momento, responsable y uso).",
-      "Dos fichas de indicador completas: una de proceso y una de resultado, con tiempo cero (valor o plan para obtenerlo antes de la primera actividad) y meta justificada.",
-      "Al menos un método cualitativo o participativo, justificado.",
-      "Aplicación de la lista de comprobación de evaluación a una actuación grupal del plan, con las mejoras derivadas. Herramienta: https://bhermoso.github.io/aula-activos-comunitarios/planificacion-evaluacion/herramientas/checklist-evaluacion.html (adjuntar el resumen impreso o en PDF).",
-      "Plan de devolución: destinatarios, formato y momento.",
-      "Reflexión individual (máximo una página): qué aporta el propio perfil profesional al plan y qué límites se han encontrado."
+      "Paso 1. Entre tres y cinco preguntas de evaluación, con la decisión que informa cada una.",
+      "Paso 2. Matriz completa: pregunta, indicador o información, fuente e instrumento, momento, responsable y uso previsto.",
+      "Paso 3. Al menos un método cualitativo o participativo, justificado.",
+      "Paso 4. Aplicar la checklist de evaluación al sistema de evaluación de la actuación grupal y adjuntar el resumen. Herramienta: https://bhermoso.github.io/aula-activos-comunitarios/planificacion-evaluacion/herramientas/checklist-evaluacion.html",
+      "Paso 5. Plan de devolución: destinatarios, formato, momento y responsable.",
+      "Paso 6. Reflexión individual (máximo una página): qué aporta el propio perfil profesional al plan y qué límites se han encontrado."
      ]
     },
     {
-     "h": "Rúbrica V2 (10 puntos)",
+     "h": "Rúbrica de la actividad D (10 puntos)",
      "table": {
       "head": [
        "Criterio",
@@ -1385,15 +1473,15 @@
         "2"
        ],
        [
-        "Matriz y fichas de indicador completas, proporcionadas y viables",
+        "Matriz proporcionada y viable",
         "3"
        ],
        [
-        "Tiempo cero, momentos y responsables bien definidos",
+        "Método cualitativo o participativo y uso de la checklist de evaluación",
         "2"
        ],
        [
-        "Método cualitativo o participativo y plan de devolución",
+        "Plan de devolución",
         "2"
        ],
        [
@@ -1404,6 +1492,27 @@
      }
     },
     {
+     "h": "Material de apoyo",
+     "bullets": [
+      "Fundamentos y técnicas de S2: seguimiento y evaluación, contribución y atribución, ficha de indicador, reglas de prudencia, matriz y RE-AIM.",
+      "Las dos checklists de EpS grupal y las plantillas de ficha de indicador y plan de evaluación.",
+      "Productos de V1 y de S2 del propio grupo."
+     ]
+    },
+    {
+     "h": "Apoyo · Métodos cualitativos y participativos",
+     "bullets": [
+      "Grupos de discusión y entrevistas: por qué funcionó o no, para quién y en qué condiciones.",
+      "Técnica del cambio más significativo: relatos de cambio seleccionados colectivamente.",
+      "Observación y diario de campo de las actividades.",
+      "Evaluación con la comunidad: el Grupo Motor y los participantes interpretan los resultados, no solo los reciben."
+     ]
+    },
+    {
+     "h": "Apoyo · Devolución y cierre del ciclo",
+     "p": "El informe de evaluación tiene al menos tres destinatarios: el Grupo Motor y la corporación (decisiones), los equipos que ejecutan (mejora) y la comunidad (rendición de cuentas). Cada uno necesita un formato distinto. La evaluación final es el punto de partida del siguiente diagnóstico: lo que se midió con la misma definición se convierte en serie temporal."
+    },
+    {
      "h": "Errores frecuentes",
      "bullets": [
       "Prometer evaluación de impacto sin medios para hacerla.",
@@ -1411,6 +1520,10 @@
       "Olvidar quién analizará los datos y cuándo.",
       "No prever qué se hará con los resultados."
      ]
+    },
+    {
+     "h": "Formato y plazo",
+     "p": "Entrega en la fecha y la plataforma que indique el profesorado. Individual o en grupo, salvo la reflexión, que es individual. Sin datos personales ni información clínica individual."
     }
    ]
   },
