@@ -2,7 +2,7 @@
  "revision": "2026-10-31",
  "estado": "propuesta docente, pendiente de validación institucional",
  "curso": "Planificación y evaluación en salud local",
- "intro": "Propuesta docente · revisión 31/10/2026 · pendiente de validación institucional. Caso de trabajo: Zagra, con datos del expediente territorial y sus fuentes.",
+ "intro": "Propuesta docente · revisión 31/10/2026 · 20 horas (10 presenciales + 10 virtuales) · pendiente de validación institucional. Caso de trabajo: Zagra, con datos del expediente territorial y sus fuentes.",
  "docs": [
   {
    "id": "programa_planificacion_evaluacion_2027",
@@ -10,7 +10,7 @@
    "clase": "Programa",
    "titulo": "Planificación y evaluación de la promoción de la salud y la acción local en salud",
    "subtitulo": "Del conocimiento del territorio a un plan que pueda evaluarse: priorizar, diseñar actuaciones, medir y devolver resultados.",
-   "duracion": "30 horas: 15 presenciales + 15 no presenciales",
+   "duracion": "20 horas: 10 presenciales + 10 virtuales",
    "sections": [
     {
      "h": "Problema de partida",
@@ -47,36 +47,26 @@
         "Presencial"
        ],
        [
-        "T1 · 5 h",
-        "Documento de priorización deliberativa",
-        "No presencial"
+        "V1 · 5 h",
+        "Del objetivo a la actuación. Entrega: priorización y plan de una prioridad",
+        "Virtual"
        ],
        [
         "S2 · 5 h",
-        "Del objetivo a la actuación: un plan que pueda evaluarse",
+        "Indicadores y evaluación: un plan que pueda evaluarse",
         "Presencial"
        ],
        [
-        "T2 · 5 h",
-        "Plan de acción de una prioridad y fichas de indicador",
-        "No presencial"
-       ],
-       [
-        "S3 · 5 h",
-        "Evaluar la promoción de la salud y la acción local",
-        "Presencial"
-       ],
-       [
-        "T3 · 5 h",
-        "Marco de evaluación y plan de devolución",
-        "No presencial"
+        "V2 · 5 h",
+        "Evaluar con la comunidad y cerrar el ciclo. Entrega: marco de evaluación",
+        "Virtual"
        ]
       ]
      }
     },
     {
      "h": "Metodología",
-     "p": "Aprendizaje basado en un caso real y progresivo: el proceso de planificación local de Zagra (Granada), con adhesión a RELAS en 2016, un primer ciclo en 2017-2018 y un segundo ciclo abierto en 2026. El caso permite trabajar con lo que suele encontrarse en la práctica: fuentes de fechas distintas, una priorización antigua con un método poco documentado, una consulta ciudadana reciente y una propuesta de plan que todavía no es una decisión. Cada sesión parte del producto entregado en el trabajo anterior, de modo que al final el alumnado dispone de una cadena completa: prioridad, objetivos, actuaciones, indicadores y marco de evaluación. Se admite trabajar sobre el territorio propio si se dispone de información pública o autorizada; en ningún caso se incorporan datos personales ni información clínica individual. Trabajo en grupos interprofesionales de 4 a 5 personas, procurando que en cada grupo haya perfiles de enfermería, trabajo social y medicina."
+     "p": "Aprendizaje basado en un caso real y progresivo: el proceso de planificación local de Zagra (Granada), con adhesión a RELAS en 2016, un primer ciclo en 2017-2018 y un segundo ciclo abierto en 2026. El caso permite trabajar con lo que suele encontrarse en la práctica: fuentes de fechas distintas, una priorización antigua con un método poco documentado, una consulta ciudadana reciente y una propuesta de plan que todavía no es una decisión. Las sesiones presenciales se dedican a talleres y deliberación; los bloques virtuales combinan materiales de estudio breves con una entrega. Cada bloque parte del producto del anterior, de modo que al final el alumnado dispone de una cadena completa: prioridad, objetivos, actuaciones, indicadores y marco de evaluación. Se admite trabajar sobre el territorio propio si se dispone de información pública o autorizada; en ningún caso se incorporan datos personales ni información clínica individual. Trabajo en grupos interprofesionales de 4 a 5 personas, procurando que en cada grupo haya perfiles de enfermería, trabajo social y medicina."
     },
     {
      "h": "Aportación de cada perfil profesional",
@@ -108,10 +98,10 @@
     {
      "h": "Evaluación del alumnado (propuesta)",
      "bullets": [
-      "Asistencia a las tres sesiones presenciales, con el requisito que fije la entidad acreditadora.",
-      "Tres trabajos no presenciales, cada uno con rúbrica de 10 puntos. Propuesta de apto: 5 o más puntos en cada trabajo.",
-      "Cuestionario inicial y final no calificable, para conocer el punto de partida y el cambio percibido.",
-      "Encuesta de satisfacción y propuestas de mejora al cierre de S3."
+      "Asistencia a las dos sesiones presenciales, con el requisito que fije la entidad acreditadora.",
+      "Dos entregas virtuales (V1 y V2), cada una con rúbrica de 10 puntos. Propuesta de apto: 5 o más puntos en cada entrega.",
+      "Cuestionario inicial (S1) y final (V2) no calificables, para conocer el punto de partida y el cambio percibido.",
+      "Encuesta de satisfacción y propuestas de mejora al cierre de V2."
      ]
     },
     {
@@ -124,30 +114,30 @@
       "rows": [
        [
         "Lista de comprobación de planificación de EpS grupal (B. Hermoso, J. Serrano; 44 ítems)",
-        "S2 y T2: revisar una actuación grupal antes de ejecutarla"
+        "S2: revisar una actuación grupal antes de ejecutarla"
        ],
        [
         "Lista de comprobación de evaluación de EpS grupal (B. Hermoso, J. Serrano; 33 ítems)",
-        "S3 y T3: revisar el sistema de evaluación de una actuación"
+        "S2 y V2: revisar el sistema de evaluación de una actuación"
        ],
        [
         "Modelo metodológico de COMPÁS NG (ciclo, gramática del plan, fichas de actuación e indicador)",
-        "Marco conceptual de las tres sesiones"
+        "Marco conceptual de todo el curso"
        ],
        [
         "RAPS · Registro de Actuaciones de Promoción de la Salud (REDCap, DS Granada-Metropolitano)",
-        "S3: qué puede y qué no puede decir un registro de actividad"
+        "S2: qué puede y qué no puede decir un registro de actividad"
        ],
        [
         "Plantillas CSV del curso (priorización, plan de acción, ficha de indicador, plan de evaluación)",
-        "Trabajos no presenciales"
+        "Entregas virtuales"
        ]
       ]
      }
     },
     {
      "h": "Estado de esta propuesta",
-     "p": "Propuesta docente. Fechas, sede, acreditación y profesorado pendientes de concretar y validar por la entidad organizadora. El caso Zagra usa documentación del expediente territorial; antes de cada edición conviene comprobar con el equipo del distrito y el Ayuntamiento si ha cambiado la situación del proceso (acuerdos del Grupo Motor, Perfil validado, Plan aprobado). Del inventario de activos de 2016 no se reproducen nombres ni teléfonos de personas."
+     "p": "Propuesta docente. Fechas, sede, plataforma virtual, acreditación y profesorado pendientes de concretar y validar por la entidad organizadora. El caso Zagra usa documentación del expediente territorial; antes de cada edición conviene comprobar con el equipo del distrito y el Ayuntamiento si ha cambiado la situación del proceso (acuerdos del Grupo Motor, Perfil validado, Plan aprobado). Del inventario de activos de 2016 no se reproducen nombres ni teléfonos de personas."
     }
    ]
   },
@@ -157,7 +147,7 @@
    "clase": "Caso de trabajo",
    "titulo": "Caso Zagra: expediente de trabajo",
    "subtitulo": "Un municipio de 843 habitantes con dos ciclos de planificación local: 2017-2018 y 2026.",
-   "duracion": "Material común a S1, S2 y S3",
+   "duracion": "Material común a todo el curso",
    "sections": [
     {
      "h": "Advertencia sobre las fuentes",
@@ -536,7 +526,7 @@
     },
     {
      "h": "Uso docente",
-     "p": "S1: estatuto de la información, lectura crítica de la priorización de 2017 y contraste con la consulta de 2026. S2: desarrollo de una prioridad en objetivos, actuaciones e indicadores, usando como referencia los objetivos de envejecimiento saludable de COMPÁS. S3: marco de evaluación proporcionado a un municipio de 843 habitantes. Las lagunas y discordancias del expediente forman parte del ejercicio: identificarlas es una competencia de planificación."
+     "p": "S1: estatuto de la información, lectura crítica de la priorización de 2017 y contraste con la consulta de 2026. V1: desarrollo de una prioridad en objetivos y actuaciones, usando como referencia los objetivos de envejecimiento saludable de COMPÁS. S2: indicadores y marco de evaluación proporcionado a un municipio de 843 habitantes. V2: evaluación participativa y devolución. Las lagunas y discordancias del expediente forman parte del ejercicio: identificarlas es una competencia de planificación."
     }
    ]
   },
@@ -591,7 +581,7 @@
        ],
        [
         "13:45–14:00",
-        "Cierre y presentación del trabajo T1"
+        "Cierre y presentación del bloque virtual V1"
        ]
       ]
      }
@@ -822,127 +812,50 @@
    ]
   },
   {
-   "id": "trabajo_1",
-   "nivel": "Trabajo 1",
-   "clase": "Trabajo no presencial",
-   "titulo": "Documento de priorización deliberativa",
-   "subtitulo": "Del inventario de necesidades a una decisión motivada y transparente.",
-   "duracion": "5 horas no presenciales",
-   "sections": [
-    {
-     "h": "Encargo",
-     "p": "Elaborar el documento de priorización de Zagra (segundo ciclo, 2026) o del territorio propio, como si fuera a presentarse al Grupo Motor. Debe incluir una valoración breve de la priorización de 2017: qué puede aprovecharse y qué no. El documento no propone actuaciones: termina en las prioridades."
-    },
-    {
-     "h": "Contenido de la entrega",
-     "bullets": [
-      "Tabla de necesidades candidatas (entre 4 y 6), con la evidencia que sostiene cada una, su fuente, su tipo de necesidad y su estatuto (hecho, inferencia o hipótesis).",
-      "Tabla de activos relacionados con cada necesidad.",
-      "Puntuación con criterios explícitos (Hanlon u otro método justificado), usando la plantilla de priorización.",
-      "Acta breve de deliberación (máximo una página): prioridades seleccionadas, motivación y cómo influyó el conocimiento ciudadano o constancia de que no estaba disponible.",
-      "Necesidades identificadas y no priorizadas, con justificación para cada una.",
-      "Lista de información que falta y cómo podría obtenerse."
-     ]
-    },
-    {
-     "h": "Rúbrica (10 puntos)",
-     "table": {
-      "head": [
-       "Criterio",
-       "Puntos"
-      ],
-      "rows": [
-       [
-        "Necesidades bien fundamentadas y con estatuto correcto",
-        "3"
-       ],
-       [
-        "Criterios aplicados de forma coherente y explicada",
-        "2"
-       ],
-       [
-        "Deliberación motivada e influencia ciudadana documentada",
-        "2"
-       ],
-       [
-        "Necesidades no priorizadas justificadas",
-        "2"
-       ],
-       [
-        "Claridad, brevedad y fuentes citadas",
-        "1"
-       ]
-      ]
-     }
-    },
-    {
-     "h": "Errores frecuentes",
-     "bullets": [
-      "Presentar la consulta ciudadana como representativa sin serlo.",
-      "Atribuir al municipio datos provinciales.",
-      "Incluir ya actuaciones o responsables.",
-      "Omitir lo que no se prioriza."
-     ]
-    },
-    {
-     "h": "Formato",
-     "p": "Entre 3 y 5 páginas más la plantilla de priorización. Sin datos personales ni información clínica individual."
-    }
-   ]
-  },
-  {
-   "id": "sesion_2",
-   "nivel": "Sesión 2",
-   "clase": "Sesión presencial",
-   "titulo": "Del objetivo a la actuación: un plan que pueda evaluarse",
-   "subtitulo": "Objetivos verificables, actuaciones con responsable, indicadores con tiempo cero y revisión de actuaciones grupales.",
-   "duracion": "5 horas presenciales",
+   "id": "virtual_1",
+   "nivel": "Virtual 1",
+   "clase": "Bloque virtual",
+   "titulo": "Del objetivo a la actuación",
+   "subtitulo": "Estudio guiado y entrega: priorización documentada y plan de una prioridad.",
+   "duracion": "5 horas virtuales",
    "sections": [
     {
      "h": "Qué aprenderemos",
      "bullets": [
+      "Documentar una priorización deliberativa, incluidas las necesidades que no se priorizan.",
       "Formular objetivos generales y específicos verificables a partir de una prioridad.",
       "Distinguir actuación, actividad, entrega y consolidación.",
-      "Asignar responsables identificables y separar actuaciones municipales de actuaciones del sistema sanitario.",
-      "Construir una ficha de indicador completa.",
-      "Revisar una actuación de educación para la salud grupal con la lista de comprobación de planificación."
+      "Asignar responsables identificables y separar actuaciones municipales de actuaciones del sistema sanitario."
      ]
     },
     {
-     "h": "Agenda",
+     "h": "Organización (5 horas)",
      "table": {
       "head": [
-       "Hora",
+       "Módulo",
+       "Dedicación orientativa",
        "Actividad"
       ],
       "rows": [
        [
-        "09:00–09:30",
-        "Retorno del trabajo T1: aciertos y errores frecuentes"
+        "M1 · Objetivos",
+        "1 h",
+        "Lectura y ejercicio de reescritura con propuestas de Zagra"
        ],
        [
-        "09:30–10:30",
-        "Objetivos: de la prioridad al cambio esperado. Ejercicio de reescritura"
+        "M2 · Actuaciones y responsables",
+        "1 h",
+        "Lectura y clasificación de ejemplos"
        ],
        [
-        "10:30–11:15",
-        "Actuaciones, actividades y responsables. Qué hace el municipio y qué hace el sistema sanitario"
+        "M3 · Referencia de COMPÁS",
+        "0,5 h",
+        "Revisión de los objetivos de envejecimiento saludable"
        ],
        [
-        "11:15–11:45",
-        "Descanso"
-       ],
-       [
-        "11:45–12:45",
-        "Indicadores: taller de fichas"
-       ],
-       [
-        "12:45–13:30",
-        "Lista de comprobación de planificación de EpS grupal aplicada a una propuesta"
-       ],
-       [
-        "13:30–14:00",
-        "Cronograma, recursos y presentación del trabajo T2"
+        "Entrega V1",
+        "2,5 h",
+        "Priorización y plan de una prioridad"
        ]
       ]
      }
@@ -961,7 +874,7 @@
      ]
     },
     {
-     "h": "Ejercicio de reescritura (20 minutos)",
+     "h": "Ejercicio de reescritura",
      "p": "Las propuestas del taller de Zagra de 2017 son material valioso, pero casi todas son actividades. Reescribirlas como parte de una cadena objetivo → actuación → actividad.",
      "table": {
       "head": [
@@ -1067,7 +980,126 @@
      }
     },
     {
-     "h": "3. Ficha de indicador",
+     "h": "Entrega V1",
+     "p": "Sobre Zagra (segundo ciclo, 2026) o sobre el territorio propio. Entrega antes de S2, en la fecha que fije el profesorado.",
+     "bullets": [
+      "Tabla de necesidades candidatas (entre 4 y 6), con evidencia, fuente y año, tipo de necesidad y estatuto (hecho, inferencia o hipótesis), usando la plantilla de priorización.",
+      "Valoración breve de la priorización de Zagra de 2017: qué puede aprovecharse y qué no (o del antecedente equivalente en el territorio propio).",
+      "Acta breve de deliberación: prioridades seleccionadas, motivación, influencia del conocimiento ciudadano y necesidades no priorizadas con su justificación.",
+      "Para una de las prioridades: objetivo general, dos o tres objetivos específicos y al menos dos actuaciones de niveles distintos, con responsable (cargo), calendario, población destinataria y titularidad (municipio, sistema sanitario o conjunta), usando la plantilla de plan de acción.",
+      "Los indicadores se trabajan en S2: no es necesario incluirlos todavía."
+     ]
+    },
+    {
+     "h": "Rúbrica V1 (10 puntos)",
+     "table": {
+      "head": [
+       "Criterio",
+       "Puntos"
+      ],
+      "rows": [
+       [
+        "Necesidades fundamentadas, con estatuto y fuente correctos",
+        "2"
+       ],
+       [
+        "Deliberación motivada, influencia ciudadana y necesidades no priorizadas",
+        "3"
+       ],
+       [
+        "Coherencia de la cadena prioridad, objetivos y actuaciones",
+        "3"
+       ],
+       [
+        "Responsables, calendario y reparto municipio/sistema sanitario",
+        "1"
+       ],
+       [
+        "Claridad y realismo",
+        "1"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Errores frecuentes",
+     "bullets": [
+      "Presentar una consulta ciudadana como representativa sin serlo.",
+      "Usar el orden de la hoja de 2017 como si fuera una priorización técnica.",
+      "Objetivos redactados como actividades.",
+      "Responsables institucionales genéricos («el Ayuntamiento»).",
+      "Omitir lo que no se prioriza."
+     ]
+    },
+    {
+     "h": "Formato",
+     "p": "Entre 4 y 6 páginas más las plantillas. Individual o en grupo, según indique el profesorado. Sin datos personales ni información clínica individual."
+    }
+   ]
+  },
+  {
+   "id": "sesion_2",
+   "nivel": "Sesión 2",
+   "clase": "Sesión presencial",
+   "titulo": "Indicadores y evaluación: un plan que pueda evaluarse",
+   "subtitulo": "Fichas de indicador con tiempo cero, revisión de actuaciones grupales, seguimiento y evaluación, registros de actividad y matriz de evaluación.",
+   "duracion": "5 horas presenciales",
+   "sections": [
+    {
+     "h": "Qué aprenderemos",
+     "bullets": [
+      "Construir una ficha de indicador completa, con tiempo cero, meta y responsable de medición.",
+      "Revisar una actuación de educación para la salud grupal con la lista de comprobación de planificación.",
+      "Distinguir seguimiento y evaluación, y evaluación de proceso, resultados e impacto.",
+      "Reconocer qué puede y qué no puede afirmar un registro de actividad.",
+      "Construir una matriz de evaluación proporcionada y revisarla con la lista de comprobación de evaluación."
+     ]
+    },
+    {
+     "h": "Agenda",
+     "table": {
+      "head": [
+       "Hora",
+       "Actividad"
+      ],
+      "rows": [
+       [
+        "09:00–09:30",
+        "Retorno de la entrega V1: aciertos y errores frecuentes"
+       ],
+       [
+        "09:30–10:30",
+        "Indicadores: taller de fichas sobre el plan de cada grupo"
+       ],
+       [
+        "10:30–11:15",
+        "Lista de comprobación de planificación de EpS grupal aplicada a una actividad propuesta para Zagra"
+       ],
+       [
+        "11:15–11:45",
+        "Descanso"
+       ],
+       [
+        "11:45–12:30",
+        "Seguimiento y evaluación. Contribución y atribución en un municipio de 843 habitantes. RE-AIM"
+       ],
+       [
+        "12:30–13:15",
+        "Registros de actividad (RAPS) y taller de matriz de evaluación"
+       ],
+       [
+        "13:15–13:45",
+        "Lista de comprobación de evaluación de EpS grupal"
+       ],
+       [
+        "13:45–14:00",
+        "Cierre y presentación del bloque virtual V2"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "1. Ficha de indicador",
      "table": {
       "head": [
        "Campo",
@@ -1131,138 +1163,11 @@
      ]
     },
     {
-     "h": "4. Lista de comprobación de planificación de EpS grupal",
+     "h": "2. Lista de comprobación de planificación de EpS grupal",
      "p": "44 ítems en siete secciones: análisis de la situación, objetivos, contenidos y metodología, recursos y logística, cronograma, evaluación, y actores y coordinación. Se aplica en parejas a una actividad grupal propuesta para Zagra (por ejemplo, un taller de alimentación para todas las edades o actividades para cuidadoras). Interesa menos el porcentaje total que las secciones con menor cumplimiento: indican dónde hay que volver antes de ejecutar."
     },
     {
-     "h": "Criterio de cierre",
-     "p": "Cada grupo sale con una prioridad desplegada en un objetivo general, al menos dos objetivos específicos y una ficha de indicador completa."
-    }
-   ]
-  },
-  {
-   "id": "trabajo_2",
-   "nivel": "Trabajo 2",
-   "clase": "Trabajo no presencial",
-   "titulo": "Plan de acción de una prioridad",
-   "subtitulo": "Matriz del plan, fichas de indicador y revisión de una actuación grupal.",
-   "duracion": "5 horas no presenciales",
-   "sections": [
-    {
-     "h": "Encargo",
-     "p": "Desarrollar el plan de acción de una de las prioridades del trabajo T1 con la plantilla de plan de acción."
-    },
-    {
-     "h": "Contenido de la entrega",
-     "bullets": [
-      "Matriz completa: prioridad, objetivo general, dos o tres objetivos específicos, actuaciones (al menos tres, de niveles distintos: grupal, comunitaria, ambiental o normativa) y sus actividades principales.",
-      "Para cada actuación: responsable (cargo), calendario, recursos estimados, población destinataria y si es municipal, del sistema sanitario o conjunta.",
-      "Dos fichas de indicador completas: una de proceso y una de resultado, con tiempo cero (valor o plan para obtenerlo) y meta justificada.",
-      "Aplicación de la lista de comprobación de planificación a una actuación grupal del plan, con las tres mejoras prioritarias que se derivan.",
-      "Activos del territorio que movilizan las actuaciones."
-     ]
-    },
-    {
-     "h": "Rúbrica (10 puntos)",
-     "table": {
-      "head": [
-       "Criterio",
-       "Puntos"
-      ],
-      "rows": [
-       [
-        "Coherencia de la cadena prioridad, objetivos y actuaciones",
-        "3"
-       ],
-       [
-        "Fichas de indicador completas y medibles con recursos locales",
-        "3"
-       ],
-       [
-        "Responsables, calendario y reparto municipio/sistema sanitario",
-        "2"
-       ],
-       [
-        "Uso de la lista de comprobación y mejoras derivadas",
-        "1"
-       ],
-       [
-        "Claridad y realismo",
-        "1"
-       ]
-      ]
-     }
-    },
-    {
-     "h": "Errores frecuentes",
-     "bullets": [
-      "Objetivos redactados como actividades.",
-      "Concentrar todas las actuaciones en el último trimestre.",
-      "Metas sin justificación o imposibles de medir.",
-      "Responsables institucionales genéricos."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "sesion_3",
-   "nivel": "Sesión 3",
-   "clase": "Sesión presencial",
-   "titulo": "Evaluar la promoción de la salud y la acción local",
-   "subtitulo": "Preguntas de evaluación, seguimiento y evaluación, registros de actividad, métodos cualitativos y devolución.",
-   "duracion": "5 horas presenciales",
-   "sections": [
-    {
-     "h": "Qué aprenderemos",
-     "bullets": [
-      "Formular preguntas de evaluación útiles para quien va a usar los resultados.",
-      "Distinguir seguimiento y evaluación, y evaluación de proceso, resultados e impacto.",
-      "Reconocer qué puede y qué no puede afirmar un registro de actividad.",
-      "Construir una matriz de evaluación y revisarla con la lista de comprobación de evaluación.",
-      "Planificar la devolución de resultados y su uso en el siguiente ciclo."
-     ]
-    },
-    {
-     "h": "Agenda",
-     "table": {
-      "head": [
-       "Hora",
-       "Actividad"
-      ],
-      "rows": [
-       [
-        "09:00–09:30",
-        "Retorno del trabajo T2"
-       ],
-       [
-        "09:30–10:20",
-        "Para qué y para quién se evalúa. Proceso, resultados e impacto. Contribución y atribución"
-       ],
-       [
-        "10:20–11:15",
-        "Registros de actividad: el caso RAPS. Entregas y consolidación de indicadores"
-       ],
-       [
-        "11:15–11:45",
-        "Descanso"
-       ],
-       [
-        "11:45–12:45",
-        "Taller: matriz de evaluación del caso y lista de comprobación de evaluación"
-       ],
-       [
-        "12:45–13:30",
-        "Métodos cualitativos y participativos. Informe, devolución y cierre del ciclo"
-       ],
-       [
-        "13:30–14:00",
-        "Cuestionario final, evaluación del curso y presentación del trabajo T3"
-       ]
-      ]
-     }
-    },
-    {
-     "h": "1. Seguimiento y evaluación",
+     "h": "3. Seguimiento y evaluación",
      "table": {
       "head": [
        "Pregunta",
@@ -1339,7 +1244,7 @@
      ]
     },
     {
-     "h": "2. Qué dice un registro de actividad",
+     "h": "4. Qué dice un registro de actividad",
      "p": "El RAPS (Registro de Actuaciones de Promoción de la Salud) recoge en REDCap las actividades de promoción de la salud que registran los profesionales del Distrito Sanitario Granada-Metropolitano y permite explorarlas por distrito, unidad y profesional, con procesamiento local en el navegador. Un registro así es una buena fuente para el seguimiento de proceso.",
      "bullets": [
       "Puede informar: qué actividades se hicieron, dónde, cuándo, con qué temática y cuántas sesiones.",
@@ -1349,7 +1254,7 @@
      ]
     },
     {
-     "h": "3. Matriz de evaluación",
+     "h": "5. Matriz de evaluación",
      "table": {
       "head": [
        "Columna",
@@ -1385,10 +1290,64 @@
     },
     {
      "h": "Lista de comprobación de evaluación de EpS grupal",
-     "p": "33 ítems en seis secciones: planificación de la evaluación, proceso, resultados, impacto, instrumentos, y análisis y uso de resultados. Se aplica a la actuación grupal revisada en T2. Ítems que suelen fallar: línea base asegurada antes de empezar, instrumentos pilotados, estrategia para reducir pérdidas de seguimiento y devolución de resultados a participantes."
+     "p": "33 ítems en seis secciones: planificación de la evaluación, proceso, resultados, impacto, instrumentos, y análisis y uso de resultados. Se aplica a la actividad grupal revisada en la primera parte de la sesión. Ítems que suelen fallar: línea base asegurada antes de empezar, instrumentos pilotados, estrategia para reducir pérdidas de seguimiento y devolución de resultados a participantes."
     },
     {
-     "h": "4. Métodos cualitativos y participativos",
+     "h": "Criterio de cierre",
+     "p": "Cada grupo sale con una ficha de indicador completa y tres preguntas de evaluación de su plan, sabiendo con qué información responderá a cada una y quién usará la respuesta."
+    }
+   ]
+  },
+  {
+   "id": "virtual_2",
+   "nivel": "Virtual 2",
+   "clase": "Bloque virtual",
+   "titulo": "Evaluar con la comunidad y cerrar el ciclo",
+   "subtitulo": "Estudio guiado y entrega: marco de evaluación y plan de devolución.",
+   "duracion": "5 horas virtuales",
+   "sections": [
+    {
+     "h": "Qué aprenderemos",
+     "bullets": [
+      "Elegir métodos cualitativos y participativos adecuados a la pregunta de evaluación.",
+      "Planificar la devolución de resultados a quienes deciden, a quienes ejecutan y a la comunidad.",
+      "Completar el marco de evaluación del plan y conectarlo con el siguiente ciclo."
+     ]
+    },
+    {
+     "h": "Organización (5 horas)",
+     "table": {
+      "head": [
+       "Módulo",
+       "Dedicación orientativa",
+       "Actividad"
+      ],
+      "rows": [
+       [
+        "M1 · Métodos cualitativos y participativos",
+        "1 h",
+        "Lectura y elección justificada de un método para el plan propio"
+       ],
+       [
+        "M2 · Devolución y cierre del ciclo",
+        "0,75 h",
+        "Lectura y esbozo del plan de devolución"
+       ],
+       [
+        "Entrega V2",
+        "3 h",
+        "Marco de evaluación"
+       ],
+       [
+        "Cierre",
+        "0,25 h",
+        "Cuestionario final y encuesta de satisfacción"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "1. Métodos cualitativos y participativos",
      "bullets": [
       "Grupos de discusión y entrevistas: por qué funcionó o no, para quién y en qué condiciones.",
       "Técnica del cambio más significativo: relatos de cambio seleccionados colectivamente.",
@@ -1397,41 +1356,24 @@
      ]
     },
     {
-     "h": "Devolución y cierre del ciclo",
+     "h": "2. Devolución y cierre del ciclo",
      "p": "El informe de evaluación tiene al menos tres destinatarios: el Grupo Motor y la corporación (decisiones), los equipos que ejecutan (mejora) y la comunidad (rendición de cuentas). Cada uno necesita un formato distinto. La evaluación final es el punto de partida del siguiente diagnóstico: lo que se midió con la misma definición se convierte en serie temporal."
     },
     {
-     "h": "Criterio de cierre",
-     "p": "Cada grupo presenta tres preguntas de evaluación de su plan y explica con qué información responderá a cada una y quién usará la respuesta."
-    }
-   ]
-  },
-  {
-   "id": "trabajo_3",
-   "nivel": "Trabajo 3",
-   "clase": "Trabajo no presencial",
-   "titulo": "Marco de evaluación y plan de devolución",
-   "subtitulo": "Cerrar la cadena: qué se evaluará, con qué, cuándo, quién y para qué.",
-   "duracion": "5 horas no presenciales",
-   "sections": [
-    {
-     "h": "Encargo",
-     "p": "Completar el marco de evaluación del plan de acción del trabajo T2 con la plantilla de plan de evaluación."
-    },
-    {
-     "h": "Contenido de la entrega",
+     "h": "Entrega V2",
+     "p": "Completar el marco de evaluación del plan de la entrega V1 con la plantilla de plan de evaluación y la de ficha de indicador.",
      "bullets": [
       "Entre tres y cinco preguntas de evaluación, con la decisión que cada una informa.",
       "Matriz de evaluación completa (pregunta, indicador o información, fuente, momento, responsable y uso).",
-      "Calendario de medición que incluya el tiempo cero antes de la primera actividad.",
+      "Dos fichas de indicador completas: una de proceso y una de resultado, con tiempo cero (valor o plan para obtenerlo antes de la primera actividad) y meta justificada.",
       "Al menos un método cualitativo o participativo, justificado.",
-      "Aplicación de la lista de comprobación de evaluación a la actuación grupal revisada en T2, con las mejoras derivadas.",
+      "Aplicación de la lista de comprobación de evaluación a una actuación grupal del plan, con las mejoras derivadas.",
       "Plan de devolución: destinatarios, formato y momento.",
       "Reflexión individual (máximo una página): qué aporta el propio perfil profesional al plan y qué límites se han encontrado."
      ]
     },
     {
-     "h": "Rúbrica (10 puntos)",
+     "h": "Rúbrica V2 (10 puntos)",
      "table": {
       "head": [
        "Criterio",
@@ -1443,7 +1385,7 @@
         "2"
        ],
        [
-        "Matriz completa, proporcionada y viable",
+        "Matriz y fichas de indicador completas, proporcionadas y viables",
         "3"
        ],
        [

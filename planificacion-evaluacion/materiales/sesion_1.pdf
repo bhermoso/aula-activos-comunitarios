@@ -10,7 +10,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 13 0 R /F2 14 0 R >> >> /Contents 4 0 R >>
 endobj
 4 0 obj
-<< /Length 4493 >>
+<< /Length 4500 >>
 stream
 0.14 0.42 0.33 rg 0 826.89 595.28 15 re f
 0.92 0.95 0.91 rg 0 713.89 595.28 113 re f
@@ -52,7 +52,7 @@ BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 297.89 Tm (13:00–13:45) Tj ET
 BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 286.69 Tm (Plenario: comparar priorizaciones y explicar las diferencias) Tj ET
 0.92 0.95 0.91 rg 51 234.29 493.28 35.8 re f
 BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 258.09 Tm (13:45–14:00) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 246.89 Tm (Cierre y presentación del trabajo T1) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 246.89 Tm (Cierre y presentación del bloque virtual V1) Tj ET
 BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 197.29 Tm (1. El ciclo de planificación local) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 185.29 m 544.28 185.29 l S
 0.92 0.95 0.91 rg 51 145.49 493.28 35.8 re f
@@ -298,18 +298,18 @@ xref
 0000000064 00000 n 
 0000000146 00000 n 
 0000000290 00000 n 
-0000004834 00000 n 
-0000004978 00000 n 
-0000010492 00000 n 
-0000010636 00000 n 
-0000015328 00000 n 
-0000015473 00000 n 
-0000020057 00000 n 
-0000020203 00000 n 
-0000023430 00000 n 
-0000023528 00000 n 
+0000004841 00000 n 
+0000004985 00000 n 
+0000010499 00000 n 
+0000010643 00000 n 
+0000015335 00000 n 
+0000015480 00000 n 
+0000020064 00000 n 
+0000020210 00000 n 
+0000023437 00000 n 
+0000023535 00000 n 
 trailer
 << /Root 1 0 R /Size 15 >>
 startxref
-23631
+23638
 %%EOF
