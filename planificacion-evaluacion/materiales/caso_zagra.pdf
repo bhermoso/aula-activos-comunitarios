@@ -314,7 +314,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 15 0 R /F2 16 0 R >> >> /Contents 14 0 R >>
 endobj
 14 0 obj
-<< /Length 3374 >>
+<< /Length 3279 >>
 stream
 0.14 0.42 0.33 rg 0 826.89 595.28 15 re f
 0.92 0.95 0.91 rg 0 713.89 595.28 113 re f
@@ -335,14 +335,13 @@ BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 546.29 Tm (estructura, no las decisiones
 BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 532.09 Tm (concretar por el Grupo Motor.) Tj ET
 BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 495.89 Tm (Uso docente) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 483.89 m 544.28 483.89 l S
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 467.89 Tm (S1: estatuto de la información, lectura crítica de la priorización de 2017 y contraste con la consulta de 2026. V1: desarrollo) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 453.69 Tm (de una prioridad en objetivos y actuaciones, usando como referencia los objetivos de envejecimiento saludable de COMPÁS.) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 439.49 Tm (S2: indicadores y marco de evaluación proporcionado a un municipio de 843 habitantes. V2: evaluación participativa y) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 425.29 Tm (devolución. Las lagunas y discordancias del expediente forman parte del ejercicio: identificarlas es una competencia de) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 411.09 Tm (planificación.) Tj ET
-0.81 0.88 0.82 RG 0.6 w 51 386.89 m 544.28 386.89 l S
-BT /F1 8.1 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 369.89 Tm (Caso de trabajo: Zagra, con datos del expediente territorial y sus fuentes. No incorporar datos personales ni información clínica individual) Tj ET
-BT /F1 8.1 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 357.39 Tm (en los trabajos.) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 467.89 Tm (S1: necesidad de planificar \(práctica 1\), etapas del ciclo, estatuto de la información, lectura crítica de la priorización de) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 453.69 Tm (2017 y deliberación simulada. V1: priorización y plan de una prioridad. S2: necesidad de evaluar, indicadores, checklists,) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 439.49 Tm (registros y devolución, con un supuesto didáctico marcado como tal. V2: indicadores, revisión de una actuación grupal y marco) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 425.29 Tm (de evaluación. Las lagunas y discordancias del expediente forman parte del ejercicio.) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 401.09 m 544.28 401.09 l S
+BT /F1 8.1 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 384.09 Tm (Caso de trabajo: Zagra, con datos del expediente territorial y sus fuentes. No incorporar datos personales ni información clínica individual) Tj ET
+BT /F1 8.1 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 371.59 Tm (en los trabajos.) Tj ET
 BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 39 Tm (Planificación y evaluación en salud local  -  6 / 6) Tj ET
 BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 440.28 39 Tm (Revision 31/10/2026) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 51 m 544.28 51 l S
@@ -371,10 +370,10 @@ xref
 0000020040 00000 n 
 0000025098 00000 n 
 0000025244 00000 n 
-0000028670 00000 n 
-0000028768 00000 n 
+0000028575 00000 n 
+0000028673 00000 n 
 trailer
 << /Root 1 0 R /Size 17 >>
 startxref
-28871
+28776
 %%EOF
