@@ -1,8 +1,8 @@
 {
- "revision": "2026-10-31",
+ "revision": "2026-11-02",
  "estado": "propuesta docente, pendiente de validación institucional",
  "curso": "Del dato a la acción: planificación y evaluación estratégicas en promoción de la salud",
- "intro": "Del dato a la acción · Propuesta docente · 20 horas (10 presenciales + 10 virtuales) en 30 días · Acreditación: se solicitará a la ACSA (programa ME_jora F). Caso de trabajo: Zagra.",
+ "intro": "Del dato a la acción · Propuesta docente · 20 horas (10 presenciales + 10 virtuales) del 1 de febrero al 2 de marzo de 2027 · Acreditación: se solicitará a la ACSA (programa ME_jora F). Caso de trabajo: Zagra.",
  "docs": [
   {
    "id": "programa_planificacion_evaluacion_2027",
@@ -65,42 +65,42 @@
      }
     },
     {
-     "h": "Calendario (30 días)",
-     "p": "Duración total: 30 días naturales, con 10 días entre las dos sesiones presenciales. Las fechas concretas se fijarán al establecer el día de inicio.",
+     "h": "Calendario: del 1 de febrero al 2 de marzo de 2027",
+     "p": "Duración total: 30 días naturales, con 10 días entre las dos sesiones presenciales.",
      "table": {
       "head": [
-       "Día",
+       "Fecha",
        "Hito",
        "Formato"
       ],
       "rows": [
        [
-        "Día 1",
+        "Lunes 1 de febrero de 2027",
         "Inicio del curso · S1 · Planificar en promoción de la salud (09:00–14:00)",
         "Presencial"
        ],
        [
-        "Días 2 a 9",
+        "Del 2 al 9 de febrero",
         "V1 · Actividades A y B",
         "Virtual"
        ],
        [
-        "Día 9",
+        "Martes 9 de febrero",
         "Entrega de las actividades A y B",
         "Virtual"
        ],
        [
-        "Día 11",
+        "Jueves 11 de febrero",
         "S2 · Evaluar en promoción de la salud (09:00–14:00)",
         "Presencial"
        ],
        [
-        "Días 12 a 30",
+        "Del 12 de febrero al 2 de marzo",
         "V2 · Actividades C y D",
         "Virtual"
        ],
        [
-        "Día 30",
+        "Martes 2 de marzo de 2027",
         "Fin del curso · Entrega de las actividades C y D, cuestionario final y encuesta de satisfacción",
         "Virtual"
        ]
@@ -188,7 +188,7 @@
     },
     {
      "h": "Estado de esta propuesta",
-     "p": "Propuesta docente. Fecha de inicio, sede y plataforma virtual pendientes de concretar; la acreditación se solicitará a la ACSA. El caso Zagra usa documentación del expediente territorial; antes de cada edición conviene comprobar con el equipo del distrito y el Ayuntamiento si ha cambiado la situación del proceso (acuerdos del Grupo Motor, Perfil validado, Plan aprobado). Del inventario de activos de 2016 no se reproducen nombres ni teléfonos de personas."
+     "p": "Propuesta docente. Sede y plataforma virtual pendientes de concretar; la acreditación se solicitará a la ACSA. El caso Zagra usa documentación del expediente territorial; antes de cada edición conviene comprobar con el equipo del distrito y el Ayuntamiento si ha cambiado la situación del proceso (acuerdos del Grupo Motor, Perfil validado, Plan aprobado). Del inventario de activos de 2016 no se reproducen nombres ni teléfonos de personas."
     }
    ]
   },
@@ -1043,7 +1043,7 @@
     },
     {
      "h": "Formato y plazo",
-     "p": "Entrega el día 9 del curso, antes de S2 (día 11), en la plataforma que se indique. Individual o en grupo, según se acuerde. Sin datos personales ni información clínica individual."
+     "p": "Entrega el martes 9 de febrero de 2027, antes de S2 (jueves 11 de febrero), en la plataforma que se indique. Individual o en grupo, según se acuerde. Sin datos personales ni información clínica individual."
     }
    ]
   },
@@ -1502,7 +1502,7 @@
     },
     {
      "h": "Formato y plazo",
-     "p": "Entrega el día 30 del curso, fecha de fin, en la plataforma que se indique. Individual o en grupo, salvo la reflexión, que es individual. Sin datos personales ni información clínica individual."
+     "p": "Entrega el martes 2 de marzo de 2027, fecha de fin del curso, en la plataforma que se indique. Individual o en grupo, salvo la reflexión, que es individual. Sin datos personales ni información clínica individual."
     }
    ]
   },
