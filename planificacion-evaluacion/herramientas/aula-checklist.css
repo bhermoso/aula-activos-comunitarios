@@ -46,3 +46,22 @@ a{color:var(--teal)}
 .summary-section{background:#f6faf7!important;border:1px solid var(--soft-line)!important;border-radius:16px!important}
 .summary-table{width:100%!important;table-layout:auto}
 @media(max-width:600px){.summary-section{padding:16px 12px!important}.summary-table{font-size:13px!important}.summary-table th,.summary-table td{padding:8px 6px!important;word-break:break-word}.content{padding:16px 12px!important}.checklist-item{padding:12px!important}}
+/* Ampliación: datos del programa, anotaciones y PDF */
+.aula-meta{background:#f6faf7;border:1px solid var(--soft-line);border-radius:16px;padding:18px 20px;margin:0 0 24px}
+.aula-meta h3{margin:0 0 12px!important;border:0!important;padding:0!important;font-size:20px!important}
+.aula-meta-grid{display:grid;grid-template-columns:2fr 2fr 1fr;gap:12px}
+.aula-meta label{display:flex;flex-direction:column;gap:4px;font-size:13px;font-weight:700;color:var(--ink)}
+.aula-meta input{font:inherit;font-weight:400;border:1px solid var(--line);border-radius:9px;padding:8px 10px;background:#fff}
+.aula-meta input:focus,.aula-notes textarea:focus{outline:3px solid #edb957;outline-offset:1px}
+.aula-note{font-size:13px;color:var(--muted);margin:10px 0 0}
+.aula-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.aula-btn{font:700 13px Inter,system-ui,sans-serif;border:1px solid var(--teal);color:var(--teal);background:#fff;border-radius:30px;padding:7px 14px;cursor:pointer}
+.aula-btn.solid{background:var(--teal);color:#fff}
+.aula-notes{margin:10px 0 0;flex-basis:100%;width:100%}
+.aula-notes summary{cursor:pointer;font-size:13px;font-weight:700;color:var(--teal);list-style:none;display:inline-flex;align-items:center;gap:6px}
+.aula-notes summary::before{content:"▸";transition:transform .15s}.aula-notes[open] summary::before{transform:rotate(90deg)}
+.aula-notes summary.has::after{content:"· con anotaciones";font-weight:600;color:#8a5a14}
+.aula-notes textarea{display:block;width:100%;margin-top:8px;font:14px/1.5 Inter,system-ui,sans-serif;border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:#fff;resize:vertical;box-sizing:border-box}
+.checklist-item{flex-wrap:wrap}
+@media(max-width:700px){.aula-meta-grid{grid-template-columns:1fr}}
+@media print{.aula-actions,.aula-note{display:none!important}.aula-notes textarea{border:0;padding:0;resize:none}}

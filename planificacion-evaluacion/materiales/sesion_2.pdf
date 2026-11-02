@@ -10,7 +10,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 15 0 R /F2 16 0 R >> >> /Contents 4 0 R >>
 endobj
 4 0 obj
-<< /Length 4715 >>
+<< /Length 4726 >>
 stream
 0.14 0.42 0.33 rg 0 826.89 595.28 15 re f
 0.92 0.95 0.91 rg 0 713.89 595.28 113 re f
@@ -30,7 +30,7 @@ BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 581.49 Tm (Distinguir seguimiento y ev
 0.14 0.42 0.33 rg 52 564.39 4 4 re f
 BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 563.29 Tm (Construir una ficha de indicador con tiempo cero, meta, fuente y responsable.) Tj ET
 0.14 0.42 0.33 rg 52 546.19 4 4 re f
-BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 545.09 Tm (Usar las checklists de planificación y evaluación de EpS grupal para revisar una actuación.) Tj ET
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 545.09 Tm (Usar las checklists de planificación y evaluación en promoción de la salud para revisar una actuación.) Tj ET
 0.14 0.42 0.33 rg 52 527.99 4 4 re f
 BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 526.89 Tm (Leer críticamente un registro de actividad y montar una matriz de evaluación proporcionada.) Tj ET
 0.14 0.42 0.33 rg 52 509.79 4 4 re f
@@ -320,7 +320,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 15 0 R /F2 16 0 R >> >> /Contents 14 0 R >>
 endobj
 14 0 obj
-<< /Length 4668 >>
+<< /Length 4690 >>
 stream
 0.14 0.42 0.33 rg 0 826.89 595.28 15 re f
 0.92 0.95 0.91 rg 0 713.89 595.28 113 re f
@@ -353,10 +353,10 @@ BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 438.89 Tm (Tiempo: 5 minutos de fundam
 BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 403.69 Tm (Herramientas que se usan en la sesión) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 391.69 m 544.28 391.69 l S
 0.14 0.42 0.33 rg 52 376.79 4 4 re f
-BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 375.69 Tm (Checklist de planificación de EpS grupal:) Tj ET
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 375.69 Tm (Checklist de planificación en promoción de la salud:) Tj ET
 BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 362.49 Tm (https://bhermoso.github.io/aula-activos-comunitarios/planificacion-evaluacion/herramientas/checklist-planificacion.html) Tj ET
 0.14 0.42 0.33 rg 52 345.39 4 4 re f
-BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 344.29 Tm (Checklist de evaluación de EpS grupal:) Tj ET
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 344.29 Tm (Checklist de evaluación en promoción de la salud:) Tj ET
 BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 331.09 Tm (https://bhermoso.github.io/aula-activos-comunitarios/planificacion-evaluacion/herramientas/checklist-evaluacion.html) Tj ET
 0.14 0.42 0.33 rg 52 313.99 4 4 re f
 BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 312.89 Tm (Plantillas de ficha de indicador y de plan de evaluación \(CSV\).) Tj ET
@@ -387,20 +387,20 @@ xref
 0000000064 00000 n 
 0000000153 00000 n 
 0000000297 00000 n 
-0000005063 00000 n 
-0000005207 00000 n 
-0000010583 00000 n 
-0000010727 00000 n 
-0000015630 00000 n 
-0000015775 00000 n 
-0000021422 00000 n 
-0000021568 00000 n 
-0000025960 00000 n 
-0000026106 00000 n 
-0000030826 00000 n 
-0000030924 00000 n 
+0000005074 00000 n 
+0000005218 00000 n 
+0000010594 00000 n 
+0000010738 00000 n 
+0000015641 00000 n 
+0000015786 00000 n 
+0000021433 00000 n 
+0000021579 00000 n 
+0000025971 00000 n 
+0000026117 00000 n 
+0000030859 00000 n 
+0000030957 00000 n 
 trailer
 << /Root 1 0 R /Size 17 >>
 startxref
-31027
+31060
 %%EOF

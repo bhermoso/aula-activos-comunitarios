@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Checklist de Evaluación de Educación para la Salud Grupal - Distrito AP Granada-Metropolitano">
+    <meta name="description" content="Checklist de Evaluación de Promoción de la Salud - Distrito AP Granada-Metropolitano">
     <meta name="author" content="Blas R. Hermoso y Jesús Serrano">
-    <title>Checklist de Evaluación - EpS Grupal</title>
+    <title>Checklist de Evaluación - Promoción de la Salud</title>
     <style>
         * {
             margin: 0;
@@ -379,12 +379,12 @@
 <link rel="stylesheet" href="aula-checklist.css"><!-- capa de estilo del Aula -->
 </head>
 <body>
-<div class="aula-bar"><strong>AULA · SALUD COMUNITARIA<span>Del dato a la acción · Checklist de evaluación</span></strong><nav><a href="../#plantillas">← Volver al curso</a><button type="button" onclick="window.print()">Imprimir o guardar PDF</button><a href="../../">⌂ Aula · Inicio</a></nav></div><!-- /capa del Aula -->
+<div class="aula-bar"><strong>AULA · SALUD COMUNITARIA<span>Del dato a la acción · Checklist de evaluación</span></strong><nav><a href="../#plantillas">← Volver al curso</a><button type="button" data-pdf>Descargar PDF</button><a href="../../">⌂ Aula · Inicio</a></nav></div><!-- /capa del Aula -->
 
     <div class="container">
         <header>
             <h1>📊 Checklist de Evaluación</h1>
-            <div class="subtitle">Educación para la Salud Grupal</div>
+            <div class="subtitle">Promoción de la Salud</div>
             <div class="authors">
                 <p><strong>Autores:</strong> Blas R. Hermoso y Jesús Serrano</p>
                 <p><strong>Institución:</strong> Distrito AP Granada-Metropolitano, Servicio Andaluz de Salud</p>
@@ -402,7 +402,7 @@
 
             <div class="destacado">
                 <h4>¿Para qué sirve esta lista de comprobación?</h4>
-                <p>Esta herramienta te ayudará a verificar que has contemplado todos los elementos esenciales para evaluar tu programa de educación para la salud grupal.</p>
+                <p>Esta herramienta te ayudará a verificar que has contemplado todos los elementos esenciales para evaluar tu programa de promoción de la salud.</p>
                 <p><strong>Dato clave:</strong> Sin evaluación, navegamos a ciegas. La evaluación te permite saber si funciona y cómo mejorar.</p>
             </div>
 
@@ -419,7 +419,7 @@
 
             <div class="checklist-section">
                 <h3>1. PLANIFICACIÓN DE LA EVALUACIÓN (6 ítems)</h3>
-                
+                    <div class="checklist-item"><!-- contenedor que faltaba en el original -->
                         <input type="checkbox" id="eval1-1" onchange="updateProgressEval()">
                         <label for="eval1-1">1.1 Evaluación planificada desde el inicio</label>
                         <div class="checklist-descripcion">
@@ -992,5 +992,6 @@
             updateProgressEval();
         });
     </script>
+<script src="aula-checklist.js"></script><!-- ampliación del Aula: anotaciones y PDF -->
 </body>
 </html>
