@@ -164,11 +164,11 @@
       ],
       "rows": [
        [
-        "Lista de comprobación de planificación de EpS grupal (B. Hermoso, J. Serrano; 44 ítems), integrada en el curso",
+        "Lista de comprobación de planificación en promoción de la salud (B. Hermoso, J. Serrano; 44 ítems), integrada en el curso",
         "S2 (práctica 4) y V2 (actividad C)"
        ],
        [
-        "Lista de comprobación de evaluación de EpS grupal (B. Hermoso, J. Serrano; 33 ítems), integrada en el curso",
+        "Lista de comprobación de evaluación en promoción de la salud (B. Hermoso, J. Serrano; 33 ítems), integrada en el curso",
         "S2 (práctica 4) y V2 (actividad D)"
        ],
        [
@@ -1061,7 +1061,7 @@
       "Argumentar por qué una actuación de promoción de la salud debe evaluarse y qué se pierde si no se prevé desde el inicio.",
       "Distinguir seguimiento y evaluación, proceso, resultados e impacto, contribución y atribución.",
       "Construir una ficha de indicador con tiempo cero, meta, fuente y responsable.",
-      "Usar las checklists de planificación y evaluación de EpS grupal para revisar una actuación.",
+      "Usar las checklists de planificación y evaluación en promoción de la salud para revisar una actuación.",
       "Leer críticamente un registro de actividad y montar una matriz de evaluación proporcionada.",
       "Diseñar la devolución de resultados a distintos destinatarios."
      ]
@@ -1344,8 +1344,8 @@
     {
      "h": "Herramientas que se usan en la sesión",
      "bullets": [
-      "Checklist de planificación de EpS grupal: https://bhermoso.github.io/aula-activos-comunitarios/planificacion-evaluacion/herramientas/checklist-planificacion.html",
-      "Checklist de evaluación de EpS grupal: https://bhermoso.github.io/aula-activos-comunitarios/planificacion-evaluacion/herramientas/checklist-evaluacion.html",
+      "Checklist de planificación en promoción de la salud: https://bhermoso.github.io/aula-activos-comunitarios/planificacion-evaluacion/herramientas/checklist-planificacion.html",
+      "Checklist de evaluación en promoción de la salud: https://bhermoso.github.io/aula-activos-comunitarios/planificacion-evaluacion/herramientas/checklist-evaluacion.html",
       "Plantillas de ficha de indicador y de plan de evaluación (CSV).",
       "Descripción del RAPS (Registro de Actuaciones de Promoción de la Salud, REDCap)."
      ]
@@ -1474,7 +1474,7 @@
      "h": "Material de apoyo",
      "bullets": [
       "Fundamentos y técnicas de S2: seguimiento y evaluación, contribución y atribución, ficha de indicador, reglas de prudencia, matriz y RE-AIM.",
-      "Las dos checklists de EpS grupal y las plantillas de ficha de indicador y plan de evaluación.",
+      "Las dos checklists en promoción de la salud y las plantillas de ficha de indicador y plan de evaluación.",
       "Productos de V1 y de S2 del propio grupo."
      ]
     },
@@ -1553,6 +1553,7 @@
      "bullets": [
       "Hermoso BR, Serrano J. Lista de comprobación de planificación de EpS grupal (44 ítems). Distrito AP Granada-Metropolitano; 2025. github.com/bhermoso/CHECKLISTPLANIFICACION",
       "Hermoso BR, Serrano J. Lista de comprobación de evaluación de EpS grupal (33 ítems). Distrito AP Granada-Metropolitano; 2025. github.com/bhermoso/CHECKLISTEVALUACION",
+      "Versión adaptada en este curso: checklists de planificación y de evaluación en promoción de la salud, con anotaciones por ítem y descarga en PDF.",
       "COMPÁS NG: fundamentos metodológicos de la planificación local en salud. github.com/bhermoso/compas-ng-renovado",
       "RAPS · Registro de Actuaciones de Promoción de la Salud. github.com/bhermoso/REGISTRO-PS"
      ]

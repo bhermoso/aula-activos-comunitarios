@@ -28,16 +28,26 @@ solo cambian cabecera, pie y notas.
 
 `herramientas/checklist-planificacion.html` y `herramientas/checklist-evaluacion.html`
 proceden de `bhermoso/CHECKLISTPLANIFICACION` (commit `b0b149b`) y
-`bhermoso/CHECKLISTEVALUACION` (commit `ccf8fd7`), licencia MIT. Textos, ítems,
-umbrales y JavaScript se conservan sin cambios. Solo se añaden dos líneas:
+`bhermoso/CHECKLISTEVALUACION` (commit `ccf8fd7`; incluye la corrección de rótulos de
+bhermoso/CHECKLISTEVALUACION#1), licencia MIT. Ítems, umbrales y cálculo se
+conservan. Cambios en la versión del curso:
 
-- `<link rel="stylesheet" href="aula-checklist.css">` antes de `</head>`, con la
-  capa de estilo del Aula (verde profundo, papel claro, Georgia);
-- una barra superior (`.aula-bar`) tras `<body>`, con «Volver al curso»,
-  «Imprimir o guardar PDF» y «Aula · Inicio».
+- «Educación para la Salud Grupal» / «programa de educación para la salud» pasan
+  a «Promoción de la Salud» / «programa de promoción de la salud».
+- Checklist de evaluación: se añade el contenedor `checklist-item` que faltaba en
+  el ítem 1.1 del original (lo dejaba fuera de la sección).
+- `aula-checklist.css`: capa de estilo del Aula.
+- `aula-checklist.js`: datos del programa revisado, desplegable de anotaciones
+  por ítem (con indicaciones según el ítem: instrumentos validados,
+  confidencialidad, indicadores…), guardado de marcas y anotaciones en el
+  navegador, y descarga en PDF de la checklist completa con la evaluación
+  automática que calcula la propia herramienta.
+- `vendor/jspdf.umd.min.js`: jsPDF 2.5.1 (MIT, `vendor/LICENSE-jspdf.txt`),
+  alojado en el curso para no depender de una CDN; si faltara, se intenta
+  cdnjs y, en último término, se abre la impresión del navegador.
 
-Para actualizar desde los originales: copiar de nuevo `index.html` y volver a
-insertar esas dos líneas (están marcadas con comentarios «capa del Aula»).
+Las líneas añadidas a cada HTML están marcadas con comentarios «capa del Aula»
+y «ampliación del Aula».
 
 ## Aspecto del curso
 

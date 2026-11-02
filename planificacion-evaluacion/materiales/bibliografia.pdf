@@ -76,7 +76,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 7 0 R /F2 8 0 R >> >> /Contents 6 0 R >>
 endobj
 6 0 obj
-<< /Length 1699 >>
+<< /Length 2002 >>
 stream
 0.14 0.42 0.33 rg 0 826.89 595.28 15 re f
 0.92 0.95 0.91 rg 0 713.89 595.28 113 re f
@@ -88,12 +88,15 @@ BT /F1 8.2 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 724.89 Tm (CURSO   |   Referencias   |
 BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 691.89 Tm (Hermoso BR, Serrano J. Lista de comprobación de evaluación de EpS grupal \(33 ítems\). Distrito AP) Tj ET
 BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 678.69 Tm (Granada-Metropolitano; 2025. github.com/bhermoso/CHECKLISTEVALUACION) Tj ET
 0.14 0.42 0.33 rg 52 661.59 4 4 re f
-BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 660.49 Tm (COMPÁS NG: fundamentos metodológicos de la planificación local en salud. github.com/bhermoso/compas-ng-renovado) Tj ET
-0.14 0.42 0.33 rg 52 643.39 4 4 re f
-BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 642.29 Tm (RAPS · Registro de Actuaciones de Promoción de la Salud. github.com/bhermoso/REGISTRO-PS) Tj ET
-0.81 0.88 0.82 RG 0.6 w 51 619.09 m 544.28 619.09 l S
-BT /F1 8.1 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 602.09 Tm (Caso de trabajo: Zagra, con datos del expediente territorial y sus fuentes. No incorporar datos personales ni información clínica individual) Tj ET
-BT /F1 8.1 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 589.59 Tm (en los trabajos.) Tj ET
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 660.49 Tm (Versión adaptada en este curso: checklists de planificación y de evaluación en promoción de la salud, con anotaciones por) Tj ET
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 647.29 Tm (ítem y descarga en PDF.) Tj ET
+0.14 0.42 0.33 rg 52 630.19 4 4 re f
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 629.09 Tm (COMPÁS NG: fundamentos metodológicos de la planificación local en salud. github.com/bhermoso/compas-ng-renovado) Tj ET
+0.14 0.42 0.33 rg 52 611.99 4 4 re f
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 610.89 Tm (RAPS · Registro de Actuaciones de Promoción de la Salud. github.com/bhermoso/REGISTRO-PS) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 587.69 m 544.28 587.69 l S
+BT /F1 8.1 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 570.69 Tm (Caso de trabajo: Zagra, con datos del expediente territorial y sus fuentes. No incorporar datos personales ni información clínica individual) Tj ET
+BT /F1 8.1 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 558.19 Tm (en los trabajos.) Tj ET
 BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 39 Tm (Del dato a la acción  -  2 / 2) Tj ET
 BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 440.28 39 Tm (Revision 02/11/2026) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 51 m 544.28 51 l S
@@ -114,10 +117,10 @@ xref
 0000000269 00000 n 
 0000005519 00000 n 
 0000005661 00000 n 
-0000007411 00000 n 
-0000007508 00000 n 
+0000007714 00000 n 
+0000007811 00000 n 
 trailer
 << /Root 1 0 R /Size 9 >>
 startxref
-7610
+7913
 %%EOF
