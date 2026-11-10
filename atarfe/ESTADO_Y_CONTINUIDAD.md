@@ -22,7 +22,7 @@ Actualizado: 10 de noviembre de 2026.
 - Reunión posterior de presentación de resultados del Monitor.
 
 ## IBSE: corrección de escala
-Las fórmulas del proyecto REDCap no compartían escala (Vínculo 0–75; Situación y Control 25–100). El Perfil usa la escala común 0–100 recalculada desde los ítems (COMPÁS, rama `atarfe-perfil-ibse-20261109`, PR #112 sin fusionar: el COMPÁS publicado sigue mostrando los valores de REDCap, total 63,2 y Vínculo 54,3, hasta que se fusione). Valores: total 62,2; Vínculo 72,4; Situación 60,3; Control 51,1; Persona 65,0.
+Las fórmulas del proyecto REDCap no compartían escala (Vínculo 0–75; Situación y Control 25–100). El Perfil usa la escala común 0–100 recalculada desde los ítems (COMPÁS, PR #112, fusionada y publicada el 10/11/2026: el expediente de Atarfe en COMPÁS muestra ya la escala común y los 20 recursos de Localiza Salud). Valores: total 62,2; Vínculo 72,4; Situación 60,3; Control 51,1; Persona 65,0.
 
 ## Pendiente
 - Validación técnica del Perfil y elección de conclusiones y recomendaciones.
