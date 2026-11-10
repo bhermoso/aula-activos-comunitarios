@@ -1,0 +1,579 @@
+{
+ "schema": "compas-profile-package/v1",
+ "municipalityId": "alfacar",
+ "title": "Perfil de Salud Local de Alfacar",
+ "period": "Versión 0.4 · 10 de noviembre de 2026 · borrador",
+ "author": "Blas Ramón Hermoso Rico, técnico de educación para la salud y participación comunitaria, Distrito Sanitario Granada-Metropolitano",
+ "summary": "Las nueve conclusiones describen un municipio estable que envejece, con menos enfermedad crónica registrada que la provincia en tres de las cuatro patologías comparadas, todas salvo el asma, y una renta poco dispersa entre sus cuatro secciones. Lo que distingue a Alfacar es la continuidad de su proceso: diez años de trabajo en red, un I Plan aprobado y evaluado, y tres consultas a la población en 2017, 2022 y 2026.",
+ "text": "Perfil de Salud Local de Alfacar\n\nVersión 0.4 · 10 de noviembre de 2026 · borrador para validación técnica\n\nAlfacar en datos\n\nResumen. Alfacar tiene 5.840 habitantes en 2025, repartidos casi por igual entre sus dos núcleos, Alfacar y Fuente Grande, y ha crecido un 5,4 % entre 2014 y 2024 gracias al saldo migratorio [1, introducción]. El 17,0 % tiene 65 años o más [1, tabla 1]. El asma registrada supera los valores de Granada y Andalucía; la dislipemia, la hipertensión y la diabetes quedan por debajo [1, tabla 3].\n\nDesigualdades. El trastorno de ansiedad registrado afecta a 224 mujeres y 107 hombres, y el hipotiroidismo a 210 mujeres y 39 hombres [1, tabla 2]. La renta neta media por persona de las cuatro secciones censales va de 11.847 euros en la 01002 a 13.866 euros en la 01004 [2].\n\nComunidad. Alfacar lleva diez años en la Red Local de Acción en Salud: aprobó su I Plan Local de Salud en 2018 y elaboró en 2023 el plan de acción del II [5] [6] [10]. En la priorización de 2026, 241 personas eligieron sus temas de salud; el bienestar emocional y la salud mental fue el primero, con 187 votos [3]. De los 11 recursos de Alfacar en Localiza Salud, 7 están validados como activos [4].\n\nSalud. El cribado de cáncer de mama citó en 2025 al 11,85 % de las mujeres elegibles, frente al 28,32 % de Granada y el 67,86 % de Andalucía; entre las citadas participó el 96,61 % [1, tabla 10].\n\nQuién vive aquí\n\nAlfacar tenía 5.840 habitantes en 2025, 2.950 hombres y 2.890 mujeres. En 2024 la edad media era de 42,8 años, el 19,6 % de la población tenía menos de 20 años y el 17,0 %, 65 o más [1, tabla 1 e introducción] (figura 1). Entre 2014 y 2024 la población creció un 5,4 %. En 2024 hubo 33 nacimientos y 45 defunciones, un saldo natural de −12 personas, y 286 inmigraciones y 265 emigraciones, un saldo migratorio de +21. Residían en el municipio 258 personas de nacionalidad extranjera, con Marruecos como primer país de procedencia [1, introducción].\n\nLa población se reparte prácticamente por igual entre los dos núcleos urbanos, Alfacar y Fuente Grande [1, introducción]. El municipio forma un único distrito censal con cuatro secciones; en 2024 la renta neta media por persona del conjunto fue de 12.924 euros y la renta neta media por hogar, de 34.163 euros [2]. No constan en el expediente el paro registrado, la renta declarada en el IRPF, los hogares ni el nivel educativo.\n\nPanel de salud\n\nEl Informe de la situación de salud de Epidemiología del Distrito Sanitario Granada-Metropolitano, de septiembre de 2026, publica la morbilidad crónica registrada de 2025 con Granada y Andalucía como comparadores [1, tablas 2 y 3] (figura 2); la mortalidad de 2023 y 2024 [1, tablas 7 y 8]; la incidencia de cáncer de 2016 a 2020 con la provincia como comparador [1, tabla 4]; la prevalencia de cáncer de 2025 [1, tablas 5 y 6]; los cribados de 2025 [1, tablas 9 a 11]; las enfermedades de declaración obligatoria de 2022 a julio de 2026 [1, tabla 12]; y la cobertura vacunal [1, tabla 13]. Los datos son municipales y no hay datos posteriores en el expediente. Sin intervalos de confianza publicados, el panel no marca mejor ni peor.\n\nDesigualdad\n\nEl expediente permite ver la renta por sección censal y la salud solo por sexo, sin tasas.\n\nMujeres y hombres. El trastorno de ansiedad registrado alcanza a 224 mujeres y 107 hombres; el hipotiroidismo, a 210 y 39; la obesidad, a 138 y 103. Los hombres tienen más casos de diabetes, 161 frente a 132, de dependencia del tabaco, 146 frente a 109, y de asma, 336 frente a 285 [1, tabla 2]. El Informe no publica tasas por sexo, de modo que estos recuentos no descuentan la distinta población de cada sexo.\n\nSecciones censales. Alfacar tiene cuatro secciones censales. En 2024, la renta neta media por persona iba de 11.847 euros en la 01002 a 13.866 euros en la 01004, y la renta media por unidad de consumo, de 18.014 euros en la 01002 a 20.586 euros en la 01003 [2] (figura 3). La 01002 tiene el valor más bajo del municipio en cuatro de los seis indicadores de renta del INE. Entre las 674 secciones de la provincia de Granada con dato, la 01002 es la 233.ª con menor renta neta por persona; las otras tres superan la mediana provincial de secciones, 12.597 euros (cálculo propio sobre [2]).\n\nLo que no se ve. La tabla del INE no da la población de cada sección ni el núcleo al que corresponde, y no hay datos de salud por sección. No puede saberse si alguna sección coincide con Fuente Grande ni si la diferencia de renta se acompaña de diferencias de salud.\n\n1. Punto de partida\n\nAlfacar es un municipio de la Vega de Granada, al pie de la sierra de la Alfaguara, con dos núcleos de población [1] [6]. El Ayuntamiento y la Delegación Territorial de Salud firmaron el acuerdo de colaboración de la Red Local de Acción en Salud el 15 de junio de 2016, y el taller de impulso se celebró el 5 de octubre de 2016 [5]. Entre marzo y mayo de 2017, un cuestionario abierto reunió 195 respuestas, 80 de ellas de menores de 18 años, y dio una relación de 22 problemas de salud priorizados [7]. El Pleno aprobó por unanimidad el I Plan Local de Salud 2018-2020 el 26 de julio de 2018 [6], que se presentó públicamente el 21 de noviembre de 2019 en la II Semana de la Salud [11]. Su evaluación registra 34 acciones realizadas y una pausa en 2020 por la pandemia [8].\n\nEn 2022 el Grupo Motor preparó un nuevo cuestionario de identificación de problemas, con una muestra prevista de 111 personas repartidas por sectores, que el acta redondea en 110, y recogida hasta el 28 de abril [9]. Sus resultados no constan en el expediente. En 2023 se redactó el plan de acción del II Plan Local de Salud, con seis líneas: alimentación saludable, adicciones, actividad física, bienestar emocional, medio ambiente físico y medio ambiente social [10]. El borrador del documento del II Plan quedó sin completar y no consta su aprobación por el Pleno [10]. Entre marzo y mayo de 2026 se hizo la priorización temática ciudadana con una papeleta de diez temas [3], y el 1 de octubre de 2026 el Grupo Motor registró en COMPÁS una selección deliberativa [12].\n\nLo que se sabe hoy de la salud de Alfacar procede del Informe de la situación de salud de septiembre de 2026 [1]; de la priorización ciudadana, con 241 papeletas completas [3]; de los 11 recursos de Localiza Salud, 7 de ellos validados como activos [4]; y de la renta por sección censal del INE [2]. No constan el empleo, la vivienda ni el nivel educativo; ninguna encuesta de salud o bienestar de la población; ni los resultados de la identificación de problemas de 2022. Las versiones 0.1 a 0.3 de este Perfil, de 3 y 4 de noviembre de 2026, no se validaron; esta versión las sustituye.\n\n2. Conclusiones\n\nUna lectura de conjunto\n\nLas nueve conclusiones describen un municipio estable que envejece, con menos enfermedad crónica registrada que la provincia en tres de las cuatro patologías comparadas, todas salvo el asma, y una renta poco dispersa entre sus cuatro secciones. Lo que distingue a Alfacar es la continuidad de su proceso: diez años de trabajo en red, un I Plan aprobado y evaluado, y tres consultas a la población en 2017, 2022 y 2026.\n\nEn esa continuidad, el bienestar emocional y la salud mental atraviesa el proceso: figura entre los problemas priorizados en 2017, es una de las seis líneas del plan de acción de 2023 y es el primer tema de la priorización de 2026, en todos los grupos de edad y en mujeres y hombres [3] [7] [10]. Los registros sanitarios cuentan 331 diagnósticos de trastorno de ansiedad, dos tercios en mujeres [1, tabla 2], y el municipio tiene dos grupos validados que trabajan el malestar emocional [4]. Es una coincidencia observada entre fuentes de naturaleza distinta, no una medida de prevalencia (C7).\n\nDos datos piden contraste antes de usarse: la invitación al cribado de mama, que citó al 11,85 % de las mujeres elegibles (C5), y la priorización de 2026, en la que no votó nadie menor de 26 años (C8).\n\nC1. Alfacar es un municipio estable que envejece, y su renta varía poco entre sus cuatro secciones censales.\n\nLa población creció un 5,4 % entre 2014 y 2024 y su crecimiento depende del saldo migratorio, +21 personas en 2024, frente a un saldo natural de −12 [1, introducción]. La edad media es de 42,8 años y el 17,0 % tiene 65 o más [1, tabla 1]. Los dos núcleos, Alfacar y Fuente Grande, reúnen prácticamente la mitad de la población cada uno [1, introducción]. La renta neta media por persona de 2024 va de 11.847 euros en la sección 01002 a 13.866 en la 01004; la 01002 queda por debajo de la mediana provincial de secciones y las otras tres por encima (cálculo propio sobre [2]). No hay datos por sección del empleo, la vivienda ni la salud, ni de qué sección corresponde a cada núcleo.\n\nLleva a R3.\n\nC2. La enfermedad crónica registrada queda por debajo de la provincia y de Andalucía, salvo el asma.\n\nEl asma alcanza 1.589,56 casos por 10.000 habitantes, frente a 1.448,67 en Granada y 1.187,09 en Andalucía; la dislipemia, 1.762,91, la hipertensión, 1.754,74, y la diabetes, 745,21, están por debajo de los dos comparadores [1, tabla 3]. En recuentos, los diagnósticos más frecuentes en 2025 son la dislipemia, 700 casos, la hipertensión, 690, y el asma, 621 [1, tabla 2]. La figura 1 del Informe da para Granada valores distintos de los de la tabla 3, 1.402,49 en asma frente a 1.448,67, y las tasas no se reproducen con el padrón: 621 casos de asma entre 5.840 habitantes serían 1.063,36 por 10.000 (cálculo propio sobre [1]). La población de referencia de las tasas no está declarada.\n\nLleva a R1 y R5.\n\nC3. El trastorno de ansiedad y el hipotiroidismo registrados pesan mucho más en las mujeres.\n\nDe los 331 diagnósticos de trastorno de ansiedad, 224 son de mujeres y 107 de hombres; de los 249 de hipotiroidismo, 210 y 39 [1, tabla 2]. El Informe no publica tasas por sexo ni comparadores para estos diagnósticos. La dependencia del tabaco registrada, 255 casos, y la obesidad, 241, tampoco tienen comparador [1, tabla 2].\n\nLleva a R1 y R7.\n\nC4. Las primeras causas de muerte son las enfermedades circulatorias y los tumores, y la incidencia de cáncer es inferior a la provincial, salvo en piel no melanoma y colon y recto.\n\nEn 2024 hubo 45 defunciones: 14 por enfermedades circulatorias, el 31,11 %, frente al 26,91 % de Granada, y 13 por tumores, el 28,89 %, frente al 24,49 % [1, tabla 7]. En 2023 hubo 35 defunciones y 9 por tumores [1, tabla 8]. Entre 2016 y 2020 se diagnosticaron 160 cánceres; la tasa estandarizada fue de 680 por 100.000 habitantes, frente a 906 en la provincia. Superan el valor provincial el cáncer de piel no melanoma, 221 frente a 207, y el de colon y recto, 85 frente a 78 [1, tabla 4]. Con 45 defunciones anuales, dos años no permiten hablar de tendencia.\n\nLleva a R5.\n\nC5. Los cribados de colon y cérvix invitan a toda la población elegible y la vacunación infantil supera el 90 %, pero el cribado de mama citó al 11,85 % de las mujeres elegibles.\n\nEn 2025 los cribados de colon y de cuello de útero invitaron al 100,00 % de la población elegible; participó el 42,60 % de las personas invitadas al de colon, frente al 33,05 % de Granada y el 23,77 % de Andalucía, y el 35,10 % de las invitadas al de cérvix, frente al 12,59 % y el 8,68 % [1, tablas 9 y 11]. El cribado de mama citó al 11,85 % de las mujeres elegibles, frente al 28,32 % de Granada y el 67,86 % de Andalucía; entre las citadas participó el 96,61 % [1, tabla 10]. La captación vacunal fue del 100,00 % y la primovacunación del 98,44 % en 2025; la vacunación completa, del 90,91 % en 2024 [1, tabla 13].\n\nLleva a R4.\n\nC6. Las infecciones de transmisión sexual notificadas aumentaron entre 2022 y 2025.\n\nEntre 2022 y julio de 2026 se notificaron 21 infecciones por Chlamydia trachomatis y 19 gonocócicas. Sumadas, fueron 2 en 2022, 8 en 2023, 13 en 2024, 14 en 2025 y 3 hasta julio de 2026 [1, tabla 12]. El Informe no publica la edad ni el sexo de los casos. En 2024 se notificaron además 9 casos de tosferina, y entre 2023 y 2026, infecciones relacionadas con la asistencia sanitaria por Clostridium difficile y microorganismos multirresistentes [1, tabla 12].\n\nLleva a R5.\n\nC7. El bienestar emocional y la salud mental atraviesa el proceso de Alfacar desde 2017 y es el primer tema de la ciudadanía en 2026.\n\nLos problemas de salud emocional y mental recibieron 15 menciones en la identificación de 2017 [7]; el bienestar emocional es una de las seis líneas del plan de acción de 2023 [10]; y en la priorización de 2026 lo eligieron 187 de las 241 personas que votaron, el 77,6 %, por delante de la actividad física, 147, y la alimentación, 130 [3]. (figura 4) Es el primer tema entre las personas de 30 a 64 años, 137 de 174, y entre las de 65 o más, 47 de 63, y entre mujeres y hombres (cálculo propio sobre [3]). Los registros sanitarios cuentan 331 diagnósticos de trastorno de ansiedad (C3), y dos de los siete activos validados, el Grupo de afrontamiento de la ansiedad y el Grupo socioeducativo del centro de salud, trabajan el malestar emocional [4]. Las fuentes miden cosas distintas: la papeleta recoge preferencias de quien vota; los diagnósticos, a quien consulta.\n\nLleva a R7.\n\nC8. Alfacar tiene un proceso participativo continuado, y su última consulta no llegó a la juventud.\n\nEl I Plan se aprobó por unanimidad del Pleno, se ejecutó con 34 acciones y se evaluó con una plantilla de resultados y un cuestionario que respondieron nueve personas [6] [8]. En 2017 respondieron 195 personas, 80 de ellas menores de 18 años [7]. La priorización de 2026 reunió 251 papeletas, 241 completas y fechadas entre el 27 de marzo y el 13 de mayo; las personas que votaron tenían entre 26 y 99 años, y solo 4 tenían menos de 30 [3]. Con la codificación que COMPÁS aplica a la variable sexo, 143 de las 197 papeletas clasificadas son de mujeres [3]. La papeleta ofrecía diez temas y no incluía el desempleo, las barreras arquitectónicas ni la soledad, que figuraron en la identificación de 2017 [3] [7]. No constan los resultados del cuestionario de 2022 ni la aprobación del II Plan por el Pleno [9] [10].\n\nLleva a R2 y R6.\n\nC9. Los recursos validados se dirigen sobre todo a las personas mayores y a la población general; ninguno nombra a la infancia o la adolescencia.\n\nDe los 11 recursos de Alfacar en Localiza Salud, 7 están validados como activos: la Asociación de Mujeres Alfujar, el Centro de día, la Ciudad deportiva, el Grupo de afrontamiento de la ansiedad, el Grupo socioeducativo del centro de salud, el Parque de ejercicio para mayores y el Punto Vuela. Cinco de los siete incluyen a los mayores de 64 años entre sus destinatarios, y dos se dirigen solo a ellos. Los cuatro sin validar son el Carril bici, el Centro de Servicios Sociales Comunitarios, el Centro ocupacional La Boronda y el Complejo de las Encinas [4]. Ninguno de los once nombra a la infancia o la adolescencia entre sus destinatarios; los dos grupos del centro de salud son los únicos que nombran a jóvenes de 18 a 29 años [4].\n\nLleva a R6 y R8.\n\n3. Convergencias y divergencias\n\nCoinciden. La ciudadanía sitúa el bienestar emocional en primer lugar, el Informe registra 331 diagnósticos de trastorno de ansiedad y el plan de acción de 2023 ya lo había elegido como línea [1, tabla 2] [3] [10]. Las tres fuentes miden cosas distintas y no se superponen sus poblaciones: que apunten en la misma dirección refuerza la lectura, no la convierte en una prevalencia.\n\nDiscrepan. El Informe califica de excelentes los cribados y presenta a Alfacar como referente en prevención [1, discusión], pero su tabla 10 muestra que el cribado de mama citó al 11,85 % de las mujeres elegibles, menos de la mitad que en Granada. La participación del 96,61 % se calcula solo sobre las citadas. La figura 1 y la tabla 3 del Informe dan valores distintos para Granada en las cuatro patologías comunes, y la discusión sitúa la incidencia de cáncer en el «periodo 2026-2020» cuando la tabla 4 corresponde a 2016-2020 [1]. La discusión atribuye el aumento de las infecciones de transmisión sexual a «población joven», pero el Informe no publica la edad de los casos [1, tabla 12].\n\nSin contraste. El asma registrada supera a Granada y Andalucía [1, tabla 3]. Ninguna otra fuente del expediente trata la salud respiratoria ni el entorno, y la papeleta de 2026 sitúa el medioambiente en noveno lugar, con 80 votos [3].\n\n4. Lo que no sabemos\n\nCuál es la población de referencia de las tasas de morbilidad y cuáles son los valores correctos de Granada (afecta a C2). Dónde se puede saber: Epidemiología del Distrito Sanitario Granada-Metropolitano, autora del Informe.\n\nCómo se distribuyen por sexo y edad las tasas de ansiedad, hipotiroidismo y asma, y la edad de los casos de infecciones de transmisión sexual (afecta a C2, C3 y C6). Dónde se puede saber: Epidemiología y Base Poblacional de Salud.\n\nPor qué el cribado de mama citó en 2025 al 11,85 % de las mujeres elegibles (afecta a C5). Dónde se puede saber: programa de detección precoz de cáncer de mama y centro de salud; calendario de rondas del municipio.\n\nQué sección censal corresponde a Fuente Grande y cuánta población vive en cada una (afecta a C1). Dónde se puede saber: INE, indicadores demográficos del Atlas de Distribución de Renta por sección y cartografía del seccionado censal; Ayuntamiento.\n\nQué priorizan la adolescencia y la juventud (afecta a C7, C8 y C9). Dónde se puede saber: la papeleta de 2026 en el IES Al-Fakar y con las AMPA; Grupo Motor.\n\nQué resultó del cuestionario de 2022 y si el II Plan se aprobó (afecta a C8). Dónde se puede saber: Ayuntamiento y técnico de acción local en salud de la Delegación.\n\nCómo es el empleo, la renta declarada y el nivel educativo del municipio (afecta a C1). Dónde se puede saber: Sistema de Información Multiterritorial de Andalucía, ficha de Alfacar (18011).\n\n5. Recomendaciones del Perfil\n\nOcho propuestas que derivan de las conclusiones. Qué se hace primero, quién lo hace y con qué recursos lo decidirán el Grupo Motor y el Plan de Acción.\n\nConocer. Recuperar los datos que faltan\n\nR1. Pedir a Epidemiología la población de referencia de las tasas, los valores correctos de Granada y las tasas por sexo de la ansiedad, el hipotiroidismo y el asma.\n\nDeriva de C2, C3.\n\nR2. Recuperar los resultados del cuestionario de identificación de 2022 y la constancia de aprobación del II Plan Local de Salud, para situar el nuevo ciclo respecto al anterior.\n\nDeriva de C8.\n\nR3. Situar en el mapa las cuatro secciones censales, conocer su población y saber cuál corresponde a Fuente Grande.\n\nDeriva de C1.\n\nContrastar. Preguntar a quien lo vive\n\nR4. Contrastar con el programa de detección precoz de cáncer de mama y con el centro de salud por qué en 2025 se citó al 11,85 % de las mujeres elegibles.\n\nDeriva de C5.\n\nR5. Contrastar con el centro de salud y con Epidemiología qué hay detrás del asma registrada, del aumento de las infecciones de transmisión sexual y de la incidencia de cáncer de piel y colorrectal.\n\nDeriva de C2, C4, C6.\n\nR6. Pasar la papeleta de priorización a adolescentes y jóvenes, en el IES Al-Fakar y con las AMPA, antes de cerrar las prioridades del II Plan.\n\nDeriva de C8, C9.\n\nAbordar. Empezar a actuar donde hay fundamento\n\nR7. Trabajar el bienestar emocional y la salud mental como área del Plan, con atención a las mujeres, apoyándose en la coincidencia entre la demanda ciudadana, los diagnósticos registrados y los dos grupos validados del centro de salud.\n\nDeriva de C3, C7.\n\nR8. Mapear con la comunidad los activos vinculados a las líneas que elija el Grupo Motor, revisar la validación de los cuatro recursos pendientes y buscar recursos para la infancia y la adolescencia.\n\nDeriva de C9.\n\n6. Paso al Plan de Acción\n\nEl Grupo Motor recibe las conclusiones que el equipo técnico elija, las ocho recomendaciones y las preguntas abiertas. En el taller de impulso del II Plan Local de Salud, el 19 de noviembre de 2026, se presentan tres líneas reutilizables de COMPÁS para priorizar: envejecimiento saludable, adicciones, y bienestar emocional y salud mental. La selección deliberativa del Grupo Motor de 1 de octubre de 2026 se conserva con su alcance: un escenario vinculado a la línea de envejecimiento, registrado antes de que COMPÁS incorporara la priorización ciudadana [12]. A partir de aquí, el Grupo Motor decide qué priorizar, y el Plan de Acción fija las líneas, los objetivos y los indicadores del II Plan Local de Salud de Alfacar.\n\n7. Autoría y validación\n\nValidación. Pendiente. Responsable técnico, fecha de validación y consenso del Grupo Motor por registrar.\n\nAutoría. Versión 0.4 redactada por Claude el 10-11-2026 a petición de Blas Ramón Hermoso Rico, técnico de educación para la salud y participación comunitaria del Distrito Sanitario Granada-Metropolitano, a partir del expediente completo de Alfacar. Adopta la estructura del modelo de COMPÁS, incorpora la historia del proceso desde 2016, la renta por sección censal del INE y los 11 recursos de Localiza Salud con su validación, y recalcula la priorización desde el fichero de datos. Sustituye a las versiones 0.1 a 0.3, de 3 y 4 de noviembre de 2026, no validadas.\n\nReferencias\n\n1. Unidad de Prevención, Promoción y Vigilancia de la Salud, Distrito Sanitario Granada-Metropolitano (del Moral Campaña C, Molina Rueda MJ). Informe sobre la situación de salud en el municipio de Alfacar. Granada: Servicio Andaluz de Salud; septiembre de 2026.\n\n2. Instituto Nacional de Estadística. Atlas de Distribución de Renta de los Hogares. Provincia de Granada: indicadores de renta media y mediana por municipios, distritos y secciones censales, tabla 31025, periodo 2024 [Internet]. Madrid: INE; [descargada 10 nov 2026].\n\n3. Ayuntamiento de Alfacar; Distrito Sanitario Granada-Metropolitano. Votación popular de salud del Plan Local de Salud de Alfacar (REDCap). Exportación de datos de 3 de noviembre de 2026; papeleta impresa el 25 de febrero de 2026.\n\n4. Ministerio de Sanidad. Localiza Salud. Recursos del municipio de Alfacar (11 registros, 7 validados como activos) [Internet]. Tabla aportada el 10 de noviembre de 2026.\n\n5. Consejería de Salud; Ayuntamiento de Alfacar. Acuerdo de colaboración para el desarrollo de la Acción Local en Salud, 15 de junio de 2016, y programa del taller de la Red Local de Acción en Salud de 5 de octubre de 2016.\n\n6. Ayuntamiento de Alfacar. Plan Local de Salud de Alfacar 2018-2020 y certificado del acuerdo del Pleno de 26 de julio de 2018. Registro electrónico de la Junta de Andalucía, 15 de octubre de 2018.\n\n7. Ayuntamiento de Alfacar. Cuestionario de identificación de problemas de salud y recursos comunitarios: respuestas de 23 de marzo a 22 de mayo de 2017, y relación de problemas identificados y priorizados, 5 de junio de 2017.\n\n8. Ayuntamiento de Alfacar. Plantilla de evaluación del I Plan Local de Salud 2018-2020 y cuestionario de evaluación (9 respuestas, mayo a octubre de 2021).\n\n9. Grupo Motor del Plan Local de Salud de Alfacar. Actas de 10 de febrero y 17 de marzo de 2022 y cuestionario de identificación de problemas de salud de 2022.\n\n10. Ayuntamiento de Alfacar. II Plan Local de Salud de Alfacar (plan de acción), 2023, y borrador del documento del Plan Local de Salud de 2023.\n\n11. Ayuntamiento de Alfacar. Presentación del I Plan Local de Salud y programa de la II Semana de la Salud, 21 a 29 de noviembre de 2019.\n\n12. COMPÁS. Copia de trabajo del expediente de Alfacar de 3 de noviembre de 2026: selección deliberativa del Grupo Motor de 1 de octubre de 2026.\n\nAnexos\n\nEvidencia compilada, cálculos y trazabilidad.\n\nA. Trazabilidad de las conclusiones\n\n  Conclusión   Tipo                         Fuentes                                                                                         Límite\n  ------------ ---------------------------- ----------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------\n  C1           Hecho                        Informe, introducción y tabla 1; INE ADRH, tabla 31025 (2024)                                   Sin población, núcleo ni salud por sección\n  C2           Hecho                        Informe, tablas 2 y 3                                                                           Población de referencia de las tasas no declarada; figura 1 y tabla 3 difieren en Granada\n  C3           Hecho                        Informe, tabla 2                                                                                Recuentos sin tasas por sexo ni comparador\n  C4           Hecho                        Informe, tablas 4, 7 y 8                                                                        Dos años de mortalidad con números pequeños\n  C5           Hecho                        Informe, tablas 9 a 11 y 13                                                                     Causa de la baja citación de mama no documentada\n  C6           Hecho                        Informe, tabla 12                                                                               Sin edad ni sexo de los casos\n  C7           Coincidencia entre fuentes   Identificación 2017; plan de acción 2023; priorización 2026; Informe, tabla 2; Localiza Salud   Preferencias, diagnósticos y recursos no miden lo mismo\n  C8           Hecho                        Certificado del Pleno 2018; evaluación 2021; cuestionario 2017; priorización 2026; actas 2022   Codificación del sexo asumida (1 = hombre, 2 = mujer); resultados de 2022 y aprobación del II Plan no constan\n  C9           Hecho                        Localiza Salud, 11 recursos y 7 validados                                                       Vigencia de cada ficha no verificada en línea\n\nB. Priorización ciudadana de 2026\n\nFichero «PriorizacinCiudadana_DATA_2026-11-03_1912.csv»: 251 registros, 241 completos, fechados entre el 27/03/2026 y el 13/05/2026. 201 papeletas marcan cinco temas. Edad de quienes votaron: de 26 a 99 años, mediana 50; 4 de 26 a 29 años, 174 de 30 a 64 y 63 de 65 o más. Sexo con la codificación de COMPÁS (1 = hombre, 2 = mujer): 54 hombres, 143 mujeres y 44 sin clasificar (43 con el código 4 y 1 con el código 3). El fichero no trae diccionario de datos.\n\n  Tema                                         30 a 64 años (n = 174)   65 o más (n = 63)   Mujeres (n = 143)   Hombres (n = 54)\n  -------------------------------------------- ------------------------ ------------------- ------------------- ------------------\n  Bienestar emocional y salud mental           137                      47                  114                 40\n  Actividad física                             104                      41                  82                  39\n  Alimentación                                 89                       38                  69                  33\n  Violencia de género                          74                       32                  56                  28\n  Sueño y descanso                             78                       25                  63                  26\n  Tabaco, vapeadores, alcohol y otras drogas   75                       28                  64                  20\n  Uso de pantallas y redes sociales            73                       30                  62                  19\n  Sexualidad y salud                           69                       25                  61                  17\n  Medioambiente y municipio                    57                       21                  47                  21\n  Accidentes en el hogar y la vía pública      42                       17                  36                  13\n\nC. Recursos de Alfacar en Localiza Salud\n\n  Recurso                                                       Validado como activo   Destinatarios                                                                       Temáticas en Localiza\n  ------------------------------------------------------------- ---------------------- ----------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n  Asociación de Mujeres Alfujar (Alfacar)                       Sí                     Adultos (30-64 años), Mayores de 64 años                                            Cultura y ocio, Personas en riesgo de exclusión, Personas cuidadoras, Participación y acción comunitaria, Bienestar emocional, Envejecimiento activo, Actividad física\n  Carril Bici                                                   No                     Población general                                                                   Cultura y ocio, Actividad física\n  Centro de día Alfacar                                         Sí                     Mayores de 64 años                                                                  Cultura y ocio, Personas en riesgo de exclusión, Bienestar emocional, Alimentación saludable, Envejecimiento activo\n  Centro de Servicios Sociales Comunitarios Alfacar             No                     Población general                                                                   Cultura y ocio, Personas en riesgo de exclusión, Personas cuidadoras, Participación y acción comunitaria, Bienestar emocional, Escuela de salud/formación\n  Centro ocupacional \"La Boronda\"                               No                     Otros                                                                               Cultura y ocio, Personas en riesgo de exclusión, Bienestar emocional, Escuela de salud/formación, Alimentación saludable, Envejecimiento activo, Actividad física\n  Ciudad deportiva                                              Sí                     Población general                                                                   Envejecimiento activo, Actividad física\n  Complejo de las Encinas                                       No                     Población general                                                                   Cultura y ocio, Actividad física\n  Grupo de afrontamiento de la Ansiedad (GRAFA)                 Sí                     Jóvenes (18-29 años), Adultos (30-64 años), Mayores de 64 años                      Bienestar emocional, Escuela de salud/formación\n  Grupo socioeducativo -GRUSE- del Centro de Salud de Alfacar   Sí                     Jóvenes (18-29 años), Población general, Adultos (30-64 años), Mayores de 64 años   Bienestar emocional, Otros\n  Parque ejercicio mayores                                      Sí                     Mayores de 64 años                                                                  Actividad física\n  Punto Vuela Alfacar                                           Sí                     Población general                                                                   Otros\n\nTabla aportada el 10/11/2026 (11 registros); validación indicada por el equipo técnico; textos literales. La copia de COMPÁS registra el GRUSE con otro título, «Grupos Socioeducativos (GRUSE)», y otra descripción.\n\nD. Morbilidad crónica registrada, casos de 2025\n\n  Patología                Hombres   Mujeres   Total\n  ------------------------ --------- --------- -------\n  Dislipemia               338       362       700\n  Hipertensión             341       349       690\n  Asma                     336       285       621\n  Artrosis                 143       205       348\n  Trastorno de ansiedad    107       224       331\n  Diabetes                 161       132       293\n  Dependencia del tabaco   146       109       255\n  Hipotiroidismo           39        210       249\n  Obesidad                 103       138       241\n  Dermatitis atópica       86        88        174\n\nInforme [1], tabla 2. Valores de la figura 1 del Informe para Granada: dislipemia 2.656,45; hipertensión 2.289,39; asma 1.402,49; artrosis 2.009,28; diabetes 898,39; y para Alfacar, artrosis 1.412,37. La tabla 3 da para Granada 2.718,19, 2.285,76, 1.448,67 y 906,66, y no incluye la artrosis.\n\nE. Cronología del proceso\n\n  Fecha                  Hito                                                                                       Fuente\n  ---------------------- ------------------------------------------------------------------------------------------ --------\n  15/06/2016             Acuerdo de colaboración Ayuntamiento–Delegación Territorial de Salud                       [5]\n  05/10/2016             Taller de la Red Local de Acción en Salud                                                  [5]\n  23/03–22/05/2017       Cuestionario de identificación: 195 respuestas                                             [7]\n  05/06/2017             Relación de 22 problemas priorizados                                                       [7]\n  Mayo de 2018           I Semana de la Salud                                                                       [6]\n  26/07/2018             El Pleno aprueba por unanimidad el I Plan Local de Salud 2018–2020                         [6]\n  21–29/11/2019          Presentación del I Plan y II Semana de la Salud                                            [11]\n  2020                   Pausa por la pandemia                                                                      [8]\n  Mayo–octubre de 2021   Evaluación del I Plan: 34 acciones; 9 cuestionarios                                        [8]\n  10/02 y 17/03/2022     Grupo Motor: nuevo cuestionario de identificación                                          [9]\n  2023                   Plan de acción del II Plan Local de Salud (seis líneas); borrador del Plan sin completar   [10]\n  27/03–13/05/2026       Priorización temática ciudadana: 241 papeletas completas                                   [3]\n  01/10/2026             Selección deliberativa del Grupo Motor en COMPÁS                                           [12]\n  19/11/2026             Taller de impulso del II Plan Local de Salud                                               —\n",
+ "results": [
+  {
+   "id": "pob-2025",
+   "title": "Población",
+   "value": "5.840",
+   "unit": "habitantes",
+   "source": "Informe sobre la situación de salud en el municipio de Alfacar (septiembre de 2026)",
+   "page": "Tabla 1",
+   "period": "2025",
+   "caution": "",
+   "topic": "Demografía",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C1"
+   ],
+   "chartValue": 5840
+  },
+  {
+   "id": "crec",
+   "title": "Crecimiento de la población",
+   "value": "+5,4",
+   "unit": "%",
+   "source": "Informe sobre la situación de salud en el municipio de Alfacar (septiembre de 2026)",
+   "page": "Introducción",
+   "period": "2014–2024",
+   "caution": "",
+   "topic": "Demografía",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C1"
+   ],
+   "chartValue": 5.4
+  },
+  {
+   "id": "edad-media",
+   "title": "Edad media",
+   "value": "42,8",
+   "unit": "años",
+   "source": "Informe sobre la situación de salud en el municipio de Alfacar (septiembre de 2026)",
+   "page": "Tabla 1",
+   "period": "2024",
+   "caution": "",
+   "topic": "Demografía",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C1"
+   ],
+   "chartValue": 42.8
+  },
+  {
+   "id": "mayores65",
+   "title": "Población de 65 años o más",
+   "value": "17,0",
+   "unit": "%",
+   "source": "Informe sobre la situación de salud en el municipio de Alfacar (septiembre de 2026)",
+   "page": "Tabla 1",
+   "period": "2024",
+   "caution": "",
+   "topic": "Demografía",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C1"
+   ],
+   "chartValue": 17.0
+  },
+  {
+   "id": "saldo-nat",
+   "title": "Saldo natural",
+   "value": "−12",
+   "unit": "personas",
+   "source": "Informe sobre la situación de salud en el municipio de Alfacar (septiembre de 2026)",
+   "page": "Introducción",
+   "period": "2024",
+   "caution": "",
+   "topic": "Demografía",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C1"
+   ],
+   "chartValue": -12
+  },
+  {
+   "id": "saldo-mig",
+   "title": "Saldo migratorio",
+   "value": "+21",
+   "unit": "personas",
+   "source": "Informe sobre la situación de salud en el municipio de Alfacar (septiembre de 2026)",
+   "page": "Introducción",
+   "period": "2024",
+   "caution": "",
+   "topic": "Demografía",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C1"
+   ],
+   "chartValue": 21
+  },
+  {
+   "id": "renta-mun",
+   "title": "Renta neta media por persona",
+   "value": "12.924",
+   "unit": "euros",
+   "source": "INE, Atlas de Distribución de Renta de los Hogares (tabla 31025)",
+   "page": "Distrito 01",
+   "period": "2024",
+   "caution": "",
+   "topic": "Determinantes sociales",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C1"
+   ],
+   "chartValue": 12924
+  },
+  {
+   "id": "renta-min",
+   "title": "Renta neta media por persona, sección 01002 (mínimo)",
+   "value": "11.847",
+   "unit": "euros",
+   "source": "INE, Atlas de Distribución de Renta de los Hogares (tabla 31025)",
+   "page": "Sección 1801101002",
+   "period": "2024",
+   "caution": "",
+   "topic": "Desigualdad",
+   "scale": "Sección censal",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C1"
+   ],
+   "chartValue": 11847
+  },
+  {
+   "id": "renta-max",
+   "title": "Renta neta media por persona, sección 01004 (máximo)",
+   "value": "13.866",
+   "unit": "euros",
+   "source": "INE, Atlas de Distribución de Renta de los Hogares (tabla 31025)",
+   "page": "Sección 1801101004",
+   "period": "2024",
+   "caution": "",
+   "topic": "Desigualdad",
+   "scale": "Sección censal",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C1"
+   ],
+   "chartValue": 13866
+  },
+  {
+   "id": "asma",
+   "title": "Asma",
+   "value": "1.589,56",
+   "unit": "casos por 10.000",
+   "source": "Informe sobre la situación de salud en el municipio de Alfacar (septiembre de 2026)",
+   "page": "Tabla 3",
+   "period": "2025",
+   "caution": "",
+   "topic": "Morbilidad",
+   "scale": "Municipio",
+   "denominator": "Población de referencia no declarada",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C2"
+   ],
+   "chartValue": 1589.56
+  },
+  {
+   "id": "dislip",
+   "title": "Dislipemia",
+   "value": "1.762,91",
+   "unit": "casos por 10.000",
+   "source": "Informe sobre la situación de salud en el municipio de Alfacar (septiembre de 2026)",
+   "page": "Tabla 3",
+   "period": "2025",
+   "caution": "",
+   "topic": "Morbilidad",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C2"
+   ],
+   "chartValue": 1762.91
+  },
+  {
+   "id": "hta",
+   "title": "Hipertensión",
+   "value": "1.754,74",
+   "unit": "casos por 10.000",
+   "source": "Informe sobre la situación de salud en el municipio de Alfacar (septiembre de 2026)",
+   "page": "Tabla 3",
+   "period": "2025",
+   "caution": "",
+   "topic": "Morbilidad",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C2"
+   ],
+   "chartValue": 1754.74
+  },
+  {
+   "id": "dm",
+   "title": "Diabetes",
+   "value": "745,21",
+   "unit": "casos por 10.000",
+   "source": "Informe sobre la situación de salud en el municipio de Alfacar (septiembre de 2026)",
+   "page": "Tabla 3",
+   "period": "2025",
+   "caution": "",
+   "topic": "Morbilidad",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C2"
+   ],
+   "chartValue": 745.21
+  },
+  {
+   "id": "ansiedad",
+   "title": "Trastorno de ansiedad (mujeres / hombres)",
+   "value": "224 / 107",
+   "unit": "casos",
+   "source": "Informe sobre la situación de salud en el municipio de Alfacar (septiembre de 2026)",
+   "page": "Tabla 2",
+   "period": "2025",
+   "caution": "",
+   "topic": "Morbilidad",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C3",
+    "C7"
+   ],
+   "chartValue": 331
+  },
+  {
+   "id": "hipotiroidismo",
+   "title": "Hipotiroidismo (mujeres / hombres)",
+   "value": "210 / 39",
+   "unit": "casos",
+   "source": "Informe sobre la situación de salud en el municipio de Alfacar (septiembre de 2026)",
+   "page": "Tabla 2",
+   "period": "2025",
+   "caution": "",
+   "topic": "Morbilidad",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C3"
+   ],
+   "chartValue": 249
+  },
+  {
+   "id": "defunciones",
+   "title": "Defunciones",
+   "value": "45",
+   "unit": "personas",
+   "source": "Informe sobre la situación de salud en el municipio de Alfacar (septiembre de 2026)",
+   "page": "Tabla 7",
+   "period": "2024",
+   "caution": "",
+   "topic": "Mortalidad",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C4"
+   ],
+   "chartValue": 45
+  },
+  {
+   "id": "mort-circ",
+   "title": "Defunciones por enfermedades circulatorias",
+   "value": "31,11",
+   "unit": "% del total",
+   "source": "Informe sobre la situación de salud en el municipio de Alfacar (septiembre de 2026)",
+   "page": "Tabla 7",
+   "period": "2024",
+   "caution": "",
+   "topic": "Mortalidad",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C4"
+   ],
+   "chartValue": 31.11
+  },
+  {
+   "id": "mort-tum",
+   "title": "Defunciones por tumores",
+   "value": "28,89",
+   "unit": "% del total",
+   "source": "Informe sobre la situación de salud en el municipio de Alfacar (septiembre de 2026)",
+   "page": "Tabla 7",
+   "period": "2024",
+   "caution": "",
+   "topic": "Mortalidad",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C4"
+   ],
+   "chartValue": 28.89
+  },
+  {
+   "id": "inc-cancer",
+   "title": "Incidencia de cáncer, tasa estandarizada",
+   "value": "680",
+   "unit": "por 100.000",
+   "source": "Informe sobre la situación de salud en el municipio de Alfacar (septiembre de 2026)",
+   "page": "Tabla 4",
+   "period": "2016–2020",
+   "caution": "",
+   "topic": "Cáncer",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C4"
+   ],
+   "chartValue": 680
+  },
+  {
+   "id": "colon-part",
+   "title": "Cribado de colon: participación sobre invitados",
+   "value": "42,60",
+   "unit": "%",
+   "source": "Informe sobre la situación de salud en el municipio de Alfacar (septiembre de 2026)",
+   "page": "Tabla 9",
+   "period": "2025",
+   "caution": "",
+   "topic": "Prevención",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C5"
+   ],
+   "chartValue": 42.6
+  },
+  {
+   "id": "mama-inv",
+   "title": "Cribado de mama: citadas sobre elegibles",
+   "value": "11,85",
+   "unit": "%",
+   "source": "Informe sobre la situación de salud en el municipio de Alfacar (septiembre de 2026)",
+   "page": "Tabla 10",
+   "period": "2025",
+   "caution": "",
+   "topic": "Prevención",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C5"
+   ],
+   "chartValue": 11.85
+  },
+  {
+   "id": "mama-part",
+   "title": "Cribado de mama: participación sobre citadas",
+   "value": "96,61",
+   "unit": "%",
+   "source": "Informe sobre la situación de salud en el municipio de Alfacar (septiembre de 2026)",
+   "page": "Tabla 10",
+   "period": "2025",
+   "caution": "",
+   "topic": "Prevención",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C5"
+   ],
+   "chartValue": 96.61
+  },
+  {
+   "id": "cervix-part",
+   "title": "Cribado de cérvix: participación sobre invitadas",
+   "value": "35,10",
+   "unit": "%",
+   "source": "Informe sobre la situación de salud en el municipio de Alfacar (septiembre de 2026)",
+   "page": "Tabla 11",
+   "period": "2025",
+   "caution": "",
+   "topic": "Prevención",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C5"
+   ],
+   "chartValue": 35.1
+  },
+  {
+   "id": "vac-completa",
+   "title": "Vacunación completa",
+   "value": "90,91",
+   "unit": "%",
+   "source": "Informe sobre la situación de salud en el municipio de Alfacar (septiembre de 2026)",
+   "page": "Tabla 13",
+   "period": "2024",
+   "caution": "",
+   "topic": "Prevención",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C5"
+   ],
+   "chartValue": 90.91
+  },
+  {
+   "id": "its",
+   "title": "Infecciones por Chlamydia y gonococo notificadas",
+   "value": "40",
+   "unit": "casos",
+   "source": "Informe sobre la situación de salud en el municipio de Alfacar (septiembre de 2026)",
+   "page": "Tabla 12",
+   "period": "2022–julio 2026",
+   "caution": "",
+   "topic": "Vigilancia",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C6"
+   ],
+   "chartValue": 40
+  },
+  {
+   "id": "pri-papeletas",
+   "title": "Papeletas completas de la priorización ciudadana",
+   "value": "241",
+   "unit": "papeletas",
+   "source": "Votación popular de salud de Alfacar (REDCap, exportación 3/11/2026)",
+   "page": "",
+   "period": "2026",
+   "caution": "",
+   "topic": "Participación",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C7",
+    "C8"
+   ],
+   "chartValue": 241
+  },
+  {
+   "id": "pri-bem",
+   "title": "Votos a bienestar emocional y salud mental",
+   "value": "187",
+   "unit": "votos (77,6 %)",
+   "source": "Votación popular de salud de Alfacar (REDCap, exportación 3/11/2026)",
+   "page": "",
+   "period": "2026",
+   "caution": "",
+   "topic": "Participación",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C7"
+   ],
+   "chartValue": 187
+  },
+  {
+   "id": "activos",
+   "title": "Recursos de Localiza Salud validados como activos",
+   "value": "7 de 11",
+   "unit": "recursos",
+   "source": "Localiza Salud, tabla aportada el 10/11/2026",
+   "page": "",
+   "period": "2026",
+   "caution": "",
+   "topic": "Activos",
+   "scale": "Municipio",
+   "denominator": "",
+   "temporalContext": "current",
+   "supportsConclusions": [
+    "C9"
+   ],
+   "chartValue": 7
+  }
+ ],
+ "findings": [
+  "C1. Alfacar es un municipio estable que envejece, y su renta varía poco entre sus cuatro secciones censales.",
+  "C2. La enfermedad crónica registrada queda por debajo de la provincia y de Andalucía, salvo el asma.",
+  "C3. El trastorno de ansiedad y el hipotiroidismo registrados pesan mucho más en las mujeres.",
+  "C4. Las primeras causas de muerte son las enfermedades circulatorias y los tumores, y la incidencia de cáncer es inferior a la provincial, salvo en piel no melanoma y colon y recto.",
+  "C5. Los cribados de colon y cérvix invitan a toda la población elegible y la vacunación infantil supera el 90 %, pero el cribado de mama citó al 11,85 % de las mujeres elegibles.",
+  "C6. Las infecciones de transmisión sexual notificadas aumentaron entre 2022 y 2025.",
+  "C7. El bienestar emocional y la salud mental atraviesa el proceso de Alfacar desde 2017 y es el primer tema de la ciudadanía en 2026.",
+  "C8. Alfacar tiene un proceso participativo continuado, y su última consulta no llegó a la juventud.",
+  "C9. Los recursos validados se dirigen sobre todo a las personas mayores y a la población general; ninguno nombra a la infancia o la adolescencia."
+ ],
+ "limitations": [
+  "Cuál es la población de referencia de las tasas de morbilidad y cuáles son los valores correctos de Granada (afecta a C2). Dónde se puede saber: Epidemiología del Distrito Sanitario Granada-Metropolitano, autora del Informe.",
+  "Cómo se distribuyen por sexo y edad las tasas de ansiedad, hipotiroidismo y asma, y la edad de los casos de infecciones de transmisión sexual (afecta a C2, C3 y C6). Dónde se puede saber: Epidemiología y Base Poblacional de Salud.",
+  "Por qué el cribado de mama citó en 2025 al 11,85 % de las mujeres elegibles (afecta a C5). Dónde se puede saber: programa de detección precoz de cáncer de mama y centro de salud; calendario de rondas del municipio.",
+  "Qué sección censal corresponde a Fuente Grande y cuánta población vive en cada una (afecta a C1). Dónde se puede saber: INE, indicadores demográficos del Atlas de Distribución de Renta por sección y cartografía del seccionado censal; Ayuntamiento.",
+  "Qué priorizan la adolescencia y la juventud (afecta a C7, C8 y C9). Dónde se puede saber: la papeleta de 2026 en el IES Al-Fakar y con las AMPA; Grupo Motor.",
+  "Qué resultó del cuestionario de 2022 y si el II Plan se aprobó (afecta a C8). Dónde se puede saber: Ayuntamiento y técnico de acción local en salud de la Delegación.",
+  "Cómo es el empleo, la renta declarada y el nivel educativo del municipio (afecta a C1). Dónde se puede saber: Sistema de Información Multiterritorial de Andalucía, ficha de Alfacar (18011)."
+ ],
+ "areas": [
+  {
+   "id": "R1",
+   "title": "R1. Pedir a Epidemiología la población de referencia de las tasas, los valores correctos de Granada y las tasas por sexo de la ansiedad, el hipotiroidismo y el asma.",
+   "rationale": "Conocer · Deriva de C2, C3"
+  },
+  {
+   "id": "R2",
+   "title": "R2. Recuperar los resultados del cuestionario de identificación de 2022 y la constancia de aprobación del II Plan Local de Salud, para situar el nuevo ciclo respecto al anterior.",
+   "rationale": "Conocer · Deriva de C8"
+  },
+  {
+   "id": "R3",
+   "title": "R3. Situar en el mapa las cuatro secciones censales, conocer su población y saber cuál corresponde a Fuente Grande.",
+   "rationale": "Conocer · Deriva de C1"
+  },
+  {
+   "id": "R4",
+   "title": "R4. Contrastar con el programa de detección precoz de cáncer de mama y con el centro de salud por qué en 2025 se citó al 11,85 % de las mujeres elegibles.",
+   "rationale": "Contrastar · Deriva de C5"
+  },
+  {
+   "id": "R5",
+   "title": "R5. Contrastar con el centro de salud y con Epidemiología qué hay detrás del asma registrada, del aumento de las infecciones de transmisión sexual y de la incidencia de cáncer de piel y colorrectal.",
+   "rationale": "Contrastar · Deriva de C2, C4, C6"
+  },
+  {
+   "id": "R6",
+   "title": "R6. Pasar la papeleta de priorización a adolescentes y jóvenes, en el IES Al-Fakar y con las AMPA, antes de cerrar las prioridades del II Plan.",
+   "rationale": "Contrastar · Deriva de C8, C9"
+  },
+  {
+   "id": "R7",
+   "title": "R7. Trabajar el bienestar emocional y la salud mental como área del Plan, con atención a las mujeres, apoyándose en la coincidencia entre la demanda ciudadana, los diagnósticos registrados y los dos grupos validados del centro de salud.",
+   "rationale": "Abordar · Deriva de C3, C7"
+  },
+  {
+   "id": "R8",
+   "title": "R8. Mapear con la comunidad los activos vinculados a las líneas que elija el Grupo Motor, revisar la validación de los cuatro recursos pendientes y buscar recursos para la infancia y la adolescencia.",
+   "rationale": "Abordar · Deriva de C9"
+  }
+ ]
+}
