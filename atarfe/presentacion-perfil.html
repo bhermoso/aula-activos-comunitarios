@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#173d35">
+<meta name="description" content="Atarfe: recorrido del proceso, resultados del Perfil de Salud Local y propuesta de priorización para el Grupo Motor (10/11/2026).">
+<title>Atarfe · Perfil de Salud Local · Presentación</title>
+<style>
+:root{--deep:#173d35;--mid:#25694f;--sage:#e8f0e6;--sand:#f7f0e3;--line:#c9d9cd;--ink:#183a30;--muted:#466459;--accent:#b7791f}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#0f1c18;color:var(--ink);font:16px/1.4 system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+#deck{display:flex;flex-direction:column;height:100dvh}
+.bar{flex:none;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:8px 16px;background:#173d35;color:#fff}
+.bar a{color:#d6ecdc;text-decoration:none;font-size:13px}.bar .brand{font-weight:800;font-size:13px;letter-spacing:.05em}
+.stage{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;overflow:hidden;padding:8px}
+.frame{width:1600px;height:900px;transform-origin:center center;flex:none}
+.slide{display:none;width:1600px;height:900px;background:#fbfaf6;border-radius:6px;padding:64px 86px 90px;position:relative;overflow:hidden;flex-direction:column;gap:22px}
+.slide.on{display:flex}
+.slide .meta{font:800 15px system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--mid)}
+.slide h1{font:600 76px/1.04 Georgia,serif;margin:0;color:var(--deep);letter-spacing:-.01em}
+.slide h2{font:600 52px/1.1 Georgia,serif;margin:0;color:var(--deep);text-wrap:balance}
+.lead{font-size:28px;line-height:1.38;color:#2f5146;margin:0;max-width:1350px}
+.src{position:absolute;left:86px;right:86px;bottom:24px;font-size:15px;color:#5c756c;border-top:1px solid var(--line);padding-top:8px}
+.grid{display:grid;gap:20px;flex:none;align-content:start}
+.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px 26px}
+.card h3{font:600 30px/1.2 Georgia,serif;margin:0 0 8px;color:var(--deep)}
+.card p{font-size:23px;line-height:1.4;margin:0;color:#35564b}
+.card.soft{background:var(--sage)}.card.sand{background:var(--sand)}
+.big{font:700 72px/1 Georgia,serif;color:var(--mid);display:block;margin-bottom:6px}
+.big small{font-size:32px}
+table{border-collapse:collapse;width:100%;font-size:25px;background:#fff;border-radius:14px;overflow:hidden}
+th,td{padding:13px 20px;border-bottom:1px solid var(--line);text-align:left}
+th{background:var(--deep);color:#fff;font-weight:700;font-size:21px;letter-spacing:.02em}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f5146}ul.clean li{margin:6px 0}
+.cover{background:linear-gradient(135deg,#173d35 0%,#25694f 100%);color:#fff;justify-content:center}
+.cover h1{color:#fff;font-size:88px}.cover .lead{color:#dcefe2;font-size:32px}.cover .meta{color:#bfe3c9}
+.cover .src{color:#bfd9c7;border-color:#3f7a62}
+.timeline{display:grid;grid-template-columns:repeat(7,1fr);gap:12px;flex:1;align-content:center}
+.tl{border-top:6px solid var(--mid);padding-top:14px}.tl b{font:700 32px Georgia,serif;color:var(--deep);display:block}.tl span{font-size:24px;color:#35564b;line-height:1.35;display:block;margin-top:6px}
+.tl.now{border-color:var(--accent)}
+.bars{display:flex;flex-direction:column;gap:10px}
+.brow{display:grid;grid-template-columns:420px 1fr 100px;align-items:center;gap:16px;font-size:23px}
+.brow .track{height:30px;background:#e4ece5;border-radius:6px;overflow:hidden}.brow .fill{height:100%;background:var(--mid)}
+.brow.top .fill{background:var(--deep)}.brow .pct{font-weight:800;text-align:right;font-variant-numeric:tabular-nums}
+.umbrella{display:grid;grid-template-columns:1fr;gap:12px;flex:none}.umbrella .card{padding:15px 20px}.umbrella .card h3{font-size:26px}.umbrella .card p{font-size:20px}
+.umb-head{background:var(--deep);color:#fff;border-radius:18px;padding:22px 30px;font:600 40px Georgia,serif;text-align:center}
+.umb-head small{display:block;font:400 22px system-ui;color:#cfe8d6;margin-top:6px}
+.pill{display:inline-block;font:800 14px system-ui;letter-spacing:.08em;text-transform:uppercase;border-radius:100px;padding:5px 12px;background:#e9efe8;color:var(--mid);margin-bottom:10px}
+.pill.alt{background:#f6e7cf;color:#8a5a12}
+.chain{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;align-items:stretch;flex:none}
+.chain div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px;position:relative;font-size:22px;color:#35564b}
+.chain div b{display:block;font:600 30px Georgia,serif;color:var(--deep);margin-bottom:8px}
+.chain div:not(:last-child)::after{content:"→";position:absolute;right:-25px;top:50%;transform:translateY(-50%);font:700 36px system-ui;color:var(--mid);z-index:2}
+.chain .here{background:var(--sage);border-color:var(--mid)}
+.cta{display:inline-block;background:var(--mid);color:#fff;text-decoration:none;font-weight:800;font-size:24px;border-radius:12px;padding:16px 26px}
+.foot{flex:none;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:7px 14px;background:#173d35;color:#fff}
+.foot button{appearance:none;border:1px solid #79a38b;background:#25694f;color:#fff;border-radius:8px;padding:8px 13px;font-weight:750;font-size:13px;cursor:pointer}
+.foot button:disabled{opacity:.35;cursor:default}.foot button:focus-visible{outline:3px solid #edb957}
+#counter{min-width:90px;text-align:center;font-weight:750;font-size:14px}.hint{font-size:12px;color:#bfd4c5}
+#deck:fullscreen .bar{display:none}
+@media(max-width:650px){.hint,.bar .sub{display:none}}
+@media print{
+ @page{size:1600px 900px;margin:0}
+ html,body{background:#fff;height:auto}.bar,.foot{display:none}#deck{display:block;height:auto}
+ .stage{display:block;padding:0;overflow:visible}.frame{transform:none!important;width:auto;height:auto}
+ .slide{display:flex!important;break-after:page;border-radius:0}
+}
+</style>
+</head>
+<body>
+<div id="deck">
+<div class="bar"><span class="brand">ATARFE · PERFIL DE SALUD LOCAL · GRUPO MOTOR</span><a href="perfil/">Perfil completo ↗</a><a href="index.html">← Espacio de Atarfe</a></div>
+<div class="stage" id="stage"><div class="frame" id="frame">
+
+<section class="slide cover">
+<span class="meta">Atarfe · Grupo Motor · 10 de noviembre de 2026</span>
+<h1>Lo que sabemos<br>de la salud de Atarfe</h1>
+<p class="lead">Recorrido del proceso de acción local en salud, principales resultados del Perfil de Salud Local y propuesta para priorizar.</p>
+<p class="src">Perfil de Salud Local de Atarfe · borrador de 9 de noviembre de 2026, pendiente de validación técnica</p>
+</section>
+
+<section class="slide">
+<span class="meta">01 · De dónde venimos</span>
+<h2>Dos años de proceso</h2>
+<div class="timeline">
+<div class="tl"><b>Nov. 2024</b><span>El Pleno aprueba la adhesión a la Red Local de Acción en Salud (RELAS)</span></div>
+<div class="tl"><b>Mar. 2025</b><span>El Ayuntamiento formaliza la adhesión ante la Consejería</span></div>
+<div class="tl"><b>2025</b><span>Se diseña una encuesta de salud de 691 entrevistas, que se sustituye por un monitor de bienestar</span></div>
+<div class="tl"><b>Nov. 2025</b><span>Epidemiología del Distrito entrega el Informe de Salud de Atarfe</span></div>
+<div class="tl"><b>27 feb. 2026</b><span>Taller de impulso: Ayuntamiento, centro de salud, salud mental comunitaria, asociaciones y ciudadanía</span></div>
+<div class="tl"><b>Mar.–abr. 2026</b><span>Monitor de bienestar socioemocional: 910 respuestas. Reunión de resultados</span></div>
+<div class="tl now"><b>Nov. 2026</b><span>Perfil de Salud Local: borrador para validar</span></div>
+</div>
+<p class="src">Fuentes: certificado del acuerdo plenario (28/11/2024); formulario de adhesión (12/03/2025); documentos del proyecto de encuesta (2025); Informe de Salud (21/11/2025); guion del taller de impulso (27/02/2026); export del Monitor (05/11/2026). El Grupo Motor está constituido; no hay actas de las reuniones.</p>
+</section>
+
+<section class="slide">
+<span class="meta">02 · Atarfe hoy</span>
+<h2>Un municipio que crece y es joven</h2>
+<div class="grid g4">
+<div class="card"><span class="big">20.952</span><p>habitantes en 2025.</p></div>
+<div class="card"><span class="big">+16,4<small> %</small></span><p>de población entre 2014 y 2024.</p></div>
+<div class="card"><span class="big">39</span><p>años de edad media en 2024.</p></div>
+<div class="card"><span class="big">13,4<small> %</small></span><p>tiene 65 años o más (2025).</p></div>
+</div>
+<div class="grid g2">
+<div class="card soft"><h3>Llega población</h3><p>En 2023 hubo 1.358 inmigraciones y 1.051 emigraciones, 189 nacimientos y 109 defunciones. Marruecos es el primer país de procedencia de la población extranjera (31,3 %).</p></div>
+<div class="card sand"><h3>Lo que aún no sabemos</h3><p>Renta, empleo y vivienda del municipio y de sus barrios. Sin esos datos no se puede describir dónde se concentran las condiciones de vida más difíciles.</p></div>
+</div>
+<p class="src">Fuentes: INE, Padrón 2025 (tabla 68535); Informe de Salud de Atarfe (21/11/2025), tabla 1 e introducción.</p>
+</section>
+
+<section class="slide">
+<span class="meta">03 · Informe de Salud · 2024</span>
+<h2>Enfermedad crónica: el patrón de la provincia, con cuatro excepciones</h2>
+<table>
+<thead><tr><th>Casos por 10.000 habitantes</th><th class="n">Atarfe</th><th class="n">Granada</th></tr></thead>
+<tbody>
+<tr><td>Dislipemia</td><td class="n">2.332,12</td><td class="n">2.656,45</td></tr>
+<tr><td>Hipertensión</td><td class="n">1.952,16</td><td class="n">2.289,39</td></tr>
+<tr style="background:#f7f0e3"><td><b>Asma</b></td><td class="n"><b>1.508,96</b></td><td class="n">1.402,49</td></tr>
+<tr style="background:#f7f0e3"><td><b>Trastorno de ansiedad</b></td><td class="n"><b>1.126,49</b></td><td class="n">1.030,68</td></tr>
+<tr style="background:#f7f0e3"><td><b>Obesidad</b></td><td class="n"><b>599,99</b></td><td class="n">553,83</td></tr>
+<tr style="background:#f7f0e3"><td><b>Litiasis urinaria</b></td><td class="n"><b>390,17</b></td><td class="n">356,51</td></tr>
+</tbody></table>
+<p class="src">Fuente: Informe de Salud de Atarfe (21/11/2025), tabla 6. Valores tal como los publica Epidemiología del Distrito Sanitario Granada-Metropolitano.</p>
+</section>
+
+<section class="slide">
+<span class="meta">04 · Informe de Salud</span>
+<h2>Mortalidad y prevención</h2>
+<div class="grid g3">
+<div class="card"><span class="big">109</span><h3>Defunciones en 2023</h3><p>113 en 2022. Primeras causas: circulatorias (27) y tumores (24). Las respiratorias pasan de 11 a 15.</p></div>
+<div class="card"><span class="big">80,57<small> %</small></span><h3>Cribado de mama</h3><p>de las mujeres invitadas participa. En el de colon participa el 42,97 % de la población elegible.</p></div>
+<div class="card"><span class="big">&gt;96<small> %</small></span><h3>Vacunación infantil</h3><p>en todos los indicadores de cobertura del informe.</p></div>
+</div>
+<div class="card sand"><p>El trastorno de ansiedad registrado <b>duplica en las mujeres</b> el de los hombres: 1.522,92 frente a 726,08 por 10.000.</p></div>
+<p class="src">Fuente: Informe de Salud de Atarfe (21/11/2025), tablas 3, 6, 10, 11 y 12.</p>
+</section>
+
+<section class="slide">
+<span class="meta">05 · Monitor de bienestar socioemocional</span>
+<h2>910 personas respondieron</h2>
+<div class="grid g3">
+<div class="card soft"><span class="big">910</span><p>respuestas entre el 6 de marzo y el 26 de abril de 2026, en papel y por QR, en institutos y otros espacios del municipio. 811 completas.</p></div>
+<div class="card soft"><span class="big">13–88</span><p>años de edad. 145 respuestas de 13 a 15 años y 666 de 16 o más.</p></div>
+<div class="card soft"><span class="big">2 × </span><p>la muestra de referencia: para la población de 15 o más años bastaban 376 respuestas aleatorias; se reunieron 752.</p></div>
+</div>
+<div class="card"><p>Un trabajo conjunto del Ayuntamiento de Atarfe y del Distrito Sanitario Granada-Metropolitano, con la ciudadanía respondiendo. La muestra no es aleatoria: responden más las mujeres (64,8 % frente al 50,4 % del padrón) y los jóvenes de 15 a 24 años, y menos los hombres de 25 a 64 y de 65 o más.</p></div>
+<p class="src">Fuente: Monitor de bienestar socioemocional Atarfe 2026 (IBSE, Bericat 2014), export de REDCap del 05/11/2026; INE, Padrón 2025; composición de la muestra calculada con SAM (COMPÁS).</p>
+</section>
+
+<section class="slide">
+<span class="meta">06 · Una corrección necesaria</span>
+<h2>Los factores del IBSE, en la misma escala</h2>
+<p class="lead">Las fórmulas del cuestionario en REDCap no medían los cuatro factores de 0 a 100: Vínculo solo podía llegar a 75 y Situación y Control empezaban en 25. Recalculado desde las ocho preguntas, el orden cambia.</p>
+<table>
+<thead><tr><th>Factor</th><th class="n">Con las fórmulas anteriores</th><th class="n">Escala común 0–100</th></tr></thead>
+<tbody>
+<tr><td>Vínculo (deprimido, solo)</td><td class="n">54,3</td><td class="n"><b>72,4</b></td></tr>
+<tr><td>Situación (feliz, disfrutar)</td><td class="n">70,2</td><td class="n"><b>60,3</b></td></tr>
+<tr><td>Control (energía, tranquilidad)</td><td class="n">63,3</td><td class="n"><b>51,1</b></td></tr>
+<tr><td>Persona (optimismo, bien consigo)</td><td class="n">65,0</td><td class="n"><b>65,0</b></td></tr>
+<tr><td>IBSE total</td><td class="n">63,2</td><td class="n"><b>62,2</b></td></tr>
+</tbody></table>
+<p class="src">Las respuestas no cambian; cambia la forma de convertirlas en puntuación. El cuestionario de REDCap ya está corregido para próximas ediciones.</p>
+</section>
+
+<section class="slide">
+<span class="meta">07 · Monitor · resultados</span>
+<h2>Las relaciones sostienen; la energía y la calma flaquean</h2>
+<div class="bars">
+<div class="brow top"><span>Vínculo</span><div class="track"><div class="fill" style="width:72.4%"></div></div><span class="pct">72,4</span></div>
+<div class="brow"><span>Persona</span><div class="track"><div class="fill" style="width:65%"></div></div><span class="pct">65,0</span></div>
+<div class="brow"><span>Situación</span><div class="track"><div class="fill" style="width:60.3%"></div></div><span class="pct">60,3</span></div>
+<div class="brow"><span>Control</span><div class="track"><div class="fill" style="width:51.1%;background:#b7791f"></div></div><span class="pct">51,1</span></div>
+</div>
+<div class="grid g3">
+<div class="card sand"><span class="big">50,7<small> %</small></span><p>se sintió tranquilo solo en algún momento o en ninguno durante la última semana.</p></div>
+<div class="card sand"><span class="big">46,1<small> %</small></span><p>se sintió con energía solo en algún momento o en ninguno.</p></div>
+<div class="card"><span class="big">18,4<small> %</small></span><p>se sintió solo buena parte del tiempo o casi siempre.</p></div>
+</div>
+<p class="src">Monitor Atarfe 2026, 811 respuestas válidas. Medias y porcentajes de la muestra participante, no estimaciones de la población.</p>
+</section>
+
+<section class="slide">
+<span class="meta">08 · Monitor · quién puntúa más bajo</span>
+<h2>Mujeres y personas en edad de trabajar</h2>
+<table>
+<thead><tr><th>IBSE total</th><th class="n">13–15</th><th class="n">16–24</th><th class="n">25–44</th><th class="n">45–64</th><th class="n">65+</th></tr></thead>
+<tbody>
+<tr><td>Hombres</td><td class="n">69,9</td><td class="n">68,0</td><td class="n">61,4</td><td class="n">57,8</td><td class="n">65,1*</td></tr>
+<tr><td>Mujeres</td><td class="n">65,2</td><td class="n">59,0</td><td class="n">58,6</td><td class="n">60,4</td><td class="n">62,9</td></tr>
+<tr><td><b>Total</b></td><td class="n"><b>67,6</b></td><td class="n"><b>63,3</b></td><td class="n"><b>59,5</b></td><td class="n"><b>59,5</b></td><td class="n"><b>63,3</b></td></tr>
+</tbody></table>
+<div class="grid g2">
+<div class="card soft"><p>La brecha entre mujeres y hombres se abre entre los 16 y los 24 años: 9 puntos.</p></div>
+<div class="card soft"><p>Entre las personas de 65 o más, el 11,1 % no se sintió feliz en ningún momento o casi ninguno.</p></div>
+</div>
+<p class="src">Monitor Atarfe 2026. * Hombres de 65 o más: 27 respuestas; leer con cautela.</p>
+</section>
+
+<section class="slide">
+<span class="meta">09 · Lo que dicen dos fuentes a la vez</span>
+<h2>Malestar emocional: la misma señal desde dos lados</h2>
+<div class="grid g2">
+<div class="card"><span class="pill">Informe de Salud · 2024</span><h3>Trastorno de ansiedad registrado</h3><p>Más que en Granada (1.126,49 frente a 1.030,68 por 10.000) y el doble en mujeres que en hombres.</p></div>
+<div class="card"><span class="pill">Monitor · 2026</span><h3>Factor Control, el más bajo</h3><p>La mitad no se sintió tranquila; las mujeres puntúan por debajo de los hombres (49,0 frente a 54,8).</p></div>
+</div>
+<div class="card sand"><p>Dos fuentes independientes, construidas de forma distinta, apuntan en la misma dirección. Es una coincidencia observada en Atarfe: <b>no explica por sí sola sus causas</b>.</p></div>
+<p class="src">Fuentes: Informe de Salud, tabla 6; Monitor Atarfe 2026. La comparación con la Encuesta Andaluza de Salud (Granada, 78,4) no puede leerse como diferencia de bienestar: cambian el modo de respuesta y la selección.</p>
+</section>
+
+<section class="slide">
+<span class="meta">10 · Con qué cuenta Atarfe</span>
+<h2>20 recursos registrados en Localiza Salud</h2>
+<div class="grid g3">
+<div class="card"><span class="pill">Centro de salud</span><h3>Malestar emocional</h3><p>Grupo de afrontamiento de la ansiedad (GRAFA), grupos socioeducativos (GRUSE), taller de sueño saludable y Unidad de salud mental comunitaria.</p></div>
+<div class="card"><span class="pill">Mayores</span><h3>Centro de Participación Activa</h3><p>Talleres de coro, senderismo y gimnasia mental.</p></div>
+<div class="card"><span class="pill">Jóvenes</span><h3>Espacio Joven</h3><p>Información, ocio, formación y voluntariado.</p></div>
+</div>
+<div class="card soft"><p>Y recursos para toda la población: biblioteca, Centro Cívico, Centro Cultural Medina Elvira, piscina cubierta, club de senderismo Castillejo, Punto Vuela, radio municipal, asociación y talleres artísticos. Solo la educación de personas adultas y los talleres artísticos declaran a las personas de 30 a 64 años entre sus destinatarios; <b>ninguno se dirige en particular a la edad de trabajar</b>, la de bienestar más bajo. Su validación como activos está pendiente.</p></div>
+<p class="src">Fuente: Localiza Salud, tabla de 20 registros (9/11/2026); 11 declaran la temática de bienestar emocional. El Centro de Participación Activa figura dos veces (posible duplicado).</p>
+</section>
+
+<section class="slide">
+<span class="meta">11 · Qué concluye el Perfil</span>
+<h2>Ocho conclusiones</h2>
+<div class="grid g2" style="gap:12px">
+<div class="card" style="padding:14px 20px"><p><b>C1</b> · Municipio joven y en crecimiento, sin datos de cómo se reparten las condiciones de vida.</p></div>
+<div class="card" style="padding:14px 20px"><p><b>C2</b> · Enfermedad crónica del patrón provincial, con más asma, ansiedad, obesidad y litiasis.</p></div>
+<div class="card soft" style="padding:14px 20px"><p><b>C3</b> · Dos fuentes coinciden en el malestar emocional, que pesa más en las mujeres.</p></div>
+<div class="card soft" style="padding:14px 20px"><p><b>C4</b> · El bienestar más bajo, en la edad de trabajar; la brecha por sexo se abre en la juventud.</p></div>
+<div class="card" style="padding:14px 20px"><p><b>C5</b> · Las relaciones sostienen, pero una de cada cinco personas se sintió sola.</p></div>
+<div class="card" style="padding:14px 20px"><p><b>C6</b> · La participación es una capacidad; la muestra no reproduce la población.</p></div>
+<div class="card" style="padding:14px 20px"><p><b>C7</b> · Los recursos centrados en el malestar emocional son sanitarios; los comunitarios, para mayores, jóvenes o toda la población.</p></div>
+<div class="card" style="padding:14px 20px"><p><b>C8</b> · Alta vacunación y cribado de mama; menos de la mitad en el de colon.</p></div>
+</div>
+<p class="src">Perfil de Salud Local de Atarfe, versión 0.2 (9/11/2026), apartado 2. Pendientes de validación técnica.</p>
+</section>
+
+<section class="slide">
+<span class="meta">12 · Lo que el Perfil recomienda</span>
+<h2>Conocer, contrastar, abordar</h2>
+<div class="grid g3">
+<div class="card"><span class="pill">Conocer</span><ul class="clean" style="font-size:21px"><li>Renta y empleo por sección censal</li><li>Un nuevo Monitor que llegue a 25–64 años y a hombres mayores</li><li>Tras priorizar, mapear los activos de las líneas elegidas y validar los 20 recursos</li></ul></div>
+<div class="card"><span class="pill alt">Contrastar</span><ul class="clean" style="font-size:21px"><li>Con salud mental comunitaria, la lectura ansiedad–control</li><li>Asma, obesidad, litiasis y mortalidad respiratoria</li><li>Barreras en el cribado de colon</li></ul></div>
+<div class="card soft"><span class="pill">Abordar</span><ul class="clean" style="font-size:21px"><li><b>Bienestar emocional y salud mental</b>, con atención a mujeres y edad de trabajar</li><li><b>Soledad no deseada</b> y pérdida de disfrute en mayores</li></ul></div>
+</div>
+<p class="src">Recomendaciones R1–R8 del Perfil. Ninguna está ordenada ni decidida: el equipo técnico las elige y el Grupo Motor prioriza.</p>
+</section>
+
+<section class="slide">
+<span class="meta">13 · Cómo priorizar</span>
+<h2>Dos caminos para el Grupo Motor</h2>
+<div class="grid g2">
+<div class="card"><span class="pill alt">Opción A</span><h3>Priorización temática</h3><p>La ciudadanía elige hasta cinco temas de una lista (bienestar emocional, actividad física, alimentación, sueño…). Ordena preocupaciones, pero después hay que traducirlas en líneas, objetivos e indicadores.</p></div>
+<div class="card soft"><span class="pill">Opción B · recomendada</span><h3>Priorización por líneas estratégicas</h3><p>El Grupo Motor elige entre líneas que ya traen objetivos e indicadores en la herramienta de Plan de Acción de COMPÁS: hoy, envejecimiento saludable y prevención de adicciones; en construcción, <b>bienestar emocional y salud mental</b>.</p></div>
+</div>
+<div class="card sand"><p>Pregunta para hoy: <b>a la luz del Perfil, ¿priorizamos por líneas estratégicas y empezamos por valorar la de bienestar emocional y salud mental?</b></p></div>
+<p class="src">El Perfil propone; el Grupo Motor decide. La línea de bienestar emocional y salud mental se está construyendo a partir de estrategias y planes de promoción de la salud mental.</p>
+</section>
+
+<section class="slide">
+<span class="meta">14 · Una línea en construcción</span>
+<h2>Bienestar emocional y salud mental</h2>
+<div class="chain">
+<div><b>Línea</b>Bienestar emocional y salud mental desde la promoción y la prevención</div>
+<div><b>Objetivos</b>Generales y específicos, de impacto y de resultado</div>
+<div class="here"><b>Indicadores</b>Entre ellos, el IBSE y sus cuatro factores</div>
+<div><b>Agendas</b>2027–2030, con las actuaciones del municipio</div>
+</div>
+<div class="grid g2" style="flex:none">
+<div class="card"><h3>Enfoque</h3><p>Salutogénico y basado en activos: fortalecer lo que sostiene el bienestar (relaciones, participación, entornos) además de atender el malestar.</p></div>
+<div class="card soft"><h3>Punto de partida medido</h3><p>El Monitor de 2026 sirve como línea de base: un segundo Monitor permitiría ver cambios con el mismo instrumento.</p></div>
+</div>
+<p class="src">Módulo del catálogo de Plan de Acción de COMPÁS en elaboración. Sus objetivos e indicadores se revisan y adaptan por el Grupo Motor.</p>
+</section>
+
+<section class="slide">
+<span class="meta">15 · Próximos pasos</span>
+<h2>Del Perfil al Plan Local de Salud 2027–2030</h2>
+<div class="chain">
+<div class="here"><b>1 · Validar</b>El Perfil de Salud Local y sus recomendaciones</div>
+<div><b>2 · Priorizar</b>Líneas estratégicas por el Grupo Motor</div>
+<div><b>3 · Mapear</b>Activos vinculados a las líneas elegidas</div>
+<div><b>4 · Planificar</b>Plan de Acción y agendas anuales</div>
+</div>
+<div class="grid g2">
+<div class="card"><h3>Qué queda documentado hoy</h3><p>Adhesión, Informe de Salud, taller de impulso, Monitor y borrador de Perfil.</p></div>
+<div class="card sand"><h3>Qué hay que acordar</h3><p>Método y calendario de priorización, quién coordina el mapeo de activos y cómo se recogen las actas del Grupo Motor.</p></div>
+</div>
+<p class="src">Secuencia de trabajo propuesta. Las fechas y responsables los acuerda el Grupo Motor.</p>
+</section>
+
+<section class="slide cover">
+<span class="meta">Atarfe · Perfil de Salud Local</span>
+<h1>Gracias</h1>
+<p class="lead">El diagnóstico está hecho con los datos del Distrito y con la voz de 910 vecinas y vecinos. Ahora toca decidir por dónde empezar.</p>
+<div style="margin-top:26px;padding:25px 30px;border-left:5px solid #bfe3c9;background:rgba(255,255,255,.09);border-radius:8px;max-width:1000px;color:#fff">
+<p style="margin:0 0 10px;font-size:31px;font-weight:800;letter-spacing:.025em">B HERMOSO</p>
+<p style="margin:0 0 5px;font-size:23px">Técnico de educación para la salud y participación comunitaria</p>
+<p style="margin:0 0 10px;font-size:23px">Distrito Sanitario Granada-Metropolitano</p>
+<p style="margin:0;font-size:21px"><a href="mailto:blasr.hermoso.sspa@juntadeandalucia.es" style="color:#dcefe2">blasr.hermoso.sspa@juntadeandalucia.es</a> · <a href="tel:+34608176892" style="color:#dcefe2">608 176 892</a></p>
+</div>
+<p class="src">Fuentes principales: Informe de Salud de Atarfe (2025); Monitor de bienestar socioemocional Atarfe 2026; INE, Padrón 2025; Localiza Salud; Perfil de Salud Local de Atarfe (borrador).</p>
+</section>
+</div></div>
+<div class="foot"><div><button id="prev" type="button">← Anterior</button> <span id="counter">1 / 1</span> <button id="next" type="button">Siguiente →</button></div><span class="hint">Flechas ← → · Espacio · Inicio/Fin · F pantalla completa</span><button id="fs" type="button">⛶ Presentar</button></div>
+</div>
+<script>
+(function(){
+'use strict';
+const slides=[...document.querySelectorAll('.slide')];let i=0;
+const counter=document.getElementById('counter'),prev=document.getElementById('prev'),next=document.getElementById('next');
+function fromHash(){const n=parseInt((location.hash||'').replace(/\D/g,''),10);return n>=1&&n<=slides.length?n-1:0}
+function show(n){i=Math.max(0,Math.min(slides.length-1,n));slides.forEach((s,k)=>s.classList.toggle('on',k===i));counter.textContent=(i+1)+' / '+slides.length;prev.disabled=i===0;next.disabled=i===slides.length-1;try{history.replaceState(null,'','#'+(i+1))}catch(e){}}
+function fit(){const st=document.getElementById('stage'),fr=document.getElementById('frame');const s=Math.min(st.clientWidth/1600,st.clientHeight/900);fr.style.transform='scale('+s+')';fr.style.margin=((st.clientHeight-900*s)/2>0?0:0)+'px'}
+prev.addEventListener('click',()=>show(i-1));next.addEventListener('click',()=>show(i+1));
+document.getElementById('fs').addEventListener('click',()=>{const d=document.getElementById('deck');if(!document.fullscreenElement&&d.requestFullscreen)d.requestFullscreen().catch(()=>{});else if(document.exitFullscreen)document.exitFullscreen().catch(()=>{})});
+document.addEventListener('keydown',e=>{if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();show(i+1)}else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();show(i-1)}else if(e.key==='Home')show(0);else if(e.key==='End')show(slides.length-1);else if(e.key==='f'||e.key==='F')document.getElementById('fs').click()});
+window.addEventListener('resize',fit);document.addEventListener('fullscreenchange',()=>setTimeout(fit,50));
+show(fromHash());fit();
+})();
+</script>
+</body>
+</html>
