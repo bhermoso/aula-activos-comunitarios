@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#173d35">
+<meta name="description" content="Espacio del II Plan Local de Salud de Alfacar: taller de impulso, Informe de situación de salud y activos para la salud.">
+<title>Alfacar · II Plan Local de Salud · Aula de Salud Comunitaria</title>
+<style>
+:root{color-scheme:light;--deep:#173d35;--mid:#25694f;--sage:#e8f0e6;--surface:#fff;--muted:#466459;--line:#c9d9cd;--sand:#f7f0e3}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f2f5f1;color:#183a30;font:16px/1.55 system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+a{color:#14553d}button,input,select,textarea{font:inherit}button,a{touch-action:manipulation}
+.skip{position:absolute;top:-100px;left:5px;background:white;padding:9px}.skip:focus{top:5px;z-index:20}
+header{background:var(--deep);color:#fff}header .top{max-width:1170px;margin:auto;padding:13px 22px;display:flex;justify-content:space-between;gap:16px;align-items:center}
+header a{color:#fff;text-decoration:none;font-size:14px}header .brand{font-weight:750;letter-spacing:.025em}
+.hero{max-width:1170px;margin:auto;padding:48px 22px 43px;display:grid;grid-template-columns:1.7fr 1fr;align-items:center;gap:24px}
+.eyebrow{font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#c6e6cb}.hero h1{font:600 clamp(37px,5vw,62px)/1.06 Georgia,serif;margin:9px 0 18px;letter-spacing:-.02em}
+.hero p{max-width:710px;color:#e2eee8;margin:0 0 20px;font-size:17px}.hero .highlights{display:flex;gap:8px;flex-wrap:wrap}.hero .highlights span{border:1px solid #668f7d;border-radius:100px;padding:5px 10px;font-size:12px;font-weight:700}
+.hero aside{border:1px solid #658579;border-radius:16px;background:#ffffff10;padding:23px}.hero aside strong{display:block;font:600 23px Georgia,serif;margin-bottom:9px}.hero aside p{font-size:14px;line-height:1.55;margin:0}
+nav.steps{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line);z-index:10}nav.steps .inner{max-width:1170px;margin:auto;display:flex;gap:8px;overflow-x:auto;padding:8px 20px}nav.steps a{display:inline-block;white-space:nowrap;padding:10px 12px;border-radius:8px;text-decoration:none;font-size:13px;font-weight:750;color:var(--deep)}nav.steps a:hover,nav.steps a:focus-visible{background:var(--sage)}
+main{max-width:1170px;margin:auto;padding:23px 22px 60px}
+section{scroll-margin-top:82px;margin:17px 0 30px}.section-head{display:flex;align-items:baseline;gap:15px;border-bottom:2px solid var(--line);padding-bottom:12px;margin-bottom:18px}.num{color:var(--mid);font-size:12px;letter-spacing:.12em;font-weight:900}h2{font:600 clamp(26px,3.5vw,36px)/1.2 Georgia,serif;margin:0}h3{font:600 20px/1.27 Georgia,serif;margin:0 0 9px}p{margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.panel{padding:21px;border:1px solid var(--line);border-radius:14px;background:var(--surface)}.panel p:last-child{margin-bottom:0}
+.panel.soft{background:var(--sage)}.panel.sand{background:var(--sand)}.text-muted{color:var(--muted);font-size:14px}
+.stage{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;background:#e9e9f1;border-radius:100px;padding:4px 9px;color:#405}
+ul{padding-left:20px;margin:8px 0}li{margin:7px 0}
+.notice{padding:15px 17px;border-left:4px solid #628b69;background:#e9f1e9;color:#224936;border-radius:0 10px 10px 0;font-size:14px}
+.form-stack{display:grid;gap:14px}label{display:block;font-size:13px;font-weight:800;color:var(--deep);margin-bottom:5px}
+input,textarea,select{width:100%;padding:10px 11px;border:1px solid #9ebca9;border-radius:8px;background:#fff;color:#173d35}
+textarea{min-height:84px;resize:vertical}input:focus,textarea:focus,select:focus{outline:2px solid #438e61;outline-offset:1px}
+button,.action{display:inline-block;background:var(--mid);color:#fff;border:0;border-radius:8px;padding:11px 14px;font-size:14px;font-weight:800;text-decoration:none;cursor:pointer}
+button:hover,.action:hover{background:#164e3c;color:#fff}.action.alt{background:#eef3ed;color:var(--deep);border:1px solid #a4c3ac}.action.alt:hover{background:#d7e9d8;color:var(--deep)}
+.row-actions{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin:12px 0}.label-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.card-list{display:grid;gap:9px;margin:12px 0}.entry{border:1px solid var(--line);border-radius:9px;background:#fff;padding:12px 14px}.entry strong{display:block;font-size:15px}.entry small{color:var(--muted)}.entry button{font-size:12px;padding:5px 9px;margin-top:7px;background:#f1e6e3;color:#773e37;border:1px solid #dab8ae}
+.tools{display:flex;flex-wrap:wrap;gap:13px}.tool{display:block;flex:1;min-width:240px;background:#fff;border:1px solid #b9d2c3;border-radius:12px;padding:17px 18px;text-decoration:none}.tool span{display:block;font-size:12px;color:#4e695b}.tool strong{display:block;font-size:18px;color:var(--deep);margin:2px 0 7px}.tool:hover{border-color:#247048;background:#f8fff7}
+footer{border-top:1px solid var(--line);padding:21px;text-align:center;font-size:13px;color:var(--muted)}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:34px}.grid,.grid.three,.label-pair{grid-template-columns:1fr}.section-head{gap:10px}.hero aside{padding:16px}main{padding-left:14px;padding-right:14px}}
+@media print{nav.steps,button,.row-actions,.skip{display:none!important}.hero{background:#fff;color:#183a30}header{background:#fff;color:#183a30}.hero p,header a{color:#183a30}.panel{break-inside:avoid}section{break-before:page}}
+table{width:100%;border-collapse:collapse;background:#fff;font-size:14px}th,td{border-bottom:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}th{background:var(--sage);font-size:12px;text-transform:uppercase;letter-spacing:.05em}tr.ok td:last-child{color:#1e5a3f;font-weight:800}.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px}.prog{display:grid;gap:9px}.prog .entry{display:grid;grid-template-columns:52px 1fr;gap:12px;align-items:start}.prog .n{font:700 22px Georgia,serif;color:var(--mid)}.pend{display:inline-block;font-size:11px;font-weight:800;background:#f6e7cf;color:#8a5a12;border-radius:100px;padding:2px 8px;margin-left:6px}.kpi{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.kpi div{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px}.kpi b{display:block;font:600 26px Georgia,serif;color:var(--deep)}.kpi span{font-size:13px;color:var(--muted)}@media(max-width:760px){.kpi{grid-template-columns:1fr 1fr}.prog .entry{grid-template-columns:40px 1fr}}
+</style>
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<header>
+<div class="top"><a class="brand" href="../index.html">← AULA · SALUD COMUNITARIA</a><span>ALFACAR · II PLAN LOCAL DE SALUD</span></div>
+<div class="hero">
+<div><span class="eyebrow">Alfacar · II Plan Local de Salud</span><h1>Impulsar el segundo<br>Plan Local de Salud</h1><p>El espacio del proceso de acción local en salud de Alfacar: el taller de impulso del II Plan, el Informe de situación de salud y los activos para la salud ya validados.</p><div class="highlights"><span>01 Taller</span><span>02 Informe de salud</span><span>03 Activos</span><span>04 Herramientas</span></div></div>
+<aside><strong>Estado a 10 de noviembre de 2026</strong><p>Informe de situación de salud de septiembre de 2026 (Epidemiología del Distrito Sanitario Granada-Metropolitano). Siete activos validados en Localiza Salud. Taller de impulso del II Plan Local de Salud previsto para la semana del 16 de noviembre de 2026; fecha, hora y lugar por confirmar.</p></aside>
+</div>
+</header>
+<nav class="steps" aria-label="Secciones de Alfacar"><div class="inner"><a href="#taller">01 · Taller de impulso</a><a href="#informe">02 · Informe de salud</a><a href="#activos">03 · Activos</a><a href="#herramientas">04 · Herramientas</a><a href="../index.html">Aula principal</a></div></nav>
+<main id="contenido">
+
+<section id="taller">
+<div class="section-head"><span class="num">01 / IMPULSO</span><h2>Taller de impulso del II Plan Local de Salud</h2></div>
+<div class="notice"><strong>Programa provisional.</strong> Sigue la secuencia del encuentro de Fuente Vaqueros. Fecha, hora, lugar, intervenciones y participantes del coloquio están pendientes de confirmar; no se da por confirmada ninguna intervención.</div>
+<div class="prog" style="margin-top:14px">
+<div class="entry"><span class="n">01</span><div><strong>Apertura institucional</strong><small>Ayuntamiento de Alfacar.</small><span class="pend">por confirmar</span></div></div>
+<div class="entry"><span class="n">02</span><div><strong>Informe sobre la situación de salud en el municipio de Alfacar</strong><small>Unidad de Prevención, Promoción y Vigilancia de la Salud, Distrito Granada-Metropolitano. El Informe lo firman Carlos del Moral Campaña y María José Molina Rueda (septiembre de 2026).</small><span class="pend">ponente por confirmar</span></div></div>
+<div class="entry"><span class="n">03</span><div><strong>Coloquio · Salud y bienestar en Alfacar</strong><small>Un diálogo entre epidemiología, atención primaria y otras miradas del municipio, con moderación local.</small><span class="pend">voces y moderación por confirmar</span></div></div>
+<div class="entry"><span class="n">04</span><div><strong>Del I al II Plan Local de Salud</strong><small>Recorrido del primer Plan: lo que se hizo, lo que queda y lo que cambia en el segundo ciclo.</small><span class="pend">pendiente del expediente</span></div></div>
+<div class="entry"><span class="n">05</span><div><strong>Práctica sobre activos para la salud</strong><small>Partir de los siete activos validados y de los recursos registrados para completar el mapa con la comunidad.</small></div></div>
+<div class="entry"><span class="n">06</span><div><strong>Puesta en común y cierre</strong><small>Síntesis de aportaciones y próximos pasos. Los acuerdos dependerán de la deliberación del taller.</small></div></div>
+</div>
+</section>
+
+<section id="informe">
+<div class="section-head"><span class="num">02 / DIAGNÓSTICO</span><h2>Informe de situación de salud</h2></div>
+<p class="text-muted">Datos reproducidos del Informe sobre la situación de salud en el municipio de Alfacar (Epidemiología, Distrito Granada-Metropolitano, septiembre de 2026), con el año que da el propio Informe.</p>
+<div class="kpi">
+<div><b>5.840</b><span>habitantes en 2025: 2.950 hombres y 2.890 mujeres</span></div>
+<div><b>17,0 %</b><span>de 65 o más años; edad media de 42,8 años (2024)</span></div>
+<div><b>+5,4 %</b><span>de población entre 2014 y 2024; 33 nacimientos y 45 defunciones en 2024</span></div>
+<div><b>2</b><span>núcleos urbanos con población casi igual: Alfacar y Fuente Grande</span></div>
+</div>
+<div class="grid three" style="margin-top:16px">
+<div class="panel"><h3>Enfermedad crónica</h3><p>El asma registra 1.589,56 casos por 10.000 habitantes, frente a 1.448,67 en Granada y 1.187,09 en Andalucía (2025). Dislipemia, hipertensión y diabetes quedan por debajo de ambas referencias.</p></div>
+<div class="panel"><h3>Prevención</h3><p>Participa en el cribado de colon el 42,60 % de las personas invitadas (Andalucía: 23,77 %) y en el de cuello de útero el 35,10 % de las invitadas (Andalucía: 8,68 %). Captación vacunal del 100 % y primovacunación del 98,44 % (2025).</p></div>
+<div class="panel"><h3>Vigilancia</h3><p>Entre 2022 y 2026 se declararon 21 casos de infección por Chlamydia trachomatis y 19 de infección gonocócica; en 2024, 9 casos de tosferina. Las defunciones pasaron de 35 en 2023 a 45 en 2024; las debidas a tumores, de 9 a 13.</p></div>
+</div>
+<div class="panel sand" style="margin-top:15px"><h3>Lo que no cuadra</h3><p>En el cribado de mama participa el 96,61 % de las mujeres citadas, pero solo se citó al 11,85 % de las elegibles (Granada: 28,32 %; Andalucía: 67,86 %). La discusión del Informe presenta el cribado de mama como un resultado excelente sin comentar esa cobertura de invitación.</p></div>
+</section>
+
+<section id="activos">
+<div class="section-head"><span class="num">03 / CAPACIDADES</span><h2>Activos para la salud</h2></div>
+<p>Localiza Salud registra recursos de Alfacar, de los que siete están validados como activos para la salud. La tabla recoge los 11 registros aportados; los textos son los del portal, incluidas sus erratas.</p>
+<div class="tablewrap"><table><thead><tr><th>Recurso</th><th>Destinatarios</th><th>Temáticas en Localiza Salud</th><th>Estado</th></tr></thead><tbody>
+<tr class="ok"><td><b>Asociación de Mujeres Alfujar (Alfacar)</b><br><small>Asociación de mujeres que realizan talleres continuos, clases, excursiones, viajes y ocio</small></td><td>Mayores de 64 años, Adultos (30-64 años)</td><td>Envejecimiento activo, Bienestar emocional, Personas cuidadoras, Participación y acción comunitaria, Cultura y ocio, Personas en riesgo de exclusión, Actividad física</td><td>Activo validado</td></tr><tr><td><b>Carril Bici</b><br><small>Carril Bici amplio con dos carriles que facilita la circulación</small></td><td>Población general</td><td>Cultura y ocio, Actividad física</td><td>Recurso registrado</td></tr><tr class="ok"><td><b>Centro de día Alfacar</b><br><small>Centro de día situado en Alfacar con plazas concertadas con la junta de Andalucía que se pueden solicitar a través de servicios sociales. Fuera de olas de calor…</small></td><td>Mayores de 64 años</td><td>Envejecimiento activo, Bienestar emocional, Cultura y ocio, Alimentación saludable, Personas en riesgo de exclusión</td><td>Activo validado</td></tr><tr><td><b>Centro de Servicios Sociales Comunitarios Alfacar</b><br><small>Centro de servicios sociales con variedad de servicios y recursos a las personas que necesitan apoyo social, como asistencia social, orientación, programas de p…</small></td><td>Población general</td><td>Bienestar emocional, Escuela de salud/formación, Personas cuidadoras, Participación y acción comunitaria, Cultura y ocio, Personas en riesgo de exclusión</td><td>Recurso registrado</td></tr><tr><td><b>Centro ocupacional &quot;La Boronda&quot;</b><br><small>Centro de día ocupacional para personas con discapacidad intelectual Cuenta con 30 plazas de las cuales 15 son privadas y 15 concertadas con la Junta de Andaluc…</small></td><td>Otros</td><td>Envejecimiento activo, Bienestar emocional, Escuela de salud/formación, Cultura y ocio, Alimentación saludable, Personas en riesgo de exclusión, Actividad física</td><td>Recurso registrado</td></tr><tr class="ok"><td><b>Ciudad deportiva</b><br><small>Instalaciones deportivas municipales situadas en la calle Eras. Gestionada por la Concejalía de Deportes del Ayuntamiento, ofrece múltiples oportunidades de pra…</small></td><td>Población general</td><td>Envejecimiento activo, Actividad física</td><td>Activo validado</td></tr><tr><td><b>Complejo de las Encinas</b><br><small>Es un complejo en el que hay una piscina y varias pistas de pádel. Perfectas para realizar actividad física a costos muy bajos</small></td><td>Población general</td><td>Cultura y ocio, Actividad física</td><td>Recurso registrado</td></tr><tr class="ok"><td><b>Grupo de afrontamiento de la Ansiedad (GRAFA)</b><br><small>Intervención grupal psicoeducativa para afrontar la ansiedad leve y moderada. El objetivo general de los grupos GRAFA es aumentar la capacidad de afrontamiento …</small></td><td>Jóvenes (18-29 años), Mayores de 64 años, Adultos (30-64 años)</td><td>Bienestar emocional, Escuela de salud/formación</td><td>Activo validado</td></tr><tr class="ok"><td><b>Grupo socioeducativo -GRUSE- del Centro de Salud de Alfacar</b><br><small>Grupo Socioeducativo GRUSE del Centro de Salud Alfacar: Intervención grupal de promoción de la salud y el bienestar emocional destinada a personas con malestar …</small></td><td>Jóvenes (18-29 años), Mayores de 64 años, Población general, Adultos (30-64 años)</td><td>Otros, Bienestar emocional</td><td>Activo validado</td></tr><tr class="ok"><td><b>Parque ejercicio mayores</b><br><small>Parque con máquinas para que personas mayores puedan realizar ejercicio físico</small></td><td>Mayores de 64 años</td><td>Actividad física</td><td>Activo validado</td></tr><tr class="ok"><td><b>Punto Vuela Alfacar</b><br><small>Los Puntos Vuela son espacios digitales que ofrecen equipamiento, acceso y formación en competencias digitales y tecnologías emergentes a toda la ciudadanía. Co…</small></td><td>Población general</td><td>Otros</td><td>Activo validado</td></tr>
+</tbody></table></div>
+<p class="text-muted" style="margin-top:10px">Tabla aportada el 10/11/2026. Fuente del estado de validación: indicación del responsable técnico. COMPÁS conserva como activos los siete validados.</p>
+</section>
+
+<section id="herramientas">
+<div class="section-head"><span class="num">04 / USAR</span><h2>Herramientas</h2></div>
+<div class="tools">
+<a class="tool" href="https://bhermoso.github.io/compas-ng-renovado/?fase=repositorio" target="_blank" rel="noopener noreferrer"><span>COMPÁS</span><strong>Expediente de Alfacar ↗</strong>Seleccionar el ámbito Alfacar. Informe de salud y activos de Localiza Salud.</a>
+<a class="tool" href="https://bhermoso.github.io/compas-ng-renovado/?fase=plan" target="_blank" rel="noopener noreferrer"><span>COMPÁS</span><strong>Plan de Acción ↗</strong>Catálogo de líneas estratégicas con objetivos e indicadores.</a>
+<a class="tool" href="https://localizasalud.sanidad.gob.es/maparecursos/main/" target="_blank" rel="noopener noreferrer"><span>Ministerio de Sanidad</span><strong>Localiza Salud ↗</strong>Mapa de recursos y activos para la salud.</a>
+<a class="tool" href="../activos/"><span>Aula</span><strong>Curso de salud comunitaria ↗</strong>Identificación y mapeo de activos.</a>
+</div>
+</section>
+</main>
+<footer>Aula de Salud Comunitaria Basada en Activos · Espacio de Alfacar · Borrador de 10 de noviembre de 2026</footer>
+</body>
+</html>
