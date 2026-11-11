@@ -1,0 +1,2002 @@
+{
+  "schema": "compas-profile-package/v1",
+  "municipalityId": "loja",
+  "title": "Perfil de Salud Local de Loja · revisión de renta censal · 6/11/2026",
+  "period": "Datos de 2024-2026 y series históricas identificadas por indicador",
+  "author": "Revisión documental asistida para COMPÁS; pendiente de revisión técnica e institucional",
+  "summary": "Loja tiene 20.923 habitantes en 2025, edad media de 43,5 años y un 19,5 % de población de 65 años o más [1]. El diagnóstico sanitario recoge la carga cardiometabólica registrada y las diferencias en participación preventiva [5]. Las consultas ciudadanas documentan el interés por alimentación y actividad física; se conservan sus fechas y límites. El inventario activo reúne cinco activos validados; el catálogo previo de 162 recursos queda como antecedente [9].\n\nEn 2024, las 17 secciones presentan diferencias de renta neta media por persona: desde 7.106,529 euros en 1812203002 hasta 13.773,938 euros en 1812205002 [RC2024]. La media municipal no describe por sí sola esa distribución. Son diferencias descriptivas; no se les atribuye significación estadística ni se deduce la distribución de la enfermedad. La sección 1812203002 tiene la menor renta por persona. El 58,811 publicado para su indicador bajo el umbral es una cota por secreto estadístico, no un porcentaje exacto; se conserva la nota literal de la fuente. Las secciones no equivalen a barrios: la correspondencia con Alfaguara y Alcazaba del perfil anterior es una aproximación que requiere comprobar límites y direcciones. La lectura cardiometabólica y preventiva debe acompañarse de la distribución territorial de renta. Se recomienda solicitar datos sanitarios con escala compatible y contrastar acceso a los cinco activos validados, prevención y participación con residentes de las secciones de menor renta. El catálogo anterior de 162 recursos se conserva como antecedente, separado de los cinco activos del inventario activo. La renta no demuestra por sí sola una mayor carga de enfermedad en una sección ni cambia las prioridades adoptadas.",
+  "text": "Loja en datos\nResumen. Loja tiene 20.923 habitantes en 2025, edad media de 43,5 años y un 19,5 % de población de 65 años o más [1]. El diagnóstico sanitario recoge la carga cardiometabólica registrada y las diferencias en participación preventiva [5]. Las consultas ciudadanas documentan el interés por alimentación y actividad física; se conservan sus fechas y límites. El inventario activo reúne cinco activos validados; el catálogo previo de 162 recursos queda como antecedente [9].\n\nDesigualdades. En 2024, las 17 secciones presentan diferencias de renta neta media por persona: desde 7.106,529 euros en 1812203002 hasta 13.773,938 euros en 1812205002 [RC2024]. La media municipal no describe por sí sola esa distribución. Son diferencias descriptivas; no se les atribuye significación estadística ni se deduce la distribución de la enfermedad. La sección 1812203002 tiene la menor renta por persona. El 58,811 publicado para su indicador bajo el umbral es una cota por secreto estadístico, no un porcentaje exacto; se conserva la nota literal de la fuente. Las secciones no equivalen a barrios: la correspondencia con Alfaguara y Alcazaba del perfil anterior es una aproximación que requiere comprobar límites y direcciones.\n\nComunidad. Cinco activos validados en el inventario activo. Las consultas de 2012, 2019 y 2022 mantienen sus fechas y límites; el catálogo de 162 recursos queda como antecedente.\n\nSalud. En 2025, dislipemia 3.081,79, hipertensión 2.600,93 y diabetes 1.013,25 por 10.000 habitantes [5, tabla 3]. Colon: participación 35,77 %; cérvix: 33,59 %; mama: invitación 56,94 % y participación entre citadas 73,47 % [5, tablas 9-11]. Vacunación infantil completa: 98,44 % (189/192) [5, tabla 14]. Los datos de conductas de 2012-2013 y de incidencia de cáncer de 2016-2020 conservan sus periodos históricos.\n\nQuién vive aquí\nLoja tiene 20.923 habitantes en 2025, edad media de 43,5 años y 19,5 % de población de 65 años o más [1]. El 28,4 % de los hogares es unipersonal en 2024 [4]. La renta municipal publicada en el perfil anterior es de 11.741 euros por persona y el 29,5 % queda bajo el umbral del 60 % de la mediana [4]; las secciones se presentan por separado, sin obtener una media municipal no ponderada.\n\nPanel de salud\nEn 2025, dislipemia 3.081,79, hipertensión 2.600,93 y diabetes 1.013,25 por 10.000 habitantes [5, tabla 3]. Colon: participación 35,77 %; cérvix: 33,59 %; mama: invitación 56,94 % y participación entre citadas 73,47 % [5, tablas 9-11]. Vacunación infantil completa: 98,44 % (189/192) [5, tabla 14]. Los datos de conductas de 2012-2013 y de incidencia de cáncer de 2016-2020 conservan sus periodos históricos.\n\nDesigualdad\nEn 2024, las 17 secciones presentan diferencias de renta neta media por persona: desde 7.106,529 euros en 1812203002 hasta 13.773,938 euros en 1812205002 [RC2024]. La media municipal no describe por sí sola esa distribución. Son diferencias descriptivas; no se les atribuye significación estadística ni se deduce la distribución de la enfermedad. La sección 1812203002 tiene la menor renta por persona. El 58,811 publicado para su indicador bajo el umbral es una cota por secreto estadístico, no un porcentaje exacto; se conserva la nota literal de la fuente. Las secciones no equivalen a barrios: la correspondencia con Alfaguara y Alcazaba del perfil anterior es una aproximación que requiere comprobar límites y direcciones.\n\nLa lectura cardiometabólica y preventiva debe acompañarse de la distribución territorial de renta. Se recomienda solicitar datos sanitarios con escala compatible y contrastar acceso a los cinco activos validados, prevención y participación con residentes de las secciones de menor renta. El catálogo anterior de 162 recursos se conserva como antecedente, separado de los cinco activos del inventario activo. La renta no demuestra por sí sola una mayor carga de enfermedad en una sección ni cambia las prioridades adoptadas.\n\nCuerpo del Perfil\n06. Conclusiones\n\nUna lectura de conjunto\n\nLa lectura cardiometabólica y preventiva debe acompañarse de la distribución territorial de renta. Se recomienda solicitar datos sanitarios con escala compatible y contrastar acceso a los cinco activos validados, prevención y participación con residentes de las secciones de menor renta. El catálogo anterior de 162 recursos se conserva como antecedente, separado de los cinco activos del inventario activo. La renta no demuestra por sí sola una mayor carga de enfermedad en una sección ni cambia las prioridades adoptadas.\n\nC1. Loja tiene más enfermedad cardiometabólica registrada que su provincia y que Andalucía.\n\nC2. Desde 2013 no se sabe cómo come ni cuánto se mueve la población de Loja, y es lo que la comunidad pide abordar desde 2011.\n\nC3. En 2024, las 17 secciones presentan diferencias de renta neta media por persona: desde 7.106,529 euros en 1812203002 hasta 13.773,938 euros en 1812205002 [RC2024]. La media municipal no describe por sí sola esa distribución. Son diferencias descriptivas; no se les atribuye significación estadística ni se deduce la distribución de la enfermedad. La sección 1812203002 tiene la menor renta por persona. El 58,811 publicado para su indicador bajo el umbral es una cota por secreto estadístico, no un porcentaje exacto; se conserva la nota literal de la fuente. Las secciones no equivalen a barrios: la correspondencia con Alfaguara y Alcazaba del perfil anterior es una aproximación que requiere comprobar límites y direcciones.\n\nC4. La población envejece y los cuidados no se ven.\n\nC5. El suicidio fue el exceso de mortalidad más marcado de Loja y no se ha vuelto a medir.\n\nC6. Las infecciones de transmisión sexual declaradas han aumentado.\n\nC7. La prevención sanitaria funciona mejor que en el entorno, salvo la invitación al cribado de mama.\n\nC8. Los activos reconocidos no cubren los problemas que la comunidad prioriza.\n\nC9. Los temas de salud de Loja son estables desde hace diez años; lo que se ha interrumpido es el proceso.\n\n07. Recomendaciones\n\nR1. Pedir al Distrito la serie de diabetes, hipertensión, dislipemia y obesidad registradas desde 2018, por sexo y edad.\nConocer · Deriva de C1\n\nR2. Medir los modos de vida de la población de Loja con un estudio complementario en el Gestor de Encuestas de COMPÁS, comparable con el Panel de 2013.\nConocer · Deriva de C1, C2\n\nR4. Pedir los indicadores de salud de las secciones censales 03002 (Alfaguara) y 01003 (Alcazaba).\nConocer · Deriva de C3\n\nR6. Reunir los datos de dependencia y de cuidados del municipio. Deriva de C4\nConocer\n\nR7. Obtener la mortalidad por suicidio de Loja posterior a 2010, por sexo y edad. Deriva de C5\nConocer\n\nR9. Conocer por qué el cribado de mama invita a menos mujeres que la media andaluza.\nConocer · Deriva de C7\n\nR5. Contrastar con Servicios Sociales, la Casa de Zonas y vecinos y vecinas del barrio qué problemas y qué activos reconocen.\nContrastar · Deriva de C3\n\nR8. Contrastar con el centro de salud y con jóvenes del municipio qué hay detrás del aumento de las infecciones de transmisión sexual y qué recursos de salud sexual faltan.\nContrastar · Deriva de C6\n\nR10. Contrastar con la comunidad qué recursos de alimentación y actividad física funcionan como activos y registrarlos en Localiza Salud.\nContrastar · Deriva de C8\n\nR11. Contrastar con el Grupo Motor si la priorización de 2022 sigue vigente, para partir de ella.\nContrastar · Deriva de C9\n\nR3. Trabajar la alimentación y la actividad física de la población general apoyándose en los recursos que ya existen, una vez que el equipo técnico declare la relación con la carga cardiometabólica, documentada fuera de Loja.\nAbordar · Deriva de C1, C2\n\nContrastar las barreras económicas y de acceso a prevención, cuidados y activos con residentes y profesionales.\nCONTRASTAR · C3 · No sustituye la priorización adoptada.\n\nAnexos\n\n\n\n  D I A G N Ó S T I C O Lo que muestran los datos y lo que concluye el Perfil 1 Punto de partida Loja es un municipio extenso, de 447,29 km² [1], cabecera de comarca en el extremo occidental de la Vega, con 16 núcleos de población [1] y 20.923 habitantes en 2025 [1]. Dentro de su casco histórico, dos barrios contiguos, la Alcazaba y la Alfaguara, figuran como zona desfavorecida en 2012 [13] y en 2022 [14]. Loja entró en la Red Local de Acción en Salud en 2010 [10, hoja de ruta] y ha empezado tres veces su plan local. Las tres veces hizo un diagnóstico y preguntó a la comunidad, y las tres se interrumpió antes de aprobar un plan: tras las elecciones municipales de 2011 [10, acta 10], tras la caída del apoyo político en 2013 [11] y con la pandemia [12]. El ciclo actual prepara el I Plan Local de Salud de Loja, con vigencia prevista de 2027 a 2030. Lo que se sabe hoy de la salud de Loja procede del Informe de Salud del Distrito Sanitario Granada Metropolitano, de octubre de 2026, con datos de 2023 a 2026 y comparación con Granada y Andalucía [5]; de la ficha municipal del SIMA, con datos de 2019 a 2025 [1]; del Atlas de Distribución de Renta de los Hogares del INE de 2024, por sección censal [4, tablas 31025, 31030 y 31033], y del Censo de 2021 [15]; y de Localiza Salud, con un catálogo anterior de 162 recursos y cinco activos validados el 24-10-2026 [9]. Los ciclos anteriores dejaron un archivo que permite comparar: el informe de situación de 2010 [8], el Panel Municipal de Salud de 2012- 2013, con muestra aleatoria [16], las consultas a la comunidad de 2012 [6], 2019 [17] y 2022 [7], y la actualización de 2021 [2]. Dos preguntas recorren la lectura: dónde se concentra la desventaja dentro del municipio y qué ha cambiado desde 2010. No hay datos locales de alimentación, actividad física ni tabaco posteriores a 2013 [16]; ningún indicador de salud se publica por barrio; y en este ciclo todavía no se ha consultado a la comunidad. 2 Conclusiones Una lectura de conjunto Las nueve conclusiones describen un municipio que ha cambiado más de composición que de tamaño y cuyos temas de salud llevan quince años siendo los mismos. El centro de salud registra más enfermedad cardiometabólica que la provincia y que Andalucía [5, tabla 3], y la comunidad pone en cabeza, consulta tras consulta, el sedentarismo y la alimentación [6] [17] [7]. Esas dos fuentes coinciden; lo que falta es el eslabón que las une, porque desde 2013 no se ha medido cómo come ni cuánto se mueve la gente de Loja [16] (C1, C2). Los recursos para moverse abundan, pero la comunidad no reconoce todavía ninguno de ellos como activo (C8). La desventaja no se reparte por igual. Se concentra en la Alfaguara, con la renta más 5 \n\n  baja y la población más joven [4, tablas 31025 y 31033], que es también el lugar del que menos se sabe (C3). Al mismo tiempo, el municipio envejece y los cuidados no aparecen en ninguna fuente (C4). Dos series de salud quedaron cortadas o en aumento sin lectura local: el suicidio, que fue el mayor exceso de mortalidad de Loja y no se ha vuelto a calcular desde 2010 [8, apartado 2.2], y las infecciones de transmisión sexual, cuyos casos declarados han aumentado [5, tabla 12] (C5, C6). La prevención sanitaria, en cambio, funciona mejor que en el entorno, salvo la invitación al cribado de mama (C7). Que la carga cardiometabólica guarde relación con los modos de vida es una relación documentada fuera de Loja, no observada en el municipio; que la Alfaguara tenga más carga de enfermedad es probable por lo que se sabe de otros lugares, pero no puede comprobarse con los datos actuales. Por eso la mayoría de las recomendaciones empiezan por conocer y contrastar. La conclusión que lo enmarca todo es la última: en Loja no han faltado diagnósticos ni participación, sino continuidad (C9). Nueve conclusiones propuestas para que el equipo técnico elija, corrija o descarte. C1 Loja tiene más enfermedad cardiometabólica registrada que su provincia y que Andalucía. En 2025 el centro de salud registra 3.081,79 diagnósticos de dislipemia por 10.000 habitantes, 2.600,93 de hipertensión, 1.013,25 de diabetes y 675,83 de obesidad, frente a 2.718,19, 2.285,76, 906,66 y 568,28 en Granada [5, tabla 3] (figura 2). Las enfermedades endocrinas, nutricionales y metabólicas causaron en 2024 el 5,97 % de las muertes, frente al 3,45 % en Granada y el 3,37 % en Andalucía [5, tabla 7]. No es una situación nueva: la diabetes y la hipertensión ya superaban en 2018 las cifras del Distrito [18, apartado 6], y el propio Informe de Salud sitúa esta carga como el principal reto de la atención primaria del municipio [5, conclusiones]. La comunidad pone el sedentarismo y la alimentación en cabeza en 2011 [19], en 2012 [6] y en 2022 [7]; los referentes describen una oferta deportiva estrecha y un solo comedor escolar [20], y la ciudad tiene 0,81 m² de zona verde urbana por habitante [2, indicadores VIGIA]. La relación entre los modos de vida y esta carga está documentada fuera de Loja; dentro, el último dato de conducta es de 2013 [16]. Lleva a R1, R2 y R3 · trazabilidad en el anexo K C2 Desde 2013 no se sabe cómo come ni cuánto se mueve la población de Loja, y es lo que la comunidad pide abordar desde 2011. En el Panel Municipal de Salud de 2012-2013, con muestra aleatoria, el 20,9 % de los adultos fumaba a diario, el 17,6 % declaraba obesidad y la mediana de días a la semana con actividad física moderada era cero [16]. Desde entonces no hay datos locales. Las cifras de la Encuesta Andaluza de Salud describen a Granada y Andalucía y solo sirven de contexto; saber cómo vive hoy la gente de Loja exige un estudio propio, que puede hacerse con el Gestor de Encuestas de COMPÁS. Lleva a R2 y R3 · trazabilidad en el anexo K 6 \n\n  C3 Diferencias de renta entre secciones; sin datos sanitarios a esa escala. En 2024, las 17 secciones presentan diferencias de renta neta media por persona: desde 7.106,529 euros en 1812203002 hasta 13.773,938 euros en 1812205002 [RC2024]. La media municipal no describe por sí sola esa distribución. Son diferencias descriptivas; no se les atribuye significación estadística ni se deduce la distribución de la enfermedad. La sección 1812203002 tiene la menor renta por persona. El 58,811 publicado para su indicador bajo el umbral es una cota por secreto estadístico, no un porcentaje exacto; se conserva la nota literal de la fuente. Las secciones no equivalen a barrios: la correspondencia con Alfaguara y Alcazaba del perfil anterior es una aproximación que requiere comprobar límites y direcciones. La Alfaguara, la sección censal 03002 [21] [22], tiene 7.106,529 euros de renta neta por persona, el 60,5 % de la media municipal [4, tabla 31025], y el 58,811 (cota publicada por secreto estadístico; no porcentaje exacto) de su población bajo el 60 % de la mediana [4, tabla 31030]. Es la población más joven del municipio, con una edad media de 34,3 años [4, tabla 31033]. Lleva más de una década reconocida, con la Alcazaba, como zona desfavorecida [13] [14], y durante la pandemia quedó casi aislada [12, acta de 24 feb 2021]. La Alcazaba ocupa una parte de la sección 01003, con el 40,0 % de su población bajo ese umbral [4, tabla 31030]. Es también donde menos se sabe: sus vecinos apenas respondieron a las consultas [17, microdatos] y ningún activo validado se dirige a ella [9]. Lo que se sabe de otros lugares hace probable que su carga de enfermedad sea mayor; en Loja no puede comprobarse. Lleva a R4 y R5 · trazabilidad en el anexo K C4 La población envejece y los cuidados no se ven. La edad media ha pasado de 39,15 años en 2010 [2, indicadores VIGIA] a 43,5 en 2025 [1]. Hay secciones donde más de una de cada cuatro personas supera los 65 años [4, tabla 31033], y el 28,4 % de los hogares es unipersonal [4, tabla 31033]. Es el único problema con activos reconocidos: el Centro de Participación Activa y sus talleres [9]. No se sabe cuántas personas dependen de otras ni quién las cuida, que en Loja, como en casi todas partes, suelen ser mujeres. Lleva a R6 · trazabilidad en el anexo K C5 El suicidio fue el exceso de mortalidad más marcado de Loja y no se ha vuelto a medir. El análisis del Atlas de Mortalidad del informe de 2010 encontró en Loja tasas de suicidio elevadas respecto a Andalucía en hombres y mujeres de casi todas las edades [8, apartado 2.2 y tabla 2.1]; la actualización de 2021 repitió aquella tabla sin recalcularla [2]. Hoy hay 2.710 diagnósticos de ansiedad, 1.826 en mujeres [5, tabla 2]. La comunidad sitúa el suicidio el último de 26 problemas [7] y los referentes hablan del malestar emocional como tabú [20]. Seis de cada diez contratos son temporales [1], una condición que suele acompañar al malestar, pero en Loja nadie ha medido esa relación. El GRUSE del centro de salud y los talleres del CPA son los únicos activos que tocan este problema [9]. Lleva a R7 · trazabilidad en el anexo K C6 Las infecciones de transmisión sexual declaradas han aumentado. Entre 2022 y octubre de 2026 se declararon 45 casos de clamidia, 27 de gonococo, 11 de sífilis y 10 de herpes genital [5, tabla 12]; entre 2003 y 2010 se habían declarado 10 casos de sífilis, gonococo y herpes [8, tabla 2.2]. El Informe de Salud lo describe como una tendencia sostenida y propone programas de educación afectivo-sexual para la población joven [5, discusión]. La salud sexual, en cambio, apenas aparece en las consultas: el 8 % la citó en 2019 [17], y un solo recurso registrado trata la sexualidad [9]. 7 \n\n  Lleva a R8 · trazabilidad en el anexo K C7 La prevención sanitaria funciona mejor que en el entorno, salvo la invitación al cribado de mama. La vacunación infantil completa supera el 95 % desde 2002 y es del 98,44 % en 2025 [8, tabla de cobertura vacunal 2000-2008] [5, tabla 14]. En 2025 participó en el cribado de colon el 35,77 % de las personas invitadas, frente al 33,05 % en Granada y el 23,77 % en Andalucía [5, tabla 9], y en el de cuello de útero el 33,59 %, frente al 12,59 % y el 8,68 % [5, tabla 11]. En el de mama se invitó al 56,94 % de las mujeres de la edad diana, por debajo del 67,86 % de Andalucía y por encima del 28,32 % de Granada, y participó el 73,47 % de las citadas, frente al 84,30 % en la provincia y el 70,93 % en Andalucía [5, tabla 10]. El Informe propone revisar los circuitos de citación [5, discusión]. En 2006-2007 la participación había llegado al 88,72 % [8, tabla resumen del proceso de detección precoz del cáncer de mama 2000-2009]. Lleva a R9 · trazabilidad en el anexo K C8 Los activos reconocidos no cubren los problemas que la comunidad prioriza. El catálogo anterior de Localiza Salud registraba 162 recursos, 74 de ellos para la actividad física [9]. De los cinco activos validados, tres se dirigen a personas mayores, y ninguno a la alimentación, a la actividad física de la población general, a la juventud o a la zona desfavorecida [9, validación de 24 oct 2026]. La guía de recursos de 2010 y los inventarios de 2012 y 2013 recogían asociaciones, huertos sociales o un comedor escolar ecológico de los que no se sabe si siguen activos [8, apartado 6.1] [23] [24]. Hay candidatos naturales: el Encuentro «Loja en Salud», que se celebra desde 2010 [10, hoja de ruta], la caminata que en 2019 reunió a 1.538 personas [25] o la adhesión a «Por 1 Millón de Pasos» en 2025 [30]. Funcionan; falta que la comunidad los reconozca y conste. Lleva a R10 · trazabilidad en el anexo K C9 Los temas de salud de Loja son estables desde hace diez años; lo que se ha interrumpido es el proceso. Lo que más ha cambiado es quién vive en Loja: la edad media ha subido más de cuatro años [2, indicadores VIGIA] [1], nacen menos niños [18, apartado 1] [1] y la población extranjera se ha más que duplicado desde 2018 [3] [1]. Lo que la comunidad pide y lo que registra el centro de salud ha cambiado poco. Los tres procesos se cortaron sin plan aprobado, en 2011 [10, acta 10], 2013 [11] y 2020 [12], pero las actividades sobrevivieron a cada interrupción: el Encuentro «Loja en Salud» se celebra desde 2010 [10, hoja de ruta] y en 2019 reunió a 1.450 personas [25]. Lleva a R11 · trazabilidad en el anexo K 3 Convergencias y divergencias Coinciden. El centro de salud registra más carga cardiometabólica que la provincia [5, tabla 3], y la comunidad pone el sedentarismo y la alimentación entre sus primeros problemas en las tres consultas [6] [17] [7]. El envejecimiento aparece en las estadísticas de población [1] [4, 8 \n\n  tabla 31033], en los activos reconocidos, casi todos para mayores [9], y en las respuestas de San Francisco-Estación en 2019 [17, microdatos]. La desventaja de la Alfaguara la muestran la renta por sección [4, tablas 31025 y 31030], el informe de 2010 [8, apartado 1.7], la Estrategia ERACIS [14] y la técnica del plan de zonas desfavorecidas en 2021 [12, acta de 24 feb 2021]. Discrepan. Las infecciones de transmisión sexual crecen en los registros [5, tabla 12] y apenas aparecen en las consultas [17] [7]. El suicidio fue el mayor exceso de mortalidad del municipio [8, apartado 2.2] y queda el último en la priorización de 2022 [7]. Y las adicciones, primer problema en 2012 [6] y en 2019 [17], bajan a los puestos 17 y 21 en 2022 [7] sin que los documentos expliquen por qué. 4 Lo que no sabemos Algunas preguntas importantes para Loja no tienen hoy respuesta con datos. Todas tienen dónde buscarla. Qué no sabemos Afecta a Dónde se puede saber Cómo evolucionan desde 2018 la diabetes, la hipertensión y la obesidad registradas, por sexo y edad C1 Distrito Granada Metropolitano, Base Poblacional de Salud Cómo come, cuánto se mueve y cuánto fuma hoy la población C1, C2 Estudio complementario con el Gestor de Encuestas de COMPÁS Si la Alcazaba y la Alfaguara enferman más que el resto C3 Base Poblacional de Salud por sección censal (03002 y 01003) Cuántas personas dependen de otras y quién las cuida C4 Servicios Sociales municipales; sistema de atención a la dependencia Si persiste el exceso de suicidio C5 Mortalidad por suicidio posterior a 2010, por sexo y edad: Atlas de Mortalidad de Andalucía, IECA Quién se infecta, a qué edad y qué recursos de salud sexual echa en falta la población joven C6 Centro de salud; vigilancia epidemiológica del Distrito; jóvenes del municipio Por qué el cribado de mama invita a menos mujeres C7 Programa de detección precoz de cáncer de mama Qué recursos funcionan como activos para la gente C8 La comunidad, con registro y validación en Localiza Salud 5 Recomendaciones del Perfil Once propuestas que derivan de las conclusiones. Qué se hace primero, quién lo hace y con qué recursos lo decidirán el Grupo Motor y el Plan de Acción. 9 \n\n  C O N O C E R Recuperar los datos que faltan R1 Pedir al Distrito la serie de diabetes, hipertensión, dislipemia y obesidad registradas desde 2018, por sexo y edad. Deriva de C1 R2 Medir los modos de vida de la población de Loja con un estudio complementario en el Gestor de Encuestas de COMPÁS, comparable con el Panel de 2013. Deriva de C1, C2 R4 Pedir los indicadores de salud de las secciones censales 03002 (Alfaguara) y 01003 (Alcazaba). Deriva de C3 R6 Reunir los datos de dependencia y de cuidados del municipio. Deriva de C4 R7 Obtener la mortalidad por suicidio de Loja posterior a 2010, por sexo y edad. Deriva de C5 R9 Conocer por qué el cribado de mama invita a menos mujeres que la media andaluza. Deriva de C7 C O N T R A S T A R Preguntar a quien lo vive R5 Contrastar con Servicios Sociales, la Casa de Zonas y vecinos y vecinas del barrio qué problemas y qué activos reconocen. Deriva de C3 R8 Contrastar con el centro de salud y con jóvenes del municipio qué hay detrás del aumento de las infecciones de transmisión sexual y qué recursos de salud sexual faltan. Deriva de C6 R10 Contrastar con la comunidad qué recursos de alimentación y actividad física funcionan como activos y registrarlos en Localiza Salud. Deriva de C8 R11 Contrastar con el Grupo Motor si la priorización de 2022 sigue vigente, para partir de ella. Deriva de C9 A B O R D A R Empezar a actuar donde hay fundamento R3 Trabajar la alimentación y la actividad física de la población general apoyándose en los recursos que ya existen, una vez que el equipo técnico declare la relación con la carga cardiometabólica, documentada fuera de Loja. Deriva de C1, C2 6 Paso al Plan de Acción El Grupo Motor recibe las conclusiones que el equipo técnico elija, las once recomendaciones y las preguntas abiertas. A partir de aquí decide qué priorizar, y el Plan de Acción fija las líneas, los objetivos y los indicadores. El borrador de plan de 2022 quedó con los objetivos vacíos [26]: es un antecedente, no un punto de partida obligado. 7 Autoría y validación Validación. Pendiente. Responsable técnico, fecha de validación y consenso del Grupo Motor por registrar. 10 \n\n  Autoría. Versión 0.1 redactada por Claude el 25 y el 26-10-2026, y versiones 0.2 y 0.3 el 2-11- 2026, a petición de Blas Ramón Hermoso Rico, a partir del expediente de Loja en COMPÁS. La versión 0.2 conserva los datos y las referencias de la 0.1; cambia la estructura, que sigue el contrato metodológico v2.3.0, y la redacción de las conclusiones, y reproduce los datos epidemiológicos como los publica su fuente. La versión 0.3 contrasta las cifras con el expediente de Loja en COMPÁS (copia de 2-11-2026) y completa, con el Informe de Salud [5], los comparadores de los cribados y de la mortalidad, el año de las causas de muerte (2024) y la mortalidad endocrina y metabólica. Las cifras proceden de las fuentes citadas, sin cálculos propios salvo los porcentajes y cocientes que se derivan de ellas. La validación de los cinco activos la hizo Blas Ramón Hermoso Rico el 24-10-2026, con los criterios de la Junta de Andalucía del 9 de junio de 2026. Las conclusiones y las recomendaciones son propuestas: las elige, corrige o descarta el equipo técnico. Crédito Quién Responsable técnico Por designar Equipo técnico Por designar Grupo Motor Entidades representadas, por confirmar. Nombres solo con consentimiento Fuentes aportadas Distrito Sanitario Granada Metropolitano (Informe de Salud 2026); Ayuntamiento de Loja; archivo RELAS de Loja 2010-2022; Localiza Salud Redacción del borrador Claude, a petición de Blas Ramón Hermoso Rico Presentación institucional Opcional. Si se incluye, la redacta y firma la alcaldía o la dirección del Distrito 11 \n\n  E V I D E N C I A C O M P L E T A Anexos A. El municipio y su gente Territorio. Es un municipio extenso, de 447,29 km² [1], en el extremo occidental de la Vega, cabecera de comarca a 53,9 km de Granada [1], con 16 núcleos de población [1]; en 2025 viven 1.181 personas en diseminado [1]. La ciudad está en pendiente, cruzada por el Genil, la autovía y el ferrocarril, y la dispersión de anejos y cortijadas encarece los servicios desde hace décadas, como ya advertía el informe de 2010 [8, apartados 1.1 y 1.3]. Población. Loja tiene 20.923 habitantes en 2025, 10.585 mujeres y 10.338 hombres [1]. Bajó de 21.688 en 2010 [2, indicadores VIGIA] a 20.469 en 2018 [3] y ha recuperado parte desde entonces. En 2024 hubo 146 nacimientos y 184 defunciones [1], y llegaron 800 personas frente a 661 que se fueron [1]: la inmigración compensa el saldo natural negativo. La edad media pasó de 39,15 años en 2010 [2, indicadores VIGIA] a 43,5 en 2025 [1], y el 19,5 % tiene más de 65 años [1]. La población de nacionalidad extranjera ha más que duplicado en siete años: de 775 personas en 2018 [3] a 1.778 en 2025, el 55,4 % de Marruecos [1]. El INE sitúa en el 8,5 % la población no española en 2024 [4, tabla 31033]. Hogares. Hay 7.921 viviendas principales en 2021 [1]. El hogar medio tiene 2,5 personas [4, tabla 31033] y el 28,4 % de los hogares es unipersonal [4, tabla 31033]. Renta. La renta neta media por persona fue de 11.741 euros en 2024 [4, tabla 31025]. Es el 86,9 % de la de la provincia de Granada, 13.509 euros [4, tabla 53694]; el 88,0 % de la andaluza, 13.342 euros [4, tabla 53689]; y el 73,6 % de la española, 15.948 euros [4, tabla 53689]. El 29,5 % de la población vive con ingresos por unidad de consumo inferiores al 60 % de la mediana [4, tabla 31030], frente al 27,8 % de la provincia [4, tabla 53694], el 26,2 % de Andalucía [4, tabla 53689] y el 20,2 % de España [4, tabla 53689]. Las 10.768 declaraciones del IRPF de 2024 tuvieron una renta bruta media de 22.115 euros y una disponible de 18.759 [1]. Trabajo. La economía se apoya en el olivar, con 17.017 ha en 2023 [1], el espárrago [1] y la industria agroalimentaria, y en un tejido de empresas muy pequeñas: el 90 % de los 2.034 establecimientos de 2024 tenía cinco asalariados o menos [1]. En 2025 había 1.192 personas en paro registrado, 730 de ellas mujeres [1], y la tasa municipal de desempleo era del 15,3 % [1]. Seis de cada diez contratos firmados en 2025 fueron temporales, 6.997 de 11.599 [1], y por cada contrato a una mujer se firmaron 2,4 a hombres [1]. De las 246 personas con subsidio agrario, 211 eran mujeres [1]. Estudios. En 2021, el 21,3 % de la población de 15 años o más tenía como máximo estudios primarios [15] y el 21,1 %, estudios superiores [15]. Las mujeres tienen más estudios superiores que los hombres, 24,0 % frente a 18,1 % [15], y también más estudios solo primarios, 22,7 % frente a 19,9 % [15]. 12 \n\n  Entorno físico. El agua procede de siete nacimientos y tres pozos [18, apartado 4]. La ciudad disponía en 2020 de 0,81 m² de zonas verdes urbanas por habitante [2, indicadores VIGIA], frente a 21.047 hectáreas de zonas verdes forestales y naturales en el término [2, indicadores VIGIA]. El borrador del Perfil de 2019 señalaba el ruido como el principal problema ambiental, sin mapa de ruido [18, apartado 4]. Se declararon ocho casos de legionelosis entre 2022 y 2026 [5, tabla 12]. Alcazaba y Alfaguara. Son dos barrios contiguos del casco histórico. En 2012 ya figuraban como zona con necesidades de transformación social [13] y en 2022 seguían entre las zonas desfavorecidas de la Estrategia ERACIS de la Junta de Andalucía [14]. Un estudio de 236 vecinos recogido en el informe de 2010, con el padrón de 2004 [8, apartado 1.7], describía un 80 % de viviendas autoconstruidas, un 30 % de personas analfabetas y un 63 % de hogares con ingresos inferiores a 1,5 veces el IPREM [8, cuadro resumen del diagnóstico del barrio]. El borrador de 2019 cifraba la población de los dos barrios en 1.332 personas, el 6,50 % del municipio [18, apartado 4]. Las calles que el informe de 2010 asigna a cada barrio [8, apartado 1.7], localizadas en OpenStreetMap [21] sobre los límites de sección de WikiBarrio [22], caen así: las de la Alfaguara, salvo una de las trece localizadas, en la sección censal 03002 [21] [22]; las de la Alcazaba, salvo una de siete, en la 01003 [21] [22]. La Alfaguara es, por tanto, la sección 03002: 969 habitantes [4, tabla 31033], una edad media de 34,3 años [4, tabla 31033], un 29,3 % de menores de 18 [4, tabla 31033] y una renta neta de 7.106,529 euros por persona [4, tabla 31025], el 60,5 % de la media de Loja; el 58,811 (cota publicada por secreto estadístico; no porcentaje exacto) de su población está por debajo del umbral del 60 % [4, tabla 31030]. La Alcazaba ocupa solo una parte de la sección 01003, que tiene 1.371 habitantes [4, tabla 31033], una renta de 10.529 euros por persona [4, tabla 31025] y un 40,0 % de su población bajo ese umbral [4, tabla 31030]; sus cifras describen un área más amplia que el barrio. B. Situación de salud Enfermedad crónica. En 2025, el centro de salud tiene registradas a 6.846 personas con dislipemia, 5.792 con hipertensión, 2.288 con diabetes y 1.596 con obesidad [5, tabla 2]. Las tasas superan a las de la provincia y la comunidad en casi todas las patologías [5, tabla 3]. Patología Casos (mujeres / hombres) Loja Granada Andalucía Dislipemia 3.584 / 3.262 3.081,79 2.718,19 2.569,94 Hipertensión 2.963 / 2.829 2.600,93 2.285,76 2.327,73 Artrosis y espondilosis 3.141 / 1.909 2.261,51 2.032,84 1.887,06 Asma 1.713 / 1.446 1.426,42 1.448,67 1.187,09 Trastorno de ansiedad 1.826 / 884 1.114,48 1.035,01 1.133,96 Diabetes 1.067 / 1.221 1.013,25 906,66 966,37 Hipotiroidismo 1.656 / 462 955,87 922,32 898,72 13 \n\n  Patología Casos (mujeres / hombres) Loja Granada Andalucía Obesidad 865 / 731 675,83 568,28 538,77 Dependencia del tabaco 537 / 780 558,30 595,07 513,35 Fuente de toda la tabla: casos [5, tabla 2] y tasas por 10.000 habitantes, 2025 [5, tabla 3], con datos de la Base Poblacional de Salud. Cómo vive la gente. La última vez que se midieron en Loja la actividad física, la alimentación o el consumo de tabaco con una muestra aleatoria fue en 2012-2013, en el Panel Municipal de Salud de la Escuela Andaluza de Salud Pública [16]: el 20,9 % de los adultos fumaba a diario [16], el 17,6 % declaraba obesidad y el 34,7 % sobrepeso [16], y la mediana de días a la semana con actividad física moderada era cero [16]; entre los menores, el 10,6 % tenía obesidad [16] y uno de cada tres convivía con alguien que fumaba en casa, el 32,7 % [16]. Desde entonces no hay datos locales. Las cifras de la Encuesta Andaluza de Salud describen a la población de Granada y de Andalucía, no a la de Loja, y solo sirven de contexto. Mortalidad. En 2024 murieron 184 personas, frente a 217 en 2023 [5, tabla 8]; las muertes por tumores pasaron de 59 a 37 [5, tabla 8]. En 2024 las enfermedades circulatorias fueron la primera causa, con el 27,17 %, frente al 26,91 % en Granada y el 26,96 % en Andalucía [5, tabla 7]; los tumores la segunda, con el 20,10 %, frente al 24,49 % y el 26,03 % [5, tabla 7]; y las respiratorias la tercera, con el 12,50 %, frente al 11,12 % y el 10,81 % [5, tabla 7]. Las endocrinas, nutricionales y metabólicas causaron el 5,97 %, frente al 3,45 % y el 3,37 %, y las del sistema nervioso el 3,26 %, frente al 6,34 % y el 6,14 % [5, tabla 7]. Una de cada diez muertes, el 10,32 %, se certificó con síntomas y signos mal definidos, frente al 4,96 % en la provincia y el 4,35 % en Andalucía [5, tabla 7]; entre 2000 y 2008 esa proporción fue del 3,7 % en Loja y del 3,6 % en la provincia [8, tabla de defunciones por causas Loja-Granada 1999- 2008]. El Informe de Salud atribuye la proporción actual a la codificación de las causas de muerte [5, discusión]. El análisis del Atlas Interactivo de Mortalidad de Andalucía del informe de 2010 encontró en Loja exceso de riesgo de muerte frente al resto de España en la cardiopatía isquémica, en el cáncer de pulmón de los hombres mayores y, sobre todo, en el suicidio, con tasas elevadas respecto a Andalucía en hombres y mujeres de casi todas las edades [8, apartado 2.2 y tabla 2.1]. La actualización de 2021 presenta aquella tabla como de 2010-2016 sin recalcularla [2]. No hay en Loja ningún cálculo posterior de la mortalidad por suicidio. Cáncer. La incidencia ha sido menor que en la provincia en los dos periodos con tasas: 401,3 frente a 475,0 casos por 100.000 en 2012-2016, en tasa estandarizada [27], y 582 frente a 722 en 2016-2020, también en tasa estandarizada, que el Informe sitúa «significativamente por debajo de la media provincial» [5, discusión]. En 2016-2020 hubo 577 casos, con una tasa bruta de 564 por 100.000 [5, discusión]. El cáncer de pulmón en hombres es la excepción que señalan los dos informes [27] [5, discusión]; en 2016-2020 su incidencia fue de 43 por 100.000 [5, discusión]. En 2025 el linfoma no Hodgkin tiene una prevalencia de 30,11 por 10.000, superior a la de Granada, 24,70, y a la de Andalucía, 27,15, y el cáncer 14 \n\n  inmunoproliferativo, de 20,55, frente a 14,70 y 7,63 [5, tabla 6]; el Informe considera que el hallazgo merece seguimiento [5, discusión]. Salud mental. El trastorno de ansiedad está diagnosticado en 2.710 personas, 1.826 de ellas mujeres [5, tabla 2]. No hay medidas de soledad, apoyo social o estrés. Enfermedades transmisibles. Entre 2022 y el 5 de octubre de 2026 se declararon 45 casos de clamidia (14 de ellos en 2024), 27 de gonococo, 11 de sífilis y 10 de herpes genital [5, tabla 12], cuando entre 2003 y 2010 se habían declarado 7 de sífilis, 1 de gonococo y 2 de herpes [8, tabla 2.2]. La tuberculosis ha bajado, de 27 casos en 2003-2010 [8, tabla 2.2] a 5 en 2022- 2026 [5, tabla 12], y la legionelosis mantiene casos aislados, 8 en 2022-2026 [5, tabla 12]. Prevención. La vacunación infantil completa se mantiene por encima del 95 % desde 2002: entre el 95,83 % y el 99,09 % en 2002-2008 [8, tabla de cobertura vacunal 2000-2008] y el 96,53 % y el 98,44 % en 2024 y 2025 [5, tabla 14]. En 2025 la captación fue del 100 % y la pauta completa, del 98,44 % [5, tabla 14]. En el cribado de cáncer de colon se invitó al 99,46 % de la población elegible y participó el 35,77 % de las personas invitadas, frente al 33,05 % en Granada y el 23,77 % en Andalucía; el 78,02 % de quienes aceptaron completó la prueba [5, tabla 9]. En el de cuello de útero se invitó al 100 % y participó el 33,59 %, frente al 12,59 % y el 8,68 % [5, tabla 11]. En el de mama se invitó al 56,94 % de las mujeres de la edad diana, frente al 28,32 % en Granada y el 67,86 % en Andalucía, y participó el 73,47 % de las citadas, frente al 84,30 % y el 70,93 % [5, tabla 10]. En 2006-2007 la participación había llegado al 88,72 % [8, tabla resumen del proceso de detección precoz del cáncer de mama 2000-2009]. C. Desigualdades Mujeres y hombres. Las mujeres de Loja tienen el doble de diagnósticos de ansiedad que los hombres, 1.826 frente a 884 [5, tabla 2], y más del triple de hipotiroidismo, 1.656 frente a 462 [5, tabla 2]; los hombres, más dependencia del tabaco y más diabetes [5, tabla 2]. En el trabajo la brecha es mayor: en 2025 había 730 mujeres y 462 hombres en paro registrado [1], se firmaron 2,4 contratos a hombres por cada uno a mujeres [1] y 211 de las 246 personas con subsidio agrario eran mujeres [1]. Ellas tienen más a menudo estudios superiores, 24,0 % frente a 18,1 % [15], pero también más a menudo solo primarios [15]. El Ayuntamiento ya planteaba en 2012 mirar la salud de las mujeres desde la sobrecarga de los cuidados [13]. Edad. Casi una de cada cinco personas tiene más de 65 años [1] y en algunas zonas, una de cada cuatro: la sección 05001 llega al 27,5 % y la 04001 al 26,7 % [4, tabla 31033], con edades medias de 48,6 y 48,7 años [4, tabla 31033]. El 28,4 % de los hogares es de una sola persona [4, tabla 31033]. No hay datos actuales de dependencia ni de plazas de atención. Barrio. La Alcazaba y la Alfaguara eran zona con necesidades de transformación social en 2012 [13] y zona desfavorecida de la Estrategia ERACIS en 2022 [14]. El informe de 2010 describía allí viviendas autoconstruidas en mal estado, analfabetismo, absentismo escolar y paro [8, apartado 1.7]; en 2021, la técnica del plan de zonas desfavorecidas contaba al Grupo Motor que durante la pandemia el barrio había quedado casi aislado, con más distancia social y brecha digital [12, acta de 24 feb 2021]. Allí vive buena parte de la comunidad gitana de Loja 15 \n\n  [8, apartado 1.7] [18, apartado 2]. Las cifras por sección censal están en la página de desigualdad y, completas, en el anexo H. Origen. La población de nacionalidad extranjera ha más que duplicado desde 2018, cuando eran 775 personas [3], y en 2025 son 1.778, la mitad de origen marroquí [1]. Se concentra en algunas zonas: en la sección 01001, una de cada cuatro personas no tiene nacionalidad española, el 26,2 % [4, tabla 31033], y es también una de las de menor renta [4, tabla 31025]. D. Activos y recursos Lo que hay. El catálogo anterior de Localiza Salud registraba 162 recursos en Loja [9]. Casi cuatro de cada diez sirven a la actividad física: 38 instalaciones, clubes, gimnasios y escuelas deportivas, 22 senderos y espacios de deporte en la naturaleza y 14 parques [9]. Hay además 21 centros educativos, 20 áreas municipales y equipamientos culturales, 14 servicios sociales y centros para mayores y personas con discapacidad, 6 asociaciones, 3 servicios sanitarios públicos y 24 servicios privados de salud [9] (figura 4). La oferta para moverse es abundante; la comunitaria, escasa: un solo recurso trata la sexualidad y ninguno se dirige a la población inmigrante o gitana, salvo la Casa de Zonas [9]. Figura 4. Recursos registrados en Localiza Salud por tipo, octubre de 2026. Fuente: [9]. Lo que la comunidad reconoce. Los cinco activos validados son el Centro de Participación Activa, sus talleres de coro y de memoria, el grupo socioeducativo GRUSE del centro de salud, dirigido a mujeres, y el Punto Vuela [9, validación de 24 oct 2026]. Tres se dirigen a personas mayores, en un municipio que envejece; ninguno a la alimentación, a la actividad física de la población general, a la juventud o a la Alcazaba y la Alfaguara [9, validación de 24 oct 2026]. Lo que ha demostrado durar. El Encuentro «Loja en Salud» se celebra desde 2010 [10, hoja de ruta] y la Semana de la Salud tuvo su segunda edición en 2013 [28]; en 2019 el Encuentro reunió a 1.450 personas y la caminata «Caminando por un reto», a 1.538 [25]. En 2021 la propia comunidad premió en la I Gala de la Salud Pública a Protección Civil por su trabajo en los barrios desfavorecidos durante la pandemia, a la residencia de la Misericordia por su proyecto «Recuerdo de Mayores», a una empresa local por su aula de conciliación y al equipo sanitario de coordinación de la COVID-19 [29]. En 2025 la zona básica de salud se adhirió a «Por 1 Millón de Pasos» [30]. Son candidatos naturales a activo que todavía no figuran como tales. 16 \n\n  Lo que se ha perdido de vista. La guía de recursos de 2010 recogía asociaciones de vecinos de anejos y barriadas, Mujeres Rurales, la asociación de inmigrantes latinoamericanos y el Colectivo Cultural Romaní [8, apartado 6.1]; el inventario de 2012, la asociación de enfermos del corazón, los huertos sociales, un comedor escolar ecológico y el punto de información sexual para jóvenes [23]; y el de 2013, la Escuela de Padres y Madres [24]. No se sabe cuáles siguen activos. El territorio. El Grupo Motor de 2011 ya nombraba como activos la orografía, el clima, el patrimonio y la gastronomía [19]. Loja tiene 21.047 hectáreas de zonas verdes forestales y naturales [2, indicadores VIGIA], la sierra, el Genil y una red de senderos [9]; la ciudad, en cambio, solo 0,81 m² de zona verde urbana por habitante [2, indicadores VIGIA]. E. La voz de la comunidad Loja ha preguntado a su gente por su salud tres veces en diez años, con instrumentos y personas distintas: en 2012 [6], en 2019 [17] y en 2022 [7]. Las respuestas se parecen: la alimentación, el sedentarismo y las adicciones aparecen siempre arriba. Lo que cambia es el peso de las adicciones y el lugar que ocupan el empleo y el entorno. 2012, mesas sectoriales [6] [31] 2019, cuestionario [17] 2022, priorización [7] Quién respondió Profesionales municipales, sanitarios y educativos, asociaciones y servicios sociales 164 personas, el 63 % vecinos y vecinas 40 participantes del proceso 1.º Adicciones Adicciones (67 %) Sedentarismo 2.º Sedentarismo Desempleo (48 %) Alimentación no saludable 3.º Obesidad Falta de espacios verdes (43 %) Falta de formación en hábitos saludables 4.º Enfermedades cardiovasculares Alimentación no saludable (42 %) Uso de pantallas 5.º Enfermedades crónicas y malos hábitos alimenticios Falta de limpieza (40 %) Escasa oferta de ocio juvenil 2019: lo que se dijo por barrios. El cuestionario de 2019 es la única consulta que distingue zonas [17, microdatos]. Las adicciones salen entre los cinco primeros problemas en todas; el desempleo y la exclusión social, en Barrio Alto y en Aliatar-Frontil-Esperanza; la limpieza y los espacios verdes, en los anejos y en Victoria-Los Ángeles; el envejecimiento, en San Francisco-Estación [17, microdatos]. Respondieron sobre todo mujeres jóvenes de los barrios céntricos, y muy pocas personas de la Alfaguara y de los anejos [17, microdatos]. 2019: lo que contaron los referentes. En las entrevistas a trece personas clave del municipio [20] se repiten algunas ideas: hay más oferta deportiva que hace veinte años, pero concentrada en el fútbol y la gimnasia rítmica y sin actividad en los anejos; los jóvenes comen 17 \n\n  peor que los adultos y Loja solo tiene un comedor escolar; el alcohol está socialmente aceptado y las apuestas se han extendido; el malestar emocional sigue siendo tabú. La propuesta más repetida fue un «proyecto de ciudad común» [20]. 2022: lo que quedó abajo. En la priorización, las adicciones bajaron a los puestos 17 y 21, el envejecimiento al 24 y el suicidio quedó el último de 26 [7]. F. El proceso local Loja entró en la Red Local de Acción en Salud en 2010 [10, hoja de ruta] y desde entonces ha empezado tres veces su plan local. Las tres veces hizo un diagnóstico y preguntó a la comunidad; ninguna llegó a aprobar un plan con objetivos e indicadores: ni en 2013 [32], ni en 2021 [33], ni en 2022 [26]. Lo que sí ha durado son las actividades y una red de personas que vuelve a reunirse cada vez que el proceso se reactiva. Primer ciclo, 2010-2011. La Consejería presentó el proyecto RELAS el 13-10-2010 [10, hoja de ruta] y el Grupo Motor Inicial se constituyó el 04-11-2010 [10, acta 1] con técnicos y concejales del Ayuntamiento, el centro de salud, el Distrito y la Delegación de Salud. Se reunió diez veces hasta el 15-06-2011 [10, actas 1 a 10]. Consensuó el informe de situación municipal el 14-12- 2010 [10, hoja de ruta], analizó los problemas de salud por determinantes en un grupo de discusión el 03-02-2011 [10, acta 4] y redactó un documento inicial de problemas para validarlo en foros con profesionales, asociaciones, empresas y centros educativos [10]. El acuerdo de colaboración entre la Delegación y el Ayuntamiento lleva fecha de 4-02-2011 y compromete al Ayuntamiento a elaborar el Plan Local de Salud [34]. El estudio de hábitos previsto con la Facultad de Farmacia no consta que se hiciera [10]. La décima acta, tras las elecciones municipales de mayo de 2011, abre con una «valoración de la situación política» que no desarrolla [10, acta 10]. Segundo ciclo, 2012-2013. El Grupo Motor, ampliado a 19 personas [35, relación de integrantes], organizó en marzo y abril de 2012 cinco mesas sectoriales (Ayuntamiento, sanidad, educación, asociaciones y servicios sociales) con un cuestionario de problemas, soluciones y activos [35, informe de 26 mar 2012]. De ahí salieron la priorización de 2012 [6] y cinco mesas de trabajo: adicciones, vida activa, enfermedades crónicas, salud emocional y ciudadanía [35, acta de 14 jun 2012]. Entre octubre de 2012 y marzo de 2013 la Escuela Andaluza de Salud Pública hizo el Panel Municipal de Salud: 387 entrevistas a una muestra aleatoria de adultos y menores [16]. El 10-04-2013 el Grupo Motor escribió al alcalde porque había caído la asistencia política y pedía garantías de continuidad [11]. La propuesta de estructura del Plan quedó con los objetivos sin redactar [32]. Entre ciclos. Las actividades sobrevivieron al plan. La Semana de la Salud y el Encuentro «Loja en Salud» se siguieron convocando: la V Semana en 2017 [36] y el IX Encuentro en 2019, que reunió a 1.450 personas, sobre todo alumnado [25]. Tercer ciclo, 2018-2022. El Ayuntamiento creó el 19-11-2018 una Mesa de coordinación intersectorial para aplicar la Estrategia de Promoción de la Salud y Prevención del SNS y redactar el Plan [37]. En 2019 pasó un cuestionario de percepción de problemas, con 164 respuestas [17]; un estudio de hábitos [38]; y entrevistas a referentes [20]. La pandemia 18 \n\n  interrumpió el trabajo; el Grupo Motor se reactivó en febrero de 2021 [12], actualizó el Perfil en la primavera de 2021 [2] y priorizó 26 problemas con el método de Hanlon, con 40 participantes, entre noviembre de 2021 y marzo de 2022 [7]. La plantilla del I Plan Local de Salud [33] y el borrador del plan de acción [26] quedaron con los objetivos, las actuaciones y los indicadores vacíos. Ciclo actual, 2026-2030. Parte del Informe de Salud del Distrito, de 5-10-2026 [5], del catálogo anterior de Localiza Salud, con 162 recursos, y de la validación de cinco de ellos como activos el 24-10-2026 [9]. No hay todavía consulta a la comunidad propia de este ciclo. Fecha Hito 24-10-2026 Cinco recursos validados como activos en Localiza Salud [9] 05-10-2026 Informe de Salud de Loja (Distrito Granada Metropolitano) [5] 03-2022 Listado definitivo de la priorización (40 participantes) [7] y borrador del plan de acción [26] 11-2021 Priorización de 26 problemas por el método de Hanlon [7] 04-2021 Perfil de Salud Local actualizado (2010-2020) [2] 24-02-2021 Reactivación del Grupo Motor tras la pandemia [12] 07/09-2019 Cuestionario de percepción (164 respuestas) [17] y estudio de hábitos [38] 19-11-2018 Creación de la Mesa de coordinación intersectorial [37] 10-04-2013 Carta del Grupo Motor al alcalde sobre la continuidad [11] 07-2013 Panel Municipal de Salud de Loja (EASP) [16] 03/04-2012 Mesas sectoriales [35] y priorización de 2012 [6] 04-02-2011 Acuerdo de colaboración Delegación de Salud–Ayuntamiento [34] 14-12-2010 Informe de situación municipal consensuado por el Grupo Motor [10, hoja de ruta] 04-11-2010 Constitución del Grupo Motor Inicial [10, acta 1] Los tres ciclos llegan a un diagnóstico de fondo parecido. En 2011 el Grupo Motor situó los problemas en la alimentación, el sedentarismo, el consumo de alcohol y otras drogas y las desigualdades de la Alfaguara [19]; en 2012 la consulta a profesionales y asociaciones puso por delante las adicciones, el sedentarismo y la obesidad [6]; en 2022, la ciudadanía priorizó el sedentarismo, la alimentación y la falta de formación en hábitos saludables [7]. Cambian el orden y las palabras, pero los temas se repiten durante diez años. G. Cómo ha cambiado Loja Loja guarda diagnósticos de 2010 [8], 2013 [16], 2019 [18] y 2021 [2], y con ellos puede verse qué ha cambiado en quince años y qué sigue igual. Las cifras se ponen una junto a otra solo cuando se midieron de la misma manera. 19 \n\n  Indicador Antes Ahora Población 21.688 (2010) [2, indicadores VIGIA] 20.923 (2025) [1] Edad media 39,15 años (2010) [2, indicadores VIGIA] 43,5 años (2025) [1] Personas de 65 y más años 17,75 % (2018) [18, apartado 1] 19,5 % (2025) [1] Personas de 85 y más años 1,59 % (2010) [2, indicadores VIGIA] 3,09 % (2020) [2, indicadores VIGIA] Población de nacionalidad extranjera 1.140 (2010) y 775 (2018) [3] 1.778 (2025) [1] Nacimientos 197 (2018) [18, apartado 1] 146 (2024) [1] Paro registrado 1.547, el 55,5 % mujeres (junio de 2019) [18, apartado 3] 1.192, el 61,2 % mujeres (2025) [1] Casos de cáncer en cinco años 482 (2007-2011) [27] 577 (2016-2020) [5, discusión] Sífilis, gonococo y herpes genital declarados 10 (2003-2010) [8, tabla 2.2] 48 (2022-octubre de 2026) [5, tabla 12] Tuberculosis declarada 27 (2003-2010) [8, tabla 2.2] 5 (2022-octubre de 2026) [5, tabla 12] Vacunación infantil completa 97,50 % (2008) [8, tabla de cobertura vacunal 2000-2008] 98,44 % (2025) [5, tabla 14] Primer problema para la comunidad Adicciones (2012 [6] y 2019 [17]) Sedentarismo (2022) [7] Lo que ha cambiado. La población es casi la misma, pero no es la misma gente. La edad media ha subido más de cuatro años, de 39,15 en 2010 [2, indicadores VIGIA] a 43,5 en 2025 [1], y la proporción de mayores de 85 casi se duplicó entre 2010 y 2020 [2, indicadores VIGIA]. Nacen menos niños: 146 en 2024 [1] frente a 197 en 2018 [18, apartado 1]. La población extranjera bajó de 1.140 personas en 2010 a 775 en 2018 [3] y desde entonces se ha más que duplicado, hasta 1.778 [1]; es la llegada de población la que sostiene el padrón. Hay menos personas en paro que en 2019, 1.192 [1] frente a 1.547 [18, apartado 3], pero una parte mayor son mujeres, el 61,2 % [1] frente al 55,5 % [18, apartado 3]. Entre las enfermedades transmisibles, la tuberculosis ha retrocedido y las infecciones de transmisión sexual declaradas se han multiplicado: sin contar la clamidia, que no aparece en los registros antiguos, 48 casos en menos de cinco años [5, tabla 12] frente a 10 en ocho [8, tabla 2.2]. Lo que se mantiene. La incidencia de cáncer ha quedado por debajo de la provincial en 2012- 2016 [27] y en 2016-2020 [5, discusión], aunque los casos de piel no melanoma, 78 en 2007- 2011 y 108 en 2012-2016 [27] y 120 en 2016-2020 [5, discusión], y los colorrectales, 48 y 63 [27] y 69 [5, discusión], crecen con una población que envejece. La vacunación infantil supera el 95 % desde 2002 [8, tabla de cobertura vacunal 2000-2008] [5, tabla 14]. La 20 \n\n  diabetes y la hipertensión registradas ya superaban en 2018 las cifras del Distrito [18, apartado 6] y en 2025 superan las de Granada y Andalucía [5, tabla 3]; las dos medidas tienen distinta unidad y distinta fuente, así que confirman la posición de Loja pero no permiten decir cuánto ha cambiado. Y en las tres consultas a la comunidad el sedentarismo y la alimentación aparecen arriba; lo que ha cambiado es el lugar de las adicciones, que pasaron del primer puesto en 2012 [6] y 2019 [17] a los puestos 17 y 21 de 26 en 2022 [7]. Lo que no se puede comparar. La renta de 2006, 7.873,56 euros de renta bruta disponible por habitante según Unicaja [8, apartado 1.6], y la de 2024, 11.741 euros de renta neta por persona [4, tabla 31025], proceden de fuentes con definiciones distintas. El 20,9 % de adultos que fumaban a diario y el 17,6 % con obesidad del Panel de 2013 [16] son conductas declaradas en una encuesta; las cifras de 2025 son diagnósticos registrados en el centro de salud [5, tabla 3]. El cribado de cuello de útero medía hacia 2009 la cobertura de la población diana, el 44,3 % [8, apartado 3.2], y en 2025 mide la invitación y la participación [5, tabla 11]. En los tres casos los dos datos describen cosas distintas, y la diferencia entre ellos no es un cambio. Las series que se cortaron. La mortalidad por suicidio, el exceso más marcado de Loja, se calculó en 2010 [8, apartado 2.2] y no se ha vuelto a calcular: la actualización de 2021 repitió aquella tabla [2]. Los hábitos de vida se midieron por última vez en 2012-2013 [16]. La insuficiencia cardíaca, la EPOC, la demencia y el asma infantil tenían en 2018 cifras propias de Loja frente al Distrito [18, apartado 6] que el Informe de 2026 no recoge [5]. El sobreenvejecimiento y la dependencia se detienen en 2020 [2, indicadores VIGIA]. Y la población de la Alcazaba y la Alfaguara, 1.332 personas según el padrón de sus calles en 2019 [18, apartado 4], solo puede seguirse hoy a través de las secciones censales: la Alfaguara es la 03002 y la Alcazaba, una parte de la 01003 [21] [22]. H. Renta y población por sección censal, 2024\n\nLa tabla completa RC2024 y sus notas figuran al final del cuerpo y en los indicadores estructurados de esta revisión. Las columnas demográficas del anexo H anterior permanecen en el PDF antecedente, sin atribuirles una nueva comprobación en esta revisión.\n\nI. Referencias 1. Instituto de Estadística y Cartografía de Andalucía. Sistema de Información Multiterritorial de Andalucía (SIMA). Ficha municipal de Loja (18122) [Internet]. Sevilla: IECA; actualizada el 9 oct 2026 [consultado 25 oct 2026]. Disponible en: https://www.juntadeandalucia.es/institutodeestadisticaycartografia/sima/ ficha.htm?mun=18122 2. Grupo Motor del Plan Local de Salud de Loja; Distrito Sanitario Granada Metropolitano. Perfil de Salud Local. I Plan Local de Salud Loja. Análisis epidemiológico (indicadores 2010-2020, sistema VIGIA). Documento de trabajo. Loja; abril de 2021. 3. Distrito Sanitario Granada Metropolitano. Informe de salud de Loja 2019: indicadores sociodemográficos 2010, 2015, 2017 y 2018. Documento de trabajo. Loja; 2019. 4. Instituto Nacional de Estadística. Atlas de Distribución de Renta de los Hogares, 2024. Tablas 31025, 31030, 31033, 53689 y 53694 [Internet]. Madrid: INE; 2026 [consultado 25 oct 2026]. Disponible en: https://www.ine.es/dyngs/INEbase/es/operacion.htm? c=Estadistica_C&cid=1254736177088&menu=ultiDatos&idp=1254735976608 5. Unidad de Prevención, Promoción y Vigilancia de la Salud, Distrito Sanitario Granada Metropolitano. Informe sobre la situación de salud en el municipio de Loja. Granada: Servicio Andaluz de Salud; 5 de octubre de 2026. 6. Grupo Motor RELAS Loja. Problemas y factores de riesgo detectados y priorizados. RELAS Loja. Loja; 2012. 7. Grupo Motor del Plan Local de Salud de Loja. Listado definitivo de problemas de salud/factores de riesgo por orden de priorización (método de Hanlon, 40 participantes) y hoja de cálculo de la priorización. Loja; noviembre de 2021 a marzo de 2022. 8. Grupo Motor Inicial RELAS Loja; Delegación Provincial de Salud de Granada. Perfil Salud Local Loja. 1.ª parte: análisis sociodemográfico y diagnóstico de salud (informe de situación municipal). Loja; 2010-2011. 22 \n\n  9. Junta de Andalucía. Localiza Salud: recursos y activos para la salud del municipio de Loja [base de datos]. Consulta de octubre de 2026; validación de activos de 24 oct 2026. 10. Grupo Motor Inicial RELAS Loja. Hoja de ruta 2010-2011 y actas de las reuniones 1 a 10 (4 nov 2010 a 15 jun 2011). Loja; 2010-2011. 11. Grupo Motor del Plan Local de Acción en Salud de Loja. Situación del PLAS: carta al alcalde. Loja; 10 abr 2013. 12. Grupo Motor del Plan Local de Salud de Loja. Actas de las reuniones de 24 feb, 24 mar y 28 abr 2021. Loja; 2021. 13. Ayuntamiento de Loja. Plan Local de Acción en Salud de Loja: solicitud de subvención a la Consejería de Salud. Loja; mayo de 2012. 14. Ahora Granada. La Estrategia Eracis inyecta 12,5 millones de euros en 13 zonas desfavorecidas de Granada [Internet]. 12 ene 2022 [consultado 26 oct 2026]. Disponible en: https://www.ahoragranada.com/noticias/la-estrategia-eracis-inyecta-125-millones-de-euros-en-13- zonas-desfavorecidas-de-granada/ 15. Instituto Nacional de Estadística. Censo de Población 2021. Tabla 66620: población de 15 y más años por nivel de estudios, sexo y municipio [Internet]. Madrid: INE [consultado 25 oct 2026]. Disponible en: https://servicios.ine.es/wstempus/js/ES/DATOS_TABLA/66620 16. Escuela Andaluza de Salud Pública. Panel Municipal de Salud de Andalucía. Loja. Sevilla: Consejería de Salud y Bienestar Social; julio de 2013. 17. Mesa de coordinación intersectorial de Loja. Cuestionario de identificación de factores de riesgo y problemas de salud: análisis de respuestas y microdatos (formulario en línea, 19 jul a 11 sep 2019). Loja; octubre de 2019. 18. Ayuntamiento de Loja. Borrador del Perfil de Salud Local de Loja (apartado 1, «Población y territorio», y apartados 2 a 15 de la plantilla RELAS). Documento de trabajo. Loja; 2019. 19. Grupo Motor Inicial RELAS Loja. Determinantes sociales de la salud de Loja (matriz y texto). Loja; mayo de 2011. 20. Mesa de coordinación intersectorial de Loja. Síntesis de entrevistas a referentes del municipio. Loja; 2019. 21. OpenStreetMap. Servicio de geocodificación Nominatim: calles de los barrios de la Alcazaba y la Alfaguara (Loja) [Internet] [consultado 26 oct 2026]. Disponible en: https://nominatim.openstreetmap.org/ 22. WikiBarrio. Límites de secciones censales (versión secc2025) con datos del Censo Anual de Población y del Atlas de Distribución de Renta de los Hogares del INE [Internet] [consultado 26 oct 2026]. Disponible en: https://www.wikibarrio.es/ 23. Grupo Motor RELAS Loja. Determinantes de salud: documento definitivo para difusión (con tabla de intervenciones existentes y propuestas). Loja; enero de 2012. 24. Grupo Motor RELAS Loja. Propuesta de guion de las mesas de adicciones, vida activa y cronicidad. Loja; 28 jun 2013. 25. Ayuntamiento de Loja. Memoria de actividades «Otoño Saludable» y VII Semana de la Salud de Loja 2019. Loja; 2019. 26. Grupo Motor del Plan Local de Salud de Loja. Problemas priorizados y propuesta de plan de acción; Plan de Acción Loja (tabla por líneas). Loja; marzo de 2022. 27. del Moral Campaña MC. Informe de incidencia de cáncer en Loja 2007-2016. Datos del Registro de Cáncer de Granada. Granada: Distrito Sanitario Granada Metropolitano, Epidemiología; 24 mar 2021. 23 \n\n  28. Ayuntamiento de Loja. II Semana de la Salud de Loja (18 a 22 nov 2013): programa a 5 de noviembre de 2013. Loja; 2013. 29. Ayuntamiento de Loja. I Gala de la Salud Pública de Loja: información resumen de interés. Loja; 2021. 30. Zona Básica de Salud de Loja. Solicitud de adhesión al programa «Por 1 Millón de Pasos». Granada; 1 abr 2025. 31. Grupo Motor RELAS Loja. Análisis del cuestionario de problemas de salud por mesas sectoriales. Loja; mayo de 2012. 32. Grupo Motor RELAS Loja. Propuesta de estructura del Plan Local de Salud de Loja (ficha de línea de trabajo). Loja; c. 2013. 33. Grupo Motor del Plan Local de Salud de Loja. Plantilla del I Plan Local de Salud de Loja. Loja; 18 oct 2021. 34. Delegación Provincial de Salud de Granada; Ayuntamiento de Loja. Acuerdo de colaboración para el desarrollo de la Red Local de Acción en Salud en Loja. 4 feb 2011. 35. Grupo Motor RELAS Loja. Informe del proyecto RELAS en Loja (26 mar 2012), acta de 14 jun 2012 y relación de personas integrantes del Grupo Motor (febrero de 2012). Loja; 2012. 36. Ayuntamiento de Loja. Anteproyecto de la V Semana de la Salud Pública de Loja. Loja; 27 sep 2017. 37. Ayuntamiento de Loja. Propuesta de reglamento de la Mesa de coordinación intersectorial para la implementación local de la Estrategia de Promoción de la Salud y Prevención del SNS (Mesa creada el 19 nov 2018). Loja; febrero de 2019. 38. Mesa de coordinación intersectorial de Loja. Encuesta de hábitos saludables en la población de Loja: análisis por tramos de edad (6-9, 9-12 y más de 12 años). Loja; septiembre de 2019. J. Notas metodológicas • Local y no local. Solo es dato local el que describe a la población de Loja. Las cifras de Granada o de Andalucía, incluida la Encuesta Andaluza de Salud, sirven de comparación o contexto y nunca sustituyen al dato municipal. • Datos epidemiológicos oficiales. Se reproducen como los publica su fuente. Solo se declaran el año, la escala cuando no es municipal y la ausencia de datos posteriores. • Panel de salud. Recoge los indicadores del núcleo común de los que hay dato en el expediente; el catálogo cerrado del núcleo está en preparación. No lleva colores de comparación porque ninguna fuente publica intervalos ni significación. • Desigualdad interna. Se mide con la renta por sección censal del INE: es un eje de renta, no un índice de privación múltiple. • Recurso y activo. Se llama activo al recurso cuya identificación comunitaria consta validada en Localiza Salud; el resto son recursos. • Grado de las relaciones. 1, observada en Loja; 2, documentada en una referencia externa; 3, plausible sin sustento. Solo los grados 1 y 2 permiten recomendar «Abordar». • Sección censal y barrio. La Alfaguara se asigna a la sección 03002 y la Alcazaba a una parte de la 01003 porque en ellas caen, salvo una en cada barrio, las calles que el informe de 2010 atribuye a cada uno [8, apartado 1.7], localizadas con OpenStreetMap [21] sobre los límites de sección de WikiBarrio [22]. Se usó la posición de cada calle, no la de cada portal; seis calles de la Alfaguara y cuatro de la Alcazaba no pudieron localizarse. 24 \n\n  • Ciclos. Los documentos de 2010 a 2022 pertenecen a ciclos anteriores. Se usan como antecedente y como término de comparación, no como descripción del presente. • Citas. Los números entre corchetes remiten a las referencias del anexo I; tras la coma se indica la tabla o el apartado de la fuente. • Lo que falta en las páginas de datos. El mapa del término municipal y la pirámide de población frente a Andalucía quedan pendientes: el expediente no tiene todavía la geometría del término ni la población de Loja por edad y sexo. K. Trazabilidad de las conclusiones Para cada conclusión: el tipo de afirmación, las evidencias principales, el grado de la relación, el límite que la condiciona y las recomendaciones a las que lleva. Tipo Evidencia principal Relación Límite Lleva a C1 Interpretación Dislipemia 3.081,79, hipertensión 2.600,93, diabetes 1.013,25 y obesidad 675,83 por 10.000, frente a 2.718,19, 2.285,76, 906,66 y 568,28 en Granada [5, tabla 3]; mortalidad endocrina y metabólica 5,97 % frente a 3,45 % [5, tabla 7] Modos de vida y carga cardiometabólica: grado 2, pendiente de que la declare el equipo técnico Último dato local de conducta, de 2013 [16] R1, R2, R3 C2 Hecho Panel Municipal de Salud 2012-2013 [16]; sedentarismo y alimentación en cabeza en 2012 [6] y 2022 [7] Sin relación declarada Las consultas son de ciclos anteriores R2, R3 C3 Hecho 7.106,529 € por persona, el 60,5 % de la media [4, tabla 31025]; 58,811 (cota publicada por secreto estadístico; no porcentaje exacto) bajo el 60 % de la mediana [4, tabla 31030]; 01003 con el 40,0 % [4, tabla 31030] Sin relación declarada Ningún indicador de salud por sección; la 01003 es más amplia que la Alcazaba R4, R5 C4 Hecho Edad media 39,15 (2010) [2] y 43,5 (2025) [1]; secciones con más del 26 % de mayores de 65 y 28,4 % de hogares unipersonales [4, tabla 31033] Sin relación declarada Sin datos actuales de dependencia ni de plazas R6 C5 Hecho Atlas de Mortalidad, informe de 2010 [8, apartado 2.2], repetido sin recalcular en 2021 [2] Sin relación declarada Ningún cálculo posterior a 2010 R7 C6 Hecho 45 casos de clamidia, 27 de gonococo, 11 de sífilis y 10 de herpes (2022-oct. 2026) [5, tabla 12]; 10 casos en 2003- 2010 [8, tabla 2.2] Sin relación declarada Sin datos de edad ni de vía de transmisión R8 C7 Hecho Vacunación 98,44 % [5, tabla 14]; colon 35,77 % y cérvix 33,59 %, por encima de Granada y Andalucía [5, tablas 9 y 11]; mama, 56,94 % de invitación frente a 67,86 % en Andalucía [5, tabla 10] Sin relación declarada — R9 25 \n\n  Tipo Evidencia principal Relación Límite Lleva a C8 Interpretación 5 activos validados, 3 para mayores; 74 recursos de actividad física [9] Sin relación declarada Un recurso no validado puede funcionar como activo sin constar R10 C9 Interpretación Diagnósticos de 2011 [19], 2012 [6], 2019 [17] y 2022 [7]; procesos cortados en 2011 [10], 2013 [11] y 2020 [12] Sin relación declarada — R11 26\n\nRenta censal 2024: tabla completa\nSección 1812201001: renta neta media por persona 10.496,902 euros/año; por hogar 28.496,508 euros/año; bajo el 60 % de la mediana 46,618 %. \n\nSección 1812201002: renta neta media por persona 13.761,359 euros/año; por hogar 33.023,654 euros/año; bajo el 60 % de la mediana 27,362 %. \n\nSección 1812201003: renta neta media por persona 10.529,231 euros/año; por hogar 26.109,385 euros/año; bajo el 60 % de la mediana 39,955 %. \n\nSección 1812202001: renta neta media por persona 11.277,805 euros/año; por hogar 29.537,108 euros/año; bajo el 60 % de la mediana 33,684 %. \n\nSección 1812202002: renta neta media por persona 10.835,429 euros/año; por hogar 29.323,379 euros/año; bajo el 60 % de la mediana 31,563 %. \n\nSección 1812202003: renta neta media por persona 11.187,203 euros/año; por hogar 27.503,363 euros/año; bajo el 60 % de la mediana 29,890 %. \n\nSección 1812202004: renta neta media por persona 13.667,534 euros/año; por hogar 32.523,064 euros/año; bajo el 60 % de la mediana 20,979 %. \n\nSección 1812202005: renta neta media por persona 12.058,051 euros/año; por hogar 32.115,008 euros/año; bajo el 60 % de la mediana 20,297 %. \n\nSección 1812203001: renta neta media por persona 12.382,134 euros/año; por hogar 29.862,793 euros/año; bajo el 60 % de la mediana 30,226 %. \n\nSección 1812203002: renta neta media por persona 7.106,529 euros/año; por hogar 20.458,191 euros/año; bajo el 60 % de la mediana cota publicada 58,811 %. Dato bajo secreto estadístico, por encima de la cota superior. Se proporciona la cota superior.\n\nSección 1812203003: renta neta media por persona 10.203,698 euros/año; por hogar 24.939,038 euros/año; bajo el 60 % de la mediana 34,416 %. \n\nSección 1812203004: renta neta media por persona 11.393,285 euros/año; por hogar 29.089,558 euros/año; bajo el 60 % de la mediana 22,697 %. \n\nSección 1812204001: renta neta media por persona 12.015,774 euros/año; por hogar 26.795,913 euros/año; bajo el 60 % de la mediana 25,034 %. \n\nSección 1812204002: renta neta media por persona 12.007,957 euros/año; por hogar 28.155,302 euros/año; bajo el 60 % de la mediana 21,589 %. \n\nSección 1812204003: renta neta media por persona 11.606,586 euros/año; por hogar 27.235,672 euros/año; bajo el 60 % de la mediana 25,077 %. \n\nSección 1812205001: renta neta media por persona 11.505,439 euros/año; por hogar 26.652,227 euros/año; bajo el 60 % de la mediana 29,047 %. \n\nSección 1812205002: renta neta media por persona 13.773,938 euros/año; por hogar 35.987,399 euros/año; bajo el 60 % de la mediana 16,925 %. \n\nFuente RC2024\nINE, Atlas de Distribución de Renta de los Hogares 2024. Servicio ADRH_secciones_t; consulta 6/11/2026. https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2\nLos campos dato1, dato2 y dato4 se conservan con sus notas. La geometría es la entregada en la misma consulta; no se atribuye a otro ciclo censal.\n\nRecomendaciones incorporadas\nLa lectura cardiometabólica y preventiva debe acompañarse de la distribución territorial de renta. Se recomienda solicitar datos sanitarios con escala compatible y contrastar acceso a los cinco activos validados, prevención y participación con residentes de las secciones de menor renta. El catálogo anterior de 162 recursos se conserva como antecedente, separado de los cinco activos del inventario activo. La renta no demuestra por sí sola una mayor carga de enfermedad en una sección ni cambia las prioridades adoptadas.",
+  "results": [
+    {
+      "id": "loja-armon-poblacion",
+      "title": "Población",
+      "value": "20.923",
+      "unit": "personas",
+      "period": "2025",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Loja v0.3; [1] SIMA",
+      "page": "2",
+      "scale": "Loja",
+      "denominator": "Población municipal",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 20923.0,
+      "supportsConclusions": [
+        "C4"
+      ]
+    },
+    {
+      "id": "loja-armon-edad",
+      "title": "Edad media",
+      "value": "43,5",
+      "unit": "años",
+      "period": "2025",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Loja v0.3; [1] SIMA",
+      "page": "2",
+      "scale": "Loja",
+      "denominator": "Población municipal",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 43.5,
+      "supportsConclusions": [
+        "C4"
+      ]
+    },
+    {
+      "id": "loja-armon-menores20",
+      "title": "Población menor de 20 años",
+      "value": "20,3",
+      "unit": "%",
+      "period": "2025",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 1",
+      "page": "2",
+      "scale": "Loja",
+      "denominator": "Población municipal",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 20.3
+    },
+    {
+      "id": "loja-armon-mayores65",
+      "title": "Población de 65 años o más",
+      "value": "19,5",
+      "unit": "%",
+      "period": "2025",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Loja v0.3; [1] SIMA",
+      "page": "2",
+      "scale": "Loja",
+      "denominator": "Población municipal",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 19.5,
+      "supportsConclusions": [
+        "C4"
+      ]
+    },
+    {
+      "id": "loja-armon-hogares",
+      "title": "Hogares de una sola persona",
+      "value": "28,4",
+      "unit": "%",
+      "period": "2024",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Loja v0.3; [4] INE, tabla 31033",
+      "page": "2",
+      "scale": "Loja",
+      "denominator": "Hogares del municipio",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 28.4,
+      "supportsConclusions": [
+        "C4"
+      ]
+    },
+    {
+      "id": "loja-armon-extranjeros",
+      "title": "Personas de nacionalidad extranjera",
+      "value": "1.778",
+      "unit": "personas",
+      "period": "2025",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Loja v0.3; [1] SIMA",
+      "page": "2",
+      "scale": "Loja",
+      "denominator": "Recuento de residentes de nacionalidad extranjera",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 1778.0
+    },
+    {
+      "id": "loja-armon-renta",
+      "title": "Renta neta media por persona",
+      "value": "11.741",
+      "unit": "euros/persona",
+      "period": "2024",
+      "topic": "Desigualdad",
+      "source": "Perfil de Salud Local de Loja v0.3; [4] INE, tablas 31025, 53689 y 53694",
+      "page": "2",
+      "scale": "Loja",
+      "denominator": "Personas de la población de referencia del Atlas de Renta",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 11741.0,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 13509
+        },
+        {
+          "label": "Andalucía",
+          "value": 13342
+        },
+        {
+          "label": "España",
+          "value": 15948
+        }
+      ],
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-armon-pobreza",
+      "title": "Población bajo el 60 % de la mediana de ingresos",
+      "value": "29,5",
+      "unit": "%",
+      "period": "2024",
+      "topic": "Desigualdad",
+      "source": "Perfil de Salud Local de Loja v0.3; [4] INE, tablas 31030, 53689 y 53694",
+      "page": "2",
+      "scale": "Loja",
+      "denominator": "Población de referencia del Atlas de Renta",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 29.5,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 27.8
+        },
+        {
+          "label": "Andalucía",
+          "value": 26.2
+        },
+        {
+          "label": "España",
+          "value": 20.2
+        }
+      ],
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-armon-paro",
+      "title": "Paro registrado",
+      "value": "1.192",
+      "unit": "personas",
+      "period": "2025",
+      "topic": "Determinantes sociales",
+      "source": "Perfil de Salud Local de Loja v0.3; [1] SIMA",
+      "page": "2",
+      "scale": "Loja",
+      "denominator": "Personas inscritas en paro; no población activa",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 1192.0
+    },
+    {
+      "id": "loja-armon-tasa-paro",
+      "title": "Tasa municipal de desempleo",
+      "value": "15,3",
+      "unit": "%",
+      "period": "2025",
+      "topic": "Determinantes sociales",
+      "source": "Perfil de Salud Local de Loja v0.3; [1] SIMA",
+      "page": "2",
+      "scale": "Loja",
+      "denominator": "Base de la tasa publicada por SIMA; no recalculada",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 15.3
+    },
+    {
+      "id": "loja-armon-estudios",
+      "title": "Población de 15 o más años con estudios superiores",
+      "value": "21,1",
+      "unit": "%",
+      "period": "2021",
+      "topic": "Determinantes sociales",
+      "source": "Perfil de Salud Local de Loja v0.3; [15] Censo 2021",
+      "page": "2",
+      "scale": "Loja",
+      "denominator": "Población de 15 años o más",
+      "temporalContext": "historical",
+      "caution": "",
+      "chartValue": 21.1
+    },
+    {
+      "id": "loja-armon-dislipemia",
+      "title": "Dislipemia",
+      "value": "3.081,79",
+      "unit": "diagnósticos por 10.000 habitantes",
+      "period": "2025",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 3",
+      "page": "13-14",
+      "scale": "Loja",
+      "denominator": "10.000 habitantes, según la tasa publicada; no recalculada a partir de los recuentos",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 3081.79,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 2718.19
+        },
+        {
+          "label": "Andalucía",
+          "value": 2569.94
+        }
+      ],
+      "supportsConclusions": [
+        "C1"
+      ]
+    },
+    {
+      "id": "loja-armon-hipertension",
+      "title": "Hipertensión",
+      "value": "2.600,93",
+      "unit": "diagnósticos por 10.000 habitantes",
+      "period": "2025",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 3",
+      "page": "13-14",
+      "scale": "Loja",
+      "denominator": "10.000 habitantes, según la tasa publicada; no recalculada a partir de los recuentos",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 2600.93,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 2285.76
+        },
+        {
+          "label": "Andalucía",
+          "value": 2327.73
+        }
+      ],
+      "supportsConclusions": [
+        "C1"
+      ]
+    },
+    {
+      "id": "loja-armon-artrosis",
+      "title": "Artrosis y espondilosis",
+      "value": "2.261,51",
+      "unit": "diagnósticos por 10.000 habitantes",
+      "period": "2025",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 3",
+      "page": "13-14",
+      "scale": "Loja",
+      "denominator": "10.000 habitantes, según la tasa publicada; no recalculada a partir de los recuentos",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 2261.51,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 2032.84
+        },
+        {
+          "label": "Andalucía",
+          "value": 1887.06
+        }
+      ]
+    },
+    {
+      "id": "loja-armon-asma",
+      "title": "Asma",
+      "value": "1.426,42",
+      "unit": "diagnósticos por 10.000 habitantes",
+      "period": "2025",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 3",
+      "page": "13-14",
+      "scale": "Loja",
+      "denominator": "10.000 habitantes, según la tasa publicada; no recalculada a partir de los recuentos",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 1426.42,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 1448.67
+        },
+        {
+          "label": "Andalucía",
+          "value": 1187.09
+        }
+      ]
+    },
+    {
+      "id": "loja-armon-ansiedad",
+      "title": "Trastorno de ansiedad",
+      "value": "1.114,48",
+      "unit": "diagnósticos por 10.000 habitantes",
+      "period": "2025",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 3",
+      "page": "13-14",
+      "scale": "Loja",
+      "denominator": "10.000 habitantes, según la tasa publicada; no recalculada a partir de los recuentos",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 1114.48,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 1035.01
+        },
+        {
+          "label": "Andalucía",
+          "value": 1133.96
+        }
+      ]
+    },
+    {
+      "id": "loja-armon-diabetes",
+      "title": "Diabetes",
+      "value": "1.013,25",
+      "unit": "diagnósticos por 10.000 habitantes",
+      "period": "2025",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 3",
+      "page": "13-14",
+      "scale": "Loja",
+      "denominator": "10.000 habitantes, según la tasa publicada; no recalculada a partir de los recuentos",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 1013.25,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 906.66
+        },
+        {
+          "label": "Andalucía",
+          "value": 966.37
+        }
+      ],
+      "supportsConclusions": [
+        "C1"
+      ]
+    },
+    {
+      "id": "loja-armon-hipotiroidismo",
+      "title": "Hipotiroidismo",
+      "value": "955,87",
+      "unit": "diagnósticos por 10.000 habitantes",
+      "period": "2025",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 3",
+      "page": "13-14",
+      "scale": "Loja",
+      "denominator": "10.000 habitantes, según la tasa publicada; no recalculada a partir de los recuentos",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 955.87,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 922.32
+        },
+        {
+          "label": "Andalucía",
+          "value": 898.72
+        }
+      ]
+    },
+    {
+      "id": "loja-armon-obesidad",
+      "title": "Obesidad",
+      "value": "675,83",
+      "unit": "diagnósticos por 10.000 habitantes",
+      "period": "2025",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 3",
+      "page": "13-14",
+      "scale": "Loja",
+      "denominator": "10.000 habitantes, según la tasa publicada; no recalculada a partir de los recuentos",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 675.83,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 568.28
+        },
+        {
+          "label": "Andalucía",
+          "value": 538.77
+        }
+      ],
+      "supportsConclusions": [
+        "C1"
+      ]
+    },
+    {
+      "id": "loja-armon-tabaco",
+      "title": "Dependencia del tabaco",
+      "value": "558,30",
+      "unit": "diagnósticos por 10.000 habitantes",
+      "period": "2025",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 3",
+      "page": "13-14",
+      "scale": "Loja",
+      "denominator": "10.000 habitantes, según la tasa publicada; no recalculada a partir de los recuentos",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 558.3,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 595.07
+        },
+        {
+          "label": "Andalucía",
+          "value": 513.35
+        }
+      ]
+    },
+    {
+      "id": "loja-armon-circulatorias",
+      "title": "Defunciones por enfermedades circulatorias",
+      "value": "27,17",
+      "unit": "%",
+      "period": "2024",
+      "topic": "Mortalidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 7",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Total de defunciones del territorio y año",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 27.17,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 26.91
+        },
+        {
+          "label": "Andalucía",
+          "value": 26.96
+        }
+      ]
+    },
+    {
+      "id": "loja-armon-tumores",
+      "title": "Defunciones por tumores",
+      "value": "20,10",
+      "unit": "%",
+      "period": "2024",
+      "topic": "Mortalidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 7",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Total de defunciones del territorio y año",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 20.1,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 24.49
+        },
+        {
+          "label": "Andalucía",
+          "value": 26.03
+        }
+      ]
+    },
+    {
+      "id": "loja-armon-respiratorias",
+      "title": "Defunciones por enfermedades respiratorias",
+      "value": "12,50",
+      "unit": "%",
+      "period": "2024",
+      "topic": "Mortalidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 7",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Total de defunciones del territorio y año",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 12.5,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 11.12
+        },
+        {
+          "label": "Andalucía",
+          "value": 10.81
+        }
+      ]
+    },
+    {
+      "id": "loja-armon-endocrinas",
+      "title": "Defunciones por enfermedades endocrinas, nutricionales y metabólicas",
+      "value": "5,97",
+      "unit": "%",
+      "period": "2024",
+      "topic": "Mortalidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 7",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Total de defunciones del territorio y año",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 5.97,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 3.45
+        },
+        {
+          "label": "Andalucía",
+          "value": 3.37
+        }
+      ]
+    },
+    {
+      "id": "loja-armon-maldefinidas",
+      "title": "Defunciones por síntomas y signos mal definidos",
+      "value": "10,32",
+      "unit": "%",
+      "period": "2024",
+      "topic": "Mortalidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 7",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Total de defunciones del territorio y año",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 10.32,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 4.96
+        },
+        {
+          "label": "Andalucía",
+          "value": 4.35
+        }
+      ]
+    },
+    {
+      "id": "loja-armon-defunciones",
+      "title": "Defunciones",
+      "value": "184",
+      "unit": "personas",
+      "period": "2024",
+      "topic": "Mortalidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 8",
+      "page": "14",
+      "scale": "Loja",
+      "denominator": "Recuento anual de defunciones",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 184.0
+    },
+    {
+      "id": "loja-armon-cancer",
+      "title": "Incidencia estandarizada de todos los cánceres",
+      "value": "582",
+      "unit": "casos por 100.000",
+      "period": "2016-2020",
+      "topic": "Cáncer",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], discusión",
+      "page": "14",
+      "scale": "Loja",
+      "denominator": "Población estándar de la tasa publicada; no tasa bruta",
+      "temporalContext": "historical",
+      "caution": "",
+      "chartValue": 582.0,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 722
+        }
+      ]
+    },
+    {
+      "id": "loja-armon-linfoma",
+      "title": "Prevalencia de linfoma no Hodgkin",
+      "value": "30,11",
+      "unit": "por 10.000",
+      "period": "2025",
+      "topic": "Cáncer",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 6",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "10.000 habitantes según la fuente",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 30.11,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 24.7
+        },
+        {
+          "label": "Andalucía",
+          "value": 27.15
+        }
+      ]
+    },
+    {
+      "id": "loja-armon-fumadores",
+      "title": "Adultos que fuman a diario",
+      "value": "20,9",
+      "unit": "%",
+      "period": "2012-2013",
+      "topic": "Conductas",
+      "source": "Perfil de Salud Local de Loja v0.3; [16] Panel Municipal de Salud EASP",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Personas adultas encuestadas",
+      "temporalContext": "historical",
+      "caution": "Estudio histórico; no describe las conductas actuales.",
+      "chartValue": 20.9,
+      "supportsConclusions": [
+        "C2"
+      ]
+    },
+    {
+      "id": "loja-armon-obesidad-declarada",
+      "title": "Adultos con obesidad declarada",
+      "value": "17,6",
+      "unit": "%",
+      "period": "2012-2013",
+      "topic": "Conductas",
+      "source": "Perfil de Salud Local de Loja v0.3; [16] Panel Municipal de Salud EASP",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Personas adultas encuestadas",
+      "temporalContext": "historical",
+      "caution": "Estudio histórico; no describe las conductas actuales.",
+      "chartValue": 17.6,
+      "supportsConclusions": [
+        "C2"
+      ]
+    },
+    {
+      "id": "loja-armon-obesidad-menores",
+      "title": "Menores con obesidad",
+      "value": "10,6",
+      "unit": "%",
+      "period": "2012-2013",
+      "topic": "Conductas",
+      "source": "Perfil de Salud Local de Loja v0.3; [16] Panel Municipal de Salud EASP",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Menores de la población estudiada",
+      "temporalContext": "historical",
+      "caution": "Estudio histórico; no describe las conductas actuales.",
+      "chartValue": 10.6,
+      "supportsConclusions": [
+        "C2"
+      ]
+    },
+    {
+      "id": "loja-armon-humo-hogar",
+      "title": "Menores que conviven con fumadores en casa",
+      "value": "32,7",
+      "unit": "%",
+      "period": "2012-2013",
+      "topic": "Conductas",
+      "source": "Perfil de Salud Local de Loja v0.3; [16] Panel Municipal de Salud EASP",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Menores de la población estudiada",
+      "temporalContext": "historical",
+      "caution": "Estudio histórico; no describe las conductas actuales.",
+      "chartValue": 32.7,
+      "supportsConclusions": [
+        "C2"
+      ]
+    },
+    {
+      "id": "loja-armon-actividad",
+      "title": "Mediana de días semanales con actividad física moderada",
+      "value": "0",
+      "unit": "días/semana",
+      "period": "2012-2013",
+      "topic": "Conductas",
+      "source": "Perfil de Salud Local de Loja v0.3; [16] Panel Municipal de Salud EASP",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Mediana en la población adulta estudiada",
+      "temporalContext": "historical",
+      "caution": "Mediana, no media; dato histórico.",
+      "chartValue": 0.0,
+      "supportsConclusions": [
+        "C2"
+      ]
+    },
+    {
+      "id": "loja-armon-vacunacion",
+      "title": "Vacunación infantil: pauta completa",
+      "value": "98,44",
+      "unit": "%",
+      "period": "2025",
+      "topic": "Vacunación",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 14",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "189/192 según la tabla 14 publicada",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 98.44,
+      "supportsConclusions": [
+        "C7"
+      ]
+    },
+    {
+      "id": "loja-armon-colon",
+      "title": "Cribado de colon: participación",
+      "value": "35,77",
+      "unit": "%",
+      "period": "2025",
+      "topic": "Prevención",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 9",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Personas invitadas al programa",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 35.77,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 33.05
+        },
+        {
+          "label": "Andalucía",
+          "value": 23.77
+        }
+      ],
+      "supportsConclusions": [
+        "C7"
+      ]
+    },
+    {
+      "id": "loja-armon-cervix",
+      "title": "Cribado de cuello de útero: participación",
+      "value": "33,59",
+      "unit": "%",
+      "period": "2025",
+      "topic": "Prevención",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 11",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Personas invitadas al programa",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 33.59,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 12.59
+        },
+        {
+          "label": "Andalucía",
+          "value": 8.68
+        }
+      ],
+      "supportsConclusions": [
+        "C7"
+      ]
+    },
+    {
+      "id": "loja-armon-mama-invitacion",
+      "title": "Cribado de mama: invitación",
+      "value": "56,94",
+      "unit": "%",
+      "period": "2025",
+      "topic": "Prevención",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 10",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Mujeres de la edad diana",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 56.94,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 28.32
+        },
+        {
+          "label": "Andalucía",
+          "value": 67.86
+        }
+      ],
+      "supportsConclusions": [
+        "C7"
+      ]
+    },
+    {
+      "id": "loja-armon-mama-participacion",
+      "title": "Cribado de mama: participación",
+      "value": "73,47",
+      "unit": "%",
+      "period": "2025",
+      "topic": "Prevención",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 10",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Mujeres citadas",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 73.47,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 84.3
+        },
+        {
+          "label": "Andalucía",
+          "value": 70.93
+        }
+      ],
+      "supportsConclusions": [
+        "C7"
+      ]
+    },
+    {
+      "id": "loja-armon-clamidia",
+      "title": "Clamidia: casos declarados",
+      "value": "45",
+      "unit": "casos",
+      "period": "2022-5/10/2026",
+      "topic": "Vigilancia epidemiológica",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 12",
+      "page": "15",
+      "scale": "Loja",
+      "denominator": "Recuento de notificaciones en el periodo; no tasa anual",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 45.0,
+      "supportsConclusions": [
+        "C6"
+      ]
+    },
+    {
+      "id": "loja-armon-gonococo",
+      "title": "Gonococo: casos declarados",
+      "value": "27",
+      "unit": "casos",
+      "period": "2022-5/10/2026",
+      "topic": "Vigilancia epidemiológica",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 12",
+      "page": "15",
+      "scale": "Loja",
+      "denominator": "Recuento de notificaciones en el periodo; no tasa anual",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 27.0,
+      "supportsConclusions": [
+        "C6"
+      ]
+    },
+    {
+      "id": "loja-armon-sifilis",
+      "title": "Sífilis: casos declarados",
+      "value": "11",
+      "unit": "casos",
+      "period": "2022-5/10/2026",
+      "topic": "Vigilancia epidemiológica",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 12",
+      "page": "15",
+      "scale": "Loja",
+      "denominator": "Recuento de notificaciones en el periodo; no tasa anual",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 11.0,
+      "supportsConclusions": [
+        "C6"
+      ]
+    },
+    {
+      "id": "loja-armon-herpes",
+      "title": "Herpes genital: casos declarados",
+      "value": "10",
+      "unit": "casos",
+      "period": "2022-5/10/2026",
+      "topic": "Vigilancia epidemiológica",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 12",
+      "page": "15",
+      "scale": "Loja",
+      "denominator": "Recuento de notificaciones en el periodo; no tasa anual",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 10.0,
+      "supportsConclusions": [
+        "C6"
+      ]
+    },
+    {
+      "id": "loja-armon-tuberculosis",
+      "title": "Tuberculosis: casos declarados",
+      "value": "5",
+      "unit": "casos",
+      "period": "2022-5/10/2026",
+      "topic": "Vigilancia epidemiológica",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 12",
+      "page": "15",
+      "scale": "Loja",
+      "denominator": "Recuento de notificaciones en el periodo; no tasa anual",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 5.0
+    },
+    {
+      "id": "loja-armon-verdes",
+      "title": "Zona verde urbana por habitante",
+      "value": "0,81",
+      "unit": "m²/persona",
+      "period": "2020",
+      "topic": "Entorno",
+      "source": "Perfil de Salud Local de Loja v0.3; [2] indicadores VIGIA",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Habitantes de la base publicada",
+      "temporalContext": "historical",
+      "caution": "",
+      "chartValue": 0.81
+    },
+    {
+      "id": "loja-armon-recursos",
+      "title": "Recursos del catálogo anterior de Localiza Salud",
+      "value": "162",
+      "unit": "recursos",
+      "period": "Octubre 2026",
+      "topic": "Activos",
+      "source": "Perfil de Salud Local de Loja v0.3; [9] inventario Localiza Salud",
+      "page": "16",
+      "scale": "Loja",
+      "denominator": "Registros del inventario; no activos validados",
+      "temporalContext": "historical",
+      "caution": "Catálogo anterior de 162 recursos conservado como antecedente; no es el inventario activo de cinco activos validados.",
+      "chartValue": 162.0,
+      "supportsConclusions": [
+        "C8"
+      ]
+    },
+    {
+      "id": "loja-armon-activos",
+      "title": "Activos validados",
+      "value": "5",
+      "unit": "activos",
+      "period": "24/10/2026",
+      "topic": "Activos",
+      "source": "Perfil de Salud Local de Loja v0.3; [9] declaración de validación en el expediente",
+      "page": "16",
+      "scale": "Loja",
+      "denominator": "Cinco fichas expresamente validadas; no los 162 recursos",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 5.0,
+      "supportsConclusions": [
+        "C8"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812201001-persona",
+      "title": "Renta neta media por persona",
+      "value": "10.496,902",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812201001; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812201001",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 10496.902,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812201001-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "28.496,508",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812201001; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812201001",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 28496.508,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812201001-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "46,618",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812201001; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812201001",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 46.618,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812201002-persona",
+      "title": "Renta neta media por persona",
+      "value": "13.761,359",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812201002; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812201002",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 13761.359,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812201002-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "33.023,654",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812201002; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812201002",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 33023.654,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812201002-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "27,362",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812201002; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812201002",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 27.362,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812201003-persona",
+      "title": "Renta neta media por persona",
+      "value": "10.529,231",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812201003; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812201003",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 10529.231,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812201003-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "26.109,385",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812201003; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812201003",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 26109.385,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812201003-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "39,955",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812201003; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812201003",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 39.955,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202001-persona",
+      "title": "Renta neta media por persona",
+      "value": "11.277,805",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202001; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202001",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 11277.805,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202001-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "29.537,108",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202001; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202001",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 29537.108,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202001-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "33,684",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202001; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202001",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 33.684,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202002-persona",
+      "title": "Renta neta media por persona",
+      "value": "10.835,429",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202002; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202002",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 10835.429,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202002-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "29.323,379",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202002; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202002",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 29323.379,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202002-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "31,563",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202002; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202002",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 31.563,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202003-persona",
+      "title": "Renta neta media por persona",
+      "value": "11.187,203",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202003; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202003",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 11187.203,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202003-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "27.503,363",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202003; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202003",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 27503.363,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202003-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "29,890",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202003; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202003",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 29.89,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202004-persona",
+      "title": "Renta neta media por persona",
+      "value": "13.667,534",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202004; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202004",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 13667.534,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202004-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "32.523,064",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202004; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202004",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 32523.064,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202004-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "20,979",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202004; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202004",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 20.979,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202005-persona",
+      "title": "Renta neta media por persona",
+      "value": "12.058,051",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202005; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202005",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 12058.051,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202005-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "32.115,008",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202005; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202005",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 32115.008,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202005-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "20,297",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202005; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202005",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 20.297,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812203001-persona",
+      "title": "Renta neta media por persona",
+      "value": "12.382,134",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812203001; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812203001",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 12382.134,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812203001-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "29.862,793",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812203001; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812203001",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 29862.793,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812203001-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "30,226",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812203001; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812203001",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 30.226,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812203002-persona",
+      "title": "Renta neta media por persona",
+      "value": "7.106,529",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812203002; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812203002",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 7106.529,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812203002-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "20.458,191",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812203002; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812203002",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 20458.191,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812203002-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "Cota publicada: 58,811",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812203002; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812203002",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato bajo secreto estadístico, por encima de la cota superior. Se proporciona la cota superior.",
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812203003-persona",
+      "title": "Renta neta media por persona",
+      "value": "10.203,698",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812203003; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812203003",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 10203.698,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812203003-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "24.939,038",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812203003; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812203003",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 24939.038,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812203003-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "34,416",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812203003; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812203003",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 34.416,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812203004-persona",
+      "title": "Renta neta media por persona",
+      "value": "11.393,285",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812203004; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812203004",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 11393.285,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812203004-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "29.089,558",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812203004; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812203004",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 29089.558,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812203004-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "22,697",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812203004; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812203004",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 22.697,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812204001-persona",
+      "title": "Renta neta media por persona",
+      "value": "12.015,774",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812204001; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812204001",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 12015.774,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812204001-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "26.795,913",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812204001; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812204001",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 26795.913,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812204001-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "25,034",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812204001; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812204001",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 25.034,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812204002-persona",
+      "title": "Renta neta media por persona",
+      "value": "12.007,957",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812204002; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812204002",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 12007.957,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812204002-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "28.155,302",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812204002; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812204002",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 28155.302,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812204002-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "21,589",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812204002; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812204002",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 21.589,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812204003-persona",
+      "title": "Renta neta media por persona",
+      "value": "11.606,586",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812204003; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812204003",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 11606.586,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812204003-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "27.235,672",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812204003; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812204003",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 27235.672,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812204003-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "25,077",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812204003; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812204003",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 25.077,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812205001-persona",
+      "title": "Renta neta media por persona",
+      "value": "11.505,439",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812205001; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812205001",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 11505.439,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812205001-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "26.652,227",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812205001; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812205001",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 26652.227,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812205001-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "29,047",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812205001; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812205001",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 29.047,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812205002-persona",
+      "title": "Renta neta media por persona",
+      "value": "13.773,938",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812205002; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812205002",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 13773.938,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812205002-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "35.987,399",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812205002; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812205002",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 35987.399,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812205002-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "16,925",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812205002; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812205002",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 16.925,
+      "supportsConclusions": [
+        "C3"
+      ]
+    }
+  ],
+  "findings": [
+    "C1. Loja tiene más enfermedad cardiometabólica registrada que su provincia y que Andalucía.",
+    "C2. Desde 2013 no se sabe cómo come ni cuánto se mueve la población de Loja, y es lo que la comunidad pide abordar desde 2011.",
+    "C4. La población envejece y los cuidados no se ven.",
+    "C5. El suicidio fue el exceso de mortalidad más marcado de Loja y no se ha vuelto a medir.",
+    "C6. Las infecciones de transmisión sexual declaradas han aumentado.",
+    "C7. La prevención sanitaria funciona mejor que en el entorno, salvo la invitación al cribado de mama.",
+    "C8. Los activos reconocidos no cubren los problemas que la comunidad prioriza.",
+    "C9. Los temas de salud de Loja son estables desde hace diez años; lo que se ha interrumpido es el proceso.",
+    "C3. En 2024, las 17 secciones presentan diferencias de renta neta media por persona: desde 7.106,529 euros en 1812203002 hasta 13.773,938 euros en 1812205002 [RC2024]. La media municipal no describe por sí sola esa distribución. Son diferencias descriptivas; no se les atribuye significación estadística ni se deduce la distribución de la enfermedad. La sección 1812203002 tiene la menor renta por persona. El 58,811 publicado para su indicador bajo el umbral es una cota por secreto estadístico, no un porcentaje exacto; se conserva la nota literal de la fuente. Las secciones no equivalen a barrios: la correspondencia con Alfaguara y Alcazaba del perfil anterior es una aproximación que requiere comprobar límites y direcciones."
+  ],
+  "limitations": [
+    "Los resultados se transcriben del PDF v0.3 conservado, sin estimar datos ausentes. La página remite al PDF y la referencia identifica su fuente original.",
+    "Los datos de conductas de 2012-2013, de cáncer de 2016-2020 y de estudios de 2021 son históricos; no se imputan al año 2026.",
+    "Localiza Salud: 162 recursos inventariados, cinco activos con validación expresa de 24/10/2026.",
+    "La renta es agregada por sección y corresponde a 2024; la publicación y recuperación se distinguen del año del dato.",
+    "No se han incorporado datos propios de cada calle ni indicadores de salud por sección. No se infieren relaciones causales.",
+    "La revisión se prepara desde las fuentes e instantáneas conservadas; requiere cotejo con la revisión vigente en Firebase antes de sustituirla.",
+    "1812203002: el 58,811 de dato4 es una cota por secreto estadístico; no entra como valor exacto en gráficos ni cálculos."
+  ],
+  "areas": [
+    {
+      "id": "R1",
+      "title": "R1. Pedir al Distrito la serie de diabetes, hipertensión, dislipemia y obesidad registradas desde 2018, por sexo y edad.",
+      "rationale": "Conocer · Deriva de C1"
+    },
+    {
+      "id": "R2",
+      "title": "R2. Medir los modos de vida de la población de Loja con un estudio complementario en el Gestor de Encuestas de COMPÁS, comparable con el Panel de 2013.",
+      "rationale": "Conocer · Deriva de C1, C2"
+    },
+    {
+      "id": "R4",
+      "title": "R4. Pedir los indicadores de salud de las secciones censales 03002 (Alfaguara) y 01003 (Alcazaba).",
+      "rationale": "Conocer · Deriva de C3"
+    },
+    {
+      "id": "R6",
+      "title": "R6. Reunir los datos de dependencia y de cuidados del municipio. Deriva de C4",
+      "rationale": "Conocer"
+    },
+    {
+      "id": "R7",
+      "title": "R7. Obtener la mortalidad por suicidio de Loja posterior a 2010, por sexo y edad. Deriva de C5",
+      "rationale": "Conocer"
+    },
+    {
+      "id": "R9",
+      "title": "R9. Conocer por qué el cribado de mama invita a menos mujeres que la media andaluza.",
+      "rationale": "Conocer · Deriva de C7"
+    },
+    {
+      "id": "R5",
+      "title": "R5. Contrastar con Servicios Sociales, la Casa de Zonas y vecinos y vecinas del barrio qué problemas y qué activos reconocen.",
+      "rationale": "Contrastar · Deriva de C3"
+    },
+    {
+      "id": "R8",
+      "title": "R8. Contrastar con el centro de salud y con jóvenes del municipio qué hay detrás del aumento de las infecciones de transmisión sexual y qué recursos de salud sexual faltan.",
+      "rationale": "Contrastar · Deriva de C6"
+    },
+    {
+      "id": "R10",
+      "title": "R10. Contrastar con la comunidad qué recursos de alimentación y actividad física funcionan como activos y registrarlos en Localiza Salud.",
+      "rationale": "Contrastar · Deriva de C8"
+    },
+    {
+      "id": "R11",
+      "title": "R11. Contrastar con el Grupo Motor si la priorización de 2022 sigue vigente, para partir de ella.",
+      "rationale": "Contrastar · Deriva de C9"
+    },
+    {
+      "id": "R3",
+      "title": "R3. Trabajar la alimentación y la actividad física de la población general apoyándose en los recursos que ya existen, una vez que el equipo técnico declare la relación con la carga cardiometabólica, documentada fuera de Loja.",
+      "rationale": "Abordar · Deriva de C1, C2"
+    },
+    {
+      "id": "R12",
+      "title": "Contrastar las barreras económicas y de acceso a prevención, cuidados y activos con residentes y profesionales.",
+      "rationale": "CONTRASTAR · C3 · No sustituye la priorización adoptada."
+    }
+  ]
+}

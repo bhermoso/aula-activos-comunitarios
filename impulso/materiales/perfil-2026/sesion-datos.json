@@ -1,0 +1,2181 @@
+{
+  "schema": "loja-session-evidence/v1",
+  "profileTitle": "Perfil de Salud Local de Loja · revisión de renta censal · 6/11/2026",
+  "profileSha256": "592269db904f58731b08d2d5f747901928bc4c16b6e747ee3c869350c9717adb",
+  "history": [
+    {
+      "id": "1",
+      "title": "Sedentarismo",
+      "score": "187.850"
+    },
+    {
+      "id": "2",
+      "title": "Hábitos de alimentación no saludables (y trastornos alimenticios)",
+      "score": "178.640"
+    },
+    {
+      "id": "3",
+      "title": "Formación insuficiente para la ciudadanía en hábitos saludables",
+      "score": "175.423"
+    },
+    {
+      "id": "4",
+      "title": "Uso poco saludable de las nuevas tecnologías",
+      "score": "173.472"
+    },
+    {
+      "id": "5",
+      "title": "Recursos insuficientes para el ocio juvenil",
+      "score": "171.195"
+    },
+    {
+      "id": "6",
+      "title": "Barreras arquitectónicas",
+      "score": "170.430"
+    },
+    {
+      "id": "7",
+      "title": "Hábitos cívicos e identificación con lo público",
+      "score": "167.195"
+    },
+    {
+      "id": "8",
+      "title": "Problemáticas del ámbito escolar (acoso y absentismo)",
+      "score": "165.272"
+    },
+    {
+      "id": "9",
+      "title": "Diversidad insuficiente en la oferta deportiva",
+      "score": "164.775"
+    },
+    {
+      "id": "10",
+      "title": "Obesidad y sobrepeso",
+      "score": "162.870"
+    },
+    {
+      "id": "11",
+      "title": "Inseguridad ciudadana",
+      "score": "158.738"
+    },
+    {
+      "id": "12",
+      "title": "Contaminación y deterioro ambiental",
+      "score": "154.755"
+    },
+    {
+      "id": "13",
+      "title": "Precariedad laboral",
+      "score": "152.960"
+    },
+    {
+      "id": "14",
+      "title": "Recursos insuficientes para problemas de salud mental y emocional",
+      "score": "152.106"
+    },
+    {
+      "id": "15",
+      "title": "Enfermedades crónicas",
+      "score": "151.280"
+    },
+    {
+      "id": "16",
+      "title": "Escasa cultura participativa",
+      "score": "151.272"
+    },
+    {
+      "id": "17",
+      "title": "Baja percepción del riesgo de las adicciones",
+      "score": "150.784"
+    },
+    {
+      "id": "18",
+      "title": "Espacios públicos insuficientes en medio urbano",
+      "score": "142.500"
+    },
+    {
+      "id": "19",
+      "title": "Inseguridad vial y accidentabilidad",
+      "score": "138.591"
+    },
+    {
+      "id": "20",
+      "title": "Espacios y servicios insuficientes en medio rural",
+      "score": "136.726"
+    },
+    {
+      "id": "21",
+      "title": "Consumo abusivo de tabaco, alcohol y otras sustancias",
+      "score": "132.090"
+    },
+    {
+      "id": "22",
+      "title": "Hábitos de sueño inadecuados",
+      "score": "126.768"
+    },
+    {
+      "id": "23",
+      "title": "Desigualdades sociales y exclusión social",
+      "score": "126.558"
+    },
+    {
+      "id": "24",
+      "title": "Envejecimiento progresivo",
+      "score": "120.594"
+    },
+    {
+      "id": "25",
+      "title": "Relaciones familiares y sociales deficitarias",
+      "score": "118.974"
+    },
+    {
+      "id": "26",
+      "title": "Suicidio",
+      "score": "74.185"
+    }
+  ],
+  "findings": [
+    "C1. Loja tiene más enfermedad cardiometabólica registrada que su provincia y que Andalucía.",
+    "C2. Desde 2013 no se sabe cómo come ni cuánto se mueve la población de Loja, y es lo que la comunidad pide abordar desde 2011.",
+    "C4. La población envejece y los cuidados no se ven.",
+    "C5. El suicidio fue el exceso de mortalidad más marcado de Loja y no se ha vuelto a medir.",
+    "C6. Las infecciones de transmisión sexual declaradas han aumentado.",
+    "C7. La prevención sanitaria funciona mejor que en el entorno, salvo la invitación al cribado de mama.",
+    "C8. Los activos reconocidos no cubren los problemas que la comunidad prioriza.",
+    "C9. Los temas de salud de Loja son estables desde hace diez años; lo que se ha interrumpido es el proceso.",
+    "C3. En 2024, las 17 secciones presentan diferencias de renta neta media por persona: desde 7.106,529 euros en 1812203002 hasta 13.773,938 euros en 1812205002 [RC2024]. La media municipal no describe por sí sola esa distribución. Son diferencias descriptivas; no se les atribuye significación estadística ni se deduce la distribución de la enfermedad. La sección 1812203002 tiene la menor renta por persona. El 58,811 publicado para su indicador bajo el umbral es una cota por secreto estadístico, no un porcentaje exacto; se conserva la nota literal de la fuente. Las secciones no equivalen a barrios: la correspondencia con Alfaguara y Alcazaba del perfil anterior es una aproximación que requiere comprobar límites y direcciones."
+  ],
+  "results": [
+    {
+      "id": "loja-armon-poblacion",
+      "title": "Población",
+      "value": "20.923",
+      "unit": "personas",
+      "period": "2025",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Loja v0.3; [1] SIMA",
+      "page": "2",
+      "scale": "Loja",
+      "denominator": "Población municipal",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 20923.0,
+      "supportsConclusions": [
+        "C4"
+      ]
+    },
+    {
+      "id": "loja-armon-edad",
+      "title": "Edad media",
+      "value": "43,5",
+      "unit": "años",
+      "period": "2025",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Loja v0.3; [1] SIMA",
+      "page": "2",
+      "scale": "Loja",
+      "denominator": "Población municipal",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 43.5,
+      "supportsConclusions": [
+        "C4"
+      ]
+    },
+    {
+      "id": "loja-armon-menores20",
+      "title": "Población menor de 20 años",
+      "value": "20,3",
+      "unit": "%",
+      "period": "2025",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 1",
+      "page": "2",
+      "scale": "Loja",
+      "denominator": "Población municipal",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 20.3
+    },
+    {
+      "id": "loja-armon-mayores65",
+      "title": "Población de 65 años o más",
+      "value": "19,5",
+      "unit": "%",
+      "period": "2025",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Loja v0.3; [1] SIMA",
+      "page": "2",
+      "scale": "Loja",
+      "denominator": "Población municipal",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 19.5,
+      "supportsConclusions": [
+        "C4"
+      ]
+    },
+    {
+      "id": "loja-armon-hogares",
+      "title": "Hogares de una sola persona",
+      "value": "28,4",
+      "unit": "%",
+      "period": "2024",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Loja v0.3; [4] INE, tabla 31033",
+      "page": "2",
+      "scale": "Loja",
+      "denominator": "Hogares del municipio",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 28.4,
+      "supportsConclusions": [
+        "C4"
+      ]
+    },
+    {
+      "id": "loja-armon-extranjeros",
+      "title": "Personas de nacionalidad extranjera",
+      "value": "1.778",
+      "unit": "personas",
+      "period": "2025",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Loja v0.3; [1] SIMA",
+      "page": "2",
+      "scale": "Loja",
+      "denominator": "Recuento de residentes de nacionalidad extranjera",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 1778.0
+    },
+    {
+      "id": "loja-armon-renta",
+      "title": "Renta neta media por persona",
+      "value": "11.741",
+      "unit": "euros/persona",
+      "period": "2024",
+      "topic": "Desigualdad",
+      "source": "Perfil de Salud Local de Loja v0.3; [4] INE, tablas 31025, 53689 y 53694",
+      "page": "2",
+      "scale": "Loja",
+      "denominator": "Personas de la población de referencia del Atlas de Renta",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 11741.0,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 13509
+        },
+        {
+          "label": "Andalucía",
+          "value": 13342
+        },
+        {
+          "label": "España",
+          "value": 15948
+        }
+      ],
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-armon-pobreza",
+      "title": "Población bajo el 60 % de la mediana de ingresos",
+      "value": "29,5",
+      "unit": "%",
+      "period": "2024",
+      "topic": "Desigualdad",
+      "source": "Perfil de Salud Local de Loja v0.3; [4] INE, tablas 31030, 53689 y 53694",
+      "page": "2",
+      "scale": "Loja",
+      "denominator": "Población de referencia del Atlas de Renta",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 29.5,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 27.8
+        },
+        {
+          "label": "Andalucía",
+          "value": 26.2
+        },
+        {
+          "label": "España",
+          "value": 20.2
+        }
+      ],
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-armon-paro",
+      "title": "Paro registrado",
+      "value": "1.192",
+      "unit": "personas",
+      "period": "2025",
+      "topic": "Determinantes sociales",
+      "source": "Perfil de Salud Local de Loja v0.3; [1] SIMA",
+      "page": "2",
+      "scale": "Loja",
+      "denominator": "Personas inscritas en paro; no población activa",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 1192.0
+    },
+    {
+      "id": "loja-armon-tasa-paro",
+      "title": "Tasa municipal de desempleo",
+      "value": "15,3",
+      "unit": "%",
+      "period": "2025",
+      "topic": "Determinantes sociales",
+      "source": "Perfil de Salud Local de Loja v0.3; [1] SIMA",
+      "page": "2",
+      "scale": "Loja",
+      "denominator": "Base de la tasa publicada por SIMA; no recalculada",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 15.3
+    },
+    {
+      "id": "loja-armon-estudios",
+      "title": "Población de 15 o más años con estudios superiores",
+      "value": "21,1",
+      "unit": "%",
+      "period": "2021",
+      "topic": "Determinantes sociales",
+      "source": "Perfil de Salud Local de Loja v0.3; [15] Censo 2021",
+      "page": "2",
+      "scale": "Loja",
+      "denominator": "Población de 15 años o más",
+      "temporalContext": "historical",
+      "caution": "",
+      "chartValue": 21.1
+    },
+    {
+      "id": "loja-armon-dislipemia",
+      "title": "Dislipemia",
+      "value": "3.081,79",
+      "unit": "diagnósticos por 10.000 habitantes",
+      "period": "2025",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 3",
+      "page": "13-14",
+      "scale": "Loja",
+      "denominator": "10.000 habitantes, según la tasa publicada; no recalculada a partir de los recuentos",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 3081.79,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 2718.19
+        },
+        {
+          "label": "Andalucía",
+          "value": 2569.94
+        }
+      ],
+      "supportsConclusions": [
+        "C1"
+      ]
+    },
+    {
+      "id": "loja-armon-hipertension",
+      "title": "Hipertensión",
+      "value": "2.600,93",
+      "unit": "diagnósticos por 10.000 habitantes",
+      "period": "2025",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 3",
+      "page": "13-14",
+      "scale": "Loja",
+      "denominator": "10.000 habitantes, según la tasa publicada; no recalculada a partir de los recuentos",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 2600.93,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 2285.76
+        },
+        {
+          "label": "Andalucía",
+          "value": 2327.73
+        }
+      ],
+      "supportsConclusions": [
+        "C1"
+      ]
+    },
+    {
+      "id": "loja-armon-artrosis",
+      "title": "Artrosis y espondilosis",
+      "value": "2.261,51",
+      "unit": "diagnósticos por 10.000 habitantes",
+      "period": "2025",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 3",
+      "page": "13-14",
+      "scale": "Loja",
+      "denominator": "10.000 habitantes, según la tasa publicada; no recalculada a partir de los recuentos",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 2261.51,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 2032.84
+        },
+        {
+          "label": "Andalucía",
+          "value": 1887.06
+        }
+      ]
+    },
+    {
+      "id": "loja-armon-asma",
+      "title": "Asma",
+      "value": "1.426,42",
+      "unit": "diagnósticos por 10.000 habitantes",
+      "period": "2025",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 3",
+      "page": "13-14",
+      "scale": "Loja",
+      "denominator": "10.000 habitantes, según la tasa publicada; no recalculada a partir de los recuentos",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 1426.42,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 1448.67
+        },
+        {
+          "label": "Andalucía",
+          "value": 1187.09
+        }
+      ]
+    },
+    {
+      "id": "loja-armon-ansiedad",
+      "title": "Trastorno de ansiedad",
+      "value": "1.114,48",
+      "unit": "diagnósticos por 10.000 habitantes",
+      "period": "2025",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 3",
+      "page": "13-14",
+      "scale": "Loja",
+      "denominator": "10.000 habitantes, según la tasa publicada; no recalculada a partir de los recuentos",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 1114.48,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 1035.01
+        },
+        {
+          "label": "Andalucía",
+          "value": 1133.96
+        }
+      ]
+    },
+    {
+      "id": "loja-armon-diabetes",
+      "title": "Diabetes",
+      "value": "1.013,25",
+      "unit": "diagnósticos por 10.000 habitantes",
+      "period": "2025",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 3",
+      "page": "13-14",
+      "scale": "Loja",
+      "denominator": "10.000 habitantes, según la tasa publicada; no recalculada a partir de los recuentos",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 1013.25,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 906.66
+        },
+        {
+          "label": "Andalucía",
+          "value": 966.37
+        }
+      ],
+      "supportsConclusions": [
+        "C1"
+      ]
+    },
+    {
+      "id": "loja-armon-hipotiroidismo",
+      "title": "Hipotiroidismo",
+      "value": "955,87",
+      "unit": "diagnósticos por 10.000 habitantes",
+      "period": "2025",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 3",
+      "page": "13-14",
+      "scale": "Loja",
+      "denominator": "10.000 habitantes, según la tasa publicada; no recalculada a partir de los recuentos",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 955.87,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 922.32
+        },
+        {
+          "label": "Andalucía",
+          "value": 898.72
+        }
+      ]
+    },
+    {
+      "id": "loja-armon-obesidad",
+      "title": "Obesidad",
+      "value": "675,83",
+      "unit": "diagnósticos por 10.000 habitantes",
+      "period": "2025",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 3",
+      "page": "13-14",
+      "scale": "Loja",
+      "denominator": "10.000 habitantes, según la tasa publicada; no recalculada a partir de los recuentos",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 675.83,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 568.28
+        },
+        {
+          "label": "Andalucía",
+          "value": 538.77
+        }
+      ],
+      "supportsConclusions": [
+        "C1"
+      ]
+    },
+    {
+      "id": "loja-armon-tabaco",
+      "title": "Dependencia del tabaco",
+      "value": "558,30",
+      "unit": "diagnósticos por 10.000 habitantes",
+      "period": "2025",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 3",
+      "page": "13-14",
+      "scale": "Loja",
+      "denominator": "10.000 habitantes, según la tasa publicada; no recalculada a partir de los recuentos",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 558.3,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 595.07
+        },
+        {
+          "label": "Andalucía",
+          "value": 513.35
+        }
+      ]
+    },
+    {
+      "id": "loja-armon-circulatorias",
+      "title": "Defunciones por enfermedades circulatorias",
+      "value": "27,17",
+      "unit": "%",
+      "period": "2024",
+      "topic": "Mortalidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 7",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Total de defunciones del territorio y año",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 27.17,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 26.91
+        },
+        {
+          "label": "Andalucía",
+          "value": 26.96
+        }
+      ]
+    },
+    {
+      "id": "loja-armon-tumores",
+      "title": "Defunciones por tumores",
+      "value": "20,10",
+      "unit": "%",
+      "period": "2024",
+      "topic": "Mortalidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 7",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Total de defunciones del territorio y año",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 20.1,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 24.49
+        },
+        {
+          "label": "Andalucía",
+          "value": 26.03
+        }
+      ]
+    },
+    {
+      "id": "loja-armon-respiratorias",
+      "title": "Defunciones por enfermedades respiratorias",
+      "value": "12,50",
+      "unit": "%",
+      "period": "2024",
+      "topic": "Mortalidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 7",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Total de defunciones del territorio y año",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 12.5,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 11.12
+        },
+        {
+          "label": "Andalucía",
+          "value": 10.81
+        }
+      ]
+    },
+    {
+      "id": "loja-armon-endocrinas",
+      "title": "Defunciones por enfermedades endocrinas, nutricionales y metabólicas",
+      "value": "5,97",
+      "unit": "%",
+      "period": "2024",
+      "topic": "Mortalidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 7",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Total de defunciones del territorio y año",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 5.97,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 3.45
+        },
+        {
+          "label": "Andalucía",
+          "value": 3.37
+        }
+      ]
+    },
+    {
+      "id": "loja-armon-maldefinidas",
+      "title": "Defunciones por síntomas y signos mal definidos",
+      "value": "10,32",
+      "unit": "%",
+      "period": "2024",
+      "topic": "Mortalidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5] Informe de Salud de Loja 2026, tabla 7",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Total de defunciones del territorio y año",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 10.32,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 4.96
+        },
+        {
+          "label": "Andalucía",
+          "value": 4.35
+        }
+      ]
+    },
+    {
+      "id": "loja-armon-defunciones",
+      "title": "Defunciones",
+      "value": "184",
+      "unit": "personas",
+      "period": "2024",
+      "topic": "Mortalidad",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 8",
+      "page": "14",
+      "scale": "Loja",
+      "denominator": "Recuento anual de defunciones",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 184.0
+    },
+    {
+      "id": "loja-armon-cancer",
+      "title": "Incidencia estandarizada de todos los cánceres",
+      "value": "582",
+      "unit": "casos por 100.000",
+      "period": "2016-2020",
+      "topic": "Cáncer",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], discusión",
+      "page": "14",
+      "scale": "Loja",
+      "denominator": "Población estándar de la tasa publicada; no tasa bruta",
+      "temporalContext": "historical",
+      "caution": "",
+      "chartValue": 582.0,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 722
+        }
+      ]
+    },
+    {
+      "id": "loja-armon-linfoma",
+      "title": "Prevalencia de linfoma no Hodgkin",
+      "value": "30,11",
+      "unit": "por 10.000",
+      "period": "2025",
+      "topic": "Cáncer",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 6",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "10.000 habitantes según la fuente",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 30.11,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 24.7
+        },
+        {
+          "label": "Andalucía",
+          "value": 27.15
+        }
+      ]
+    },
+    {
+      "id": "loja-armon-fumadores",
+      "title": "Adultos que fuman a diario",
+      "value": "20,9",
+      "unit": "%",
+      "period": "2012-2013",
+      "topic": "Conductas",
+      "source": "Perfil de Salud Local de Loja v0.3; [16] Panel Municipal de Salud EASP",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Personas adultas encuestadas",
+      "temporalContext": "historical",
+      "caution": "Estudio histórico; no describe las conductas actuales.",
+      "chartValue": 20.9,
+      "supportsConclusions": [
+        "C2"
+      ]
+    },
+    {
+      "id": "loja-armon-obesidad-declarada",
+      "title": "Adultos con obesidad declarada",
+      "value": "17,6",
+      "unit": "%",
+      "period": "2012-2013",
+      "topic": "Conductas",
+      "source": "Perfil de Salud Local de Loja v0.3; [16] Panel Municipal de Salud EASP",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Personas adultas encuestadas",
+      "temporalContext": "historical",
+      "caution": "Estudio histórico; no describe las conductas actuales.",
+      "chartValue": 17.6,
+      "supportsConclusions": [
+        "C2"
+      ]
+    },
+    {
+      "id": "loja-armon-obesidad-menores",
+      "title": "Menores con obesidad",
+      "value": "10,6",
+      "unit": "%",
+      "period": "2012-2013",
+      "topic": "Conductas",
+      "source": "Perfil de Salud Local de Loja v0.3; [16] Panel Municipal de Salud EASP",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Menores de la población estudiada",
+      "temporalContext": "historical",
+      "caution": "Estudio histórico; no describe las conductas actuales.",
+      "chartValue": 10.6,
+      "supportsConclusions": [
+        "C2"
+      ]
+    },
+    {
+      "id": "loja-armon-humo-hogar",
+      "title": "Menores que conviven con fumadores en casa",
+      "value": "32,7",
+      "unit": "%",
+      "period": "2012-2013",
+      "topic": "Conductas",
+      "source": "Perfil de Salud Local de Loja v0.3; [16] Panel Municipal de Salud EASP",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Menores de la población estudiada",
+      "temporalContext": "historical",
+      "caution": "Estudio histórico; no describe las conductas actuales.",
+      "chartValue": 32.7,
+      "supportsConclusions": [
+        "C2"
+      ]
+    },
+    {
+      "id": "loja-armon-actividad",
+      "title": "Mediana de días semanales con actividad física moderada",
+      "value": "0",
+      "unit": "días/semana",
+      "period": "2012-2013",
+      "topic": "Conductas",
+      "source": "Perfil de Salud Local de Loja v0.3; [16] Panel Municipal de Salud EASP",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Mediana en la población adulta estudiada",
+      "temporalContext": "historical",
+      "caution": "Mediana, no media; dato histórico.",
+      "chartValue": 0.0,
+      "supportsConclusions": [
+        "C2"
+      ]
+    },
+    {
+      "id": "loja-armon-vacunacion",
+      "title": "Vacunación infantil: pauta completa",
+      "value": "98,44",
+      "unit": "%",
+      "period": "2025",
+      "topic": "Vacunación",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 14",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "189/192 según la tabla 14 publicada",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 98.44,
+      "supportsConclusions": [
+        "C7"
+      ]
+    },
+    {
+      "id": "loja-armon-colon",
+      "title": "Cribado de colon: participación",
+      "value": "35,77",
+      "unit": "%",
+      "period": "2025",
+      "topic": "Prevención",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 9",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Personas invitadas al programa",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 35.77,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 33.05
+        },
+        {
+          "label": "Andalucía",
+          "value": 23.77
+        }
+      ],
+      "supportsConclusions": [
+        "C7"
+      ]
+    },
+    {
+      "id": "loja-armon-cervix",
+      "title": "Cribado de cuello de útero: participación",
+      "value": "33,59",
+      "unit": "%",
+      "period": "2025",
+      "topic": "Prevención",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 11",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Personas invitadas al programa",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 33.59,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 12.59
+        },
+        {
+          "label": "Andalucía",
+          "value": 8.68
+        }
+      ],
+      "supportsConclusions": [
+        "C7"
+      ]
+    },
+    {
+      "id": "loja-armon-mama-invitacion",
+      "title": "Cribado de mama: invitación",
+      "value": "56,94",
+      "unit": "%",
+      "period": "2025",
+      "topic": "Prevención",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 10",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Mujeres de la edad diana",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 56.94,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 28.32
+        },
+        {
+          "label": "Andalucía",
+          "value": 67.86
+        }
+      ],
+      "supportsConclusions": [
+        "C7"
+      ]
+    },
+    {
+      "id": "loja-armon-mama-participacion",
+      "title": "Cribado de mama: participación",
+      "value": "73,47",
+      "unit": "%",
+      "period": "2025",
+      "topic": "Prevención",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 10",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Mujeres citadas",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 73.47,
+      "comparisons": [
+        {
+          "label": "Granada",
+          "value": 84.3
+        },
+        {
+          "label": "Andalucía",
+          "value": 70.93
+        }
+      ],
+      "supportsConclusions": [
+        "C7"
+      ]
+    },
+    {
+      "id": "loja-armon-clamidia",
+      "title": "Clamidia: casos declarados",
+      "value": "45",
+      "unit": "casos",
+      "period": "2022-5/10/2026",
+      "topic": "Vigilancia epidemiológica",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 12",
+      "page": "15",
+      "scale": "Loja",
+      "denominator": "Recuento de notificaciones en el periodo; no tasa anual",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 45.0,
+      "supportsConclusions": [
+        "C6"
+      ]
+    },
+    {
+      "id": "loja-armon-gonococo",
+      "title": "Gonococo: casos declarados",
+      "value": "27",
+      "unit": "casos",
+      "period": "2022-5/10/2026",
+      "topic": "Vigilancia epidemiológica",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 12",
+      "page": "15",
+      "scale": "Loja",
+      "denominator": "Recuento de notificaciones en el periodo; no tasa anual",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 27.0,
+      "supportsConclusions": [
+        "C6"
+      ]
+    },
+    {
+      "id": "loja-armon-sifilis",
+      "title": "Sífilis: casos declarados",
+      "value": "11",
+      "unit": "casos",
+      "period": "2022-5/10/2026",
+      "topic": "Vigilancia epidemiológica",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 12",
+      "page": "15",
+      "scale": "Loja",
+      "denominator": "Recuento de notificaciones en el periodo; no tasa anual",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 11.0,
+      "supportsConclusions": [
+        "C6"
+      ]
+    },
+    {
+      "id": "loja-armon-herpes",
+      "title": "Herpes genital: casos declarados",
+      "value": "10",
+      "unit": "casos",
+      "period": "2022-5/10/2026",
+      "topic": "Vigilancia epidemiológica",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 12",
+      "page": "15",
+      "scale": "Loja",
+      "denominator": "Recuento de notificaciones en el periodo; no tasa anual",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 10.0,
+      "supportsConclusions": [
+        "C6"
+      ]
+    },
+    {
+      "id": "loja-armon-tuberculosis",
+      "title": "Tuberculosis: casos declarados",
+      "value": "5",
+      "unit": "casos",
+      "period": "2022-5/10/2026",
+      "topic": "Vigilancia epidemiológica",
+      "source": "Perfil de Salud Local de Loja v0.3; [5], tabla 12",
+      "page": "15",
+      "scale": "Loja",
+      "denominator": "Recuento de notificaciones en el periodo; no tasa anual",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 5.0
+    },
+    {
+      "id": "loja-armon-verdes",
+      "title": "Zona verde urbana por habitante",
+      "value": "0,81",
+      "unit": "m²/persona",
+      "period": "2020",
+      "topic": "Entorno",
+      "source": "Perfil de Salud Local de Loja v0.3; [2] indicadores VIGIA",
+      "page": "3",
+      "scale": "Loja",
+      "denominator": "Habitantes de la base publicada",
+      "temporalContext": "historical",
+      "caution": "",
+      "chartValue": 0.81
+    },
+    {
+      "id": "loja-armon-recursos",
+      "title": "Recursos del catálogo anterior de Localiza Salud",
+      "value": "162",
+      "unit": "recursos",
+      "period": "Octubre 2026",
+      "topic": "Activos",
+      "source": "Perfil de Salud Local de Loja v0.3; [9] inventario Localiza Salud",
+      "page": "16",
+      "scale": "Loja",
+      "denominator": "Registros del inventario; no activos validados",
+      "temporalContext": "historical",
+      "caution": "Catálogo anterior de 162 recursos conservado como antecedente; no es el inventario activo de cinco activos validados.",
+      "chartValue": 162.0,
+      "supportsConclusions": [
+        "C8"
+      ]
+    },
+    {
+      "id": "loja-armon-activos",
+      "title": "Activos validados",
+      "value": "5",
+      "unit": "activos",
+      "period": "24/10/2026",
+      "topic": "Activos",
+      "source": "Perfil de Salud Local de Loja v0.3; [9] declaración de validación en el expediente",
+      "page": "16",
+      "scale": "Loja",
+      "denominator": "Cinco fichas expresamente validadas; no los 162 recursos",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 5.0,
+      "supportsConclusions": [
+        "C8"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812201001-persona",
+      "title": "Renta neta media por persona",
+      "value": "10.496,902",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812201001; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812201001",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 10496.902,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812201001-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "28.496,508",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812201001; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812201001",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 28496.508,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812201001-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "46,618",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812201001; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812201001",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 46.618,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812201002-persona",
+      "title": "Renta neta media por persona",
+      "value": "13.761,359",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812201002; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812201002",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 13761.359,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812201002-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "33.023,654",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812201002; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812201002",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 33023.654,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812201002-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "27,362",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812201002; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812201002",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 27.362,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812201003-persona",
+      "title": "Renta neta media por persona",
+      "value": "10.529,231",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812201003; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812201003",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 10529.231,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812201003-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "26.109,385",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812201003; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812201003",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 26109.385,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812201003-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "39,955",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812201003; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812201003",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 39.955,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202001-persona",
+      "title": "Renta neta media por persona",
+      "value": "11.277,805",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202001; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202001",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 11277.805,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202001-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "29.537,108",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202001; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202001",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 29537.108,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202001-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "33,684",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202001; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202001",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 33.684,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202002-persona",
+      "title": "Renta neta media por persona",
+      "value": "10.835,429",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202002; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202002",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 10835.429,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202002-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "29.323,379",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202002; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202002",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 29323.379,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202002-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "31,563",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202002; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202002",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 31.563,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202003-persona",
+      "title": "Renta neta media por persona",
+      "value": "11.187,203",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202003; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202003",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 11187.203,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202003-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "27.503,363",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202003; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202003",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 27503.363,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202003-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "29,890",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202003; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202003",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 29.89,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202004-persona",
+      "title": "Renta neta media por persona",
+      "value": "13.667,534",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202004; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202004",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 13667.534,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202004-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "32.523,064",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202004; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202004",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 32523.064,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202004-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "20,979",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202004; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202004",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 20.979,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202005-persona",
+      "title": "Renta neta media por persona",
+      "value": "12.058,051",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202005; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202005",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 12058.051,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202005-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "32.115,008",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202005; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202005",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 32115.008,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812202005-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "20,297",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812202005; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812202005",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 20.297,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812203001-persona",
+      "title": "Renta neta media por persona",
+      "value": "12.382,134",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812203001; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812203001",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 12382.134,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812203001-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "29.862,793",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812203001; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812203001",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 29862.793,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812203001-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "30,226",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812203001; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812203001",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 30.226,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812203002-persona",
+      "title": "Renta neta media por persona",
+      "value": "7.106,529",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812203002; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812203002",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 7106.529,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812203002-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "20.458,191",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812203002; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812203002",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 20458.191,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812203002-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "Cota publicada: 58,811",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812203002; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812203002",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato bajo secreto estadístico, por encima de la cota superior. Se proporciona la cota superior.",
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812203003-persona",
+      "title": "Renta neta media por persona",
+      "value": "10.203,698",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812203003; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812203003",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 10203.698,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812203003-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "24.939,038",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812203003; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812203003",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 24939.038,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812203003-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "34,416",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812203003; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812203003",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 34.416,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812203004-persona",
+      "title": "Renta neta media por persona",
+      "value": "11.393,285",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812203004; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812203004",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 11393.285,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812203004-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "29.089,558",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812203004; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812203004",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 29089.558,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812203004-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "22,697",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812203004; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812203004",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 22.697,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812204001-persona",
+      "title": "Renta neta media por persona",
+      "value": "12.015,774",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812204001; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812204001",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 12015.774,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812204001-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "26.795,913",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812204001; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812204001",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 26795.913,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812204001-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "25,034",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812204001; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812204001",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 25.034,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812204002-persona",
+      "title": "Renta neta media por persona",
+      "value": "12.007,957",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812204002; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812204002",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 12007.957,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812204002-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "28.155,302",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812204002; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812204002",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 28155.302,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812204002-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "21,589",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812204002; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812204002",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 21.589,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812204003-persona",
+      "title": "Renta neta media por persona",
+      "value": "11.606,586",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812204003; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812204003",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 11606.586,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812204003-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "27.235,672",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812204003; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812204003",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 27235.672,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812204003-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "25,077",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812204003; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812204003",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 25.077,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812205001-persona",
+      "title": "Renta neta media por persona",
+      "value": "11.505,439",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812205001; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812205001",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 11505.439,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812205001-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "26.652,227",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812205001; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812205001",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 26652.227,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812205001-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "29,047",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812205001; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812205001",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 29.047,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812205002-persona",
+      "title": "Renta neta media por persona",
+      "value": "13.773,938",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812205002; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812205002",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 13773.938,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812205002-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "35.987,399",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812205002; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812205002",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 35987.399,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "loja-renta-2024-1812205002-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "16,925",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1812205002; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1812205002",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 16.925,
+      "supportsConclusions": [
+        "C3"
+      ]
+    }
+  ],
+  "income": [
+    {
+      "code": "1812201001",
+      "person": "10.496,902",
+      "household": "28.496,508",
+      "threshold": "46,618",
+      "note": "Dato agregado de sección; no es renta individual, de vivienda ni de calle."
+    },
+    {
+      "code": "1812201002",
+      "person": "13.761,359",
+      "household": "33.023,654",
+      "threshold": "27,362",
+      "note": "Dato agregado de sección; no es renta individual, de vivienda ni de calle."
+    },
+    {
+      "code": "1812201003",
+      "person": "10.529,231",
+      "household": "26.109,385",
+      "threshold": "39,955",
+      "note": "Dato agregado de sección; no es renta individual, de vivienda ni de calle."
+    },
+    {
+      "code": "1812202001",
+      "person": "11.277,805",
+      "household": "29.537,108",
+      "threshold": "33,684",
+      "note": "Dato agregado de sección; no es renta individual, de vivienda ni de calle."
+    },
+    {
+      "code": "1812202002",
+      "person": "10.835,429",
+      "household": "29.323,379",
+      "threshold": "31,563",
+      "note": "Dato agregado de sección; no es renta individual, de vivienda ni de calle."
+    },
+    {
+      "code": "1812202003",
+      "person": "11.187,203",
+      "household": "27.503,363",
+      "threshold": "29,890",
+      "note": "Dato agregado de sección; no es renta individual, de vivienda ni de calle."
+    },
+    {
+      "code": "1812202004",
+      "person": "13.667,534",
+      "household": "32.523,064",
+      "threshold": "20,979",
+      "note": "Dato agregado de sección; no es renta individual, de vivienda ni de calle."
+    },
+    {
+      "code": "1812202005",
+      "person": "12.058,051",
+      "household": "32.115,008",
+      "threshold": "20,297",
+      "note": "Dato agregado de sección; no es renta individual, de vivienda ni de calle."
+    },
+    {
+      "code": "1812203001",
+      "person": "12.382,134",
+      "household": "29.862,793",
+      "threshold": "30,226",
+      "note": "Dato agregado de sección; no es renta individual, de vivienda ni de calle."
+    },
+    {
+      "code": "1812203002",
+      "person": "7.106,529",
+      "household": "20.458,191",
+      "threshold": "Cota publicada: 58,811",
+      "note": "Dato bajo secreto estadístico, por encima de la cota superior. Se proporciona la cota superior."
+    },
+    {
+      "code": "1812203003",
+      "person": "10.203,698",
+      "household": "24.939,038",
+      "threshold": "34,416",
+      "note": "Dato agregado de sección; no es renta individual, de vivienda ni de calle."
+    },
+    {
+      "code": "1812203004",
+      "person": "11.393,285",
+      "household": "29.089,558",
+      "threshold": "22,697",
+      "note": "Dato agregado de sección; no es renta individual, de vivienda ni de calle."
+    },
+    {
+      "code": "1812204001",
+      "person": "12.015,774",
+      "household": "26.795,913",
+      "threshold": "25,034",
+      "note": "Dato agregado de sección; no es renta individual, de vivienda ni de calle."
+    },
+    {
+      "code": "1812204002",
+      "person": "12.007,957",
+      "household": "28.155,302",
+      "threshold": "21,589",
+      "note": "Dato agregado de sección; no es renta individual, de vivienda ni de calle."
+    },
+    {
+      "code": "1812204003",
+      "person": "11.606,586",
+      "household": "27.235,672",
+      "threshold": "25,077",
+      "note": "Dato agregado de sección; no es renta individual, de vivienda ni de calle."
+    },
+    {
+      "code": "1812205001",
+      "person": "11.505,439",
+      "household": "26.652,227",
+      "threshold": "29,047",
+      "note": "Dato agregado de sección; no es renta individual, de vivienda ni de calle."
+    },
+    {
+      "code": "1812205002",
+      "person": "13.773,938",
+      "household": "35.987,399",
+      "threshold": "16,925",
+      "note": "Dato agregado de sección; no es renta individual, de vivienda ni de calle."
+    }
+  ],
+  "profilePdfSha256": "7672f02530d6bf329e133b515b0081ad1edbb2602af1bf8cdc4241fe6a274076"
+}

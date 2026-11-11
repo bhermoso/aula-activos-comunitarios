@@ -1,3 +1,13 @@
+# Actualización vigente · 12/11/2026
+
+La próxima sesión del Grupo Motor de Loja será el **27/11/2026, de 10:00 a 11:30**. La preparación operativa está en `priorizacion-2026.html` y `SESION_PRIORIZACION_2026.md`. El encargo actual incluye revisión histórica, principales resultados del perfil y selección de líneas, objetivos e indicadores. El diseño detallado del mapeo se realiza a partir de estos acuerdos.
+
+La hoja de trabajo permite registrar propuestas, acuerdos y pendientes, guardar versiones en Firebase, imprimir y exportar/importar JSON. El perfil externo de trabajo se conserva con PDF y JSON. El Aula no acredita su persistencia ni vigencia en Firebase.
+
+El estado del 18/10 y los guiones que siguen se conservan como antecedentes. La nueva convocatoria sustituye su duración de 120 minutos y su aplazamiento de objetivos e indicadores.
+
+---
+
 # Loja · Estado y continuidad del módulo dentro del Aula
 
 > **ESTADO VIGENTE · PUBLICADO 18/10/2026 · PR #36.** Segundo encuentro del Grupo Motor: **primero recuperar y actualizar la priorización de 2022; después seleccionar grandes líneas estratégicas y PLANIFICAR EN ESA MISMA SESIÓN qué mapear por línea, dónde, con quién, mediante qué técnica y responsables**. La ejecución del trabajo de campo y el contraste formal de activos serán posteriores. Ante nueva consulta, líneas y planes de mapeo siguen siendo provisionales hasta deliberar los resultados. La agenda web `sesion-2.html` y el guion `SESION_2_MAPEO_Y_PRIORIZACION.md` tienen siete bloques de **10 + 20 + 20 + 15 + 15 + 30 + 10 = 120 minutos**.

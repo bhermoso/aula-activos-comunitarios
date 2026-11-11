@@ -1,3 +1,7 @@
+## Loja · actualización de la convocatoria · 12/11/2026
+
+Sesión del Grupo Motor el **27 de noviembre de 2026, de 10:00 a 11:30**. Acceso operativo en `impulso/priorizacion-2026.html`. Incluye antecedentes, perfil, líneas, objetivos e indicadores y hoja de acuerdos descargable. El guion de octubre de 120 minutos se conserva como antecedente. El detalle de mapeo se organiza después de los acuerdos de esta sesión.
+
 # Aula de Salud Comunitaria Basada en Activos — estado y continuidad
 
 > **FUENTE VAQUEROS · CONVOCATORIA CONFIRMADA 19/10/2026:** Taller del **22/10/2026, 10:30–12:00**, **Ayuntamiento de Fuente Vaqueros, Sala de audiovisuales (1.ª planta), Plaza del Doctor Pareja, 1**. La sede y el horario se mostrarán en portada, programa y ambas secciones de participantes de la PR #39. La siguiente sesión de priorización y planificación de mapeos mantiene fecha por acordar. No confundir ambos encuentros.

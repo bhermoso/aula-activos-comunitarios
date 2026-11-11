@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f5f7f3">
+<title>Loja · Sesión de priorización · 27 noviembre 2026</title>
+<link rel="stylesheet" href="../assets/loja-navegacion.css?v=20261018d">
+<link rel="stylesheet" href="../assets/loja-priorizacion.css?v=20261112">
+<script src="firebase-config.js"></script>
+<script defer src="../assets/loja-priorizacion.js?v=20261112"></script>
+</head>
+<body>
+<nav class="loja-global-nav" aria-label="Navegación global de Loja"><a class="loja-nav-brand" href="../index.html">AULA · SALUD COMUNITARIA</a><div class="loja-nav-links"><a href="index.html">Inicio Loja</a><a href="taller-impulso.html">Taller de impulso</a><a href="priorizacion-2026.html" aria-current="page">Sesión del 27 de noviembre</a><a href="guia-mapeo.html">Guía de activos</a></div></nav>
+<header class="session-header">
+<p class="eyebrow">Grupo Motor · Plan Local de Salud de Loja</p>
+<h1>Del perfil a las decisiones compartidas</h1>
+<p class="lead">Revisar las prioridades históricas, poner en común los resultados del perfil y acordar qué líneas desarrollar, con qué objetivos y cómo seguir sus avances.</p>
+<p class="date"><time datetime="2026-11-27T10:00:00+01:00">27 de noviembre de 2026 · 10:00–11:30</time><span>90 minutos</span></p>
+<a class="button" href="#agenda">Ver programa</a> <a class="secondary" href="#hoja">Abrir hoja de acuerdos</a>
+</header>
+<main>
+<nav class="steps" aria-label="Recorrido de la sesión"><a href="#agenda">Programa</a><a href="#historia">1. Antecedentes</a><a href="#perfil">2. Perfil</a><a href="#hoja">3. Decisiones</a><a href="#cierre">4. Cierre</a></nav>
+<p id="load-state" role="status">Cargando la documentación de trabajo…</p>
+<section id="cloud-access"><h2>Sesión compartida en Firebase</h2><p>La coordinación guarda y recupera el trabajo con su cuenta autorizada. Cada guardado conserva una versión de la hoja, la documentación del perfil y los datos usados en la deliberación.</p><div class="actions"><button id="sign-in" type="button">Acceder con Google</button><button id="save-firebase" type="button" disabled>Guardar todo en Firebase</button><button id="load-firebase" class="secondary" type="button" disabled>Recuperar sesión de Firebase</button><button id="sign-out" class="secondary" type="button" hidden>Cerrar sesión</button></div><p id="cloud-status" role="status">Preparando el acceso a Firebase…</p></section>
+<section id="agenda">
+<p class="eyebrow">10:00–11:30</p><h2>Una sesión, cinco momentos</h2>
+<ol class="agenda">
+<li data-minutes="5"><time>10:00–10:05</time><div><h3>Apertura y producto esperado</h3><p>Compartir criterios y acordar cómo se registrarán decisiones y pendientes.</p></div></li>
+<li data-minutes="15"><time>10:05–10:20</time><div><h3>Revisar la priorización histórica</h3><p>Qué continúa vigente, qué necesita reformularse y qué asuntos faltan.</p></div></li>
+<li data-minutes="20"><time>10:20–10:40</time><div><h3>Contrastar los resultados del perfil</h3><p>Salud, condiciones de vida, desigualdades territoriales y activos. Escuchar barrios, anejos y colectivos poco representados.</p></div></li>
+<li data-minutes="35"><time>10:40–11:15</time><div><h3>Seleccionar líneas, objetivos e indicadores</h3><p>Trabajar una ficha por línea. Definir el cambio deseado, la población, el indicador y la información que falta para medirlo.</p></div></li>
+<li data-minutes="15"><time>11:15–11:30</time><div><h3>Devolver y cerrar acuerdos</h3><p>Leer las decisiones, recoger discrepancias y asignar responsables y fechas a los pendientes.</p></div></li>
+</ol>
+<p class="note">Se propone cerrar pocas líneas bien definidas y registrar el resto como pendiente. El diseño detallado del mapeo se prepara a partir de las líneas acordadas.</p>
+</section>
+<section id="historia">
+<p class="eyebrow">01 · Revisar lo que ya se trabajó</p><h2>Las 26 prioridades de 2022</h2>
+<p>La transcripción conservada recoge 40 participantes y 26 problemas ordenados. Revisaremos su vigencia a la luz del perfil y de las experiencias de quienes participan ahora. Las puntuaciones mantienen la notación del documento transcrito, pendiente de cotejo con el original y las actas.</p>
+<details><summary>Abrir las 26 prioridades para revisarlas</summary><div class="table-wrap"><table><caption>Orden y puntuación históricos. La última columna recoge la revisión de esta sesión.</caption><thead><tr><th>Orden</th><th>Problema histórico</th><th>Puntuación transcrita</th><th>Revisión actual</th></tr></thead><tbody id="history-rows"></tbody></table></div></details>
+<label>¿Qué problemas faltan o necesitan otra formulación?<textarea id="history-notes" rows="3" maxlength="4000" placeholder="Anotar también qué voces o territorios necesitamos escuchar."></textarea></label>
+<p><a href="dinamica-priorizacion.html">Consultar la dinámica histórica y sus fuentes</a></p>
+</section>
+<section id="perfil">
+<p class="eyebrow">02 · Evidencia para deliberar</p><h2>Qué aporta el perfil de Loja</h2>
+<p>La documentación de trabajo incorpora el Informe de Salud de 2026, antecedentes participativos, cinco activos con validación declarada y renta de 2024 en 17 secciones censales. Se utiliza la revisión externa preparada el 6 de noviembre y corregida el 11 de noviembre para su importación.</p>
+<div class="downloads"><a href="materiales/perfil-2026/Loja_PSL_renta_2024.pdf" target="_blank" rel="noopener">Leer el perfil completo · PDF</a><a href="materiales/perfil-2026/Loja_PSL_renta_2024.json" download>Descargar el paquete para COMPÁS · JSON</a><a href="presentacion-perfil.html">Abrir presentación para proyectar</a></div>
+<div class="evidence-grid">
+<article><p class="tag">Enfermedad registrada · 2025</p><h3>Salud cardiometabólica</h3><p>Dislipemia 3.081,79, hipertensión 2.600,93 y diabetes 1.013,25 diagnósticos por 10.000 habitantes.</p><p class="source">Informe de Salud de Loja 2026, tabla 3. Tasas publicadas por la fuente.</p><p class="question">¿Qué barreras encuentran las personas para alimentarse, moverse y cuidar su salud?</p></article>
+<article><p class="tag">Prevención · 2025</p><h3>Acceso y participación</h3><p>Participación en colon 35,77 % y cérvix 33,59 %. Mama, invitación 56,94 % y participación entre citadas 73,47 %.</p><p class="source">Informe de Salud, tablas 9–11. Cada porcentaje conserva su población de referencia.</p><p class="question">¿A quiénes cuesta llegar y qué podemos mejorar desde el municipio?</p></article>
+<article><p class="tag">Condiciones de vida · 2024</p><h3>Diferencias dentro de Loja</h3><p>La renta neta media por persona varía de 7.106,529 a 13.773,938 euros anuales entre las 17 secciones.</p><p class="source">INE, Atlas de Distribución de Renta de los Hogares 2024. CUSEC 1812203002 y 1812205002.</p><p class="question">¿Qué costes, distancias y condiciones del entorno dificultan participar o acceder a los recursos?</p></article>
+<article><p class="tag">Población · 2024–2025</p><h3>Cuidados y proximidad</h3><p>El 19,5 % de la población tiene 65 años o más en 2025. El 28,4 % de los hogares es unipersonal en 2024.</p><p class="source">SIMA e INE, referencias 1 y 4 del perfil. El hogar unipersonal describe convivencia.</p><p class="question">¿Qué apoyos existen para los cuidados y cómo llegan a barrios y anejos?</p></article>
+<article><p class="tag">Participación histórica</p><h3>Alimentación y movimiento</h3><p>Son temas recurrentes en las consultas históricas. Los datos locales de conductas mantienen sus periodos de estudio, entre ellos 2012–2013.</p><p class="source">Perfil, C2 y antecedentes participativos de 2012, 2019 y 2022.</p><p class="question">¿Siguen siendo prioritarios y cómo los formularíamos hoy?</p></article>
+<article><p class="tag">Capacidades comunitarias</p><h3>Cinco activos para conectar</h3><p>Centro de Participación Activa, talleres de coro y memoria, GRUSE y Punto Vuela. El catálogo anterior de 162 recursos queda documentado como antecedente.</p><p class="source">Perfil, referencia 9 y declaración de validación de 24/10/2026.</p><p class="question">¿Qué capacidades aportan, quién los utiliza y qué personas encuentran barreras de acceso?</p></article>
+</div>
+<details><summary>Ver las conclusiones del perfil</summary><ul id="profile-findings"></ul></details>
+<details><summary>Consultar la renta de las 17 secciones</summary><p>La sección 1812203002 publica una cota de 58,811 para el indicador bajo el 60 % de la mediana. El INE la identifica como dato bajo secreto estadístico, por encima de la cota superior. Se conserva esta nota. Una sección puede incluir varias calles y su correspondencia con barrios requiere comprobar sus límites.</p><div class="table-wrap"><table><thead><tr><th>CUSEC</th><th>Renta por persona · €/año</th><th>Renta por hogar · €/año</th><th>Bajo el 60 % de la mediana</th></tr></thead><tbody id="income-rows"></tbody></table></div></details>
+<details><summary>Consultar los 97 indicadores con sus fuentes</summary><label>Buscar indicador<input id="metric-search" type="search" placeholder="Título, tema o periodo"></label><div class="table-wrap"><table><thead><tr><th>Indicador y ámbito</th><th>Valor y unidad</th><th>Periodo</th><th>Fuente y base</th></tr></thead><tbody id="metric-rows"></tbody></table></div></details>
+</section>
+<section id="hoja">
+<p class="eyebrow">03 · Trabajo del Grupo Motor</p><h2>Hoja de líneas, objetivos e indicadores</h2>
+<p>Para cada línea, relacionar el problema priorizado con las conclusiones del perfil y formular el cambio que se quiere lograr. La ficha distingue propuestas, acuerdos y pendientes.</p>
+<div class="criteria"><h3>Criterios para deliberar</h3><p>Importancia para la comunidad · Desigualdades y personas afectadas · Posibilidad de actuar desde los sectores presentes · Capacidades y activos disponibles · Viabilidad de seguimiento.</p></div>
+<label>Participación y representación en la sesión<textarea id="participation" rows="2" maxlength="4000" placeholder="Sectores, barrios, anejos y colectivos representados o pendientes de escuchar."></textarea></label>
+<div id="decision-cards"></div>
+<button id="add-line" type="button">Añadir una línea de trabajo</button>
+<details><summary>Ayuda para formular el objetivo y el indicador</summary><p>El objetivo expresa el cambio deseado, la población y el plazo. Por ejemplo, mejorar el acceso a una actividad para un colectivo que encuentra barreras. El indicador define qué se contará, su base cuando sea un porcentaje, la fuente y cuándo se revisará.</p><p>Los indicadores del perfil pueden aportar un punto de partida. También puede proponerse un indicador de acceso, participación o ejecución y dejar documentada su primera recogida. Una meta se acuerda con una base y un plazo justificados.</p></details>
+</section>
+<section id="cierre">
+<p class="eyebrow">04 · 11:15–11:30</p><h2>Leer, contrastar y dejar constancia</h2>
+<label>Acuerdos de la reunión y cuestiones pendientes<textarea id="closing-notes" rows="4" maxlength="4000" placeholder="Recoger las prioridades acordadas, discrepancias, consultas pendientes y quién devolverá los resultados."></textarea></label>
+<p id="draft-status" role="status">El guardado de la sesión se realiza con «Guardar todo en Firebase». La descarga permite obtener una copia de trabajo.</p>
+<div class="actions"><button id="export-session" type="button">Descargar hoja de trabajo · JSON</button><button id="print-session" class="secondary" type="button">Imprimir acuerdos</button><label class="file-button">Recuperar una hoja guardada<input id="import-session" type="file" accept="application/json,.json"></label></div>
+<p id="transfer-status" role="status"></p>
+<p><a href="matriz-planificacion-mapeo.html">Siguiente fase · preparar el mapeo por línea</a> · <a href="SESION_PRIORIZACION_2026.md">Guion de facilitación</a></p>
+</section>
+</main>
+<footer>Aula de Salud Comunitaria Basada en Activos · Loja · Preparación actualizada el 12 de noviembre de 2026. La hoja exportada requiere revisión y formalización por el Grupo Motor.</footer>
+<template id="decision-template">
+<article class="decision-card"><h3 class="card-title"></h3>
+<div class="form-grid">
+<label>Línea de trabajo<input name="line" maxlength="4000" placeholder="Nombre comprensible y ámbito de actuación"></label>
+<label>Estado de la ficha<select name="status"><option value="proposal">Propuesta para deliberar</option><option value="agreed">Acuerdo registrado en la sesión</option><option value="pending">Pendiente de contraste</option></select></label>
+<label>Problema priorizado y fundamento<textarea name="priority" maxlength="4000" rows="2" placeholder="Relacionar con los antecedentes y explicar por qué se selecciona ahora."></textarea></label>
+<label>Conclusión del perfil<select name="conclusion"><option value="">Seleccionar o dejar pendiente</option></select></label>
+<label>Población y territorio<input name="population" maxlength="4000" placeholder="Personas, barrios o anejos a los que se dirige"></label>
+<label>Objetivo del cambio<textarea name="objective" maxlength="4000" rows="2" placeholder="Qué mejora queremos observar, para quién y en qué plazo"></textarea></label>
+<label>Indicador del perfil como referencia<select name="reference"><option value="">Indicador propio o referencia pendiente</option></select></label>
+<div class="reference-note" aria-live="polite"></div>
+<label>Indicador de seguimiento<input name="indicator" maxlength="4000" placeholder="Qué mediremos para saber si avanzamos"></label>
+<label>Unidad y denominador o base<input name="basis" maxlength="4000" placeholder="Recuento, porcentaje y población de referencia"></label>
+<label>Situación inicial y fecha<input name="baseline" maxlength="4000" placeholder="Valor documentado o primera medición pendiente"></label>
+<label>Meta y plazo<input name="target" maxlength="4000" placeholder="Propuesta para acordar con el Grupo Motor"></label>
+<label>Fuente y periodicidad<input name="source" maxlength="4000" placeholder="Quién recoge el dato y cuándo se revisará"></label>
+<label>Activos y sectores implicados<textarea name="assets" maxlength="4000" rows="2" placeholder="Capacidades que contribuyen al objetivo y acceso a ellas"></textarea></label>
+<label>Responsable y próximo paso<input name="owner" maxlength="4000" placeholder="Equipo o entidad, tarea y fecha"></label>
+<label>Discrepancias y pendientes<textarea name="pending" maxlength="4000" rows="2"></textarea></label>
+</div><button type="button" class="remove-line secondary">Retirar esta ficha</button></article>
+</template>
+</body></html>

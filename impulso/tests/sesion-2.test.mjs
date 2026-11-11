@@ -15,14 +15,14 @@ const matrix=read('matriz-planificacion-mapeo.html');
 const rootPage=readFileSync(path.join(root,'..','index.html'),'utf8');
 
 test('La portada presenta encuentros separados y ejecución del mapeo después',()=>{
- for(const str of ['Taller de impulso','Priorización y planificación del mapeo',
+ for(const str of ['Taller de impulso','Sesión de priorización',
    'href="taller-impulso.html"','href="sesion-2.html"','Realización de los mapeos acordados',
-   'La segunda sesión diseña'])
+   'La sesión del 27 de noviembre define'])
   assert.ok(hub.includes(str),'Falta '+str);
  assert.equal((hub.match(/<article class="card /g)||[]).length,2);
  assert.ok(!hub.includes('id="actividad-app"'));
- assert.ok(rootPage.includes('Loja · Plan Local de Salud'));
- assert.ok(rootPage.includes('Dos encuentros para priorizar líneas de salud y planificar el mapeo comunitario.'));
+ assert.ok(rootPage.includes('Plan local de salud de Loja'));
+ assert.ok(rootPage.includes('27 de noviembre · 10:00–11:30. Perfil, prioridades, líneas, objetivos e indicadores para el Plan Local.'));
  assert.ok(rootPage.includes('href="./impulso/"'));
 });
 
@@ -218,8 +218,8 @@ test('Continuidad refleja la rectificación actual y distingue de versiones supe
  }
  assert.ok(lojaState.includes('Histórico supersedido'));
  assert.ok(rootState.includes('PLANIFICAR EN ESA MISMA SESIÓN qué activos mapear'));
- assert.ok(rootState.split('---')[0].includes('PUBLICADO'));
- assert.ok(lojaState.split('---')[0].includes('PUBLICADO'));
+ assert.ok(rootState.includes('27 de noviembre de 2026, de 10:00 a 11:30'));
+ assert.ok(lojaState.split('---')[0].includes('27/11/2026, de 10:00 a 11:30'));
  assert.ok(!rootState.split('---')[0].includes('no planifica ni ejecuta mapeos'));
  assert.ok(lojaState.includes('qué mapear por línea, dónde, con quién, mediante qué técnica'));
 });
