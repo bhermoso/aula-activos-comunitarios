@@ -7,3 +7,5 @@
 @media print{button{display:none!important}}
 
 @media print{#cloud-access{display:none!important}}
+
+[hidden]{display:none!important}

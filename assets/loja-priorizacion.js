@@ -167,7 +167,11 @@
       option.value = result.id;
       referenceSelect.append(option);
     }
-    for (const name of fieldNames) card.querySelector(`[name="${name}"]`).value = line[name];
+    for (const name of fieldNames) {
+      const input = card.querySelector(`[name="${name}"]`);
+      input.value = line[name];
+      input.setAttribute('aria-label', input.parentElement.firstChild.textContent.trim());
+    }
     referenceSelect.addEventListener('change', () => displayReference(card));
     card.querySelector('.remove-line').addEventListener('click', () => {
       collect();
