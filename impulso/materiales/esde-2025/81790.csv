@@ -1,0 +1,301 @@
+﻿SEXO;COMUNIDAD AUTÓNOMA;MASA CORPORAL ADULTOS;Total
+AMBOS SEXOS;Total;Total;100,00
+AMBOS SEXOS;Total;Peso insuficiente ( IMC<18,5kg/m2);2,03
+AMBOS SEXOS;Total;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);43,58
+AMBOS SEXOS;Total;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);37,19
+AMBOS SEXOS;Total;Obesidad ( IMC >=30kg/m2);17,20
+AMBOS SEXOS;Andalucía;Total;100,00
+AMBOS SEXOS;Andalucía;Peso insuficiente ( IMC<18,5kg/m2);1,69
+AMBOS SEXOS;Andalucía;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);41,89
+AMBOS SEXOS;Andalucía;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);38,13
+AMBOS SEXOS;Andalucía;Obesidad ( IMC >=30kg/m2);18,28
+AMBOS SEXOS;Aragón;Total;100,00
+AMBOS SEXOS;Aragón;Peso insuficiente ( IMC<18,5kg/m2);2,43
+AMBOS SEXOS;Aragón;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);43,93
+AMBOS SEXOS;Aragón;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);36,08
+AMBOS SEXOS;Aragón;Obesidad ( IMC >=30kg/m2);17,56
+AMBOS SEXOS;Asturias, Principado de;Total;100,00
+AMBOS SEXOS;Asturias, Principado de;Peso insuficiente ( IMC<18,5kg/m2);0,79
+AMBOS SEXOS;Asturias, Principado de;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);39,48
+AMBOS SEXOS;Asturias, Principado de;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);42,67
+AMBOS SEXOS;Asturias, Principado de;Obesidad ( IMC >=30kg/m2);17,06
+AMBOS SEXOS;Balears, Illes;Total;100,00
+AMBOS SEXOS;Balears, Illes;Peso insuficiente ( IMC<18,5kg/m2);3,05
+AMBOS SEXOS;Balears, Illes;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);47,88
+AMBOS SEXOS;Balears, Illes;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);34,18
+AMBOS SEXOS;Balears, Illes;Obesidad ( IMC >=30kg/m2);14,90
+AMBOS SEXOS;Canarias;Total;100,00
+AMBOS SEXOS;Canarias;Peso insuficiente ( IMC<18,5kg/m2);1,98
+AMBOS SEXOS;Canarias;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);43,38
+AMBOS SEXOS;Canarias;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);32,87
+AMBOS SEXOS;Canarias;Obesidad ( IMC >=30kg/m2);21,76
+AMBOS SEXOS;Cantabria;Total;100,00
+AMBOS SEXOS;Cantabria;Peso insuficiente ( IMC<18,5kg/m2);2,31
+AMBOS SEXOS;Cantabria;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);45,88
+AMBOS SEXOS;Cantabria;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);38,14
+AMBOS SEXOS;Cantabria;Obesidad ( IMC >=30kg/m2);13,67
+AMBOS SEXOS;Castilla y León;Total;100,00
+AMBOS SEXOS;Castilla y León;Peso insuficiente ( IMC<18,5kg/m2);1,58
+AMBOS SEXOS;Castilla y León;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);44,91
+AMBOS SEXOS;Castilla y León;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);36,30
+AMBOS SEXOS;Castilla y León;Obesidad ( IMC >=30kg/m2);17,21
+AMBOS SEXOS;Castilla-La Mancha;Total;100,00
+AMBOS SEXOS;Castilla-La Mancha;Peso insuficiente ( IMC<18,5kg/m2);1,59
+AMBOS SEXOS;Castilla-La Mancha;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);38,18
+AMBOS SEXOS;Castilla-La Mancha;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);39,41
+AMBOS SEXOS;Castilla-La Mancha;Obesidad ( IMC >=30kg/m2);20,82
+AMBOS SEXOS;Cataluña;Total;100,00
+AMBOS SEXOS;Cataluña;Peso insuficiente ( IMC<18,5kg/m2);2,46
+AMBOS SEXOS;Cataluña;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);43,68
+AMBOS SEXOS;Cataluña;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);36,80
+AMBOS SEXOS;Cataluña;Obesidad ( IMC >=30kg/m2);17,06
+AMBOS SEXOS;Comunitat Valenciana;Total;100,00
+AMBOS SEXOS;Comunitat Valenciana;Peso insuficiente ( IMC<18,5kg/m2);1,86
+AMBOS SEXOS;Comunitat Valenciana;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);43,86
+AMBOS SEXOS;Comunitat Valenciana;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);38,38
+AMBOS SEXOS;Comunitat Valenciana;Obesidad ( IMC >=30kg/m2);15,91
+AMBOS SEXOS;Extremadura;Total;100,00
+AMBOS SEXOS;Extremadura;Peso insuficiente ( IMC<18,5kg/m2);0,59
+AMBOS SEXOS;Extremadura;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);46,39
+AMBOS SEXOS;Extremadura;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);36,11
+AMBOS SEXOS;Extremadura;Obesidad ( IMC >=30kg/m2);16,90
+AMBOS SEXOS;Galicia;Total;100,00
+AMBOS SEXOS;Galicia;Peso insuficiente ( IMC<18,5kg/m2);1,68
+AMBOS SEXOS;Galicia;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);38,88
+AMBOS SEXOS;Galicia;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);41,13
+AMBOS SEXOS;Galicia;Obesidad ( IMC >=30kg/m2);18,31
+AMBOS SEXOS;Madrid, Comunidad de;Total;100,00
+AMBOS SEXOS;Madrid, Comunidad de;Peso insuficiente ( IMC<18,5kg/m2);2,50
+AMBOS SEXOS;Madrid, Comunidad de;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);46,43
+AMBOS SEXOS;Madrid, Comunidad de;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);35,48
+AMBOS SEXOS;Madrid, Comunidad de;Obesidad ( IMC >=30kg/m2);15,59
+AMBOS SEXOS;Murcia, Región de;Total;100,00
+AMBOS SEXOS;Murcia, Región de;Peso insuficiente ( IMC<18,5kg/m2);2,16
+AMBOS SEXOS;Murcia, Región de;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);37,98
+AMBOS SEXOS;Murcia, Región de;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);40,91
+AMBOS SEXOS;Murcia, Región de;Obesidad ( IMC >=30kg/m2);18,94
+AMBOS SEXOS;Navarra, Comunidad Foral de;Total;100,00
+AMBOS SEXOS;Navarra, Comunidad Foral de;Peso insuficiente ( IMC<18,5kg/m2);4,29
+AMBOS SEXOS;Navarra, Comunidad Foral de;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);43,94
+AMBOS SEXOS;Navarra, Comunidad Foral de;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);34,13
+AMBOS SEXOS;Navarra, Comunidad Foral de;Obesidad ( IMC >=30kg/m2);17,64
+AMBOS SEXOS;País Vasco;Total;100,00
+AMBOS SEXOS;País Vasco;Peso insuficiente ( IMC<18,5kg/m2);1,64
+AMBOS SEXOS;País Vasco;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);51,39
+AMBOS SEXOS;País Vasco;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);33,21
+AMBOS SEXOS;País Vasco;Obesidad ( IMC >=30kg/m2);13,77
+AMBOS SEXOS;Rioja, La;Total;100,00
+AMBOS SEXOS;Rioja, La;Peso insuficiente ( IMC<18,5kg/m2);1,74
+AMBOS SEXOS;Rioja, La;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);46,72
+AMBOS SEXOS;Rioja, La;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);38,27
+AMBOS SEXOS;Rioja, La;Obesidad ( IMC >=30kg/m2);13,27
+AMBOS SEXOS;Ceuta;Total;100,00
+AMBOS SEXOS;Ceuta;Peso insuficiente ( IMC<18,5kg/m2);1,31
+AMBOS SEXOS;Ceuta;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);34,47
+AMBOS SEXOS;Ceuta;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);50,81
+AMBOS SEXOS;Ceuta;Obesidad ( IMC >=30kg/m2);13,41
+AMBOS SEXOS;Melilla;Total;100,00
+AMBOS SEXOS;Melilla;Peso insuficiente ( IMC<18,5kg/m2);4,89
+AMBOS SEXOS;Melilla;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);29,61
+AMBOS SEXOS;Melilla;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);48,68
+AMBOS SEXOS;Melilla;Obesidad ( IMC >=30kg/m2);16,83
+Hombres;Total;Total;100,00
+Hombres;Total;Peso insuficiente ( IMC<18,5kg/m2);0,79
+Hombres;Total;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);37,79
+Hombres;Total;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);43,82
+Hombres;Total;Obesidad ( IMC >=30kg/m2);17,59
+Hombres;Andalucía;Total;100,00
+Hombres;Andalucía;Peso insuficiente ( IMC<18,5kg/m2);0,98
+Hombres;Andalucía;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);35,65
+Hombres;Andalucía;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);43,44
+Hombres;Andalucía;Obesidad ( IMC >=30kg/m2);19,92
+Hombres;Aragón;Total;100,00
+Hombres;Aragón;Peso insuficiente ( IMC<18,5kg/m2);1,41
+Hombres;Aragón;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);36,61
+Hombres;Aragón;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);43,21
+Hombres;Aragón;Obesidad ( IMC >=30kg/m2);18,76
+Hombres;Asturias, Principado de;Total;100,00
+Hombres;Asturias, Principado de;Peso insuficiente ( IMC<18,5kg/m2);0,39
+Hombres;Asturias, Principado de;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);33,37
+Hombres;Asturias, Principado de;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);47,33
+Hombres;Asturias, Principado de;Obesidad ( IMC >=30kg/m2);18,91
+Hombres;Balears, Illes;Total;100,00
+Hombres;Balears, Illes;Peso insuficiente ( IMC<18,5kg/m2);0,78
+Hombres;Balears, Illes;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);39,98
+Hombres;Balears, Illes;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);42,44
+Hombres;Balears, Illes;Obesidad ( IMC >=30kg/m2);16,80
+Hombres;Canarias;Total;100,00
+Hombres;Canarias;Peso insuficiente ( IMC<18,5kg/m2);0,28
+Hombres;Canarias;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);38,51
+Hombres;Canarias;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);40,35
+Hombres;Canarias;Obesidad ( IMC >=30kg/m2);20,85
+Hombres;Cantabria;Total;100,00
+Hombres;Cantabria;Peso insuficiente ( IMC<18,5kg/m2);1,12
+Hombres;Cantabria;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);40,10
+Hombres;Cantabria;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);45,28
+Hombres;Cantabria;Obesidad ( IMC >=30kg/m2);13,50
+Hombres;Castilla y León;Total;100,00
+Hombres;Castilla y León;Peso insuficiente ( IMC<18,5kg/m2);0,53
+Hombres;Castilla y León;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);39,02
+Hombres;Castilla y León;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);43,98
+Hombres;Castilla y León;Obesidad ( IMC >=30kg/m2);16,47
+Hombres;Castilla-La Mancha;Total;100,00
+Hombres;Castilla-La Mancha;Peso insuficiente ( IMC<18,5kg/m2);0,21
+Hombres;Castilla-La Mancha;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);34,45
+Hombres;Castilla-La Mancha;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);43,18
+Hombres;Castilla-La Mancha;Obesidad ( IMC >=30kg/m2);22,16
+Hombres;Cataluña;Total;100,00
+Hombres;Cataluña;Peso insuficiente ( IMC<18,5kg/m2);1,16
+Hombres;Cataluña;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);38,35
+Hombres;Cataluña;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);45,02
+Hombres;Cataluña;Obesidad ( IMC >=30kg/m2);15,47
+Hombres;Comunitat Valenciana;Total;100,00
+Hombres;Comunitat Valenciana;Peso insuficiente ( IMC<18,5kg/m2);0,06
+Hombres;Comunitat Valenciana;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);37,29
+Hombres;Comunitat Valenciana;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);46,91
+Hombres;Comunitat Valenciana;Obesidad ( IMC >=30kg/m2);15,75
+Hombres;Extremadura;Total;100,00
+Hombres;Extremadura;Peso insuficiente ( IMC<18,5kg/m2);0,00
+Hombres;Extremadura;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);40,02
+Hombres;Extremadura;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);39,41
+Hombres;Extremadura;Obesidad ( IMC >=30kg/m2);20,57
+Hombres;Galicia;Total;100,00
+Hombres;Galicia;Peso insuficiente ( IMC<18,5kg/m2);0,43
+Hombres;Galicia;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);34,27
+Hombres;Galicia;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);45,67
+Hombres;Galicia;Obesidad ( IMC >=30kg/m2);19,64
+Hombres;Madrid, Comunidad de;Total;100,00
+Hombres;Madrid, Comunidad de;Peso insuficiente ( IMC<18,5kg/m2);1,25
+Hombres;Madrid, Comunidad de;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);40,65
+Hombres;Madrid, Comunidad de;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);41,59
+Hombres;Madrid, Comunidad de;Obesidad ( IMC >=30kg/m2);16,51
+Hombres;Murcia, Región de;Total;100,00
+Hombres;Murcia, Región de;Peso insuficiente ( IMC<18,5kg/m2);0,73
+Hombres;Murcia, Región de;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);34,57
+Hombres;Murcia, Región de;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);48,69
+Hombres;Murcia, Región de;Obesidad ( IMC >=30kg/m2);16,01
+Hombres;Navarra, Comunidad Foral de;Total;100,00
+Hombres;Navarra, Comunidad Foral de;Peso insuficiente ( IMC<18,5kg/m2);1,95
+Hombres;Navarra, Comunidad Foral de;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);34,95
+Hombres;Navarra, Comunidad Foral de;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);41,98
+Hombres;Navarra, Comunidad Foral de;Obesidad ( IMC >=30kg/m2);21,13
+Hombres;País Vasco;Total;100,00
+Hombres;País Vasco;Peso insuficiente ( IMC<18,5kg/m2);0,57
+Hombres;País Vasco;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);45,37
+Hombres;País Vasco;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);39,18
+Hombres;País Vasco;Obesidad ( IMC >=30kg/m2);14,89
+Hombres;Rioja, La;Total;100,00
+Hombres;Rioja, La;Peso insuficiente ( IMC<18,5kg/m2);0,00
+Hombres;Rioja, La;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);42,18
+Hombres;Rioja, La;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);44,76
+Hombres;Rioja, La;Obesidad ( IMC >=30kg/m2);13,06
+Hombres;Ceuta;Total;100,00
+Hombres;Ceuta;Peso insuficiente ( IMC<18,5kg/m2);0,00
+Hombres;Ceuta;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);25,28
+Hombres;Ceuta;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);60,70
+Hombres;Ceuta;Obesidad ( IMC >=30kg/m2);14,02
+Hombres;Melilla;Total;100,00
+Hombres;Melilla;Peso insuficiente ( IMC<18,5kg/m2);7,84
+Hombres;Melilla;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);27,63
+Hombres;Melilla;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);51,59
+Hombres;Melilla;Obesidad ( IMC >=30kg/m2);12,94
+Mujeres;Total;Total;100,00
+Mujeres;Total;Peso insuficiente ( IMC<18,5kg/m2);3,22
+Mujeres;Total;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);49,14
+Mujeres;Total;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);30,83
+Mujeres;Total;Obesidad ( IMC >=30kg/m2);16,81
+Mujeres;Andalucía;Total;100,00
+Mujeres;Andalucía;Peso insuficiente ( IMC<18,5kg/m2);2,38
+Mujeres;Andalucía;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);47,95
+Mujeres;Andalucía;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);32,98
+Mujeres;Andalucía;Obesidad ( IMC >=30kg/m2);16,69
+Mujeres;Aragón;Total;100,00
+Mujeres;Aragón;Peso insuficiente ( IMC<18,5kg/m2);3,43
+Mujeres;Aragón;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);51,19
+Mujeres;Aragón;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);29,00
+Mujeres;Aragón;Obesidad ( IMC >=30kg/m2);16,37
+Mujeres;Asturias, Principado de;Total;100,00
+Mujeres;Asturias, Principado de;Peso insuficiente ( IMC<18,5kg/m2);1,19
+Mujeres;Asturias, Principado de;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);45,53
+Mujeres;Asturias, Principado de;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);38,06
+Mujeres;Asturias, Principado de;Obesidad ( IMC >=30kg/m2);15,22
+Mujeres;Balears, Illes;Total;100,00
+Mujeres;Balears, Illes;Peso insuficiente ( IMC<18,5kg/m2);5,40
+Mujeres;Balears, Illes;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);56,03
+Mujeres;Balears, Illes;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);25,64
+Mujeres;Balears, Illes;Obesidad ( IMC >=30kg/m2);12,92
+Mujeres;Canarias;Total;100,00
+Mujeres;Canarias;Peso insuficiente ( IMC<18,5kg/m2);3,63
+Mujeres;Canarias;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);48,10
+Mujeres;Canarias;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);25,62
+Mujeres;Canarias;Obesidad ( IMC >=30kg/m2);22,65
+Mujeres;Cantabria;Total;100,00
+Mujeres;Cantabria;Peso insuficiente ( IMC<18,5kg/m2);3,49
+Mujeres;Cantabria;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);51,59
+Mujeres;Cantabria;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);31,08
+Mujeres;Cantabria;Obesidad ( IMC >=30kg/m2);13,84
+Mujeres;Castilla y León;Total;100,00
+Mujeres;Castilla y León;Peso insuficiente ( IMC<18,5kg/m2);2,60
+Mujeres;Castilla y León;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);50,65
+Mujeres;Castilla y León;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);28,82
+Mujeres;Castilla y León;Obesidad ( IMC >=30kg/m2);17,93
+Mujeres;Castilla-La Mancha;Total;100,00
+Mujeres;Castilla-La Mancha;Peso insuficiente ( IMC<18,5kg/m2);2,99
+Mujeres;Castilla-La Mancha;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);41,99
+Mujeres;Castilla-La Mancha;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);35,56
+Mujeres;Castilla-La Mancha;Obesidad ( IMC >=30kg/m2);19,46
+Mujeres;Cataluña;Total;100,00
+Mujeres;Cataluña;Peso insuficiente ( IMC<18,5kg/m2);3,74
+Mujeres;Cataluña;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);48,89
+Mujeres;Cataluña;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);28,76
+Mujeres;Cataluña;Obesidad ( IMC >=30kg/m2);18,61
+Mujeres;Comunitat Valenciana;Total;100,00
+Mujeres;Comunitat Valenciana;Peso insuficiente ( IMC<18,5kg/m2);3,57
+Mujeres;Comunitat Valenciana;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);50,09
+Mujeres;Comunitat Valenciana;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);30,28
+Mujeres;Comunitat Valenciana;Obesidad ( IMC >=30kg/m2);16,06
+Mujeres;Extremadura;Total;100,00
+Mujeres;Extremadura;Peso insuficiente ( IMC<18,5kg/m2);1,16
+Mujeres;Extremadura;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);52,46
+Mujeres;Extremadura;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);32,97
+Mujeres;Extremadura;Obesidad ( IMC >=30kg/m2);13,42
+Mujeres;Galicia;Total;100,00
+Mujeres;Galicia;Peso insuficiente ( IMC<18,5kg/m2);2,83
+Mujeres;Galicia;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);43,10
+Mujeres;Galicia;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);36,98
+Mujeres;Galicia;Obesidad ( IMC >=30kg/m2);17,09
+Mujeres;Madrid, Comunidad de;Total;100,00
+Mujeres;Madrid, Comunidad de;Peso insuficiente ( IMC<18,5kg/m2);3,62
+Mujeres;Madrid, Comunidad de;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);51,61
+Mujeres;Madrid, Comunidad de;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);30,01
+Mujeres;Madrid, Comunidad de;Obesidad ( IMC >=30kg/m2);14,77
+Mujeres;Murcia, Región de;Total;100,00
+Mujeres;Murcia, Región de;Peso insuficiente ( IMC<18,5kg/m2);3,60
+Mujeres;Murcia, Región de;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);41,41
+Mujeres;Murcia, Región de;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);33,10
+Mujeres;Murcia, Región de;Obesidad ( IMC >=30kg/m2);21,89
+Mujeres;Navarra, Comunidad Foral de;Total;100,00
+Mujeres;Navarra, Comunidad Foral de;Peso insuficiente ( IMC<18,5kg/m2);6,65
+Mujeres;Navarra, Comunidad Foral de;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);53,04
+Mujeres;Navarra, Comunidad Foral de;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);26,19
+Mujeres;Navarra, Comunidad Foral de;Obesidad ( IMC >=30kg/m2);14,11
+Mujeres;País Vasco;Total;100,00
+Mujeres;País Vasco;Peso insuficiente ( IMC<18,5kg/m2);2,65
+Mujeres;País Vasco;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);57,13
+Mujeres;País Vasco;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);27,50
+Mujeres;País Vasco;Obesidad ( IMC >=30kg/m2);12,71
+Mujeres;Rioja, La;Total;100,00
+Mujeres;Rioja, La;Peso insuficiente ( IMC<18,5kg/m2);3,42
+Mujeres;Rioja, La;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);51,12
+Mujeres;Rioja, La;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);31,99
+Mujeres;Rioja, La;Obesidad ( IMC >=30kg/m2);13,48
+Mujeres;Ceuta;Total;100,00
+Mujeres;Ceuta;Peso insuficiente ( IMC<18,5kg/m2);2,62
+Mujeres;Ceuta;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);43,73
+Mujeres;Ceuta;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);40,85
+Mujeres;Ceuta;Obesidad ( IMC >=30kg/m2);12,80
+Mujeres;Melilla;Total;100,00
+Mujeres;Melilla;Peso insuficiente ( IMC<18,5kg/m2);1,43
+Mujeres;Melilla;Normopeso ( 18,5 kg/m2< =IMC<25kg/m2);31,92
+Mujeres;Melilla;Sobrepeso ( 25kg/m2< =IMC<30kg/m2);45,27
+Mujeres;Melilla;Obesidad ( IMC >=30kg/m2);21,38
