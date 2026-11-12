@@ -297,7 +297,7 @@
         cloud = await import('./loja-firebase-session.js');
         cloud.observeAccount(user => {
           account = user; version = 0; updateCloudButtons();
-          $('#cloud-status').textContent = user ? 'Cuenta conectada. Recupera la sesión de Firebase antes de continuar una hoja existente.' : 'Accede con la cuenta de coordinación para guardar y recuperar la sesión.';
+          $('#cloud-status').textContent = user ? `Conectado: ${user.email || user.displayName || 'cuenta de coordinación'}` : '';
           if (user && !dirty) void recoverCloud();
         });
         updateCloudButtons();
