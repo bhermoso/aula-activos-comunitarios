@@ -6,10 +6,10 @@ Elegir según el diálogo; no es necesario agotar las preguntas. Pedir ejemplos 
 
 ## Carlos del Moral Campaña · Epidemiología · Distrito Sanitario
 
-Primera intervención del coloquio, después de exponer el Informe de Salud. Elisa abre el contraste con las otras miradas; no solicita repetir la exposición. La segunda pregunta es una repregunta opcional, solo si no ha quedado respondida.
+Primera intervención del coloquio, después de exponer el Informe de Salud. Elisa abre la conversación sobre prevención y promoción de la salud a partir del Informe. Los datos epidemiológicos no se someten a validación del coloquio. La segunda pregunta es una repregunta opcional, solo si no ha quedado respondida.
 
-1. Después de lo que nos has presentado, ¿qué aspecto de la salud de Alfacar te gustaría comprender mejor escuchando a quienes trabajan cada día con la población?
-2. ¿Qué pueden aportar esas experiencias cotidianas para completar o matizar la lectura de los datos?
+1. Después de tu exposición, ¿qué mensaje te gustaría destacar para abrir esta conversación sobre cómo mejorar la salud en Alfacar?
+2. A partir de la situación de salud que has presentado, ¿qué oportunidades de prevención y promoción de la salud te gustaría poner sobre la mesa?
 
 ## Mª Fátima Gómez Abad · Alcaldesa
 

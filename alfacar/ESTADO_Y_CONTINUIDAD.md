@@ -1,3 +1,9 @@
+## Presentación de priorización y enfoque del coloquio · 14/11/2026
+
+Incorporada una sección «Priorización 2026» con presentación integrada de seis diapositivas. Recuento desde el CSV original adjunto en la copia conservada del expediente, PriorizacinCiudadana_DATA_2026-11-03_1912.csv, SHA-256 190bde4f58d077c4aefafbb44513e4152debba5029158c4c5916e6018acf4d4d. 251 registros, 241 completos y 10 incompletos excluidos. Se publican únicamente agregados. El CSV con registros individuales permanece fuera del repositorio público. No se interpretan códigos de sexo ni el valor 99 de edad sin diccionario.
+
+Los resultados epidemiológicos los presenta el epidemiólogo. El coloquio aporta perspectivas de los servicios y de la ciudadanía para orientar la acción, sin validar ni cuestionar esos datos. Ajustadas las preguntas de Carlos y las orientaciones de la presentación del perfil para el taller. PDF y JSON del perfil de referencia sin cambios.
+
 ## Ajuste del coloquio · 14/11/2026
 
 Elisa presenta y modera; no figura entre las personas preguntadas. María Ángeles aporta la visión sanitaria de proximidad, desde la relación cotidiana con la ciudadanía. Sus dos preguntas se centran en esa experiencia, conservando su cargo de coordinadora de cuidados de enfermería. Se han revisado como antecedentes el guion del taller de Loja del 16/10 y la orientación de Fuente Vaqueros del 22/10: preguntas abiertas desde cada perspectiva, sin presuponer problemas ni convertir percepciones en resultados poblacionales o prioridades adoptadas.

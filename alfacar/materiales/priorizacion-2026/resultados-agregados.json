@@ -1,0 +1,69 @@
+{
+  "sourceFileName": "PriorizacinCiudadana_DATA_2026-11-03_1912.csv",
+  "sourceSha256": "190bde4f58d077c4aefafbb44513e4152debba5029158c4c5916e6018acf4d4d",
+  "sourceContext": "Original adjunto a la copia conservada del expediente de Alfacar",
+  "exportDate": "2026-11-03",
+  "totalRecords": 251,
+  "completeRecords": 241,
+  "excludedIncomplete": 10,
+  "multipleResponse": true,
+  "ranking": [
+    {
+      "label": "Bienestar emocional y salud mental",
+      "votes": 187,
+      "pct": 77.6
+    },
+    {
+      "label": "Actividad física",
+      "votes": 147,
+      "pct": 61.0
+    },
+    {
+      "label": "Alimentación",
+      "votes": 130,
+      "pct": 53.9
+    },
+    {
+      "label": "Violencia de género",
+      "votes": 107,
+      "pct": 44.4
+    },
+    {
+      "label": "Sueño y descanso",
+      "votes": 106,
+      "pct": 44.0
+    },
+    {
+      "label": "Tabaco, vapeadores, alcohol y otras drogas",
+      "votes": 104,
+      "pct": 43.2
+    },
+    {
+      "label": "Uso de pantallas y redes sociales",
+      "votes": 104,
+      "pct": 43.2
+    },
+    {
+      "label": "Sexualidad y salud",
+      "votes": 96,
+      "pct": 39.8
+    },
+    {
+      "label": "Medioambiente y municipio",
+      "votes": 80,
+      "pct": 33.2
+    },
+    {
+      "label": "Accidentes en el hogar y la vía pública",
+      "votes": 61,
+      "pct": 25.3
+    }
+  ],
+  "selectionsPerCompleteBallot": {
+    "1": 8,
+    "2": 5,
+    "3": 9,
+    "4": 18,
+    "5": 201
+  }
+}

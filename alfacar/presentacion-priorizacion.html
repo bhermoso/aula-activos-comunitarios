@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#173d35">
+<meta name="description" content="Resultados de la priorización ciudadana de Alfacar: exportación REDCap del 3 de noviembre de 2026, 241 papeletas completas.">
+<title>Alfacar · Resultados de priorización ciudadana 2026</title>
+<style>
+:root{--deep:#173d35;--mid:#25694f;--sage:#e8f0e6;--sand:#f7f0e3;--line:#c9d9cd;--ink:#183a30;--muted:#466459;--accent:#b7791f}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#0f1c18;color:var(--ink);font:16px/1.4 system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+#deck{display:flex;flex-direction:column;height:100dvh}
+.bar{flex:none;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:8px 16px;background:#173d35;color:#fff}
+.bar a{color:#d6ecdc;text-decoration:none;font-size:13px}.bar .brand{font-weight:800;font-size:13px;letter-spacing:.05em}
+.stage{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;overflow:hidden;padding:8px}
+.frame{width:1600px;height:900px;transform-origin:center center;flex:none}
+.slide{display:none;width:1600px;height:900px;background:#fbfaf6;border-radius:6px;padding:64px 86px 90px;position:relative;overflow:hidden;flex-direction:column;gap:22px}
+.slide.on{display:flex}
+.slide .meta{font:800 15px system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--mid)}
+.slide h1{font:600 76px/1.04 Georgia,serif;margin:0;color:var(--deep);letter-spacing:-.01em}
+.slide h2{font:600 52px/1.1 Georgia,serif;margin:0;color:var(--deep);text-wrap:balance}
+.lead{font-size:28px;line-height:1.38;color:#2f5146;margin:0;max-width:1350px}
+.src{position:absolute;left:86px;right:86px;bottom:24px;font-size:15px;color:#5c756c;border-top:1px solid var(--line);padding-top:8px}
+.grid{display:grid;gap:20px;flex:none;align-content:start}
+.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px 26px}
+.card h3{font:600 30px/1.2 Georgia,serif;margin:0 0 8px;color:var(--deep)}
+.card p{font-size:23px;line-height:1.4;margin:0;color:#35564b}
+.card.soft{background:var(--sage)}.card.sand{background:var(--sand)}
+.big{font:700 72px/1 Georgia,serif;color:var(--mid);display:block;margin-bottom:6px}
+.big small{font-size:32px}
+table{border-collapse:collapse;width:100%;font-size:25px;background:#fff;border-radius:14px;overflow:hidden}
+th,td{padding:13px 20px;border-bottom:1px solid var(--line);text-align:left}
+th{background:var(--deep);color:#fff;font-weight:700;font-size:21px;letter-spacing:.02em}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f5146}ul.clean li{margin:6px 0}
+.cover{background:linear-gradient(135deg,#173d35 0%,#25694f 100%);color:#fff;justify-content:center}
+.cover h1{color:#fff;font-size:88px}.cover .lead{color:#dcefe2;font-size:32px}.cover .meta{color:#bfe3c9}
+.cover .src{color:#bfd9c7;border-color:#3f7a62}
+.timeline{display:grid;grid-template-columns:repeat(7,1fr);gap:12px;flex:1;align-content:center}
+.tl{border-top:6px solid var(--mid);padding-top:14px}.tl b{font:700 32px Georgia,serif;color:var(--deep);display:block}.tl span{font-size:24px;color:#35564b;line-height:1.35;display:block;margin-top:6px}
+.tl.now{border-color:var(--accent)}
+.bars{display:flex;flex-direction:column;gap:10px}
+.brow{display:grid;grid-template-columns:420px 1fr 100px;align-items:center;gap:16px;font-size:23px}
+.brow .track{height:30px;background:#e4ece5;border-radius:6px;overflow:hidden}.brow .fill{height:100%;background:var(--mid)}
+.brow.top .fill{background:var(--deep)}.brow .pct{font-weight:800;text-align:right;font-variant-numeric:tabular-nums}
+.umbrella{display:grid;grid-template-columns:1fr;gap:12px;flex:none}.umbrella .card{padding:15px 20px}.umbrella .card h3{font-size:26px}.umbrella .card p{font-size:20px}
+.umb-head{background:var(--deep);color:#fff;border-radius:18px;padding:22px 30px;font:600 40px Georgia,serif;text-align:center}
+.umb-head small{display:block;font:400 22px system-ui;color:#cfe8d6;margin-top:6px}
+.pill{display:inline-block;font:800 14px system-ui;letter-spacing:.08em;text-transform:uppercase;border-radius:100px;padding:5px 12px;background:#e9efe8;color:var(--mid);margin-bottom:10px}
+.pill.alt{background:#f6e7cf;color:#8a5a12}
+.chain{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;align-items:stretch;flex:none}
+.chain div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px;position:relative;font-size:22px;color:#35564b}
+.chain div b{display:block;font:600 30px Georgia,serif;color:var(--deep);margin-bottom:8px}
+.chain div:not(:last-child)::after{content:"→";position:absolute;right:-25px;top:50%;transform:translateY(-50%);font:700 36px system-ui;color:var(--mid);z-index:2}
+.chain .here{background:var(--sage);border-color:var(--mid)}
+.cta{display:inline-block;background:var(--mid);color:#fff;text-decoration:none;font-weight:800;font-size:24px;border-radius:12px;padding:16px 26px}
+.foot{flex:none;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:7px 14px;background:#173d35;color:#fff}
+.foot button{appearance:none;border:1px solid #79a38b;background:#25694f;color:#fff;border-radius:8px;padding:8px 13px;font-weight:750;font-size:13px;cursor:pointer}
+.foot button:disabled{opacity:.35;cursor:default}.foot button:focus-visible{outline:3px solid #edb957}
+#counter{min-width:90px;text-align:center;font-weight:750;font-size:14px}.hint{font-size:12px;color:#bfd4c5}
+#deck:fullscreen .bar{display:none}
+@media(max-width:650px){.hint,.bar .sub{display:none}}
+@media print{
+ @page{size:1600px 900px;margin:0}
+ html,body{background:#fff;height:auto}.bar,.foot{display:none}#deck{display:block;height:auto}
+ .stage{display:block;padding:0;overflow:visible}.frame{transform:none!important;width:auto;height:auto}
+ .slide{display:flex!important;break-after:page;border-radius:0}
+}
+
+.workshop-reference{font:14px/1.45 system-ui;background:#edf5e9;color:#183a37;padding:10px 16px;border-left:4px solid #25694f}.workshop-reference p{margin:3px 0}.workshop-reference a{color:#173d35}.slide ul{line-height:1.4}.slide .workshop-list{font-size:24px;columns:2;column-gap:44px}.slide .workshop-list li{break-inside:avoid;margin-bottom:12px}@media(max-width:700px){.slide .workshop-list{columns:1}}@media print{.workshop-reference{position:static}}
+.vote-row{display:grid;grid-template-columns:570px 1fr 180px;align-items:center;gap:22px;margin:25px 0;font-size:28px}.vote-track{height:36px;background:#e2ebe3;border-radius:5px}.vote-fill{height:100%;background:#25694f;border-radius:5px}.vote-number{text-align:right;font-weight:750}.vote-table{border-collapse:collapse;width:100%;font-size:29px}.vote-table th,.vote-table td{padding:14px 18px;text-align:left;border-bottom:1px solid #c9d9cd}.vote-table th{background:#e8f0e6}.statement{font:600 56px/1.2 Georgia,serif;color:#173d35;margin:20px 0}.plain-list{font-size:30px;line-height:1.5}.plain-list li{margin:18px 0}</style>
+</head>
+<body>
+<div id="deck">
+<div class="bar"><span class="brand">ALFACAR · PRIORIZACIÓN CIUDADANA 2026</span><a href="materiales/priorizacion-2026/resultados-agregados.json">Resultados agregados ↗</a><a href="index.html#priorizacion">← Taller de Alfacar</a></div>
+<div class="stage" id="stage"><div class="frame" id="frame"><section class="slide"><span class="meta">Priorización ciudadana · Alfacar 2026</span><h2>Resultados de la priorización ciudadana</h2><p class="statement">241 papeletas completas</p><p class="lead">Preferencias de las personas participantes sobre diez temáticas de salud</p><p class="lead">Taller de impulso del II Plan Local de Salud<br>19 de noviembre de 2026 · 11:00</p><p class="src">Fuente: REDCap, exportación 3/11/2026. Base: 241 papeletas completas. Respuesta múltiple.</p></section><section class="slide"><span class="meta">Priorización ciudadana · Alfacar 2026</span><h2>Participación y base del análisis</h2><table class="vote-table"><tr><th>Registros exportados</th><td>251</td></tr><tr><th>Papeletas completas analizadas</th><td>241</td></tr><tr><th>Registros incompletos excluidos</th><td>10</td></tr><tr><th>Total de selecciones temáticas</th><td>1122</td></tr></table><p class="lead">201 papeletas seleccionan cinco temáticas y 40 seleccionan entre una y cuatro. Los porcentajes usan siempre 241 como denominador y pueden sumar más del 100 %.</p><p class="src">Fuente: REDCap, exportación 3/11/2026. Base: 241 papeletas completas. Respuesta múltiple.</p></section><section class="slide"><span class="meta">Priorización ciudadana · Alfacar 2026</span><h2>Las cinco temáticas más seleccionadas</h2><div class="vote-row"><span>Bienestar emocional y salud mental</span><div class="vote-track"><div class="vote-fill" style="width:77.6%"></div></div><span class="vote-number">187 · 77,6%</span></div><div class="vote-row"><span>Actividad física</span><div class="vote-track"><div class="vote-fill" style="width:61.0%"></div></div><span class="vote-number">147 · 61,0%</span></div><div class="vote-row"><span>Alimentación</span><div class="vote-track"><div class="vote-fill" style="width:53.9%"></div></div><span class="vote-number">130 · 53,9%</span></div><div class="vote-row"><span>Violencia de género</span><div class="vote-track"><div class="vote-fill" style="width:44.4%"></div></div><span class="vote-number">107 · 44,4%</span></div><div class="vote-row"><span>Sueño y descanso</span><div class="vote-track"><div class="vote-fill" style="width:44.0%"></div></div><span class="vote-number">106 · 44,0%</span></div><p class="src">Fuente: REDCap, exportación 3/11/2026. Base: 241 papeletas completas. Respuesta múltiple.</p></section><section class="slide"><span class="meta">Priorización ciudadana · Alfacar 2026</span><h2>Resultados de las demás temáticas</h2><div class="vote-row"><span>Tabaco, vapeadores, alcohol y otras drogas</span><div class="vote-track"><div class="vote-fill" style="width:43.2%"></div></div><span class="vote-number">104 · 43,2%</span></div><div class="vote-row"><span>Uso de pantallas y redes sociales</span><div class="vote-track"><div class="vote-fill" style="width:43.2%"></div></div><span class="vote-number">104 · 43,2%</span></div><div class="vote-row"><span>Sexualidad y salud</span><div class="vote-track"><div class="vote-fill" style="width:39.8%"></div></div><span class="vote-number">96 · 39,8%</span></div><div class="vote-row"><span>Medioambiente y municipio</span><div class="vote-track"><div class="vote-fill" style="width:33.2%"></div></div><span class="vote-number">80 · 33,2%</span></div><div class="vote-row"><span>Accidentes en el hogar y la vía pública</span><div class="vote-track"><div class="vote-fill" style="width:25.3%"></div></div><span class="vote-number">61 · 25,3%</span></div><p class="lead">Empate a 104 selecciones: pantallas y redes sociales y tabaco, vapeadores, alcohol y otras drogas.</p><p class="src">Fuente: REDCap, exportación 3/11/2026. Base: 241 papeletas completas. Respuesta múltiple.</p></section><section class="slide"><span class="meta">Priorización ciudadana · Alfacar 2026</span><h2>Principales conclusiones</h2><ul class="plain-list"><li>Bienestar emocional y salud mental encabeza las preferencias: 187 selecciones, el 77,6 %.</li><li>Actividad física y alimentación superan la mitad de las papeletas: 61,0 % y 53,9 %.</li><li>Violencia de género y sueño y descanso completan las cinco primeras temáticas, con 107 y 106 selecciones.</li></ul><p class="lead">La selección expresa interés o prioridad entre participantes. No mide cuántas personas padecen un problema de salud.</p><p class="src">Fuente: REDCap, exportación 3/11/2026. Base: 241 papeletas completas. Respuesta múltiple.</p></section><section class="slide"><span class="meta">Priorización ciudadana · Alfacar 2026</span><h2>Su aportación al II Plan Local de Salud</h2><ul class="plain-list"><li>El Informe aporta los resultados epidemiológicos que presenta Carlos.</li><li>La encuesta aporta las preferencias temáticas de quienes participaron.</li><li>El coloquio incorpora el conocimiento cotidiano de los servicios y de la ciudadanía.</li><li>El Grupo Motor concreta las líneas de actuación, sus objetivos e indicadores y documenta los acuerdos.</li></ul><p class="lead"><a href="index.html#lineas">Continuar al trabajo sobre líneas</a></p><p class="src">Resultados de priorización entre participantes. No equivalen por sí solos a líneas aprobadas ni a una encuesta representativa del municipio.</p></section></div></div>
+<div class="foot"><div><button id="prev" type="button">← Anterior</button> <span id="counter">1 / 1</span> <button id="next" type="button">Siguiente →</button></div><span class="hint">Flechas ← → · Espacio · Inicio/Fin · F pantalla completa</span><button id="fs" type="button">⛶ Presentar</button></div>
+</div>
+<script>
+(function(){
+'use strict';
+const slides=[...document.querySelectorAll('.slide')];let i=0;
+const counter=document.getElementById('counter'),prev=document.getElementById('prev'),next=document.getElementById('next');
+function fromHash(){const n=parseInt((location.hash||'').replace(/\D/g,''),10);return n>=1&&n<=slides.length?n-1:0}
+function show(n){i=Math.max(0,Math.min(slides.length-1,n));slides.forEach((s,k)=>s.classList.toggle('on',k===i));counter.textContent=(i+1)+' / '+slides.length;prev.disabled=i===0;next.disabled=i===slides.length-1;try{history.replaceState(null,'','#'+(i+1))}catch(e){}}
+function fit(){const st=document.getElementById('stage'),fr=document.getElementById('frame');const s=Math.min(st.clientWidth/1600,st.clientHeight/900);fr.style.transform='scale('+s+')';fr.style.margin=((st.clientHeight-900*s)/2>0?0:0)+'px'}
+prev.addEventListener('click',()=>show(i-1));next.addEventListener('click',()=>show(i+1));
+document.getElementById('fs').addEventListener('click',()=>{const d=document.getElementById('deck');if(!document.fullscreenElement&&d.requestFullscreen)d.requestFullscreen().catch(()=>{});else if(document.exitFullscreen)document.exitFullscreen().catch(()=>{})});
+document.addEventListener('keydown',e=>{if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();show(i+1)}else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();show(i-1)}else if(e.key==='Home')show(0);else if(e.key==='End')show(slides.length-1);else if(e.key==='f'||e.key==='F')document.getElementById('fs').click()});
+window.addEventListener('resize',fit);document.addEventListener('fullscreenchange',()=>setTimeout(fit,50));
+show(fromHash());fit();
+})();
+</script>
+</body></html>
