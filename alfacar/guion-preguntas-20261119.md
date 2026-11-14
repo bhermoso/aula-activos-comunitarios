@@ -15,8 +15,10 @@ Elisa presenta el encuentro y conduce el diálogo. No se le dirigen preguntas; u
 
 ## María Ángeles Granados Contreras · Coordinadora de cuidados de enfermería
 
-1. Desde la coordinación de los cuidados de enfermería, ¿cómo ve las necesidades y las capacidades de cuidado de la población de Alfacar?
-2. ¿Qué aspectos de la continuidad de los cuidados y de la relación con las familias y otros servicios cree que convendría conocer o fortalecer?
+Mirada sanitaria de proximidad: la salud vista desde la relación cotidiana con las personas y las familias. Elisa puede pedir un ejemplo general, sin datos identificables.
+
+1. Desde el contacto cotidiano con las personas y las familias en el centro de salud, ¿cómo ve la salud y el bienestar de la población de Alfacar?
+2. ¿Qué le permite conocer esa relación diaria con la ciudadanía sobre su manera de vivir y cuidar la salud, que convendría tener presente en este encuentro?
 
 ## Miriam Denia Milla · Enfermera especializada en Enfermería Familiar y Comunitaria
 
