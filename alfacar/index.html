@@ -236,12 +236,12 @@ main .fv-bottom{margin-top:7px;padding-top:7px}
 #portada-actividad .fv-next a{padding:7px 11px!important;font-size:12px!important}
 #portada-actividad .portada-pie{padding:8px clamp(18px,4vw,50px)}
 body:has(#portada-actividad:not([hidden])){overflow:hidden}
-body:has(.actividad-app:not([hidden])){overflow:hidden}
-.actividad-app:not([hidden]){height:100svh;display:flex;flex-direction:column;overflow:hidden}
+body:has(.actividad-app:not([hidden])){overflow:auto}
+.actividad-app:not([hidden]){min-height:100svh;height:auto;display:flex;flex-direction:column;overflow:visible}
 .actividad-app:not([hidden]) .fv-bar{flex:0 0 auto;position:relative}
-.actividad-app:not([hidden]) main:has(.section.active){flex:1 1 auto;min-height:0;overflow:hidden;display:flex;flex-direction:column;padding-bottom:7px!important}
-.actividad-app:not([hidden]) .tabs{flex:0 0 auto;min-height:0}
-.actividad-app:not([hidden]) .section.active{flex:1 1 auto;min-height:0;max-height:none;overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable;scroll-padding-top:10px;padding:5px 7px 13px 0}
+.actividad-app:not([hidden]) main:has(.section.active){flex:1 0 auto;min-height:0;max-width:100%;width:100%;overflow:visible;display:flex;flex-direction:column;padding-bottom:7px!important}
+.actividad-app:not([hidden]) .tabs{flex:0 0 auto;min-height:0;max-width:100%;display:flex;flex-wrap:wrap;position:static}.actividad-app:not([hidden]) .tabs .tab{flex:0 0 auto}
+.actividad-app:not([hidden]) .section.active{flex:1 0 auto;min-height:0;max-height:none;overflow:visible;scroll-padding-top:10px;padding:5px 7px 13px 0}
 .actividad-app:not([hidden]) .fv-bottom{flex:0 0 auto;margin:0!important;padding:7px 0 0!important}
 .fv-slide-drawer{border:1px solid #d1dfd4;border-radius:12px;background:#fff;margin:9px 0;overflow:hidden}
 .fv-slide-drawer>summary{list-style:none;cursor:pointer;padding:12px 15px;color:#1f5c46;font-weight:800;font-size:14px;display:flex;align-items:center;justify-content:space-between;gap:12px}
@@ -289,7 +289,7 @@ body:has(.actividad-app:not([hidden])){overflow:hidden}
 @media(max-width:900px){
   #portada-actividad .form-art{display:none}
   #portada-actividad .portada-hero{display:block}
-  .actividad-app:not([hidden]) .tabs{flex-wrap:nowrap;overflow-x:auto;white-space:nowrap}
+  .actividad-app:not([hidden]) .tabs{flex-wrap:wrap;overflow:visible;white-space:normal}
   #participantes .fv-participant-accordions{grid-template-columns:1fr}
 }
 @media(max-width:740px){
