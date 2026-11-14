@@ -28,7 +28,7 @@ test('Las seis parejas España-Andalucía reproducen exactamente sus tablas ofic
 });
 
 test('El perfil de origen conserva su huella y la comparación queda en el material de sesión', () => {
-  const bytes = readFileSync(new URL('materiales/perfil-2026/Loja_PSL_renta_2024.json', root));
+  const bytes = readFileSync(new URL('../materiales/perfiles-2026/loja/Loja_PSL_v0_4_C1_2026-11-13.json', root));
   assert.equal(comparison.profileSha256, createHash('sha256').update(bytes).digest('hex'));
   const session = JSON.parse(read('materiales/perfil-2026/sesion-datos.json'));
   assert.deepEqual(session.surveyComparison, comparison);

@@ -1,7 +1,7 @@
 {
   "schema": "loja-session-evidence/v1",
-  "profileTitle": "Perfil de Salud Local de Loja · revisión de renta censal · 6/11/2026",
-  "profileSha256": "592269db904f58731b08d2d5f747901928bc4c16b6e747ee3c869350c9717adb",
+  "profileTitle": "Perfil de Salud Local de Loja · revisión consolidada 0.4-C1 · 13/11/2026",
+  "profileSha256": "02a48b516b034692cab36f890f845a2913c9b0af9566a8e541f04f4f3af79560",
   "history": [
     {
       "id": "1",
@@ -135,15 +135,15 @@
     }
   ],
   "findings": [
-    "C1. Loja tiene más enfermedad cardiometabólica registrada que su provincia y que Andalucía.",
-    "C2. Desde 2013 no se sabe cómo come ni cuánto se mueve la población de Loja, y es lo que la comunidad pide abordar desde 2011.",
-    "C4. La población envejece y los cuidados no se ven.",
-    "C5. El suicidio fue el exceso de mortalidad más marcado de Loja y no se ha vuelto a medir.",
-    "C6. Las infecciones de transmisión sexual declaradas han aumentado.",
-    "C7. La prevención sanitaria funciona mejor que en el entorno, salvo la invitación al cribado de mama.",
-    "C8. Los activos reconocidos no cubren los problemas que la comunidad prioriza.",
-    "C9. Los temas de salud de Loja son estables desde hace diez años; lo que se ha interrumpido es el proceso.",
-    "C3. En 2024, las 17 secciones presentan diferencias de renta neta media por persona: desde 7.106,529 euros en 1812203002 hasta 13.773,938 euros en 1812205002 [RC2024]. La media municipal no describe por sí sola esa distribución. Son diferencias descriptivas; no se les atribuye significación estadística ni se deduce la distribución de la enfermedad. La sección 1812203002 tiene la menor renta por persona. El 58,811 publicado para su indicador bajo el umbral es una cota por secreto estadístico, no un porcentaje exacto; se conserva la nota literal de la fuente. Las secciones no equivalen a barrios: la correspondencia con Alfaguara y Alcazaba del perfil anterior es una aproximación que requiere comprobar límites y direcciones."
+    "C1. Los registros sanitarios sitúan una carga cardiometabólica superior a las referencias provincial y andaluza aportadas.",
+    "C2. La información local de hábitos necesita actualización para interpretar las preocupaciones repetidas por la comunidad.",
+    "C3. La renta difiere entre secciones censales, sin datos de salud que permitan localizar enfermedad en ellas.",
+    "C4. El aumento de la edad media y los hogares unipersonales hacen pertinente conocer los cuidados y apoyos.",
+    "C5. El antecedente de mortalidad por suicidio exige una actualización separada de los registros de ansiedad.",
+    "C6. Las notificaciones de infecciones de transmisión sexual y la escasa información comunitaria requieren una lectura actualizada.",
+    "C7. Los resultados preventivos difieren según programa, fase y comparador.",
+    "C8. El inventario validado y el catálogo histórico muestran capacidades distintas que deben contrastarse con las necesidades actuales.",
+    "C9. El proceso acumula diagnósticos y participación; el nuevo ciclo necesita acuerdos de continuidad."
   ],
   "results": [
     {
@@ -2177,7 +2177,7 @@
       "note": "Dato agregado de sección; no es renta individual, de vivienda ni de calle."
     }
   ],
-  "profilePdfSha256": "7672f02530d6bf329e133b515b0081ad1edbb2602af1bf8cdc4241fe6a274076",
+  "profilePdfSha256": "8ba16a55845b1041d127966644a255db2d6123deea54da91f9a4ec86b299b12d",
   "surveyComparison": {
     "schema": "loja-esde-comparison/v1",
     "date": "2026-11-12",
@@ -2276,8 +2276,8 @@
         "loja": null
       }
     ],
-    "profileTitle": "Perfil de Salud Local de Loja · revisión de renta censal · 6/11/2026",
-    "profileSha256": "592269db904f58731b08d2d5f747901928bc4c16b6e747ee3c869350c9717adb",
+    "profileTitle": "Perfil de Salud Local de Loja · revisión consolidada 0.4-C1 · 13/11/2026",
+    "profileSha256": "02a48b516b034692cab36f890f845a2913c9b0af9566a8e541f04f4f3af79560",
     "notes": [
       "España y Andalucía proceden de la misma tabla y edición, ambos sexos.",
       "La ESdE publica estimaciones nacionales y autonómicas. No se atribuye una estimación provincial a Granada.",
@@ -2285,5 +2285,70 @@
       "Los datos de conductas de Loja de 2012–2013 se conservan como antecedentes. No se calcula una evolución frente a la ESdE 2025.",
       "Las diferencias se describen sin declarar significación estadística."
     ]
-  }
+  },
+  "recommendations": [
+    {
+      "id": "R1",
+      "title": "R1. Obtener una serie municipal comparable de la carga cardiometabólica registrada, con sus periodos y referencias publicados.",
+      "rationale": "Conocer · Deriva de C1"
+    },
+    {
+      "id": "R2",
+      "title": "R2. Actualizar el conocimiento local de alimentación, actividad física y tabaco con un diseño que explicite población, selección y comparabilidad con el Panel de 2013.",
+      "rationale": "Conocer · Deriva de C1, C2"
+    },
+    {
+      "id": "R3",
+      "title": "R3. Contrastar la lectura conjunta de carga cardiometabólica y preocupaciones sobre hábitos, y documentar el sustento de las relaciones antes de formular una orientación de Abordar.",
+      "rationale": "Contrastar · Deriva de C1, C2"
+    },
+    {
+      "id": "R4",
+      "title": "R4. Reunir los datos sanitarios y demográficos disponibles a escala compatible con las secciones de renta, comprobando su correspondencia territorial sin equipararlas a barrios.",
+      "rationale": "Conocer · Deriva de C3"
+    },
+    {
+      "id": "R5",
+      "title": "R5. Contrastar con residentes y profesionales qué necesidades, capacidades y barreras se reconocen en las zonas del municipio, sin atribuirles datos de otra escala.",
+      "rationale": "Contrastar · Deriva de C3"
+    },
+    {
+      "id": "R6",
+      "title": "R6. Reunir información actual de dependencia, cuidados, apoyos y personas mayores que viven solas.",
+      "rationale": "Conocer · Deriva de C4"
+    },
+    {
+      "id": "R7",
+      "title": "R7. Obtener la actualización oficial de mortalidad por suicidio y declarar el ámbito y periodo disponibles.",
+      "rationale": "Conocer · Deriva de C5"
+    },
+    {
+      "id": "R8",
+      "title": "R8. Contrastar las notificaciones de infecciones de transmisión sexual y las necesidades y recursos de salud sexual con el equipo sanitario y la comunidad.",
+      "rationale": "Contrastar · Deriva de C6"
+    },
+    {
+      "id": "R9",
+      "title": "R9. Aclarar los circuitos y la población de referencia de la invitación al cribado de mama, manteniendo separada la participación entre citadas.",
+      "rationale": "Conocer · Deriva de C7"
+    },
+    {
+      "id": "R10",
+      "title": "R10. Contrastar qué recursos vigentes se reconocen como activos y cómo se accede a ellos, conservando separados catálogo histórico e inventario validado.",
+      "rationale": "Contrastar · Deriva de C8"
+    },
+    {
+      "id": "R11",
+      "title": "R11. Revisar con el Grupo Motor la vigencia de la priorización de 2022 y qué nuevas voces y cuestiones debe incorporar el ciclo actual.",
+      "rationale": "Contrastar · Deriva de C9"
+    },
+    {
+      "id": "R12",
+      "title": "R12. Contrastar las barreras económicas y de acceso a prevención, cuidados y activos con residentes y profesionales, sin deducirlas exclusivamente de la renta censal.",
+      "rationale": "Contrastar · Deriva de C3, C8"
+    }
+  ],
+  "profileJsonPath": "../materiales/perfiles-2026/loja/Loja_PSL_v0_4_C1_2026-11-13.json",
+  "profilePdfPath": "../materiales/perfiles-2026/loja/Loja_PSL_v0_4_C1_2026-11-13.pdf",
+  "previousProfileSha256": "592269db904f58731b08d2d5f747901928bc4c16b6e747ee3c869350c9717adb"
 }

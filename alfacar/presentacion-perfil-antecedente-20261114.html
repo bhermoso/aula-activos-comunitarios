@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#173d35">
+<meta name="description" content="Presentación del Perfil de Salud Local de Alfacar para el taller de impulso del II Plan Local de Salud (19 de noviembre de 2026).">
+<title>Alfacar · Perfil de Salud Local · Presentación</title>
+<style>
+:root{--deep:#173d35;--mid:#25694f;--sage:#e8f0e6;--sand:#f7f0e3;--line:#c9d9cd;--ink:#183a30;--muted:#466459;--accent:#b7791f}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#0f1c18;color:var(--ink);font:16px/1.4 system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+#deck{display:flex;flex-direction:column;height:100dvh}
+.bar{flex:none;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:8px 16px;background:#173d35;color:#fff}
+.bar a{color:#d6ecdc;text-decoration:none;font-size:13px}.bar .brand{font-weight:800;font-size:13px;letter-spacing:.05em}
+.stage{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;overflow:hidden;padding:8px}
+.frame{width:1600px;height:900px;transform-origin:center center;flex:none}
+.slide{display:none;width:1600px;height:900px;background:#fbfaf6;border-radius:6px;padding:64px 86px 90px;position:relative;overflow:hidden;flex-direction:column;gap:22px}
+.slide.on{display:flex}
+.slide .meta{font:800 15px system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--mid)}
+.slide h1{font:600 76px/1.04 Georgia,serif;margin:0;color:var(--deep);letter-spacing:-.01em}
+.slide h2{font:600 52px/1.1 Georgia,serif;margin:0;color:var(--deep);text-wrap:balance}
+.lead{font-size:28px;line-height:1.38;color:#2f5146;margin:0;max-width:1350px}
+.src{position:absolute;left:86px;right:86px;bottom:24px;font-size:15px;color:#5c756c;border-top:1px solid var(--line);padding-top:8px}
+.grid{display:grid;gap:20px;flex:none;align-content:start}
+.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px 26px}
+.card h3{font:600 30px/1.2 Georgia,serif;margin:0 0 8px;color:var(--deep)}
+.card p{font-size:23px;line-height:1.4;margin:0;color:#35564b}
+.card.soft{background:var(--sage)}.card.sand{background:var(--sand)}
+.big{font:700 72px/1 Georgia,serif;color:var(--mid);display:block;margin-bottom:6px}
+.big small{font-size:32px}
+table{border-collapse:collapse;width:100%;font-size:25px;background:#fff;border-radius:14px;overflow:hidden}
+th,td{padding:13px 20px;border-bottom:1px solid var(--line);text-align:left}
+th{background:var(--deep);color:#fff;font-weight:700;font-size:21px;letter-spacing:.02em}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f5146}ul.clean li{margin:6px 0}
+.cover{background:linear-gradient(135deg,#173d35 0%,#25694f 100%);color:#fff;justify-content:center}
+.cover h1{color:#fff;font-size:88px}.cover .lead{color:#dcefe2;font-size:32px}.cover .meta{color:#bfe3c9}
+.cover .src{color:#bfd9c7;border-color:#3f7a62}
+.timeline{display:grid;grid-template-columns:repeat(7,1fr);gap:12px;flex:1;align-content:center}
+.tl{border-top:6px solid var(--mid);padding-top:14px}.tl b{font:700 32px Georgia,serif;color:var(--deep);display:block}.tl span{font-size:24px;color:#35564b;line-height:1.35;display:block;margin-top:6px}
+.tl.now{border-color:var(--accent)}
+.bars{display:flex;flex-direction:column;gap:10px}
+.brow{display:grid;grid-template-columns:420px 1fr 100px;align-items:center;gap:16px;font-size:23px}
+.brow .track{height:30px;background:#e4ece5;border-radius:6px;overflow:hidden}.brow .fill{height:100%;background:var(--mid)}
+.brow.top .fill{background:var(--deep)}.brow .pct{font-weight:800;text-align:right;font-variant-numeric:tabular-nums}
+.umbrella{display:grid;grid-template-columns:1fr;gap:12px;flex:none}.umbrella .card{padding:15px 20px}.umbrella .card h3{font-size:26px}.umbrella .card p{font-size:20px}
+.umb-head{background:var(--deep);color:#fff;border-radius:18px;padding:22px 30px;font:600 40px Georgia,serif;text-align:center}
+.umb-head small{display:block;font:400 22px system-ui;color:#cfe8d6;margin-top:6px}
+.pill{display:inline-block;font:800 14px system-ui;letter-spacing:.08em;text-transform:uppercase;border-radius:100px;padding:5px 12px;background:#e9efe8;color:var(--mid);margin-bottom:10px}
+.pill.alt{background:#f6e7cf;color:#8a5a12}
+.chain{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;align-items:stretch;flex:none}
+.chain div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px;position:relative;font-size:22px;color:#35564b}
+.chain div b{display:block;font:600 30px Georgia,serif;color:var(--deep);margin-bottom:8px}
+.chain div:not(:last-child)::after{content:"→";position:absolute;right:-25px;top:50%;transform:translateY(-50%);font:700 36px system-ui;color:var(--mid);z-index:2}
+.chain .here{background:var(--sage);border-color:var(--mid)}
+.cta{display:inline-block;background:var(--mid);color:#fff;text-decoration:none;font-weight:800;font-size:24px;border-radius:12px;padding:16px 26px}
+.foot{flex:none;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:7px 14px;background:#173d35;color:#fff}
+.foot button{appearance:none;border:1px solid #79a38b;background:#25694f;color:#fff;border-radius:8px;padding:8px 13px;font-weight:750;font-size:13px;cursor:pointer}
+.foot button:disabled{opacity:.35;cursor:default}.foot button:focus-visible{outline:3px solid #edb957}
+#counter{min-width:90px;text-align:center;font-weight:750;font-size:14px}.hint{font-size:12px;color:#bfd4c5}
+#deck:fullscreen .bar{display:none}
+@media(max-width:650px){.hint,.bar .sub{display:none}}
+@media print{
+ @page{size:1600px 900px;margin:0}
+ html,body{background:#fff;height:auto}.bar,.foot{display:none}#deck{display:block;height:auto}
+ .stage{display:block;padding:0;overflow:visible}.frame{transform:none!important;width:auto;height:auto}
+ .slide{display:flex!important;break-after:page;border-radius:0}
+}
+</style>
+</head>
+<body><aside style="padding:12px;background:#fff3cc;color:#243b39;position:relative;z-index:1000">Antecedente conservado. <a href="presentacion-perfil.html">Abrir la preparación revisada del próximo taller</a>.</aside>
+<div id="deck">
+<div class="bar"><span class="brand">ALFACAR · PERFIL DE SALUD LOCAL · TALLER DE IMPULSO</span><a href="perfil/">Perfil completo ↗</a><a href="index.html#perfil">← Taller de Alfacar</a></div>
+<div class="stage" id="stage"><div class="frame" id="frame">
+
+<section class="slide cover">
+<span class="meta">Alfacar · Taller de impulso del II Plan Local de Salud · 19 de noviembre de 2026</span>
+<h1>Lo que sabemos<br>de la salud de Alfacar</h1>
+<p class="lead">Diez años de acción local en salud, los principales resultados del Perfil de Salud Local y tres líneas para priorizar.</p>
+<p class="src">Perfil de Salud Local de Alfacar · versión 0.5, de 10 de noviembre de 2026, pendiente de validación técnica</p>
+</section>
+<section class="slide">
+<span class="meta">01 · De dónde venimos</span>
+<h2>Diez años de proceso</h2>
+<div class="timeline">
+<div class="tl"><b>Jun. 2016</b><span>Acuerdo de colaboración Ayuntamiento–Consejería para la acción local en salud</span></div>
+<div class="tl"><b>Oct. 2016</b><span>Taller de la Red Local de Acción en Salud</span></div>
+<div class="tl"><b>2017</b><span>Cuestionario de identificación: 195 respuestas, 80 de menores de 18 años</span></div>
+<div class="tl"><b>Jul. 2018</b><span>El Pleno aprueba por unanimidad el I Plan Local de Salud 2018–2020</span></div>
+<div class="tl"><b>2018–2021</b><span>34 acciones; pausa en 2020 por la pandemia; evaluación en 2021</span></div>
+<div class="tl"><b>2022–2023</b><span>Nuevo cuestionario y plan de acción del II Plan, con seis líneas</span></div>
+<div class="tl now"><b>2026</b><span>Priorización ciudadana (241 papeletas) y Perfil de Salud Local</span></div>
+</div>
+<p class="src">Fuentes: acuerdo de colaboración (15/06/2016); programa del taller (05/10/2016); respuestas al cuestionario (23/03–22/05/2017); certificado del Pleno (26/07/2018); evaluación del I Plan (2021); actas del Grupo Motor (2022); plan de acción del II Plan (2023). No consta la aprobación del II Plan por el Pleno ni los resultados del cuestionario de 2022.</p>
+</section>
+<section class="slide">
+<span class="meta">02 · Alfacar hoy</span>
+<h2>Un municipio estable que envejece</h2>
+<div class="grid g4">
+<div class="card"><span class="big">5.840</span><p>habitantes en 2025.</p></div>
+<div class="card"><span class="big">+5,4<small> %</small></span><p>de población entre 2014 y 2024.</p></div>
+<div class="card"><span class="big">42,8</span><p>años de edad media en 2024.</p></div>
+<div class="card"><span class="big">17,0<small> %</small></span><p>tiene 65 años o más (2024).</p></div>
+</div>
+<div class="grid g2">
+<div class="card soft"><h3>Dos núcleos</h3><p>Alfacar y Fuente Grande reúnen prácticamente la mitad de la población cada uno. En 2024: 33 nacimientos y 45 defunciones; 286 inmigraciones y 265 emigraciones.</p></div>
+<div class="card sand"><h3>Renta por sección censal</h3><p>La renta neta media por persona va de 11.847 € en la sección 01002 a 13.866 € en la 01004 (2024). Solo la 01002 queda por debajo de la mediana de las secciones de la provincia.</p></div>
+</div>
+<p class="src">Fuentes: Informe sobre la situación de salud en el municipio de Alfacar (septiembre de 2026), tabla 1 e introducción; INE, Atlas de Distribución de Renta de los Hogares, tabla 31025 (2024).</p>
+</section>
+<section class="slide">
+<span class="meta">03 · Informe de salud · 2025</span>
+<h2>Enfermedad crónica: por debajo de la provincia, salvo el asma</h2>
+<table>
+<thead><tr><th>Casos por 10.000 habitantes</th><th class="n">Alfacar</th><th class="n">Granada</th><th class="n">Andalucía</th></tr></thead>
+<tbody>
+<tr style="background:#f7f0e3"><td><b>Asma</b></td><td class="n"><b>1.589,56</b></td><td class="n">1.448,67</td><td class="n">1.187,09</td></tr>
+<tr><td>Dislipemia</td><td class="n">1.762,91</td><td class="n">2.718,19</td><td class="n">2.569,94</td></tr>
+<tr><td>Hipertensión</td><td class="n">1.754,74</td><td class="n">2.285,76</td><td class="n">2.327,73</td></tr>
+<tr><td>Diabetes</td><td class="n">745,21</td><td class="n">906,66</td><td class="n">966,37</td></tr>
+</tbody></table>
+<p class="src">Fuente: Informe sobre la situación de salud en el municipio de Alfacar (septiembre de 2026), tabla 3, tal como lo publica Epidemiología del Distrito Sanitario Granada-Metropolitano. La figura 1 del Informe da para Granada valores distintos de los de esta tabla.</p>
+</section>
+<section class="slide">
+<span class="meta">04 · Mujeres y hombres</span>
+<h2>La ansiedad y el hipotiroidismo registrados pesan más en las mujeres</h2>
+<table>
+<thead><tr><th>Diagnósticos registrados en 2025</th><th class="n">Mujeres</th><th class="n">Hombres</th></tr></thead>
+<tbody>
+<tr style="background:#f7f0e3"><td><b>Trastorno de ansiedad</b></td><td class="n"><b>224</b></td><td class="n">107</td></tr>
+<tr style="background:#f7f0e3"><td><b>Hipotiroidismo</b></td><td class="n"><b>210</b></td><td class="n">39</td></tr>
+<tr><td>Obesidad</td><td class="n">138</td><td class="n">103</td></tr>
+<tr><td>Asma</td><td class="n">285</td><td class="n">336</td></tr>
+<tr><td>Diabetes</td><td class="n">132</td><td class="n">161</td></tr>
+<tr><td>Dependencia del tabaco</td><td class="n">109</td><td class="n">146</td></tr>
+</tbody></table>
+<p class="src">Fuente: Informe de salud de Alfacar (septiembre de 2026), tabla 2. Son recuentos: el Informe no publica tasas por sexo.</p>
+</section>
+<section class="slide">
+<span class="meta">05 · Mortalidad, cáncer y prevención</span>
+<h2>Lo que dicen los registros</h2>
+<div class="grid g3">
+<div class="card"><span class="big">45</span><h3>Defunciones en 2024</h3><p>14 por enfermedades circulatorias (31,11 %) y 13 por tumores (28,89 %).</p></div>
+<div class="card"><span class="big">680</span><h3>Incidencia de cáncer</h3><p>por 100.000 habitantes, tasa estandarizada de 2016–2020, frente a 906 en la provincia.</p></div>
+<div class="card"><span class="big">42,60<small> %</small></span><h3>Cribado de colon</h3><p>de participación, frente al 33,05 % de Granada. En cérvix, 35,10 % frente al 12,59 %.</p></div>
+</div>
+<div class="card sand"><p>El cribado de mama <b>citó en 2025 al 11,85 % de las mujeres elegibles</b>, frente al 28,32 % de Granada y el 67,86 % de Andalucía. Entre las citadas participó el 96,61 %. Es un dato que pide contraste.</p></div>
+<p class="src">Fuente: Informe de salud de Alfacar (septiembre de 2026), tablas 4, 7, 9, 10 y 11.</p>
+</section>
+<section class="slide">
+<span class="meta">06 · Priorización ciudadana · 2026</span>
+<h2>241 personas eligieron sus temas de salud</h2>
+<div class="bars"><div class="brow top"><span>Bienestar emocional y salud mental</span><div class="track"><div class="fill" style="width:77.6%"></div></div><span class="pct">187</span></div><div class="brow"><span>Actividad física</span><div class="track"><div class="fill" style="width:61.0%"></div></div><span class="pct">147</span></div><div class="brow"><span>Alimentación</span><div class="track"><div class="fill" style="width:53.9%"></div></div><span class="pct">130</span></div><div class="brow"><span>Violencia de género</span><div class="track"><div class="fill" style="width:44.4%"></div></div><span class="pct">107</span></div><div class="brow"><span>Sueño y descanso</span><div class="track"><div class="fill" style="width:44.0%"></div></div><span class="pct">106</span></div><div class="brow"><span>Tabaco, vapeadores, alcohol y otras drogas</span><div class="track"><div class="fill" style="width:43.2%"></div></div><span class="pct">104</span></div><div class="brow"><span>Uso de pantallas y redes sociales</span><div class="track"><div class="fill" style="width:43.2%"></div></div><span class="pct">104</span></div><div class="brow"><span>Sexualidad y salud</span><div class="track"><div class="fill" style="width:39.8%"></div></div><span class="pct">96</span></div><div class="brow"><span>Medioambiente y municipio</span><div class="track"><div class="fill" style="width:33.2%"></div></div><span class="pct">80</span></div><div class="brow"><span>Accidentes en el hogar y la vía pública</span><div class="track"><div class="fill" style="width:25.3%"></div></div><span class="pct">61</span></div></div>
+<p class="src">Votos de 241 papeletas completas (27/03–13/05/2026); cada persona podía marcar hasta cinco temas. Fuente: votación popular de salud de Alfacar, exportación de REDCap de 03/11/2026.</p>
+</section>
+<section class="slide">
+<span class="meta">07 · Quién votó</span>
+<h2>Una consulta amplia que no llegó a la juventud</h2>
+<div class="grid g3">
+<div class="card soft"><span class="big">26–99</span><p>años de edad. Nadie menor de 26; solo 4 personas tenían menos de 30.</p></div>
+<div class="card soft"><span class="big">143</span><p>de las 197 papeletas con sexo clasificado son de mujeres.</p></div>
+<div class="card soft"><span class="big">1.º</span><p>El bienestar emocional es el primer tema en todos los grupos de edad y en mujeres y hombres.</p></div>
+</div>
+<div class="card sand"><p>La papeleta ofrecía diez temas y no incluía el desempleo, las barreras arquitectónicas ni la soledad, que figuraron en la identificación de 2017.</p></div>
+<p class="src">Fuente: votación popular de salud de Alfacar (REDCap, 03/11/2026); sexo con la codificación de COMPÁS (1 = hombre, 2 = mujer). Cuestionario de identificación de 2017.</p>
+</section>
+<section class="slide">
+<span class="meta">08 · Lo que atraviesa el proceso</span>
+<h2>Bienestar emocional y salud mental</h2>
+<div class="chain">
+<div><b>2017</b>Los problemas de salud emocional y mental reciben 15 menciones en la identificación</div>
+<div><b>2023</b>El bienestar emocional es una de las seis líneas del plan de acción del II Plan</div>
+<div class="here"><b>2026</b>Primer tema de la priorización ciudadana: 187 de 241 votos</div>
+<div><b>Hoy</b>331 diagnósticos de ansiedad registrados; 6 activos declaran esta temática</div>
+</div>
+<div class="card"><p>Las fuentes miden cosas distintas: la papeleta recoge preferencias de quien vota; los diagnósticos, a quien consulta; los activos, lo que el municipio ofrece. Que coincidan refuerza la lectura, pero no es una medida de prevalencia.</p></div>
+<p class="src">Fuentes: relación de problemas priorizados (05/06/2017); plan de acción del II Plan (2023); votación popular de salud (2026); Informe de salud, tabla 2; Localiza Salud.</p>
+</section>
+<section class="slide">
+<span class="meta">09 · Activos para la salud</span>
+<h2>Once activos validados</h2>
+<div class="grid g3">
+<div class="card"><span class="big">11</span><p>recursos de Alfacar en Localiza Salud, todos validados como activos (10/11/2026).</p></div>
+<div class="card"><span class="big">6 · 5</span><p>se dirigen a la población general · incluyen a los mayores de 64 años.</p></div>
+<div class="card"><span class="big">0</span><p>nombran a la infancia o la adolescencia entre sus destinatarios.</p></div>
+</div>
+<div class="card soft"><p>Asociación de Mujeres Alfujar · Carril bici · Centro de día · Centro de Servicios Sociales Comunitarios · Centro ocupacional La Boronda · Ciudad deportiva · Complejo de las Encinas · Grupo de afrontamiento de la ansiedad (GRAFA) · Grupo socioeducativo del centro de salud (GRUSE) · Parque de ejercicio para mayores · Punto Vuela.</p></div>
+<p class="src">Fuente: Localiza Salud, recursos del municipio de Alfacar (tabla de 10/11/2026).</p>
+</section>
+<section class="slide">
+<span class="meta">10 · Lo que no sabemos</span>
+<h2>Preguntas abiertas</h2>
+<ul class="clean">
+<li>Cuál es la población de referencia de las tasas y qué valores de Granada son los correctos.</li>
+<li>Por qué el cribado de mama citó en 2025 al 11,85 % de las mujeres elegibles.</li>
+<li>Qué priorizan la adolescencia y la juventud, que no votaron en 2026.</li>
+<li>Qué resultó del cuestionario de 2022 y si el II Plan se aprobó.</li>
+<li>Qué sección censal corresponde a Fuente Grande, y cómo son el empleo y la renta declarada del municipio.</li>
+</ul>
+<p class="src">Perfil de Salud Local de Alfacar, apartado 4. Cada pregunta indica en el Perfil dónde puede resolverse.</p>
+</section>
+<section class="slide">
+<span class="meta">11 · Recomendaciones del Perfil</span>
+<h2>Conocer, contrastar, abordar</h2>
+<div class="grid g3">
+<div class="card"><span class="pill">Conocer</span><p>Datos de referencia de las tasas y tasas por sexo; resultados de 2022 y aprobación del II Plan; mapa de las secciones censales.</p></div>
+<div class="card"><span class="pill alt">Contrastar</span><p>La citación al cribado de mama; el asma, las infecciones de transmisión sexual y el cáncer de piel y colorrectal; la priorización con adolescentes y jóvenes.</p></div>
+<div class="card soft"><span class="pill">Abordar</span><p>El bienestar emocional y la salud mental como área del Plan, con atención a las mujeres; el mapeo de activos según las líneas elegidas y para la infancia.</p></div>
+</div>
+<p class="src">El Perfil concluye y recomienda; las prioridades y las actuaciones las decide el Grupo Motor en el Plan de Acción.</p>
+</section>
+<section class="slide">
+<span class="meta">12 · Para priorizar hoy</span>
+<h2>Tres líneas con objetivos e indicadores</h2>
+<div class="grid g3">
+<div class="card"><h3>Envejecimiento saludable</h3><p>18 objetivos en cuatro bloques: edadismo, soledad no deseada, autonomía y participación.</p></div>
+<div class="card"><h3>Prevención y abordaje de las adicciones</h3><p>12 objetivos: familias, ocio protector, percepción de riesgo, acceso de menores, detección y coordinación.</p></div>
+<div class="card soft"><h3>Bienestar emocional y salud mental</h3><p>17 objetivos: bienestar y desigualdades, vínculos, competencias, entornos y activos, detección temprana, conducta suicida y estigma.</p></div>
+</div>
+<div class="card sand"><p>Pregunta para el taller: <b>¿por qué líneas empieza el II Plan Local de Salud de Alfacar?</b></p></div>
+<p class="src">Catálogo del Plan de Acción de COMPÁS. Cada objetivo e indicador declara su procedencia (EPVSA, ESCA, Plan de mayores, PESMA-A y otras estrategias). El Grupo Motor decide cuáles entran y cómo se adaptan.</p>
+</section>
+<section class="slide">
+<span class="meta">13 · Próximos pasos</span>
+<h2>Del Perfil al II Plan Local de Salud</h2>
+<div class="chain">
+<div class="here"><b>1 · Validar</b>El Perfil de Salud Local y sus recomendaciones</div>
+<div><b>2 · Priorizar</b>Líneas estratégicas por el Grupo Motor</div>
+<div><b>3 · Mapear</b>Activos vinculados a las líneas elegidas</div>
+<div><b>4 · Planificar</b>Plan de Acción y agendas anuales</div>
+</div>
+<p class="src">Secuencia de trabajo propuesta. Las fechas y responsables los acuerda el Grupo Motor.</p>
+</section>
+<section class="slide cover">
+<span class="meta">Alfacar · Perfil de Salud Local</span>
+<h1>Gracias</h1>
+<p class="lead">Diez años de trabajo en red, los datos del Distrito y la voz de 241 vecinas y vecinos. Ahora toca decidir por dónde empezar.</p>
+<div style="margin-top:26px;padding:25px 30px;border-left:5px solid #bfe3c9;background:rgba(255,255,255,.09);border-radius:8px;max-width:1000px;color:#fff">
+<p style="margin:0 0 10px;font-size:31px;font-weight:800;letter-spacing:.025em">B HERMOSO</p>
+<p style="margin:0 0 5px;font-size:23px">Técnico de educación para la salud y participación comunitaria</p>
+<p style="margin:0 0 10px;font-size:23px">Distrito Sanitario Granada-Metropolitano</p>
+<p style="margin:0;font-size:21px"><a href="mailto:blasr.hermoso.sspa@juntadeandalucia.es" style="color:#dcefe2">blasr.hermoso.sspa@juntadeandalucia.es</a> · <a href="tel:+34608176892" style="color:#dcefe2">608 176 892</a></p>
+</div>
+<p class="src">Fuentes principales: Informe de salud de Alfacar (2026); votación popular de salud (2026); INE, Atlas de Distribución de Renta (2024); Localiza Salud; Perfil de Salud Local de Alfacar, versión 0.5.</p>
+</section>
+</div></div>
+<div class="foot"><div><button id="prev" type="button">← Anterior</button> <span id="counter">1 / 1</span> <button id="next" type="button">Siguiente →</button></div><span class="hint">Flechas ← → · Espacio · Inicio/Fin · F pantalla completa</span><button id="fs" type="button">⛶ Presentar</button></div>
+</div>
+<script>
+(function(){
+'use strict';
+const slides=[...document.querySelectorAll('.slide')];let i=0;
+const counter=document.getElementById('counter'),prev=document.getElementById('prev'),next=document.getElementById('next');
+function fromHash(){const n=parseInt((location.hash||'').replace(/\D/g,''),10);return n>=1&&n<=slides.length?n-1:0}
+function show(n){i=Math.max(0,Math.min(slides.length-1,n));slides.forEach((s,k)=>s.classList.toggle('on',k===i));counter.textContent=(i+1)+' / '+slides.length;prev.disabled=i===0;next.disabled=i===slides.length-1;try{history.replaceState(null,'','#'+(i+1))}catch(e){}}
+function fit(){const st=document.getElementById('stage'),fr=document.getElementById('frame');const s=Math.min(st.clientWidth/1600,st.clientHeight/900);fr.style.transform='scale('+s+')';fr.style.margin=((st.clientHeight-900*s)/2>0?0:0)+'px'}
+prev.addEventListener('click',()=>show(i-1));next.addEventListener('click',()=>show(i+1));
+document.getElementById('fs').addEventListener('click',()=>{const d=document.getElementById('deck');if(!document.fullscreenElement&&d.requestFullscreen)d.requestFullscreen().catch(()=>{});else if(document.exitFullscreen)document.exitFullscreen().catch(()=>{})});
+document.addEventListener('keydown',e=>{if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();show(i+1)}else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();show(i-1)}else if(e.key==='Home')show(0);else if(e.key==='End')show(slides.length-1);else if(e.key==='f'||e.key==='F')document.getElementById('fs').click()});
+window.addEventListener('resize',fit);document.addEventListener('fullscreenchange',()=>setTimeout(fit,50));
+show(fromHash());fit();
+})();
+</script>
+</body>
+</html>

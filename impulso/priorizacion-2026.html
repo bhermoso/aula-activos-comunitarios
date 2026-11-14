@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="../assets/loja-navegacion.css?v=20261018d">
 <link rel="stylesheet" href="../assets/loja-priorizacion.css?v=20261112b">
 <script src="firebase-config.js"></script>
-<script defer src="../assets/loja-priorizacion.js?v=20261112e"></script>
+<script defer src="../assets/loja-priorizacion.js?v=20261114a"></script>
 </head>
 <body>
 <nav class="loja-global-nav" aria-label="Navegación global de Loja"><a class="loja-nav-brand" href="../index.html">AULA · SALUD COMUNITARIA</a><div class="loja-nav-links"><a href="index.html">Inicio Loja</a><a href="taller-impulso.html">Taller de impulso</a><a href="priorizacion-2026.html" aria-current="page">Sesión del 27 de noviembre</a><a href="guia-mapeo.html">Guía de activos</a></div></nav>
@@ -21,7 +21,7 @@
 <main>
 <nav class="steps" aria-label="Recorrido de la sesión"><a href="#agenda">Programa</a><a href="#historia">1. Antecedentes</a><a href="#perfil">2. Perfil</a><a href="#hoja">3. Decisiones</a><a href="#cierre">4. Cierre</a></nav>
 <p id="load-state" role="status">Cargando la documentación de trabajo…</p>
-<section id="cloud-access"><h2>Conexión</h2><div class="actions"><button id="sign-in" type="button">Conectar con Google</button><button id="save-firebase" type="button" disabled>Guardar</button><button id="load-firebase" class="secondary" type="button" disabled>Recuperar</button><button id="sign-out" class="secondary" type="button" hidden>Cerrar sesión</button></div><p id="cloud-status" role="status"></p></section>
+<section id="cloud-access"><h2>Conexión</h2><button id="download-previous-session" type="button" hidden>Descargar la sesión anterior para cotejar</button><div class="actions"><button id="sign-in" type="button">Conectar con Google</button><button id="save-firebase" type="button" disabled>Guardar</button><button id="load-firebase" class="secondary" type="button" disabled>Recuperar</button><button id="sign-out" class="secondary" type="button" hidden>Cerrar sesión</button></div><p id="cloud-status" role="status"></p></section>
 <section id="agenda">
 <p class="eyebrow">10:00–11:30</p><h2>Una sesión, cinco momentos</h2>
 <ol class="agenda">
@@ -42,8 +42,8 @@
 </section>
 <section id="perfil">
 <p class="eyebrow">02 · Evidencia para deliberar</p><h2>Qué aporta el perfil de Loja</h2>
-<p>La documentación de trabajo incorpora el Informe de Salud de 2026, antecedentes participativos, cinco activos con validación declarada y renta de 2024 en 17 secciones censales. Se utiliza la revisión externa preparada el 6 de noviembre y corregida el 11 de noviembre para su importación.</p>
-<div class="downloads"><a href="materiales/perfil-2026/Loja_PSL_renta_2024.pdf" target="_blank" rel="noopener">Leer el perfil completo · PDF</a><a href="materiales/perfil-2026/Loja_PSL_renta_2024.json" download>Descargar el paquete para COMPÁS · JSON</a><a href="presentacion-perfil.html">Abrir presentación para proyectar</a></div>
+<p>La documentación de trabajo incorpora el Informe de Salud de 2026, antecedentes participativos, cinco activos con validación declarada y renta de 2024 en 17 secciones censales. Se toma como referencia la revisión consolidada 0.4-C1 de 13/11/2026, vigente y en revisión en el corte comprobado de COMPÁS. La comparativa ESdE pertenece a esta sesión y no modifica el Perfil.</p>
+<div class="downloads"><a href="../materiales/perfiles-2026/loja/Loja_PSL_v0_4_C1_2026-11-13.pdf" target="_blank" rel="noopener">Leer el perfil completo · PDF</a><a href="../materiales/perfiles-2026/loja/Loja_PSL_v0_4_C1_2026-11-13.json" download>Descargar el paquete para COMPÁS · JSON</a><a href="presentacion-perfil.html">Abrir presentación para proyectar</a></div>
 <div class="evidence-grid">
 <article><p class="tag">Enfermedad registrada · 2025</p><h3>Salud cardiometabólica</h3><p>Dislipemia 3.081,79, hipertensión 2.600,93 y diabetes 1.013,25 diagnósticos por 10.000 habitantes.</p><p class="source">Informe de Salud de Loja 2026, tabla 3. Tasas publicadas por la fuente.</p><p class="question">¿Qué barreras encuentran las personas para alimentarse, moverse y cuidar su salud?</p></article>
 <article><p class="tag">Prevención · 2025</p><h3>Acceso y participación</h3><p>Participación en colon 35,77 % y cérvix 33,59 %. Mama, invitación 56,94 % y participación entre citadas 73,47 %.</p><p class="source">Informe de Salud, tablas 9–11. Cada porcentaje conserva su población de referencia.</p><p class="question">¿A quiénes cuesta llegar y qué podemos mejorar desde el municipio?</p></article>
@@ -68,13 +68,13 @@
 <section id="cierre">
 <p class="eyebrow">04 · 11:15–11:30</p><h2>Leer, contrastar y dejar constancia</h2>
 <label>Acuerdos de la reunión y cuestiones pendientes<textarea id="closing-notes" rows="4" maxlength="4000" placeholder="Recoger las prioridades acordadas, discrepancias, consultas pendientes y quién devolverá los resultados."></textarea></label>
-<p id="draft-status" role="status">El guardado de la sesión se realiza con «Guardar todo en Firebase». La descarga permite obtener una copia de trabajo.</p>
+<p id="draft-status" role="status">El guardado de la sesión se realiza con «Guardar». La descarga permite obtener una copia de trabajo.</p>
 <div class="actions"><button id="export-session" type="button">Descargar hoja de trabajo · JSON</button><button id="print-session" class="secondary" type="button">Imprimir acuerdos</button><label class="file-button">Recuperar una hoja guardada<input id="import-session" type="file" accept="application/json,.json"></label></div>
 <p id="transfer-status" role="status"></p>
 <p><a href="matriz-planificacion-mapeo.html">Siguiente fase · preparar el mapeo por línea</a> · <a href="SESION_PRIORIZACION_2026.md">Guion de facilitación</a></p>
 </section>
 </main>
-<footer>Aula de Salud Comunitaria Basada en Activos · Loja · Preparación actualizada el 12 de noviembre de 2026. La hoja exportada requiere revisión y formalización por el Grupo Motor.</footer>
+<footer>Aula de Salud Comunitaria Basada en Activos · Loja · Preparación actualizada el 14 de noviembre de 2026. La hoja exportada requiere revisión y formalización por el Grupo Motor.</footer>
 <template id="decision-template">
 <article class="decision-card"><h3 class="card-title"></h3>
 <div class="form-grid">
