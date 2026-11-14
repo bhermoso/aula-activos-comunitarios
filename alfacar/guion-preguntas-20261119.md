@@ -9,10 +9,9 @@ Elegir según el diálogo; no es necesario agotar las preguntas. Pedir ejemplos 
 1. Desde su perspectiva como alcaldesa, ¿cómo describiría hoy la salud y el bienestar de quienes viven en Alfacar?
 2. ¿Qué capacidades del municipio y qué aspectos de la vida local considera más importantes para mejorar ese bienestar?
 
-## Elisa González Sánchez · Agente sociocultural del Ayuntamiento
+## Presentación y moderación · Elisa González Sánchez
 
-1. Desde su trabajo sociocultural, ¿qué observa sobre cómo se relaciona, participa y se siente la gente de Alfacar?
-2. ¿Qué espacios, iniciativas o vínculos comunitarios cree que convendría cuidar o fortalecer, y por qué?
+Elisa presenta el encuentro y conduce el diálogo. No se le dirigen preguntas; utiliza las siguientes como apoyo para escuchar a las personas invitadas a intervenir.
 
 ## María Ángeles Granados Contreras · Coordinadora de cuidados de enfermería
 

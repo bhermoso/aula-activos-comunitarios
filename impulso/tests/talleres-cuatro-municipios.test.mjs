@@ -46,9 +46,11 @@ test('Las presentaciones mantienen fuente, navegación y frontera con la decisi�
  const atarfe=read('atarfe/presentacion-perfil.html');assert.ok(atarfe.includes('se reunieron 753'));assert.ok(!atarfe.includes('Su validación como activos está pendiente.'));
  assert.ok(atarfe.includes('No se extiende automáticamente la declaración a los añadidos'));
 });
-test('El guion ofrece dos preguntas abiertas para cada participante del taller de Alfacar',()=>{
+test('Elisa presenta y modera sin figurar entre las personas preguntadas',()=>{
  const s=read('alfacar/index.html');const guides=[...s.matchAll(/<details class="fv-slide-drawer fv-question-guide">([\s\S]*?)<\/details>/g)];
- assert.equal(guides.length,8);
+ assert.equal(guides.length,7);
+ assert.ok(guides.every(([,guide])=>!guide.includes('Elisa González Sánchez')));
+ assert.ok(s.includes('Presenta y modera')); 
  for(const [,guide] of guides){assert.equal((guide.match(/<li>/g)||[]).length,2);assert.equal((guide.match(/¿/g)||[]).length,2);}
  assert.ok(s.includes('no un cuestionario que deba agotarse'));
  assert.ok(!read('alfacar/guion-preguntas-20261119.md').includes('Ana Belén'));
