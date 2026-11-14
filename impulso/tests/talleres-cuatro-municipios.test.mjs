@@ -33,7 +33,8 @@ test('Alfacar conserva seis participantes aportados y retira la asistencia sin i
  assert.match(roster,/reparto de intervenciones de María Ángeles Granados Contreras y Araceli Moya Alcalde queda por acordar/);
  const map=s.slice(s.indexOf('class="fv-participant-map"'),s.indexOf('class="fv-open-questions"'));
  for(const name of ['Mª Fátima Gómez Abad','Elisa González Sánchez','María Ángeles Granados Contreras','Miriam Denia Milla','Juana Jiménez Cobo','Araceli Moya Alcalde','Carlos del Moral Campaña','Blas Hermoso Rico'])assert.ok(map.includes(name),'Gráfico: '+name);
- assert.equal((map.match(/class="fv-arc-person fv-arc-/g)||[]).length,5);
+ assert.equal((map.match(/class="fv-arc-person fv-arc-/g)||[]).length,6);
+ assert.match(map, /fv-arc-6[\s\S]*?Blas Hermoso Rico/);
  assert.ok(!s.includes('Enfermero escolar'));assert.ok(!s.includes('el Juana'));assert.ok(!s.includes('Milla Milla'));
 });
 test('Las presentaciones mantienen fuente, navegación y frontera con la decisión',()=>{

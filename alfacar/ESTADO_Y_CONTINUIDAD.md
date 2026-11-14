@@ -1,3 +1,7 @@
+## Composición del coloquio · corrección 14/11/2026
+
+Blas Hermoso Rico participa también en el coloquio como voz de educación para la salud y participación comunitaria. Figura dentro del semicírculo junto a las otras cinco voces, con Elisa presentando y moderando. Se conserva su intervención posterior del I al II Plan y la apertura institucional de la alcaldesa fuera del semicírculo.
+
 ## Presentación de priorización y enfoque del coloquio · 14/11/2026
 
 Incorporada una sección «Priorización 2026» con presentación integrada de seis diapositivas. Recuento desde el CSV original adjunto en la copia conservada del expediente, PriorizacinCiudadana_DATA_2026-11-03_1912.csv, SHA-256 190bde4f58d077c4aefafbb44513e4152debba5029158c4c5916e6018acf4d4d. 251 registros, 241 completos y 10 incompletos excluidos. Se publican únicamente agregados. El CSV con registros individuales permanece fuera del repositorio público. No se interpretan códigos de sexo ni el valor 99 de edad sin diccionario.
