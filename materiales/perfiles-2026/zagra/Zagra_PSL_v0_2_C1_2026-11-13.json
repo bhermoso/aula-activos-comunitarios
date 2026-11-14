@@ -1,0 +1,651 @@
+{
+  "schema": "compas-profile-package/v1",
+  "municipalityId": "zagra",
+  "title": "Perfil de Salud Local de Zagra · revisión consolidada 0.2-C1 · 13/11/2026",
+  "period": "Demografía 2024-2025; priorización 2026; evidencia sanitaria histórica 2008-2015",
+  "author": "Revisión documental asistida para revisión técnica; solicitud de Blas Ramón Hermoso Rico",
+  "summary": "La evidencia reúne una población con importante presencia de mayores, hogares unipersonales y necesidades de conocimiento sobre cuidados; registros sanitarios históricos; preferencias de 2026 por bienestar emocional, actividad física y alimentación; renta de una sola sección censal; y tres activos con validación declarada. Las fuentes convergen en preguntas para conocer y contrastar, sin probar relaciones causales locales ni asignar automáticamente líneas del Plan. La actualización sanitaria y la deliberación deben respetar la priorización registrada de 2026.",
+  "text": "PERFIL DE SALUD LOCAL · REVISIÓN CONSOLIDADA\n\nZagra en datos\n\nVersión 0.2-C1 · 13/11/2026 · Borrador técnico pendiente de validación\n\nResumen. Zagra tiene 843 habitantes en 2025, una edad media de 46,9 años y un 23,5 % de población de 65 años o más [1]. El 33,4 % de los hogares es unipersonal [3]. El expediente combina información demográfica de 2024-2025, evidencia sanitaria histórica y una priorización temática de mayo de 2026. Cada fuente conserva su fecha y alcance.\n\nDesigualdades. La única sección censal, 1891301001, registra en 2024 una renta neta media por persona de 10.656,245 euros, por hogar de 25.525,424 euros y un 37,015 % de población bajo el umbral del 60 % de la mediana [RC2024]. Esta escala no permite localizar desigualdades internas por zonas o calles; tampoco acredita que no existan.\n\nComunidad. Consta una declaración de validación de los tres activos de Localiza Salud fechada el 21/10/2026. En mayo se recibieron 158 papeletas completas de priorización [5, 7]. La validación de activos no mide cobertura ni resultados, y las preferencias de participantes no son prevalencias municipales.\n\nSalud. La diabetes (10,36 %) y la hipertensión (27,56 %) corresponden a registros de 2015 [4, p. 34]; la incidencia anual estandarizada de cáncer (277,1 casos por 100.000 y año), a 2008-2012 [4, p. 33]. El antecedente de mortalidad por suicidio necesita actualización. No se presentan estos valores como situación sanitaria medida en 2026.\n\nConserva los 30 resultados del paquete antecedente. La cartografía municipal, la pirámide comparada y el cierre del núcleo común de indicadores siguen pendientes; no se inventan datos para completarlos.\n\nQuién vive aquí\n\nZagra tiene 843 habitantes en 2025, una edad media de 46,9 años y un 23,5 % de población de 65 años o más [1]. El 33,4 % de los hogares es unipersonal [3]. El expediente combina información demográfica de 2024-2025, evidencia sanitaria histórica y una priorización temática de mayo de 2026. Cada fuente conserva su fecha y alcance.\n\nIndicador | Valor | Periodo\n\nPoblación | 843 personas | 2025\n\nEdad media | 46,9 años | 2025\n\nPoblación de 65 años o más | 23,5 % | 2025\n\nPoblación menor de 20 años | 16,8 % | 2025\n\nHogares de una sola persona | 33,4 % | 2024\n\nNacimientos | 3 personas | 2024\n\nDefunciones | 16 personas | 2024\n\nPersonas de nacionalidad extranjera | 113 personas | 2025\n\nFuente y página de cada indicador: anexo de resultados. La edad media y la proporción de mayores describen la composición de 2025; no se infiere que aumenten respecto a todos los años previos. La pirámide municipal frente a Andalucía necesita tablas compatibles por edad y sexo.\n\nPanel de salud\n\nLa diabetes (10,36 %) y la hipertensión (27,56 %) corresponden a registros de 2015 [4, p. 34]; la incidencia anual estandarizada de cáncer (277,1 casos por 100.000 y año), a 2008-2012 [4, p. 33]. El antecedente de mortalidad por suicidio necesita actualización. No se presentan estos valores como situación sanitaria medida en 2026.\n\nIndicador histórico | Zagra | Periodo | Referente del paquete\n\nDiabetes | 10,36 % | 2015 | Distrito Granada Metropolitano: 7,01\n\nHipertensión arterial | 27,56 % | 2015 | Distrito Granada Metropolitano: 12,32\n\nEPOC | 4,39 % | 2015 | Distrito Granada Metropolitano: 3,99\n\nDemencia | 4,39 % | 2015 | Distrito Granada Metropolitano: 3,7\n\nInsuficiencia cardíaca | 0,44 % | 2015 | Distrito Granada Metropolitano: 4,84\n\nPacientes en anticoagulación | 44,8 % | 2015 | Distrito Granada Metropolitano: 23,3\n\nDefunciones históricas | 17 personas | 2015 | No aportado\n\nTasa bruta de mortalidad publicada en el texto | 18,9 ‰ | 2015 | No aportado\n\nIncidencia anual estandarizada de todos los cánceres | 277,1 casos por 100.000 y año | 2008-2012 | Provincia de Granada: 459,3\n\nLos resultados de priorización de 2026 se presentan en el anexo E como preferencias de participantes, separadas de las medidas sanitarias. Las cautelas y denominadores originales se conservan en cada ficha.\n\nDesigualdad\n\nLa única sección censal, 1891301001, registra en 2024 una renta neta media por persona de 10.656,245 euros, por hogar de 25.525,424 euros y un 37,015 % de población bajo el umbral del 60 % de la mediana [RC2024]. Esta escala no permite localizar desigualdades internas por zonas o calles; tampoco acredita que no existan.\n\nIndicador · sección 1891301001 | Valor 2024\n\nRenta neta media por persona | 10.656,245 euros por persona y año\n\nRenta neta media por hogar | 25.525,424 euros por hogar y año\n\nPoblación con ingresos por unidad de consumo por debajo del 60 % de la mediana | 37,015 %\n\nFuente: INE, Atlas de Distribución de Renta de los Hogares, servicio de secciones, consulta de 6/11/2026 [RC2024]. Las cifras municipales redondeadas y sus comparadores del antecedente se conservan en el inventario, identificadas por su propia fuente. No se mezclan como medidas independientes.\n\nLa renta es un eje social, no un índice de privación múltiple. La sección única no permite identificar diferencias dentro del pueblo ni asignar valores a calles. Las barreras económicas y el acceso a cuidados y activos requieren contraste con residentes. La falta de desglose no equivale a igualdad interna.\n\n1. Punto de partida\n\nZagra es un municipio de 11,33 km², un solo núcleo y 843 habitantes en 2025 [1]. El expediente conserva adhesión a RELAS en 2016, acuerdo y talleres en 2017, perfil de 2018 y reiteración municipal de 2020 [8-13]. En mayo de 2026 se realizó una priorización temática con 158 papeletas completas [5]. Las fuentes de distintos ciclos se mantienen diferenciadas.\n\nEl componente sanitario principal del paquete es histórico: informe de 2017 con datos de 2008-2015 y documentos relacionados. La revisión no incorpora una actualización sanitaria que no está disponible. Reúne esa evidencia, la composición demográfica reciente, renta de 2024, participación de 2026 y activos con validación declarada. No certifica una nueva lectura de todas las fuentes primarias.\n\n2. Conclusiones\n\nUna lectura de conjunto\n\nLa evidencia reúne una población con importante presencia de mayores, hogares unipersonales y necesidades de conocimiento sobre cuidados; registros sanitarios históricos; preferencias de 2026 por bienestar emocional, actividad física y alimentación; renta de una sola sección censal; y tres activos con validación declarada. Las fuentes convergen en preguntas para conocer y contrastar, sin probar relaciones causales locales ni asignar automáticamente líneas del Plan. La actualización sanitaria y la deliberación deben respetar la priorización registrada de 2026.\n\nC1. La estructura de población y los hogares unipersonales hacen necesario conocer cuidados y apoyos.\n\nEn 2025 el 23,5 % tiene 65 años o más y la edad media es de 46,9 años [1]; en 2024 el 33,4 % de los hogares es unipersonal [3, tabla 31033]. Hubo 3 nacimientos y 16 defunciones en 2024 [1]. Estos recuentos describen ese año, no una tendencia anual completa. Frente a 2016, la edad media (47,6) y el porcentaje de mayores (24,60 %) aportados son superiores a los de 2025 [4, pp. 16 y 21]: no se concluye un aumento continuo del envejecimiento. Vivir solo no equivale a soledad no deseada ni a dependencia.\n\nLleva a R4, R5.\n\nC2. El bienestar emocional encabeza las preferencias de quienes participaron en 2026, con evidencia sanitaria local histórica.\n\nEl 84,8 % de las 158 papeletas completas eligió bienestar emocional y salud mental [5]. En 2017 se priorizaron soledad, salud mental y sobrecarga de cuidadoras [6]. El informe de 2017 recogió un exceso de mortalidad por suicidio en grupos de sexo y edad, procedente del análisis con datos hasta 2012 [4, p. 30]. Ese antecedente no mide malestar actual ni demuestra que quienes votaron presenten enfermedad.\n\nLleva a R1, R2, R3, R6.\n\nC3. La actividad física y la alimentación se repiten como preferencias, sin medición local reciente de hábitos aportada.\n\nEl sedentarismo fue el primer problema priorizado en 2017; obesidad y mala alimentación figuraron en los puestos sexto y séptimo [6]. En 2026 actividad física y alimentación obtuvieron el 74,7 % y el 71,5 % de las papeletas completas [5]. Las cifras de hábitos del informe de 2017 procedían de Andalucía y Granada en 2007 [4, pp. 35-44]; no sustituyen una medida de Zagra. La coincidencia de intereses no prueba una relación local entre hábitos y enfermedad.\n\nLleva a R3, R7.\n\nC4. Los registros de diabetes e hipertensión de 2015 superaban los referentes del Distrito aportados; se desconoce su evolución posterior.\n\nEl antecedente publica diabetes de 10,36 % frente a 7,01 % en el Distrito Granada Metropolitano, e hipertensión de 27,56 % frente a 12,32 % [4, p. 34]. Se conservan como valores históricos con su unidad y cautela original. La documentación de 2016 planteaba separar los registros de Zagra y Loja [14, objetivo 1, acción 2]. No se atribuyen al presente ni se sustituyen por datos de Loja.\n\nLleva a R1.\n\nC5. La renta sitúa un contexto de desigualdad respecto a los referentes aportados, sin desagregación interna del municipio.\n\nLa sección 1891301001 presenta renta por persona de 10.656,245 euros y un 37,015 % bajo el umbral del 60 % de la mediana en 2024 [RC2024]. El antecedente conserva magnitudes municipales redondeadas de 10.656 euros y 37,0 %, frente a 13.509 euros y 27,8 % en la provincia y 26,2 % bajo umbral en Andalucía [3]. Se mantienen ambas procedencias sin sumarlas ni tratarlas como mediciones independientes. Una sección única no identifica barrios, calles, personas con necesidad de apoyo ni distribución de enfermedad.\n\nLleva a R4, R11.\n\nC6. La composición por nacionalidad ha cambiado y la consulta no permite identificar participación por origen.\n\nEn 2016 se aportaban 13 residentes de nacionalidad extranjera y en 2025, 113; de estos últimos, el 77,0 % tenía nacionalidad marroquí [1; 4, p. 17]. Nacionalidad y origen no son conceptos equivalentes. La papeleta de 2026 no recoge el origen de quien responde [5]: no permite afirmar ni descartar participación de residentes marroquíes. Sus condiciones de vida y prioridades no se deducen de la nacionalidad.\n\nLleva a R8.\n\nC7. Tres activos con validación declarada aportan capacidades cuyo acceso y adecuación deben contrastarse.\n\nLa Asociación de Mujeres ZAHRA, el complejo deportivo municipal y el Punto Vuela figuran en Localiza Salud [7]. El expediente conserva una declaración del responsable que valida sus tres fichas el 21/10/2026. Se corrige la afirmación anterior de ausencia de validación. Las actividades descritas guardan afinidad temática con preferencias comunitarias, pero no prueban cobertura, utilización, efectos sanitarios ni suficiencia. La guía de 2016 es un inventario histórico distinto [14].\n\nLleva a R7, R9, R11.\n\nC8. El archivo documenta un diagnóstico anterior y una nueva consulta en 2026; la continuidad requiere acuerdos actuales.\n\nConstan adhesión a RELAS en 2016, acuerdo y talleres en 2017, perfil en 2018, reiteración municipal en 2020 y priorización temática en 2026 [5, 8-13]. Las lagunas documentales no prueban que cesara toda actividad. Las coincidencias entre 2017 y 2026 deben leerse con métodos distintos. Se respeta la priorización de 2026 registrada en el expediente; no equivale por sí sola a selección de líneas estratégicas, objetivos o actuaciones del Plan.\n\nLleva a R10.\n\n3. Coincidencias y discrepancias entre fuentes\n\nLa actividad física, el bienestar emocional y los cuidados reaparecen en las fuentes participativas, aunque en 2017 se ordenaron problemas de un taller y en 2026 se eligieron temas cerrados [5, 6]. Esa convergencia no prueba una relación causal con los resultados sanitarios históricos. El sueño aparece entre las preferencias de 2026 sin medición local aportada; las pocas notificaciones antiguas de infecciones no explican el interés actual por sexualidad.\n\nSe armoniza la validación de activos en todo el documento: consta declaración para tres fichas; quedan por contrastar acceso, vigencia de actividades y adecuación. Se retira la inferencia de ausencia de participación por origen porque la papeleta no recoge esa variable. Las lagunas del archivo no se convierten en prueba de ausencia de actividad.\n\n4. Lo que no sabemos\n\nLaguna | Conclusiones | Dónde contrastarla\n\nSalud municipal actual y series compatibles | C2, C4 | Distrito y fuentes sanitarias municipales\n\nHábitos, sueño y bienestar actuales | C2, C3 | Estudio local con diseño explícito\n\nDependencia, cuidados y apoyos | C1, C5 | Servicios Sociales y personas cuidadoras\n\nParticipación y necesidades por origen | C6 | Vías accesibles de escucha, sin inferir respuestas ausentes\n\nAcceso y adecuación de activos | C7 | Comunidad, responsables y Localiza Salud\n\nBarreras económicas dentro del municipio | C5, C7 | Residentes y profesionales; no se deducen de la sección única\n\nAcuerdos y continuidad del proceso | C8 | Grupo Motor y documentación actual\n\n5. Recomendaciones del Perfil\n\nOnce propuestas: las diez identificadas en el cuerpo anterior y la propuesta de renta, ahora integrada como R11. R7 pasa de Abordar condicionado a Contrastar mientras no se documente y acepte su sustento. Tipos finales: cuatro Conocer y siete Contrastar. La revisión no asigna prioridades ni selecciona actuaciones.\n\nConocer\n\nR1  Conocer  Obtener la actualización del Informe sobre la situación de salud de Zagra, con ámbito municipal y periodos identificados, sin sustituirla por resultados de Loja.\nDeriva de C2, C4.\n\nR2  Conocer  Obtener una serie oficial actualizada de mortalidad por suicidio; si solo se dispone de un ámbito superior, identificarlo expresamente y no atribuirlo al municipio.\nDeriva de C2.\n\nR3  Conocer  Actualizar el conocimiento local de alimentación, actividad física, sueño y bienestar emocional mediante un diseño que explicite población, selección y límites.\nDeriva de C2, C3.\n\nR4  Conocer  Reunir con Servicios Sociales información de personas mayores que viven solas, dependencia, cuidados y apoyos, manteniendo separada la renta agregada.\nDeriva de C1, C5.\n\nContrastar\n\nR5  Contrastar  Contrastar con cuidadoras, cuidadores y la Asociación de Mujeres si persiste la sobrecarga señalada en 2017 y qué apoyos reconocen.\nDeriva de C1.\n\nR6  Contrastar  Contrastar con participantes y comunidad qué entienden por bienestar emocional y salud mental y qué relación perciben con la soledad.\nDeriva de C2.\n\nR7  Contrastar  Contrastar el papel reconocido de los activos de actividad física y relación social y documentar el sustento de las relaciones antes de formular una orientación de Abordar.\nDeriva de C3, C7.\n\nR8  Contrastar  Escuchar las condiciones de vida y prioridades de residentes de nacionalidad marroquí y de otros orígenes, con vías accesibles de participación, sin presumir su ausencia de consultas anteriores.\nDeriva de C6.\n\nR9  Contrastar  Revisar con la comunidad la vigencia de recursos de la guía de 2016 y su reconocimiento actual, conservando la validación declarada de los tres activos existentes.\nDeriva de C7.\n\nR10  Contrastar  Revisar con el Grupo Motor la continuidad del proceso y la relación entre antecedentes de 2017 y priorización de 2026, antes de seleccionar líneas del Plan.\nDeriva de C8.\n\nR11  Contrastar  Contrastar barreras económicas y de acceso a cuidados, prevención y activos con residentes y profesionales; no deducirlas exclusivamente de la renta censal.\nDeriva de C5, C7.\n\n6. Paso al Plan de Acción\n\nEl Grupo Motor recibe conclusiones, propuestas y lagunas, respetando la priorización temática de 2026 registrada en el expediente. La selección deliberada de líneas estratégicas, objetivos, indicadores y actuaciones pertenece a los pasos posteriores del proceso. No se impone la selección histórica ni se alteran sus versiones.\n\n7. Autoría y validación\n\nRevisión externa 0.2-C1, de 13/11/2026, elaborada con asistencia de IA a petición de Blas Ramón Hermoso Rico. El antecedente atribuye su borrador inicial a Claude, de 26/10/2026; la revisión de renta está fechada el 6/11/2026. Se conservan ambos como antecedentes y sus referencias. Responsable humano de aceptación, validación técnica y consenso del Grupo Motor: pendientes de registro.\n\nLos 30 resultados y sus metadatos se mantienen exactamente. Se consolidan formulaciones y recomendaciones, sin nueva validación científica de las fuentes. La revisión no se declara vigente ni validada por su generación o carga. Su presentación y recuperación desde Firebase requieren cotejo posterior.\n\nAnexos\n\nA. Trazabilidad\n\nC1. Evidencia: [1, 3, 4]. Relación: sin relación causal validada por esta revisión. Límite: Faltan datos de dependencia, apoyos y hogares por edad. Lleva a R4, R5.\n\nC2. Evidencia: [4, p. 30]; [5, 6]. Relación: sin relación causal validada por esta revisión. Límite: Preferencias y mortalidad histórica son medidas diferentes; falta actualización sanitaria. Lleva a R1, R2, R3, R6.\n\nC3. Evidencia: [4, pp. 35-44]; [5, 6]. Relación: sin relación causal validada por esta revisión. Límite: No se aporta una medición local reciente comparable de hábitos. Lleva a R3, R7.\n\nC4. Evidencia: [4, p. 34]; [14]. Relación: sin relación causal validada por esta revisión. Límite: No consta una actualización sanitaria posterior en el paquete revisado. Lleva a R1.\n\nC5. Evidencia: [3]; [RC2024]. Relación: sin relación causal validada por esta revisión. Límite: La renta agregada no mide acceso efectivo, privación múltiple ni desigualdad interna. Lleva a R4, R11.\n\nC6. Evidencia: [1, 4, 5]. Relación: sin relación causal validada por esta revisión. Límite: No hay desagregación de la consulta que acredite inclusión o exclusión por origen. Lleva a R8.\n\nC7. Evidencia: [7]; declaración del expediente; [14]. Relación: sin relación causal validada por esta revisión. Límite: La validación de fichas no demuestra resultados ni acceso efectivo. Lleva a R7, R9, R11.\n\nC8. Evidencia: [5, 6, 8-13]. Relación: sin relación causal validada por esta revisión. Límite: Faltan documentos que permitan reconstruir todos los acuerdos y su continuidad. Lleva a R10.\n\nR7 pasa a Contrastar porque su anterior formulación condicionaba Abordar a una relación todavía no declarada. R11 integra la propuesta de renta antes situada al final del paquete. Se conservan las identificaciones C1-C8 y R1-R10 para mantener continuidad.\n\nB. Inventario íntegro de resultados\n\nLos 30 resultados se conservan con sus identificadores, valores literales, cifras para gráficos, periodos, escalas, fuentes, páginas, bases, cautelas, comparadores y vínculos. La página remite a la fuente de origen, no a la nueva paginación. Un denominador consignado como no explicitado no equivale a un denominador conocido.\n\nPoblación · 843 personas\n\nIdentificador: zagra-armon-poblacion\nPeriodo: 2025 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [1] SIMA\nLocalizador de origen: 7\nBase/denominador: Población municipal\nCautela: Sin nota adicional en el resultado antecedente.\n\nVínculos de origen: C1.\n\nEdad media · 46,9 años\n\nIdentificador: zagra-armon-edad\nPeriodo: 2025 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [1] SIMA\nLocalizador de origen: 7\nBase/denominador: Población municipal\nCautela: Sin nota adicional en el resultado antecedente.\n\nVínculos de origen: C1.\n\nPoblación de 65 años o más · 23,5 %\n\nIdentificador: zagra-armon-mayores65\nPeriodo: 2025 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [1] SIMA\nLocalizador de origen: 7\nBase/denominador: Población municipal\nCautela: Sin nota adicional en el resultado antecedente.\n\nVínculos de origen: C1.\n\nPoblación menor de 20 años · 16,8 %\n\nIdentificador: zagra-armon-menores20\nPeriodo: 2025 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [1] SIMA\nLocalizador de origen: 7\nBase/denominador: Población municipal\nCautela: Sin nota adicional en el resultado antecedente.\n\nHogares de una sola persona · 33,4 %\n\nIdentificador: zagra-armon-hogares\nPeriodo: 2024 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [3] INE, tabla 31033\nLocalizador de origen: 1\nBase/denominador: Hogares del municipio\nCautela: Sin nota adicional en el resultado antecedente.\n\nVínculos de origen: C1.\n\nNacimientos · 3 personas\n\nIdentificador: zagra-armon-nacimientos\nPeriodo: 2024 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [1] SIMA\nLocalizador de origen: 7\nBase/denominador: Recuento anual de nacimientos\nCautela: Sin nota adicional en el resultado antecedente.\n\nVínculos de origen: C1.\n\nDefunciones · 16 personas\n\nIdentificador: zagra-armon-muertes2024\nPeriodo: 2024 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [1] SIMA\nLocalizador de origen: 7\nBase/denominador: Recuento anual de defunciones\nCautela: Sin nota adicional en el resultado antecedente.\n\nVínculos de origen: C1.\n\nPersonas de nacionalidad extranjera · 113 personas\n\nIdentificador: zagra-armon-extranjeros\nPeriodo: 2025 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [1] SIMA\nLocalizador de origen: 7\nBase/denominador: Recuento de residentes de nacionalidad extranjera\nCautela: Sin nota adicional en el resultado antecedente.\n\nVínculos de origen: C6.\n\nRenta neta por persona · 10.656 euros/persona\n\nIdentificador: zagra-armon-renta\nPeriodo: 2024 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [3] INE, tablas 31025 y 53694\nLocalizador de origen: 3\nBase/denominador: Personas de la población de referencia del Atlas de Renta\nCautela: Sin nota adicional en el resultado antecedente.\n\nComparadores: Provincia de Granada = 13509 euros/persona.\n\nVínculos de origen: C5.\n\nPoblación bajo el 60 % de la mediana de ingresos · 37,0 %\n\nIdentificador: zagra-armon-pobreza\nPeriodo: 2024 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [3] INE, tablas 31030, 53689 y 53694\nLocalizador de origen: 3\nBase/denominador: Población de referencia del Atlas de Renta\nCautela: Sin nota adicional en el resultado antecedente.\n\nComparadores: Provincia de Granada = 27,8 %; Andalucía = 26,2 %.\n\nVínculos de origen: C5.\n\nDiabetes · 10,36 %\n\nIdentificador: zagra-armon-diabetes\nPeriodo: 2015 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 34\nLocalizador de origen: 8\nBase/denominador: Denominador no explicitado por la fuente\nCautela: Dato histórico. La fuente no explicita el denominador; no extrapolar al presente.\n\nComparadores: Distrito Granada Metropolitano = 7,01 %.\n\nVínculos de origen: C4.\n\nHipertensión arterial · 27,56 %\n\nIdentificador: zagra-armon-hipertension\nPeriodo: 2015 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 34\nLocalizador de origen: 8\nBase/denominador: Denominador no explicitado por la fuente\nCautela: Dato histórico. La fuente no explicita el denominador; no extrapolar al presente.\n\nComparadores: Distrito Granada Metropolitano = 12,32 %.\n\nVínculos de origen: C4.\n\nEPOC · 4,39 %\n\nIdentificador: zagra-armon-epoc\nPeriodo: 2015 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 34\nLocalizador de origen: 8\nBase/denominador: Denominador no explicitado por la fuente\nCautela: Dato histórico. La fuente no explicita el denominador; no extrapolar al presente.\n\nComparadores: Distrito Granada Metropolitano = 3,99 %.\n\nDemencia · 4,39 %\n\nIdentificador: zagra-armon-demencia\nPeriodo: 2015 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 34\nLocalizador de origen: 8\nBase/denominador: Denominador no explicitado por la fuente\nCautela: Dato histórico. La fuente no explicita el denominador; no extrapolar al presente.\n\nComparadores: Distrito Granada Metropolitano = 3,7 %.\n\nInsuficiencia cardíaca · 0,44 %\n\nIdentificador: zagra-armon-insuficiencia\nPeriodo: 2015 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 34\nLocalizador de origen: 8\nBase/denominador: Denominador no explicitado por la fuente\nCautela: Dato histórico. La fuente no explicita el denominador; no extrapolar al presente.\n\nComparadores: Distrito Granada Metropolitano = 4,84 %.\n\nPacientes en anticoagulación · 44,8 %\n\nIdentificador: zagra-armon-tao\nPeriodo: 2015 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 34\nLocalizador de origen: 8\nBase/denominador: Denominador no explicitado por la fuente\nCautela: Dato histórico. La fuente no explicita el denominador; no extrapolar al presente. No interpretar el 44,8 % como porcentaje de habitantes.\n\nComparadores: Distrito Granada Metropolitano = 23,3 %.\n\nDefunciones históricas · 17 personas\n\nIdentificador: zagra-armon-muertes2015\nPeriodo: 2015 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 30\nLocalizador de origen: 8\nBase/denominador: Recuento anual (9 hombres, 8 mujeres)\nCautela: Sin nota adicional en el resultado antecedente.\n\nTasa bruta de mortalidad publicada en el texto · 18,9 ‰\n\nIdentificador: zagra-armon-tbm\nPeriodo: 2015 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [4] p. 30; discrepancia con [12], apartado 6.3\nLocalizador de origen: 13\nBase/denominador: Por 1.000 habitantes según la tasa publicada\nCautela: Dato histórico. El texto publica 18,9 ‰ y VIGIA 10,01; se conserva la discrepancia sin elegir ni recalcular.\n\nIncidencia anual estandarizada de todos los cánceres · 277,1 casos por 100.000 y año\n\nIdentificador: zagra-armon-cancer\nPeriodo: 2008-2012 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 33\nLocalizador de origen: 8\nBase/denominador: Población de referencia de la tasa publicada\nCautela: Serie histórica; no describe la incidencia actual.\n\nComparadores: Provincia de Granada = 459,3 casos por 100.000 y año.\n\nPriorización: Bienestar emocional y salud mental · 84,8 %\n\nIdentificador: zagra-armon-votos-emocional\nPeriodo: 14-24/5/2026 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [5] papeleta de priorización temática\nLocalizador de origen: 10\nBase/denominador: 158 papeletas completas; respuesta múltiple\nCautela: Preferencias de participantes; no prevalencia ni representatividad municipal.\n\nVínculos de origen: C2.\n\nPriorización: Actividad física · 74,7 %\n\nIdentificador: zagra-armon-votos-actividad\nPeriodo: 14-24/5/2026 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [5] papeleta de priorización temática\nLocalizador de origen: 10\nBase/denominador: 158 papeletas completas; respuesta múltiple\nCautela: Preferencias de participantes; no prevalencia ni representatividad municipal.\n\nVínculos de origen: C3.\n\nPriorización: Alimentación · 71,5 %\n\nIdentificador: zagra-armon-votos-alimentacion\nPeriodo: 14-24/5/2026 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [5] papeleta de priorización temática\nLocalizador de origen: 10\nBase/denominador: 158 papeletas completas; respuesta múltiple\nCautela: Preferencias de participantes; no prevalencia ni representatividad municipal.\n\nVínculos de origen: C3.\n\nPriorización: Sueño y descanso · 65,8 %\n\nIdentificador: zagra-armon-votos-sueno\nPeriodo: 14-24/5/2026 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [5] papeleta de priorización temática\nLocalizador de origen: 10\nBase/denominador: 158 papeletas completas; respuesta múltiple\nCautela: Preferencias de participantes; no prevalencia ni representatividad municipal.\n\nPriorización: Sexualidad y salud · 34,8 %\n\nIdentificador: zagra-armon-votos-sexualidad\nPeriodo: 14-24/5/2026 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [5] papeleta de priorización temática\nLocalizador de origen: 10\nBase/denominador: 158 papeletas completas; respuesta múltiple\nCautela: Preferencias de participantes; no prevalencia ni representatividad municipal.\n\nPapeletas completas de priorización · 158 respuestas\n\nIdentificador: zagra-armon-papeletas\nPeriodo: 14-24/5/2026 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [5] exportación REDCap\nLocalizador de origen: 10\nBase/denominador: 164 registros; 158 completos\nCautela: Recuento de respuestas, no muestra probabilística acreditada.\n\nFichas registradas en Localiza Salud · 3 fichas\n\nIdentificador: zagra-armon-recursos\nPeriodo: Octubre 2026 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; [7] inventario Localiza Salud\nLocalizador de origen: 9\nBase/denominador: Tres fichas individuales\nCautela: Sin nota adicional en el resultado antecedente.\n\nVínculos de origen: C7.\n\nActivos con validación declarada · 3 activos\n\nIdentificador: zagra-armon-validados\nPeriodo: 21/10/2026 · Escala: Zagra\nFuente: Perfil de Salud Local de Zagra v0.1; Declaración de validación conservada en el expediente Firebase\nLocalizador de origen: Declaración del expediente\nBase/denominador: Las tres fichas del documento Activos Localiza Salud Zagra\nCautela: La validación declarada no acredita cobertura ni resultados de salud.\n\nVínculos de origen: C7.\n\nRenta neta media por persona · 10.656,245 euros por persona y año\n\nIdentificador: zagra-renta-2024-1891301001-persona\nPeriodo: 2024 · Escala: Sección censal 1891301001\nFuente: [RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024\nLocalizador de origen: CUSEC 1891301001; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2\nBase/denominador: Personas residentes en hogares de la sección censal\nCautela: Dato agregado de sección; no es renta individual, de vivienda ni de calle.\n\nVínculos de origen: C5.\n\nRenta neta media por hogar · 25.525,424 euros por hogar y año\n\nIdentificador: zagra-renta-2024-1891301001-hogar\nPeriodo: 2024 · Escala: Sección censal 1891301001\nFuente: [RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024\nLocalizador de origen: CUSEC 1891301001; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2\nBase/denominador: Hogares de la sección censal\nCautela: Dato agregado de sección; no es renta individual, de vivienda ni de calle.\n\nVínculos de origen: C5.\n\nPoblación con ingresos por unidad de consumo por debajo del 60 % de la mediana · 37,015 %\n\nIdentificador: zagra-renta-2024-1891301001-umbral\nPeriodo: 2024 · Escala: Sección censal 1891301001\nFuente: [RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024\nLocalizador de origen: CUSEC 1891301001; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2\nBase/denominador: Población de la sección censal; ingresos por unidad de consumo y umbral nacional\nCautela: Dato agregado de sección; no es renta individual, de vivienda ni de calle.\n\nVínculos de origen: C5.\n\nC. Contexto documental conservado\n\nTerritorio y población\n\nTerritorio. Zagra tiene 11,33 km², un solo núcleo, 685 metros de altitud y está a 64,5 km de Granada [1]. El informe de 2017 la situaba a 20 km de Loja [4, p. 14]. En 2025 viven 818 personas en el núcleo y 25 en diseminado [1]. Hay 358 viviendas principales (2021) [1]. En 2016 había casas viejas deshabitadas en la zona del Castillo Alto, algunas derribadas por el Ayuntamiento por riesgo de accidente y otras reformadas como segunda vivienda [14, descripción].\n\nPoblación. Zagra tiene 843 habitantes en 2025, 420 hombres y 423 mujeres [1]. En 2016 eran 882, 449 hombres y 433 mujeres [2]. En 2024 nacieron 3 niños, murieron 16 personas, llegaron 68 y se fueron 104 [1]. La edad media es de 46,9 años [1]; el 16,8 % tiene menos de 20 años y el 23,5 % más de 65 [1]. En 2016 la edad media era de 47,6 años, la más alta de los municipios RELAS con los que el informe la compara [4, p. 16], el 24,60 % tenía más de 65 años y el 3,52 % más de 85, frente al 16,16 % y el 1,56 % de la provincia [4, p. 21].\n\nOrigen. Hay 113 personas de nacionalidad extranjera, el 77,0 % de Marruecos [1]. En 2016 eran 13, el 38 % del Reino Unido [4, p. 17].\n\nHogares. El hogar medio tiene 2,4 personas y el 33,4 % de los hogares es unipersonal [3, tabla 31033].\n\nRenta. La renta neta media por persona fue de 10.656 euros en 2024 [3, tabla 31025], el 78,9 % de la de la provincia, 13.509 euros [3, tabla 53694], y el 79,9 % de la andaluza, 13.342 euros [3, tabla 53689]. El 37,0 % de la población tiene ingresos por unidad de consumo inferiores al 60 % de la mediana, el 38,3 % de los hombres y el 36,0 % de las mujeres [3, tabla 31030], frente al 27,8 % de la provincia [3, tabla 53694] y el 26,2 % de Andalucía [3, tabla 53689]. El 12,5 % está por debajo del 40 % [3, tabla 31030]. En 2024 se presentaron 467 declaraciones del IRPF; la renta media no se publica [1].\n\nTrabajo. En 2025 había 34 personas en paro registrado, 21 mujeres y 13 hombres [1], y la tasa municipal de desempleo era del 11,9 % [1]. De los 576 contratos firmados, 370 fueron temporales [1], y por cada contrato a una mujer se firmaron 2,4 a hombres (167 y 409) [1]. Doce personas cobraban el subsidio agrario, 9 de ellas mujeres [1]. La economía es agrícola: 62 de los 101 establecimientos son de agricultura y ganadería [1], y el olivar ocupa 875 hectáreas, 855 de secano [1].\n\nServicios. Zagra pertenece al centro de salud de Loja y tiene un consultorio [4, p. 45] [1]. En 2016 el médico de familia y la enfermera atendían en el pueblo, y la trabajadora social y el pediatra se compartían con Loja [14, descripción]. El colegio atiende de 3 años a 2.º de ESO; para terminar la secundaria y el bachillerato hay que ir al IES Moraima de Loja [14, descripción].\n\nSituación sanitaria histórica\n\nToda la información de salud de Zagra procede del informe de 2017 [4], con datos de 2015 y 2016, reproducido sin cambios en el Perfil de 2018 [12]. Los seis resultados de enfermedad crónica, con sus comparadores, se conservan en el panel y el inventario. Fuente de toda la tabla: [4, p. 34], datos de 2015. El informe no indica sobre qué población se calculan, y el porcentaje de anticoagulación no puede referirse al total de habitantes. En 2016 el centro de salud se propuso mejorar el registro de la insuficiencia cardíaca y de los pacientes pluripatológicos [14, objetivo 1].\n\nMortalidad. En 2015 murieron 17 personas, 9 hombres y 8 mujeres [4, p. 30]. Frente a España, la mortalidad general estaba aumentada en los hombres de 65 a 84 años y en las mujeres de 75 a 84, y había exceso de riesgo en el suicidio (hombres mayores de 15 años y mujeres de 15 a 45), los accidentes de tráfico (hombres de 45 a 64), el cáncer de hígado (mujeres de 45 a 64 y mayores de 85), el cáncer de pulmón (hombres de 75 a 84), la enfermedad cerebrovascular, la cardiopatía isquémica y la EPOC [4, p. 30]. Los años potenciales de vida perdidos se debían sobre todo al suicidio y a los accidentes de tráfico en los hombres, y a la diabetes en las mujeres [4, p. 32]. En 2024 murieron 16 personas [1]; no hay datos posteriores por causa.\n\nCáncer. La incidencia de 2008-2012 fue de 277,1 casos por 100.000 habitantes, muy inferior a la provincial, 459,3 [4, p. 33]. Los cánceres más frecuentes fueron el de vejiga en los hombres y el de piel no melanoma en las mujeres [4, p. 33].\n\nEnfermedades transmisibles. Entre 2012 y 2016 se declararon muy pocas enfermedades de declaración obligatoria: un caso de sífilis, ninguno de tuberculosis y ningún brote [4, p. 33]. La vacunación de recién nacidos superaba el 95 % [4, p. 33].\n\nCómo vive la gente. No hay ningún dato local. El informe de 2017 describía la alimentación, el peso, el tabaco, el alcohol y la actividad física con la Encuesta Andaluza de Salud de 2007, para Andalucía y la provincia de Granada [4, pp. 35-44]. Esas cifras no describen a Zagra. Saber hoy cómo come, cuánto se mueve y cómo duerme su población exige un estudio propio, que puede hacerse con el Gestor de Encuestas de COMPÁS.\n\nSalud ambiental y alimentaria. Los apartados correspondientes del informe de 2017 quedaron sin redactar [4, pp. 28-29].\n\nDesigualdades y activos\n\nRenta. Zagra es una sola sección censal [3, tabla 31025], así que no hay forma de ver desigualdades de renta dentro del pueblo. Frente a su provincia, tiene menos renta y más población bajo el umbral de pobreza relativa: el 37,0 % frente al 27,8 % [3, tablas 31030 y 53694].\n\nMujeres y hombres. Hay más mujeres que hombres en paro registrado, 21 y 13 [1], y menos contratos firmados con mujeres, 167 frente a 409 [1]. La proporción bajo el 60 % de la mediana es parecida, el 36,0 % de las mujeres y el 38,3 % de los hombres [3, tabla 31030]. En 2017 el informe pedía mirar con perspectiva de género la salud de las mujeres por sus cargas laborales y familiares y su papel de cuidadoras [4, p. 46], y el Grupo Motor situó la sobrecarga de las cuidadoras en el quinto puesto [6, problemas priorizados]. Las reuniones mensuales de mujeres (GRUSE) del centro de salud funcionan desde 2013 [14, objetivo 2].\n\nEdad. Casi una de cada cuatro personas tiene más de 65 años [1] y uno de cada tres hogares es de una sola persona [3, tabla 31033]. La soledad de las personas mayores fue el tercer problema en 2017 [6, problemas priorizados].\n\nOrigen. La población de nacionalidad extranjera es el 13,4 % del municipio [3, tabla 31033] y ha pasado de 13 a 113 personas entre 2016 y 2025 [4, p. 17] [1]. No hay ningún dato sobre su salud, su vivienda o su trabajo, la consulta no permite identificar su participación por origen.\n\nLo que no se ve. El inventario estructurado aportado no permite un análisis sanitario completo por sexo, edad u origen, y la papeleta de 2026 no recoge el origen de quien vota [5]. D. Activos y recursos\n\nLo que registra Localiza Salud. Tres fichas con validación declarada [7]: • La Asociación de Mujeres ZAHRA, para mujeres de 30 a 64 años: talleres de envejecimiento activo, yoga y deporte, charlas de salud física y mental, cineforum, excursiones y una red de apoyo contra la soledad de las mujeres mayores [7]. • El complejo deportivo municipal, para toda la población: piscina, gimnasio, yoga y gimnasia, pádel y tenis, baile y talleres de socialización contra la soledad no deseada [7]. • El Punto Vuela, para la formación y el acceso digital [7]. Consta en el expediente una declaración del responsable que valida las tres fichas de Localiza Salud el 21/10/2026, conforme a los criterios de registro y validación de activos para la salud en Andalucía. La declaración no acredita por sí sola cobertura ni resultados de salud.\n\nLo que había en 2016. La guía de recursos del centro de salud recogía el Ayuntamiento, el consultorio, el colegio, la guardería, la piscina, el polideportivo, la casa de la cultura con gimnasia, pintura, baile y reuniones de mujeres, el auditorio, la biblioteca, el centro Guadalinfo, la farmacia, dos consultas de dentista, la Asociación de Mujeres, la Asociación Juvenil, una asociación de teatro, una peña, la asociación de tirachinas, una hermandad, Cáritas y una comunidad religiosa que visitaba a enfermos y acompañaba en el duelo [14, mapa de activos]. El Centro de Participación Activa estaba pendiente de abrir [14, mapa de activos]. Su presencia y reconocimiento actuales deben contrastarse antes de incorporarlos como activos.\n\nLo que la comunidad hace. La Asociación de Mujeres organiza desde hace años la comida del Día de Andalucía para todo el pueblo, que el centro de salud presentó en 2016 como buena práctica de convivencia [14, buenas prácticas]. En 2017 el Grupo Motor propuso huertos sociales, actividades intergeneracionales, bancos del tiempo, talleres de memoria con Guadalinfo y una asociación de hombres [6, acciones y activos].\n\nEl territorio. El informe de 2017 nombraba como activo la orografía, el clima, el patrimonio y la gastronomía [4, p. 46], y el Grupo Motor señalaba las rutas de senderismo [6, acciones y activos].\n\nD. Proceso e historia comparada\n\nFecha | Hito\n\n2016 | Solicitud de adhesión a RELAS y plan de actuación del centro de salud [8, 14]\n\n2017 | Acuerdo, presentación del informe y taller de priorización de 18 problemas [6, 9-11]\n\n2018 | Perfil de Salud Local de Zagra [12]\n\n2020 | Reiteración del compromiso municipal [13]\n\nMayo 2026 | 158 papeletas completas de priorización temática [5]\n\nIndicador | Antes | Después\n\nPoblación | 882 · 2016 [2] | 843 · 2025 [1]\n\nEdad media | 47,6 años · 2016 [4] | 46,9 años · 2025 [1]\n\n65 o más años | 24,60 % · 2016 [4] | 23,5 % · 2025 [1]\n\nNacionalidad extranjera | 13 · 2016 [4] | 113 · 2025 [1]\n\nParo registrado | 39 · 2015 [4] | 34 · 2025 [1]\n\nEstablecimientos con asalariados | 51 · 2015 [4] | 71 · 2024 [1]\n\nLa renta bruta disponible de 2006 (6.343,36 euros por habitante, Unicaja [4, p. 24]) y la renta neta por persona de 2024 tienen definiciones distintas: no se presenta una tendencia entre ellas. El inventario recoge la evolución de población y nacionalidad sin atribuir causalmente el cambio de edad media a la inmigración. El detalle de los acuerdos históricos y la composición del Grupo Motor se conservan en los originales [8-15].\n\nE. Participación: preferencias y límites\n\nOrden | Problemas · taller 2017 [6] | Temas · papeletas 2026 [5]\n\n1 | Sedentarismo | Bienestar emocional y salud mental · 84,8 %\n\n2 | Desmotivación y participación | Actividad física · 74,7 %\n\n3 | Soledad de personas mayores | Alimentación · 71,5 %\n\n4 | Salud mental y emocional | Sueño y descanso · 65,8 %\n\n5 | Sobrecarga de cuidadoras | Sexualidad y salud · 34,8 %\n\nEn 2026 hubo 164 registros y 158 papeletas completas, del 14 al 24 de mayo, de personas de 17 a 84 años [5]. La papeleta ofrecía diez temas y permitía respuesta múltiple. También se eligieron tabaco, alcohol y otras drogas (34,2 %), medioambiente (29,1 %), pantallas (28,5 %), violencia de género (24,7 %) y accidentes (16,5 %). Los porcentajes expresan selección entre participantes; no estiman prevalencias ni representatividad municipal. No se utiliza la codificación de sexo sin diccionario verificado ni se identifica origen a partir de otros datos.\n\nEn 2017 el Grupo Motor ordenó 18 problemas atendiendo a magnitud y facilidad de solución y propuso acciones y activos [6, 11]. Son antecedentes de otro instrumento y ciclo, no votos comparables uno a uno con 2026. El sueño y la sexualidad muestran intereses que no quedan explicados por las medidas sanitarias históricas.\n\nF. Referencias conservadas\n\n1. Instituto de Estadística y Cartografía de Andalucía. Sistema de Información Multiterritorial de Andalucía (SIMA). Ficha municipal de Zagra (18913) [Internet]. Sevilla: IECA; actualizada el 9 oct 2026 [consultado 26 oct 2026]. Disponible en: https://www.juntadeandalucia.es/institutodeestadisticaycartografia/sima/ficha.htm? mun=18913\n\n2. Instituto de Estadística y Cartografía de Andalucía. SIMA. Población por edad y sexo (Padrón Municipal de Habitantes), Zagra, 2016 [exportación]. Sevilla: IECA; marzo de 2017.\n\n3. Instituto Nacional de Estadística. Atlas de Distribución de Renta de los Hogares, 2024. Tablas 31025, 31030, 31033, 53689 y 53694 [Internet]. Madrid: INE; 2026 [consultado 26 oct 2026]. Disponible en: https://www.ine.es/dyngs/INEbase/es/operacion.htm? c=Estadistica_C&cid=1254736177088&menu=ultiDatos&idp=1254735976608\n\n4. Red Local de Acción en Salud. Informe de Salud. Zagra. Proyecto de desarrollo de la acción local en salud. Granada: Consejería de Salud, Delegación Territorial de Granada; marzo de 2017.\n\n5. Ayuntamiento de Zagra. Priorización temática ciudadana (papeleta REDCap «papeleta_pri_tematica»), 14 a 24 de mayo de 2026. Exportación de datos de 21 oct 2026: 164 registros, 158 papeletas completas.\n\n6. Grupo Motor de Zagra. Listado de problemas de salud identificados en Zagra; problemas priorizados, activos y acciones (taller del 27 de abril de 2017). Hoja de cálculo. Zagra; junio de 2017.\n\n7. Junta de Andalucía. Localiza Salud: recursos y activos para la salud del municipio de Zagra [base de datos]. Registro incorporado al expediente el 21 oct 2026.\n\n8. Ayuntamiento de Zagra. Solicitud de adhesión al Plan RELAS (Red Local de Acción en Salud) dirigida a la Delegación Territorial de Igualdad, Salud y Políticas Sociales de Granada. Zagra; 20 oct 2016.\n\n9. Delegación Territorial de Igualdad, Salud y Políticas Sociales en Granada; Ayuntamiento de Zagra. Acuerdo de colaboración entre la Consejería de Salud de la Junta de Andalucía y el Ayuntamiento de Zagra en materia de salud pública. Zagra; 15 feb 2017.\n\n10. Servicio de Acción Territorial en Salud Pública, Consejería de Salud. Taller «Impulso y desarrollo de la acción local en salud». Zagra (Granada), 30 de marzo de 2017: programa. Granada; 2017.\n\n11. Gómez Jiménez A. Presentaciones de los talleres RELAS de Zagra de 30 de marzo y 27 de abril de 2017. Granada: Técnico de Acción Local en Salud, provincia de Granada; 2017.\n\n12. Red Local de Acción en Salud. Perfil de Salud Local. Zagra. Documento de trabajo. Zagra; enero de 2018.\n\n13. Ayuntamiento de Zagra. Escrito a la Delegación Territorial de Salud (Servicio de Salud, Acción Local) sobre la Estrategia de Acción Local en Salud. Zagra; 31 ene 2020.\n\n14. Unidad de Gestión Clínica de Loja. Plan de actuación de la Zona con Necesidades de Transformación Social: Zagra, 2016 (descripción, objetivos, evaluación, otras actividades comunitarias, mapa de activos y buenas prácticas). Hoja de cálculo. Loja; mayo de 2017.\n\n15. Grupo Motor de Zagra. Composición: seis personas, con su cargo. Zagra; mayo de 2017.\n\nRC2024. INE. Atlas de Distribución de Renta de los Hogares 2024. Servicio ADRH_secciones_t, campos dato1, dato2 y dato4, sección 1891301001; consulta de 6/11/2026 y notas entregadas. https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2\n\nG. Notas de lectura y trazabilidad técnica\n\nLos datos oficiales se reproducen con sus unidades y periodos, sin recalcular tasas ni atribuirles una nueva validación metodológica. Las cautelas heredadas se conservan como información del paquete antecedente. No se convierten en conclusiones clínicas. Los años sanitarios históricos y el ámbito de los comparadores se distinguen de la demografía reciente y la participación de 2026.\n\nEl antecedente contiene observaciones técnicas sobre denominadores, discrepancias y documentos. Se conservan a continuación como cuestiones heredadas pendientes de cotejo primario, sin elegir automáticamente una cifra ni resolver científicamente el desacuerdo. Su conservación no implica certificarlas. La aceptación metodológica de estas notas sigue pendiente.\n\nObservación heredada pendiente de cotejo. Informe de Salud 2017: da 898 habitantes en 2014 y 11,19 km² [4, p. 14], y 882 habitantes y 11,3 km² en 2016 [4, pp. 14-15]. El índice de dependencia de 2016, 36,71 [4, p. 20], es el de 2015 según los indicadores VIGIA, que dan 56,11 para 2016 [12, apartado 6.3]. La tasa bruta de mortalidad de 2015 es de 18,9 por mil en el texto [4, p. 30] y de 10,01 en los indicadores VIGIA [12, apartado 6.3]. Sitúa Zagra a 72 km de Granada y a 680 m de altitud [4, p. 14], frente a 64,5 km y 685 m en el SIMA [1]. Cita tres casos de sarampión en cinco años y a continuación los atribuye a brotes de tosferina, sarampión y parotiditis [4, p. 33]. No declara el denominador de las prevalencias, y el 44,8 % de pacientes en anticoagulación no puede referirse a la población total [4, p. 34]. Los apartados de salud ambiental, alimentaria y programas de promoción quedaron sin redactar [4, pp. 28-29 y 45].\n\nObservación heredada pendiente de cotejo. Indicadores VIGIA del Perfil 2018: el índice de vejez de 217 es la razón entre mayores y jóvenes, no el porcentaje de mayores de 65 años (24,60 %) que da el informe con el mismo nombre [12, apartado 6.3] [4, p. 21]; registran 25 plazas en residencias de mayores en el municipio, que no aparecen en la guía de recursos [12, apartados 6.1 y 6.3].\n\nObservación heredada pendiente de cotejo. Problemas priorizados 2017: los criterios se puntuaban de 1 a 3, pero las columnas recogen valores de hasta 13, y las de magnitud y dificultad son idénticas en las 18 filas [6, problemas priorizados].\n\nObservación heredada pendiente de cotejo. Plan ZNTS 2016: concluye que Zagra no corresponde a una zona con necesidades de transformación social y que la zona que lo es está en Loja [14, descripción]; varias celdas de la evaluación contienen fórmulas rotas [14, línea 5].\n\nObservación heredada pendiente de cotejo. SIMA 2024: registra cero bibliotecas públicas, cuando la guía de 2016 incluía una biblioteca municipal abierta tres tardes por semana [1] [14, mapa de activos].\n\nObservación heredada pendiente de cotejo. Priorización 2026: la codificación del sexo en la papeleta no consta en el expediente, por lo que no se ha usado.\n\nValidación de activos, aprobación de prioridades, selección de líneas y validación técnica del perfil son hechos distintos. Esta revisión no cambia la priorización de 2026, no elimina las anteriores y no completa con datos ficticios el mapa, la pirámide comparada o el núcleo común de indicadores.",
+  "results": [
+    {
+      "id": "zagra-armon-poblacion",
+      "title": "Población",
+      "value": "843",
+      "unit": "personas",
+      "period": "2025",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Zagra v0.1; [1] SIMA",
+      "page": "7",
+      "scale": "Zagra",
+      "denominator": "Población municipal",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 843.0,
+      "supportsConclusions": [
+        "C1"
+      ]
+    },
+    {
+      "id": "zagra-armon-edad",
+      "title": "Edad media",
+      "value": "46,9",
+      "unit": "años",
+      "period": "2025",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Zagra v0.1; [1] SIMA",
+      "page": "7",
+      "scale": "Zagra",
+      "denominator": "Población municipal",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 46.9,
+      "supportsConclusions": [
+        "C1"
+      ]
+    },
+    {
+      "id": "zagra-armon-mayores65",
+      "title": "Población de 65 años o más",
+      "value": "23,5",
+      "unit": "%",
+      "period": "2025",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Zagra v0.1; [1] SIMA",
+      "page": "7",
+      "scale": "Zagra",
+      "denominator": "Población municipal",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 23.5,
+      "supportsConclusions": [
+        "C1"
+      ]
+    },
+    {
+      "id": "zagra-armon-menores20",
+      "title": "Población menor de 20 años",
+      "value": "16,8",
+      "unit": "%",
+      "period": "2025",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Zagra v0.1; [1] SIMA",
+      "page": "7",
+      "scale": "Zagra",
+      "denominator": "Población municipal",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 16.8
+    },
+    {
+      "id": "zagra-armon-hogares",
+      "title": "Hogares de una sola persona",
+      "value": "33,4",
+      "unit": "%",
+      "period": "2024",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Zagra v0.1; [3] INE, tabla 31033",
+      "page": "1",
+      "scale": "Zagra",
+      "denominator": "Hogares del municipio",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 33.4,
+      "supportsConclusions": [
+        "C1"
+      ]
+    },
+    {
+      "id": "zagra-armon-nacimientos",
+      "title": "Nacimientos",
+      "value": "3",
+      "unit": "personas",
+      "period": "2024",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Zagra v0.1; [1] SIMA",
+      "page": "7",
+      "scale": "Zagra",
+      "denominator": "Recuento anual de nacimientos",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 3.0,
+      "supportsConclusions": [
+        "C1"
+      ]
+    },
+    {
+      "id": "zagra-armon-muertes2024",
+      "title": "Defunciones",
+      "value": "16",
+      "unit": "personas",
+      "period": "2024",
+      "topic": "Mortalidad",
+      "source": "Perfil de Salud Local de Zagra v0.1; [1] SIMA",
+      "page": "7",
+      "scale": "Zagra",
+      "denominator": "Recuento anual de defunciones",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 16.0,
+      "supportsConclusions": [
+        "C1"
+      ]
+    },
+    {
+      "id": "zagra-armon-extranjeros",
+      "title": "Personas de nacionalidad extranjera",
+      "value": "113",
+      "unit": "personas",
+      "period": "2025",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Zagra v0.1; [1] SIMA",
+      "page": "7",
+      "scale": "Zagra",
+      "denominator": "Recuento de residentes de nacionalidad extranjera",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 113.0,
+      "supportsConclusions": [
+        "C6"
+      ]
+    },
+    {
+      "id": "zagra-armon-renta",
+      "title": "Renta neta por persona",
+      "value": "10.656",
+      "unit": "euros/persona",
+      "period": "2024",
+      "topic": "Desigualdad",
+      "source": "Perfil de Salud Local de Zagra v0.1; [3] INE, tablas 31025 y 53694",
+      "page": "3",
+      "scale": "Zagra",
+      "denominator": "Personas de la población de referencia del Atlas de Renta",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 10656.0,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 13509
+        }
+      ],
+      "supportsConclusions": [
+        "C5"
+      ]
+    },
+    {
+      "id": "zagra-armon-pobreza",
+      "title": "Población bajo el 60 % de la mediana de ingresos",
+      "value": "37,0",
+      "unit": "%",
+      "period": "2024",
+      "topic": "Desigualdad",
+      "source": "Perfil de Salud Local de Zagra v0.1; [3] INE, tablas 31030, 53689 y 53694",
+      "page": "3",
+      "scale": "Zagra",
+      "denominator": "Población de referencia del Atlas de Renta",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 37.0,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 27.8
+        },
+        {
+          "label": "Andalucía",
+          "value": 26.2
+        }
+      ],
+      "supportsConclusions": [
+        "C5"
+      ]
+    },
+    {
+      "id": "zagra-armon-diabetes",
+      "title": "Diabetes",
+      "value": "10,36",
+      "unit": "%",
+      "period": "2015",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 34",
+      "page": "8",
+      "scale": "Zagra",
+      "denominator": "Denominador no explicitado por la fuente",
+      "temporalContext": "historical",
+      "caution": "Dato histórico. La fuente no explicita el denominador; no extrapolar al presente.",
+      "chartValue": 10.36,
+      "comparisons": [
+        {
+          "label": "Distrito Granada Metropolitano",
+          "value": 7.01
+        }
+      ],
+      "supportsConclusions": [
+        "C4"
+      ]
+    },
+    {
+      "id": "zagra-armon-hipertension",
+      "title": "Hipertensión arterial",
+      "value": "27,56",
+      "unit": "%",
+      "period": "2015",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 34",
+      "page": "8",
+      "scale": "Zagra",
+      "denominator": "Denominador no explicitado por la fuente",
+      "temporalContext": "historical",
+      "caution": "Dato histórico. La fuente no explicita el denominador; no extrapolar al presente.",
+      "chartValue": 27.56,
+      "comparisons": [
+        {
+          "label": "Distrito Granada Metropolitano",
+          "value": 12.32
+        }
+      ],
+      "supportsConclusions": [
+        "C4"
+      ]
+    },
+    {
+      "id": "zagra-armon-epoc",
+      "title": "EPOC",
+      "value": "4,39",
+      "unit": "%",
+      "period": "2015",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 34",
+      "page": "8",
+      "scale": "Zagra",
+      "denominator": "Denominador no explicitado por la fuente",
+      "temporalContext": "historical",
+      "caution": "Dato histórico. La fuente no explicita el denominador; no extrapolar al presente.",
+      "chartValue": 4.39,
+      "comparisons": [
+        {
+          "label": "Distrito Granada Metropolitano",
+          "value": 3.99
+        }
+      ]
+    },
+    {
+      "id": "zagra-armon-demencia",
+      "title": "Demencia",
+      "value": "4,39",
+      "unit": "%",
+      "period": "2015",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 34",
+      "page": "8",
+      "scale": "Zagra",
+      "denominator": "Denominador no explicitado por la fuente",
+      "temporalContext": "historical",
+      "caution": "Dato histórico. La fuente no explicita el denominador; no extrapolar al presente.",
+      "chartValue": 4.39,
+      "comparisons": [
+        {
+          "label": "Distrito Granada Metropolitano",
+          "value": 3.7
+        }
+      ]
+    },
+    {
+      "id": "zagra-armon-insuficiencia",
+      "title": "Insuficiencia cardíaca",
+      "value": "0,44",
+      "unit": "%",
+      "period": "2015",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 34",
+      "page": "8",
+      "scale": "Zagra",
+      "denominator": "Denominador no explicitado por la fuente",
+      "temporalContext": "historical",
+      "caution": "Dato histórico. La fuente no explicita el denominador; no extrapolar al presente.",
+      "chartValue": 0.44,
+      "comparisons": [
+        {
+          "label": "Distrito Granada Metropolitano",
+          "value": 4.84
+        }
+      ]
+    },
+    {
+      "id": "zagra-armon-tao",
+      "title": "Pacientes en anticoagulación",
+      "value": "44,8",
+      "unit": "%",
+      "period": "2015",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 34",
+      "page": "8",
+      "scale": "Zagra",
+      "denominator": "Denominador no explicitado por la fuente",
+      "temporalContext": "historical",
+      "caution": "Dato histórico. La fuente no explicita el denominador; no extrapolar al presente. No interpretar el 44,8 % como porcentaje de habitantes.",
+      "chartValue": 44.8,
+      "comparisons": [
+        {
+          "label": "Distrito Granada Metropolitano",
+          "value": 23.3
+        }
+      ]
+    },
+    {
+      "id": "zagra-armon-muertes2015",
+      "title": "Defunciones históricas",
+      "value": "17",
+      "unit": "personas",
+      "period": "2015",
+      "topic": "Mortalidad",
+      "source": "Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 30",
+      "page": "8",
+      "scale": "Zagra",
+      "denominator": "Recuento anual (9 hombres, 8 mujeres)",
+      "temporalContext": "historical",
+      "caution": "",
+      "chartValue": 17.0
+    },
+    {
+      "id": "zagra-armon-tbm",
+      "title": "Tasa bruta de mortalidad publicada en el texto",
+      "value": "18,9",
+      "unit": "‰",
+      "period": "2015",
+      "topic": "Mortalidad",
+      "source": "Perfil de Salud Local de Zagra v0.1; [4] p. 30; discrepancia con [12], apartado 6.3",
+      "page": "13",
+      "scale": "Zagra",
+      "denominator": "Por 1.000 habitantes según la tasa publicada",
+      "temporalContext": "historical",
+      "caution": "Dato histórico. El texto publica 18,9 ‰ y VIGIA 10,01; se conserva la discrepancia sin elegir ni recalcular.",
+      "chartValue": 18.9
+    },
+    {
+      "id": "zagra-armon-cancer",
+      "title": "Incidencia anual estandarizada de todos los cánceres",
+      "value": "277,1",
+      "unit": "casos por 100.000 y año",
+      "period": "2008-2012",
+      "topic": "Cáncer",
+      "source": "Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 33",
+      "page": "8",
+      "scale": "Zagra",
+      "denominator": "Población de referencia de la tasa publicada",
+      "temporalContext": "historical",
+      "caution": "Serie histórica; no describe la incidencia actual.",
+      "chartValue": 277.1,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 459.3
+        }
+      ]
+    },
+    {
+      "id": "zagra-armon-votos-emocional",
+      "title": "Priorización: Bienestar emocional y salud mental",
+      "value": "84,8",
+      "unit": "%",
+      "period": "14-24/5/2026",
+      "topic": "Priorización ciudadana",
+      "source": "Perfil de Salud Local de Zagra v0.1; [5] papeleta de priorización temática",
+      "page": "10",
+      "scale": "Zagra",
+      "denominator": "158 papeletas completas; respuesta múltiple",
+      "temporalContext": "current",
+      "caution": "Preferencias de participantes; no prevalencia ni representatividad municipal.",
+      "chartValue": 84.8,
+      "supportsConclusions": [
+        "C2"
+      ]
+    },
+    {
+      "id": "zagra-armon-votos-actividad",
+      "title": "Priorización: Actividad física",
+      "value": "74,7",
+      "unit": "%",
+      "period": "14-24/5/2026",
+      "topic": "Priorización ciudadana",
+      "source": "Perfil de Salud Local de Zagra v0.1; [5] papeleta de priorización temática",
+      "page": "10",
+      "scale": "Zagra",
+      "denominator": "158 papeletas completas; respuesta múltiple",
+      "temporalContext": "current",
+      "caution": "Preferencias de participantes; no prevalencia ni representatividad municipal.",
+      "chartValue": 74.7,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "zagra-armon-votos-alimentacion",
+      "title": "Priorización: Alimentación",
+      "value": "71,5",
+      "unit": "%",
+      "period": "14-24/5/2026",
+      "topic": "Priorización ciudadana",
+      "source": "Perfil de Salud Local de Zagra v0.1; [5] papeleta de priorización temática",
+      "page": "10",
+      "scale": "Zagra",
+      "denominator": "158 papeletas completas; respuesta múltiple",
+      "temporalContext": "current",
+      "caution": "Preferencias de participantes; no prevalencia ni representatividad municipal.",
+      "chartValue": 71.5,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "zagra-armon-votos-sueno",
+      "title": "Priorización: Sueño y descanso",
+      "value": "65,8",
+      "unit": "%",
+      "period": "14-24/5/2026",
+      "topic": "Priorización ciudadana",
+      "source": "Perfil de Salud Local de Zagra v0.1; [5] papeleta de priorización temática",
+      "page": "10",
+      "scale": "Zagra",
+      "denominator": "158 papeletas completas; respuesta múltiple",
+      "temporalContext": "current",
+      "caution": "Preferencias de participantes; no prevalencia ni representatividad municipal.",
+      "chartValue": 65.8
+    },
+    {
+      "id": "zagra-armon-votos-sexualidad",
+      "title": "Priorización: Sexualidad y salud",
+      "value": "34,8",
+      "unit": "%",
+      "period": "14-24/5/2026",
+      "topic": "Priorización ciudadana",
+      "source": "Perfil de Salud Local de Zagra v0.1; [5] papeleta de priorización temática",
+      "page": "10",
+      "scale": "Zagra",
+      "denominator": "158 papeletas completas; respuesta múltiple",
+      "temporalContext": "current",
+      "caution": "Preferencias de participantes; no prevalencia ni representatividad municipal.",
+      "chartValue": 34.8
+    },
+    {
+      "id": "zagra-armon-papeletas",
+      "title": "Papeletas completas de priorización",
+      "value": "158",
+      "unit": "respuestas",
+      "period": "14-24/5/2026",
+      "topic": "Priorización ciudadana",
+      "source": "Perfil de Salud Local de Zagra v0.1; [5] exportación REDCap",
+      "page": "10",
+      "scale": "Zagra",
+      "denominator": "164 registros; 158 completos",
+      "temporalContext": "current",
+      "caution": "Recuento de respuestas, no muestra probabilística acreditada.",
+      "chartValue": 158.0
+    },
+    {
+      "id": "zagra-armon-recursos",
+      "title": "Fichas registradas en Localiza Salud",
+      "value": "3",
+      "unit": "fichas",
+      "period": "Octubre 2026",
+      "topic": "Activos",
+      "source": "Perfil de Salud Local de Zagra v0.1; [7] inventario Localiza Salud",
+      "page": "9",
+      "scale": "Zagra",
+      "denominator": "Tres fichas individuales",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 3.0,
+      "supportsConclusions": [
+        "C7"
+      ]
+    },
+    {
+      "id": "zagra-armon-validados",
+      "title": "Activos con validación declarada",
+      "value": "3",
+      "unit": "activos",
+      "period": "21/10/2026",
+      "topic": "Activos",
+      "source": "Perfil de Salud Local de Zagra v0.1; Declaración de validación conservada en el expediente Firebase",
+      "page": "Declaración del expediente",
+      "scale": "Zagra",
+      "denominator": "Las tres fichas del documento Activos Localiza Salud Zagra",
+      "temporalContext": "current",
+      "caution": "La validación declarada no acredita cobertura ni resultados de salud.",
+      "chartValue": 3.0,
+      "supportsConclusions": [
+        "C7"
+      ]
+    },
+    {
+      "id": "zagra-renta-2024-1891301001-persona",
+      "title": "Renta neta media por persona",
+      "value": "10.656,245",
+      "unit": "euros por persona y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1891301001; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1891301001",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 10656.245,
+      "supportsConclusions": [
+        "C5"
+      ]
+    },
+    {
+      "id": "zagra-renta-2024-1891301001-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "25.525,424",
+      "unit": "euros por hogar y año",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1891301001; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1891301001",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 25525.424,
+      "supportsConclusions": [
+        "C5"
+      ]
+    },
+    {
+      "id": "zagra-renta-2024-1891301001-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "37,015",
+      "unit": "%",
+      "topic": "Desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1891301001; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1891301001",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 37.015,
+      "supportsConclusions": [
+        "C5"
+      ]
+    }
+  ],
+  "findings": [
+    "C1. La estructura de población y los hogares unipersonales hacen necesario conocer cuidados y apoyos.",
+    "C2. El bienestar emocional encabeza las preferencias de quienes participaron en 2026, con evidencia sanitaria local histórica.",
+    "C3. La actividad física y la alimentación se repiten como preferencias, sin medición local reciente de hábitos aportada.",
+    "C4. Los registros de diabetes e hipertensión de 2015 superaban los referentes del Distrito aportados; se desconoce su evolución posterior.",
+    "C5. La renta sitúa un contexto de desigualdad respecto a los referentes aportados, sin desagregación interna del municipio.",
+    "C6. La composición por nacionalidad ha cambiado y la consulta no permite identificar participación por origen.",
+    "C7. Tres activos con validación declarada aportan capacidades cuyo acceso y adecuación deben contrastarse.",
+    "C8. El archivo documenta un diagnóstico anterior y una nueva consulta en 2026; la continuidad requiere acuerdos actuales."
+  ],
+  "limitations": [
+    "Borrador pendiente de validación técnica humana.",
+    "Los 30 resultados y sus metadatos se conservan; no se han verificado de nuevo todas las fuentes primarias.",
+    "La salud registrada en 2008-2015 es histórica; no describe una actualización sanitaria de 2026.",
+    "La sección única de renta no localiza desigualdad interna ni equivale a datos por calle.",
+    "Mapa municipal, pirámide comparada y cierre del núcleo común pendientes.",
+    "Carga y recuperación desde Firebase y cotejo de presentaciones pendientes."
+  ],
+  "areas": [
+    {
+      "id": "R1",
+      "title": "R1. Obtener la actualización del Informe sobre la situación de salud de Zagra, con ámbito municipal y periodos identificados, sin sustituirla por resultados de Loja.",
+      "rationale": "Conocer · Deriva de C2, C4"
+    },
+    {
+      "id": "R2",
+      "title": "R2. Obtener una serie oficial actualizada de mortalidad por suicidio; si solo se dispone de un ámbito superior, identificarlo expresamente y no atribuirlo al municipio.",
+      "rationale": "Conocer · Deriva de C2"
+    },
+    {
+      "id": "R3",
+      "title": "R3. Actualizar el conocimiento local de alimentación, actividad física, sueño y bienestar emocional mediante un diseño que explicite población, selección y límites.",
+      "rationale": "Conocer · Deriva de C2, C3"
+    },
+    {
+      "id": "R4",
+      "title": "R4. Reunir con Servicios Sociales información de personas mayores que viven solas, dependencia, cuidados y apoyos, manteniendo separada la renta agregada.",
+      "rationale": "Conocer · Deriva de C1, C5"
+    },
+    {
+      "id": "R5",
+      "title": "R5. Contrastar con cuidadoras, cuidadores y la Asociación de Mujeres si persiste la sobrecarga señalada en 2017 y qué apoyos reconocen.",
+      "rationale": "Contrastar · Deriva de C1"
+    },
+    {
+      "id": "R6",
+      "title": "R6. Contrastar con participantes y comunidad qué entienden por bienestar emocional y salud mental y qué relación perciben con la soledad.",
+      "rationale": "Contrastar · Deriva de C2"
+    },
+    {
+      "id": "R7",
+      "title": "R7. Contrastar el papel reconocido de los activos de actividad física y relación social y documentar el sustento de las relaciones antes de formular una orientación de Abordar.",
+      "rationale": "Contrastar · Deriva de C3, C7"
+    },
+    {
+      "id": "R8",
+      "title": "R8. Escuchar las condiciones de vida y prioridades de residentes de nacionalidad marroquí y de otros orígenes, con vías accesibles de participación, sin presumir su ausencia de consultas anteriores.",
+      "rationale": "Contrastar · Deriva de C6"
+    },
+    {
+      "id": "R9",
+      "title": "R9. Revisar con la comunidad la vigencia de recursos de la guía de 2016 y su reconocimiento actual, conservando la validación declarada de los tres activos existentes.",
+      "rationale": "Contrastar · Deriva de C7"
+    },
+    {
+      "id": "R10",
+      "title": "R10. Revisar con el Grupo Motor la continuidad del proceso y la relación entre antecedentes de 2017 y priorización de 2026, antes de seleccionar líneas del Plan.",
+      "rationale": "Contrastar · Deriva de C8"
+    },
+    {
+      "id": "R11",
+      "title": "R11. Contrastar barreras económicas y de acceso a cuidados, prevención y activos con residentes y profesionales; no deducirlas exclusivamente de la renta censal.",
+      "rationale": "Contrastar · Deriva de C5, C7"
+    }
+  ]
+}

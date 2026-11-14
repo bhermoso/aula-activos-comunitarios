@@ -1,3 +1,9 @@
+## Revisión de preparación · 14/11/2026
+
+27/11/2026, 10:00–11:30. Priorización por líneas; comparación ESdE solo en la sesión.
+
+Referencia: Perfil 0.4-C1, 13/11/2026, en revisión técnica. PDF/JSON identificados en `materiales/perfiles-2026/referencias.json`. Las presentaciones anteriores se conservan como antecedentes. Preparado en rama; publicación pendiente. Esta revisión no modifica expedientes de COMPÁS ni registra validación.
+
 # Actualización vigente · 12/11/2026
 
 La próxima sesión del Grupo Motor de Loja será el **27/11/2026, de 10:00 a 11:30**. La preparación operativa está en `priorizacion-2026.html` y `SESION_PRIORIZACION_2026.md`. El encargo actual incluye revisión histórica, principales resultados del perfil y selección de líneas, objetivos e indicadores. El diseño detallado del mapeo se realiza a partir de estos acuerdos.

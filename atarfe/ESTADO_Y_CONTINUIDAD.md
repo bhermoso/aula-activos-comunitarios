@@ -1,3 +1,9 @@
+## Revisión de preparación · 14/11/2026
+
+26/11/2026, 11:00. Presentación del Perfil y priorización; cierre y sede por confirmar.
+
+Referencia: Perfil 0.6-C1, 13/11/2026, en revisión técnica. PDF/JSON identificados en `materiales/perfiles-2026/referencias.json`. Las presentaciones anteriores se conservan como antecedentes. Preparado en rama; publicación pendiente. Esta revisión no modifica expedientes de COMPÁS ni registra validación.
+
 # Atarfe — estado y continuidad
 
 Actualizado: 10 de noviembre de 2026.

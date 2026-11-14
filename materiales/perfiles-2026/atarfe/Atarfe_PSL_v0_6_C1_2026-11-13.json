@@ -1,0 +1,588 @@
+{
+  "schema": "compas-profile-package/v1",
+  "municipalityId": "atarfe",
+  "title": "Perfil de Salud Local de Atarfe · revisión 0.6-C1 · 13/11/2026",
+  "period": "Revisión 0.6-C1 · 13/11/2026; fuentes con sus periodos originales",
+  "author": "Revisión documental asistida para aceptación técnica; solicitud de Blas Ramón Hermoso Rico",
+  "summary": "Las ocho conclusiones describen un municipio joven, que crece y cuya carga de enfermedad sigue el patrón de la provincia. Lo que distingue a Atarfe en los registros sanitarios son cuatro diagnósticos más frecuentes que en Granada, el asma, el trastorno de ansiedad, la obesidad y la litiasis urinaria, y una distribución muy desigual por sexo del trastorno de ansiedad [2, tabla 6].\n\nEl Monitor, construido de otra manera y con participantes voluntarios, aporta una lectura descriptiva que debe contrastarse: el componente más bajo del bienestar es el que recoge la energía y la tranquilidad, y puntúan más bajo las mujeres y las personas en edad de trabajar [3]. Esa coincidencia es el hallazgo central del Perfil, y es una coexistencia observada en el territorio, no una explicación de sus causas.\n\nFrente al malestar, el diagnóstico encuentra capacidades: relaciones personales que la mayoría valora bien, una respuesta de 910 personas a una encuesta voluntaria y 20 recursos registrados. La renta por sección censal señala una sección, la 01004, con valores inferiores a los de las otras once; no hay datos de salud por zona que permitan relacionar esa diferencia con la salud (C1).",
+  "text": "Perfil de Salud Local de Atarfe\n\nVersión 0.6-C1 · 13 de noviembre de 2026 · borrador para validación técnica\n\nAtarfe en datos\n\nResumen. Atarfe tiene 20.952 habitantes [1] y ha crecido un 16,4 % entre 2014 y 2024, con una edad media de 39 años [2, tabla 1]. Su enfermedad crónica sigue el patrón de la provincia, con más asma, trastorno de ansiedad, obesidad y litiasis urinaria que Granada [2, tabla 6].\n\nDesigualdades. El trastorno de ansiedad registrado duplica en las mujeres el de los hombres [2, tabla 6], y en el Monitor de bienestar socioemocional puntúan más bajo las mujeres y las personas de 25 a 64 años [3]. Las mujeres son el 62,2 % de las personas en paro registrado [11]. La renta neta media por persona va de 9.290 euros en la sección censal 01004 a 12.864 euros en la 02003 [12].\n\nComunidad. El Ayuntamiento y el Distrito Sanitario reunieron 910 respuestas al Monitor, en papel y por QR, en institutos y otros espacios del municipio [3]. Localiza Salud recoge 20 registros [4]; un antecedente declara validados los 17 del listado de 5/11/2026 [13], pendiente de conciliar con las tres incorporaciones posteriores.\n\nSalud. El factor más bajo del bienestar socioemocional es el control, que reúne la energía y la tranquilidad: el 50,7 % de quienes respondieron se sintió tranquilo solo en algún momento o en ninguno durante la última semana [3].\n\nQuién vive aquí\n\nAtarfe tenía 20.952 habitantes en 2025, 10.476 hombres y 10.476 mujeres [1]. El 17,9 % tiene menos de 15 años y el 13,4 %, 65 o más [1]. Entre 2014 y 2024 la población creció un 16,4 %; en 2023 hubo 189 nacimientos y 109 defunciones, 1.358 inmigraciones y 1.051 emigraciones, y Marruecos es el primer país de procedencia de la población extranjera, con el 31,3 % [2, tabla 1 e introducción].\n\nEl 94,3 % de la población vive en agrupaciones urbanas y el término se clasifica como zona de densidad intermedia [5]. En 2024 se presentaron 10.194 declaraciones del IRPF, con una renta bruta media de 24.452 euros y una renta disponible media de 20.523 euros. En 2025 había 1.707 personas en paro registrado, 1.061 mujeres y 646 hombres, y la tasa municipal de desempleo era del 18,5 % [11]. No constan los hogares ni el nivel educativo.\n\nPanel de salud\n\nIndicador | Valor | Periodo | Fuente/localizador\n\nAsma | 1.508,96 casos por 10.000 hab. | 2024 | Informe de la situación de salud en el municipio de Atarfe (21/11/2025) · Tabla 6\n\nTrastorno de ansiedad | 1.126,49 casos por 10.000 hab. | 2024 | Informe de la situación de salud en el municipio de Atarfe (21/11/2025) · Tabla 6\n\nObesidad | 599,99 casos por 10.000 hab. | 2024 | Informe de la situación de salud en el municipio de Atarfe (21/11/2025) · Tabla 6\n\nLitiasis urinaria | 390,17 casos por 10.000 hab. | 2024 | Informe de la situación de salud en el municipio de Atarfe (21/11/2025) · Tabla 6\n\nDefunciones por enfermedades del sistema respiratorio | 15 defunciones | 2023 | Informe de la situación de salud en el municipio de Atarfe (21/11/2025) · Tabla 3\n\nIBSE total, 16 años o más | 61,0 puntos (0–100) | 2026 | Monitor de bienestar socioemocional Atarfe 2026 (REDCap) · Anexo B\n\nIBSE, factor Control (energía y tranquilidad) | 51,1 puntos (0–100) | 2026 | Monitor de bienestar socioemocional Atarfe 2026 (REDCap) · Anexo B\n\nCribado de cáncer de colon: participación sobre población elegible | 42,97 % | Sin periodo declarado en la tabla | Informe de la situación de salud en el municipio de Atarfe (21/11/2025) · Tabla 12\n\nCribado de cáncer de mama: participación sobre invitadas | 80,57 % | Sin periodo declarado en la tabla | Informe de la situación de salud en el municipio de Atarfe (21/11/2025) · Tabla 11\n\nEl Informe de Salud publica la morbilidad crónica registrada de 2024 con Granada como comparador [2, tabla 6]; la mortalidad de 2022 y 2023 [2, tabla 3]; la incidencia de cáncer de 2015 a 2019 [2]; la vigilancia de 2024 y 2025, con el Distrito y Andalucía como comparadores para las infecciones de transmisión sexual [2, tabla 9]; la cobertura vacunal y los cribados [2, tablas 10 a 12]. El Monitor aporta el bienestar socioemocional de 2026 en una escala común de 0 a 100, con la provincia de Granada de la Encuesta Andaluza de Salud de 2023 como referencia no local [3] [6]. Sin intervalos de confianza publicados, el panel no marca mejor ni peor.\n\nDesigualdad\n\nLa media de Atarfe esconde diferencias que el expediente solo permite ver en parte: la renta se conoce por sección censal; la salud, solo por sexo y edad.\n\nMujeres y hombres. El trastorno de ansiedad registrado alcanza 1.522,92 casos por 10.000 mujeres y 726,08 por 10.000 hombres; el hipotiroidismo, 1.265,22 y 273,36. Los hombres tienen más casos de cardiopatía isquémica, 275 frente a 101, de EPOC, 501 frente a 305, y de diabetes, 928 frente a 742 [2, tablas 4 a 6]. En el Monitor, las mujeres puntúan 61,0 y los hombres 64,3 [3]. De las 1.707 personas en paro registrado en 2025, 1.061 eran mujeres y 646 hombres [11].\n\nEdad. El índice del Monitor es de 67,6 entre los 13 y los 15 años, de 63,3 entre los 16 y los 24, de 59,5 entre los 25 y los 64 y de 63,3 a partir de los 65 [3]. La diferencia entre mujeres y hombres es mayor entre los 16 y los 24 años, 59,0 frente a 68,0 [3].\n\nSecciones censales. Atarfe tiene doce secciones censales en dos distritos. En 2024, la renta neta media por persona iba de 9.290 euros en la sección 01004 a 12.864 euros en la 02003, y la renta media por unidad de consumo, de 13.908 a 19.675 euros en esas mismas secciones [12]. La sección 01004 tiene el valor más bajo del municipio en los seis indicadores de renta de la tabla del INE. Entre las 674 secciones de la provincia de Granada con dato, es la trigésima con menor renta neta por persona, y diez de las doce secciones de Atarfe quedan por debajo de la mediana provincial de secciones, 12.597 euros (cálculo propio sobre [12]).\n\nIndicador [12], 2024 | Sección 01004 | Sección 02003\n\nRenta neta media por persona, € | 9.290 | 12.864\n\nRenta media por unidad de consumo, € | 13.908 | 19.675\n\nLo que no se ve. La tabla del INE no da la población de cada sección ni el barrio al que corresponde, y no hay datos de salud por sección. Puede verse dónde es más baja la renta; no si allí se concentran la enfermedad o el malestar. Que no se observe no significa que no exista.\n\n1. Punto de partida\n\nAtarfe es un municipio metropolitano de la Vega de Granada que crece y recibe población: 20.952 habitantes en 2025 [1], un 16,4 % más que en 2014 [2, tabla 1]. El Pleno aprobó la adhesión a la Red Local de Acción en Salud el 28 de noviembre de 2024 y el Ayuntamiento firmó el formulario de adhesión el 12 de marzo de 2025 [7]. El Grupo Motor está constituido. El 27 de febrero de 2026 se celebró el taller de impulso, con el Ayuntamiento, el centro de salud, el equipo directivo de los servicios de salud mental comunitaria, asociaciones y ciudadanía [8]; una reunión posterior presentó los resultados del Monitor. No hay actas de esas reuniones.\n\nLo que se sabe hoy de la salud de Atarfe procede del Informe de la situación de salud de Epidemiología del Distrito Sanitario Granada-Metropolitano, de 21 de noviembre de 2025 [2]; del Monitor de bienestar socioemocional, que el Ayuntamiento y el Distrito pasaron entre el 6 de marzo y el 26 de abril de 2026, con 910 respuestas y 811 válidas de personas de 13 a 88 años [3]; y de los 20 recursos de Atarfe en Localiza Salud [4]. El Monitor sustituyó a un proyecto de encuesta de salud de 691 entrevistas diseñado en 2025 [10].\n\nLas fórmulas del cuestionario del Monitor en REDCap no medían los cuatro factores en la misma escala: Vínculo solo podía llegar a 75 y Situación y Control empezaban en 25. Este Perfil usa los valores recalculados desde las ocho preguntas en una escala común de 0 a 100 [3] [9]; el cambio no afecta a las respuestas, pero sí al orden de los factores.\n\nLa renta se conoce por sección censal [12]; el empleo, solo para el conjunto del municipio [11]. No constan la vivienda ni el nivel educativo; ninguna priorización ciudadana; las actas del Grupo Motor; la conciliación de la declaración de validación de 17 registros con el inventario ampliado de 20; ni datos de salud de un ciclo anterior medidos de la misma manera. Es el primer ciclo diagnóstico de Atarfe en la Red.\n\n2. Conclusiones\n\nUna lectura de conjunto\n\nLas ocho conclusiones describen un municipio joven, que crece y cuya carga de enfermedad sigue el patrón de la provincia. Lo que distingue a Atarfe en los registros sanitarios son cuatro diagnósticos más frecuentes que en Granada, el asma, el trastorno de ansiedad, la obesidad y la litiasis urinaria, y una distribución muy desigual por sexo del trastorno de ansiedad [2, tabla 6].\n\nEl Monitor, construido de otra manera y con participantes voluntarios, aporta una lectura descriptiva que debe contrastarse: el componente más bajo del bienestar es el que recoge la energía y la tranquilidad, y puntúan más bajo las mujeres y las personas en edad de trabajar [3]. Esa coincidencia es el hallazgo central del Perfil, y es una coexistencia observada en el territorio, no una explicación de sus causas.\n\nFrente al malestar, el diagnóstico encuentra capacidades: relaciones personales que la mayoría valora bien, una respuesta de 910 personas a una encuesta voluntaria y 20 recursos registrados. La renta por sección censal señala una sección, la 01004, con valores inferiores a los de las otras once; no hay datos de salud por zona que permitan relacionar esa diferencia con la salud (C1).\n\nC1. Atarfe es un municipio joven y en crecimiento, y una de sus doce secciones censales, la 01004, tiene la renta más baja en todos los indicadores del INE.\n\nLa población creció un 16,4 % entre 2014 y 2024, con una edad media de 39 años y un 13,1 % de mayores de 65 [2, tabla 1]; en 2025, el 13,4 % [1]. El saldo migratorio fue positivo en 2023 y Marruecos es el primer país de procedencia de la población extranjera, con el 31,3 % [2, introducción]. El 94,3 % de la población vive en agrupaciones urbanas [5]. Es la estructura de un municipio metropolitano que recibe población. La renta bruta media declarada en el IRPF fue de 24.452 euros en 2024 y la tasa municipal de desempleo, del 18,5 % en 2025 [11]. Por sección censal, la renta neta media por persona de 2024 va de 9.290 euros en la 01004 a 12.864 euros en la 02003; la siguiente más baja, la 01006, tiene 10.899 euros [12]. La 01004 tiene el valor más bajo del municipio en los seis indicadores de renta del INE y es la trigésima más baja de las 674 secciones de la provincia con dato (cálculo propio sobre [12]). No hay datos por sección del empleo, la vivienda ni la salud, ni de si la población que llega se concentra en alguna zona.\n\nLleva a R1.\n\nC2. La enfermedad crónica sigue el patrón provincial, con más asma, trastorno de ansiedad, obesidad y litiasis urinaria que en Granada.\n\nLas primeras causas de muerte en 2023 fueron las enfermedades circulatorias, 27 defunciones, y los tumores, 24, como en la provincia y en Andalucía; las respiratorias pasaron de 11 a 15 entre 2022 y 2023 [2, tablas 2 y 3]. La dislipemia, con 2.332,12 casos por 10.000 habitantes, y la hipertensión, con 1.952,16, son los diagnósticos más frecuentes, con valores inferiores a los de Granada. Son superiores a Granada el asma, 1.508,96 frente a 1.402,49, el trastorno de ansiedad, 1.126,49 frente a 1.030,68, la obesidad, 599,99 frente a 553,83, y la litiasis urinaria, 390,17 frente a 356,51 [2, tabla 6].\n\nLleva a R2.\n\nC3. Los registros sanitarios y las respuestas al Monitor describen aspectos distintos del malestar emocional, con valores diferentes entre mujeres y hombres.\n\nEl trastorno de ansiedad registrado es más prevalente en Atarfe que en Granada y, dentro del municipio, duplica en las mujeres, 1.522,92 casos por 10.000, el valor de los hombres, 726,08 [2, tabla 6]. En el Monitor, el factor Control es el más bajo de los cuatro, 51,1 sobre 100: el 50,7 % se sintió tranquilo solo en algún momento o en ninguno durante la última semana, y el 46,1 % con energía solo en algún momento o en ninguno. Las mujeres puntúan por debajo de los hombres en el índice total, 61,0 frente a 64,3, y en Control, 49,0 frente a 54,8 [3]. Las mujeres son también el 62,2 % de las personas en paro registrado [11]. Son resultados observados en el mismo territorio y en periodos diferentes; sin datos individuales no puede saberse si afectan a las mismas personas ni que una cosa explique la otra.\n\nLleva a R4 y R5.\n\nC4. Entre quienes respondieron al Monitor, las puntuaciones más bajas se observan en la edad de trabajar y la diferencia por sexo es mayor entre los 16 y los 24 años.\n\nEl índice total es de 67,6 entre los 13 y los 15 años, baja a 63,3 entre los 16 y los 24 y se queda en 59,5 entre los 25 y los 64, donde Control cae a 45,5 en el tramo de 25 a 44 y a 47,4 en el de 45 a 64 [3]. Entre los 16 y los 24 años los hombres puntúan 68,0 y las mujeres 59,0; entre los 13 y los 15 la diferencia es menor, 69,9 frente a 65,2 [3]. Las personas de 25 a 64 años son, además, las que menos respondieron en proporción a su peso en el padrón, sobre todo los hombres (C6).\n\nLleva a R5 y R6.\n\nC5. En las respuestas al Monitor, Vínculo es el factor más alto y el 18,4 % declaró soledad buena parte del tiempo o casi siempre.\n\nVínculo es el factor más alto, 72,4, y apenas varía con la edad. Aun así, el 18,4 % se sintió solo buena parte del tiempo o casi siempre durante la última semana, y el 16,2 % deprimido [3]. Entre las personas de 65 o más años, el 11,1 % no se sintió feliz en ningún momento o casi en ninguno y otro 11,1 % no disfrutó de la vida, frente a menos del 5 % entre los 13 y los 44 años [3].\n\nLleva a R5 y R7.\n\nC6. El Monitor reunió 910 respuestas voluntarias y su muestra no reproduce la composición de la población.\n\nSe reunieron 910 respuestas en siete semanas [3]. Para la población de 15 o más años, 17.205 personas [1], una muestra aleatoria de 376 habría bastado como referencia; se reunieron 753 respuestas válidas de ese tramo. La muestra no es aleatoria y se aparta del padrón: las mujeres son el 64,8 %, frente al 50,4 %; las personas de 15 a 24 años, el 28,7 %, frente al 13,9 %; y los hombres de 65 o más, el 3,6 %, frente al 7,3 % [3] [1]. Reponderar por edad y sexo apenas cambia el índice total, 61,1 frente a 62,0 observado, pero no corrige quién eligió responder.\n\nLleva a R6.\n\nC7. Los recursos registrados centrados en el malestar emocional son sanitarios; los comunitarios se dirigen sobre todo a mayores, a jóvenes o a toda la población.\n\nDe los 20 recursos de Atarfe en Localiza Salud, 11 declaran la temática de bienestar emocional [4]. Cuatro están en el centro de salud: el Grupo de Afrontamiento de la Ansiedad, el Grupo Socioeducativo, el Taller de sueño saludable y la Unidad de salud mental comunitaria, que atiende a pacientes con necesidad de seguimiento. Los comunitarios se dirigen a personas mayores, como el Centro de Participación Activa y su taller de coro; a adolescentes y jóvenes, como el Espacio Joven; o a toda la población, como el Centro Cívico, la Asociación Artística y Cultural y los Talleres Artísticos. Entre los comunitarios, solo el Centro de Educación de Personas Adultas y los Talleres Artísticos declaran a las personas de 30 a 64 años entre sus destinatarios [4]; ninguno se dirige a la población en edad de trabajar en particular, la de bienestar más bajo (C4). El antecedente documental de 5/11/2026 declara validados por la persona responsable los 17 registros de aquel listado [13]. La tabla ampliada de 9/11/2026 contiene esos 17 identificadores y tres registros sin identificador. Se conserva esa declaración con su fecha y alcance; no se extiende a los tres añadidos ni equivale a una comprobación actual de sus fichas. Los dos registros 61585 y 61419 se mantienen separados hasta verificar su identidad.\n\nLleva a R7 y R8.\n\nC8. La prevención alcanza a casi toda la infancia y a la mayoría de las mujeres invitadas al cribado de mama, y a menos de la mitad de la población elegible para el de colon.\n\nLa cobertura vacunal supera el 96 % en todos los indicadores del informe [2, tabla 10]. En el cribado de cáncer de mama participa el 80,57 % de las mujeres invitadas, el 58,70 % de la población elegible; en el de colon, el 42,97 % de la población elegible [2, tablas 11 y 12].\n\nLleva a R3.\n\n3. Convergencias y divergencias\n\nCoinciden. El Informe registra más trastorno de ansiedad que en Granada y el doble en las mujeres [2, tabla 6], y el Monitor sitúa en el factor Control el bienestar más bajo, también menor en las mujeres [3]. Las dos fuentes miden cosas distintas: una cuenta diagnósticos en la historia clínica de quien consulta; la otra recoge cómo se sintió durante una semana quien quiso responder. La coincidencia descriptiva requiere contraste; no verifica una relación causal ni convierte las respuestas voluntarias en una medida de prevalencia poblacional.\n\nDiscrepan. Las personas de 16 o más años que respondieron en Atarfe puntúan 61,0 en el índice; la provincia de Granada, en la Encuesta Andaluza de Salud de 2023, 78,4 [3] [6]. La diferencia es grande y se da en los cuatro factores, pero puede deberse al modo de respuesta, cuestionario autoadministrado frente a entrevista personal, a la selección de quien responde y a los tres años entre ambas mediciones. Con la información disponible no puede atribuirse a ninguna de esas causas.\n\nSin contraste. Las defunciones por enfermedades respiratorias pasaron de 11 a 15 entre 2022 y 2023 y el asma registrada supera el valor provincial [2, tablas 3 y 6]. Ninguna otra fuente del expediente trata la salud respiratoria ni el entorno.\n\n4. Lo que no sabemos\n\nQué barrio corresponde a cada sección censal, cuánta población vive en ella y cómo se reparten el empleo, la vivienda, el nivel educativo y la salud entre secciones (afecta a C1, C3 y C4). Dónde se puede saber: INE, indicadores demográficos del Atlas de Distribución de Renta por sección (tabla 31033 de la provincia de Granada) y cartografía del seccionado censal; Censo de Población y Viviendas 2021 por sección; WikiBarrio como explorador por dirección; centro de salud y servicios sociales para la lectura del barrio.\n\nCuál es el bienestar emocional de la población con una muestra probabilística y el mismo modo de respuesta que la referencia (afecta a C3 y C6). Dónde se puede saber: segundo Monitor con cuestionario corregido y selección probabilística documentada. Las cuotas por edad y sexo pueden mejorar la composición, pero por sí solas no producen una muestra probabilística ni un margen de error de muestreo.\n\nCómo viven su bienestar las personas de 25 a 64 años, sobre todo los hombres (afecta a C4 y C6). Dónde se puede saber: respuestas de ese tramo en centros de trabajo, asociaciones y AMPA; material cualitativo del Grupo Motor.\n\nCómo se concilian los 17 registros cuya validación declara el antecedente de 5/11/2026 con los 20 del inventario posterior, y cuál es su accesibilidad actual (afecta a C7). Dónde se puede saber: documentación del responsable de la validación, fichas de Localiza Salud y contraste comunitario. No se elimina la declaración anterior por falta de constancia en la tabla posterior.\n\nQué líneas considera prioritarias el Grupo Motor tras el contraste técnico y ciudadano (afecta a C3, C4, C5 y C7). Dónde se puede saber: sesión de priorización por líneas estratégicas, conservando las aportaciones ciudadanas y su método. Este perfil no selecciona las líneas.\n\nPor qué participa menos de la mitad de la población elegible en el cribado de colon (afecta a C8). Dónde se puede saber: programa de cribado y centro de salud.\n\n5. Recomendaciones del Perfil\n\nOcho propuestas de revisión: dos de Conocer y seis de Contrastar. No se declara aceptada una relación de grado 1 o 2 que habilite Abordar. Ninguna propuesta selecciona líneas, actuaciones, responsables, presupuesto o plazos. La aceptación técnica humana está pendiente.\n\nConocer. Recuperar los datos que faltan\n\nR1. Conocer. Situar en el mapa la sección censal 01004 y conocer su población, vivienda y empleo, conservando el año y la escala de cada fuente.\n\nDeriva de C1.\n\nR6. Conocer. Documentar un nuevo Monitor con cuestionario corregido, criterios de inclusión y procedimiento de selección explícitos, que alcance a los grupos menos representados. Para estimación probabilística, justificar el diseño aleatorio; las cuotas por sí solas no lo sustituyen. Mantener la EAS como referencia contextual mientras difieran selección, periodo o modo de respuesta.\n\nDeriva de C4, C6.\n\nContrastar. Contrastar con el equipo y la comunidad\n\nR2. Contrastar. Contrastar con el centro de salud y Epidemiología la lectura de asma, obesidad, litiasis urinaria y mortalidad respiratoria que recoge el Informe, antes de proponer explicaciones territoriales.\n\nDeriva de C2.\n\nR3. Contrastar. Contrastar con el programa de cribado y el centro de salud el alcance de la participación en el cribado de colon y las posibles barreras, diferenciando invitación y participación.\n\nDeriva de C8.\n\nR4. Contrastar. Contrastar con el Grupo Motor y los servicios de salud mental la lectura conjunta de los registros de ansiedad y las respuestas del Monitor, manteniendo separados sus universos y periodos.\n\nDeriva de C3.\n\nR5. Contrastar. Contrastar con mujeres y personas en edad de trabajar las experiencias que recogen el Monitor y los registros sanitarios, y documentar el sustento de las relaciones propuestas antes de formular recomendaciones de Abordar. La elección de líneas corresponde a la priorización.\n\nDeriva de C3, C4, C5.\n\nR7. Contrastar. Contrastar por grupos de edad las experiencias de soledad y pérdida de disfrute, sin atribuir a las personas mayores el porcentaje global de soledad. Explorar con ellas y con los recursos comunitarios su accesibilidad y capacidad de apoyo.\n\nDeriva de C5, C7.\n\nR8. Contrastar. Conciliar por identificador los 17 registros con validación declarada en el antecedente y los 20 del inventario posterior; conservar 61585 y 61419 hasta resolver su identidad y completar los tres identificadores ausentes. Contrastar con la comunidad accesibilidad y uso, sin presumir ausencia de activos ni validar automáticamente los añadidos.\n\nDeriva de C7.\n\n6. Paso al Plan de Acción\n\nEl Grupo Motor recibe las conclusiones que el equipo técnico elija, las ocho recomendaciones y las preguntas abiertas. A partir de aquí decide qué priorizar, y el Plan de Acción fija las líneas, los objetivos y los indicadores del I Plan Local de Salud de Atarfe 2027-2030.\n\n7. Autoría y validación\n\nValidación técnica y aceptación de autoría responsable: pendientes. Revisión documental 0.6-C1 de 13/11/2026 elaborada con asistencia de IA a solicitud de Blas Ramón Hermoso Rico. Esta solicitud no equivale a aceptación de las interpretaciones ni aprobación del Grupo Motor.\n\nSe conserva la base de la v0.5 de 10/11/2026: 27 indicadores, ocho conclusiones, renta y empleo, y análisis del Monitor con la corrección del año de nacimiento 1993 a 33 años que declara ese antecedente. La v0.5 atribuye la redacción asistida de las versiones 0.1 a 0.5 a Claude, de 9 y 10/11/2026. Esta revisión corrige el alcance de recomendaciones, concilia documentalmente los activos y distingue muestreo aleatorio de cuotas. No repite el cálculo de microdatos ni valida las referencias primarias.\n\nLas figuras de la edición anterior se presentan aquí mediante tablas de datos conservados, sin crear mapas o pirámides sin fuente. El PDF original v0.5 se conserva en el historial. No se afirma identidad visual entre ediciones ni conformidad contractual completa.\n\nReferencias\n\n1. Instituto Nacional de Estadística. Padrón municipal de habitantes, 2025. Tabla 68535, municipio 18022 Atarfe [Internet]. Madrid: INE; [consultado 14 oct 2026].\n\n2. Unidad de Prevención, Promoción y Vigilancia de la Salud, Distrito Sanitario Granada-Metropolitano (del Moral Campaña C, Molina Rueda MJ). Informe de la situación de salud en el municipio de Atarfe. Granada: Servicio Andaluz de Salud; 21 de noviembre de 2025.\n\n3. Ayuntamiento de Atarfe; Distrito Sanitario Granada-Metropolitano. Monitor de bienestar socioemocional Atarfe 2026 (REDCap). Exportación de datos de 5 de noviembre de 2026; cálculo en escala común 0-100.\n\n4. Ministerio de Sanidad. Localiza Salud. Recursos del municipio de Atarfe (20 registros) [Internet]. Tabla aportada el 9 de noviembre de 2026.\n\n5. Instituto de Estadística y Cartografía de Andalucía. BADEA, consulta 19824: porcentaje de población según tipología de celda y grado de urbanización por municipio, 2024.\n\n6. Consejería de Salud y Consumo. Encuesta Andaluza de Salud 2023, submuestra de la provincia de Granada. Índice de Bienestar Socioemocional, cálculo propio desde microdatos en escala común 0-100.\n\n7. Ayuntamiento de Atarfe. Certificado del acuerdo del Pleno de 28 de noviembre de 2024 (expediente 7785/2024) y formulario de adhesión a la RELAS de 12 de marzo de 2025.\n\n8. Ayuntamiento de Atarfe; Distrito Sanitario Granada-Metropolitano. Guion del taller de impulso del Plan Local de Salud, 27 de febrero de 2026.\n\n9. Bericat E. The Socioemotional Well-Being Index (SEWBI): theoretical framework and empirical operationalisation. Soc Indic Res. 2014;119(2):599-626.\n\n10. Distrito Sanitario Granada-Metropolitano. Encuesta de salud de la población de Atarfe: justificación técnica, diseño muestral y presupuesto. Documento de trabajo; 2025.\n\n11. Instituto de Estadística y Cartografía de Andalucía. Sistema de Información Multiterritorial de Andalucía (SIMA). Ficha municipal de Atarfe (18022): IRPF 2024 y mercado de trabajo 2025 [Internet]. Actualizada el 9 de octubre de 2026 [consultado 10 nov 2026].\n\n12. Instituto Nacional de Estadística. Atlas de Distribución de Renta de los Hogares. Provincia de Granada: indicadores de renta media y mediana por municipios, distritos y secciones censales, tabla 31025, periodo 2024 [Internet]. Madrid: INE; [descargada 10 nov 2026].\n\n[13] Atarfe_PSL_v0_4_borrador.md, 5/11/2026, apartado 8 e inventario: declaración de validación de 17 registros atribuida a la persona responsable. Antecedente documental distinto de la v0.4 de 10/11/2026; no es verificación actual de Localiza Salud.\n\nAnexos\n\nEvidencia compilada, cálculos y trazabilidad.\n\nA. Trazabilidad de las conclusiones\n\nC1 · Hecho o interpretación documental\n\nFuente y localización: [1]; [2] tabla 1; [5]; [11]; [12]. Grado: no se declara validada una relación de grado 1 o 2. Límite: Sin correspondencia barrio-sección, población o salud por sección verificada. Recomendaciones: R1.\n\nC2 · Hecho o interpretación documental\n\nFuente y localización: [2] tablas 2, 3 y 6. Grado: no se declara validada una relación de grado 1 o 2. Límite: Se conservan las cifras oficiales y sus periodos. Recomendaciones: R2.\n\nC3 · Convergencia descriptiva\n\nFuente y localización: [2] tabla 6; [3] anexo B; [11]. Grado: no se declara validada una relación de grado 1 o 2. Límite: Diagnósticos y respuestas voluntarias no identifican a las mismas personas; no hay relación causal verificada. Recomendaciones: R4, R5.\n\nC4 · Hecho o interpretación documental\n\nFuente y localización: [3] anexos B y D. Grado: no se declara validada una relación de grado 1 o 2. Límite: Descripción de participantes, no estimación poblacional. Recomendaciones: R5, R6.\n\nC5 · Hecho o interpretación documental\n\nFuente y localización: [3] anexo B. Grado: no se declara validada una relación de grado 1 o 2. Límite: Soledad global y disfrute por edad son resultados diferentes. Recomendaciones: R5, R7.\n\nC6 · Hecho o interpretación documental\n\nFuente y localización: [1]; [3] anexo D. Grado: no se declara validada una relación de grado 1 o 2. Límite: Sin probabilidad de selección; reponderar no corrige autoselección. Recomendaciones: R6.\n\nC7 · Hecho o interpretación documental\n\nFuente y localización: [4] anexo E; [13]. Grado: no se declara validada una relación de grado 1 o 2. Límite: Validación de 17 declarada en antecedente; tres añadidos sin ID; duplicado no resuelto; accesibilidad sin verificar. Recomendaciones: R7, R8.\n\nC8 · Hecho o interpretación documental\n\nFuente y localización: [2] tablas 10-12. Grado: no se declara validada una relación de grado 1 o 2. Límite: Separar elegibles e invitados y conservar periodos del Informe. Recomendaciones: R3.\n\nB. Monitor de bienestar socioemocional Atarfe 2026\n\nFactor (preguntas) | Total | Hombres | Mujeres | 13–15 | 16–24 | 25–44 | 45–64 | 65+\n\nIBSE total | 62,2 | 64,3 | 61,0 | 67,6 | 63,3 | 59,4 | 59,5 | 63,3\n\nVínculo (deprimido, solo) | 72,4 | 73,8 | 71,6 | 73,1 | 71,6 | 70,6 | 73,1 | 73,5\n\nSituación (feliz, disfrutar) | 60,3 | 62,1 | 59,3 | 72,0 | 63,2 | 58,1 | 54,7 | 56,9\n\nControl (energía, tranquilo) | 51,1 | 54,8 | 49,0 | 57,2 | 54,0 | 45,5 | 47,4 | 54,9\n\nPersona (optimista, bien consigo) | 65,0 | 66,5 | 64,2 | 67,9 | 64,4 | 63,4 | 62,8 | 68,1\n\n811 respuestas válidas de 910 registros; hombres 294 y mujeres 517. Edades: 13-15, 145; 16-24, 129; 25-44, 177; 45-64, 216; 65 o más, 144. La v0.5 cuenta con 33 años el registro que traía 1993. El resultado estructurado ibse-total usa 666 respuestas de 16 o más años, media 61,0; la tabla anterior usa 811 respuestas de 13 o más, media 62,2. Son universos distintos, no resultados intercambiables.\n\nPregunta (última semana) | Total | Hombres | Mujeres\n\nSe sintió deprimido/a buena parte del tiempo o casi siempre | 16,2 % | 12,2 % | 18,4 %\n\nSe sintió solo/a buena parte del tiempo o casi siempre | 18,4 % | 19,4 % | 17,8 %\n\nSe sintió feliz en ningún momento o casi ninguno | 4,1 % | 2,7 % | 4,8 %\n\nDisfrutó de la vida en ningún momento o casi ninguno | 6,0 % | 4,8 % | 6,8 %\n\nRebosante de energía solo en algún momento o en ninguno | 46,1 % | 42,5 % | 48,2 %\n\nTranquilo/a y relajado/a solo en algún momento o en ninguno | 50,7 % | 45,2 % | 53,8 %\n\nEn desacuerdo con «he sido optimista respecto a mi futuro» | 14,9 % | 12,2 % | 16,4 %\n\nEn desacuerdo con «me he sentido bien conmigo mismo/a» | 12,0 % | 10,5 % | 12,8 %\n\nC. Escala del IBSE y corrección de las fórmulas\n\nCada pregunta se lleva a una escala de 0 a 100 en la que más es mejor. Frecuencia de una emoción negativa (deprimido, solo): (4 − respuesta) / 3 × 100. Frecuencia de una emoción positiva (feliz, disfrutar, energía, tranquilo): (respuesta − 1) / 3 × 100. Acuerdo, donde 1 es «muy de acuerdo» (optimista, bien conmigo mismo): (5 − respuesta) / 4 × 100. Cada factor es la media de sus dos preguntas y el índice total, la media de los cuatro factores.\n\nLa conversión entre ambas escalas es lineal y exacta (Vínculo × 4/3; Situación y Control (x − 25) × 4/3), y se ha aplicado también a la referencia de Granada de la Encuesta Andaluza de Salud 2023: total 78,4; Vínculo 86,1; Situación 79,2; Control 70,2; Persona 78,3. El diccionario de REDCap corregido está en COMPÁS (municipalities/atarfe/redcap).\n\n\n\nFactor | Fórmulas de REDCap (rango) | Valor con fórmulas de REDCap | Escala común\n\nVínculo | 0–75 | 54,3 | 72,4\n\nSituación | 25–100 | 70,2 | 60,3\n\nControl | 25–100 | 63,3 | 51,1\n\nPersona | 0–100 | 65,0 | 65,0\n\nIBSE total | 12,5–93,75 | 63,2 | 62,2\n\nD. Composición de la muestra del Monitor\n\nGrupo | Padrón 2025 hombres | Muestra hombres | Padrón 2025 mujeres | Muestra mujeres\n\n15–24 | 7,1 % | 13,9 % (105) | 6,8 % | 14,7 % (111)\n\n25–44 | 17,5 % | 7,4 % (56) | 17,9 % | 16,1 % (121)\n\n45–64 | 17,6 % | 10,2 % (77) | 16,7 % | 18,5 % (139)\n\n65 o más | 7,3 % | 3,6 % (27) | 9,0 % | 15,5 % (117)\n\nPoblación de 15 o más años: 17.205 (INE 2025). Muestra teórica de referencia (Cochran, 95 %, ±5 %, p = 0,5, con corrección por población finita): 376; supone selección aleatoria y no es aplicable como margen de error a esta muestra. 753 respuestas válidas de 15 o más años. Celdas sin respuestas: 90 años o más (137 personas en el padrón). Media reponderada por edad y sexo (sensibilidad, sin validar): total 61,1; Vínculo 72,3; Situación 58,0; Control 49,5; Persona 64,7.\n\n\n\nE. Recursos de Atarfe en Localiza Salud\n\nEl antecedente documental de 5/11/2026 declara validados por la persona responsable los 17 registros de aquel listado [13]. La tabla ampliada de 9/11/2026 contiene esos 17 identificadores y tres registros sin identificador. Se conserva esa declaración con su fecha y alcance; no se extiende a los tres añadidos ni equivale a una comprobación actual de sus fichas. Los dos registros 61585 y 61419 se mantienen separados hasta verificar su identidad.\n\nID | Recurso | Destinatarios | Temáticas en Localiza\n\n61948 | Asociación Artística y Cultural Ciudad Atarfe | Población general | Actividad física, Envejecimiento activo, Cultura y ocio, Escuela de salud/formación, Bienestar emocional\n\n61912 | Biblioteca Pública Municipal Marian Pineda de Atarfe | Población general | Cultura y ocio, Participación y acción comunitaria, Escuela de salud/formación\n\n61919 | Centro Cívico Almudena Grandes de Atarfe | Población general | Envejecimiento activo, Personas en riesgo de exclusión, Participación y acción comunitaria, Escuela de salud/formación, Bienestar emocional\n\nno consta | Centro Cultural Medina Elvira | Población general | Cultura y ocio, Participación y acción comunitaria\n\n61585 | Centro de Participación Activa de Atarfe | Mayores de 64 años | Alimentación saludable, Actividad física, Envejecimiento activo, Participación y acción comunitaria, Bienestar emocional\n\n61419 | Centro de Participación Activa de Atarfe | Otros | Alimentación saludable, Actividad física, Envejecimiento activo, Cultura y ocio, Participación y acción comunitaria\n\n61587 | Centro Público de Educación de Personas Adultas Mariana Pineda de Atarfe | Mayores de 64 años, Adultos (30-64 años) | Alimentación saludable, Envejecimiento activo, Participación y acción comunitaria, Escuela de salud/formación, Bienestar emocional\n\nno consta | Club de senderismo Castillejo | Población general | Actividad física, Envejecimiento activo, Participación y acción comunitaria\n\n61945 | Espacio Joven Atarfe | Jóvenes (18-29 años), Adolescentes (12-17 años) | Cultura y ocio, Participación y acción comunitaria, Bienestar emocional\n\n61427 | GIMNASIA MENTAL | Otros | Otros\n\n47600 | Grupo de Afrontamiento de la Ansiedad en Atención Primaria (GRAFA) | Jóvenes (18-29 años), Mayores de 64 años, Adultos (30-64 años) | Bienestar emocional\n\n61584 | Grupo Socioeducativo (GRUSE - Centro de Salud de Atarfe) | Jóvenes (18-29 años), Mayores de 64 años, Adultos (30-64 años) | Participación y acción comunitaria, Género/identidad, Bienestar emocional\n\n47602 | Piscina Cubierta Pública Atarfe (Granada) | Población general | Actividad física, Envejecimiento activo\n\n60152 | Punto Vuela Atarfe | Población general | Otros\n\n61944 | Radio Ilíberis 101.5 FM de Atrafe | Población general | Cultura y ocio, Participación y acción comunitaria\n\n61425 | Taller de Coro del Centro de Participación Activa de Atarfe | Otros | Alimentación saludable, Envejecimiento activo, Cultura y ocio, Participación y acción comunitaria, Bienestar emocional\n\n61429 | Taller de Senderismo del Centro de Participación Activa de Atarfe | Otros | Actividad física\n\n63552 | Taller de sueño saludable | Jóvenes (18-29 años), Mayores de 64 años, Adultos (30-64 años) | Participación y acción comunitaria, Enfermedades crónicas, Bienestar emocional\n\n61922 | Talleres Artísticos Ciudad de Atarfe | Jóvenes (18-29 años), Adolescentes (12-17 años), Mayores de 64 años, Adultos (30-64 años) | Envejecimiento activo, Cultura y ocio, Bienestar emocional\n\nno consta | Unidad de salud mental comunitaria de Atarfe | Población general | Prevención del suicidio, Otras adicciones, Enfermedades crónicas, Escuela de salud/formación, Bienestar emocional\n\nTres registros sin identificador en la tabla ampliada: Centro Cultural Medina Elvira, Club de senderismo Castillejo y Unidad de salud mental comunitaria. Se conservan los 20 registros y los nombres literales; no se comprueba en línea su vigencia. La declaración histórica de 17 no acredita cobertura, uso efectivo ni eficacia sanitaria.\n\nF. Inventario estructurado conservado\n\nPoblación · 20.952 habitantes\n\nID: pob-2025 · Periodo: 2025 · Escala: Municipio\nFuente: INE, Padrón municipal (tabla 68535) · Localizador: INE, Padrón 2025, tabla 68535; fuente [1] del perfil v0.5\nBase: No explicitada en el paquete de origen; no se inventa una población de referencia.\nNota: Sin nota adicional en el resultado de origen.\n\nCrecimiento de la población · +16,4 %\n\nID: crec · Periodo: 2014–2024 · Escala: Municipio\nFuente: Informe de la situación de salud en el municipio de Atarfe (21/11/2025) · Localizador: Introducción\nBase: No explicitada en el paquete de origen; no se inventa una población de referencia.\nNota: Sin nota adicional en el resultado de origen.\n\nPoblación de 65 años o más · 13,4 %\n\nID: 65mas · Periodo: 2025 · Escala: Municipio\nFuente: INE, Padrón municipal · Localizador: INE, Padrón 2025, tabla 68535; fuente [1] del perfil v0.5\nBase: No explicitada en el paquete de origen; no se inventa una población de referencia.\nNota: Sin nota adicional en el resultado de origen.\n\nAsma · 1.508,96 casos por 10.000 hab.\n\nID: asma · Periodo: 2024 · Escala: Municipio\nFuente: Informe de la situación de salud en el municipio de Atarfe (21/11/2025) · Localizador: Tabla 6\nBase: No explicitada en el paquete de origen; no se inventa una población de referencia.\nNota: Sin nota adicional en el resultado de origen.\n\nTrastorno de ansiedad · 1.126,49 casos por 10.000 hab.\n\nID: ansiedad · Periodo: 2024 · Escala: Municipio\nFuente: Informe de la situación de salud en el municipio de Atarfe (21/11/2025) · Localizador: Tabla 6\nBase: No explicitada en el paquete de origen; no se inventa una población de referencia.\nNota: Sin nota adicional en el resultado de origen.\n\nTrastorno de ansiedad, mujeres · 1.522,92 casos por 10.000 mujeres\n\nID: ansiedad-m · Periodo: 2024 · Escala: Municipio\nFuente: Informe de la situación de salud en el municipio de Atarfe (21/11/2025) · Localizador: Tabla 6\nBase: No explicitada en el paquete de origen; no se inventa una población de referencia.\nNota: Sin nota adicional en el resultado de origen.\n\nObesidad · 599,99 casos por 10.000 hab.\n\nID: obesidad · Periodo: 2024 · Escala: Municipio\nFuente: Informe de la situación de salud en el municipio de Atarfe (21/11/2025) · Localizador: Tabla 6\nBase: No explicitada en el paquete de origen; no se inventa una población de referencia.\nNota: Sin nota adicional en el resultado de origen.\n\nLitiasis urinaria · 390,17 casos por 10.000 hab.\n\nID: litiasis · Periodo: 2024 · Escala: Municipio\nFuente: Informe de la situación de salud en el municipio de Atarfe (21/11/2025) · Localizador: Tabla 6\nBase: No explicitada en el paquete de origen; no se inventa una población de referencia.\nNota: Sin nota adicional en el resultado de origen.\n\nDefunciones por enfermedades del sistema respiratorio · 15 defunciones\n\nID: resp · Periodo: 2023 · Escala: Municipio\nFuente: Informe de la situación de salud en el municipio de Atarfe (21/11/2025) · Localizador: Tabla 3\nBase: No explicitada en el paquete de origen; no se inventa una población de referencia.\nNota: 2022: 11\n\nIBSE total, 16 años o más · 61,0 puntos (0–100)\n\nID: ibse-total · Periodo: 2026 · Escala: Municipio\nFuente: Monitor de bienestar socioemocional Atarfe 2026 (REDCap) · Localizador: Anexo B\nBase: 666 respuestas válidas de 16 o más años\nNota: Muestra voluntaria no probabilística; referencia de Granada con otro modo de respuesta\n\nIBSE, factor Control (energía y tranquilidad) · 51,1 puntos (0–100)\n\nID: ibse-control · Periodo: 2026 · Escala: Municipio\nFuente: Monitor de bienestar socioemocional Atarfe 2026 (REDCap) · Localizador: Anexo B\nBase: 811 respuestas válidas\nNota: Muestra voluntaria no probabilística\n\nIBSE, factor Vínculo · 72,4 puntos (0–100)\n\nID: ibse-vinculo · Periodo: 2026 · Escala: Municipio\nFuente: Monitor de bienestar socioemocional Atarfe 2026 (REDCap) · Localizador: Anexo B\nBase: 811 respuestas válidas\nNota: Muestra voluntaria no probabilística\n\nSe sintió tranquilo/a solo en algún momento o en ninguno · 50,7 %\n\nID: tranquilo · Periodo: 2026 · Escala: Municipio\nFuente: Monitor de bienestar socioemocional Atarfe 2026 (REDCap) · Localizador: Anexo B\nBase: 811 respuestas válidas\nNota: Muestra voluntaria no probabilística\n\nSe sintió solo/a buena parte del tiempo o casi siempre · 18,4 %\n\nID: solo · Periodo: 2026 · Escala: Municipio\nFuente: Monitor de bienestar socioemocional Atarfe 2026 (REDCap) · Localizador: Anexo B\nBase: 811 respuestas válidas\nNota: Muestra voluntaria no probabilística\n\nRespuestas al Monitor · 910 registros\n\nID: respuestas · Periodo: 6/03–26/04/2026 · Escala: Municipio\nFuente: Monitor de bienestar socioemocional Atarfe 2026 (REDCap) · Localizador: Punto de partida\nBase: No explicitada en el paquete de origen; no se inventa una población de referencia.\nNota: 811 válidas\n\nRecursos registrados en Localiza Salud · 20 recursos\n\nID: localiza · Periodo: 2026 · Escala: Municipio\nFuente: Localiza Salud (tabla aportada el 09/11/2026) · Localizador: Anexo E\nBase: No explicitada en el paquete de origen; no se inventa una población de referencia.\nNota: Validación como activos no declarada; el Centro de Participación Activa figura dos veces Inventario de 20 registros; validación de 17 declarada por antecedente [13], tres añadidos sin identidad completa. No se infiere cobertura efectiva.\n\nCribado de cáncer de colon: participación sobre población elegible · 42,97 %\n\nID: colon · Periodo: Sin periodo declarado en la tabla · Escala: Municipio\nFuente: Informe de la situación de salud en el municipio de Atarfe (21/11/2025) · Localizador: Tabla 12\nBase: No explicitada en el paquete de origen; no se inventa una población de referencia.\nNota: Sin nota adicional en el resultado de origen.\n\nCribado de cáncer de mama: participación sobre invitadas · 80,57 %\n\nID: mama · Periodo: Sin periodo declarado en la tabla · Escala: Municipio\nFuente: Informe de la situación de salud en el municipio de Atarfe (21/11/2025) · Localizador: Tabla 11\nBase: No explicitada en el paquete de origen; no se inventa una población de referencia.\nNota: Sin nota adicional en el resultado de origen.\n\nRecursos de Localiza Salud con la temática de bienestar emocional · 11 recursos\n\nID: localiza-be · Periodo: 2026 · Escala: Municipio\nFuente: Localiza Salud (tabla aportada el 09/11/2026) · Localizador: Anexo E\nBase: 20 recursos\nNota: Validación como activos no declarada Inventario de 20 registros; validación de 17 declarada por antecedente [13], tres añadidos sin identidad completa. No se infiere cobertura efectiva.\n\nRenta bruta media declarada en el IRPF · 24.452 euros\n\nID: irpf-renta-bruta · Periodo: 2024 · Escala: Municipio\nFuente: IECA, SIMA, ficha municipal de Atarfe (actualizada el 09/10/2026) · Localizador: IRPF\nBase: 10.194 declaraciones\nNota: Media de las declaraciones; no es renta por hogar ni por persona\n\nRenta disponible media declarada en el IRPF · 20.523 euros\n\nID: irpf-renta-disponible · Periodo: 2024 · Escala: Municipio\nFuente: IECA, SIMA, ficha municipal de Atarfe (actualizada el 09/10/2026) · Localizador: IRPF\nBase: 10.194 declaraciones\nNota: Sin nota adicional en el resultado de origen.\n\nTasa municipal de desempleo · 18,5 %\n\nID: tasa-desempleo · Periodo: 2025 · Escala: Municipio\nFuente: IECA, SIMA, ficha municipal de Atarfe (actualizada el 09/10/2026) · Localizador: Mercado de trabajo\nBase: No explicitada en el paquete de origen; no se inventa una población de referencia.\nNota: Sin nota adicional en el resultado de origen.\n\nMujeres entre las personas en paro registrado · 62,2 %\n\nID: paro-mujeres · Periodo: 2025 · Escala: Municipio\nFuente: IECA, SIMA, ficha municipal de Atarfe (actualizada el 09/10/2026) · Localizador: Mercado de trabajo\nBase: 1.707 personas en paro registrado\nNota: 1.061 mujeres y 646 hombres\n\nRenta neta media por persona, sección censal 01004 (la más baja del municipio) · 9.290 euros\n\nID: adrh-renta-persona-min · Periodo: 2024 · Escala: Sección censal\nFuente: INE, Atlas de Distribución de Renta de los Hogares, tabla 31025 · Localizador: Desigualdad\nBase: No explicitada en el paquete de origen; no se inventa una población de referencia.\nNota: Sin nota adicional en el resultado de origen.\n\nRenta neta media por persona, sección censal 02003 (la más alta del municipio) · 12.864 euros\n\nID: adrh-renta-persona-max · Periodo: 2024 · Escala: Sección censal\nFuente: INE, Atlas de Distribución de Renta de los Hogares, tabla 31025 · Localizador: Desigualdad\nBase: No explicitada en el paquete de origen; no se inventa una población de referencia.\nNota: Sin nota adicional en el resultado de origen.\n\nRenta media por unidad de consumo, sección censal 01004 · 13.908 euros\n\nID: adrh-uc-min · Periodo: 2024 · Escala: Sección censal\nFuente: INE, Atlas de Distribución de Renta de los Hogares, tabla 31025 · Localizador: Desigualdad\nBase: No explicitada en el paquete de origen; no se inventa una población de referencia.\nNota: Sin nota adicional en el resultado de origen.\n\nRenta media por unidad de consumo, sección censal 02003 · 19.675 euros\n\nID: adrh-uc-max · Periodo: 2024 · Escala: Sección censal\nFuente: INE, Atlas de Distribución de Renta de los Hogares, tabla 31025 · Localizador: Desigualdad\nBase: No explicitada en el paquete de origen; no se inventa una población de referencia.\nNota: Sin nota adicional en el resultado de origen.",
+  "results": [
+    {
+      "id": "pob-2025",
+      "title": "Población",
+      "value": "20.952",
+      "unit": "habitantes",
+      "source": "INE, Padrón municipal (tabla 68535)",
+      "page": "INE, Padrón 2025, tabla 68535; fuente [1] del perfil v0.5",
+      "period": "2025",
+      "caution": "",
+      "topic": "Demografía",
+      "scale": "Municipio",
+      "denominator": "",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C1"
+      ],
+      "chartValue": 20952
+    },
+    {
+      "id": "crec",
+      "title": "Crecimiento de la población",
+      "value": "+16,4",
+      "unit": "%",
+      "source": "Informe de la situación de salud en el municipio de Atarfe (21/11/2025)",
+      "page": "Introducción",
+      "period": "2014–2024",
+      "caution": "",
+      "topic": "Demografía",
+      "scale": "Municipio",
+      "denominator": "",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C1"
+      ],
+      "chartValue": 16.4
+    },
+    {
+      "id": "65mas",
+      "title": "Población de 65 años o más",
+      "value": "13,4",
+      "unit": "%",
+      "source": "INE, Padrón municipal",
+      "page": "INE, Padrón 2025, tabla 68535; fuente [1] del perfil v0.5",
+      "period": "2025",
+      "caution": "",
+      "topic": "Demografía",
+      "scale": "Municipio",
+      "denominator": "",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C1"
+      ],
+      "chartValue": 13.4
+    },
+    {
+      "id": "asma",
+      "title": "Asma",
+      "value": "1.508,96",
+      "unit": "casos por 10.000 hab.",
+      "source": "Informe de la situación de salud en el municipio de Atarfe (21/11/2025)",
+      "page": "Tabla 6",
+      "period": "2024",
+      "caution": "",
+      "topic": "Morbilidad crónica",
+      "scale": "Municipio",
+      "denominator": "",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C2"
+      ],
+      "chartValue": 1508.96,
+      "comparison": {
+        "label": "Granada",
+        "value": 1402.49
+      }
+    },
+    {
+      "id": "ansiedad",
+      "title": "Trastorno de ansiedad",
+      "value": "1.126,49",
+      "unit": "casos por 10.000 hab.",
+      "source": "Informe de la situación de salud en el municipio de Atarfe (21/11/2025)",
+      "page": "Tabla 6",
+      "period": "2024",
+      "caution": "",
+      "topic": "Morbilidad crónica",
+      "scale": "Municipio",
+      "denominator": "",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C2",
+        "C3"
+      ],
+      "chartValue": 1126.49,
+      "comparison": {
+        "label": "Granada",
+        "value": 1030.68
+      }
+    },
+    {
+      "id": "ansiedad-m",
+      "title": "Trastorno de ansiedad, mujeres",
+      "value": "1.522,92",
+      "unit": "casos por 10.000 mujeres",
+      "source": "Informe de la situación de salud en el municipio de Atarfe (21/11/2025)",
+      "page": "Tabla 6",
+      "period": "2024",
+      "caution": "",
+      "topic": "Morbilidad crónica",
+      "scale": "Municipio",
+      "denominator": "",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C3"
+      ],
+      "chartValue": 1522.92,
+      "comparison": {
+        "label": "Atarfe, hombres",
+        "value": 726.08
+      }
+    },
+    {
+      "id": "obesidad",
+      "title": "Obesidad",
+      "value": "599,99",
+      "unit": "casos por 10.000 hab.",
+      "source": "Informe de la situación de salud en el municipio de Atarfe (21/11/2025)",
+      "page": "Tabla 6",
+      "period": "2024",
+      "caution": "",
+      "topic": "Morbilidad crónica",
+      "scale": "Municipio",
+      "denominator": "",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C2"
+      ],
+      "chartValue": 599.99,
+      "comparison": {
+        "label": "Granada",
+        "value": 553.83
+      }
+    },
+    {
+      "id": "litiasis",
+      "title": "Litiasis urinaria",
+      "value": "390,17",
+      "unit": "casos por 10.000 hab.",
+      "source": "Informe de la situación de salud en el municipio de Atarfe (21/11/2025)",
+      "page": "Tabla 6",
+      "period": "2024",
+      "caution": "",
+      "topic": "Morbilidad crónica",
+      "scale": "Municipio",
+      "denominator": "",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C2"
+      ],
+      "chartValue": 390.17,
+      "comparison": {
+        "label": "Granada",
+        "value": 356.51
+      }
+    },
+    {
+      "id": "resp",
+      "title": "Defunciones por enfermedades del sistema respiratorio",
+      "value": "15",
+      "unit": "defunciones",
+      "source": "Informe de la situación de salud en el municipio de Atarfe (21/11/2025)",
+      "page": "Tabla 3",
+      "period": "2023",
+      "caution": "2022: 11",
+      "topic": "Mortalidad",
+      "scale": "Municipio",
+      "denominator": "",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C2"
+      ],
+      "chartValue": 15
+    },
+    {
+      "id": "ibse-total",
+      "title": "IBSE total, 16 años o más",
+      "value": "61,0",
+      "unit": "puntos (0–100)",
+      "source": "Monitor de bienestar socioemocional Atarfe 2026 (REDCap)",
+      "page": "Anexo B",
+      "period": "2026",
+      "caution": "Muestra voluntaria no probabilística; referencia de Granada con otro modo de respuesta",
+      "topic": "Bienestar socioemocional",
+      "scale": "Municipio",
+      "denominator": "666 respuestas válidas de 16 o más años",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C3",
+        "C6"
+      ],
+      "chartValue": 61.0,
+      "comparison": {
+        "label": "Granada, EAS 2023",
+        "value": 78.4
+      }
+    },
+    {
+      "id": "ibse-control",
+      "title": "IBSE, factor Control (energía y tranquilidad)",
+      "value": "51,1",
+      "unit": "puntos (0–100)",
+      "source": "Monitor de bienestar socioemocional Atarfe 2026 (REDCap)",
+      "page": "Anexo B",
+      "period": "2026",
+      "caution": "Muestra voluntaria no probabilística",
+      "topic": "Bienestar socioemocional",
+      "scale": "Municipio",
+      "denominator": "811 respuestas válidas",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C3",
+        "C4"
+      ],
+      "chartValue": 51.1
+    },
+    {
+      "id": "ibse-vinculo",
+      "title": "IBSE, factor Vínculo",
+      "value": "72,4",
+      "unit": "puntos (0–100)",
+      "source": "Monitor de bienestar socioemocional Atarfe 2026 (REDCap)",
+      "page": "Anexo B",
+      "period": "2026",
+      "caution": "Muestra voluntaria no probabilística",
+      "topic": "Bienestar socioemocional",
+      "scale": "Municipio",
+      "denominator": "811 respuestas válidas",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C5"
+      ],
+      "chartValue": 72.4
+    },
+    {
+      "id": "tranquilo",
+      "title": "Se sintió tranquilo/a solo en algún momento o en ninguno",
+      "value": "50,7",
+      "unit": "%",
+      "source": "Monitor de bienestar socioemocional Atarfe 2026 (REDCap)",
+      "page": "Anexo B",
+      "period": "2026",
+      "caution": "Muestra voluntaria no probabilística",
+      "topic": "Bienestar socioemocional",
+      "scale": "Municipio",
+      "denominator": "811 respuestas válidas",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C3"
+      ],
+      "chartValue": 50.7
+    },
+    {
+      "id": "solo",
+      "title": "Se sintió solo/a buena parte del tiempo o casi siempre",
+      "value": "18,4",
+      "unit": "%",
+      "source": "Monitor de bienestar socioemocional Atarfe 2026 (REDCap)",
+      "page": "Anexo B",
+      "period": "2026",
+      "caution": "Muestra voluntaria no probabilística",
+      "topic": "Bienestar socioemocional",
+      "scale": "Municipio",
+      "denominator": "811 respuestas válidas",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C5"
+      ],
+      "chartValue": 18.4
+    },
+    {
+      "id": "respuestas",
+      "title": "Respuestas al Monitor",
+      "value": "910",
+      "unit": "registros",
+      "source": "Monitor de bienestar socioemocional Atarfe 2026 (REDCap)",
+      "page": "Punto de partida",
+      "period": "6/03–26/04/2026",
+      "caution": "811 válidas",
+      "topic": "Participación",
+      "scale": "Municipio",
+      "denominator": "",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C6"
+      ],
+      "chartValue": 910
+    },
+    {
+      "id": "localiza",
+      "title": "Recursos registrados en Localiza Salud",
+      "value": "20",
+      "unit": "recursos",
+      "source": "Localiza Salud (tabla aportada el 09/11/2026)",
+      "page": "Anexo E",
+      "period": "2026",
+      "caution": "Validación como activos no declarada; el Centro de Participación Activa figura dos veces Inventario de 20 registros; validación de 17 declarada por antecedente [13], tres añadidos sin identidad completa. No se infiere cobertura efectiva.",
+      "topic": "Activos",
+      "scale": "Municipio",
+      "denominator": "",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C7"
+      ],
+      "chartValue": 20
+    },
+    {
+      "id": "colon",
+      "title": "Cribado de cáncer de colon: participación sobre población elegible",
+      "value": "42,97",
+      "unit": "%",
+      "source": "Informe de la situación de salud en el municipio de Atarfe (21/11/2025)",
+      "page": "Tabla 12",
+      "period": "Sin periodo declarado en la tabla",
+      "caution": "",
+      "topic": "Prevención",
+      "scale": "Municipio",
+      "denominator": "",
+      "temporalContext": "not-stated",
+      "supportsConclusions": [
+        "C8"
+      ],
+      "chartValue": 42.97
+    },
+    {
+      "id": "mama",
+      "title": "Cribado de cáncer de mama: participación sobre invitadas",
+      "value": "80,57",
+      "unit": "%",
+      "source": "Informe de la situación de salud en el municipio de Atarfe (21/11/2025)",
+      "page": "Tabla 11",
+      "period": "Sin periodo declarado en la tabla",
+      "caution": "",
+      "topic": "Prevención",
+      "scale": "Municipio",
+      "denominator": "",
+      "temporalContext": "not-stated",
+      "supportsConclusions": [
+        "C8"
+      ],
+      "chartValue": 80.57
+    },
+    {
+      "id": "localiza-be",
+      "title": "Recursos de Localiza Salud con la temática de bienestar emocional",
+      "value": "11",
+      "unit": "recursos",
+      "source": "Localiza Salud (tabla aportada el 09/11/2026)",
+      "page": "Anexo E",
+      "period": "2026",
+      "caution": "Validación como activos no declarada Inventario de 20 registros; validación de 17 declarada por antecedente [13], tres añadidos sin identidad completa. No se infiere cobertura efectiva.",
+      "topic": "Activos",
+      "scale": "Municipio",
+      "denominator": "20 recursos",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C7"
+      ],
+      "chartValue": 11
+    },
+    {
+      "id": "irpf-renta-bruta",
+      "title": "Renta bruta media declarada en el IRPF",
+      "value": "24.452",
+      "unit": "euros",
+      "source": "IECA, SIMA, ficha municipal de Atarfe (actualizada el 09/10/2026)",
+      "page": "IRPF",
+      "period": "2024",
+      "caution": "Media de las declaraciones; no es renta por hogar ni por persona",
+      "topic": "Renta",
+      "scale": "Municipio",
+      "denominator": "10.194 declaraciones",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C1"
+      ],
+      "chartValue": 24452
+    },
+    {
+      "id": "irpf-renta-disponible",
+      "title": "Renta disponible media declarada en el IRPF",
+      "value": "20.523",
+      "unit": "euros",
+      "source": "IECA, SIMA, ficha municipal de Atarfe (actualizada el 09/10/2026)",
+      "page": "IRPF",
+      "period": "2024",
+      "caution": "",
+      "topic": "Renta",
+      "scale": "Municipio",
+      "denominator": "10.194 declaraciones",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C1"
+      ],
+      "chartValue": 20523
+    },
+    {
+      "id": "tasa-desempleo",
+      "title": "Tasa municipal de desempleo",
+      "value": "18,5",
+      "unit": "%",
+      "source": "IECA, SIMA, ficha municipal de Atarfe (actualizada el 09/10/2026)",
+      "page": "Mercado de trabajo",
+      "period": "2025",
+      "caution": "",
+      "topic": "Empleo",
+      "scale": "Municipio",
+      "denominator": "",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C1"
+      ],
+      "chartValue": 18.5
+    },
+    {
+      "id": "paro-mujeres",
+      "title": "Mujeres entre las personas en paro registrado",
+      "value": "62,2",
+      "unit": "%",
+      "source": "IECA, SIMA, ficha municipal de Atarfe (actualizada el 09/10/2026)",
+      "page": "Mercado de trabajo",
+      "period": "2025",
+      "caution": "1.061 mujeres y 646 hombres",
+      "topic": "Empleo",
+      "scale": "Municipio",
+      "denominator": "1.707 personas en paro registrado",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C1",
+        "C3"
+      ],
+      "chartValue": 62.2
+    },
+    {
+      "id": "adrh-renta-persona-min",
+      "title": "Renta neta media por persona, sección censal 01004 (la más baja del municipio)",
+      "value": "9.290",
+      "unit": "euros",
+      "source": "INE, Atlas de Distribución de Renta de los Hogares, tabla 31025",
+      "page": "Desigualdad",
+      "period": "2024",
+      "caution": "",
+      "topic": "Renta",
+      "scale": "Sección censal",
+      "denominator": "",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C1"
+      ],
+      "chartValue": 9290
+    },
+    {
+      "id": "adrh-renta-persona-max",
+      "title": "Renta neta media por persona, sección censal 02003 (la más alta del municipio)",
+      "value": "12.864",
+      "unit": "euros",
+      "source": "INE, Atlas de Distribución de Renta de los Hogares, tabla 31025",
+      "page": "Desigualdad",
+      "period": "2024",
+      "caution": "",
+      "topic": "Renta",
+      "scale": "Sección censal",
+      "denominator": "",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C1"
+      ],
+      "chartValue": 12864
+    },
+    {
+      "id": "adrh-uc-min",
+      "title": "Renta media por unidad de consumo, sección censal 01004",
+      "value": "13.908",
+      "unit": "euros",
+      "source": "INE, Atlas de Distribución de Renta de los Hogares, tabla 31025",
+      "page": "Desigualdad",
+      "period": "2024",
+      "caution": "",
+      "topic": "Renta",
+      "scale": "Sección censal",
+      "denominator": "",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C1"
+      ],
+      "chartValue": 13908
+    },
+    {
+      "id": "adrh-uc-max",
+      "title": "Renta media por unidad de consumo, sección censal 02003",
+      "value": "19.675",
+      "unit": "euros",
+      "source": "INE, Atlas de Distribución de Renta de los Hogares, tabla 31025",
+      "page": "Desigualdad",
+      "period": "2024",
+      "caution": "",
+      "topic": "Renta",
+      "scale": "Sección censal",
+      "denominator": "",
+      "temporalContext": "current",
+      "supportsConclusions": [
+        "C1"
+      ],
+      "chartValue": 19675
+    }
+  ],
+  "findings": [
+    "C1. Atarfe es un municipio joven y en crecimiento, y una de sus doce secciones censales, la 01004, tiene la renta más baja en todos los indicadores del INE.",
+    "C2. La enfermedad crónica sigue el patrón provincial, con más asma, trastorno de ansiedad, obesidad y litiasis urinaria que en Granada.",
+    "C3. Los registros sanitarios y las respuestas al Monitor describen aspectos distintos del malestar emocional, con valores diferentes entre mujeres y hombres.",
+    "C4. Entre quienes respondieron al Monitor, las puntuaciones más bajas se observan en la edad de trabajar y la diferencia por sexo es mayor entre los 16 y los 24 años.",
+    "C5. En las respuestas al Monitor, Vínculo es el factor más alto y el 18,4 % declaró soledad buena parte del tiempo o casi siempre.",
+    "C6. El Monitor reunió 910 respuestas voluntarias y su muestra no reproduce la composición de la población.",
+    "C7. Los recursos registrados centrados en el malestar emocional son sanitarios; los comunitarios se dirigen sobre todo a mayores, a jóvenes o a toda la población.",
+    "C8. La prevención alcanza a casi toda la infancia y a la mayoría de las mujeres invitadas al cribado de mama, y a menos de la mitad de la población elegible para el de colon."
+  ],
+  "limitations": [
+    "Qué barrio corresponde a cada sección censal, cuánta población vive en ella y cómo se reparten el empleo, la vivienda, el nivel educativo y la salud entre secciones (afecta a C1, C3 y C4). Dónde se puede saber: INE, indicadores demográficos del Atlas de Distribución de Renta por sección (tabla 31033 de la provincia de Granada) y cartografía del seccionado censal; Censo de Población y Viviendas 2021 por sección; WikiBarrio como explorador por dirección; centro de salud y servicios sociales para la lectura del barrio.",
+    "Cuál es el bienestar emocional de la población con una muestra probabilística y el mismo modo de respuesta que la referencia (afecta a C3 y C6). Dónde se puede saber: segundo Monitor con el cuestionario corregido, selección aleatoria o cuotas por edad y sexo.",
+    "Cómo viven su bienestar las personas de 25 a 64 años, sobre todo los hombres (afecta a C4 y C6). Dónde se puede saber: respuestas de ese tramo en centros de trabajo, asociaciones y AMPA; material cualitativo del Grupo Motor.",
+    "Cómo se concilian los 17 registros cuya validación declara el antecedente de 5/11/2026 con los 20 del inventario posterior, y cuál es su accesibilidad actual (afecta a C7). Dónde se puede saber: documentación del responsable de la validación, fichas de Localiza Salud y contraste comunitario. No se elimina la declaración anterior por falta de constancia en la tabla posterior.",
+    "Qué líneas considera prioritarias el Grupo Motor tras el contraste técnico y ciudadano (afecta a C3, C4, C5 y C7). Dónde se puede saber: sesión de priorización por líneas estratégicas, conservando las aportaciones ciudadanas y su método. Este perfil no selecciona las líneas.",
+    "Por qué participa menos de la mitad de la población elegible en el cribado de colon (afecta a C8). Dónde se puede saber: programa de cribado y centro de salud.",
+    "Aceptación de autoría responsable, validación técnica y relaciones de grado 1/2 pendientes.",
+    "Cálculos del Monitor y referencias primarias heredados de v0.5, no recalculados en esta revisión.",
+    "Mapas, pirámide comparada y correspondencia territorial por sección pendientes."
+  ],
+  "areas": [
+    {
+      "id": "R1",
+      "title": "R1. Situar en el mapa la sección censal 01004 y conocer su población, vivienda y empleo, conservando el año y la escala de cada fuente.",
+      "rationale": "Conocer · Deriva de C1"
+    },
+    {
+      "id": "R2",
+      "title": "R2. Contrastar con el centro de salud y Epidemiología la lectura de asma, obesidad, litiasis urinaria y mortalidad respiratoria que recoge el Informe, antes de proponer explicaciones territoriales.",
+      "rationale": "Contrastar · Deriva de C2"
+    },
+    {
+      "id": "R3",
+      "title": "R3. Contrastar con el programa de cribado y el centro de salud el alcance de la participación en el cribado de colon y las posibles barreras, diferenciando invitación y participación.",
+      "rationale": "Contrastar · Deriva de C8"
+    },
+    {
+      "id": "R4",
+      "title": "R4. Contrastar con el Grupo Motor y los servicios de salud mental la lectura conjunta de los registros de ansiedad y las respuestas del Monitor, manteniendo separados sus universos y periodos.",
+      "rationale": "Contrastar · Deriva de C3"
+    },
+    {
+      "id": "R5",
+      "title": "R5. Contrastar con mujeres y personas en edad de trabajar las experiencias que recogen el Monitor y los registros sanitarios, y documentar el sustento de las relaciones propuestas antes de formular recomendaciones de Abordar. La elección de líneas corresponde a la priorización.",
+      "rationale": "Contrastar · Deriva de C3, C4, C5"
+    },
+    {
+      "id": "R6",
+      "title": "R6. Documentar un nuevo Monitor con cuestionario corregido, criterios de inclusión y procedimiento de selección explícitos, que alcance a los grupos menos representados. Para estimación probabilística, justificar el diseño aleatorio; las cuotas por sí solas no lo sustituyen. Mantener la EAS como referencia contextual mientras difieran selección, periodo o modo de respuesta.",
+      "rationale": "Conocer · Deriva de C4, C6"
+    },
+    {
+      "id": "R7",
+      "title": "R7. Contrastar por grupos de edad las experiencias de soledad y pérdida de disfrute, sin atribuir a las personas mayores el porcentaje global de soledad. Explorar con ellas y con los recursos comunitarios su accesibilidad y capacidad de apoyo.",
+      "rationale": "Contrastar · Deriva de C5, C7"
+    },
+    {
+      "id": "R8",
+      "title": "R8. Conciliar por identificador los 17 registros con validación declarada en el antecedente y los 20 del inventario posterior; conservar 61585 y 61419 hasta resolver su identidad y completar los tres identificadores ausentes. Contrastar con la comunidad accesibilidad y uso, sin presumir ausencia de activos ni validar automáticamente los añadidos.",
+      "rationale": "Contrastar · Deriva de C7"
+    }
+  ]
+}

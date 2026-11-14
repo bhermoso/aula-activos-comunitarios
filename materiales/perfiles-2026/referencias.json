@@ -1,0 +1,50 @@
+{
+  "alfacar": {
+    "municipality": "Alfacar",
+    "version": "0.6-C1",
+    "profileTitle": "Perfil de Salud Local de Alfacar · revisión consolidada 0.6-C1 · 13/11/2026",
+    "date": "2026-11-13",
+    "status": "En revisión",
+    "json": "materiales/perfiles-2026/alfacar/Alfacar_PSL_v0_6_C1_2026-11-13.json",
+    "pdf": "materiales/perfiles-2026/alfacar/Alfacar_PSL_v0_6_C1_2026-11-13.pdf",
+    "jsonSha256": "a6dcc268255d26ffd33ed80828005ca8f8b24ab14021f230758b263d68ed1a74",
+    "pdfSha256": "e3acd2c2ca305ec3fed369fa5581cb2cc5339638dfc4c64d1142f38593d3b4c9",
+    "results": 41
+  },
+  "atarfe": {
+    "municipality": "Atarfe",
+    "version": "0.6-C1",
+    "profileTitle": "Perfil de Salud Local de Atarfe · revisión 0.6-C1 · 13/11/2026",
+    "date": "2026-11-13",
+    "status": "En revisión",
+    "json": "materiales/perfiles-2026/atarfe/Atarfe_PSL_v0_6_C1_2026-11-13.json",
+    "pdf": "materiales/perfiles-2026/atarfe/Atarfe_PSL_v0_6_C1_2026-11-13.pdf",
+    "jsonSha256": "3079b711241ac5a60d76e3b98ce229e7b1faf170b6b31d8dbe050a3e709f4868",
+    "pdfSha256": "1d5beed645f7e81b70e52579239c705443d38a9aab549f5f5a70d7139c0879be",
+    "results": 27
+  },
+  "loja": {
+    "municipality": "Loja",
+    "version": "0.4-C1",
+    "profileTitle": "Perfil de Salud Local de Loja · revisión consolidada 0.4-C1 · 13/11/2026",
+    "date": "2026-11-13",
+    "status": "En revisión",
+    "json": "materiales/perfiles-2026/loja/Loja_PSL_v0_4_C1_2026-11-13.json",
+    "pdf": "materiales/perfiles-2026/loja/Loja_PSL_v0_4_C1_2026-11-13.pdf",
+    "jsonSha256": "02a48b516b034692cab36f890f845a2913c9b0af9566a8e541f04f4f3af79560",
+    "pdfSha256": "8ba16a55845b1041d127966644a255db2d6123deea54da91f9a4ec86b299b12d",
+    "results": 97
+  },
+  "zagra": {
+    "municipality": "Zagra",
+    "version": "0.2-C1",
+    "profileTitle": "Perfil de Salud Local de Zagra · revisión consolidada 0.2-C1 · 13/11/2026",
+    "date": "2026-11-13",
+    "status": "En revisión",
+    "json": "materiales/perfiles-2026/zagra/Zagra_PSL_v0_2_C1_2026-11-13.json",
+    "pdf": "materiales/perfiles-2026/zagra/Zagra_PSL_v0_2_C1_2026-11-13.pdf",
+    "jsonSha256": "c646601958ced80d443a53404e3c35a22b3450d20ad3641e4094eaf79c8361ce",
+    "pdfSha256": "789a7e8b15a77d549d3540548a76dd41ed314e26f72c7c0f659b0623d018e5fc",
+    "results": 30
+  }
+}

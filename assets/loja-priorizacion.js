@@ -11,6 +11,7 @@
   let editGeneration = 0;
   let account = null;
   let busy = false;
+  let previousSession = null;
 
   function emptyState() {
     return {schema: 'aula-loja-session/v1', municipalityId: 'loja', sessionDate: '2026-11-27', start: '10:00', end: '11:30', profileSha256: evidence.profileSha256, history: {}, historyNotes: '', participation: '', closingNotes: '', lines: []};
@@ -84,7 +85,14 @@
       const saved = await cloud.loadSession();
       if (generation !== editGeneration) throw new Error('Se ha editado la hoja mientras se recuperaba Firebase. Conserva los cambios antes de volver a recuperar.');
       if (!saved) { version = 0; $('#cloud-status').textContent = 'La sesión todavía no tiene una versión guardada. Puedes preparar y guardar su primera versión.'; return; }
-      if (saved.payload.schema !== 'aula-loja-complete/v1' || saved.payload.evidence.profileSha256 !== evidence.profileSha256) throw new Error('La sesión utiliza otra revisión del perfil. Contrasta sus fuentes antes de sustituirla.');
+      if (saved.payload.schema !== 'aula-loja-complete/v1') throw new Error('La sesión utiliza un formato incompatible.');
+      if (saved.payload.evidence?.profileSha256 !== evidence.profileSha256) {
+        previousSession = saved;
+        version = saved.version;
+        $('#download-previous-session').hidden = false;
+        $('#cloud-status').textContent = `La versión ${version} conserva un perfil anterior. Descárgala para cotejar sus acuerdos. La hoja actual no se ha sustituido; Guardar creará una nueva versión con el perfil 0.4-C1 y conservará la anterior en el historial.`;
+        return;
+      }
       const restored = checkedState(saved.payload.worksheet);
       state = restored; version = saved.version; dirty = false; renderDraft();
       $('#cloud-status').textContent = `Sesión recuperada desde Firebase. Versión ${version}.`;
@@ -100,7 +108,7 @@
     busy = true; updateCloudButtons();
     $('#cloud-status').textContent = 'Guardando hoja, perfil, indicadores y antecedentes en Firebase…';
     try {
-      const [profileResponse, pdfResponse] = await Promise.all([fetch('materiales/perfil-2026/Loja_PSL_renta_2024.json'), fetch('materiales/perfil-2026/Loja_PSL_renta_2024.pdf')]);
+      const [profileResponse, pdfResponse] = await Promise.all([fetch(evidence.profileJsonPath), fetch(evidence.profilePdfPath)]);
       if (!profileResponse.ok || !pdfResponse.ok) throw new Error('No se han podido recuperar los originales del perfil.');
       const profileJson = await profileResponse.text();
       const digest = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(profileJson));
@@ -292,6 +300,11 @@
       $('#export-session').addEventListener('click', exportSession);
       $('#import-session').addEventListener('change', importSession);
       $('#print-session').addEventListener('click', printSession);
+      $('#download-previous-session').addEventListener('click', () => {
+        if (!previousSession) return;
+        const url = URL.createObjectURL(new Blob([JSON.stringify(previousSession, null, 2)], {type:'application/json'}));
+        const link = document.createElement('a'); link.href=url; link.download=`loja-sesion-anterior-v${previousSession.version}.json`; link.click(); setTimeout(()=>URL.revokeObjectURL(url),1000);
+      });
       window.addEventListener('beforeunload', event => { if (dirty) {event.preventDefault(); event.returnValue = '';} });
       try {
         cloud = await import('./loja-firebase-session.js');

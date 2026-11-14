@@ -10,7 +10,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..')
 const read = file => readFileSync(path.join(root, file), 'utf8');
 const page = read('impulso/priorizacion-2026.html');
 const data = JSON.parse(read('impulso/materiales/perfil-2026/sesion-datos.json'));
-const profileBytes = readFileSync(path.join(root, 'impulso/materiales/perfil-2026/Loja_PSL_renta_2024.json'));
+const profileBytes = readFileSync(path.join(root, 'materiales/perfiles-2026/loja/Loja_PSL_v0_4_C1_2026-11-13.json'));
 const profile = JSON.parse(profileBytes);
 
 test('La convocatoria conserva fecha, horario y un programa de noventa minutos', () => {
