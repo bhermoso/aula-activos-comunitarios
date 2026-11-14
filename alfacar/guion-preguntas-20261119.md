@@ -4,6 +4,13 @@
 
 Elegir según el diálogo; no es necesario agotar las preguntas. Pedir ejemplos sin identificar a personas atendidas. Las preguntas recogen perspectivas, no convierten las respuestas en prioridades adoptadas.
 
+## Carlos del Moral Campaña · Epidemiología · Distrito Sanitario
+
+Primera intervención del coloquio, después de exponer el Informe de Salud. Elisa abre el contraste con las otras miradas; no solicita repetir la exposición. La segunda pregunta es una repregunta opcional, solo si no ha quedado respondida.
+
+1. Después de lo que nos has presentado, ¿qué aspecto de la salud de Alfacar te gustaría comprender mejor escuchando a quienes trabajan cada día con la población?
+2. ¿Qué pueden aportar esas experiencias cotidianas para completar o matizar la lectura de los datos?
+
 ## Mª Fátima Gómez Abad · Alcaldesa
 
 1. Desde su perspectiva como alcaldesa, ¿cómo describiría hoy la salud y el bienestar de quienes viven en Alfacar?
@@ -35,10 +42,6 @@ Mirada sanitaria de proximidad: la salud vista desde la relación cotidiana con 
 1. Desde Servicios Sociales, ¿cómo ve la relación entre las condiciones de vida y la salud de las personas y familias con las que trabaja?
 2. ¿Qué apoyos familiares, comunitarios o de los servicios públicos reconoce, y qué convendría conocer mejor sobre su acceso y funcionamiento?
 
-## Carlos del Moral Campaña · Epidemiología · Distrito Sanitario
-
-1. Desde la información que aporta el Informe de Salud, ¿qué lectura de conjunto haría de la salud de Alfacar?
-2. ¿Qué preguntas le gustaría contrastar con las experiencias de los servicios y de la ciudadanía para comprender mejor esa lectura?
 
 ## Blas Hermoso Rico · Educación para la salud y participación comunitaria · Distrito Sanitario
 
