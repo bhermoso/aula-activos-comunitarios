@@ -1,6 +1,6 @@
 # Revisión de los talleres de Alfacar, Atarfe, Loja y Zagra
 
-Preparación del 14/11/2026 sobre `main` a28745b8ae2936fd9a7a4eb203caf05da6386c6a. Cambios en rama; no publicados y sin escritura en Firebase.
+Preparación del 14/11/2026 sobre `main` a28745b8ae2936fd9a7a4eb203caf05da6386c6a. Primera publicación autorizada y desplegada el 14/11/2026 mediante PR #68, commit 12bb945b258873588cf4fd4d81f394907a3f70a0. Sin escritura en Firebase.
 
 | Contenedor | Taller | Convocatoria |
 |---|---|---|
@@ -21,8 +21,14 @@ Preparación del 14/11/2026 sobre `main` a28745b8ae2936fd9a7a4eb203caf05da6386c6
 
 32 comprobaciones automáticas: integridad de los ocho originales, identidad municipal, fechas, participantes y preguntas, enlace local, sintaxis de navegación, seis pares ESdE contra sus CSV conservados, y tamaño de la sesión por debajo del límite de guardado. `git diff --check` correcto.
 
-La comprobación visual no se pudo completar: Chromium de pruebas no pudo iniciarse por la restricción de sockets del proceso; el navegador compartido no alcanzó el servidor local y rechazó el protocolo de archivo. No se intentó eludir el bloqueo. Quedan pendientes proyección de todas las diapositivas, navegación visual en móvil e impresión, y prueba autenticada del ciclo de sesión de Loja sobre una versión de ensayo. Las pruebas estáticas no sustituyen esos controles.
+La primera comprobación visual local no se pudo completar: Chromium de pruebas no pudo iniciarse por la restricción de sockets del proceso; el navegador compartido no alcanzó el servidor local y rechazó el protocolo de archivo. No se intentó eludir el bloqueo. Quedan pendientes proyección de todas las diapositivas, navegación visual en móvil e impresión, y prueba autenticada del ciclo de sesión de Loja sobre una versión de ensayo. Las pruebas estáticas no sustituyen esos controles.
 
 Los perfiles siguen pendientes de aceptación técnica humana. En Atarfe, el campo `limitations` del JSON heredado conserva una formulación antigua sobre cuotas, aunque el cuerpo y R6 de C1 la distinguen de la selección probabilística. Esta revisión de talleres no cambia el original cargado: la presentación mantiene la distinción correcta y se registra la discrepancia para el próximo cotejo del paquete. En Alfacar siguen pendientes el diccionario participativo y las notas técnicas de fuente; Zagra conserva periodos sanitarios históricos. No se proclama validación ni actualización científica por el cambio de convocatoria.
 
 No se modifican las PR antiguas de actores de Loja, las reglas de seguridad ni el expediente de otro municipio. La PR de Zagra #42 sigue siendo una propuesta histórica aparte; aquí se conservan las diapositivas de `main` y se revisa la preparación del próximo taller.
+
+## Comprobación posterior a publicación
+
+GitHub Pages completó correctamente el despliegue. Se recorrieron las cuatro presentaciones publicadas (15 diapositivas de Alfacar, 17 de Atarfe, 25 de Loja y 19 de Zagra), comprobando avance y encuadre del contenido. No se detectaron desbordamientos verticales en las diapositivas recorridas. Se comprobaron en la página pública los ocho participantes y las preguntas desplegables de Alfacar, sin la asistencia retirada; la hoja de Loja cargó nueve conclusiones, las 26 prioridades históricas y habilitó la preparación de fichas. La fecha de Atarfe y la convocatoria de Loja se muestran correctamente. Se corrigen dos accesos superiores de las presentaciones para abrir directamente el PDF C1, en lugar del HTML antecedente.
+
+La revisión visual de escritorio no certifica impresión, adaptación móvil ni guardado autenticado de sesiones. No se ha iniciado sesión ni guardado contenido de prueba en Firebase.

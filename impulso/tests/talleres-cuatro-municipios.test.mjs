@@ -14,7 +14,7 @@ test('Cada taller identifica su propio perfil y originales con SHA-256',()=>{
   const p=JSON.parse(read(f.json));assert.equal(p.municipalityId,m);assert.equal(p.title,f.profileTitle);assert.equal(p.results.length,f.results);
   for(const ext of ['json','pdf'])assert.equal(createHash('sha256').update(readFileSync(path.join(root,f[ext]))).digest('hex'),f[ext+'Sha256']);
   const folder=m==='loja'?'impulso':m;const deck=read(folder+'/presentacion-perfil.html');
-  assert.ok(deck.includes(f.version));assert.ok(deck.includes('../'+f.pdf));assert.ok(deck.includes('../'+f.json));assert.ok(deck.includes('En revisión'));
+  assert.ok(deck.includes(f.version));if(['alfacar','atarfe'].includes(m))assert.ok(!deck.includes('href="perfil/"'));assert.ok(deck.includes('../'+f.pdf));assert.ok(deck.includes('../'+f.json));assert.ok(deck.includes('En revisión'));
   assert.ok(existsSync(path.join(root,folder,'presentacion-perfil-antecedente-20261114.html')));
  }
 });
