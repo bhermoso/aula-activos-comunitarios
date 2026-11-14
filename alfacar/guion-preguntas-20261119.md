@@ -14,17 +14,17 @@ Elegir según el diálogo; no es necesario agotar las preguntas. Pedir ejemplos 
 1. Desde su trabajo sociocultural, ¿qué observa sobre cómo se relaciona, participa y se siente la gente de Alfacar?
 2. ¿Qué espacios, iniciativas o vínculos comunitarios cree que convendría cuidar o fortalecer, y por qué?
 
-## Mª Ángeles Granados Contreras · Enfermera del Centro de Salud
+## María Ángeles Granados Contreras · Coordinadora de cuidados de enfermería
 
-1. Desde su experiencia en la atención cotidiana, ¿qué le cuentan las personas sobre su salud y sobre lo que les ayuda o les dificulta cuidarse?
-2. ¿Qué aspectos de esas experiencias cree que deberíamos comprender mejor entre el centro de salud y el resto del municipio?
+1. Desde la coordinación de los cuidados de enfermería, ¿cómo ve las necesidades y las capacidades de cuidado de la población de Alfacar?
+2. ¿Qué aspectos de la continuidad de los cuidados y de la relación con las familias y otros servicios cree que convendría conocer o fortalecer?
 
-## Miriam Denia Milla · Enfermera comunitaria
+## Miriam Denia Milla · Enfermera especializada en Enfermería Familiar y Comunitaria
 
 1. Cuando mira la salud de Alfacar desde la comunidad, ¿qué necesidades y fortalezas le llaman más la atención?
 2. ¿Cómo ve las relaciones entre el centro de salud, las asociaciones, los servicios y la ciudadanía, y qué posibilidades de colaboración reconoce?
 
-## Juana Jiménez Cobo · Enfermera escolar
+## Juana Jiménez Cobo · Enfermera referente de centros educativos
 
 1. Desde su relación con los centros educativos, ¿cómo percibe la salud y el bienestar de la infancia, la adolescencia y sus familias en Alfacar?
 2. ¿Qué nos ayudaría a escuchar mejor sus experiencias y a reconocer lo que favorece su bienestar dentro y fuera de la escuela?

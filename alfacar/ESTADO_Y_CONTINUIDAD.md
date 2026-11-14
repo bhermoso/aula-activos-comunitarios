@@ -1,6 +1,6 @@
 ## Participantes y guion · rectificación del 14/11/2026
 
-La relación visible incluye a Mª Fátima Gómez Abad, Elisa González Sánchez, Mª Ángeles Granados Contreras, Miriam Denia Milla, Juana Jiménez Cobo y Araceli Moya Alcalde, junto con Carlos del Moral Campaña y Blas Hermoso Rico del programa. Solo participantes, sin notas de asistencia sin intervención. Guion de dos preguntas abiertas por participante en `guion-preguntas-20261119.md` y en el apartado Coloquio del taller. Las preguntas no asignan por sí mismas una ponencia ni alteran el programa.
+La relación visible incluye a Mª Fátima Gómez Abad, Elisa González Sánchez, María Ángeles Granados Contreras, Miriam Denia Milla, Juana Jiménez Cobo y Araceli Moya Alcalde, junto con Carlos del Moral Campaña y Blas Hermoso Rico del programa. Solo participantes, sin notas de asistencia sin intervención. Guion de dos preguntas abiertas por participante en `guion-preguntas-20261119.md` y en el apartado Coloquio del taller. Las preguntas no asignan por sí mismas una ponencia ni alteran el programa.
 
 ## Revisión de preparación · 14/11/2026
 
