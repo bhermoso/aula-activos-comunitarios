@@ -1,3 +1,9 @@
+## Armonización de presentaciones · 14/11/2026
+
+Actualizada la demografía de la presentación de Atarfe con fuente IECA/SIMA: población, edad media y proporción de mayores de 65 años de 2025; variación 2014–2024; movimientos de 2024. Saldo natural: 158 − 107 = +51. Saldo migratorio: 1484 − 1077 = +407. La diapositiva de movimientos usa el mismo formato en los cuatro municipios y distingue movimientos anuales de variación decenal. Fuente: https://www.juntadeandalucia.es/institutodeestadisticaycartografia/sima/ficha.htm?mun=18022, consulta 14/11/2026.
+
+Retiradas las instrucciones de contrastar o validar colectivamente la lectura epidemiológica. Se conservan los datos sanitarios publicados con su fuente, periodo y base; las propuestas del taller se centran en participación y acción comunitaria. Los originales PDF/JSON del perfil y los informes se conservan sin cambios. Esta actualización afecta al material de presentación del Aula, no al expediente de Firebase.
+
 ## Revisión de preparación · 14/11/2026
 
 26/11/2026, 11:00. Presentación del Perfil y priorización; cierre y sede por confirmar.

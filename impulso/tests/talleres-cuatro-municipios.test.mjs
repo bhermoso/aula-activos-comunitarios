@@ -73,3 +73,17 @@ test('Loja conserva ESdE separada y no sobreescribe automáticamente sesiones an
  const payload={schema:'aula-loja-complete/v1',worksheet:{},evidence,originals:{profileJson:read(manifest.loja.json),profileJsonSha256:manifest.loja.jsonSha256,profilePdfBase64:readFileSync(path.join(root,manifest.loja.pdf)).toString('base64'),profilePdfSha256:manifest.loja.pdfSha256}};
  assert.ok(Buffer.byteLength(JSON.stringify(payload))<680000,'Margen bajo límite de 700000 bytes del guardado Firebase');
 });
+
+
+test('Los cuatro talleres usan el mismo año de movimientos y calculan ambos saldos con su propia fuente municipal',()=>{
+ const demographic=JSON.parse(read('materiales/presentaciones-2026/demografia-armonizada.json'));
+ const expected={alfacar:[21,-12],atarfe:[407,51],loja:[139,-38],zagra:[-36,-13]};
+ for(const [municipality,record] of Object.entries(demographic.municipalities)){
+  assert.equal(record.movementYear,2024);assert.equal(record.populationYear,2025);
+  assert.equal(record.incoming-record.outgoing,expected[municipality][0]);assert.equal(record.births-record.deaths,expected[municipality][1]);
+  const deck=read(record.folder+'/presentacion-perfil.html');
+  const movement=deck.match(/<section class="slide demographic-movements">([\s\S]*?)<\/section>/)[1];
+  assert.ok(movement.includes(record.sourceUrl));assert.ok(movement.includes('2024'));
+  assert.ok(!/contrastar (?:la lectura|lecturas) sanitari|Es un dato que pide contraste|valores de Granada son los correctos/i.test(deck));
+ }
+});

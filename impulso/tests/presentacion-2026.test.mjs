@@ -8,7 +8,7 @@ const page = read('presentacion-perfil.html');
 const comparison = JSON.parse(read('materiales/esde-2025/comparativa.json'));
 
 test('La presentación conserva convocatoria, navegación y las tres escalas de fuentes', () => {
-  assert.equal((page.match(/<section class="slide/g) ?? []).length, 25);
+  assert.equal((page.match(/<section class="slide/g) ?? []).length, 26);
   for (const text of ['27 noviembre 2026', '10:00–11:30', 'ESdE 2025', 'Provincia de Granada', 'Imprimir / PDF', 'presentacion-trayectoria-2026.html']) assert.ok(page.includes(text), text);
   assert.ok(page.includes('No se calcula una tendencia entre fuentes heterogéneas'));
 });

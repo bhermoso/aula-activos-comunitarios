@@ -1,3 +1,9 @@
+## Armonización de presentaciones · 14/11/2026
+
+Actualizada la demografía de la presentación de Alfacar con fuente IECA/SIMA: población, edad media y proporción de mayores de 65 años de 2025; variación 2014–2024; movimientos de 2024. Saldo natural: 33 − 45 = −12. Saldo migratorio: 286 − 265 = +21. La diapositiva de movimientos usa el mismo formato en los cuatro municipios y distingue movimientos anuales de variación decenal. Fuente: https://www.juntadeandalucia.es/institutodeestadisticaycartografia/sima/ficha.htm?mun=18011, consulta 14/11/2026.
+
+Retiradas las instrucciones de contrastar o validar colectivamente la lectura epidemiológica. Se conservan los datos sanitarios publicados con su fuente, periodo y base; las propuestas del taller se centran en participación y acción comunitaria. Los originales PDF/JSON del perfil y los informes se conservan sin cambios. Esta actualización afecta al material de presentación del Aula, no al expediente de Firebase.
+
 ## Composición del coloquio · corrección 14/11/2026
 
 Blas Hermoso Rico participa también en el coloquio como voz de educación para la salud y participación comunitaria. Figura dentro del semicírculo junto a las otras cinco voces, con Elisa presentando y moderando. Se conserva su intervención posterior del I al II Plan y la apertura institucional de la alcaldesa fuera del semicírculo.
