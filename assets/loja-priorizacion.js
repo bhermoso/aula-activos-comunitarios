@@ -281,7 +281,7 @@
       const response = await fetch('materiales/perfil-2026/sesion-datos.json');
       if (!response.ok) throw new Error('No se ha podido recuperar la documentación.');
       evidence = await response.json();
-      if (evidence.schema !== 'loja-session-evidence/v1' || evidence.history.length !== 26 || evidence.results.length !== 97 || evidence.income.length !== 17) throw new Error('La documentación está incompleta.');
+      if (evidence.schema !== 'loja-session-evidence/v1' || evidence.history.length !== 26 || evidence.results.length !== evidence.profileResultCount || evidence.income.length !== 17) throw new Error('La documentación está incompleta.');
       state = emptyState();
       renderDraft();
       $('#load-state').textContent = '';
@@ -307,7 +307,7 @@
       });
       window.addEventListener('beforeunload', event => { if (dirty) {event.preventDefault(); event.returnValue = '';} });
       try {
-        cloud = await import('./loja-firebase-session.js');
+        cloud = await import('./loja-firebase-session.js?v=20261116a');
         cloud.observeAccount(user => {
           account = user; version = 0; updateCloudButtons();
           $('#cloud-status').textContent = user ? `Conectado: ${user.email || user.displayName || 'cuenta de coordinación'}` : '';

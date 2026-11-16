@@ -30,7 +30,7 @@ test('Alfacar conserva seis participantes aportados y retira la asistencia sin i
  const s=read('alfacar/index.html');const roster=s.slice(s.indexOf('id="participantes"'));
  for(const name of ['Mª Fátima Gómez Abad','Elisa González Sánchez','María Ángeles Granados Contreras','Miriam Denia Milla','Juana Jiménez Cobo','Araceli Moya Alcalde'])assert.ok(roster.includes(name),name);
  assert.ok(!s.includes('Ana Belén')); assert.ok(!s.includes('sin intervención prevista'));
- assert.match(roster,/reparto de intervenciones de María Ángeles Granados Contreras y Araceli Moya Alcalde queda por acordar/);
+ assert.match(roster,/La mesa reúne seis participantes/);
  const map=s.slice(s.indexOf('class="fv-participant-map"'),s.indexOf('class="fv-open-questions"'));
  for(const name of ['Mª Fátima Gómez Abad','Elisa González Sánchez','María Ángeles Granados Contreras','Miriam Denia Milla','Juana Jiménez Cobo','Araceli Moya Alcalde','Carlos del Moral Campaña','Blas Hermoso Rico'])assert.ok(map.includes(name),'Gráfico: '+name);
  assert.equal((map.match(/class="fv-arc-person fv-arc-/g)||[]).length,6);
@@ -53,7 +53,7 @@ test('Elisa presenta y modera sin figurar entre las personas preguntadas',()=>{
  assert.ok(guides.every(([,guide])=>!guide.includes('Elisa González Sánchez')));
  assert.ok(s.includes('Presenta y modera'));
  for(const [,guide] of guides){assert.equal((guide.match(/<li>/g)||[]).length,2);assert.equal((guide.match(/¿/g)||[]).length,2);}
- assert.ok(s.includes('no un cuestionario que deba agotarse'));
+ assert.ok(s.includes('No es necesario agotarlas'));
  assert.ok(!read('alfacar/guion-preguntas-20261119.md').includes('Ana Belén'));
 });
 test('Los enlaces relativos de las páginas modificadas y sus originales resuelven',()=>{
@@ -64,14 +64,14 @@ test('Los enlaces relativos de las páginas modificadas y sus originales resuelv
   }
  }
 });
-test('Loja conserva ESdE separada y no sobreescribe automáticamente sesiones anteriores',()=>{
+test('Loja conserva ESdE separada y no sobreescribe automáticamente sesiones anteriores',async()=>{
  const evidence=JSON.parse(read('impulso/materiales/perfil-2026/sesion-datos.json'));assert.equal(evidence.profileSha256,manifest.loja.jsonSha256);
  assert.equal(evidence.profilePdfSha256,manifest.loja.pdfSha256);assert.equal(evidence.surveyComparison.metrics.length,6);
  assert.ok(!JSON.parse(read(manifest.loja.json)).surveyComparison);
  const js=read('assets/loja-priorizacion.js');new Script(js);assert.ok(js.includes('fetch(evidence.profileJsonPath)'));assert.ok(js.includes('version = saved.version'));
  assert.ok(js.includes('previousSession = saved'));assert.ok(js.includes('download-previous-session'));assert.ok(!js.includes("fetch('materiales/perfil-2026/Loja_PSL_renta_2024"));
  const payload={schema:'aula-loja-complete/v1',worksheet:{},evidence,originals:{profileJson:read(manifest.loja.json),profileJsonSha256:manifest.loja.jsonSha256,profilePdfBase64:readFileSync(path.join(root,manifest.loja.pdf)).toString('base64'),profilePdfSha256:manifest.loja.pdfSha256}};
- assert.ok(Buffer.byteLength(JSON.stringify(payload))<680000,'Margen bajo límite de 700000 bytes del guardado Firebase');
+ const codec=await import('data:text/javascript;base64,'+Buffer.from(read('assets/session-content-codec.js')).toString('base64')); const content=await codec.encodeSessionContent(payload); assert.ok(Buffer.byteLength(content)<680000,'Margen bajo límite de 700000 bytes del guardado Firebase'); assert.deepEqual(await codec.decodeSessionContent(content),payload);
 });
 
 

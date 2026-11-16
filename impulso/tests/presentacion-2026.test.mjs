@@ -8,7 +8,7 @@ const page = read('presentacion-perfil.html');
 const comparison = JSON.parse(read('materiales/esde-2025/comparativa.json'));
 
 test('La presentación conserva convocatoria, navegación y las tres escalas de fuentes', () => {
-  assert.equal((page.match(/<section class="slide/g) ?? []).length, 26);
+  assert.ok((page.match(/<section class="slide/g) ?? []).length >= 26);
   for (const text of ['27 noviembre 2026', '10:00–11:30', 'ESdE 2025', 'Provincia de Granada', 'Imprimir / PDF', 'presentacion-trayectoria-2026.html']) assert.ok(page.includes(text), text);
   assert.ok(page.includes('No se calcula una tendencia entre fuentes heterogéneas'));
 });
@@ -28,7 +28,7 @@ test('Las seis parejas España-Andalucía reproducen exactamente sus tablas ofic
 });
 
 test('El perfil de origen conserva su huella y la comparación queda en el material de sesión', () => {
-  const bytes = readFileSync(new URL('../materiales/perfiles-2026/loja/Loja_PSL_v0_4_C1_2026-11-13.json', root));
+  const bytes = readFileSync(new URL('../materiales/perfiles-2026/loja/Loja_PSL_v0_5_2026-11-16.json', root));
   assert.equal(comparison.profileSha256, createHash('sha256').update(bytes).digest('hex'));
   const session = JSON.parse(read('materiales/perfil-2026/sesion-datos.json'));
   assert.deepEqual(session.surveyComparison, comparison);

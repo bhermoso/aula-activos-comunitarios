@@ -10,7 +10,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..')
 const read = file => readFileSync(path.join(root, file), 'utf8');
 const page = read('impulso/priorizacion-2026.html');
 const data = JSON.parse(read('impulso/materiales/perfil-2026/sesion-datos.json'));
-const profileBytes = readFileSync(path.join(root, 'materiales/perfiles-2026/loja/Loja_PSL_v0_4_C1_2026-11-13.json'));
+const profileBytes = readFileSync(path.join(root, 'materiales/perfiles-2026/loja/Loja_PSL_v0_5_2026-11-16.json'));
 const profile = JSON.parse(profileBytes);
 
 test('La convocatoria conserva fecha, horario y un programa de noventa minutos', () => {
@@ -27,7 +27,7 @@ test('La síntesis conserva los indicadores y la identidad del perfil de referen
   assert.equal(data.profileSha256, createHash('sha256').update(profileBytes).digest('hex'));
   assert.deepEqual(data.results, profile.results);
   assert.deepEqual(data.findings, profile.findings);
-  assert.equal(data.results.length, 97);
+  assert.equal(data.results.length, 493);
   assert.equal(data.history.length, 26);
   assert.deepEqual(data.history.map(item => Number(item.id)), Array.from({length: 26}, (_, index) => index + 1));
   assert.equal(data.income.length, 17);

@@ -1,3 +1,4 @@
+import {encodeSessionContent, decodeSessionContent} from './session-content-codec.js';
 import {initializeApp, getApps} from 'https://www.gstatic.com/firebasejs/12.19.0/firebase-app.js';
 import {getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged} from 'https://www.gstatic.com/firebasejs/12.19.0/firebase-auth.js';
 import {getFirestore, doc, getDocFromServer, runTransaction, serverTimestamp} from 'https://www.gstatic.com/firebasejs/12.19.0/firebase-firestore.js';
@@ -18,14 +19,13 @@ export async function loadSession() {
   if (!snapshot.exists()) return null;
   const data = snapshot.data();
   if (data.schema !== 'aula-session-snapshot/v1' || data.municipalityId !== 'loja' || !Number.isInteger(data.version) || data.version < 1 || typeof data.content !== 'string') throw new Error('La sesión guardada tiene un formato incompatible.');
-  return {version: data.version, payload: JSON.parse(data.content)};
+  return {version: data.version, payload: await decodeSessionContent(data.content)};
 }
 
 export async function saveSession(payload, expectedVersion) {
   const user = auth.currentUser;
   if (!user) throw new Error('Accede con la cuenta de coordinación.');
-  const content = JSON.stringify(payload);
-  if (new TextEncoder().encode(content).length > 700000) throw new Error('La sesión supera el tamaño admitido. Conserva una copia y revisa sus documentos.');
+  const content = await encodeSessionContent(payload);
   return runTransaction(db, async transaction => {
     const previous = await transaction.get(reference);
     const version = previous.exists() ? previous.data().version : 0;

@@ -2,9 +2,16 @@
 
 19 de noviembre de 2026 · 11:00. Guion revisado el 16/11/2026.
 
+## Mª Fátima Gómez Abad · Alcaldesa
+
+Primera intervención del encuentro, en la apertura institucional.
+
+1. ¿Qué importancia y qué papel tiene la salud en las políticas municipales de Alfacar?
+2. ¿Qué oportunidades veis en el trabajo comunitario en salud para reforzar esas políticas municipales?
+
 ## Participantes y moderación
 
-La coordinación técnica conduce una conversación entre seis participantes. Carlos abre después de presentar el Informe; Blas cierra con los próximos pasos metodológicos. Elisa González Sánchez presenta y modera. La primera pregunta inicia cada intervención; la segunda es una repregunta opcional. No es necesario agotarlas ni repetir la exposición del Informe. Las experiencias profesionales complementan la lectura de la situación local; los resultados epidemiológicos no se someten a votación. Se piden ejemplos generales, sin identificar a personas atendidas.
+La coordinación técnica conduce una conversación entre seis participantes. La alcaldesa abre el encuentro. Carlos inicia el coloquio después de presentar el Informe; Blas cierra con los próximos pasos metodológicos. Elisa González Sánchez presenta y modera. La primera pregunta inicia cada intervención; la segunda es una repregunta opcional. No es necesario agotarlas ni repetir la exposición del Informe. Las experiencias profesionales complementan la lectura de la situación local; los resultados epidemiológicos no se someten a votación. Se piden ejemplos generales, sin identificar a personas atendidas.
 
 Mª Fátima Gómez Abad, alcaldesa, realiza la apertura institucional.
 
@@ -20,13 +27,13 @@ Tiempos orientativos; adaptar al desarrollo del programa.
 
 ## Carlos del Moral Campaña · Epidemiología · Distrito Sanitario
 
-1. A partir del Informe que acabas de presentar, ¿qué oportunidades de prevención y promoción de la salud convendría tener presentes al preparar el II Plan de Alfacar?
-2. ¿En qué ámbitos ves más posibilidades de colaboración entre el Ayuntamiento, los servicios y la comunidad para avanzar en esas oportunidades?
+1. ¿Qué valoración sintética haces de la situación de salud de Alfacar?
+2. A la luz de los indicadores de morbimortalidad, ¿qué se podría mejorar en Alfacar en términos de prevención y promoción de la salud?
 
 ## Araceli Moya Alcalde · Trabajadora social de Servicios Sociales Comunitarios
 
-1. Desde el trabajo cotidiano con las personas y las familias, ¿qué condiciones de vida y necesidades de apoyo convendría tener presentes en el II Plan?
-2. ¿Qué apoyos y capacidades comunitarias reconoces y qué facilitaría que llegaran a quienes los necesitan?
+1. Desde el trabajo cotidiano en Servicios Sociales Comunitarios, ¿qué conocimiento y qué perspectiva de la salud de Alfacar se desprenden de vuestra relación con las personas y las familias?
+2. ¿Qué aspectos de esa experiencia cotidiana te parece importante aportar al II Plan Local de Salud?
 
 ## María Ángeles Granados Contreras · Coordinadora de cuidados de enfermería
 

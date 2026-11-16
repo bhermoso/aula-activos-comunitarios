@@ -1,0 +1,27 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {Script} from 'node:vm';
+const root=new URL('../../',import.meta.url);
+const read=p=>readFileSync(new URL(p,root),'utf8');
+const manifest=JSON.parse(read('materiales/perfiles-2026/referencias.json'));
+const codec=await import('data:text/javascript;base64,'+Buffer.from(read('assets/session-content-codec.js')).toString('base64'));
+for(const [m,f] of Object.entries(manifest))test(m+' conserva perfil, originales, conclusiones y recomendaciones de la última revisión',()=>{
+ const p=JSON.parse(read(f.json));assert.equal(p.municipalityId,m);assert.equal(p.results.length,f.results);
+ for(const ext of ['pdf','json'])assert.equal(createHash('sha256').update(readFileSync(new URL(f[ext],root))).digest('hex'),f[ext+'Sha256']);
+ const dir=m==='loja'?'impulso':m;const deck=read(dir+'/presentacion-perfil.html');const index=read(dir+'/index.html');assert.ok(deck.includes(f.version));assert.ok(deck.includes('../'+f.pdf));assert.ok(index.includes(p.summary));
+ for(const a of p.areas)assert.ok(deck.includes(a.rationale));
+ for(const c of p.findings)assert.ok(index.includes(c.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;')));
+ for(const s of deck.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g))if(s[1].trim())new Script(s[1]);
+ assert.equal(f.firebaseLatestIsCurrent,m==='alfacar');
+});
+test('Loja conserva toda la evidencia y originales sin superar el límite de guardado',async()=>{
+ const f=manifest.loja,e=JSON.parse(read('impulso/materiales/perfil-2026/sesion-datos.json'));assert.equal(e.profileResultCount,493);assert.equal(e.profileSha256,f.jsonSha256);assert.equal(e.surveyComparison.metrics.length,6);assert.ok(e.income.find(x=>x.code==='1812203002').threshold.startsWith('Cota'));
+ const payload={schema:'aula-loja-complete/v1',worksheet:{closingNotes:'Prueba ñ á'},evidence:e,originals:{profileJson:read(f.json),profileJsonSha256:f.jsonSha256,profilePdfBase64:readFileSync(new URL(f.pdf,root)).toString('base64'),profilePdfSha256:f.pdfSha256}};
+ assert.ok(Buffer.byteLength(JSON.stringify(payload))>700000);const content=await codec.encodeSessionContent(payload);assert.ok(Buffer.byteLength(content)<700000);assert.deepEqual(await codec.decodeSessionContent(content),payload);
+ const legacy={schema:'aula-loja-complete/v1',worksheet:{notes:'sesión anterior'}};assert.deepEqual(await codec.decodeSessionContent(JSON.stringify(legacy)),legacy);
+});
+test('Alcaldesa primero y preguntas corregidas sin perder las seis voces',()=>{
+ const s=read('alfacar/index.html');const g=[...s.matchAll(/<details class="fv-slide-drawer fv-question-guide"><summary>(.*?)<\/summary>/g)].map(x=>x[1]);assert.equal(g.length,7);assert.match(g[0],/Alcaldesa/);assert.match(g[1],/Carlos/);assert.ok(s.includes('valoración sintética'));assert.ok(s.includes('indicadores de morbimortalidad'));assert.ok(s.includes('qué conocimiento y qué perspectiva'));assert.equal((s.match(/class="fv-arc-person fv-arc-/g)||[]).length,6);
+});
