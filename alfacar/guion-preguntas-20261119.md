@@ -40,7 +40,7 @@ Tiempos orientativos; adaptar al desarrollo del programa.
 1. Desde la relación cotidiana del centro de salud con la ciudadanía, ¿cómo ves la salud y el bienestar de las personas y las familias de Alfacar?
 2. ¿Qué nos enseña ese contacto diario sobre las dificultades para cuidarse y sobre los apoyos que funcionan?
 
-## Miriam Denia Milla · Enfermera especializada en Enfermería Familiar y Comunitaria
+## Miriam Denia Milla · Enfermera familiar y comunitaria
 
 1. Desde la enfermería familiar y comunitaria, ¿qué fortalezas y necesidades de la comunidad te parece importante incorporar al II Plan?
 2. ¿Cómo podríamos implicar a vecinos, asociaciones y servicios en el reconocimiento de los activos y en las futuras acciones del Plan?
