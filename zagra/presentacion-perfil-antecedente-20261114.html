@@ -68,10 +68,10 @@ ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f514
  .stage{display:block;padding:0;overflow:visible}.frame{transform:none!important;width:auto;height:auto}
  .slide{display:flex!important;break-after:page;border-radius:0}
 }
-</style>
+#deck:fullscreen .antecedent-note{display:none}</style>
 </head>
-<body><aside style="padding:12px;background:#fff3cc;color:#243b39;position:relative;z-index:1000">Antecedente conservado. <a href="presentacion-perfil.html">Abrir la preparación revisada del próximo taller</a>.</aside>
-<div id="deck">
+<body>
+<div id="deck"><aside class="antecedent-note" style="flex:none;padding:12px;background:#fff3cc;color:#243b39;position:relative;z-index:1000">Antecedente conservado. <a href="presentacion-perfil.html">Abrir la preparación revisada del próximo taller</a>.</aside>
 <div class="bar"><span class="brand">ZAGRA · PERFIL DE SALUD LOCAL · SÍNTESIS</span><details style="max-width:790px"><summary style="cursor:pointer;font-size:13px">¿Media o mediana? · explicación y vídeo</summary><div style="position:absolute;top:45px;left:16%;right:16%;z-index:20;background:#fff;color:#173d35;border:2px solid #25694f;border-radius:12px;padding:20px;font-size:19px"><strong>Ejemplo de cinco rentas: 1.000 · 1.100 · 1.200 · 1.300 · 10.000 €</strong><p>Media = 2.920 €. Mediana = 1.200 €. La renta muy alta eleva la media, pero no desplaza el valor central. Por eso la mediana describe mejor la renta típica.</p><p><a href="https://www.youtube.com/watch?v=lynZYPTVelw" target="_blank" rel="noopener noreferrer" style="color:#14553d;font-weight:700">Ver vídeo «Una de mates: Media y mediana» ↗</a></p></div></details><a href="https://bhermoso.github.io/compas-ng-renovado/?fase=repositorio" target="_blank" rel="noopener noreferrer" title="Abrir COMPÁS y seleccionar el ámbito Zagra">Perfil ampliado en COMPÁS ↗</a><a href="index.html">← Espacio de Zagra</a></div>
 <div class="stage" id="stage"><div class="frame" id="frame">
 
@@ -341,11 +341,11 @@ const slides=[...document.querySelectorAll('.slide')];let i=0;
 const counter=document.getElementById('counter'),prev=document.getElementById('prev'),next=document.getElementById('next');
 function fromHash(){const n=parseInt((location.hash||'').replace(/\D/g,''),10);return n>=1&&n<=slides.length?n-1:0}
 function show(n){i=Math.max(0,Math.min(slides.length-1,n));slides.forEach((s,k)=>s.classList.toggle('on',k===i));counter.textContent=(i+1)+' / '+slides.length;prev.disabled=i===0;next.disabled=i===slides.length-1;try{history.replaceState(null,'','#'+(i+1))}catch(e){}}
-function fit(){const st=document.getElementById('stage'),fr=document.getElementById('frame');const s=Math.min(st.clientWidth/1600,st.clientHeight/900);fr.style.transform='scale('+s+')';fr.style.margin=((st.clientHeight-900*s)/2>0?0:0)+'px'}
+function fit(){const st=document.getElementById('stage'),fr=document.getElementById('frame');const cs=getComputedStyle(st);const w=st.clientWidth-parseFloat(cs.paddingLeft)-parseFloat(cs.paddingRight),h=st.clientHeight-parseFloat(cs.paddingTop)-parseFloat(cs.paddingBottom);const s=Math.max(.05,Math.min(w/1600,h/900));fr.style.transform='scale('+s+')'}
 prev.addEventListener('click',()=>show(i-1));next.addEventListener('click',()=>show(i+1));
 document.getElementById('fs').addEventListener('click',()=>{const d=document.getElementById('deck');if(!document.fullscreenElement&&d.requestFullscreen)d.requestFullscreen().catch(()=>{});else if(document.exitFullscreen)document.exitFullscreen().catch(()=>{})});
 document.addEventListener('keydown',e=>{if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();show(i+1)}else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();show(i-1)}else if(e.key==='Home')show(0);else if(e.key==='End')show(slides.length-1);else if(e.key==='f'||e.key==='F')document.getElementById('fs').click()});
-window.addEventListener('resize',fit);document.addEventListener('fullscreenchange',()=>setTimeout(fit,50));
+window.addEventListener('resize',fit);if(window.ResizeObserver)new ResizeObserver(fit).observe(document.getElementById('stage'));document.addEventListener('fullscreenchange',()=>setTimeout(fit,50));
 show(fromHash());fit();
 })();
 </script>
