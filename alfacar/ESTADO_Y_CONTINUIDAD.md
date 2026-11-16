@@ -32,3 +32,11 @@ Referencia: Perfil 0.6-C1, 13/11/2026, en revisión técnica. PDF/JSON identific
 ## Mesa-coloquio · revisión 16/11/2026
 
 Se mantienen las seis voces del gráfico y a Elisa en presentación y moderación. La alcaldesa conserva la apertura institucional. Ronda propuesta: Carlos, Araceli, María Ángeles, Miriam, Juana y cierre metodológico de Blas. Se añaden tiempos orientativos (30 minutos), preguntas de arranque y repreguntas opcionales. Las dos preguntas de Blas se sustituyen por las solicitadas literalmente. La próxima reunión se plantea para cerrar la priorización, seleccionar líneas, objetivos e indicadores del Plan de Acción y planificar el mapeo de activos; sin fecha ni acuerdos inventados. Perfil y datos sanitarios sin modificaciones.
+
+## Coloquio para proyectar · 16/11/2026
+
+Por indicación del usuario, el apartado Coloquio muestra solo la cabecera y el diagrama; el guion de moderación, la dinámica, las preguntas y el apoyo para el cierre salen de la vista. El guion se entrega a la moderadora en PDF (propuesta y guía para conducir la mesa), que no se publica en el repositorio. Su fuente sigue siendo `guion-preguntas-20261119.md`.
+
+Diagrama rehecho: seis asientos en un semicírculo geométrico en orden de intervención (1 Carlos, 2 Araceli, 3 María Ángeles, 4 Miriam, 5 Juana, 6 Blas), unidos a la moderadora; institución indicada por color y por texto (Distrito Sanitario, Centro de Salud, Servicios Sociales Comunitarios, Ayuntamiento); apertura institucional de la alcaldesa dentro del diagrama. Tamaño ajustado a la altura de la pantalla para proyectar; lista numerada en móvil. Entradilla reescrita sin referencias al propio gráfico.
+
+Pendiente: el bloque 03 del Programa todavía dice que el reparto de intervenciones de María Ángeles y Araceli «queda por acordar» y no las sitúa en la ronda; no se ha tocado.
