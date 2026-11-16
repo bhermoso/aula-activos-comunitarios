@@ -1,50 +1,61 @@
-# Alfacar · preguntas abiertas para el taller de impulso del II Plan Local de Salud
+# Alfacar · mesa-coloquio del taller de impulso del II Plan Local de Salud
 
-19 de noviembre de 2026 · 11:00. Preparación revisada el 14/11/2026.
+19 de noviembre de 2026 · 11:00. Guion revisado el 16/11/2026.
 
-Elegir según el diálogo; no es necesario agotar las preguntas. Pedir ejemplos sin identificar a personas atendidas. Las preguntas recogen perspectivas, no convierten las respuestas en prioridades adoptadas.
+## Participantes y moderación
+
+La coordinación técnica conduce una conversación entre seis participantes. Carlos abre después de presentar el Informe; Blas cierra con los próximos pasos metodológicos. Elisa González Sánchez presenta y modera. La primera pregunta inicia cada intervención; la segunda es una repregunta opcional. No es necesario agotarlas ni repetir la exposición del Informe. Las experiencias profesionales complementan la lectura de la situación local; los resultados epidemiológicos no se someten a votación. Se piden ejemplos generales, sin identificar a personas atendidas.
+
+Mª Fátima Gómez Abad, alcaldesa, realiza la apertura institucional.
+
+## Dinámica propuesta · 30 minutos
+
+1. **Apertura · 2 minutos.** Elisa presenta el propósito: escuchar las distintas perspectivas y reconocer qué aportan al siguiente paso del II Plan.
+2. **Ronda de perspectivas · 15 minutos.** Carlos → Araceli → María Ángeles → Miriam → Juana. Hasta tres minutos por persona; una pregunta de arranque y repregunta solo si aporta algo nuevo.
+3. **Diálogo compartido · 5 minutos.** La moderación recoge coincidencias, diferencias y posibilidades de colaboración. Puede abrir una intervención breve a la sala, según el tiempo disponible.
+4. **Cierre metodológico · 5 minutos.** Blas responde a las dos preguntas y sitúa las decisiones que se prepararán para la próxima reunión.
+5. **Síntesis · 3 minutos.** La coordinación resume las aportaciones y la propuesta de trabajo siguiente; recoge responsables y tareas que se acuerden, sin dar por adoptadas líneas todavía no seleccionadas.
+
+Tiempos orientativos; adaptar al desarrollo del programa.
 
 ## Carlos del Moral Campaña · Epidemiología · Distrito Sanitario
 
-Primera intervención del coloquio, después de exponer el Informe de Salud. Elisa abre la conversación sobre prevención y promoción de la salud a partir del Informe. Los datos epidemiológicos no se someten a validación del coloquio. La segunda pregunta es una repregunta opcional, solo si no ha quedado respondida.
-
-1. Después de tu exposición, ¿qué mensaje te gustaría destacar para abrir esta conversación sobre cómo mejorar la salud en Alfacar?
-2. A partir de la situación de salud que has presentado, ¿qué oportunidades de prevención y promoción de la salud te gustaría poner sobre la mesa?
-
-## Mª Fátima Gómez Abad · Alcaldesa
-
-1. Desde su perspectiva como alcaldesa, ¿cómo describiría hoy la salud y el bienestar de quienes viven en Alfacar?
-2. ¿Qué capacidades del municipio y qué aspectos de la vida local considera más importantes para mejorar ese bienestar?
-
-## Presentación y moderación · Elisa González Sánchez
-
-Elisa presenta el encuentro y conduce el diálogo. No se le dirigen preguntas; utiliza las siguientes como apoyo para escuchar a las personas invitadas a intervenir.
-
-## María Ángeles Granados Contreras · Coordinadora de cuidados de enfermería
-
-Mirada sanitaria de proximidad: la salud vista desde la relación cotidiana con las personas y las familias. Elisa puede pedir un ejemplo general, sin datos identificables.
-
-1. Desde el contacto cotidiano con las personas y las familias en el centro de salud, ¿cómo ve la salud y el bienestar de la población de Alfacar?
-2. ¿Qué le permite conocer esa relación diaria con la ciudadanía sobre su manera de vivir y cuidar la salud, que convendría tener presente en este encuentro?
-
-## Miriam Denia Milla · Enfermera especializada en Enfermería Familiar y Comunitaria
-
-1. Cuando mira la salud de Alfacar desde la comunidad, ¿qué necesidades y fortalezas le llaman más la atención?
-2. ¿Cómo ve las relaciones entre el centro de salud, las asociaciones, los servicios y la ciudadanía, y qué posibilidades de colaboración reconoce?
-
-## Juana Jiménez Cobo · Enfermera referente de centros educativos
-
-1. Desde su relación con los centros educativos, ¿cómo percibe la salud y el bienestar de la infancia, la adolescencia y sus familias en Alfacar?
-2. ¿Qué nos ayudaría a escuchar mejor sus experiencias y a reconocer lo que favorece su bienestar dentro y fuera de la escuela?
+1. A partir del Informe que acabas de presentar, ¿qué oportunidades de prevención y promoción de la salud convendría tener presentes al preparar el II Plan de Alfacar?
+2. ¿En qué ámbitos ves más posibilidades de colaboración entre el Ayuntamiento, los servicios y la comunidad para avanzar en esas oportunidades?
 
 ## Araceli Moya Alcalde · Trabajadora social de Servicios Sociales Comunitarios
 
-1. Desde Servicios Sociales, ¿cómo ve la relación entre las condiciones de vida y la salud de las personas y familias con las que trabaja?
-2. ¿Qué apoyos familiares, comunitarios o de los servicios públicos reconoce, y qué convendría conocer mejor sobre su acceso y funcionamiento?
+1. Desde el trabajo cotidiano con las personas y las familias, ¿qué condiciones de vida y necesidades de apoyo convendría tener presentes en el II Plan?
+2. ¿Qué apoyos y capacidades comunitarias reconoces y qué facilitaría que llegaran a quienes los necesitan?
 
+## María Ángeles Granados Contreras · Coordinadora de cuidados de enfermería
+
+1. Desde la relación cotidiana del centro de salud con la ciudadanía, ¿cómo ves la salud y el bienestar de las personas y las familias de Alfacar?
+2. ¿Qué nos enseña ese contacto diario sobre las dificultades para cuidarse y sobre los apoyos que funcionan?
+
+## Miriam Denia Milla · Enfermera especializada en Enfermería Familiar y Comunitaria
+
+1. Desde la enfermería familiar y comunitaria, ¿qué fortalezas y necesidades de la comunidad te parece importante incorporar al II Plan?
+2. ¿Cómo podríamos implicar a vecinos, asociaciones y servicios en el reconocimiento de los activos y en las futuras acciones del Plan?
+
+## Juana Jiménez Cobo · Enfermera referente de centros educativos
+
+1. Desde tu relación con los centros educativos, ¿cómo ves la salud y el bienestar de la infancia, la adolescencia y sus familias en Alfacar?
+2. ¿Qué oportunidades de colaboración entre centros, familias y comunidad convendría recoger en el II Plan, y cómo dar voz al alumnado?
 
 ## Blas Hermoso Rico · Educación para la salud y participación comunitaria · Distrito Sanitario
 
-1. Desde el recorrido del proceso local y su trabajo en promoción de la salud, ¿qué aprendizajes y capacidades ve en Alfacar para este segundo Plan?
-2. ¿Qué necesitamos escuchar y poner en común para que el II Plan recoja las distintas maneras de vivir la salud en el municipio?
+1. ¿Qué sigue ahora metodológicamente?
+2. ¿De dónde venimos y hacia dónde nos dirigimos?
 
+## Cierre metodológico y próxima reunión
+
+Venimos del I Plan y de los trabajos documentados del II Plan. El Informe, el Perfil actualizado y la consulta ciudadana de 2026 enriquecen el punto de partida.
+
+Propuesta para la próxima reunión del Grupo Motor (fecha por acordar):
+
+1. **Cerrar la priorización.** Poner en común el Informe, las conclusiones y recomendaciones del Perfil, la consulta ciudadana y las aportaciones del taller. Acordar criterios y documentar qué se prioriza y por qué.
+2. **Seleccionar líneas, objetivos e indicadores.** Traducir las prioridades a líneas estratégicas. Revisar en el planificador de COMPÁS las líneas disponibles y seleccionar o adaptar objetivos e indicadores pertinentes, con población destinataria, fuente, periodicidad y responsables. Fijar metas cuando exista una base adecuada.
+3. **Planificar el mapeo de activos.** Partir del inventario de Localiza Salud y del conocimiento comunitario. Acordar para qué y con quién se mapea, ámbitos y recorrido, técnicas, responsables y calendario; después contrastar y actualizar los recursos identificados.
+
+Antes de cerrar, proponer responsables de preparación, documentación y convocatoria. Las decisiones se documentarán cuando se acuerden.
