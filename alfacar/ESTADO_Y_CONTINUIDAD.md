@@ -40,3 +40,7 @@ Por indicación del usuario, el apartado Coloquio muestra solo la cabecera y el 
 Diagrama rehecho: seis asientos en un semicírculo geométrico en orden de intervención (1 Carlos, 2 Araceli, 3 María Ángeles, 4 Miriam, 5 Juana, 6 Blas), unidos a la moderadora; institución indicada por color y por texto (Distrito Sanitario, Centro de Salud, Servicios Sociales Comunitarios, Ayuntamiento); apertura institucional de la alcaldesa dentro del diagrama. Tamaño ajustado a la altura de la pantalla para proyectar; lista numerada en móvil. Entradilla reescrita sin referencias al propio gráfico.
 
 Pendiente: el bloque 03 del Programa todavía dice que el reparto de intervenciones de María Ángeles y Araceli «queda por acordar» y no las sitúa en la ronda; no se ha tocado.
+
+## Coloquio a todo el ancho · 16/11/2026
+
+La sección del coloquio se encogía al contenido (flex) y el diagrama quedaba en unos 740 px a la izquierda. Ahora ocupa el ancho disponible, centrado, y su tamaño se ajusta para caber bajo las pestañas y el título sin desplazar (comprobado de 1024×768 a 1920×1080).
