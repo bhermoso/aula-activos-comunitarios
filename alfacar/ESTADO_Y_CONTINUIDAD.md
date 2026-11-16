@@ -28,3 +28,7 @@ La relación visible incluye a Mª Fátima Gómez Abad, Elisa González Sánchez
 
 Referencia: Perfil 0.6-C1, 13/11/2026, en revisión técnica. PDF/JSON identificados en `materiales/perfiles-2026/referencias.json`. Las presentaciones anteriores se conservan como antecedentes. Preparado en rama; publicación pendiente. Esta revisión no modifica expedientes de COMPÁS ni registra validación.
 
+
+## Mesa-coloquio · revisión 16/11/2026
+
+Se mantienen las seis voces del gráfico y a Elisa en presentación y moderación. La alcaldesa conserva la apertura institucional. Ronda propuesta: Carlos, Araceli, María Ángeles, Miriam, Juana y cierre metodológico de Blas. Se añaden tiempos orientativos (30 minutos), preguntas de arranque y repreguntas opcionales. Las dos preguntas de Blas se sustituyen por las solicitadas literalmente. La próxima reunión se plantea para cerrar la priorización, seleccionar líneas, objetivos e indicadores del Plan de Acción y planificar el mapeo de activos; sin fecha ni acuerdos inventados. Perfil y datos sanitarios sin modificaciones.
