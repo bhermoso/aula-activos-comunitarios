@@ -23,5 +23,8 @@ test('Loja conserva toda la evidencia y originales sin superar el límite de gua
  const legacy={schema:'aula-loja-complete/v1',worksheet:{notes:'sesión anterior'}};assert.deepEqual(await codec.decodeSessionContent(JSON.stringify(legacy)),legacy);
 });
 test('Alcaldesa primero y preguntas corregidas sin perder las seis voces',()=>{
- const s=read('alfacar/index.html');const g=[...s.matchAll(/<details class="fv-slide-drawer fv-question-guide"><summary>(.*?)<\/summary>/g)].map(x=>x[1]);assert.equal(g.length,7);assert.match(g[0],/Alcaldesa/);assert.match(g[1],/Carlos/);assert.ok(s.includes('valoración sintética'));assert.ok(s.includes('indicadores de morbimortalidad'));assert.ok(s.includes('qué conocimiento y qué perspectiva'));assert.equal((s.match(/class="fv-arc-person fv-arc-/g)||[]).length,6);
+ const g=read('alfacar/guion-preguntas-20261119.md');const heads=[...g.matchAll(/^## (.*)$/gm)].map(x=>x[1]);
+ assert.match(heads[0],/Alcaldesa/);assert.ok(heads.indexOf(heads.find(h=>/^Carlos/.test(h)))>0);
+ assert.ok(g.includes('valoración sintética'));assert.ok(g.includes('indicadores de morbimortalidad'));assert.ok(g.includes('qué conocimiento y qué perspectiva'));
+ const s=read('alfacar/index.html');assert.equal((s.match(/class="cq-seat cq-/g)||[]).length,6);
 });

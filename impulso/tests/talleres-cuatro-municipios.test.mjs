@@ -31,10 +31,10 @@ test('Alfacar conserva seis participantes aportados y retira la asistencia sin i
  for(const name of ['Mª Fátima Gómez Abad','Elisa González Sánchez','María Ángeles Granados Contreras','Miriam Denia Milla','Juana Jiménez Cobo','Araceli Moya Alcalde'])assert.ok(roster.includes(name),name);
  assert.ok(!s.includes('Ana Belén')); assert.ok(!s.includes('sin intervención prevista'));
  assert.match(roster,/La mesa reúne seis participantes/);
- const map=s.slice(s.indexOf('class="fv-participant-map"'),s.indexOf('class="fv-open-questions"'));
+ const col=s.slice(s.indexOf('id="moderacion"'));const map=col.slice(col.indexOf('<figure class="cq"'),col.indexOf('</figure>'));
  for(const name of ['Mª Fátima Gómez Abad','Elisa González Sánchez','María Ángeles Granados Contreras','Miriam Denia Milla','Juana Jiménez Cobo','Araceli Moya Alcalde','Carlos del Moral Campaña','Blas Hermoso Rico'])assert.ok(map.includes(name),'Gráfico: '+name);
- assert.equal((map.match(/class="fv-arc-person fv-arc-/g)||[]).length,6);
- assert.match(map, /fv-arc-6[\s\S]*?Blas Hermoso Rico/);
+ const seats=[...map.matchAll(/<li class="cq-seat[^"]*"[^>]*><span class="cq-n"[^>]*>(\d)<\/span><span class="cq-persp">[^<]*<\/span><strong>([^<]*)<\/strong>/g)].map(x=>x[1]+' '+x[2]);
+ assert.deepEqual(seats,['1 Carlos del Moral Campaña','2 Araceli Moya Alcalde','3 María Ángeles Granados Contreras','4 Miriam Denia Milla','5 Juana Jiménez Cobo','6 Blas Hermoso Rico']);
  assert.ok(!s.includes('Enfermero escolar'));assert.ok(!s.includes('el Juana'));assert.ok(!s.includes('Milla Milla'));
 });
 test('Las presentaciones mantienen fuente, navegación y frontera con la decisión',()=>{
@@ -48,13 +48,17 @@ test('Las presentaciones mantienen fuente, navegación y frontera con la decisi�
  assert.ok(atarfe.includes('No se extiende automáticamente la declaración a los añadidos'));
 });
 test('Elisa presenta y modera sin figurar entre las personas preguntadas',()=>{
- const s=read('alfacar/index.html');const guides=[...s.matchAll(/<details class="fv-slide-drawer fv-question-guide">([\s\S]*?)<\/details>/g)];
- assert.equal(guides.length,7);
- assert.ok(guides.every(([,guide])=>!guide.includes('Elisa González Sánchez')));
- assert.ok(s.includes('Presenta y modera'));
- for(const [,guide] of guides){assert.equal((guide.match(/<li>/g)||[]).length,2);assert.equal((guide.match(/¿/g)||[]).length,2);}
- assert.ok(s.includes('No es necesario agotarlas'));
- assert.ok(!read('alfacar/guion-preguntas-20261119.md').includes('Ana Belén'));
+ const g=read('alfacar/guion-preguntas-20261119.md');
+ const blocks=g.split(/^## /m).slice(1).filter(b=>/^\d\. ¿|^\d\. .*¿/m.test(b));
+ assert.equal(blocks.length,7);
+ for(const b of blocks){assert.ok(!b.split('\n')[0].includes('Elisa'));assert.equal((b.match(/^\d\. /gm)||[]).length,2);assert.equal((b.match(/¿/g)||[]).length,2);}
+ assert.ok(g.includes('No es necesario agotarlas'));assert.ok(!g.includes('Ana Belén'));
+ const s=read('alfacar/index.html');assert.ok(s.includes('Presenta y modera'));
+});
+test('La vista proyectable del coloquio no muestra el guion de moderación',()=>{
+ const s=read('alfacar/index.html');const col=s.slice(s.indexOf('id="moderacion"'),s.indexOf('</section>',s.indexOf('id="moderacion"')));
+ for(const t of ['Guion de moderación','fv-question-guide','Dinámica propuesta','¿','Apoyo para el cierre'])assert.ok(!col.includes(t),t);
+ assert.match(col,/Apertura institucional[\s\S]*Mª Fátima Gómez Abad/);assert.match(col,/Presenta y modera[\s\S]*Elisa González Sánchez/);
 });
 test('Los enlaces relativos de las páginas modificadas y sus originales resuelven',()=>{
  for(const f of ['index.html','alfacar/index.html','atarfe/index.html','zagra/index.html','impulso/index.html',...['alfacar','atarfe','zagra','impulso'].map(m=>m+'/presentacion-perfil.html')]){
