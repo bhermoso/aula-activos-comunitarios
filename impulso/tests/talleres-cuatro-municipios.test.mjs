@@ -34,7 +34,7 @@ test('Alfacar conserva seis participantes aportados y retira la asistencia sin i
  const col=s.slice(s.indexOf('id="moderacion"'));const map=col.slice(col.indexOf('<figure class="cq"'),col.indexOf('</figure>'));
  for(const name of ['Mª Fátima Gómez Abad','Elisa González Sánchez','María Ángeles Granados Contreras','Miriam Denia Milla','Juana Jiménez Cobo','Araceli Moya Alcalde','Carlos del Moral Campaña','Blas Hermoso Rico'])assert.ok(map.includes(name),'Gráfico: '+name);
  const seats=[...map.matchAll(/<li class="cq-seat[^"]*"[^>]*><span class="cq-n"[^>]*>(\d)<\/span><span class="cq-persp">[^<]*<\/span><strong>([^<]*)<\/strong>/g)].map(x=>x[1]+' '+x[2]);
- assert.deepEqual(seats,['1 Carlos del Moral Campaña','2 Araceli Moya Alcalde','3 María Ángeles Granados Contreras','4 Miriam Denia Milla','5 Juana Jiménez Cobo','6 Blas Hermoso Rico']);
+ assert.deepEqual(seats,['1 Carlos del Moral Campaña','2 María Ángeles Granados Contreras','3 Araceli Moya Alcalde','4 Miriam Denia Milla','5 Juana Jiménez Cobo','6 Blas Hermoso Rico']);
  assert.ok(!s.includes('Enfermero escolar'));assert.ok(!s.includes('el Juana'));assert.ok(!s.includes('Milla Milla'));
 });
 test('Las presentaciones mantienen fuente, navegación y frontera con la decisión',()=>{

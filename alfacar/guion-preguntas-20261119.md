@@ -1,6 +1,6 @@
 # Alfacar · mesa-coloquio del taller de impulso del II Plan Local de Salud
 
-19 de noviembre de 2026 · 11:00. Guion revisado el 16/11/2026.
+19 de noviembre de 2026 · 11:00. Guion revisado el 17/11/2026.
 
 ## Mª Fátima Gómez Abad · Alcaldesa
 
@@ -18,7 +18,7 @@ Mª Fátima Gómez Abad, alcaldesa, realiza la apertura institucional.
 ## Dinámica propuesta · 30 minutos
 
 1. **Apertura · 2 minutos.** Elisa presenta el propósito: escuchar las distintas perspectivas y reconocer qué aportan al siguiente paso del II Plan.
-2. **Ronda de perspectivas · 15 minutos.** Carlos → Araceli → María Ángeles → Miriam → Juana. Hasta tres minutos por persona; una pregunta de arranque y repregunta solo si aporta algo nuevo.
+2. **Ronda de perspectivas · 15 minutos.** Carlos → María Ángeles → Araceli → Miriam → Juana. Hasta tres minutos por persona; una pregunta de arranque y repregunta solo si aporta algo nuevo.
 3. **Diálogo compartido · 5 minutos.** La moderación recoge coincidencias, diferencias y posibilidades de colaboración. Puede abrir una intervención breve a la sala, según el tiempo disponible.
 4. **Cierre metodológico · 5 minutos.** Blas responde a las dos preguntas y sitúa las decisiones que se prepararán para la próxima reunión.
 5. **Síntesis · 3 minutos.** La coordinación resume las aportaciones y la propuesta de trabajo siguiente; recoge responsables y tareas que se acuerden, sin dar por adoptadas líneas todavía no seleccionadas.
@@ -30,15 +30,15 @@ Tiempos orientativos; adaptar al desarrollo del programa.
 1. ¿Qué valoración sintética haces de la situación de salud de Alfacar?
 2. A la luz de los indicadores de morbimortalidad, ¿qué se podría mejorar en Alfacar en términos de prevención y promoción de la salud?
 
-## Araceli Moya Alcalde · Trabajadora social de Servicios Sociales Comunitarios
-
-1. Desde el trabajo cotidiano en Servicios Sociales Comunitarios, ¿qué conocimiento y qué perspectiva de la salud de Alfacar se desprenden de vuestra relación con las personas y las familias?
-2. ¿Qué aspectos de esa experiencia cotidiana te parece importante aportar al II Plan Local de Salud?
-
 ## María Ángeles Granados Contreras · Coordinadora de cuidados de enfermería
 
 1. Desde la relación cotidiana del centro de salud con la ciudadanía, ¿cómo ves la salud y el bienestar de las personas y las familias de Alfacar?
 2. ¿Qué nos enseña ese contacto diario sobre las dificultades para cuidarse y sobre los apoyos que funcionan?
+
+## Araceli Moya Alcalde · Trabajadora social de Servicios Sociales Comunitarios
+
+1. Desde el trabajo cotidiano en Servicios Sociales Comunitarios, ¿qué conocimiento y qué perspectiva de la salud de Alfacar se desprenden de vuestra relación con las personas y las familias?
+2. ¿Qué aspectos de esa experiencia cotidiana te parece importante aportar al II Plan Local de Salud?
 
 ## Miriam Denia Milla · Enfermera familiar y comunitaria
 
