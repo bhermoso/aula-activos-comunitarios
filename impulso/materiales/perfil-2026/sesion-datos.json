@@ -1,7 +1,7 @@
 {
   "schema": "loja-session-evidence/v1",
-  "profileTitle": "Perfil de Salud Local de Loja · revisión 0.5 · 16/11/2026",
-  "profileSha256": "1dd63987b0db1c50ee3e643bfce5a5ddd9582ca7f379d0082743ef11a5fe8f08",
+  "profileTitle": "Perfil de Salud Local de Loja · revisión 0.5.1 · 17/11/2026",
+  "profileSha256": "bbc2669c89b125b23962ee97595aa3755265cc34d8ba7a01f3bd00e7c931444d",
   "history": [
     {
       "id": "1",
@@ -13254,7 +13254,7 @@
       "note": "Dato agregado de sección; no es renta individual, de vivienda ni de calle."
     }
   ],
-  "profilePdfSha256": "0f95d2161103432c1f8e15578cb913191316809d4d861d355dc481ec12e4d7a9",
+  "profilePdfSha256": "6ed1963de9bac2a52dac7d0745ca7cbd5afe4361c623cb754daf07055af298b3",
   "surveyComparison": {
     "schema": "loja-esde-comparison/v1",
     "date": "2026-11-12",
@@ -13353,8 +13353,8 @@
         "loja": null
       }
     ],
-    "profileTitle": "Perfil de Salud Local de Loja · revisión 0.5 · 16/11/2026",
-    "profileSha256": "1dd63987b0db1c50ee3e643bfce5a5ddd9582ca7f379d0082743ef11a5fe8f08",
+    "profileTitle": "Perfil de Salud Local de Loja · revisión 0.5.1 · 17/11/2026",
+    "profileSha256": "bbc2669c89b125b23962ee97595aa3755265cc34d8ba7a01f3bd00e7c931444d",
     "notes": [
       "España y Andalucía proceden de la misma tabla y edición, ambos sexos.",
       "La ESdE publica estimaciones nacionales y autonómicas. No se atribuye una estimación provincial a Granada.",
@@ -13410,9 +13410,9 @@
       "rationale": "Contrastar · Deriva de C9"
     }
   ],
-  "profileJsonPath": "../materiales/perfiles-2026/loja/Loja_PSL_v0_5_2026-11-16.json",
-  "profilePdfPath": "../materiales/perfiles-2026/loja/Loja_PSL_v0_5_2026-11-16.pdf",
-  "previousProfileSha256": "02a48b516b034692cab36f890f845a2913c9b0af9566a8e541f04f4f3af79560",
+  "profileJsonPath": "../materiales/perfiles-2026/loja/Loja_PSL_v0_5_1_2026-11-17.json",
+  "profilePdfPath": "../materiales/perfiles-2026/loja/Loja_PSL_v0_5_1_2026-11-17.pdf",
+  "previousProfileSha256": "1dd63987b0db1c50ee3e643bfce5a5ddd9582ca7f379d0082743ef11a5fe8f08",
   "profileResultCount": 493,
-  "profileVersion": "0.5"
+  "profileVersion": "0.5.1"
 }
