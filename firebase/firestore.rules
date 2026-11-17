@@ -1,0 +1,27 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function isAdmin() { return signedIn() && request.auth.token.admin == true; }
+    function owner(uid) { return signedIn() && request.auth.uid == uid; }
+    function validWork() {
+      return request.resource.data.keys().hasOnly(['title','module','data','createdAt','updatedAt'])
+        && request.resource.data.title is string
+        && request.resource.data.title.size() <= 160
+        && request.resource.data.module in ['activos','impulso']
+        && request.resource.data.data is map;
+    }
+    match /users/{uid}/works/{workId} {
+      allow get, list: if owner(uid) || isAdmin();
+      allow create: if owner(uid) && validWork()
+        && request.resource.data.createdAt == request.time
+        && request.resource.data.updatedAt == request.time;
+      allow update: if (owner(uid) || isAdmin()) && validWork()
+        && request.resource.data.createdAt == resource.data.createdAt
+        && request.resource.data.updatedAt == request.time;
+      allow delete: if owner(uid) || isAdmin();
+    }
+    // No acceso global a otros documentos o colecciones.
+    match /{document=**} { allow read, write: if false; }
+  }
+}
