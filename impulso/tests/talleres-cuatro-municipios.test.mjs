@@ -58,7 +58,7 @@ test('Elisa presenta y modera sin figurar entre las personas preguntadas',()=>{
 test('La vista proyectable del coloquio no muestra el guion de moderación',()=>{
  const s=read('alfacar/index.html');const col=s.slice(s.indexOf('id="moderacion"'),s.indexOf('</section>',s.indexOf('id="moderacion"')));
  for(const t of ['Guion de moderación','fv-question-guide','Dinámica propuesta','¿','Apoyo para el cierre'])assert.ok(!col.includes(t),t);
- assert.match(col,/Apertura institucional[\s\S]*Mª Fátima Gómez Abad/);assert.match(col,/Presenta y modera[\s\S]*Elisa González Sánchez/);
+ assert.match(col,/Si permanece en la mesa, abre la ronda[\s\S]*Mª Fátima Gómez Abad/);assert.match(col,/Presenta y modera[\s\S]*Elisa González Sánchez/);
 });
 test('Los enlaces relativos de las páginas modificadas y sus originales resuelven',()=>{
  for(const f of ['index.html','alfacar/index.html','atarfe/index.html','zagra/index.html','impulso/index.html',...['alfacar','atarfe','zagra','impulso'].map(m=>m+'/presentacion-perfil.html')]){
