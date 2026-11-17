@@ -24,7 +24,7 @@ test('Loja conserva toda la evidencia y originales sin superar el límite de gua
 });
 test('Alcaldesa primero y preguntas corregidas sin perder las seis voces',()=>{
  const g=read('alfacar/guion-preguntas-20261119.md');const heads=[...g.matchAll(/^## (.*)$/gm)].map(x=>x[1]);
- assert.match(heads[0],/Alcaldesa/);assert.ok(heads.indexOf(heads.find(h=>/^Carlos/.test(h)))>0);
+ const ia=heads.findIndex(h=>/Alcaldesa · si permanece/.test(h)),ic=heads.findIndex(h=>/^Carlos/.test(h));assert.ok(ia>=0&&ic===ia+1);assert.match(g,/interviene libremente\. No se le plantean preguntas/);assert.match(g,/morbimortalidad con su presentación y sus datos\. No se le plantean preguntas/);
  assert.ok(g.includes('valoración sintética'));assert.ok(g.includes('indicadores de morbimortalidad'));assert.ok(g.includes('qué conocimiento y qué perspectiva'));
  const s=read('alfacar/index.html');assert.equal((s.match(/class="cq-seat cq-/g)||[]).length,6);
 });

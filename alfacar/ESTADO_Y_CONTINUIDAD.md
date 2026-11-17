@@ -48,3 +48,9 @@ La sección del coloquio se encogía al contenido (flex) y el diagrama quedaba e
 ## Orden de la ronda · 17/11/2026
 
 Indicación del usuario: alcaldesa (apertura), Carlos, María Ángeles, Araceli, Miriam, Juana y Blas. Cambiados el diagrama (2 María Ángeles, 3 Araceli), la relación de participantes, el guion y la guía PDF para la moderadora.
+
+## Secuencia apertura, Informe y coloquio · 17/11/2026
+
+Indicación del usuario: la alcaldesa abre el taller con una intervención libre, sin preguntas; Carlos presenta después el análisis de morbimortalidad con su presentación, sin preguntas; a continuación empieza la mesa-coloquio. Si la alcaldesa permanece en la mesa, la ronda empieza con sus preguntas; sigue Carlos y después María Ángeles, Araceli, Miriam, Juana y Blas. Cambiados el bloque 03 del Programa (que aún decía que el reparto de María Ángeles y Araceli quedaba por acordar), el rótulo de la alcaldesa en el diagrama, la relación de participantes, el guion y la guía PDF.
+
+Pendiente de revisar con el usuario: la ronda tiene 15 minutos y «hasta tres minutos por persona» con hasta seis personas antes del cierre.
