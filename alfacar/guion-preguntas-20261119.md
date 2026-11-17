@@ -5,7 +5,7 @@
 ## Secuencia del encuentro
 
 1. **Apertura institucional.** Mª Fátima Gómez Abad, alcaldesa, interviene libremente. No se le plantean preguntas.
-2. **Informe sobre la situación de salud.** Carlos del Moral Campaña presenta el análisis de la morbimortalidad con su presentación y sus datos. No se le plantean preguntas.
+2. **Informe sobre la situación de salud · 15-20 minutos.** Carlos del Moral Campaña presenta el análisis de la morbimortalidad con su presentación y sus datos. No se le plantean preguntas.
 3. **Mesa-coloquio.** Si la alcaldesa permanece en la mesa, se le plantean primero sus preguntas. Después, a Carlos, que ya ha intervenido, y al resto de participantes en el orden de la ronda.
 
 ## Participantes y moderación
