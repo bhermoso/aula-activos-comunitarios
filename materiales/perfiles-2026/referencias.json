@@ -1,18 +1,18 @@
 {
   "alfacar": {
     "municipality": "Alfacar",
-    "version": "0.8.1",
-    "profileTitle": "Perfil de Salud Local de Alfacar · revisión 0.8.1 · 16/11/2026",
-    "date": "2026-11-16",
+    "version": "0.8.2",
+    "profileTitle": "Perfil de Salud Local de Alfacar · revisión 0.8.2 · 17/11/2026",
+    "date": "2026-11-17",
     "status": "En revisión",
-    "json": "materiales/perfiles-2026/alfacar/Alfacar_PSL_v0_8_1_2026-11-16.json",
-    "pdf": "materiales/perfiles-2026/alfacar/Alfacar_PSL_v0_8_1_2026-11-16.pdf",
-    "jsonSha256": "84d88cce4f201ac2d8ed06d0c1adc4083d812ba5f23ecf4d22e3b7fa8ac0bb42",
-    "pdfSha256": "92c9ab03a308be93a73145e0325ce33ae88556d3d9fc10d22ec782a49cca7464",
+    "json": "materiales/perfiles-2026/alfacar/Alfacar_PSL_v0_8_2_2026-11-17.json",
+    "pdf": "materiales/perfiles-2026/alfacar/Alfacar_PSL_v0_8_2_2026-11-17.pdf",
+    "jsonSha256": "a0da4b48dcc691da52766d6f4a57d1f51da97dbe2c3684c2ee54a18a9640176e",
+    "pdfSha256": "7044697051b4b1d9d87c75b55935b485123aef86b879876e03d44477a49dc6ae",
     "results": 138,
-    "firebaseCurrentVersion": "0.8.1",
-    "firebaseLatestVersion": "0.8.1",
-    "firebaseVerifiedOn": "2026-11-16",
+    "firebaseCurrentVersion": "0.8.2",
+    "firebaseLatestVersion": "0.8.2",
+    "firebaseVerifiedOn": "2026-11-17",
     "firebaseLatestIsCurrent": true
   },
   "atarfe": {

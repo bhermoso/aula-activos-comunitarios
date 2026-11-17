@@ -218,3 +218,7 @@ Confirmación directa del usuario para la cita del **22 de octubre de 2026**: **
 ## 16/11/2026 · Secuencia Compartir → Priorizar → Planificar → Mapear
 
 Indicación del usuario: el mapeo de activos se hace solo sobre las líneas estratégicas priorizadas e incluidas en el Plan de Acción, así que planificar precede a mapear. Diapositiva «Próximos pasos» de Alfacar (25) y Atarfe (23): 3 · Planificar (Plan de Acción: líneas, objetivos e indicadores) y 4 · Mapear (activos de las líneas incluidas en el Plan de Acción). Las agendas anuales salen de esa diapositiva porque pertenecen a la implantación, no al Plan de Acción. Zagra: «trabajo pendiente de planificación y, después, de mapeo». Los antecedentes del 14/11 conservan su redacción original.
+
+## 17/11/2026 · Alfacar: Perfil 0.8.2
+
+El apartado 6 del Perfil 0.8.1 situaba actuaciones, responsables, recursos y plazos en el Plan de Acción. La 0.8.2 lo corrige (Plan de Acción: líneas, objetivos e indicadores; actuaciones: agendas anuales de implantación), está cargada en COMPÁS y es la que enlaza el Aula. Las revisiones del 16/11 de Atarfe (0.7), Loja (0.5) y Zagra (0.3) tienen el mismo defecto; no son las vigentes en COMPÁS y se corregirán si pasan a serlo. Loja 0.4-C1 tiene una frase ambigua («pertenecen a la priorización y al Plan») que se aclarará en su siguiente revisión. Detalle en `alfacar/ESTADO_Y_CONTINUIDAD.md`.
