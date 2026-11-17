@@ -59,3 +59,7 @@ Carlos presenta el Informe en 15-20 minutos (indicación del usuario, 17/11); an
 ## Sede del taller · 17/11/2026
 
 Indicación del usuario: el taller se celebra en la sede de Servicios Sociales Comunitarios, calle Ángel de la Higuera. Sustituye a «Ayuntamiento de Alfacar · sala por confirmar» en las dos portadas, la ficha, el Programa, la relación de participantes y la guía PDF para la moderadora.
+
+## Priorización: advertencia de participación juvenil · 17/11/2026
+
+A petición del usuario, la diapositiva 5 de la presentación de priorización añade la conclusión C8 del Perfil 0.8.1: cuatro registros de menores de 30 años y ninguno de menores de 26; el Perfil propone incorporar su perspectiva antes de cerrar la priorización. Fuente citada en la propia diapositiva.
