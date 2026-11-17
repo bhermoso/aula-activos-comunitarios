@@ -55,3 +55,7 @@ Indicación del usuario: la alcaldesa abre el taller con una intervención libre
 
 Tiempos (indicación del usuario, 17/11): la ronda pasa de 15 a 18 minutos (seis personas, hasta tres minutos cada una) y el coloquio, de 30 a 33.
 Carlos presenta el Informe en 15-20 minutos (indicación del usuario, 17/11); anotado en el bloque 02 del Programa, el guion y la guía.
+
+## Sede del taller · 17/11/2026
+
+Indicación del usuario: el taller se celebra en la sede de Servicios Sociales Comunitarios, calle Ángel de la Higuera. Sustituye a «Ayuntamiento de Alfacar · sala por confirmar» en las dos portadas, la ficha, el Programa, la relación de participantes y la guía PDF para la moderadora.
