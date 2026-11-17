@@ -14,7 +14,7 @@ for(const [m,f] of Object.entries(manifest))test(m+' conserva perfil, originales
  for(const a of p.areas)assert.ok(deck.includes(a.rationale));
  for(const c of p.findings)assert.ok(index.includes(c.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;')));
  for(const s of deck.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g))if(s[1].trim())new Script(s[1]);
- assert.equal(f.firebaseLatestIsCurrent,m==='alfacar');
+ assert.equal(f.firebaseLatestIsCurrent,true);
 });
 test('Loja conserva toda la evidencia y originales sin superar el límite de guardado',async()=>{
  const f=manifest.loja,e=JSON.parse(read('impulso/materiales/perfil-2026/sesion-datos.json'));assert.equal(e.profileResultCount,493);assert.equal(e.profileSha256,f.jsonSha256);assert.equal(e.surveyComparison.metrics.length,6);assert.ok(e.income.find(x=>x.code==='1812203002').threshold.startsWith('Cota'));
