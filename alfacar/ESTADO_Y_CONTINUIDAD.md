@@ -44,3 +44,7 @@ Pendiente: el bloque 03 del Programa todavía dice que el reparto de intervencio
 ## Coloquio a todo el ancho · 16/11/2026
 
 La sección del coloquio se encogía al contenido (flex) y el diagrama quedaba en unos 740 px a la izquierda. Ahora ocupa el ancho disponible, centrado, y su tamaño se ajusta para caber bajo las pestañas y el título sin desplazar (comprobado de 1024×768 a 1920×1080).
+
+## Orden de la ronda · 17/11/2026
+
+Indicación del usuario: alcaldesa (apertura), Carlos, María Ángeles, Araceli, Miriam, Juana y Blas. Cambiados el diagrama (2 María Ángeles, 3 Araceli), la relación de participantes, el guion y la guía PDF para la moderadora.
