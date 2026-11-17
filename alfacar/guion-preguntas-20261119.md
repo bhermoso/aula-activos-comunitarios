@@ -12,10 +12,10 @@
 
 Elisa González Sánchez presenta y modera. Orden de la ronda: alcaldesa (si permanece en la mesa), Carlos, María Ángeles, Araceli, Miriam, Juana y Blas, que cierra con los próximos pasos metodológicos. La primera pregunta inicia cada intervención; la segunda es una repregunta opcional. No es necesario agotarlas ni repetir la exposición del Informe. Las experiencias profesionales complementan la lectura de la situación local; los resultados epidemiológicos no se someten a votación. Se piden ejemplos generales, sin identificar a personas atendidas.
 
-## Dinámica propuesta · 30 minutos
+## Dinámica propuesta · 33 minutos
 
 1. **Apertura · 2 minutos.** Elisa presenta el propósito: escuchar las distintas perspectivas y reconocer qué aportan al siguiente paso del II Plan.
-2. **Ronda de perspectivas · 15 minutos.** Alcaldesa (si permanece en la mesa) → Carlos → María Ángeles → Araceli → Miriam → Juana. Hasta tres minutos por persona; una pregunta de arranque y repregunta solo si aporta algo nuevo.
+2. **Ronda de perspectivas · 18 minutos.** Alcaldesa (si permanece en la mesa) → Carlos → María Ángeles → Araceli → Miriam → Juana. Hasta tres minutos por persona; una pregunta de arranque y repregunta solo si aporta algo nuevo.
 3. **Diálogo compartido · 5 minutos.** La moderación recoge coincidencias, diferencias y posibilidades de colaboración. Puede abrir una intervención breve a la sala, según el tiempo disponible.
 4. **Cierre metodológico · 5 minutos.** Blas responde a las dos preguntas y sitúa las decisiones que se prepararán para la próxima reunión.
 5. **Síntesis · 3 minutos.** La coordinación resume las aportaciones y la propuesta de trabajo siguiente; recoge responsables y tareas que se acuerden, sin dar por adoptadas líneas todavía no seleccionadas.
