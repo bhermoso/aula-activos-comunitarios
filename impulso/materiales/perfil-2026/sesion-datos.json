@@ -1,7 +1,7 @@
 {
   "schema": "loja-session-evidence/v1",
-  "profileTitle": "Perfil de Salud Local de Loja · revisión 0.6.1 · 18/11/2026",
-  "profileSha256": "93beb16bef04802b4aa609a3c8021c6f36f7ec94a7be075dbba0595ee34f8802",
+  "profileTitle": "Perfil de Salud Local de Loja · revisión 0.6.2 · 18/11/2026",
+  "profileSha256": "e52b54949e7a20b715641afc5c1f2997383e419364d933e11ee3dd4552ef8698",
   "history": [
     {
       "id": "1",
@@ -14951,7 +14951,7 @@
       "note": "Dato agregado de sección; no es renta individual, de vivienda ni de calle."
     }
   ],
-  "profilePdfSha256": "463a92878aa20bc3c167674b53a2d71b83ce97f533dfd763dee11ee67ba37797",
+  "profilePdfSha256": "7119640b653eb47d54d47d41ecf460af5e74f1e7aebe2aa0b2c96db41a106a7a",
   "surveyComparison": {
     "schema": "loja-esde-comparison/v1",
     "date": "2026-11-12",
@@ -15107,9 +15107,9 @@
       "rationale": "Contrastar · Deriva de C9"
     }
   ],
-  "profileJsonPath": "../materiales/perfiles-2026/loja/Loja_PSL_v0_6_1_2026-11-18.json",
-  "profilePdfPath": "../materiales/perfiles-2026/loja/Loja_PSL_v0_6_1_2026-11-18.pdf",
+  "profileJsonPath": "../materiales/perfiles-2026/loja/Loja_PSL_v0_6_2_2026-11-18.json",
+  "profilePdfPath": "../materiales/perfiles-2026/loja/Loja_PSL_v0_6_2_2026-11-18.pdf",
   "previousProfileSha256": "bbc2669c89b125b23962ee97595aa3755265cc34d8ba7a01f3bd00e7c931444d",
   "profileResultCount": 602,
-  "profileVersion": "0.6.1"
+  "profileVersion": "0.6.2"
 }
