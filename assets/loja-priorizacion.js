@@ -117,10 +117,9 @@
       const pdfBytes = await pdfResponse.arrayBuffer();
       const pdfHash = [...new Uint8Array(await crypto.subtle.digest('SHA-256', pdfBytes))].map(value => value.toString(16).padStart(2, '0')).join('');
       if (pdfHash !== evidence.profilePdfSha256) throw new Error('El PDF del perfil ha cambiado. Contrasta sus fuentes antes de guardar.');
-      const profilePdf = await new Promise((resolve, reject) => {
-        const reader = new FileReader(); reader.onload = () => resolve(String(reader.result).split(',')[1]); reader.onerror = () => reject(new Error('No se ha podido preparar el PDF.')); reader.readAsDataURL(new Blob([pdfBytes], {type: 'application/pdf'}));
-      });
-      const payload = {schema: 'aula-loja-complete/v1', worksheet, evidence, originals: {profileJson, profileJsonSha256: hash, profilePdfBase64: profilePdf, profilePdfSha256: pdfHash}};
+      // El PDF del Perfil se comprueba por su huella y se registra por su ruta: incrustarlo
+      // supera el límite de guardado de la sesión. El original permanece publicado en el Aula.
+      const payload = {schema: 'aula-loja-complete/v1', worksheet, evidence, originals: {profileJson, profileJsonSha256: hash, profilePdfPath: evidence.profilePdfPath, profilePdfSha256: pdfHash}};
       version = await cloud.saveSession(payload, version);
       const reread = await cloud.loadSession();
       if (!reread || reread.version < version || (reread.version === version && JSON.stringify(reread.payload) !== JSON.stringify(payload))) throw new Error('El servidor no ha confirmado la lectura de la versión guardada. Recupera la sesión para comprobarla.');

@@ -74,7 +74,8 @@ test('Loja conserva ESdE separada y no sobreescribe automáticamente sesiones an
  assert.ok(!JSON.parse(read(manifest.loja.json)).surveyComparison);
  const js=read('assets/loja-priorizacion.js');new Script(js);assert.ok(js.includes('fetch(evidence.profileJsonPath)'));assert.ok(js.includes('version = saved.version'));
  assert.ok(js.includes('previousSession = saved'));assert.ok(js.includes('download-previous-session'));assert.ok(!js.includes("fetch('materiales/perfil-2026/Loja_PSL_renta_2024"));
- const payload={schema:'aula-loja-complete/v1',worksheet:{},evidence,originals:{profileJson:read(manifest.loja.json),profileJsonSha256:manifest.loja.jsonSha256,profilePdfBase64:readFileSync(path.join(root,manifest.loja.pdf)).toString('base64'),profilePdfSha256:manifest.loja.pdfSha256}};
+ assert.ok(js.includes('profilePdfPath: evidence.profilePdfPath'));assert.ok(!js.includes('profilePdfBase64'),'El PDF se registra por ruta y huella, no se incrusta');
+ const payload={schema:'aula-loja-complete/v1',worksheet:{},evidence,originals:{profileJson:read(manifest.loja.json),profileJsonSha256:manifest.loja.jsonSha256,profilePdfPath:'../'+manifest.loja.pdf,profilePdfSha256:manifest.loja.pdfSha256}};
  const codec=await import('data:text/javascript;base64,'+Buffer.from(read('assets/session-content-codec.js')).toString('base64')); const content=await codec.encodeSessionContent(payload); assert.ok(Buffer.byteLength(content)<680000,'Margen bajo límite de 700000 bytes del guardado Firebase'); assert.deepEqual(await codec.decodeSessionContent(content),payload);
 });
 

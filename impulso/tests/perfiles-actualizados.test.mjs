@@ -17,8 +17,8 @@ for(const [m,f] of Object.entries(manifest))test(m+' conserva perfil, originales
  assert.equal(f.firebaseLatestIsCurrent,true);
 });
 test('Loja conserva toda la evidencia y originales sin superar el límite de guardado',async()=>{
- const f=manifest.loja,e=JSON.parse(read('impulso/materiales/perfil-2026/sesion-datos.json'));assert.equal(e.profileResultCount,493);assert.equal(e.profileSha256,f.jsonSha256);assert.equal(e.surveyComparison.metrics.length,6);assert.ok(e.income.find(x=>x.code==='1812203002').threshold.startsWith('Cota'));
- const payload={schema:'aula-loja-complete/v1',worksheet:{closingNotes:'Prueba ñ á'},evidence:e,originals:{profileJson:read(f.json),profileJsonSha256:f.jsonSha256,profilePdfBase64:readFileSync(new URL(f.pdf,root)).toString('base64'),profilePdfSha256:f.pdfSha256}};
+ const f=manifest.loja,e=JSON.parse(read('impulso/materiales/perfil-2026/sesion-datos.json'));assert.equal(e.profileResultCount,602);assert.equal(e.profileSha256,f.jsonSha256);assert.equal(e.surveyComparison.metrics.length,6);assert.ok(e.income.find(x=>x.code==='1812203002').threshold.startsWith('Cota'));
+ const payload={schema:'aula-loja-complete/v1',worksheet:{closingNotes:'Prueba ñ á'},evidence:e,originals:{profileJson:read(f.json),profileJsonSha256:f.jsonSha256,profilePdfPath:'../'+f.pdf,profilePdfSha256:f.pdfSha256}};
  assert.ok(Buffer.byteLength(JSON.stringify(payload))>700000);const content=await codec.encodeSessionContent(payload);assert.ok(Buffer.byteLength(content)<700000);assert.deepEqual(await codec.decodeSessionContent(content),payload);
  const legacy={schema:'aula-loja-complete/v1',worksheet:{notes:'sesión anterior'}};assert.deepEqual(await codec.decodeSessionContent(JSON.stringify(legacy)),legacy);
 });
@@ -28,8 +28,8 @@ test('Alcaldesa primero y preguntas corregidas sin perder las seis voces',()=>{
  assert.ok(g.includes('valoración sintética'));assert.ok(g.includes('indicadores de morbimortalidad'));assert.ok(g.includes('qué conocimiento y qué perspectiva'));
  const s=read('alfacar/index.html');assert.equal((s.match(/class="cq-seat cq-/g)||[]).length,6);
 });
-test('Alfacar 0.8.2: el Paso al Plan de Acción no le atribuye actuaciones, responsables, recursos ni plazos',()=>{
- const f=manifest.alfacar;assert.equal(f.version,'0.8.2');const t=JSON.parse(read(f.json)).text;
+test('Alfacar 0.9.0: el Paso al Plan de Acción no le atribuye actuaciones, responsables, recursos ni plazos',()=>{
+ const f=manifest.alfacar;assert.equal(f.version,'0.9.0');const t=JSON.parse(read(f.json)).text;
  const s=t.slice(t.indexOf('6. Paso al Plan de Acción'),t.indexOf('7. Autoría'));
  assert.match(s,/Plan de Acción, que fijará las líneas estratégicas, los objetivos y los indicadores/);assert.match(s,/agendas anuales de implantación/);
  assert.doesNotMatch(s,/actuaciones, responsables, recursos y plazos/);assert.doesNotMatch(s,/líneas de actuación/);
