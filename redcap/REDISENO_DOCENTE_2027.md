@@ -114,3 +114,8 @@ Completados y publicados mediante PR #29 los itinerarios interactivos, diez PDF 
 ### Plantilla de seguimiento 2027 · 17/10/2026
 
 Incorporada en la PR #29 la plantilla docente `redcap/materiales/plantilla_seguimiento_2027_diccionario.csv`, con 15 campos y tres instrumentos técnicos (ficha inicial, hábitos y seguimiento). Está enlazada desde REDCap Avanzado y documentada en `redcap/PLANTILLA_SEGUIMIENTO_2027.md`. **Su importación no crea eventos longitudinales, repetición ni encuestas**: el alumnado debe elegir y configurar esa arquitectura según necesidad y permisos. Se amplía el test de regresión para vigilar la plantilla.
+
+
+### Calendario de ediciones · 18/11/2026
+
+El calendario pasa de cuatro ediciones (Básico en febrero y septiembre; Avanzado en abril y noviembre) a dos: **Básico en marzo** (presenciales 04/03 y 11/03/2027; entregas 09/03 y 18/03/2027) y **Avanzado en noviembre** (presenciales 04/11 y 11/11/2027; entregas 09/11 y 18/11/2027). Motivo: la edición de febrero del Básico coincidía el 11/02/2027 con la sesión 2 presencial de *Del dato a la acción*, y la de septiembre con las jornadas de recepción de estudiantes de la universidad. El orden resultante sigue la secuencia formativa del año: planificación y evaluación (febrero), instrumento (Básico, marzo), diagnóstico y mapeo de activos (octubre), proyectos con seguimiento y calidad (Avanzado, noviembre). Fechas modificadas en `materiales_2027.json`; los diez PDF se regeneran con `node redcap/generar_pdf_2027_node.mjs`. Siguen pendientes de validación institucional por Gesforma.

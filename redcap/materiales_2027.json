@@ -43,18 +43,11 @@
             ],
             "rows": [
               [
-                "Primavera",
-                "04/02/2027",
-                "11/02/2027",
-                "09/02/2027",
-                "18/02/2027"
-              ],
-              [
-                "Otoño",
-                "16/09/2027",
-                "23/09/2027",
-                "21/09/2027",
-                "30/09/2027"
+                "Marzo",
+                "04/03/2027",
+                "11/03/2027",
+                "09/03/2027",
+                "18/03/2027"
               ]
             ]
           }
@@ -240,7 +233,7 @@
       "clase": "Trabajo no presencial 1",
       "titulo": "Trabajo 1. Ampliar, probar y documentar",
       "subtitulo": "Del prototipo a una versión revisada",
-      "duracion": "5 horas · Entrega 09/02/2027 o 21/09/2027",
+      "duracion": "5 horas · Entrega 09/03/2027",
       "sections": [
         {
           "h": "Producto de la tarea",
@@ -431,7 +424,7 @@
       "clase": "Trabajo no presencial 2",
       "titulo": "Trabajo final. Instrumento y encuesta validados",
       "subtitulo": "Prueba por terceros, protección y entrega funcional",
-      "duracion": "5 horas · Entrega 18/02/2027 o 30/09/2027",
+      "duracion": "5 horas · Entrega 18/03/2027",
       "sections": [
         {
           "h": "Objetivo y producto",
@@ -560,14 +553,7 @@
             ],
             "rows": [
               [
-                "Primavera",
-                "22/04/2027",
-                "29/04/2027",
-                "27/04/2027",
-                "06/05/2027"
-              ],
-              [
-                "Otoño",
+                "Noviembre",
                 "04/11/2027",
                 "11/11/2027",
                 "09/11/2027",
@@ -770,7 +756,7 @@
       "clase": "Trabajo no presencial 1",
       "titulo": "Trabajo 1. Modelo y prueba de seguimiento",
       "subtitulo": "Arquitectura justificada con escenarios reales simulados",
-      "duracion": "5 horas · Entrega 27/04/2027 o 09/11/2027",
+      "duracion": "5 horas · Entrega 09/11/2027",
       "sections": [
         {
           "h": "Consigna",
@@ -982,7 +968,7 @@
       "clase": "Trabajo no presencial 2",
       "titulo": "Trabajo final. Auditoría y plan de uso",
       "subtitulo": "Demostrar que el proyecto puede operarse y corregirse",
-      "duracion": "5 horas · Entrega 06/05/2027 o 18/11/2027",
+      "duracion": "5 horas · Entrega 18/11/2027",
       "sections": [
         {
           "h": "Producto final",

@@ -10,7 +10,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 7 0 R /F2 8 0 R >> >> /Contents 4 0 R >>
 endobj
 4 0 obj
-<< /Length 4595 >>
+<< /Length 4633 >>
 stream
 0.14 0.42 0.33 rg 0 826.89 595.28 15 re f
 0.92 0.95 0.91 rg 0 713.89 595.28 113 re f
@@ -41,25 +41,25 @@ BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 445.29 Tm (Distinguir desarrollo/produ
 BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 410.09 Tm (Calendario de ediciones) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 398.09 m 544.28 398.09 l S
 0.92 0.95 0.91 rg 51 358.29 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 382.09 Tm (Primavera) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 370.89 Tm (Presencial 1: 04/02/2027 · Presencial 2: 11/02/2027 · Trabajo 1: 09/02/2027 · Trabajo final: 18/02/2027) Tj ET
-0.92 0.95 0.91 rg 51 318.49 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 342.29 Tm (Otoño) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 331.09 Tm (Presencial 1: 16/09/2027 · Presencial 2: 23/09/2027 · Trabajo 1: 21/09/2027 · Trabajo final: 30/09/2027) Tj ET
-BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 281.49 Tm (Itinerario de 20 horas) Tj ET
-0.81 0.88 0.82 RG 0.6 w 51 269.49 m 544.28 269.49 l S
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 382.09 Tm (Marzo) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 370.89 Tm (Presencial 1: 04/03/2027 · Presencial 2: 11/03/2027 · Trabajo 1: 09/03/2027 · Trabajo final: 18/03/2027) Tj ET
+BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 321.29 Tm (Itinerario de 20 horas) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 309.29 m 544.28 309.29 l S
+0.92 0.95 0.91 rg 51 269.49 493.28 35.8 re f
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 293.29 Tm (Sesión 1 · Del objetivo al instrumento) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 282.09 Tm (Horas: 5 h presenciales · Producto: Primer formulario y registros ficticios) Tj ET
 0.92 0.95 0.91 rg 51 229.69 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 253.49 Tm (Sesión 1 · Del objetivo al instrumento) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 242.29 Tm (Horas: 5 h presenciales · Producto: Primer formulario y registros ficticios) Tj ET
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 253.49 Tm (Trabajo 1 · Ampliación y pruebas) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 242.29 Tm (Horas: 5 h no presenciales · Producto: Diccionario + casos de prueba) Tj ET
 0.92 0.95 0.91 rg 51 189.89 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 213.69 Tm (Trabajo 1 · Ampliación y pruebas) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 202.49 Tm (Horas: 5 h no presenciales · Producto: Diccionario + casos de prueba) Tj ET
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 213.69 Tm (Sesión 2 · Encuesta y uso responsable) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 202.49 Tm (Horas: 5 h presenciales · Producto: Encuesta de prueba y condición sencilla) Tj ET
 0.92 0.95 0.91 rg 51 150.09 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 173.89 Tm (Sesión 2 · Encuesta y uso responsable) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 162.69 Tm (Horas: 5 h presenciales · Producto: Encuesta de prueba y condición sencilla) Tj ET
-0.92 0.95 0.91 rg 51 110.29 493.28 35.8 re f
-BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 134.09 Tm (Trabajo final · Validación por otra persona) Tj ET
-BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 122.89 Tm (Horas: 5 h no presenciales · Producto: Instrumento, prueba y ficha de protección) Tj ET
+BT /F2 8.5 Tf 0.14 0.42 0.33 rg 1 0 0 1 60 173.89 Tm (Trabajo final · Validación por otra persona) Tj ET
+BT /F1 8.45 Tf 0.1 0.26 0.21 rg 1 0 0 1 60 162.69 Tm (Horas: 5 h no presenciales · Producto: Instrumento, prueba y ficha de protección) Tj ET
+BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 113.09 Tm (Evaluación y condiciones) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 101.09 m 544.28 101.09 l S
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 85.09 Tm (Las dos entregas se valoran por la adecuación del diseño, validaciones, funcionamiento demostrado, pruebas e información) Tj ET
 BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 39 Tm (Material REDCap 2027  -  1 / 2) Tj ET
 BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 440.28 39 Tm (Revision 17/10/2026) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 51 m 544.28 51 l S
@@ -69,7 +69,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 7 0 R /F2 8 0 R >> >> /Contents 6 0 R >>
 endobj
 6 0 obj
-<< /Length 2546 >>
+<< /Length 2226 >>
 stream
 0.14 0.42 0.33 rg 0 826.89 595.28 15 re f
 0.92 0.95 0.91 rg 0 713.89 595.28 113 re f
@@ -77,24 +77,21 @@ BT /F2 8 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 802.89 Tm (AULA DE SALUD COMUNITARIA BA
 BT /F2 17.3 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 775.89 Tm (REDCap Básico 2027) Tj ET
 BT /F1 8.2 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 724.89 Tm (BÁSICO   |   Programa   |   20 horas: 10 presenciales + 10 no presenciales) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 708.89 m 544.28 708.89 l S
-BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 679.89 Tm (Evaluación y condiciones) Tj ET
-0.81 0.88 0.82 RG 0.6 w 51 667.89 m 544.28 667.89 l S
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 651.89 Tm (Las dos entregas se valoran por la adecuación del diseño, validaciones, funcionamiento demostrado, pruebas e información) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 637.69 Tm (sobre el tratamiento de datos. No se exige memorizar sintaxis. Estructura provisional de calificación: 20% primera entrega,) Tj ET
-BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 623.49 Tm (20% final y 60% post-test. Verificar requisitos de certificación con Gesforma.) Tj ET
-BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 587.29 Tm (Recursos y precauciones) Tj ET
-0.81 0.88 0.82 RG 0.6 w 51 575.29 m 544.28 575.29 l S
-0.14 0.42 0.33 rg 52 560.39 4 4 re f
-BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 559.29 Tm (Ejercicio común de hábitos de vida en contexto de atención primaria con información ficticia.) Tj ET
-0.14 0.42 0.33 rg 52 542.19 4 4 re f
-BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 541.09 Tm (El alumnado dispondrá de diccionario de prueba, guías de sesión, casos y rúbricas.) Tj ET
-0.14 0.42 0.33 rg 52 523.99 4 4 re f
-BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 522.89 Tm (Nunca utilizar datos clínicos reales, contactos ni identificadores personales en el entorno de prácticas.) Tj ET
-0.14 0.42 0.33 rg 52 505.79 4 4 re f
-BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 504.69 Tm (Material actualizado en aula-activos-comunitarios/redcap/. La documentación del REDCap institucional prevalece sobre) Tj ET
-BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 491.49 Tm (capturas o menús genéricos.) Tj ET
-0.81 0.88 0.82 RG 0.6 w 51 468.29 m 544.28 468.29 l S
-BT /F1 8.1 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 451.29 Tm (Solo registros ficticios y permisos adecuados. Consultar documentación del REDCap institucional.) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 691.89 Tm (sobre el tratamiento de datos. No se exige memorizar sintaxis. Estructura provisional de calificación: 20% primera entrega,) Tj ET
+BT /F1 9 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 677.69 Tm (20% final y 60% post-test. Verificar requisitos de certificación con Gesforma.) Tj ET
+BT /F2 12.2 Tf 0.14 0.42 0.33 rg 1 0 0 1 51 641.49 Tm (Recursos y precauciones) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 629.49 m 544.28 629.49 l S
+0.14 0.42 0.33 rg 52 614.59 4 4 re f
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 613.49 Tm (Ejercicio común de hábitos de vida en contexto de atención primaria con información ficticia.) Tj ET
+0.14 0.42 0.33 rg 52 596.39 4 4 re f
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 595.29 Tm (El alumnado dispondrá de diccionario de prueba, guías de sesión, casos y rúbricas.) Tj ET
+0.14 0.42 0.33 rg 52 578.19 4 4 re f
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 577.09 Tm (Nunca utilizar datos clínicos reales, contactos ni identificadores personales en el entorno de prácticas.) Tj ET
+0.14 0.42 0.33 rg 52 559.99 4 4 re f
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 558.89 Tm (Material actualizado en aula-activos-comunitarios/redcap/. La documentación del REDCap institucional prevalece sobre) Tj ET
+BT /F1 8.9 Tf 0.1 0.26 0.21 rg 1 0 0 1 66 545.69 Tm (capturas o menús genéricos.) Tj ET
+0.81 0.88 0.82 RG 0.6 w 51 522.49 m 544.28 522.49 l S
+BT /F1 8.1 Tf 0.1 0.26 0.21 rg 1 0 0 1 51 505.49 Tm (Solo registros ficticios y permisos adecuados. Consultar documentación del REDCap institucional.) Tj ET
 BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 51 39 Tm (Material REDCap 2027  -  2 / 2) Tj ET
 BT /F1 8 Tf 0.36 0.44 0.4 rg 1 0 0 1 440.28 39 Tm (Revision 17/10/2026) Tj ET
 0.81 0.88 0.82 RG 0.6 w 51 51 m 544.28 51 l S
@@ -113,12 +110,12 @@ xref
 0000000064 00000 n 
 0000000127 00000 n 
 0000000269 00000 n 
-0000004915 00000 n 
-0000005057 00000 n 
-0000007654 00000 n 
-0000007751 00000 n 
+0000004953 00000 n 
+0000005095 00000 n 
+0000007372 00000 n 
+0000007469 00000 n 
 trailer
 << /Root 1 0 R /Size 9 >>
 startxref
-7853
+7571
 %%EOF
