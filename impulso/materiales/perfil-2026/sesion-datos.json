@@ -1,7 +1,7 @@
 {
   "schema": "loja-session-evidence/v1",
-  "profileTitle": "Perfil de Salud Local de Loja · revisión 0.5.1 · 17/11/2026",
-  "profileSha256": "bbc2669c89b125b23962ee97595aa3755265cc34d8ba7a01f3bd00e7c931444d",
+  "profileTitle": "Perfil de Salud Local de Loja · revisión 0.6.2 · 18/11/2026",
+  "profileSha256": "e52b54949e7a20b715641afc5c1f2997383e419364d933e11ee3dd4552ef8698",
   "history": [
     {
       "id": "1",
@@ -143,7 +143,11 @@
     "C6. La salud sexual tiene fundamento sanitario para su consideración en el Plan. Entre 2022 y el 5 de octubre de 2026 se notifican 45 casos de clamidia, 27 de gonococo, 11 de sífilis y 10 de herpes genital. La consulta de 2019 también menciona salud sexual. Los recuentos acumulados no permiten establecer una tendencia ni identificar los grupos destinatarios sin información adicional [5, tabla 12; 17].",
     "C7. La prevención presenta resultados distintos según programa y fase. En 2025 participa el 35,77 % de las personas invitadas a colon y el 33,59 % a cérvix. En mama se invita al 56,94 % de elegibles y participa el 73,47 % de citadas. La pauta vacunal infantil completa alcanza el 98,44 %. Las propuestas comunitarias deben precisar a qué fase pueden contribuir y no valorar toda la prevención con un único porcentaje [5, tablas 9-11 y 14].",
     "C8. El municipio dispone de capacidades comunitarias que deben relacionarse con las propuestas concretas. El inventario recoge cinco activos validados, tres dirigidos a mayores según el antecedente. El catálogo de 162 recursos es distinto y más amplio. Su tamaño no permite deducir cobertura, uso o capacidad efectiva; esas condiciones se concretan con sus responsables y la comunidad [9, 23-25, 30].",
-    "C9. La continuidad del proceso exige revisar la priorización histórica con los participantes actuales. Las consultas y propuestas de 2012, 2019 y 2022 documentan una trayectoria intersectorial y asuntos recurrentes. Ninguna selección anterior se presenta como acuerdo adoptado en 2026. Recuperar qué sigue vigente y qué nuevas necesidades se incorporan permite fundamentar la selección de líneas del nuevo Plan [6-8, 10-12, 17, 26]."
+    "C9. La continuidad del proceso exige revisar la priorización histórica con los participantes actuales. Las consultas y propuestas de 2012, 2019 y 2022 documentan una trayectoria intersectorial y asuntos recurrentes. Ninguna selección anterior se presenta como acuerdo adoptado en 2026. Recuperar qué sigue vigente y qué nuevas necesidades se incorporan permite fundamentar la selección de líneas del nuevo Plan [6-8, 10-12, 17, 26].",
+    "C10. La renta de Loja es más baja que la de su entorno y depende menos del salario. En 2024 la renta neta media por persona es de 11.741 euros, frente a 13.509 en la provincia, 13.342 en Andalucía y 15.948 en España. El salario aporta el 51,9 % de la renta, frente al 55,1 % provincial; las pensiones, el 22,4 %; las prestaciones por desempleo, el 4,4 %, y otras prestaciones, el 8,1 %, frente al 2,8 % y el 6,6 % de la provincia. La pensión contributiva media de 2025, 1.095,5 euros al mes, es inferior a la provincial (1.287,6) y a la andaluza (1.312,4), y la renta disponible media por declaración del IRPF es de 18.759 euros, frente a 22.635 en la provincia [T31025, T31026, B46121, B105037].",
+    "C11. El nivel educativo de la población adulta es inferior al de la provincia. En 2024 el 21,3 % de la población de 15 o más años tiene educación primaria o inferior, frente al 15,2 % provincial, y el 21,1 % tiene educación superior, frente al 32,3 %. En el marco de determinantes sociales, la educación es un eje de desigualdad. Debe tenerse en cuenta al preparar información comprensible y vías de participación accesibles, sin atribuir capacidades individuales a partir de datos agregados [T66721].",
+    "C12. El desempleo registrado es más persistente que en la provincia y afecta más a las mujeres. En 2025 la tasa de desempleo registrado es del 15,3 %, inferior al 17,8 % de los municipios de densidad intermedia de la provincia y próxima al 15,7 % andaluz, pero el 46,0 % del paro registrado lleva más de un año, frente al 41,9 % provincial y el 43,8 % andaluz. La tasa de las mujeres es del 20,5 % y la de los hombres, del 10,4 %; su pensión contributiva media es de 982,0 euros al mes, frente a 1.216,3. Las mujeres reúnen 1.826 de los 2.710 diagnósticos de ansiedad registrados (C5). Los datos no permiten relacionar estos hechos en las mismas personas [B120971, B117866, B46121; 5, tabla 2].",
+    "C13. Los servicios se distribuyen en un término extenso. En 2025 constan 8 centros de atención primaria y en 2023, 15 centros de servicios sociales, para dieciséis núcleos en 447,29 km². El recuento no informa de su localización por núcleo, sus horarios ni la población atendida. La accesibilidad de los servicios para la población de los núcleos debe contrastarse al valorar cuidados y prevención [B40161, B58270; 1]."
   ],
   "results": [
     {
@@ -159,7 +163,7 @@
       "denominator": "Población municipal",
       "temporalContext": "current",
       "caution": "",
-      "chartValue": 20923.0,
+      "chartValue": 20923,
       "supportsConclusions": [
         "C4"
       ]
@@ -246,7 +250,7 @@
       "denominator": "Recuento de residentes de nacionalidad extranjera",
       "temporalContext": "current",
       "caution": "",
-      "chartValue": 1778.0
+      "chartValue": 1778
     },
     {
       "id": "loja-armon-renta",
@@ -254,14 +258,14 @@
       "value": "11.741",
       "unit": "euros/persona",
       "period": "2024",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "source": "Perfil de Salud Local de Loja v0.3; [4] INE, tablas 31025, 53689 y 53694",
       "page": "2",
       "scale": "Loja",
       "denominator": "Personas de la población de referencia del Atlas de Renta",
       "temporalContext": "current",
       "caution": "",
-      "chartValue": 11741.0,
+      "chartValue": 11741,
       "comparisons": [
         {
           "label": "Provincia de Granada",
@@ -286,7 +290,7 @@
       "value": "29,5",
       "unit": "%",
       "period": "2024",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "source": "Perfil de Salud Local de Loja v0.3; [4] INE, tablas 31030, 53689 y 53694",
       "page": "2",
       "scale": "Loja",
@@ -315,17 +319,16 @@
     {
       "id": "loja-armon-paro",
       "title": "Paro registrado",
-      "value": "1.192",
+      "value": "1.191",
       "unit": "personas",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Paro registrado por sexo",
+      "page": "consulta 37015 · consultado 2026-11-18",
       "period": "2025",
-      "topic": "Determinantes sociales",
-      "source": "Perfil de Salud Local de Loja v0.3; [1] SIMA",
-      "page": "2",
-      "scale": "Loja",
-      "denominator": "Personas inscritas en paro; no población activa",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta. Sustituye en esta revisión el valor 1.192 (2025) del Perfil anterior.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
       "temporalContext": "current",
-      "caution": "",
-      "chartValue": 1192.0
+      "chartValue": 1191
     },
     {
       "id": "loja-armon-tasa-paro",
@@ -333,7 +336,7 @@
       "value": "15,3",
       "unit": "%",
       "period": "2025",
-      "topic": "Determinantes sociales",
+      "topic": "Condiciones de vida",
       "source": "Perfil de Salud Local de Loja v0.3; [1] SIMA",
       "page": "2",
       "scale": "Loja",
@@ -344,18 +347,23 @@
     },
     {
       "id": "loja-armon-estudios",
-      "title": "Población de 15 o más años con estudios superiores",
+      "title": "Población de 15 y más años con educación superior",
       "value": "21,1",
       "unit": "%",
-      "period": "2021",
-      "topic": "Determinantes sociales",
-      "source": "Perfil de Salud Local de Loja v0.3; [15] Censo 2021",
-      "page": "2",
-      "scale": "Loja",
-      "denominator": "Población de 15 años o más",
-      "temporalContext": "historical",
-      "caution": "",
-      "chartValue": 21.1
+      "source": "INE · Censo anual de población (INE) · Población de 15 y más años por nivel de formación alcanzado",
+      "page": "tabla 66721 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Porcentaje calculado por COMPÁS a partir de dos recuentos publicados por la fuente; se conservan ambos. La tabla municipal del censo no publica el valor de Andalucía; el comparador se omite. Cociente entre dos recuentos publicados por la fuente, multiplicado por 100 y redondeado a un decimal. Valores publicados: 15 y más años. Educación superior. Total. Total. Dato base. 3748; 15 y más años. Total. Total. Total. Dato base. 17799. Sustituye en esta revisión el valor 21,1 (2021) del Perfil anterior.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 21.1,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 32.3
+        }
+      ]
     },
     {
       "id": "loja-armon-dislipemia",
@@ -732,7 +740,7 @@
       "denominator": "Recuento anual de defunciones",
       "temporalContext": "current",
       "caution": "",
-      "chartValue": 184.0
+      "chartValue": 184
     },
     {
       "id": "loja-armon-cancer",
@@ -747,7 +755,7 @@
       "denominator": "Población estándar de la tasa publicada; no tasa bruta",
       "temporalContext": "historical",
       "caution": "",
-      "chartValue": 582.0,
+      "chartValue": 582,
       "comparisons": [
         {
           "label": "Provincia de Granada",
@@ -865,7 +873,7 @@
       "denominator": "Mediana en la población adulta estudiada",
       "temporalContext": "historical",
       "caution": "Mediana, no media; dato histórico.",
-      "chartValue": 0.0,
+      "chartValue": 0,
       "supportsConclusions": [
         "C2"
       ]
@@ -1013,7 +1021,7 @@
       "denominator": "Recuento de notificaciones en el periodo; no tasa anual",
       "temporalContext": "current",
       "caution": "",
-      "chartValue": 45.0,
+      "chartValue": 45,
       "supportsConclusions": [
         "C6"
       ]
@@ -1031,7 +1039,7 @@
       "denominator": "Recuento de notificaciones en el periodo; no tasa anual",
       "temporalContext": "current",
       "caution": "",
-      "chartValue": 27.0,
+      "chartValue": 27,
       "supportsConclusions": [
         "C6"
       ]
@@ -1049,7 +1057,7 @@
       "denominator": "Recuento de notificaciones en el periodo; no tasa anual",
       "temporalContext": "current",
       "caution": "",
-      "chartValue": 11.0,
+      "chartValue": 11,
       "supportsConclusions": [
         "C6"
       ]
@@ -1067,7 +1075,7 @@
       "denominator": "Recuento de notificaciones en el periodo; no tasa anual",
       "temporalContext": "current",
       "caution": "",
-      "chartValue": 10.0,
+      "chartValue": 10,
       "supportsConclusions": [
         "C6"
       ]
@@ -1085,7 +1093,7 @@
       "denominator": "Recuento de notificaciones en el periodo; no tasa anual",
       "temporalContext": "current",
       "caution": "",
-      "chartValue": 5.0
+      "chartValue": 5
     },
     {
       "id": "loja-armon-verdes",
@@ -1115,7 +1123,7 @@
       "denominator": "Registros del inventario; no activos validados",
       "temporalContext": "historical",
       "caution": "Catálogo anterior de 162 recursos conservado como antecedente; no es el inventario activo de cinco activos validados.",
-      "chartValue": 162.0,
+      "chartValue": 162,
       "supportsConclusions": [
         "C8"
       ]
@@ -1133,7 +1141,7 @@
       "denominator": "Cinco fichas expresamente validadas; no los 162 recursos",
       "temporalContext": "current",
       "caution": "",
-      "chartValue": 5.0,
+      "chartValue": 5,
       "supportsConclusions": [
         "C8"
       ]
@@ -1143,7 +1151,7 @@
       "title": "Renta neta media por persona",
       "value": "10.496,902",
       "unit": "euros por persona y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812201001; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1161,7 +1169,7 @@
       "title": "Renta neta media por hogar",
       "value": "28.496,508",
       "unit": "euros por hogar y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812201001; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1179,7 +1187,7 @@
       "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
       "value": "46,618",
       "unit": "%",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812201001; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1197,7 +1205,7 @@
       "title": "Renta neta media por persona",
       "value": "13.761,359",
       "unit": "euros por persona y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812201002; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1215,7 +1223,7 @@
       "title": "Renta neta media por hogar",
       "value": "33.023,654",
       "unit": "euros por hogar y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812201002; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1233,7 +1241,7 @@
       "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
       "value": "27,362",
       "unit": "%",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812201002; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1251,7 +1259,7 @@
       "title": "Renta neta media por persona",
       "value": "10.529,231",
       "unit": "euros por persona y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812201003; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1269,7 +1277,7 @@
       "title": "Renta neta media por hogar",
       "value": "26.109,385",
       "unit": "euros por hogar y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812201003; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1287,7 +1295,7 @@
       "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
       "value": "39,955",
       "unit": "%",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812201003; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1305,7 +1313,7 @@
       "title": "Renta neta media por persona",
       "value": "11.277,805",
       "unit": "euros por persona y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812202001; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1323,7 +1331,7 @@
       "title": "Renta neta media por hogar",
       "value": "29.537,108",
       "unit": "euros por hogar y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812202001; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1341,7 +1349,7 @@
       "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
       "value": "33,684",
       "unit": "%",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812202001; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1359,7 +1367,7 @@
       "title": "Renta neta media por persona",
       "value": "10.835,429",
       "unit": "euros por persona y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812202002; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1377,7 +1385,7 @@
       "title": "Renta neta media por hogar",
       "value": "29.323,379",
       "unit": "euros por hogar y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812202002; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1395,7 +1403,7 @@
       "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
       "value": "31,563",
       "unit": "%",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812202002; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1413,7 +1421,7 @@
       "title": "Renta neta media por persona",
       "value": "11.187,203",
       "unit": "euros por persona y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812202003; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1431,7 +1439,7 @@
       "title": "Renta neta media por hogar",
       "value": "27.503,363",
       "unit": "euros por hogar y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812202003; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1449,7 +1457,7 @@
       "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
       "value": "29,890",
       "unit": "%",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812202003; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1467,7 +1475,7 @@
       "title": "Renta neta media por persona",
       "value": "13.667,534",
       "unit": "euros por persona y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812202004; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1485,7 +1493,7 @@
       "title": "Renta neta media por hogar",
       "value": "32.523,064",
       "unit": "euros por hogar y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812202004; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1503,7 +1511,7 @@
       "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
       "value": "20,979",
       "unit": "%",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812202004; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1521,7 +1529,7 @@
       "title": "Renta neta media por persona",
       "value": "12.058,051",
       "unit": "euros por persona y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812202005; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1539,7 +1547,7 @@
       "title": "Renta neta media por hogar",
       "value": "32.115,008",
       "unit": "euros por hogar y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812202005; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1557,7 +1565,7 @@
       "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
       "value": "20,297",
       "unit": "%",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812202005; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1575,7 +1583,7 @@
       "title": "Renta neta media por persona",
       "value": "12.382,134",
       "unit": "euros por persona y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812203001; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1593,7 +1601,7 @@
       "title": "Renta neta media por hogar",
       "value": "29.862,793",
       "unit": "euros por hogar y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812203001; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1611,7 +1619,7 @@
       "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
       "value": "30,226",
       "unit": "%",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812203001; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1629,7 +1637,7 @@
       "title": "Renta neta media por persona",
       "value": "7.106,529",
       "unit": "euros por persona y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812203002; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1647,7 +1655,7 @@
       "title": "Renta neta media por hogar",
       "value": "20.458,191",
       "unit": "euros por hogar y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812203002; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1665,7 +1673,7 @@
       "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
       "value": "Cota publicada: 58,811",
       "unit": "%",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812203002; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1682,7 +1690,7 @@
       "title": "Renta neta media por persona",
       "value": "10.203,698",
       "unit": "euros por persona y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812203003; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1700,7 +1708,7 @@
       "title": "Renta neta media por hogar",
       "value": "24.939,038",
       "unit": "euros por hogar y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812203003; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1718,7 +1726,7 @@
       "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
       "value": "34,416",
       "unit": "%",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812203003; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1736,7 +1744,7 @@
       "title": "Renta neta media por persona",
       "value": "11.393,285",
       "unit": "euros por persona y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812203004; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1754,7 +1762,7 @@
       "title": "Renta neta media por hogar",
       "value": "29.089,558",
       "unit": "euros por hogar y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812203004; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1772,7 +1780,7 @@
       "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
       "value": "22,697",
       "unit": "%",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812203004; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1790,7 +1798,7 @@
       "title": "Renta neta media por persona",
       "value": "12.015,774",
       "unit": "euros por persona y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812204001; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1808,7 +1816,7 @@
       "title": "Renta neta media por hogar",
       "value": "26.795,913",
       "unit": "euros por hogar y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812204001; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1826,7 +1834,7 @@
       "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
       "value": "25,034",
       "unit": "%",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812204001; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1844,7 +1852,7 @@
       "title": "Renta neta media por persona",
       "value": "12.007,957",
       "unit": "euros por persona y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812204002; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1862,7 +1870,7 @@
       "title": "Renta neta media por hogar",
       "value": "28.155,302",
       "unit": "euros por hogar y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812204002; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1880,7 +1888,7 @@
       "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
       "value": "21,589",
       "unit": "%",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812204002; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1898,7 +1906,7 @@
       "title": "Renta neta media por persona",
       "value": "11.606,586",
       "unit": "euros por persona y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812204003; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1916,7 +1924,7 @@
       "title": "Renta neta media por hogar",
       "value": "27.235,672",
       "unit": "euros por hogar y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812204003; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1934,7 +1942,7 @@
       "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
       "value": "25,077",
       "unit": "%",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812204003; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1952,7 +1960,7 @@
       "title": "Renta neta media por persona",
       "value": "11.505,439",
       "unit": "euros por persona y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812205001; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1970,7 +1978,7 @@
       "title": "Renta neta media por hogar",
       "value": "26.652,227",
       "unit": "euros por hogar y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812205001; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -1988,7 +1996,7 @@
       "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
       "value": "29,047",
       "unit": "%",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812205001; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -2006,7 +2014,7 @@
       "title": "Renta neta media por persona",
       "value": "13.773,938",
       "unit": "euros por persona y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812205002; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -2024,7 +2032,7 @@
       "title": "Renta neta media por hogar",
       "value": "35.987,399",
       "unit": "euros por hogar y año",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812205002; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -2042,7 +2050,7 @@
       "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
       "value": "16,925",
       "unit": "%",
-      "topic": "Desigualdad",
+      "topic": "Ejes de desigualdad",
       "period": "2024",
       "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
       "page": "CUSEC 1812205002; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
@@ -2071,15 +2079,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 20923.0,
+      "chartValue": 20923,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 945797.0
+          "value": 945797
         },
         {
           "label": "Andalucía",
-          "value": 8676713.0
+          "value": 8676713
         }
       ]
     },
@@ -2099,15 +2107,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 10338.0,
+      "chartValue": 10338,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 464948.0
+          "value": 464948
         },
         {
           "label": "Andalucía",
-          "value": 4269107.0
+          "value": 4269107
         }
       ]
     },
@@ -2127,15 +2135,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 10585.0,
+      "chartValue": 10585,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 480849.0
+          "value": 480849
         },
         {
           "label": "Andalucía",
-          "value": 4407606.0
+          "value": 4407606
         }
       ]
     },
@@ -2187,7 +2195,7 @@
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17.0
+          "value": 17
         },
         {
           "label": "Andalucía",
@@ -2379,15 +2387,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 7911.0,
+      "chartValue": 7911,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 362623.0
+          "value": 362623
         },
         {
           "label": "Andalucía",
-          "value": 3340313.0
+          "value": 3340313
         }
       ]
     },
@@ -2407,15 +2415,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 1476.0,
+      "chartValue": 1476,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 74863.0
+          "value": 74863
         },
         {
           "label": "Andalucía",
-          "value": 690147.0
+          "value": 690147
         }
       ]
     },
@@ -2491,15 +2499,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 11741.0,
+      "chartValue": 11741,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 13509.0
+          "value": 13509
         },
         {
           "label": "Andalucía",
-          "value": 13342.0
+          "value": 13342
         }
       ]
     },
@@ -2519,15 +2527,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 29407.0,
+      "chartValue": 29407,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 33062.0
+          "value": 33062
         },
         {
           "label": "Andalucía",
-          "value": 34302.0
+          "value": 34302
         }
       ]
     },
@@ -2547,15 +2555,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 15750.0,
+      "chartValue": 15750,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17150.0
+          "value": 17150
         },
         {
           "label": "Andalucía",
-          "value": 17150.0
+          "value": 17150
         }
       ]
     },
@@ -2687,15 +2695,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 842.0,
+      "chartValue": 842,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 945797.0
+          "value": 945797
         },
         {
           "label": "Andalucía",
-          "value": 8676713.0
+          "value": 8676713
         }
       ]
     },
@@ -2715,15 +2723,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 427.0,
+      "chartValue": 427,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 464948.0
+          "value": 464948
         },
         {
           "label": "Andalucía",
-          "value": 4269107.0
+          "value": 4269107
         }
       ]
     },
@@ -2743,15 +2751,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 415.0,
+      "chartValue": 415,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 480849.0
+          "value": 480849
         },
         {
           "label": "Andalucía",
-          "value": 4407606.0
+          "value": 4407606
         }
       ]
     },
@@ -2803,7 +2811,7 @@
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17.0
+          "value": 17
         },
         {
           "label": "Andalucía",
@@ -2898,29 +2906,18 @@
     {
       "id": "loja-territorial-1812201001-foreignNationalityPct2025",
       "title": "Población de nacionalidad extranjera",
-      "value": "26,25",
+      "value": "26,2",
       "unit": "%",
+      "source": "INE · Censo anual de población (INE) · Población por sexo, edad y nacionalidad",
+      "page": "tabla 69178 · consultado 2026-11-18",
       "period": "2025",
-      "source": "INE · tabla 69178; referentes provincial y autonómico: tabla 68519",
-      "page": "CUSEC 1812201001; categoría Población de nacionalidad extranjera; sexo Total salvo Hombres/Mujeres; https://www.ine.es/jaxiT3/Tabla.htm?t=69178",
-      "topic": "Territorio · población",
+      "caution": "Porcentaje calculado por COMPÁS a partir de dos recuentos publicados por la fuente; se conservan ambos. La tabla municipal del censo no publica el valor de Andalucía; el comparador se omite. Cociente entre dos recuentos publicados por la fuente, multiplicado por 100 y redondeado a un decimal. Valores publicados: Total. Todas las edades. Extranjera. Dato base. 221; Total. Total. Todas las edades. Dato base. 842. Sustituye en esta revisión el valor 26,25 (2025) del Perfil anterior.",
+      "topic": "Ejes de desigualdad",
       "scale": "Sección censal 1812201001",
-      "denominator": "842 personas",
       "temporalContext": "current",
-      "caution": "Dato agregado del ámbito indicado; no se atribuye a personas, viviendas o calles. Las referencias corresponden a igual definición, unidad y periodo. Los recuentos de territorios de distinto tamaño no son medidas de riesgo.",
+      "chartValue": 26.2,
       "supportsConclusions": [
         "C4"
-      ],
-      "chartValue": 26.25,
-      "comparisons": [
-        {
-          "label": "Provincia de Granada",
-          "value": 9.12
-        },
-        {
-          "label": "Andalucía",
-          "value": 10.38
-        }
       ]
     },
     {
@@ -2995,15 +2992,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 262.0,
+      "chartValue": 262,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 362623.0
+          "value": 362623
         },
         {
           "label": "Andalucía",
-          "value": 3340313.0
+          "value": 3340313
         }
       ]
     },
@@ -3023,15 +3020,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 63.0,
+      "chartValue": 63,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 74863.0
+          "value": 74863
         },
         {
           "label": "Andalucía",
-          "value": 690147.0
+          "value": 690147
         }
       ]
     },
@@ -3107,15 +3104,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 10497.0,
+      "chartValue": 10497,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 13509.0
+          "value": 13509
         },
         {
           "label": "Andalucía",
-          "value": 13342.0
+          "value": 13342
         }
       ]
     },
@@ -3135,15 +3132,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 28497.0,
+      "chartValue": 28497,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 33062.0
+          "value": 33062
         },
         {
           "label": "Andalucía",
-          "value": 34302.0
+          "value": 34302
         }
       ]
     },
@@ -3163,15 +3160,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 12950.0,
+      "chartValue": 12950,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17150.0
+          "value": 17150
         },
         {
           "label": "Andalucía",
-          "value": 17150.0
+          "value": 17150
         }
       ]
     },
@@ -3303,15 +3300,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 1867.0,
+      "chartValue": 1867,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 945797.0
+          "value": 945797
         },
         {
           "label": "Andalucía",
-          "value": 8676713.0
+          "value": 8676713
         }
       ]
     },
@@ -3331,15 +3328,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 877.0,
+      "chartValue": 877,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 464948.0
+          "value": 464948
         },
         {
           "label": "Andalucía",
-          "value": 4269107.0
+          "value": 4269107
         }
       ]
     },
@@ -3359,15 +3356,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 990.0,
+      "chartValue": 990,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 480849.0
+          "value": 480849
         },
         {
           "label": "Andalucía",
-          "value": 4407606.0
+          "value": 4407606
         }
       ]
     },
@@ -3419,7 +3416,7 @@
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17.0
+          "value": 17
         },
         {
           "label": "Andalucía",
@@ -3611,15 +3608,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 696.0,
+      "chartValue": 696,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 362623.0
+          "value": 362623
         },
         {
           "label": "Andalucía",
-          "value": 3340313.0
+          "value": 3340313
         }
       ]
     },
@@ -3639,15 +3636,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 99.0,
+      "chartValue": 99,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 74863.0
+          "value": 74863
         },
         {
           "label": "Andalucía",
-          "value": 690147.0
+          "value": 690147
         }
       ]
     },
@@ -3723,15 +3720,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 13761.0,
+      "chartValue": 13761,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 13509.0
+          "value": 13509
         },
         {
           "label": "Andalucía",
-          "value": 13342.0
+          "value": 13342
         }
       ]
     },
@@ -3751,15 +3748,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 33024.0,
+      "chartValue": 33024,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 33062.0
+          "value": 33062
         },
         {
           "label": "Andalucía",
-          "value": 34302.0
+          "value": 34302
         }
       ]
     },
@@ -3779,15 +3776,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 17150.0,
+      "chartValue": 17150,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17150.0
+          "value": 17150
         },
         {
           "label": "Andalucía",
-          "value": 17150.0
+          "value": 17150
         }
       ]
     },
@@ -3919,15 +3916,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 1371.0,
+      "chartValue": 1371,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 945797.0
+          "value": 945797
         },
         {
           "label": "Andalucía",
-          "value": 8676713.0
+          "value": 8676713
         }
       ]
     },
@@ -3947,15 +3944,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 686.0,
+      "chartValue": 686,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 464948.0
+          "value": 464948
         },
         {
           "label": "Andalucía",
-          "value": 4269107.0
+          "value": 4269107
         }
       ]
     },
@@ -3975,15 +3972,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 685.0,
+      "chartValue": 685,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 480849.0
+          "value": 480849
         },
         {
           "label": "Andalucía",
-          "value": 4407606.0
+          "value": 4407606
         }
       ]
     },
@@ -4035,7 +4032,7 @@
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17.0
+          "value": 17
         },
         {
           "label": "Andalucía",
@@ -4227,15 +4224,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 500.0,
+      "chartValue": 500,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 362623.0
+          "value": 362623
         },
         {
           "label": "Andalucía",
-          "value": 3340313.0
+          "value": 3340313
         }
       ]
     },
@@ -4255,15 +4252,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 124.0,
+      "chartValue": 124,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 74863.0
+          "value": 74863
         },
         {
           "label": "Andalucía",
-          "value": 690147.0
+          "value": 690147
         }
       ]
     },
@@ -4339,15 +4336,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 10529.0,
+      "chartValue": 10529,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 13509.0
+          "value": 13509
         },
         {
           "label": "Andalucía",
-          "value": 13342.0
+          "value": 13342
         }
       ]
     },
@@ -4367,15 +4364,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 26109.0,
+      "chartValue": 26109,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 33062.0
+          "value": 33062
         },
         {
           "label": "Andalucía",
-          "value": 34302.0
+          "value": 34302
         }
       ]
     },
@@ -4395,15 +4392,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 13650.0,
+      "chartValue": 13650,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17150.0
+          "value": 17150
         },
         {
           "label": "Andalucía",
-          "value": 17150.0
+          "value": 17150
         }
       ]
     },
@@ -4423,7 +4420,7 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 40.0,
+      "chartValue": 40,
       "comparisons": [
         {
           "label": "Provincia de Granada",
@@ -4535,15 +4532,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 1065.0,
+      "chartValue": 1065,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 945797.0
+          "value": 945797
         },
         {
           "label": "Andalucía",
-          "value": 8676713.0
+          "value": 8676713
         }
       ]
     },
@@ -4563,15 +4560,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 523.0,
+      "chartValue": 523,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 464948.0
+          "value": 464948
         },
         {
           "label": "Andalucía",
-          "value": 4269107.0
+          "value": 4269107
         }
       ]
     },
@@ -4591,15 +4588,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 542.0,
+      "chartValue": 542,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 480849.0
+          "value": 480849
         },
         {
           "label": "Andalucía",
-          "value": 4407606.0
+          "value": 4407606
         }
       ]
     },
@@ -4651,7 +4648,7 @@
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17.0
+          "value": 17
         },
         {
           "label": "Andalucía",
@@ -4843,15 +4840,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 383.0,
+      "chartValue": 383,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 362623.0
+          "value": 362623
         },
         {
           "label": "Andalucía",
-          "value": 3340313.0
+          "value": 3340313
         }
       ]
     },
@@ -4871,15 +4868,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 82.0,
+      "chartValue": 82,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 74863.0
+          "value": 74863
         },
         {
           "label": "Andalucía",
-          "value": 690147.0
+          "value": 690147
         }
       ]
     },
@@ -4955,15 +4952,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 11278.0,
+      "chartValue": 11278,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 13509.0
+          "value": 13509
         },
         {
           "label": "Andalucía",
-          "value": 13342.0
+          "value": 13342
         }
       ]
     },
@@ -4983,15 +4980,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 29537.0,
+      "chartValue": 29537,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 33062.0
+          "value": 33062
         },
         {
           "label": "Andalucía",
-          "value": 34302.0
+          "value": 34302
         }
       ]
     },
@@ -5011,15 +5008,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 15050.0,
+      "chartValue": 15050,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17150.0
+          "value": 17150
         },
         {
           "label": "Andalucía",
-          "value": 17150.0
+          "value": 17150
         }
       ]
     },
@@ -5067,7 +5064,7 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 26.0,
+      "chartValue": 26,
       "comparisons": [
         {
           "label": "Provincia de Granada",
@@ -5151,15 +5148,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 1375.0,
+      "chartValue": 1375,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 945797.0
+          "value": 945797
         },
         {
           "label": "Andalucía",
-          "value": 8676713.0
+          "value": 8676713
         }
       ]
     },
@@ -5179,15 +5176,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 696.0,
+      "chartValue": 696,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 464948.0
+          "value": 464948
         },
         {
           "label": "Andalucía",
-          "value": 4269107.0
+          "value": 4269107
         }
       ]
     },
@@ -5207,15 +5204,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 679.0,
+      "chartValue": 679,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 480849.0
+          "value": 480849
         },
         {
           "label": "Andalucía",
-          "value": 4407606.0
+          "value": 4407606
         }
       ]
     },
@@ -5267,7 +5264,7 @@
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17.0
+          "value": 17
         },
         {
           "label": "Andalucía",
@@ -5459,15 +5456,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 510.0,
+      "chartValue": 510,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 362623.0
+          "value": 362623
         },
         {
           "label": "Andalucía",
-          "value": 3340313.0
+          "value": 3340313
         }
       ]
     },
@@ -5487,15 +5484,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 104.0,
+      "chartValue": 104,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 74863.0
+          "value": 74863
         },
         {
           "label": "Andalucía",
-          "value": 690147.0
+          "value": 690147
         }
       ]
     },
@@ -5571,15 +5568,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 10835.0,
+      "chartValue": 10835,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 13509.0
+          "value": 13509
         },
         {
           "label": "Andalucía",
-          "value": 13342.0
+          "value": 13342
         }
       ]
     },
@@ -5599,15 +5596,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 29323.0,
+      "chartValue": 29323,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 33062.0
+          "value": 33062
         },
         {
           "label": "Andalucía",
-          "value": 34302.0
+          "value": 34302
         }
       ]
     },
@@ -5627,15 +5624,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 15050.0,
+      "chartValue": 15050,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17150.0
+          "value": 17150
         },
         {
           "label": "Andalucía",
-          "value": 17150.0
+          "value": 17150
         }
       ]
     },
@@ -5767,15 +5764,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 1574.0,
+      "chartValue": 1574,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 945797.0
+          "value": 945797
         },
         {
           "label": "Andalucía",
-          "value": 8676713.0
+          "value": 8676713
         }
       ]
     },
@@ -5795,15 +5792,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 737.0,
+      "chartValue": 737,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 464948.0
+          "value": 464948
         },
         {
           "label": "Andalucía",
-          "value": 4269107.0
+          "value": 4269107
         }
       ]
     },
@@ -5823,15 +5820,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 837.0,
+      "chartValue": 837,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 480849.0
+          "value": 480849
         },
         {
           "label": "Andalucía",
-          "value": 4407606.0
+          "value": 4407606
         }
       ]
     },
@@ -5883,7 +5880,7 @@
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17.0
+          "value": 17
         },
         {
           "label": "Andalucía",
@@ -6075,15 +6072,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 570.0,
+      "chartValue": 570,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 362623.0
+          "value": 362623
         },
         {
           "label": "Andalucía",
-          "value": 3340313.0
+          "value": 3340313
         }
       ]
     },
@@ -6103,15 +6100,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 130.0,
+      "chartValue": 130,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 74863.0
+          "value": 74863
         },
         {
           "label": "Andalucía",
-          "value": 690147.0
+          "value": 690147
         }
       ]
     },
@@ -6187,15 +6184,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 11187.0,
+      "chartValue": 11187,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 13509.0
+          "value": 13509
         },
         {
           "label": "Andalucía",
-          "value": 13342.0
+          "value": 13342
         }
       ]
     },
@@ -6215,15 +6212,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 27503.0,
+      "chartValue": 27503,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 33062.0
+          "value": 33062
         },
         {
           "label": "Andalucía",
-          "value": 34302.0
+          "value": 34302
         }
       ]
     },
@@ -6243,15 +6240,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 15750.0,
+      "chartValue": 15750,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17150.0
+          "value": 17150
         },
         {
           "label": "Andalucía",
-          "value": 17150.0
+          "value": 17150
         }
       ]
     },
@@ -6383,15 +6380,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 1511.0,
+      "chartValue": 1511,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 945797.0
+          "value": 945797
         },
         {
           "label": "Andalucía",
-          "value": 8676713.0
+          "value": 8676713
         }
       ]
     },
@@ -6411,15 +6408,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 719.0,
+      "chartValue": 719,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 464948.0
+          "value": 464948
         },
         {
           "label": "Andalucía",
-          "value": 4269107.0
+          "value": 4269107
         }
       ]
     },
@@ -6439,15 +6436,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 792.0,
+      "chartValue": 792,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 480849.0
+          "value": 480849
         },
         {
           "label": "Andalucía",
-          "value": 4407606.0
+          "value": 4407606
         }
       ]
     },
@@ -6499,7 +6496,7 @@
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17.0
+          "value": 17
         },
         {
           "label": "Andalucía",
@@ -6691,15 +6688,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 672.0,
+      "chartValue": 672,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 362623.0
+          "value": 362623
         },
         {
           "label": "Andalucía",
-          "value": 3340313.0
+          "value": 3340313
         }
       ]
     },
@@ -6719,15 +6716,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 83.0,
+      "chartValue": 83,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 74863.0
+          "value": 74863
         },
         {
           "label": "Andalucía",
-          "value": 690147.0
+          "value": 690147
         }
       ]
     },
@@ -6803,15 +6800,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 13668.0,
+      "chartValue": 13668,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 13509.0
+          "value": 13509
         },
         {
           "label": "Andalucía",
-          "value": 13342.0
+          "value": 13342
         }
       ]
     },
@@ -6831,15 +6828,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 32523.0,
+      "chartValue": 32523,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 33062.0
+          "value": 33062
         },
         {
           "label": "Andalucía",
-          "value": 34302.0
+          "value": 34302
         }
       ]
     },
@@ -6859,15 +6856,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 17850.0,
+      "chartValue": 17850,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17150.0
+          "value": 17150
         },
         {
           "label": "Andalucía",
-          "value": 17150.0
+          "value": 17150
         }
       ]
     },
@@ -6887,7 +6884,7 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 21.0,
+      "chartValue": 21,
       "comparisons": [
         {
           "label": "Provincia de Granada",
@@ -6999,15 +6996,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 1355.0,
+      "chartValue": 1355,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 945797.0
+          "value": 945797
         },
         {
           "label": "Andalucía",
-          "value": 8676713.0
+          "value": 8676713
         }
       ]
     },
@@ -7027,15 +7024,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 688.0,
+      "chartValue": 688,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 464948.0
+          "value": 464948
         },
         {
           "label": "Andalucía",
-          "value": 4269107.0
+          "value": 4269107
         }
       ]
     },
@@ -7055,15 +7052,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 667.0,
+      "chartValue": 667,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 480849.0
+          "value": 480849
         },
         {
           "label": "Andalucía",
-          "value": 4407606.0
+          "value": 4407606
         }
       ]
     },
@@ -7115,7 +7112,7 @@
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17.0
+          "value": 17
         },
         {
           "label": "Andalucía",
@@ -7307,15 +7304,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 645.0,
+      "chartValue": 645,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 362623.0
+          "value": 362623
         },
         {
           "label": "Andalucía",
-          "value": 3340313.0
+          "value": 3340313
         }
       ]
     },
@@ -7335,15 +7332,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 74.0,
+      "chartValue": 74,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 74863.0
+          "value": 74863
         },
         {
           "label": "Andalucía",
-          "value": 690147.0
+          "value": 690147
         }
       ]
     },
@@ -7419,15 +7416,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 12058.0,
+      "chartValue": 12058,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 13509.0
+          "value": 13509
         },
         {
           "label": "Andalucía",
-          "value": 13342.0
+          "value": 13342
         }
       ]
     },
@@ -7447,15 +7444,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 32115.0,
+      "chartValue": 32115,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 33062.0
+          "value": 33062
         },
         {
           "label": "Andalucía",
-          "value": 34302.0
+          "value": 34302
         }
       ]
     },
@@ -7475,15 +7472,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 17150.0,
+      "chartValue": 17150,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17150.0
+          "value": 17150
         },
         {
           "label": "Andalucía",
-          "value": 17150.0
+          "value": 17150
         }
       ]
     },
@@ -7587,7 +7584,7 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 21.0,
+      "chartValue": 21,
       "comparisons": [
         {
           "label": "Provincia de Granada",
@@ -7615,15 +7612,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 1166.0,
+      "chartValue": 1166,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 945797.0
+          "value": 945797
         },
         {
           "label": "Andalucía",
-          "value": 8676713.0
+          "value": 8676713
         }
       ]
     },
@@ -7643,15 +7640,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 560.0,
+      "chartValue": 560,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 464948.0
+          "value": 464948
         },
         {
           "label": "Andalucía",
-          "value": 4269107.0
+          "value": 4269107
         }
       ]
     },
@@ -7671,15 +7668,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 606.0,
+      "chartValue": 606,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 480849.0
+          "value": 480849
         },
         {
           "label": "Andalucía",
-          "value": 4407606.0
+          "value": 4407606
         }
       ]
     },
@@ -7731,7 +7728,7 @@
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17.0
+          "value": 17
         },
         {
           "label": "Andalucía",
@@ -7923,15 +7920,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 470.0,
+      "chartValue": 470,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 362623.0
+          "value": 362623
         },
         {
           "label": "Andalucía",
-          "value": 3340313.0
+          "value": 3340313
         }
       ]
     },
@@ -7951,15 +7948,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 61.0,
+      "chartValue": 61,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 74863.0
+          "value": 74863
         },
         {
           "label": "Andalucía",
-          "value": 690147.0
+          "value": 690147
         }
       ]
     },
@@ -8035,15 +8032,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 12382.0,
+      "chartValue": 12382,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 13509.0
+          "value": 13509
         },
         {
           "label": "Andalucía",
-          "value": 13342.0
+          "value": 13342
         }
       ]
     },
@@ -8063,15 +8060,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 29863.0,
+      "chartValue": 29863,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 33062.0
+          "value": 33062
         },
         {
           "label": "Andalucía",
-          "value": 34302.0
+          "value": 34302
         }
       ]
     },
@@ -8091,15 +8088,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 15750.0,
+      "chartValue": 15750,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17150.0
+          "value": 17150
         },
         {
           "label": "Andalucía",
-          "value": 17150.0
+          "value": 17150
         }
       ]
     },
@@ -8147,7 +8144,7 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 30.0,
+      "chartValue": 30,
       "comparisons": [
         {
           "label": "Provincia de Granada",
@@ -8231,15 +8228,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 992.0,
+      "chartValue": 992,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 945797.0
+          "value": 945797
         },
         {
           "label": "Andalucía",
-          "value": 8676713.0
+          "value": 8676713
         }
       ]
     },
@@ -8259,15 +8256,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 483.0,
+      "chartValue": 483,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 464948.0
+          "value": 464948
         },
         {
           "label": "Andalucía",
-          "value": 4269107.0
+          "value": 4269107
         }
       ]
     },
@@ -8287,15 +8284,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 509.0,
+      "chartValue": 509,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 480849.0
+          "value": 480849
         },
         {
           "label": "Andalucía",
-          "value": 4407606.0
+          "value": 4407606
         }
       ]
     },
@@ -8347,7 +8344,7 @@
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17.0
+          "value": 17
         },
         {
           "label": "Andalucía",
@@ -8442,29 +8439,18 @@
     {
       "id": "loja-territorial-1812203002-foreignNationalityPct2025",
       "title": "Población de nacionalidad extranjera",
-      "value": "5,95",
+      "value": "5,9",
       "unit": "%",
+      "source": "INE · Censo anual de población (INE) · Población por sexo, edad y nacionalidad",
+      "page": "tabla 69178 · consultado 2026-11-18",
       "period": "2025",
-      "source": "INE · tabla 69178; referentes provincial y autonómico: tabla 68519",
-      "page": "CUSEC 1812203002; categoría Población de nacionalidad extranjera; sexo Total salvo Hombres/Mujeres; https://www.ine.es/jaxiT3/Tabla.htm?t=69178",
-      "topic": "Territorio · población",
+      "caution": "Porcentaje calculado por COMPÁS a partir de dos recuentos publicados por la fuente; se conservan ambos. La tabla municipal del censo no publica el valor de Andalucía; el comparador se omite. Cociente entre dos recuentos publicados por la fuente, multiplicado por 100 y redondeado a un decimal. Valores publicados: Total. Todas las edades. Extranjera. Dato base. 59; Total. Total. Todas las edades. Dato base. 992. Sustituye en esta revisión el valor 5,95 (2025) del Perfil anterior.",
+      "topic": "Ejes de desigualdad",
       "scale": "Sección censal 1812203002",
-      "denominator": "992 personas",
       "temporalContext": "current",
-      "caution": "Dato agregado del ámbito indicado; no se atribuye a personas, viviendas o calles. Las referencias corresponden a igual definición, unidad y periodo. Los recuentos de territorios de distinto tamaño no son medidas de riesgo.",
+      "chartValue": 5.9,
       "supportsConclusions": [
         "C4"
-      ],
-      "chartValue": 5.95,
-      "comparisons": [
-        {
-          "label": "Provincia de Granada",
-          "value": 9.12
-        },
-        {
-          "label": "Andalucía",
-          "value": 10.38
-        }
       ]
     },
     {
@@ -8539,15 +8525,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 189.0,
+      "chartValue": 189,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 362623.0
+          "value": 362623
         },
         {
           "label": "Andalucía",
-          "value": 3340313.0
+          "value": 3340313
         }
       ]
     },
@@ -8567,15 +8553,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 200.0,
+      "chartValue": 200,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 74863.0
+          "value": 74863
         },
         {
           "label": "Andalucía",
-          "value": 690147.0
+          "value": 690147
         }
       ]
     },
@@ -8651,15 +8637,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 7107.0,
+      "chartValue": 7107,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 13509.0
+          "value": 13509
         },
         {
           "label": "Andalucía",
-          "value": 13342.0
+          "value": 13342
         }
       ]
     },
@@ -8679,15 +8665,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 20458.0,
+      "chartValue": 20458,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 33062.0
+          "value": 33062
         },
         {
           "label": "Andalucía",
-          "value": 34302.0
+          "value": 34302
         }
       ]
     },
@@ -8707,15 +8693,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 8050.0,
+      "chartValue": 8050,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17150.0
+          "value": 17150
         },
         {
           "label": "Andalucía",
-          "value": 17150.0
+          "value": 17150
         }
       ]
     },
@@ -8836,15 +8822,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 867.0,
+      "chartValue": 867,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 945797.0
+          "value": 945797
         },
         {
           "label": "Andalucía",
-          "value": 8676713.0
+          "value": 8676713
         }
       ]
     },
@@ -8864,15 +8850,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 419.0,
+      "chartValue": 419,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 464948.0
+          "value": 464948
         },
         {
           "label": "Andalucía",
-          "value": 4269107.0
+          "value": 4269107
         }
       ]
     },
@@ -8892,15 +8878,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 448.0,
+      "chartValue": 448,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 480849.0
+          "value": 480849
         },
         {
           "label": "Andalucía",
-          "value": 4407606.0
+          "value": 4407606
         }
       ]
     },
@@ -8952,7 +8938,7 @@
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17.0
+          "value": 17
         },
         {
           "label": "Andalucía",
@@ -9144,15 +9130,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 250.0,
+      "chartValue": 250,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 362623.0
+          "value": 362623
         },
         {
           "label": "Andalucía",
-          "value": 3340313.0
+          "value": 3340313
         }
       ]
     },
@@ -9172,15 +9158,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 81.0,
+      "chartValue": 81,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 74863.0
+          "value": 74863
         },
         {
           "label": "Andalucía",
-          "value": 690147.0
+          "value": 690147
         }
       ]
     },
@@ -9256,15 +9242,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 10204.0,
+      "chartValue": 10204,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 13509.0
+          "value": 13509
         },
         {
           "label": "Andalucía",
-          "value": 13342.0
+          "value": 13342
         }
       ]
     },
@@ -9284,15 +9270,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 24939.0,
+      "chartValue": 24939,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 33062.0
+          "value": 33062
         },
         {
           "label": "Andalucía",
-          "value": 34302.0
+          "value": 34302
         }
       ]
     },
@@ -9312,15 +9298,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 14350.0,
+      "chartValue": 14350,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17150.0
+          "value": 17150
         },
         {
           "label": "Andalucía",
-          "value": 17150.0
+          "value": 17150
         }
       ]
     },
@@ -9452,15 +9438,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 2013.0,
+      "chartValue": 2013,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 945797.0
+          "value": 945797
         },
         {
           "label": "Andalucía",
-          "value": 8676713.0
+          "value": 8676713
         }
       ]
     },
@@ -9480,15 +9466,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 997.0,
+      "chartValue": 997,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 464948.0
+          "value": 464948
         },
         {
           "label": "Andalucía",
-          "value": 4269107.0
+          "value": 4269107
         }
       ]
     },
@@ -9508,15 +9494,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 1016.0,
+      "chartValue": 1016,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 480849.0
+          "value": 480849
         },
         {
           "label": "Andalucía",
-          "value": 4407606.0
+          "value": 4407606
         }
       ]
     },
@@ -9568,7 +9554,7 @@
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17.0
+          "value": 17
         },
         {
           "label": "Andalucía",
@@ -9760,15 +9746,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 768.0,
+      "chartValue": 768,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 362623.0
+          "value": 362623
         },
         {
           "label": "Andalucía",
-          "value": 3340313.0
+          "value": 3340313
         }
       ]
     },
@@ -9788,15 +9774,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 111.0,
+      "chartValue": 111,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 74863.0
+          "value": 74863
         },
         {
           "label": "Andalucía",
-          "value": 690147.0
+          "value": 690147
         }
       ]
     },
@@ -9872,15 +9858,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 11393.0,
+      "chartValue": 11393,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 13509.0
+          "value": 13509
         },
         {
           "label": "Andalucía",
-          "value": 13342.0
+          "value": 13342
         }
       ]
     },
@@ -9900,15 +9886,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 29090.0,
+      "chartValue": 29090,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 33062.0
+          "value": 33062
         },
         {
           "label": "Andalucía",
-          "value": 34302.0
+          "value": 34302
         }
       ]
     },
@@ -9928,15 +9914,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 15750.0,
+      "chartValue": 15750,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17150.0
+          "value": 17150
         },
         {
           "label": "Andalucía",
-          "value": 17150.0
+          "value": 17150
         }
       ]
     },
@@ -10068,15 +10054,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 742.0,
+      "chartValue": 742,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 945797.0
+          "value": 945797
         },
         {
           "label": "Andalucía",
-          "value": 8676713.0
+          "value": 8676713
         }
       ]
     },
@@ -10096,15 +10082,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 376.0,
+      "chartValue": 376,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 464948.0
+          "value": 464948
         },
         {
           "label": "Andalucía",
-          "value": 4269107.0
+          "value": 4269107
         }
       ]
     },
@@ -10124,15 +10110,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 366.0,
+      "chartValue": 366,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 480849.0
+          "value": 480849
         },
         {
           "label": "Andalucía",
-          "value": 4407606.0
+          "value": 4407606
         }
       ]
     },
@@ -10184,7 +10170,7 @@
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17.0
+          "value": 17
         },
         {
           "label": "Andalucía",
@@ -10376,15 +10362,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 268.0,
+      "chartValue": 268,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 362623.0
+          "value": 362623
         },
         {
           "label": "Andalucía",
-          "value": 3340313.0
+          "value": 3340313
         }
       ]
     },
@@ -10404,15 +10390,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 63.0,
+      "chartValue": 63,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 74863.0
+          "value": 74863
         },
         {
           "label": "Andalucía",
-          "value": 690147.0
+          "value": 690147
         }
       ]
     },
@@ -10488,15 +10474,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 12016.0,
+      "chartValue": 12016,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 13509.0
+          "value": 13509
         },
         {
           "label": "Andalucía",
-          "value": 13342.0
+          "value": 13342
         }
       ]
     },
@@ -10516,15 +10502,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 26796.0,
+      "chartValue": 26796,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 33062.0
+          "value": 33062
         },
         {
           "label": "Andalucía",
-          "value": 34302.0
+          "value": 34302
         }
       ]
     },
@@ -10544,15 +10530,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 15750.0,
+      "chartValue": 15750,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17150.0
+          "value": 17150
         },
         {
           "label": "Andalucía",
-          "value": 17150.0
+          "value": 17150
         }
       ]
     },
@@ -10572,7 +10558,7 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 25.0,
+      "chartValue": 25,
       "comparisons": [
         {
           "label": "Provincia de Granada",
@@ -10684,15 +10670,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 771.0,
+      "chartValue": 771,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 945797.0
+          "value": 945797
         },
         {
           "label": "Andalucía",
-          "value": 8676713.0
+          "value": 8676713
         }
       ]
     },
@@ -10712,15 +10698,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 394.0,
+      "chartValue": 394,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 464948.0
+          "value": 464948
         },
         {
           "label": "Andalucía",
-          "value": 4269107.0
+          "value": 4269107
         }
       ]
     },
@@ -10740,15 +10726,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 377.0,
+      "chartValue": 377,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 480849.0
+          "value": 480849
         },
         {
           "label": "Andalucía",
-          "value": 4407606.0
+          "value": 4407606
         }
       ]
     },
@@ -10800,7 +10786,7 @@
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17.0
+          "value": 17
         },
         {
           "label": "Andalucía",
@@ -10992,15 +10978,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 294.0,
+      "chartValue": 294,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 362623.0
+          "value": 362623
         },
         {
           "label": "Andalucía",
-          "value": 3340313.0
+          "value": 3340313
         }
       ]
     },
@@ -11020,15 +11006,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 44.0,
+      "chartValue": 44,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 74863.0
+          "value": 74863
         },
         {
           "label": "Andalucía",
-          "value": 690147.0
+          "value": 690147
         }
       ]
     },
@@ -11104,15 +11090,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 12008.0,
+      "chartValue": 12008,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 13509.0
+          "value": 13509
         },
         {
           "label": "Andalucía",
-          "value": 13342.0
+          "value": 13342
         }
       ]
     },
@@ -11132,15 +11118,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 28155.0,
+      "chartValue": 28155,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 33062.0
+          "value": 33062
         },
         {
           "label": "Andalucía",
-          "value": 34302.0
+          "value": 34302
         }
       ]
     },
@@ -11160,15 +11146,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 16450.0,
+      "chartValue": 16450,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17150.0
+          "value": 17150
         },
         {
           "label": "Andalucía",
-          "value": 17150.0
+          "value": 17150
         }
       ]
     },
@@ -11300,15 +11286,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 678.0,
+      "chartValue": 678,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 945797.0
+          "value": 945797
         },
         {
           "label": "Andalucía",
-          "value": 8676713.0
+          "value": 8676713
         }
       ]
     },
@@ -11328,15 +11314,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 334.0,
+      "chartValue": 334,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 464948.0
+          "value": 464948
         },
         {
           "label": "Andalucía",
-          "value": 4269107.0
+          "value": 4269107
         }
       ]
     },
@@ -11356,15 +11342,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 344.0,
+      "chartValue": 344,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 480849.0
+          "value": 480849
         },
         {
           "label": "Andalucía",
-          "value": 4407606.0
+          "value": 4407606
         }
       ]
     },
@@ -11416,7 +11402,7 @@
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17.0
+          "value": 17
         },
         {
           "label": "Andalucía",
@@ -11608,15 +11594,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 257.0,
+      "chartValue": 257,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 362623.0
+          "value": 362623
         },
         {
           "label": "Andalucía",
-          "value": 3340313.0
+          "value": 3340313
         }
       ]
     },
@@ -11636,15 +11622,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 41.0,
+      "chartValue": 41,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 74863.0
+          "value": 74863
         },
         {
           "label": "Andalucía",
-          "value": 690147.0
+          "value": 690147
         }
       ]
     },
@@ -11720,15 +11706,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 11607.0,
+      "chartValue": 11607,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 13509.0
+          "value": 13509
         },
         {
           "label": "Andalucía",
-          "value": 13342.0
+          "value": 13342
         }
       ]
     },
@@ -11748,15 +11734,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 27236.0,
+      "chartValue": 27236,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 33062.0
+          "value": 33062
         },
         {
           "label": "Andalucía",
-          "value": 34302.0
+          "value": 34302
         }
       ]
     },
@@ -11776,15 +11762,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 15750.0,
+      "chartValue": 15750,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17150.0
+          "value": 17150
         },
         {
           "label": "Andalucía",
-          "value": 17150.0
+          "value": 17150
         }
       ]
     },
@@ -11916,15 +11902,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 896.0,
+      "chartValue": 896,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 945797.0
+          "value": 945797
         },
         {
           "label": "Andalucía",
-          "value": 8676713.0
+          "value": 8676713
         }
       ]
     },
@@ -11944,15 +11930,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 463.0,
+      "chartValue": 463,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 464948.0
+          "value": 464948
         },
         {
           "label": "Andalucía",
-          "value": 4269107.0
+          "value": 4269107
         }
       ]
     },
@@ -11972,15 +11958,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 433.0,
+      "chartValue": 433,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 480849.0
+          "value": 480849
         },
         {
           "label": "Andalucía",
-          "value": 4407606.0
+          "value": 4407606
         }
       ]
     },
@@ -12032,7 +12018,7 @@
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17.0
+          "value": 17
         },
         {
           "label": "Andalucía",
@@ -12224,15 +12210,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 347.0,
+      "chartValue": 347,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 362623.0
+          "value": 362623
         },
         {
           "label": "Andalucía",
-          "value": 3340313.0
+          "value": 3340313
         }
       ]
     },
@@ -12252,15 +12238,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 28.0,
+      "chartValue": 28,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 74863.0
+          "value": 74863
         },
         {
           "label": "Andalucía",
-          "value": 690147.0
+          "value": 690147
         }
       ]
     },
@@ -12336,15 +12322,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 11505.0,
+      "chartValue": 11505,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 13509.0
+          "value": 13509
         },
         {
           "label": "Andalucía",
-          "value": 13342.0
+          "value": 13342
         }
       ]
     },
@@ -12364,15 +12350,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 26652.0,
+      "chartValue": 26652,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 33062.0
+          "value": 33062
         },
         {
           "label": "Andalucía",
-          "value": 34302.0
+          "value": 34302
         }
       ]
     },
@@ -12392,15 +12378,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 15750.0,
+      "chartValue": 15750,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17150.0
+          "value": 17150
         },
         {
           "label": "Andalucía",
-          "value": 17150.0
+          "value": 17150
         }
       ]
     },
@@ -12420,7 +12406,7 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 29.0,
+      "chartValue": 29,
       "comparisons": [
         {
           "label": "Provincia de Granada",
@@ -12532,15 +12518,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 1838.0,
+      "chartValue": 1838,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 945797.0
+          "value": 945797
         },
         {
           "label": "Andalucía",
-          "value": 8676713.0
+          "value": 8676713
         }
       ]
     },
@@ -12560,15 +12546,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 959.0,
+      "chartValue": 959,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 464948.0
+          "value": 464948
         },
         {
           "label": "Andalucía",
-          "value": 4269107.0
+          "value": 4269107
         }
       ]
     },
@@ -12588,15 +12574,15 @@
       "supportsConclusions": [
         "C4"
       ],
-      "chartValue": 879.0,
+      "chartValue": 879,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 480849.0
+          "value": 480849
         },
         {
           "label": "Andalucía",
-          "value": 4407606.0
+          "value": 4407606
         }
       ]
     },
@@ -12648,7 +12634,7 @@
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17.0
+          "value": 17
         },
         {
           "label": "Andalucía",
@@ -12840,15 +12826,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 830.0,
+      "chartValue": 830,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 362623.0
+          "value": 362623
         },
         {
           "label": "Andalucía",
-          "value": 3340313.0
+          "value": 3340313
         }
       ]
     },
@@ -12868,15 +12854,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 88.0,
+      "chartValue": 88,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 74863.0
+          "value": 74863
         },
         {
           "label": "Andalucía",
-          "value": 690147.0
+          "value": 690147
         }
       ]
     },
@@ -12952,15 +12938,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 13774.0,
+      "chartValue": 13774,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 13509.0
+          "value": 13509
         },
         {
           "label": "Andalucía",
-          "value": 13342.0
+          "value": 13342
         }
       ]
     },
@@ -12980,15 +12966,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 35987.0,
+      "chartValue": 35987,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 33062.0
+          "value": 33062
         },
         {
           "label": "Andalucía",
-          "value": 34302.0
+          "value": 34302
         }
       ]
     },
@@ -13008,15 +12994,15 @@
       "supportsConclusions": [
         "C3"
       ],
-      "chartValue": 17850.0,
+      "chartValue": 17850,
       "comparisons": [
         {
           "label": "Provincia de Granada",
-          "value": 17150.0
+          "value": 17150
         },
         {
           "label": "Andalucía",
-          "value": 17150.0
+          "value": 17150
         }
       ]
     },
@@ -13131,6 +13117,1717 @@
           "value": 17.3
         }
       ]
+    },
+    {
+      "id": "ts-adrh-renta-mediana-uc",
+      "title": "Mediana de la renta por unidad de consumo",
+      "value": "15.750",
+      "unit": "euros",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Indicadores de renta media y mediana",
+      "page": "tabla 31025 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4). La mediana se publica redondeada: coincidencias entre ámbitos no implican igualdad exacta.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 15750,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 17150
+        },
+        {
+          "label": "Andalucía",
+          "value": 17150
+        },
+        {
+          "label": "España",
+          "value": 19950
+        }
+      ]
+    },
+    {
+      "id": "ts-adrh-bajo-60-mediana-mujeres",
+      "title": "Mujeres con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "29,7",
+      "unit": "%",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Porcentaje de población con ingresos por unidad de consumo por debajo o por encima de determinados umbrales relativos, por sexo",
+      "page": "tabla 31030 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 29.7,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 28.3
+        },
+        {
+          "label": "Andalucía",
+          "value": 27
+        },
+        {
+          "label": "España",
+          "value": 20.8
+        }
+      ]
+    },
+    {
+      "id": "ts-adrh-bajo-60-mediana-hombres",
+      "title": "Hombres con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "29,3",
+      "unit": "%",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Porcentaje de población con ingresos por unidad de consumo por debajo o por encima de determinados umbrales relativos, por sexo",
+      "page": "tabla 31030 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 29.3,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 27.2
+        },
+        {
+          "label": "Andalucía",
+          "value": 25.4
+        },
+        {
+          "label": "España",
+          "value": 19.6
+        }
+      ]
+    },
+    {
+      "id": "ts-adrh-gini-1812202003",
+      "title": "Índice de Gini",
+      "value": "25,7",
+      "unit": "índice",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Índice de Gini y distribución de la renta P80/P20",
+      "page": "tabla 37698 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202003",
+      "temporalContext": "current",
+      "chartValue": 25.7
+    },
+    {
+      "id": "ts-adrh-gini-1812202004",
+      "title": "Índice de Gini",
+      "value": "26,3",
+      "unit": "índice",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Índice de Gini y distribución de la renta P80/P20",
+      "page": "tabla 37698 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202004",
+      "temporalContext": "current",
+      "chartValue": 26.3
+    },
+    {
+      "id": "ts-adrh-gini-1812205002",
+      "title": "Índice de Gini",
+      "value": "25,7",
+      "unit": "índice",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Índice de Gini y distribución de la renta P80/P20",
+      "page": "tabla 37698 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812205002",
+      "temporalContext": "current",
+      "chartValue": 25.7
+    },
+    {
+      "id": "ts-adrh-gini-1812202005",
+      "title": "Índice de Gini",
+      "value": "24,2",
+      "unit": "índice",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Índice de Gini y distribución de la renta P80/P20",
+      "page": "tabla 37698 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202005",
+      "temporalContext": "current",
+      "chartValue": 24.2
+    },
+    {
+      "id": "ts-adrh-gini-1812201003",
+      "title": "Índice de Gini",
+      "value": "30",
+      "unit": "índice",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Índice de Gini y distribución de la renta P80/P20",
+      "page": "tabla 37698 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812201003",
+      "temporalContext": "current",
+      "chartValue": 30
+    },
+    {
+      "id": "ts-adrh-gini-1812203002",
+      "title": "Índice de Gini",
+      "value": "34,7",
+      "unit": "índice",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Índice de Gini y distribución de la renta P80/P20",
+      "page": "tabla 37698 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812203002",
+      "temporalContext": "current",
+      "chartValue": 34.7
+    },
+    {
+      "id": "ts-adrh-gini-1812203004",
+      "title": "Índice de Gini",
+      "value": "22,3",
+      "unit": "índice",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Índice de Gini y distribución de la renta P80/P20",
+      "page": "tabla 37698 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812203004",
+      "temporalContext": "current",
+      "chartValue": 22.3
+    },
+    {
+      "id": "ts-adrh-gini-1812204001",
+      "title": "Índice de Gini",
+      "value": "23,1",
+      "unit": "índice",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Índice de Gini y distribución de la renta P80/P20",
+      "page": "tabla 37698 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812204001",
+      "temporalContext": "current",
+      "chartValue": 23.1
+    },
+    {
+      "id": "ts-adrh-gini-1812203003",
+      "title": "Índice de Gini",
+      "value": "25,2",
+      "unit": "índice",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Índice de Gini y distribución de la renta P80/P20",
+      "page": "tabla 37698 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812203003",
+      "temporalContext": "current",
+      "chartValue": 25.2
+    },
+    {
+      "id": "ts-adrh-gini-1812205001",
+      "title": "Índice de Gini",
+      "value": "24,8",
+      "unit": "índice",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Índice de Gini y distribución de la renta P80/P20",
+      "page": "tabla 37698 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812205001",
+      "temporalContext": "current",
+      "chartValue": 24.8
+    },
+    {
+      "id": "ts-adrh-gini-1812201002",
+      "title": "Índice de Gini",
+      "value": "31",
+      "unit": "índice",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Índice de Gini y distribución de la renta P80/P20",
+      "page": "tabla 37698 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812201002",
+      "temporalContext": "current",
+      "chartValue": 31
+    },
+    {
+      "id": "ts-adrh-gini-1812202002",
+      "title": "Índice de Gini",
+      "value": "24,5",
+      "unit": "índice",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Índice de Gini y distribución de la renta P80/P20",
+      "page": "tabla 37698 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202002",
+      "temporalContext": "current",
+      "chartValue": 24.5
+    },
+    {
+      "id": "ts-adrh-gini-1812204003",
+      "title": "Índice de Gini",
+      "value": "26,3",
+      "unit": "índice",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Índice de Gini y distribución de la renta P80/P20",
+      "page": "tabla 37698 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812204003",
+      "temporalContext": "current",
+      "chartValue": 26.3
+    },
+    {
+      "id": "ts-adrh-gini-1812201001",
+      "title": "Índice de Gini",
+      "value": "29,5",
+      "unit": "índice",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Índice de Gini y distribución de la renta P80/P20",
+      "page": "tabla 37698 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812201001",
+      "temporalContext": "current",
+      "chartValue": 29.5
+    },
+    {
+      "id": "ts-adrh-gini-1812202001",
+      "title": "Índice de Gini",
+      "value": "30,8",
+      "unit": "índice",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Índice de Gini y distribución de la renta P80/P20",
+      "page": "tabla 37698 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202001",
+      "temporalContext": "current",
+      "chartValue": 30.8
+    },
+    {
+      "id": "ts-adrh-gini-1812203001",
+      "title": "Índice de Gini",
+      "value": "28,7",
+      "unit": "índice",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Índice de Gini y distribución de la renta P80/P20",
+      "page": "tabla 37698 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812203001",
+      "temporalContext": "current",
+      "chartValue": 28.7
+    },
+    {
+      "id": "ts-adrh-gini-1812204002",
+      "title": "Índice de Gini",
+      "value": "23,3",
+      "unit": "índice",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Índice de Gini y distribución de la renta P80/P20",
+      "page": "tabla 37698 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812204002",
+      "temporalContext": "current",
+      "chartValue": 23.3
+    },
+    {
+      "id": "ts-adrh-gini",
+      "title": "Índice de Gini",
+      "value": "27,6",
+      "unit": "índice",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Índice de Gini y distribución de la renta P80/P20",
+      "page": "tabla 37698 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 27.6,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 32
+        },
+        {
+          "label": "Andalucía",
+          "value": 31
+        },
+        {
+          "label": "España",
+          "value": 31.9
+        }
+      ]
+    },
+    {
+      "id": "ts-adrh-p80-p20",
+      "title": "Distribución de la renta P80/P20",
+      "value": "2,3",
+      "unit": "ratio",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Índice de Gini y distribución de la renta P80/P20",
+      "page": "tabla 37698 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 2.3,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 2.7
+        },
+        {
+          "label": "Andalucía",
+          "value": 2.5
+        },
+        {
+          "label": "España",
+          "value": 2.6
+        }
+      ]
+    },
+    {
+      "id": "ts-adrh-fuente-salario",
+      "title": "Peso del salario en la renta",
+      "value": "51,9",
+      "unit": "%",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Distribución por fuente de ingresos",
+      "page": "tabla 31026 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 51.9,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 55.1
+        },
+        {
+          "label": "Andalucía",
+          "value": 57.3
+        },
+        {
+          "label": "España",
+          "value": 60
+        }
+      ]
+    },
+    {
+      "id": "ts-adrh-fuente-pensiones",
+      "title": "Peso de las pensiones en la renta",
+      "value": "22,4",
+      "unit": "%",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Distribución por fuente de ingresos",
+      "page": "tabla 31026 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 22.4,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 22
+        },
+        {
+          "label": "Andalucía",
+          "value": 20.8
+        },
+        {
+          "label": "España",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "id": "ts-adrh-fuente-desempleo",
+      "title": "Peso de las prestaciones por desempleo en la renta",
+      "value": "4,4",
+      "unit": "%",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Distribución por fuente de ingresos",
+      "page": "tabla 31026 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 4.4,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 2.8
+        },
+        {
+          "label": "Andalucía",
+          "value": 2.8
+        },
+        {
+          "label": "España",
+          "value": 1.9
+        }
+      ]
+    },
+    {
+      "id": "ts-adrh-fuente-otras-prestaciones",
+      "title": "Peso de otras prestaciones en la renta",
+      "value": "8,1",
+      "unit": "%",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Distribución por fuente de ingresos",
+      "page": "tabla 31026 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 8.1,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 6.6
+        },
+        {
+          "label": "Andalucía",
+          "value": 6.1
+        },
+        {
+          "label": "España",
+          "value": 4.5
+        }
+      ]
+    },
+    {
+      "id": "ts-ieca-tasa-desempleo-registrado-mujeres",
+      "title": "Tasa municipal de desempleo registrado (mujeres)",
+      "value": "20,5",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Tasa municipal de desempleo según sexo. Media anual",
+      "page": "consulta 120971 · consultado 2026-11-18",
+      "period": "2025",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 20.5,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 22
+        },
+        {
+          "label": "Andalucía",
+          "value": 20.9
+        }
+      ]
+    },
+    {
+      "id": "ts-ieca-tasa-desempleo-registrado-hombres",
+      "title": "Tasa municipal de desempleo registrado (hombres)",
+      "value": "10,4",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Tasa municipal de desempleo según sexo. Media anual",
+      "page": "consulta 120971 · consultado 2026-11-18",
+      "period": "2025",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 10.4,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 13.7
+        },
+        {
+          "label": "Andalucía",
+          "value": 10.8
+        }
+      ]
+    },
+    {
+      "id": "ts-ieca-afiliaciones-residencia",
+      "title": "Afiliaciones a la Seguridad Social por lugar de residencia",
+      "value": "8.723",
+      "unit": "afiliaciones",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Afiliaciones según municipio de residencia, por régimen y sexo",
+      "page": "consulta 49483 · consultado 2026-11-18",
+      "period": "2025",
+      "caution": "Cuenta afiliaciones, no personas: una persona puede tener más de una.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 8723
+    },
+    {
+      "id": "ts-ieca-pensionistas-contributivos",
+      "title": "Pensionistas de pensiones contributivas",
+      "value": "4.466",
+      "unit": "personas",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Número de pensionistas y pensión media según grupos de edad y sexo",
+      "page": "consulta 46121 · consultado 2026-11-18",
+      "period": "2025",
+      "caution": "",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 4466
+    },
+    {
+      "id": "ts-ieca-pension-media",
+      "title": "Pensión contributiva media",
+      "value": "1.095,5",
+      "unit": "euros/mes",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Número de pensionistas y pensión media según grupos de edad y sexo",
+      "page": "consulta 46121 · consultado 2026-11-18",
+      "period": "2025",
+      "caution": "",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 1095.5,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 1287.6
+        },
+        {
+          "label": "Andalucía",
+          "value": 1312.4
+        }
+      ]
+    },
+    {
+      "id": "ts-ieca-renta-disponible-media",
+      "title": "Renta disponible media por declaración (IRPF)",
+      "value": "18.759",
+      "unit": "euros",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Renta bruta y renta disponible (municipios de más de 1.000 hab)",
+      "page": "consulta 105037 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Unidad: declaración tributaria, no hogar ni persona. No es comparable con el Atlas de Renta.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 18759,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 22635
+        },
+        {
+          "label": "Andalucía",
+          "value": 22558
+        }
+      ]
+    },
+    {
+      "id": "ts-ieca-grado-urbanizacion",
+      "title": "Grado de urbanización",
+      "value": "Zona de densidad intermedia",
+      "unit": "categoría",
+      "source": "IECA · Clasificación del grado de urbanización · Porcentaje de población según tipología de celda y grado de urbanización por municipio",
+      "page": "consulta 19824 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Clasificación, no medida de salud ni de privación.",
+      "topic": "Contexto y población",
+      "scale": "Municipio",
+      "temporalContext": "current"
+    },
+    {
+      "id": "ts-ieca-paro-registrado-mujeres",
+      "title": "Paro registrado (mujeres)",
+      "value": "730",
+      "unit": "personas",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Paro registrado por sexo",
+      "page": "consulta 37015 · consultado 2026-11-18",
+      "period": "2025",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 730
+    },
+    {
+      "id": "ts-ieca-paro-registrado-hombres",
+      "title": "Paro registrado (hombres)",
+      "value": "462",
+      "unit": "personas",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Paro registrado por sexo",
+      "page": "consulta 37015 · consultado 2026-11-18",
+      "period": "2025",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 462
+    },
+    {
+      "id": "ts-ieca-paro-larga-duracion",
+      "title": "Paro registrado de más de un año",
+      "value": "46,0",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Paro registrado de larga duración",
+      "page": "consulta 117866 · consultado 2026-11-18",
+      "period": "2025",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta. El denominador es el paro registrado, no la población.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 46,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 41.9
+        },
+        {
+          "label": "Andalucía",
+          "value": 43.8
+        }
+      ]
+    },
+    {
+      "id": "ts-ieca-pension-media-mujeres",
+      "title": "Pensión contributiva media (mujeres)",
+      "value": "982,0",
+      "unit": "euros/mes",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Número de pensionistas y pensión media según grupos de edad y sexo",
+      "page": "consulta 46121 · consultado 2026-11-18",
+      "period": "2025",
+      "caution": "",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 982,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 1171.8
+        },
+        {
+          "label": "Andalucía",
+          "value": 1165.2
+        }
+      ]
+    },
+    {
+      "id": "ts-ieca-pension-media-hombres",
+      "title": "Pensión contributiva media (hombres)",
+      "value": "1.216,3",
+      "unit": "euros/mes",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Número de pensionistas y pensión media según grupos de edad y sexo",
+      "page": "consulta 46121 · consultado 2026-11-18",
+      "period": "2025",
+      "caution": "",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 1216.3,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 1409.6
+        },
+        {
+          "label": "Andalucía",
+          "value": 1455.1
+        }
+      ]
+    },
+    {
+      "id": "ts-ieca-viviendas-no-principales",
+      "title": "Viviendas familiares no principales",
+      "value": "4.030",
+      "unit": "viviendas",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Viviendas familiares convencionales según tipo de vivienda (principal o no principal)",
+      "page": "consulta 108129 · consultado 2026-11-18",
+      "period": "2021",
+      "caution": "Dato censal de 2021; no se actualiza cada año.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 4030
+    },
+    {
+      "id": "ts-ieca-centros-atencion-primaria",
+      "title": "Centros de atención primaria",
+      "value": "8",
+      "unit": "centros",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Recursos de atención primaria",
+      "page": "consulta 40161 · consultado 2026-11-18",
+      "period": "2025",
+      "caution": "Cuenta centros, no profesionales ni horas de atención.",
+      "topic": "Servicios",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 8
+    },
+    {
+      "id": "ts-ieca-centros-servicios-sociales",
+      "title": "Centros de servicios sociales",
+      "value": "15",
+      "unit": "centros",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Centros de servicios sociales por sector y tipo de centro",
+      "page": "consulta 58270 · consultado 2026-11-18",
+      "period": "2023",
+      "caution": "Cuenta centros, no plazas ni personas atendidas.",
+      "topic": "Servicios",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 15
+    },
+    {
+      "id": "ts-ieca-seccion-tasa-desempleo-1812201001",
+      "title": "Tasa de desempleo registrado",
+      "value": "21,7",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de relación con la actividad económica por secciones censales",
+      "page": "consulta 119350 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta. El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812201001",
+      "temporalContext": "current",
+      "chartValue": 21.7
+    },
+    {
+      "id": "ts-ieca-seccion-tasa-desempleo-1812201002",
+      "title": "Tasa de desempleo registrado",
+      "value": "13,7",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de relación con la actividad económica por secciones censales",
+      "page": "consulta 119350 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta. El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812201002",
+      "temporalContext": "current",
+      "chartValue": 13.7
+    },
+    {
+      "id": "ts-ieca-seccion-tasa-desempleo-1812201003",
+      "title": "Tasa de desempleo registrado",
+      "value": "22,2",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de relación con la actividad económica por secciones censales",
+      "page": "consulta 119350 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta. El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812201003",
+      "temporalContext": "current",
+      "chartValue": 22.2
+    },
+    {
+      "id": "ts-ieca-seccion-tasa-desempleo-1812202001",
+      "title": "Tasa de desempleo registrado",
+      "value": "20,4",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de relación con la actividad económica por secciones censales",
+      "page": "consulta 119350 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta. El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202001",
+      "temporalContext": "current",
+      "chartValue": 20.4
+    },
+    {
+      "id": "ts-ieca-seccion-tasa-desempleo-1812202002",
+      "title": "Tasa de desempleo registrado",
+      "value": "18,9",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de relación con la actividad económica por secciones censales",
+      "page": "consulta 119350 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta. El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202002",
+      "temporalContext": "current",
+      "chartValue": 18.9
+    },
+    {
+      "id": "ts-ieca-seccion-tasa-desempleo-1812202003",
+      "title": "Tasa de desempleo registrado",
+      "value": "22,0",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de relación con la actividad económica por secciones censales",
+      "page": "consulta 119350 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta. El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202003",
+      "temporalContext": "current",
+      "chartValue": 22
+    },
+    {
+      "id": "ts-ieca-seccion-tasa-desempleo-1812202004",
+      "title": "Tasa de desempleo registrado",
+      "value": "13,8",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de relación con la actividad económica por secciones censales",
+      "page": "consulta 119350 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta. El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202004",
+      "temporalContext": "current",
+      "chartValue": 13.8
+    },
+    {
+      "id": "ts-ieca-seccion-tasa-desempleo-1812202005",
+      "title": "Tasa de desempleo registrado",
+      "value": "13,9",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de relación con la actividad económica por secciones censales",
+      "page": "consulta 119350 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta. El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202005",
+      "temporalContext": "current",
+      "chartValue": 13.9
+    },
+    {
+      "id": "ts-ieca-seccion-tasa-desempleo-1812203001",
+      "title": "Tasa de desempleo registrado",
+      "value": "23,9",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de relación con la actividad económica por secciones censales",
+      "page": "consulta 119350 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta. El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812203001",
+      "temporalContext": "current",
+      "chartValue": 23.9
+    },
+    {
+      "id": "ts-ieca-seccion-tasa-desempleo-1812203002",
+      "title": "Tasa de desempleo registrado",
+      "value": "46,4",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de relación con la actividad económica por secciones censales",
+      "page": "consulta 119350 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta. El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812203002",
+      "temporalContext": "current",
+      "chartValue": 46.4
+    },
+    {
+      "id": "ts-ieca-seccion-tasa-desempleo-1812203003",
+      "title": "Tasa de desempleo registrado",
+      "value": "32,6",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de relación con la actividad económica por secciones censales",
+      "page": "consulta 119350 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta. El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812203003",
+      "temporalContext": "current",
+      "chartValue": 32.6
+    },
+    {
+      "id": "ts-ieca-seccion-tasa-desempleo-1812203004",
+      "title": "Tasa de desempleo registrado",
+      "value": "16,4",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de relación con la actividad económica por secciones censales",
+      "page": "consulta 119350 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta. El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812203004",
+      "temporalContext": "current",
+      "chartValue": 16.4
+    },
+    {
+      "id": "ts-ieca-seccion-tasa-desempleo-1812204001",
+      "title": "Tasa de desempleo registrado",
+      "value": "22,2",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de relación con la actividad económica por secciones censales",
+      "page": "consulta 119350 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta. El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812204001",
+      "temporalContext": "current",
+      "chartValue": 22.2
+    },
+    {
+      "id": "ts-ieca-seccion-tasa-desempleo-1812204002",
+      "title": "Tasa de desempleo registrado",
+      "value": "17,5",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de relación con la actividad económica por secciones censales",
+      "page": "consulta 119350 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta. El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812204002",
+      "temporalContext": "current",
+      "chartValue": 17.5
+    },
+    {
+      "id": "ts-ieca-seccion-tasa-desempleo-1812204003",
+      "title": "Tasa de desempleo registrado",
+      "value": "17,9",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de relación con la actividad económica por secciones censales",
+      "page": "consulta 119350 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta. El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812204003",
+      "temporalContext": "current",
+      "chartValue": 17.9
+    },
+    {
+      "id": "ts-ieca-seccion-tasa-desempleo-1812205001",
+      "title": "Tasa de desempleo registrado",
+      "value": "18,6",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de relación con la actividad económica por secciones censales",
+      "page": "consulta 119350 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta. El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812205001",
+      "temporalContext": "current",
+      "chartValue": 18.6
+    },
+    {
+      "id": "ts-ieca-seccion-tasa-desempleo-1812205002",
+      "title": "Tasa de desempleo registrado",
+      "value": "12,4",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de relación con la actividad económica por secciones censales",
+      "page": "consulta 119350 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta. El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812205002",
+      "temporalContext": "current",
+      "chartValue": 12.4
+    },
+    {
+      "id": "ts-ieca-seccion-indice-soledad-1812201001",
+      "title": "Índice de soledad",
+      "value": "50,0",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de hogares por secciones censales",
+      "page": "consulta 119351 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812201001",
+      "temporalContext": "current",
+      "chartValue": 50
+    },
+    {
+      "id": "ts-ieca-seccion-indice-soledad-1812201002",
+      "title": "Índice de soledad",
+      "value": "44,3",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de hogares por secciones censales",
+      "page": "consulta 119351 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812201002",
+      "temporalContext": "current",
+      "chartValue": 44.3
+    },
+    {
+      "id": "ts-ieca-seccion-indice-soledad-1812201003",
+      "title": "Índice de soledad",
+      "value": "43,6",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de hogares por secciones censales",
+      "page": "consulta 119351 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812201003",
+      "temporalContext": "current",
+      "chartValue": 43.6
+    },
+    {
+      "id": "ts-ieca-seccion-indice-soledad-1812202001",
+      "title": "Índice de soledad",
+      "value": "50,2",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de hogares por secciones censales",
+      "page": "consulta 119351 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202001",
+      "temporalContext": "current",
+      "chartValue": 50.2
+    },
+    {
+      "id": "ts-ieca-seccion-indice-soledad-1812202002",
+      "title": "Índice de soledad",
+      "value": "44,5",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de hogares por secciones censales",
+      "page": "consulta 119351 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202002",
+      "temporalContext": "current",
+      "chartValue": 44.5
+    },
+    {
+      "id": "ts-ieca-seccion-indice-soledad-1812202003",
+      "title": "Índice de soledad",
+      "value": "44,4",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de hogares por secciones censales",
+      "page": "consulta 119351 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202003",
+      "temporalContext": "current",
+      "chartValue": 44.4
+    },
+    {
+      "id": "ts-ieca-seccion-indice-soledad-1812202004",
+      "title": "Índice de soledad",
+      "value": "47,6",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de hogares por secciones censales",
+      "page": "consulta 119351 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202004",
+      "temporalContext": "current",
+      "chartValue": 47.6
+    },
+    {
+      "id": "ts-ieca-seccion-indice-soledad-1812202005",
+      "title": "Índice de soledad",
+      "value": "48,5",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de hogares por secciones censales",
+      "page": "consulta 119351 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202005",
+      "temporalContext": "current",
+      "chartValue": 48.5
+    },
+    {
+      "id": "ts-ieca-seccion-indice-soledad-1812203001",
+      "title": "Índice de soledad",
+      "value": "43,9",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de hogares por secciones censales",
+      "page": "consulta 119351 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812203001",
+      "temporalContext": "current",
+      "chartValue": 43.9
+    },
+    {
+      "id": "ts-ieca-seccion-indice-soledad-1812203002",
+      "title": "Índice de soledad",
+      "value": "48,7",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de hogares por secciones censales",
+      "page": "consulta 119351 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812203002",
+      "temporalContext": "current",
+      "chartValue": 48.7
+    },
+    {
+      "id": "ts-ieca-seccion-indice-soledad-1812203003",
+      "title": "Índice de soledad",
+      "value": "32,9",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de hogares por secciones censales",
+      "page": "consulta 119351 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812203003",
+      "temporalContext": "current",
+      "chartValue": 32.9
+    },
+    {
+      "id": "ts-ieca-seccion-indice-soledad-1812203004",
+      "title": "Índice de soledad",
+      "value": "50,3",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de hogares por secciones censales",
+      "page": "consulta 119351 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812203004",
+      "temporalContext": "current",
+      "chartValue": 50.3
+    },
+    {
+      "id": "ts-ieca-seccion-indice-soledad-1812204001",
+      "title": "Índice de soledad",
+      "value": "45,8",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de hogares por secciones censales",
+      "page": "consulta 119351 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812204001",
+      "temporalContext": "current",
+      "chartValue": 45.8
+    },
+    {
+      "id": "ts-ieca-seccion-indice-soledad-1812204002",
+      "title": "Índice de soledad",
+      "value": "43,3",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de hogares por secciones censales",
+      "page": "consulta 119351 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812204002",
+      "temporalContext": "current",
+      "chartValue": 43.3
+    },
+    {
+      "id": "ts-ieca-seccion-indice-soledad-1812204003",
+      "title": "Índice de soledad",
+      "value": "41,9",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de hogares por secciones censales",
+      "page": "consulta 119351 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812204003",
+      "temporalContext": "current",
+      "chartValue": 41.9
+    },
+    {
+      "id": "ts-ieca-seccion-indice-soledad-1812205001",
+      "title": "Índice de soledad",
+      "value": "43,3",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de hogares por secciones censales",
+      "page": "consulta 119351 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812205001",
+      "temporalContext": "current",
+      "chartValue": 43.3
+    },
+    {
+      "id": "ts-ieca-seccion-indice-soledad-1812205002",
+      "title": "Índice de soledad",
+      "value": "51,5",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de hogares por secciones censales",
+      "page": "consulta 119351 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812205002",
+      "temporalContext": "current",
+      "chartValue": 51.5
+    },
+    {
+      "id": "ts-ieca-seccion-pension-mediana-1812201001",
+      "title": "Mediana del importe bruto de las pensiones contributivas",
+      "value": "820,8",
+      "unit": "euros",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de pensiones contributivas por secciones censales",
+      "page": "consulta 119349 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812201001",
+      "temporalContext": "current",
+      "chartValue": 820.8
+    },
+    {
+      "id": "ts-ieca-seccion-pension-mediana-1812201002",
+      "title": "Mediana del importe bruto de las pensiones contributivas",
+      "value": "834,5",
+      "unit": "euros",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de pensiones contributivas por secciones censales",
+      "page": "consulta 119349 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812201002",
+      "temporalContext": "current",
+      "chartValue": 834.5
+    },
+    {
+      "id": "ts-ieca-seccion-pension-mediana-1812201003",
+      "title": "Mediana del importe bruto de las pensiones contributivas",
+      "value": "813,5",
+      "unit": "euros",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de pensiones contributivas por secciones censales",
+      "page": "consulta 119349 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812201003",
+      "temporalContext": "current",
+      "chartValue": 813.5
+    },
+    {
+      "id": "ts-ieca-seccion-pension-mediana-1812202001",
+      "title": "Mediana del importe bruto de las pensiones contributivas",
+      "value": "848,1",
+      "unit": "euros",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de pensiones contributivas por secciones censales",
+      "page": "consulta 119349 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202001",
+      "temporalContext": "current",
+      "chartValue": 848.1
+    },
+    {
+      "id": "ts-ieca-seccion-pension-mediana-1812202002",
+      "title": "Mediana del importe bruto de las pensiones contributivas",
+      "value": "818,2",
+      "unit": "euros",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de pensiones contributivas por secciones censales",
+      "page": "consulta 119349 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202002",
+      "temporalContext": "current",
+      "chartValue": 818.2
+    },
+    {
+      "id": "ts-ieca-seccion-pension-mediana-1812202003",
+      "title": "Mediana del importe bruto de las pensiones contributivas",
+      "value": "878,0",
+      "unit": "euros",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de pensiones contributivas por secciones censales",
+      "page": "consulta 119349 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202003",
+      "temporalContext": "current",
+      "chartValue": 878
+    },
+    {
+      "id": "ts-ieca-seccion-pension-mediana-1812202004",
+      "title": "Mediana del importe bruto de las pensiones contributivas",
+      "value": "874,3",
+      "unit": "euros",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de pensiones contributivas por secciones censales",
+      "page": "consulta 119349 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202004",
+      "temporalContext": "current",
+      "chartValue": 874.3
+    },
+    {
+      "id": "ts-ieca-seccion-pension-mediana-1812202005",
+      "title": "Mediana del importe bruto de las pensiones contributivas",
+      "value": "884,2",
+      "unit": "euros",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de pensiones contributivas por secciones censales",
+      "page": "consulta 119349 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202005",
+      "temporalContext": "current",
+      "chartValue": 884.2
+    },
+    {
+      "id": "ts-ieca-seccion-pension-mediana-1812203001",
+      "title": "Mediana del importe bruto de las pensiones contributivas",
+      "value": "832,5",
+      "unit": "euros",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de pensiones contributivas por secciones censales",
+      "page": "consulta 119349 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812203001",
+      "temporalContext": "current",
+      "chartValue": 832.5
+    },
+    {
+      "id": "ts-ieca-seccion-pension-mediana-1812203002",
+      "title": "Mediana del importe bruto de las pensiones contributivas",
+      "value": "823,0",
+      "unit": "euros",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de pensiones contributivas por secciones censales",
+      "page": "consulta 119349 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812203002",
+      "temporalContext": "current",
+      "chartValue": 823
+    },
+    {
+      "id": "ts-ieca-seccion-pension-mediana-1812203003",
+      "title": "Mediana del importe bruto de las pensiones contributivas",
+      "value": "783,1",
+      "unit": "euros",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de pensiones contributivas por secciones censales",
+      "page": "consulta 119349 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812203003",
+      "temporalContext": "current",
+      "chartValue": 783.1
+    },
+    {
+      "id": "ts-ieca-seccion-pension-mediana-1812203004",
+      "title": "Mediana del importe bruto de las pensiones contributivas",
+      "value": "808,5",
+      "unit": "euros",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de pensiones contributivas por secciones censales",
+      "page": "consulta 119349 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812203004",
+      "temporalContext": "current",
+      "chartValue": 808.5
+    },
+    {
+      "id": "ts-ieca-seccion-pension-mediana-1812204001",
+      "title": "Mediana del importe bruto de las pensiones contributivas",
+      "value": "808,4",
+      "unit": "euros",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de pensiones contributivas por secciones censales",
+      "page": "consulta 119349 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812204001",
+      "temporalContext": "current",
+      "chartValue": 808.4
+    },
+    {
+      "id": "ts-ieca-seccion-pension-mediana-1812204002",
+      "title": "Mediana del importe bruto de las pensiones contributivas",
+      "value": "831,7",
+      "unit": "euros",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de pensiones contributivas por secciones censales",
+      "page": "consulta 119349 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812204002",
+      "temporalContext": "current",
+      "chartValue": 831.7
+    },
+    {
+      "id": "ts-ieca-seccion-pension-mediana-1812204003",
+      "title": "Mediana del importe bruto de las pensiones contributivas",
+      "value": "793,4",
+      "unit": "euros",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de pensiones contributivas por secciones censales",
+      "page": "consulta 119349 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812204003",
+      "temporalContext": "current",
+      "chartValue": 793.4
+    },
+    {
+      "id": "ts-ieca-seccion-pension-mediana-1812205001",
+      "title": "Mediana del importe bruto de las pensiones contributivas",
+      "value": "783,1",
+      "unit": "euros",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de pensiones contributivas por secciones censales",
+      "page": "consulta 119349 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812205001",
+      "temporalContext": "current",
+      "chartValue": 783.1
+    },
+    {
+      "id": "ts-ieca-seccion-pension-mediana-1812205002",
+      "title": "Mediana del importe bruto de las pensiones contributivas",
+      "value": "851,9",
+      "unit": "euros",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Indicadores estadísticos de pensiones contributivas por secciones censales",
+      "page": "consulta 119349 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812205002",
+      "temporalContext": "current",
+      "chartValue": 851.9
+    },
+    {
+      "id": "ts-ieca-seccion-alquiler-colectiva-1812201001",
+      "title": "Cuantía media del alquiler de vivienda colectiva",
+      "value": "*",
+      "unit": "euros/mes",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Índice alquiler de vivienda",
+      "page": "consulta 121064 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas. Secciones según el seccionado de 2021; una sección sin contratos suficientes no se publica.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812201001",
+      "temporalContext": "current"
+    },
+    {
+      "id": "ts-ieca-seccion-alquiler-colectiva-1812201002",
+      "title": "Cuantía media del alquiler de vivienda colectiva",
+      "value": "306",
+      "unit": "euros/mes",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Índice alquiler de vivienda",
+      "page": "consulta 121064 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas. Secciones según el seccionado de 2021; una sección sin contratos suficientes no se publica.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812201002",
+      "temporalContext": "current",
+      "chartValue": 306
+    },
+    {
+      "id": "ts-ieca-seccion-alquiler-colectiva-1812201003",
+      "title": "Cuantía media del alquiler de vivienda colectiva",
+      "value": "339",
+      "unit": "euros/mes",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Índice alquiler de vivienda",
+      "page": "consulta 121064 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas. Secciones según el seccionado de 2021; una sección sin contratos suficientes no se publica.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812201003",
+      "temporalContext": "current",
+      "chartValue": 339
+    },
+    {
+      "id": "ts-ieca-seccion-alquiler-colectiva-1812202001",
+      "title": "Cuantía media del alquiler de vivienda colectiva",
+      "value": "300",
+      "unit": "euros/mes",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Índice alquiler de vivienda",
+      "page": "consulta 121064 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas. Secciones según el seccionado de 2021; una sección sin contratos suficientes no se publica.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202001",
+      "temporalContext": "current",
+      "chartValue": 300
+    },
+    {
+      "id": "ts-ieca-seccion-alquiler-colectiva-1812202002",
+      "title": "Cuantía media del alquiler de vivienda colectiva",
+      "value": "*",
+      "unit": "euros/mes",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Índice alquiler de vivienda",
+      "page": "consulta 121064 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas. Secciones según el seccionado de 2021; una sección sin contratos suficientes no se publica.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202002",
+      "temporalContext": "current"
+    },
+    {
+      "id": "ts-ieca-seccion-alquiler-colectiva-1812202003",
+      "title": "Cuantía media del alquiler de vivienda colectiva",
+      "value": "300",
+      "unit": "euros/mes",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Índice alquiler de vivienda",
+      "page": "consulta 121064 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas. Secciones según el seccionado de 2021; una sección sin contratos suficientes no se publica.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202003",
+      "temporalContext": "current",
+      "chartValue": 300
+    },
+    {
+      "id": "ts-ieca-seccion-alquiler-colectiva-1812202004",
+      "title": "Cuantía media del alquiler de vivienda colectiva",
+      "value": "320",
+      "unit": "euros/mes",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Índice alquiler de vivienda",
+      "page": "consulta 121064 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas. Secciones según el seccionado de 2021; una sección sin contratos suficientes no se publica.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202004",
+      "temporalContext": "current",
+      "chartValue": 320
+    },
+    {
+      "id": "ts-ieca-seccion-alquiler-colectiva-1812202005",
+      "title": "Cuantía media del alquiler de vivienda colectiva",
+      "value": "335",
+      "unit": "euros/mes",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Índice alquiler de vivienda",
+      "page": "consulta 121064 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas. Secciones según el seccionado de 2021; una sección sin contratos suficientes no se publica.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812202005",
+      "temporalContext": "current",
+      "chartValue": 335
+    },
+    {
+      "id": "ts-ieca-seccion-alquiler-colectiva-1812203001",
+      "title": "Cuantía media del alquiler de vivienda colectiva",
+      "value": "304",
+      "unit": "euros/mes",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Índice alquiler de vivienda",
+      "page": "consulta 121064 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas. Secciones según el seccionado de 2021; una sección sin contratos suficientes no se publica.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812203001",
+      "temporalContext": "current",
+      "chartValue": 304
+    },
+    {
+      "id": "ts-ieca-seccion-alquiler-colectiva-1812203002",
+      "title": "Cuantía media del alquiler de vivienda colectiva",
+      "value": "*",
+      "unit": "euros/mes",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Índice alquiler de vivienda",
+      "page": "consulta 121064 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas. Secciones según el seccionado de 2021; una sección sin contratos suficientes no se publica.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812203002",
+      "temporalContext": "current"
+    },
+    {
+      "id": "ts-ieca-seccion-alquiler-colectiva-1812203003",
+      "title": "Cuantía media del alquiler de vivienda colectiva",
+      "value": "*",
+      "unit": "euros/mes",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Índice alquiler de vivienda",
+      "page": "consulta 121064 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas. Secciones según el seccionado de 2021; una sección sin contratos suficientes no se publica.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812203003",
+      "temporalContext": "current"
+    },
+    {
+      "id": "ts-ieca-seccion-alquiler-colectiva-1812203004",
+      "title": "Cuantía media del alquiler de vivienda colectiva",
+      "value": "*",
+      "unit": "euros/mes",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Índice alquiler de vivienda",
+      "page": "consulta 121064 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas. Secciones según el seccionado de 2021; una sección sin contratos suficientes no se publica.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812203004",
+      "temporalContext": "current"
+    },
+    {
+      "id": "ts-ieca-seccion-alquiler-colectiva-1812204001",
+      "title": "Cuantía media del alquiler de vivienda colectiva",
+      "value": "",
+      "unit": "euros/mes",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Índice alquiler de vivienda",
+      "page": "consulta 121064 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas. Secciones según el seccionado de 2021; una sección sin contratos suficientes no se publica.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812204001",
+      "temporalContext": "current"
+    },
+    {
+      "id": "ts-ieca-seccion-alquiler-colectiva-1812204002",
+      "title": "Cuantía media del alquiler de vivienda colectiva",
+      "value": "",
+      "unit": "euros/mes",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Índice alquiler de vivienda",
+      "page": "consulta 121064 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas. Secciones según el seccionado de 2021; una sección sin contratos suficientes no se publica.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812204002",
+      "temporalContext": "current"
+    },
+    {
+      "id": "ts-ieca-seccion-alquiler-colectiva-1812204003",
+      "title": "Cuantía media del alquiler de vivienda colectiva",
+      "value": "",
+      "unit": "euros/mes",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Índice alquiler de vivienda",
+      "page": "consulta 121064 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas. Secciones según el seccionado de 2021; una sección sin contratos suficientes no se publica.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812204003",
+      "temporalContext": "current"
+    },
+    {
+      "id": "ts-ieca-seccion-alquiler-colectiva-1812205001",
+      "title": "Cuantía media del alquiler de vivienda colectiva",
+      "value": "*",
+      "unit": "euros/mes",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Índice alquiler de vivienda",
+      "page": "consulta 121064 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas. Secciones según el seccionado de 2021; una sección sin contratos suficientes no se publica.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812205001",
+      "temporalContext": "current"
+    },
+    {
+      "id": "ts-ieca-seccion-alquiler-colectiva-1812205002",
+      "title": "Cuantía media del alquiler de vivienda colectiva",
+      "value": "*",
+      "unit": "euros/mes",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Índice alquiler de vivienda",
+      "page": "consulta 121064 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas. Secciones según el seccionado de 2021; una sección sin contratos suficientes no se publica.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Sección censal 1812205002",
+      "temporalContext": "current"
     }
   ],
   "income": [
@@ -13254,7 +14951,7 @@
       "note": "Dato agregado de sección; no es renta individual, de vivienda ni de calle."
     }
   ],
-  "profilePdfSha256": "6ed1963de9bac2a52dac7d0745ca7cbd5afe4361c623cb754daf07055af298b3",
+  "profilePdfSha256": "7119640b653eb47d54d47d41ecf460af5e74f1e7aebe2aa0b2c96db41a106a7a",
   "surveyComparison": {
     "schema": "loja-esde-comparison/v1",
     "date": "2026-11-12",
@@ -13367,7 +15064,7 @@
     {
       "id": "R1",
       "title": "R1. Prevención cardiometabólica. Considerar la prevención cardiometabólica entre los asuntos prioritarios del Plan por la carga registrada. Valorar propuestas de actividad física, alimentación y autocuidado que puedan desarrollarse con recursos comunitarios y coordinación sanitaria.",
-      "rationale": "Abordar · Deriva de C1, C2"
+      "rationale": "Abordar · Deriva de C1, C2, C10, C11"
     },
     {
       "id": "R2",
@@ -13377,12 +15074,12 @@
     {
       "id": "R3",
       "title": "R3. Cuidados y apoyos. Valorar propuestas de apoyo a los cuidados, participación y relaciones de personas mayores, teniendo en cuenta los núcleos de residencia y los recursos disponibles. Precisar destinatarios y necesidades con personas mayores, cuidadoras y cuidadores.",
-      "rationale": "Abordar · Deriva de C4, C8"
+      "rationale": "Abordar · Deriva de C4, C8, C13"
     },
     {
       "id": "R4",
       "title": "R4. Bienestar emocional. Incluir el bienestar emocional entre los asuntos a valorar con el equipo sanitario, los servicios sociales y la comunidad. Considerar los registros actuales y las necesidades expresadas; el antecedente de suicidio se conserva como histórico y no se presenta como estimación actual.",
-      "rationale": "Abordar · Deriva de C5, C9"
+      "rationale": "Abordar · Deriva de C5, C9, C12"
     },
     {
       "id": "R5",
@@ -13392,12 +15089,12 @@
     {
       "id": "R6",
       "title": "R6. Acceso a programas preventivos. Valorar cómo puede contribuir el Plan a la información, el acompañamiento y la accesibilidad a los programas preventivos. Diferenciar población elegible, invitación y participación y concretar con el equipo sanitario la contribución comunitaria en cada caso.",
-      "rationale": "Abordar · Deriva de C7"
+      "rationale": "Abordar · Deriva de C7, C11"
     },
     {
       "id": "R7",
-      "title": "R7. Equidad entre zonas y grupos. Aplicar criterios de equidad al elegir destinatarios, emplazamientos y horarios. Considerar costes, desplazamientos, comprensión de la información y apoyos para cuidados, utilizando las diferencias entre secciones como contexto y contrastando barreras con residentes.",
-      "rationale": "Abordar · Deriva de C3, C4"
+      "title": "R7. Equidad entre zonas y grupos. Aplicar criterios de equidad al elegir destinatarios, emplazamientos y horarios. Considerar costes, desplazamientos, comprensión de la información y apoyos para cuidados, utilizando como contexto las diferencias entre secciones, el nivel educativo y la desigualdad por sexo, y contrastando barreras con residentes. Este criterio corresponde a la línea estratégica 2 de la Estrategia de Salud de Andalucía 2030: fortalecer la equidad, reducir las desigualdades en salud y fomentar la participación [ESA2030, p. 74].",
+      "rationale": "Abordar · Deriva de C3, C4, C10, C12, C13"
     },
     {
       "id": "R8",
@@ -13410,9 +15107,9 @@
       "rationale": "Contrastar · Deriva de C9"
     }
   ],
-  "profileJsonPath": "../materiales/perfiles-2026/loja/Loja_PSL_v0_5_1_2026-11-17.json",
-  "profilePdfPath": "../materiales/perfiles-2026/loja/Loja_PSL_v0_5_1_2026-11-17.pdf",
-  "previousProfileSha256": "1dd63987b0db1c50ee3e643bfce5a5ddd9582ca7f379d0082743ef11a5fe8f08",
-  "profileResultCount": 493,
-  "profileVersion": "0.5.1"
+  "profileJsonPath": "../materiales/perfiles-2026/loja/Loja_PSL_v0_6_2_2026-11-18.json",
+  "profilePdfPath": "../materiales/perfiles-2026/loja/Loja_PSL_v0_6_2_2026-11-18.pdf",
+  "previousProfileSha256": "bbc2669c89b125b23962ee97595aa3755265cc34d8ba7a01f3bd00e7c931444d",
+  "profileResultCount": 602,
+  "profileVersion": "0.6.2"
 }

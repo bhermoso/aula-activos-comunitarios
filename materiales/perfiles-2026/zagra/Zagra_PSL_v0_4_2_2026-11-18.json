@@ -1,0 +1,2436 @@
+{
+  "schema": "compas-profile-package/v1",
+  "municipalityId": "zagra",
+  "title": "Perfil de Salud Local de Zagra · revisión 0.4.2 · 18/11/2026",
+  "period": "Revisión 0.4.2 · 18/11/2026; población 2025, condiciones de vida 2024; periodos sanitarios declarados",
+  "author": "Elaboración con asistencia de IA a solicitud de Blas Ramón Hermoso Rico; pendiente de revisión técnica",
+  "summary": "Zagra es un municipio rural de 843 habitantes con una población más envejecida que la provincia: en 2024 la edad media es de 46,4 años y el 23,5 % tiene 65 o más. Su renta por persona, 10.656 euros, es inferior a la provincial, la andaluza y la española, y el 37 % de la población tiene ingresos inferiores al 60 % de la mediana. La renta está poco concentrada, con un índice de Gini de 26,9, lo que indica que los ingresos bajos están extendidos en el municipio y no reducidos a un grupo. El salario aporta el 36,8 % de la renta; las pensiones y las prestaciones pesan más que en la provincia.\n\nEl nivel educativo es el eje en el que Zagra se aparta más de la provincia: el 28,2 % de la población de 15 o más años tiene educación primaria o inferior, frente al 15,2 %. La población mayor, los hogares unipersonales y las pensiones bajas, en especial las de las mujeres, dan contexto a la prioridad de los cuidados y del bienestar emocional que expresa la consulta de 2026 (C1, C2). La información sanitaria disponible es de 2015 y no permite relacionar estas condiciones con resultados de salud actuales.\n\nUna sola sección censal representa el municipio y los recuentos son pequeños: los porcentajes de empleo se calculan sobre pocas personas. La lectura sigue el marco de determinantes sociales de la salud adoptado por el Perfil [DSS1, DSS2]: las conclusiones distinguen lo que los datos muestran de lo que se interpreta.",
+  "text": "PERFIL DE SALUD LOCAL\n\nZagra en datos\n\nRevisión 0.4.2 · 18/11/2026\nDocumento para revisión técnica\n\nResumen. Zagra tiene 843 habitantes en 2025. El 23,5 % tiene 65 o más años y el 7,7 %, 80 o más, por encima de los referentes provincial y andaluz. El 33,4 % de los hogares es unipersonal en 2024. Esta composición hace pertinentes los cuidados, los apoyos y las relaciones sociales [1; T69181, T31033].\n\nDesigualdades. La renta neta media por persona es de 10.656 euros en 2024, frente a 13.509 en Granada y 13.342 en Andalucía. El 37,0 % de la población tiene ingresos inferiores al 60 % de la mediana nacional. Una sola sección censal representa el municipio: no permite identificar diferencias internas por calles o zonas [T31025, T31030, T53689, T53694].\n\nComunidad. La consulta de mayo de 2026 reunió 158 papeletas completas. El bienestar emocional obtuvo el 84,8 % de selecciones; la actividad física, el 74,7 %; y la alimentación, el 71,5 %. Localiza Salud recoge tres activos con validación declarada en octubre de 2026 [5, 7].\n\nSalud. El Informe de Salud de marzo de 2017 contiene información de 2008-2015. La diabetes y la hipertensión publicadas corresponden a 2015; no describen una medición sanitaria de 2026. El perfil integra ese antecedente con población, condiciones de vida, preferencias y activos actuales [4; T69181, T31025].\n\nContexto y población\n\nZagra cuenta con 420 hombres y 423 mujeres en 2025. Las comparaciones siguientes utilizan el mismo año, definición y base en los tres ámbitos.\n\nPoblación y origen · 2025 | Zagra | Provincia de Granada | Andalucía\n\nPoblación menor de 15 años (%) | 10,20 | 13,39 | 13,72\n\nPoblación de 15 a 29 años (%) | 18,39 | 17,00 | 16,86\n\nPoblación de 65 o más años (%) | 23,49 | 19,95 | 19,13\n\nPoblación de 80 o más años (%) | 7,71 | 5,61 | 5,19\n\nPoblación nacida en el extranjero (%) | 13,52 | 12,25 | 13,13\n\nPoblación de nacionalidad extranjera (%) | 13,40 | 9,12 | 10,38\n\nFuentes: Censo anual de población, INE. Tablas 69181, 69178, 69179, 68519 y 68520. Granada se refiere a la provincia.\n\nLas barras corresponden al municipio y la línea a Andalucía; cada porcentaje usa la población total de su territorio. Grupos quinquenales, 2025.\n\nDatos de la estadística territorial. El IECA clasifica Zagra como zona rural según la tipología europea de celdas de población [B19824]. La edad media es de 46,4 años en 2024, frente a 43,4 en la provincia, 43 en Andalucía y 44 en España [T31033, T53776]. Los hogares tienen de media 2,4 personas, frente a 2,4 en la provincia, 2,5 en Andalucía y 2,5 en España [T31033].\n\nPoblación y hogares · 2024–2025 | Zagra | Provincia de Granada | Andalucía | España\n\nMenores de 18 años · % | 13,8 | 16,8 | 17,3 | 16,2\n\n65 o más años · % | 23,5 | 19,8 | 19,1 | 20,7\n\nEdad media · años | 46,4 | 43,4 | 43 | 44\n\nTamaño medio del hogar · personas | 2,4 | 2,4 | 2,5 | 2,5\n\nNacionalidad extranjera · % | 13,4 | 9,1 | — | —\n\nNacida en el extranjero · % | 13,5 | 12,3 | — | —\n\nFuentes: INE, tablas 31033, 53776, 69178, 69179. Descarga de COMPÁS del 18/11/2026. Valores tal como los publica cada fuente.\n\nEjes de desigualdad\n\nLos ejes de desigualdad son las posiciones sociales que ordenan el acceso a los recursos: renta, nivel educativo, ocupación, sexo, edad y origen. Esta página reúne los que la estadística oficial publica para Zagra; la desigualdad por sexo en el empleo y las pensiones figura en «Condiciones de vida».\n\nRenta y su distribución · 2024 | Zagra | Provincia de Granada | Andalucía | España\n\nRenta neta media por persona · € | 10.656 | 13.509 | 13.342 | 15.948\n\nRenta neta media por hogar · € | 25.525 | 33.062 | 34.302 | 40.605\n\nMediana de la renta por unidad de consumo · € | 15.050 | 17.150 | 17.150 | 19.950\n\nPoblación bajo el 60 % de la mediana · % | 37 | 27,8 | 26,2 | 20,2\n\nMujeres bajo el 60 % de la mediana · % | 36 | 28,3 | 27 | 20,8\n\nHombres bajo el 60 % de la mediana · % | 38,3 | 27,2 | 25,4 | 19,6\n\nÍndice de Gini | 26,9 | 32 | 31 | 31,9\n\nDistribución de la renta P80/P20 | 2,1 | 2,7 | 2,5 | 2,6\n\nFuentes: INE, tablas 31025, 53689, 31030, 53694, 37698, 53688. Descarga de COMPÁS del 18/11/2026. Valores tal como los publica cada fuente. La mediana se publica redondeada; una coincidencia entre ámbitos no implica igualdad exacta.\n\nNivel. En 2024, la renta neta media por persona es de 10.656 euros, frente a 13.509 en la provincia, 13.342 en Andalucía y 15.948 en España [T31025, T53689].\n\nDistribución. El índice de Gini es 26,9, frente a 32 en la provincia, 31 en Andalucía y 31,9 en España; la razón P80/P20, 2,1, frente a 2,7 en la provincia, 2,5 en Andalucía y 2,6 en España [T37698, T53688]. El 37 % de la población tiene ingresos por unidad de consumo inferiores al 60 % de la mediana: el 36 % de las mujeres y el 38,3 % de los hombres [T31030].\n\nEducación y ocupación. La educación superior alcanza al 14,4 % de la población de 15 o más años y la primaria o inferior, al 28,2 %, frente al 32,3 % y el 15,2 % de la provincia [T66721]. El 39,2 % de la población de 16 o más años está ocupada, frente al 45,3 % de la provincia [T66723]. Son porcentajes calculados por COMPÁS a partir de los recuentos del Censo anual.\n\nPor sección. Zagra tiene una sola sección censal: la estadística no permite analizar diferencias internas de renta ni de estudios.\n\nCondiciones de vida\n\nLas condiciones de vida son los determinantes intermedios: el empleo, los ingresos y la protección social, la convivencia en el hogar y la vivienda. En ellas se expresan los ejes de desigualdad de la página anterior.\n\nEmpleo · 2025 | Zagra | Provincia de Granada | Andalucía\n\nTasa de desempleo registrado · % | 11,9 | 17,2 | 16,3\n\nMujeres · % | 17,1 | 22,0 | 22,0\n\nHombres · % | 7,6 | 12,9 | 11,1\n\nParo registrado de más de un año · % del paro | 56,0 | 41,9 | 43,8\n\nFuentes: IECA, consultas 120971, 117866. Descarga de COMPÁS del 18/11/2026. Valores tal como los publica cada fuente. La tasa cuenta personas registradas como desempleadas por cada cien de 16 a 64 años. Los valores de la provincia y de Andalucía corresponden a sus municipios de la categoría «zona rural», la misma que Zagra.\n\nEn 2025 constan 34 personas en paro registrado en media anual: 21 mujeres y 13 hombres [B37015]. La tasa de desempleo registrado es del 17,1 % en las mujeres y del 7,6 % en los hombres [B120971]. Hay 373 afiliaciones a la Seguridad Social de personas residentes [B49483].\n\nIngresos y protección social · 2024–2025 | Zagra | Provincia de Granada | Andalucía | España\n\nPeso del salario en la renta · % | 36,8 | 55,1 | 57,3 | 60\n\nPeso de las pensiones en la renta · % | 26,6 | 22 | 20,8 | 20\n\nPeso de las prestaciones por desempleo · % | 7,7 | 2,8 | 2,8 | 1,9\n\nPeso de otras prestaciones · % | 9,7 | 6,6 | 6,1 | 4,5\n\nPensión contributiva media · €/mes | 955,5 | 1.287,6 | 1.312,4 | —\n\nMujeres · €/mes | 927,2 | 1.171,8 | 1.165,2 | —\n\nHombres · €/mes | 987,7 | 1.409,6 | 1.455,1 | —\n\nFuentes: INE, tablas 31026, 53687; IECA, consultas 46121. Descarga de COMPÁS del 18/11/2026. Valores tal como los publica cada fuente.\n\nLas 240 personas pensionistas contributivas cobran de media 955,5 euros al mes: 927,2 las mujeres y 987,7 los hombres [B46121].\n\nHogares y convivencia. El 33,4 % de los hogares es unipersonal, frente a 31,8 en la provincia, 28,1 en Andalucía y 29,1 en España [T31033]. El índice de soledad del IECA, personas de 65 o más años que viven solas por cada cien de esa edad, es 45,3 en la única sección del municipio. Mide convivencia, no soledad no deseada [B119351].\n\nVivienda. El Censo de 2021 registra 211 viviendas familiares que no son residencia habitual [B108129].\n\nServicios\n\nEn 2025 constan en Zagra 1 centro de atención primaria [B40161]. No constan centros de servicios sociales situados en el municipio en la estadística del IECA. El recuento indica qué recursos hay en el municipio; no mide su capacidad, sus horarios ni la población atendida.\n\nSalud y bienestar\n\nInformación sanitaria histórica del Informe de Salud de 2017. Los periodos son 2015 y 2008-2012; no se presentan como situación medida en 2026 [4].\n\nIndicador y unidad · Panel de salud | Zagra | Provincia de Granada | Distrito Granada Metropolitano | Periodo\n\nDiabetes (%) | 10,36 | — | 7,01 | 2015\n\nHipertensión arterial (%) | 27,56 | — | 12,32 | 2015\n\nEPOC (%) | 4,39 | — | 3,99 | 2015\n\nDemencia (%) | 4,39 | — | 3,70 | 2015\n\nInsuficiencia cardíaca (%) | 0,44 | — | 4,84 | 2015\n\nPacientes en anticoagulación (%) | 44,8 | — | 23,30 | 2015\n\nIncidencia anual estandarizada de todos los cánceres (casos por 100.000 y año) | 277,1 | 459,30 | — | 2008-2012\n\nTasa bruta de mortalidad publicada en el texto (‰) | 18,9 | — | — | 2015\n\nEl Distrito Granada Metropolitano es un referente distinto de la provincia. Las bases y notas de los indicadores históricos se conservan en el registro; un denominador no explicitado no se considera conocido. La actualización sanitaria figura entre las necesidades del nuevo Plan.\n\n1. Punto de partida\n\nZagra es un municipio de 11,33 km², con un núcleo y 843 habitantes en 2025. El expediente documenta adhesión a RELAS en 2016, acuerdo y talleres en 2017, perfil de 2018 y reiteración municipal de 2020. En mayo de 2026 se realizó una nueva consulta temática [1, 5, 8-13].\n\nLa información sanitaria principal procede del Informe de Salud de 2017. El presente perfil distingue esos resultados históricos de la información demográfica y social de 2024-2025, las preferencias de 2026 y los activos registrados. No sustituye los datos municipales ausentes por resultados de Loja ni de otros ámbitos [4, 5, 7; T69181, T31025].\n\nEstudios y relación con la actividad · 2024\n\nEstudios y actividad · 2024 | Zagra | Provincia de Granada | Andalucía\n\nEducación primaria o inferior (15 o más años) (%) | 28,20 | 15,25 | 17,16\n\nEducación superior (15 o más años) (%) | 14,41 | 32,27 | 28,61\n\nPersonas paradas sobre población de 16 o más años (%) | 7,61 | 9,35 | 9,44\n\nPersonas paradas sobre ocupadas más paradas (%) | 16,26 | 17,11 | 17,12\n\nEstudios: base de 798 personas de 15 o más años. Actividad: base de 788 personas de 16 o más. Son categorías censales: el paro registrado y la tasa de la EPA son indicadores diferentes. Fuentes: T66721, T66600, T66723, T67127.\n\n2. Conclusiones\n\nUna lectura de conjunto\n\nZagra es un municipio rural de 843 habitantes con una población más envejecida que la provincia: en 2024 la edad media es de 46,4 años y el 23,5 % tiene 65 o más. Su renta por persona, 10.656 euros, es inferior a la provincial, la andaluza y la española, y el 37 % de la población tiene ingresos inferiores al 60 % de la mediana. La renta está poco concentrada, con un índice de Gini de 26,9, lo que indica que los ingresos bajos están extendidos en el municipio y no reducidos a un grupo. El salario aporta el 36,8 % de la renta; las pensiones y las prestaciones pesan más que en la provincia.\n\nEl nivel educativo es el eje en el que Zagra se aparta más de la provincia: el 28,2 % de la población de 15 o más años tiene educación primaria o inferior, frente al 15,2 %. La población mayor, los hogares unipersonales y las pensiones bajas, en especial las de las mujeres, dan contexto a la prioridad de los cuidados y del bienestar emocional que expresa la consulta de 2026 (C1, C2). La información sanitaria disponible es de 2015 y no permite relacionar estas condiciones con resultados de salud actuales.\n\nUna sola sección censal representa el municipio y los recuentos son pequeños: los porcentajes de empleo se calculan sobre pocas personas. La lectura sigue el marco de determinantes sociales de la salud adoptado por el Perfil [DSS1, DSS2]: las conclusiones distinguen lo que los datos muestran de lo que se interpreta.\n\nC1. La composición por edades hace pertinentes los cuidados y los apoyos en la priorización. En 2025 el 23,5 % tiene 65 o más años, frente al 20,0 % provincial y al 19,1 % andaluz; el 7,7 % tiene 80 o más. En 2024 el 33,4 % de los hogares es unipersonal. Estas cifras no identifican dependencia o soledad no deseada, pero ayudan a concretar a quién escuchar y qué apoyos valorar [1; T69181, T31033, T68519, T53776].\n\nC2. El bienestar emocional cuenta con un respaldo participativo sostenido. El 84,8 % de las 158 papeletas completas de 2026 lo seleccionó; en 2017 se priorizaron soledad, salud mental y sobrecarga de cuidadoras. El antecedente de mortalidad por suicidio corresponde a un análisis histórico con datos hasta 2012 y no mide riesgo actual ni explica las preferencias de 2026 [4, p. 30; 5, 6].\n\nC3. La actividad física y la alimentación son asuntos con continuidad en las preferencias locales. En 2026 obtienen el 74,7 % y el 71,5 % de selecciones; sueño y descanso alcanza el 65,8 %. El sedentarismo, la obesidad y la alimentación ya aparecían en 2017. No se dispone de una medición reciente de hábitos en Zagra; los porcentajes de otros ámbitos del Informe no se atribuyen al municipio [4, pp. 35-44; 5, 6].\n\nC4. La evidencia sanitaria principal no permite describir la evolución posterior a 2015. El Informe publica diabetes de 10,36 %, frente a 7,01 % en el Distrito, e hipertensión de 27,56 %, frente a 12,32 %. Son antecedentes relevantes, pero su actualización es necesaria para concretar objetivos e indicadores sanitarios del nuevo Plan [4, p. 34; 14].\n\nC5. Los ingresos sitúan la accesibilidad económica entre los criterios para valorar actuaciones. En 2024 la renta por persona es de 10.656 euros y el 37,0 % de la población se encuentra bajo el 60 % de la mediana nacional, frente al 27,8 % provincial y el 26,2 % andaluz. La sección única no permite localizar esas situaciones dentro del municipio ni asignarlas a personas concretas [T31025, T31030, T53689, T53694].\n\nC6. La población tiene diversidad de nacionalidades que debe considerarse en la participación. En 2025 hay 113 personas de nacionalidad extranjera, el 13,4 % del municipio; la fuente municipal señala que el 77,0 % de ellas tiene nacionalidad marroquí. La consulta de 2026 no recoge origen: no permite afirmar ni descartar participación por esa característica, ni deducir necesidades individuales [1, 5; T69178].\n\nC7. Los tres activos registrados ofrecen posibilidades de colaboración que deben concretarse. La Asociación de Mujeres ZAHRA, el complejo deportivo municipal y el Punto Vuela cuentan con validación declarada a 21/10/2026. Sus actividades tienen afinidad con algunas preferencias de la consulta, pero la ficha no acredita utilización, cobertura o compromiso para el Plan [7].\n\nC8. El proceso dispone de antecedentes y de una consulta reciente para preparar la selección de líneas. Los talleres y propuestas de 2017 y las preferencias de 2026 proceden de métodos distintos. La consulta reciente no equivale por sí sola a una selección acordada de líneas, objetivos y actuaciones. La continuidad debe concretarse con el Grupo Motor actual [5, 6, 8-13].\n\nC9. La renta de Zagra procede del salario en menor medida, y de pensiones y prestaciones en mayor medida, que en la provincia. En 2024 el salario aporta el 36,8 % de la renta, frente al 55,1 % provincial; las pensiones, el 26,6 %, frente al 22 %; las prestaciones por desempleo, el 7,7 %, frente al 2,8 %, y otras prestaciones, el 9,7 %, frente al 6,6 %. La pensión contributiva media de 2025 es de 955,5 euros al mes, frente a 1.287,6 en la provincia y 1.312,4 en Andalucía: 927,2 euros en las mujeres y 987,7 en los hombres. El índice de Gini, 26,9, es inferior a los tres referentes; con el 37 % de la población bajo el 60 % de la mediana, los ingresos bajos están extendidos en el municipio [T31026, B46121, T37698, T31030].\n\nC10. La proporción de población ocupada es baja y el desempleo, aunque menor que en su entorno, es mayoritariamente de larga duración. En 2024 el 39,2 % de la población de 16 o más años está ocupada, frente al 45,3 % provincial. En 2025 la tasa de desempleo registrado es del 11,9 %, inferior al 17,2 % y al 16,3 % de los municipios rurales de la provincia y de Andalucía; es del 17,1 % en las mujeres y del 7,6 % en los hombres. De las 34 personas en paro registrado en media anual, el 56,0 % lleva más de un año. Son pocas personas, y los porcentajes se calculan sobre pocos casos [T66723, B120971, B37015, B117866].\n\nC11. El nivel educativo de la población adulta es el eje de desigualdad en el que Zagra se aparta más de la provincia. En 2024 el 28,2 % de la población de 15 o más años tiene educación primaria o inferior, frente al 15,2 % provincial, y el 14,4 % tiene educación superior, frente al 32,3 %. Debe tenerse en cuenta al preparar información comprensible y vías de participación accesibles, sin atribuir capacidades individuales a partir de datos agregados [T66721].\n\nC12. El municipio dispone de un centro de atención primaria en 2025, y la estadística del IECA no registra ningún centro de servicios sociales situado en él. En una población en la que el 23,5 % tiene 65 o más años, el acceso a los servicios sociales de los que depende la población debe contrastarse al valorar cuidados y apoyos [B40161, B58270, T31033].\n\n3. Relación entre los resultados\n\nEl bienestar emocional, la actividad física y la alimentación aparecen en la consulta reciente y en antecedentes del proceso. Esa continuidad respalda su consideración en la deliberación, sin convertir preferencias en prevalencias o demostrar relaciones causales con los registros sanitarios históricos.\n\nLa estructura por edades, los ingresos y los activos ayudan a preparar propuestas de cuidados, apoyo social y participación. La sección única permite comparar Zagra con otros ámbitos, pero no distinguir zonas internas. La información sanitaria histórica conserva su fecha en todas las tablas.\n\n4. Información pendiente\n\nLa actualización municipal del Informe de Salud es necesaria para concretar objetivos e indicadores sanitarios actuales. Incluye la serie oficial disponible de mortalidad por suicidio, identificando ámbito y periodo sin atribuir al municipio valores de una escala superior.\n\nFaltan datos actuales de dependencia, apoyos para los cuidados y personas mayores que viven solas. Los hogares unipersonales no sustituyen esa información y no miden soledad no deseada.\n\nLa consulta no permite desgloses por origen y sus códigos de sexo necesitan diccionario verificado. El reconocimiento y las condiciones de uso de recursos históricos requieren contraste local; no se modifican por esa razón las validaciones ya declaradas.\n\n5. Recomendaciones\n\nLas recomendaciones presentan asuntos y criterios para la priorización. Abordar propone un asunto que merece consideración; Contrastar precisa una aportación para concretar la decisión; Conocer identifica información necesaria. No establecen un orden de prioridad ni declaran líneas ya adoptadas.\n\nR1. Bienestar emocional y relaciones\n\nAbordar. Considerar el bienestar emocional y las relaciones de apoyo entre los asuntos prioritarios, por su respaldo en la consulta y los antecedentes. Concretar necesidades con la comunidad y distinguirlas de los resultados sanitarios históricos.\n\nFundamento: C2, C8.\n\nR2. Actividad física, alimentación y descanso\n\nAbordar. Valorar propuestas de actividad física, alimentación y descanso adaptadas a distintas edades y capacidades, con participación de residentes y recursos locales. Las preferencias aportan un fundamento para deliberar, sin presumir hábitos o enfermedad en cada participante.\n\nFundamento: C3, C7.\n\nR3. Cuidados y participación de mayores\n\nAbordar. Valorar apoyos para los cuidados, las relaciones y la participación de personas mayores. Precisar con ellas las necesidades, los desplazamientos y los apoyos disponibles, sin identificar vivir solo con dependencia o soledad no deseada.\n\nFundamento: C1, C7, C9, C12.\n\nR4. Apoyo a cuidadoras y cuidadores\n\nContrastar. Examinar con personas cuidadoras y servicios locales qué necesidades y apoyos existen actualmente, tomando la sobrecarga señalada en 2017 como antecedente y no como medida actual. Concretar su posible inclusión en las propuestas del Plan.\n\nFundamento: C1, C2, C9.\n\nR5. Participación inclusiva\n\nContrastar. Incorporar vías accesibles para residentes de distintas edades y nacionalidades, incluyendo población de nacionalidad marroquí y otros orígenes. Escuchar sus prioridades sin presumir ausencia en consultas anteriores ni asignar necesidades por nacionalidad.\n\nFundamento: C6, C8, C11.\n\nR6. Equidad y accesibilidad\n\nAbordar. Aplicar criterios de accesibilidad económica, horaria y de comprensión de la información al elegir actuaciones. Contrastar costes, desplazamientos y apoyos con residentes; la renta de una sección no identifica las barreras de cada persona. Este criterio corresponde a la línea estratégica 2 de la Estrategia de Salud de Andalucía 2030: fortalecer la equidad, reducir las desigualdades en salud y fomentar la participación [ESA2030, p. 74].\n\nFundamento: C1, C5, C9, C10, C11.\n\nR7. Colaboración con los activos\n\nContrastar. Concretar con la Asociación de Mujeres ZAHRA, el complejo deportivo y el Punto Vuela qué contribución pueden realizar a las propuestas priorizadas, sus destinatarios y condiciones de acceso. Identificar otros recursos reconocidos por la comunidad sin confundirlos con fichas ya validadas.\n\nFundamento: C3, C7, C8.\n\nR8. Actualización sanitaria para el Plan\n\nConocer. Solicitar la actualización municipal de los indicadores sanitarios que deban servir de base a objetivos y seguimiento. Mientras no esté disponible, mantener las cifras históricas identificadas por su año y no utilizarlas como valor actual de partida.\n\nFundamento: C4.\n\n6. Paso al Plan de Acción\n\nEl Grupo Motor debe valorar las recomendaciones junto con el Informe de Salud, la participación, las condiciones de vida y los recursos disponibles. La decisión distinguirá la relevancia sanitaria, el respaldo comunitario, la contribución a la equidad y la viabilidad. No se ordenan propuestas únicamente por votos ni por un indicador aislado.\n\nPara cada asunto se concretarán la necesidad, la población destinataria, la evidencia y los recursos que podrían contribuir. La selección de líneas se documentará mediante acuerdo. El Plan de Acción fijará las líneas estratégicas, los objetivos y los indicadores, con referencia a las conclusiones de este perfil. Las actuaciones, con sus responsables, recursos y plazos, se concretarán después en las agendas anuales de implantación.\n\nLos objetivos sanitarios que requieran un valor actual de partida deberán apoyarse en la actualización municipal correspondiente. Mientras tanto, los registros de 2015 se mantienen como antecedentes, sin asignarles un año nuevo.\n\n7. Autoría y revisión\n\nPerfil elaborado con asistencia de IA a solicitud de Blas Ramón Hermoso Rico. Revisión 0.3.1, 17/11/2026. Sustituye a la revisión 0.3, de 16/11/2026, y solo modifica el apartado 6: el Plan de Acción fija las líneas estratégicas, los objetivos y los indicadores, y las actuaciones corresponden a las agendas anuales de implantación. Pendiente de revisión técnica y aceptación de la autoría responsable. La aprobación institucional y los acuerdos del Grupo Motor son actos distintos de esta elaboración documental.\n\nLa información demográfica corresponde a 2025 y la educativa, de actividad, hogares e ingresos a 2024. Los datos sanitarios y participativos conservan los periodos indicados. Esta edición no declara una nueva validación científica de las fuentes sanitarias.\n\nAnexos\n\nA. Territorio y secciones censales\n\nÁmbito de Zagra, seccionado censal de 2025. Las líneas interiores delimitan secciones; el mapa es de localización y no representa enfermedad o privación. Seccionado cedido por el Instituto Nacional de Estadística [Tgeo].\n\nSección | CUSEC completo | Sección | CUSEC completo\n\n01001 | 1891301001 |  | \n\nLos códigos de las secciones están presentes en las tablas de 2024 y 2025 utilizadas. No se deduce que los perímetros sean idénticos entre años ni se calculan tendencias por sección. La correspondencia con barrios, núcleos o calles requiere cotejo municipal.\n\nB. Comparaciones municipales\n\nMismo año, definición y unidad por fila. Los valores absolutos de poblaciones de distinto tamaño expresan magnitudes, no tasas de riesgo.\n\nPoblación · anexo B | Zagra | Provincia de Granada | Andalucía\n\nPoblación total (personas) | 843 | 945.797 | 8.676.713\n\nHombres (personas) | 420 | 464.948 | 4.269.107\n\nMujeres (personas) | 423 | 480.849 | 4.407.606\n\nPoblación menor de 15 años (%) | 10,20 | 13,39 | 13,72\n\nPoblación de 15 a 29 años (%) | 18,39 | 17,00 | 16,86\n\nPoblación de 65 o más años (%) | 23,49 | 19,95 | 19,13\n\nPoblación de 80 o más años (%) | 7,71 | 5,61 | 5,19\n\nPoblación nacida en el extranjero (%) | 13,52 | 12,25 | 13,13\n\nPoblación de nacionalidad extranjera (%) | 13,40 | 9,12 | 10,38\n\nEstudios y actividad · anexo B | Zagra | Provincia de Granada | Andalucía\n\nEducación primaria o inferior (15 o más años) (%) | 28,20 | 15,25 | 17,16\n\nEducación superior (15 o más años) (%) | 14,41 | 32,27 | 28,61\n\nPersonas ocupadas (16 o más años) (personas) | 309 | 362.623 | 3.340.313\n\nPersonas paradas (16 o más años) (personas) | 60 | 74.863 | 690.147\n\nPersonas paradas sobre población de 16 o más años (%) | 7,61 | 9,35 | 9,44\n\nPersonas paradas sobre ocupadas más paradas (%) | 16,26 | 17,11 | 17,12\n\nIngresos y hogares · anexo B | Zagra | Provincia de Granada | Andalucía\n\nRenta neta media por persona (€/persona/año) | 10.656 | 13.509 | 13.342\n\nRenta neta media por hogar (€/hogar/año) | 25.525 | 33.062 | 34.302\n\nMediana de renta por unidad de consumo (€/unidad de consumo/año) | 15.050 | 17.150 | 17.150\n\nPoblación bajo el 60 % de la mediana nacional de ingresos equivalentes (%) | 37,00 | 27,80 | 26,20\n\nHogares unipersonales (%) | 33,40 | 31,80 | 28,10\n\nTamaño medio del hogar (personas/hogar) | 2,4 | 2,4 | 2,5\n\nPoblación menor de 18 años (%) | 13,80 | 16,80 | 17,30\n\nC. Participación y recursos\n\nTemática · consulta de mayo de 2026 | Papeletas que la seleccionan (%)\n\nBienestar emocional y salud mental | 84,8\n\nActividad física | 74,7\n\nAlimentación | 71,5\n\nSueño y descanso | 65,8\n\nSexualidad y salud | 34,8\n\nTabaco, alcohol y otras drogas | 34,2\n\nMedioambiente | 29,1\n\nPantallas y redes sociales | 28,5\n\nViolencia de género | 24,7\n\nAccidentes | 16,5\n\nFuente: 158 papeletas completas de 164 registros, 14-24 de mayo de 2026 [5]. Respuesta múltiple; los porcentajes no suman cien ni estiman prevalencias municipales.\n\nLa Asociación de Mujeres ZAHRA, el complejo deportivo municipal y el Punto Vuela conservan su validación declarada del 21/10/2026. La guía de 2016 es un antecedente distinto. Su contribución al Plan se concretará con responsables y comunidad [7, 14].\n\nD. Resultados de las fuentes de partida\n\nDemografía\n\nIndicador y unidad · Demografía | Resultado local | Periodo\n\nPoblación (personas) | 843 | 2025\n\nEdad media (años) | 46,9 | 2025\n\nPoblación de 65 años o más (%) | 23,5 | 2025\n\nPoblación menor de 20 años (%) | 16,8 | 2025\n\nHogares de una sola persona (%) | 33,4 | 2024\n\nNacimientos (personas) | 3 | 2024\n\nPersonas de nacionalidad extranjera (personas) | 113 | 2025\n\nMortalidad\n\nIndicador y unidad · Mortalidad | Resultado local | Periodo\n\nDefunciones (personas) | 16 | 2024\n\nDefunciones históricas (personas) | 17 | 2015\n\nTasa bruta de mortalidad publicada en el texto (‰) | 18,9 | 2015\n\nDesigualdad\n\nIndicador y unidad · Desigualdad | Resultado local | Provincia de Granada | Andalucía | Periodo\n\nRenta neta por persona (euros/persona) | 10.656 | 13.509,00 | — | 2024\n\nPoblación bajo el 60 % de la mediana de ingresos (%) | 37,0 | 27,80 | 26,20 | 2024\n\nIndicador y unidad · Desigualdad | Resultado local | Periodo\n\nRenta neta media por persona (euros por persona y año) | 10.656,245 | 2024\n\nRenta neta media por hogar (euros por hogar y año) | 25.525,424 | 2024\n\nPoblación con ingresos por unidad de consumo por debajo del 60 % de la mediana (%) | 37,015 | 2024\n\nMorbilidad\n\nIndicador y unidad · Morbilidad | Resultado local | Distrito Granada Metropolitano | Periodo\n\nDiabetes (%) | 10,36 | 7,01 | 2015\n\nHipertensión arterial (%) | 27,56 | 12,32 | 2015\n\nEPOC (%) | 4,39 | 3,99 | 2015\n\nDemencia (%) | 4,39 | 3,70 | 2015\n\nInsuficiencia cardíaca (%) | 0,44 | 4,84 | 2015\n\nPacientes en anticoagulación (%) | 44,8 | 23,30 | 2015\n\nCáncer\n\nIndicador y unidad · Cáncer | Resultado local | Provincia de Granada | Periodo\n\nIncidencia anual estandarizada de todos los cánceres (casos por 100.000 y año) | 277,1 | 459,30 | 2008-2012\n\nPriorización ciudadana\n\nIndicador y unidad · Priorización ciudadana | Resultado local | Periodo\n\nPriorización: Bienestar emocional y salud mental (%) | 84,8 | 14-24/5/2026\n\nPriorización: Actividad física (%) | 74,7 | 14-24/5/2026\n\nPriorización: Alimentación (%) | 71,5 | 14-24/5/2026\n\nPriorización: Sueño y descanso (%) | 65,8 | 14-24/5/2026\n\nPriorización: Sexualidad y salud (%) | 34,8 | 14-24/5/2026\n\nPapeletas completas de priorización (respuestas) | 158 | 14-24/5/2026\n\nActivos\n\nIndicador y unidad · Activos | Resultado local | Periodo\n\nFichas registradas en Localiza Salud (fichas) | 3 | Octubre 2026\n\nActivos con validación declarada (activos) | 3 | 21/10/2026\n\nLocalizadores de los resultados de origen\n\nLos identificadores permiten relacionar las tablas con el registro completo. Las páginas indicadas pertenecen a la fuente de origen, no a este documento. Las bases, notas y valores para gráficos se conservan en el registro de indicadores.\n\nIdentificador | Fuente y localizador\n\nzagra-armon-poblacion | Perfil de Salud Local de Zagra v0.1; [1] SIMA · 7\n\nzagra-armon-edad | Perfil de Salud Local de Zagra v0.1; [1] SIMA · 7\n\nzagra-armon-mayores65 | Perfil de Salud Local de Zagra v0.1; [1] SIMA · 7\n\nzagra-armon-menores20 | Perfil de Salud Local de Zagra v0.1; [1] SIMA · 7\n\nzagra-armon-hogares | Perfil de Salud Local de Zagra v0.1; [3] INE, tabla 31033 · 1\n\nzagra-armon-nacimientos | Perfil de Salud Local de Zagra v0.1; [1] SIMA · 7\n\nzagra-armon-muertes2024 | Perfil de Salud Local de Zagra v0.1; [1] SIMA · 7\n\nzagra-armon-extranjeros | Perfil de Salud Local de Zagra v0.1; [1] SIMA · 7\n\nzagra-armon-renta | Perfil de Salud Local de Zagra v0.1; [3] INE, tablas 31025 y 53694 · 3\n\nzagra-armon-pobreza | Perfil de Salud Local de Zagra v0.1; [3] INE, tablas 31030, 53689 y 53694 · 3\n\nzagra-armon-diabetes | Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 34 · 8\n\nzagra-armon-hipertension | Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 34 · 8\n\nzagra-armon-epoc | Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 34 · 8\n\nzagra-armon-demencia | Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 34 · 8\n\nzagra-armon-insuficiencia | Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 34 · 8\n\nzagra-armon-tao | Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 34 · 8\n\nzagra-armon-muertes2015 | Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 30 · 8\n\nzagra-armon-tbm | Perfil de Salud Local de Zagra v0.1; [4] p. 30; discrepancia con [12], apartado 6.3 · 13\n\nzagra-armon-cancer | Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 33 · 8\n\nzagra-armon-votos-emocional | Perfil de Salud Local de Zagra v0.1; [5] papeleta de priorización temática · 10\n\nzagra-armon-votos-actividad | Perfil de Salud Local de Zagra v0.1; [5] papeleta de priorización temática · 10\n\nzagra-armon-votos-alimentacion | Perfil de Salud Local de Zagra v0.1; [5] papeleta de priorización temática · 10\n\nzagra-armon-votos-sueno | Perfil de Salud Local de Zagra v0.1; [5] papeleta de priorización temática · 10\n\nzagra-armon-votos-sexualidad | Perfil de Salud Local de Zagra v0.1; [5] papeleta de priorización temática · 10\n\nzagra-armon-papeletas | Perfil de Salud Local de Zagra v0.1; [5] exportación REDCap · 10\n\nzagra-armon-recursos | Perfil de Salud Local de Zagra v0.1; [7] inventario Localiza Salud · 9\n\nzagra-armon-validados | Perfil de Salud Local de Zagra v0.1; Declaración de validación conservada en el expediente Firebase · Declaración del expediente\n\nzagra-renta-2024-1891301001-persona | [RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024 · CUSEC 1891301001; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2\n\nzagra-renta-2024-1891301001-hogar | [RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024 · CUSEC 1891301001; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2\n\nzagra-renta-2024-1891301001-umbral | [RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024 · CUSEC 1891301001; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2\n\nRevisión 0.4.0, 18/11/2026, generada con el Actualizador de perfiles de COMPÁS a partir de la revisión 0.3.1: Paquete de texto (2026-11-18): Párrafo «Zagra reúne una población con mayor pres…» sustituido. C9 añadida. C10 añadida. C11 añadida. C12 añadida. Fundamento de R3: C1, C7, C9, C12. Fundamento de R4: C1, C2, C9. Fundamento de R5: C6, C8, C11. Fundamento de R6: C1, C5, C9, C10, C11. Párrafo «Abordar. Aplicar criterios de accesibili…» sustituido. 3 referencias añadidas. 44 cifras enlazadas y 19 condiciones fijadas. Página «Ejes de desigualdad» compilada desde la descarga del 2026-11-18; sustituye a la anterior («Desigualdad»). Páginas «Contexto y población» (bloque de datos), «Ejes de desigualdad», «Condiciones de vida» y «Servicios» compiladas desde la descarga, con tablas y frases descriptivas con su fuente. 13 referencias nuevas en «Referencias». Indicadores: 24 añadidos y 0 actualizados desde la descarga del 2026-11-18. 5 indicadores reasignados a las páginas del modelo nuevo. Las condiciones de las conclusiones se siguen cumpliendo. El resto del texto no cambia. Pendiente de revisión técnica.\n\nRevisión 0.4.1, 18/11/2026, generada con el Actualizador de perfiles de COMPÁS a partir de la revisión 0.4.0: Campos del paquete derivados del texto: resumen (lectura de conjunto), conclusiones (12), recomendaciones (8). El resto del texto no cambia. Pendiente de revisión técnica.\n\nRevisión 0.4.2, 18/11/2026, generada con el Actualizador de perfiles de COMPÁS a partir de la revisión 0.4.1: Notas de limitaciones: los archivos originales adjuntos se nombran por su nombre. El resto del texto no cambia. Pendiente de revisión técnica.\n\nReferencias\n\n1. Instituto de Estadística y Cartografía de Andalucía. Sistema de Información Multiterritorial de Andalucía (SIMA). Ficha municipal de Zagra (18913) [Internet]. Sevilla: IECA; actualizada el 9 oct 2026 [consultado 26 oct 2026]. Disponible en: https://www.juntadeandalucia.es/institutodeestadisticaycartografia/sima/ficha.htm? mun=18913\n\n2. Instituto de Estadística y Cartografía de Andalucía. SIMA. Población por edad y sexo (Padrón Municipal de Habitantes), Zagra, 2016 [exportación]. Sevilla: IECA; marzo de 2017.\n\n3. Instituto Nacional de Estadística. Atlas de Distribución de Renta de los Hogares, 2024. Tablas 31025, 31030, 31033, 53689 y 53694 [Internet]. Madrid: INE; 2026 [consultado 26 oct 2026]. Disponible en: https://www.ine.es/dyngs/INEbase/es/operacion.htm? c=Estadistica_C&cid=1254736177088&menu=ultiDatos&idp=1254735976608\n\n4. Red Local de Acción en Salud. Informe de Salud. Zagra. Proyecto de desarrollo de la acción local en salud. Granada: Consejería de Salud, Delegación Territorial de Granada; marzo de 2017.\n\n5. Ayuntamiento de Zagra. Priorización temática ciudadana (papeleta REDCap «papeleta_pri_tematica»), 14 a 24 de mayo de 2026. Exportación de datos de 21 oct 2026: 164 registros, 158 papeletas completas.\n\n6. Grupo Motor de Zagra. Listado de problemas de salud identificados en Zagra; problemas priorizados, activos y acciones (taller del 27 de abril de 2017). Hoja de cálculo. Zagra; junio de 2017.\n\n7. Junta de Andalucía. Localiza Salud: recursos y activos para la salud del municipio de Zagra [base de datos]. Registro incorporado al expediente el 21 oct 2026.\n\n8. Ayuntamiento de Zagra. Solicitud de adhesión al Plan RELAS (Red Local de Acción en Salud) dirigida a la Delegación Territorial de Igualdad, Salud y Políticas Sociales de Granada. Zagra; 20 oct 2016.\n\n9. Delegación Territorial de Igualdad, Salud y Políticas Sociales en Granada; Ayuntamiento de Zagra. Acuerdo de colaboración entre la Consejería de Salud de la Junta de Andalucía y el Ayuntamiento de Zagra en materia de salud pública. Zagra; 15 feb 2017.\n\n10. Servicio de Acción Territorial en Salud Pública, Consejería de Salud. Taller «Impulso y desarrollo de la acción local en salud». Zagra (Granada), 30 de marzo de 2017: programa. Granada; 2017.\n\n11. Gómez Jiménez A. Presentaciones de los talleres RELAS de Zagra de 30 de marzo y 27 de abril de 2017. Granada: Técnico de Acción Local en Salud, provincia de Granada; 2017.\n\n12. Red Local de Acción en Salud. Perfil de Salud Local. Zagra. Documento de trabajo. Zagra; enero de 2018.\n\n13. Ayuntamiento de Zagra. Escrito a la Delegación Territorial de Salud (Servicio de Salud, Acción Local) sobre la Estrategia de Acción Local en Salud. Zagra; 31 ene 2020.\n\n14. Unidad de Gestión Clínica de Loja. Plan de actuación de la Zona con Necesidades de Transformación Social: Zagra, 2016 (descripción, objetivos, evaluación, otras actividades comunitarias, mapa de activos y buenas prácticas). Hoja de cálculo. Loja; mayo de 2017.\n\n15. Grupo Motor de Zagra. Composición: seis personas, con su cargo. Zagra; mayo de 2017.\n\nRC2024. INE. Atlas de Distribución de Renta de los Hogares 2024. Servicio ADRH_secciones_t, campos dato1, dato2 y dato4, sección 1891301001; consulta de 6/11/2026 y notas entregadas. https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2\n\nT69181. INE. Población por sexo y edad quinquenal, secciones de Granada. Año 2025. Extracción de 14/11/2026; selección municipal y cotejo de 16/11/2026. https://www.ine.es/jaxiT3/Tabla.htm?t=69181\n\nT69178. INE. Población por sexo y nacionalidad, secciones de Granada. Año 2025. Extracción de 14/11/2026; selección municipal y cotejo de 16/11/2026. https://www.ine.es/jaxiT3/Tabla.htm?t=69178\n\nT69179. INE. Población por sexo y nacimiento, secciones de Granada. Año 2025. Extracción de 14/11/2026; selección municipal y cotejo de 16/11/2026. https://www.ine.es/jaxiT3/Tabla.htm?t=69179\n\nT66721. INE. Población de 15 o más años por estudios agrupados, secciones. Año 2024. Extracción de 14/11/2026; selección municipal y cotejo de 16/11/2026. https://www.ine.es/jaxiT3/Tabla.htm?t=66721\n\nT66723. INE. Población de 16 o más años por relación con la actividad, secciones. Año 2024. Extracción de 14/11/2026; selección municipal y cotejo de 16/11/2026. https://www.ine.es/jaxiT3/Tabla.htm?t=66723\n\nT31025. INE. Atlas de renta: media y mediana, municipios y secciones. Año 2024. Extracción de 14/11/2026; selección municipal y cotejo de 16/11/2026. https://www.ine.es/jaxiT3/Tabla.htm?t=31025\n\nT31030. INE. Atlas de renta: umbrales relativos, municipios y secciones. Año 2024. Extracción de 14/11/2026; selección municipal y cotejo de 16/11/2026. https://www.ine.es/jaxiT3/Tabla.htm?t=31030\n\nT31033. INE. Atlas de renta: indicadores demográficos y de hogares. Año 2024. Extracción de 14/11/2026; selección municipal y cotejo de 16/11/2026. https://www.ine.es/jaxiT3/Tabla.htm?t=31033\n\nT53689. INE. Atlas de renta: referentes provincial y autonómico. Año 2024. Extracción de 14/11/2026; selección municipal y cotejo de 16/11/2026. https://www.ine.es/jaxiT3/Tabla.htm?t=53689\n\nT53694. INE. Atlas de renta: umbrales relativos, referentes provincial y autonómico. Año 2024. Extracción de 14/11/2026; selección municipal y cotejo de 16/11/2026. https://www.ine.es/jaxiT3/Tabla.htm?t=53694\n\nT53776. INE. Atlas de renta: hogares, referentes provincial y autonómico. Año 2024. Extracción de 14/11/2026; selección municipal y cotejo de 16/11/2026. https://www.ine.es/jaxiT3/Tabla.htm?t=53776\n\nT68519. INE. Población por sexo, edad y nacionalidad, provincia y comunidad. Año 2025. Extracción de 14/11/2026; selección municipal y cotejo de 16/11/2026. https://www.ine.es/jaxiT3/Tabla.htm?t=68519\n\nT68520. INE. Población por sexo, edad y nacimiento, provincia y comunidad. Año 2025. Extracción de 14/11/2026; selección municipal y cotejo de 16/11/2026. https://www.ine.es/jaxiT3/Tabla.htm?t=68520\n\nT66600. INE. Estudios detallados, provincia y comunidad. Año 2024. Extracción de 14/11/2026; selección municipal y cotejo de 16/11/2026. https://www.ine.es/jaxiT3/Tabla.htm?t=66600\n\nT67127. INE. Relación con la actividad, provincia y comunidad. Año 2024. Extracción de 14/11/2026; selección municipal y cotejo de 16/11/2026. https://www.ine.es/jaxiT3/Tabla.htm?t=67127\n\nLa comparación educativa agrupa sin estudios y primaria para la categoría primaria o inferior; superior reúne las cinco categorías de educación terciaria de la tabla detallada. Se conservan sexo Total y base de 15 o más años. Las tasas de actividad utilizan la base de 16 o más y distinguen población total de ocupados más parados.\n\nTgeo. INE. Seccionado censal 2025, servicio OGC API Features, colección WMS_INE_SECCIONES_G01:Secciones_2025. Selección de CUSEC municipales el 16/11/2026. Seccionado cedido por el Instituto Nacional de Estadística.\n\nDSS1. Solar O, Irwin A. A conceptual framework for action on the social determinants of health. Social Determinants of Health Discussion Paper 2 (Policy and Practice). Ginebra: Organización Mundial de la Salud; 2010.\n\nDSS2. Comisión para Reducir las Desigualdades Sociales en Salud en España. Avanzando hacia la equidad. Propuesta de políticas e intervenciones para reducir las desigualdades sociales en salud en España. Madrid: Ministerio de Sanidad y Política Social; 2010.\n\nESA2030. Consejería de Sanidad, Presidencia y Emergencias. Estrategia de Salud de Andalucía 2030. Sevilla: Junta de Andalucía; 2026. Aprobada por el Consejo de Gobierno el 11 de febrero de 2026. Línea estratégica 2, p. 74.\n\nB108129. IECA. Viviendas familiares convencionales según tipo de vivienda (principal o no principal). Año 2021. Consulta 108129 del BADEA. Consulta 18/11/2026.\n\nB117866. IECA. Paro registrado de larga duración. Año 2025. Consulta 117866 del BADEA. Consulta 18/11/2026.\n\nB119351. IECA. Indicadores estadísticos de hogares por secciones censales. Año 2024. Consulta 119351 del BADEA. Consulta 18/11/2026.\n\nB120971. IECA. Tasa municipal de desempleo según sexo. Media anual. Año 2025. Consulta 120971 del BADEA. Consulta 18/11/2026.\n\nB19824. IECA. Porcentaje de población según tipología de celda y grado de urbanización por municipio. Año 2024. Consulta 19824 del BADEA. Consulta 18/11/2026.\n\nB37015. IECA. Paro registrado por sexo. Año 2025. Consulta 37015 del BADEA. Consulta 18/11/2026.\n\nB40161. IECA. Recursos de atención primaria. Año 2025. Consulta 40161 del BADEA. Consulta 18/11/2026.\n\nB46121. IECA. Número de pensionistas y pensión media según grupos de edad y sexo. Año 2025. Consulta 46121 del BADEA. Consulta 18/11/2026.\n\nB49483. IECA. Afiliaciones según municipio de residencia, por régimen y sexo. Año 2025. Consulta 49483 del BADEA. Consulta 18/11/2026.\n\nT31026. INE. Distribución por fuente de ingresos. Atlas de Distribución de Renta de los Hogares. Año 2024. Tabla 31026. Consulta 18/11/2026. https://www.ine.es/jaxiT3/Tabla.htm?t=31026\n\nT37698. INE. Índice de Gini y distribución de la renta P80/P20. Atlas de Distribución de Renta de los Hogares. Año 2024. Tabla 37698. Consulta 18/11/2026. https://www.ine.es/jaxiT3/Tabla.htm?t=37698\n\nT53687. INE. Distribución por fuente de ingresos (ámbitos superiores). Atlas de Distribución de Renta de los Hogares. Año 2024. Tabla 53687. Consulta 18/11/2026. https://www.ine.es/jaxiT3/Tabla.htm?t=53687\n\nT53688. INE. Índice de Gini y distribución de la renta P80/P20 (ámbitos superiores). Atlas de Distribución de Renta de los Hogares. Año 2024. Tabla 53688. Consulta 18/11/2026. https://www.ine.es/jaxiT3/Tabla.htm?t=53688",
+  "results": [
+    {
+      "id": "zagra-armon-poblacion",
+      "title": "Población",
+      "value": "843",
+      "unit": "personas",
+      "period": "2025",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Zagra v0.1; [1] SIMA",
+      "page": "7",
+      "scale": "Zagra",
+      "denominator": "Población municipal",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 843,
+      "supportsConclusions": [
+        "C1"
+      ]
+    },
+    {
+      "id": "zagra-armon-edad",
+      "title": "Edad media",
+      "value": "46,9",
+      "unit": "años",
+      "period": "2025",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Zagra v0.1; [1] SIMA",
+      "page": "7",
+      "scale": "Zagra",
+      "denominator": "Población municipal",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 46.9,
+      "supportsConclusions": [
+        "C1"
+      ]
+    },
+    {
+      "id": "zagra-armon-mayores65",
+      "title": "Población de 65 años o más",
+      "value": "23,5",
+      "unit": "%",
+      "period": "2025",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Zagra v0.1; [1] SIMA",
+      "page": "7",
+      "scale": "Zagra",
+      "denominator": "Población municipal",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 23.5,
+      "supportsConclusions": [
+        "C1"
+      ]
+    },
+    {
+      "id": "zagra-armon-menores20",
+      "title": "Población menor de 20 años",
+      "value": "16,8",
+      "unit": "%",
+      "period": "2025",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Zagra v0.1; [1] SIMA",
+      "page": "7",
+      "scale": "Zagra",
+      "denominator": "Población municipal",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 16.8
+    },
+    {
+      "id": "zagra-armon-hogares",
+      "title": "Hogares de una sola persona",
+      "value": "33,4",
+      "unit": "%",
+      "period": "2024",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Zagra v0.1; [3] INE, tabla 31033",
+      "page": "1",
+      "scale": "Zagra",
+      "denominator": "Hogares del municipio",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 33.4,
+      "supportsConclusions": [
+        "C1"
+      ]
+    },
+    {
+      "id": "zagra-armon-nacimientos",
+      "title": "Nacimientos",
+      "value": "3",
+      "unit": "personas",
+      "period": "2024",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Zagra v0.1; [1] SIMA",
+      "page": "7",
+      "scale": "Zagra",
+      "denominator": "Recuento anual de nacimientos",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 3,
+      "supportsConclusions": [
+        "C1"
+      ]
+    },
+    {
+      "id": "zagra-armon-muertes2024",
+      "title": "Defunciones",
+      "value": "16",
+      "unit": "personas",
+      "period": "2024",
+      "topic": "Mortalidad",
+      "source": "Perfil de Salud Local de Zagra v0.1; [1] SIMA",
+      "page": "7",
+      "scale": "Zagra",
+      "denominator": "Recuento anual de defunciones",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 16,
+      "supportsConclusions": [
+        "C1"
+      ]
+    },
+    {
+      "id": "zagra-armon-extranjeros",
+      "title": "Personas de nacionalidad extranjera",
+      "value": "113",
+      "unit": "personas",
+      "period": "2025",
+      "topic": "Demografía",
+      "source": "Perfil de Salud Local de Zagra v0.1; [1] SIMA",
+      "page": "7",
+      "scale": "Zagra",
+      "denominator": "Recuento de residentes de nacionalidad extranjera",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 113,
+      "supportsConclusions": [
+        "C6"
+      ]
+    },
+    {
+      "id": "zagra-armon-renta",
+      "title": "Renta neta por persona",
+      "value": "10.656",
+      "unit": "euros/persona",
+      "period": "2024",
+      "topic": "Ejes de desigualdad",
+      "source": "Perfil de Salud Local de Zagra v0.1; [3] INE, tablas 31025 y 53694",
+      "page": "3",
+      "scale": "Zagra",
+      "denominator": "Personas de la población de referencia del Atlas de Renta",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 10656,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 13509
+        }
+      ],
+      "supportsConclusions": [
+        "C5"
+      ]
+    },
+    {
+      "id": "zagra-armon-pobreza",
+      "title": "Población bajo el 60 % de la mediana de ingresos",
+      "value": "37,0",
+      "unit": "%",
+      "period": "2024",
+      "topic": "Ejes de desigualdad",
+      "source": "Perfil de Salud Local de Zagra v0.1; [3] INE, tablas 31030, 53689 y 53694",
+      "page": "3",
+      "scale": "Zagra",
+      "denominator": "Población de referencia del Atlas de Renta",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 37,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 27.8
+        },
+        {
+          "label": "Andalucía",
+          "value": 26.2
+        }
+      ],
+      "supportsConclusions": [
+        "C5"
+      ]
+    },
+    {
+      "id": "zagra-armon-diabetes",
+      "title": "Diabetes",
+      "value": "10,36",
+      "unit": "%",
+      "period": "2015",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 34",
+      "page": "8",
+      "scale": "Zagra",
+      "denominator": "Denominador no explicitado por la fuente",
+      "temporalContext": "historical",
+      "caution": "Dato histórico. La fuente no explicita el denominador; no extrapolar al presente.",
+      "chartValue": 10.36,
+      "comparisons": [
+        {
+          "label": "Distrito Granada Metropolitano",
+          "value": 7.01
+        }
+      ],
+      "supportsConclusions": [
+        "C4"
+      ]
+    },
+    {
+      "id": "zagra-armon-hipertension",
+      "title": "Hipertensión arterial",
+      "value": "27,56",
+      "unit": "%",
+      "period": "2015",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 34",
+      "page": "8",
+      "scale": "Zagra",
+      "denominator": "Denominador no explicitado por la fuente",
+      "temporalContext": "historical",
+      "caution": "Dato histórico. La fuente no explicita el denominador; no extrapolar al presente.",
+      "chartValue": 27.56,
+      "comparisons": [
+        {
+          "label": "Distrito Granada Metropolitano",
+          "value": 12.32
+        }
+      ],
+      "supportsConclusions": [
+        "C4"
+      ]
+    },
+    {
+      "id": "zagra-armon-epoc",
+      "title": "EPOC",
+      "value": "4,39",
+      "unit": "%",
+      "period": "2015",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 34",
+      "page": "8",
+      "scale": "Zagra",
+      "denominator": "Denominador no explicitado por la fuente",
+      "temporalContext": "historical",
+      "caution": "Dato histórico. La fuente no explicita el denominador; no extrapolar al presente.",
+      "chartValue": 4.39,
+      "comparisons": [
+        {
+          "label": "Distrito Granada Metropolitano",
+          "value": 3.99
+        }
+      ]
+    },
+    {
+      "id": "zagra-armon-demencia",
+      "title": "Demencia",
+      "value": "4,39",
+      "unit": "%",
+      "period": "2015",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 34",
+      "page": "8",
+      "scale": "Zagra",
+      "denominator": "Denominador no explicitado por la fuente",
+      "temporalContext": "historical",
+      "caution": "Dato histórico. La fuente no explicita el denominador; no extrapolar al presente.",
+      "chartValue": 4.39,
+      "comparisons": [
+        {
+          "label": "Distrito Granada Metropolitano",
+          "value": 3.7
+        }
+      ]
+    },
+    {
+      "id": "zagra-armon-insuficiencia",
+      "title": "Insuficiencia cardíaca",
+      "value": "0,44",
+      "unit": "%",
+      "period": "2015",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 34",
+      "page": "8",
+      "scale": "Zagra",
+      "denominator": "Denominador no explicitado por la fuente",
+      "temporalContext": "historical",
+      "caution": "Dato histórico. La fuente no explicita el denominador; no extrapolar al presente.",
+      "chartValue": 0.44,
+      "comparisons": [
+        {
+          "label": "Distrito Granada Metropolitano",
+          "value": 4.84
+        }
+      ]
+    },
+    {
+      "id": "zagra-armon-tao",
+      "title": "Pacientes en anticoagulación",
+      "value": "44,8",
+      "unit": "%",
+      "period": "2015",
+      "topic": "Morbilidad",
+      "source": "Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 34",
+      "page": "8",
+      "scale": "Zagra",
+      "denominator": "Denominador no explicitado por la fuente",
+      "temporalContext": "historical",
+      "caution": "Dato histórico. La fuente no explicita el denominador; no extrapolar al presente. No interpretar el 44,8 % como porcentaje de habitantes.",
+      "chartValue": 44.8,
+      "comparisons": [
+        {
+          "label": "Distrito Granada Metropolitano",
+          "value": 23.3
+        }
+      ]
+    },
+    {
+      "id": "zagra-armon-muertes2015",
+      "title": "Defunciones históricas",
+      "value": "17",
+      "unit": "personas",
+      "period": "2015",
+      "topic": "Mortalidad",
+      "source": "Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 30",
+      "page": "8",
+      "scale": "Zagra",
+      "denominator": "Recuento anual (9 hombres, 8 mujeres)",
+      "temporalContext": "historical",
+      "caution": "",
+      "chartValue": 17
+    },
+    {
+      "id": "zagra-armon-tbm",
+      "title": "Tasa bruta de mortalidad publicada en el texto",
+      "value": "18,9",
+      "unit": "‰",
+      "period": "2015",
+      "topic": "Mortalidad",
+      "source": "Perfil de Salud Local de Zagra v0.1; [4] p. 30; discrepancia con [12], apartado 6.3",
+      "page": "13",
+      "scale": "Zagra",
+      "denominator": "Por 1.000 habitantes según la tasa publicada",
+      "temporalContext": "historical",
+      "caution": "Dato histórico. El texto publica 18,9 ‰ y VIGIA 10,01; se conserva la discrepancia sin elegir ni recalcular.",
+      "chartValue": 18.9
+    },
+    {
+      "id": "zagra-armon-cancer",
+      "title": "Incidencia anual estandarizada de todos los cánceres",
+      "value": "277,1",
+      "unit": "casos por 100.000 y año",
+      "period": "2008-2012",
+      "topic": "Cáncer",
+      "source": "Perfil de Salud Local de Zagra v0.1; [4] Informe de Salud Zagra 2017, p. 33",
+      "page": "8",
+      "scale": "Zagra",
+      "denominator": "Población de referencia de la tasa publicada",
+      "temporalContext": "historical",
+      "caution": "Serie histórica; no describe la incidencia actual.",
+      "chartValue": 277.1,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 459.3
+        }
+      ]
+    },
+    {
+      "id": "zagra-armon-votos-emocional",
+      "title": "Priorización: Bienestar emocional y salud mental",
+      "value": "84,8",
+      "unit": "%",
+      "period": "14-24/5/2026",
+      "topic": "Priorización ciudadana",
+      "source": "Perfil de Salud Local de Zagra v0.1; [5] papeleta de priorización temática",
+      "page": "10",
+      "scale": "Zagra",
+      "denominator": "158 papeletas completas; respuesta múltiple",
+      "temporalContext": "current",
+      "caution": "Preferencias de participantes; no prevalencia ni representatividad municipal.",
+      "chartValue": 84.8,
+      "supportsConclusions": [
+        "C2"
+      ]
+    },
+    {
+      "id": "zagra-armon-votos-actividad",
+      "title": "Priorización: Actividad física",
+      "value": "74,7",
+      "unit": "%",
+      "period": "14-24/5/2026",
+      "topic": "Priorización ciudadana",
+      "source": "Perfil de Salud Local de Zagra v0.1; [5] papeleta de priorización temática",
+      "page": "10",
+      "scale": "Zagra",
+      "denominator": "158 papeletas completas; respuesta múltiple",
+      "temporalContext": "current",
+      "caution": "Preferencias de participantes; no prevalencia ni representatividad municipal.",
+      "chartValue": 74.7,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "zagra-armon-votos-alimentacion",
+      "title": "Priorización: Alimentación",
+      "value": "71,5",
+      "unit": "%",
+      "period": "14-24/5/2026",
+      "topic": "Priorización ciudadana",
+      "source": "Perfil de Salud Local de Zagra v0.1; [5] papeleta de priorización temática",
+      "page": "10",
+      "scale": "Zagra",
+      "denominator": "158 papeletas completas; respuesta múltiple",
+      "temporalContext": "current",
+      "caution": "Preferencias de participantes; no prevalencia ni representatividad municipal.",
+      "chartValue": 71.5,
+      "supportsConclusions": [
+        "C3"
+      ]
+    },
+    {
+      "id": "zagra-armon-votos-sueno",
+      "title": "Priorización: Sueño y descanso",
+      "value": "65,8",
+      "unit": "%",
+      "period": "14-24/5/2026",
+      "topic": "Priorización ciudadana",
+      "source": "Perfil de Salud Local de Zagra v0.1; [5] papeleta de priorización temática",
+      "page": "10",
+      "scale": "Zagra",
+      "denominator": "158 papeletas completas; respuesta múltiple",
+      "temporalContext": "current",
+      "caution": "Preferencias de participantes; no prevalencia ni representatividad municipal.",
+      "chartValue": 65.8
+    },
+    {
+      "id": "zagra-armon-votos-sexualidad",
+      "title": "Priorización: Sexualidad y salud",
+      "value": "34,8",
+      "unit": "%",
+      "period": "14-24/5/2026",
+      "topic": "Priorización ciudadana",
+      "source": "Perfil de Salud Local de Zagra v0.1; [5] papeleta de priorización temática",
+      "page": "10",
+      "scale": "Zagra",
+      "denominator": "158 papeletas completas; respuesta múltiple",
+      "temporalContext": "current",
+      "caution": "Preferencias de participantes; no prevalencia ni representatividad municipal.",
+      "chartValue": 34.8
+    },
+    {
+      "id": "zagra-armon-papeletas",
+      "title": "Papeletas completas de priorización",
+      "value": "158",
+      "unit": "respuestas",
+      "period": "14-24/5/2026",
+      "topic": "Priorización ciudadana",
+      "source": "Perfil de Salud Local de Zagra v0.1; [5] exportación REDCap",
+      "page": "10",
+      "scale": "Zagra",
+      "denominator": "164 registros; 158 completos",
+      "temporalContext": "current",
+      "caution": "Recuento de respuestas, no muestra probabilística acreditada.",
+      "chartValue": 158
+    },
+    {
+      "id": "zagra-armon-recursos",
+      "title": "Fichas registradas en Localiza Salud",
+      "value": "3",
+      "unit": "fichas",
+      "period": "Octubre 2026",
+      "topic": "Activos",
+      "source": "Perfil de Salud Local de Zagra v0.1; [7] inventario Localiza Salud",
+      "page": "9",
+      "scale": "Zagra",
+      "denominator": "Tres fichas individuales",
+      "temporalContext": "current",
+      "caution": "",
+      "chartValue": 3,
+      "supportsConclusions": [
+        "C7"
+      ]
+    },
+    {
+      "id": "zagra-armon-validados",
+      "title": "Activos con validación declarada",
+      "value": "3",
+      "unit": "activos",
+      "period": "21/10/2026",
+      "topic": "Activos",
+      "source": "Perfil de Salud Local de Zagra v0.1; Declaración de validación conservada en el expediente Firebase",
+      "page": "Declaración del expediente",
+      "scale": "Zagra",
+      "denominator": "Las tres fichas del documento Activos Localiza Salud Zagra",
+      "temporalContext": "current",
+      "caution": "La validación declarada no acredita cobertura ni resultados de salud.",
+      "chartValue": 3,
+      "supportsConclusions": [
+        "C7"
+      ]
+    },
+    {
+      "id": "zagra-renta-2024-1891301001-persona",
+      "title": "Renta neta media por persona",
+      "value": "10.656,245",
+      "unit": "euros por persona y año",
+      "topic": "Ejes de desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1891301001; dato1; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1891301001",
+      "denominator": "Personas residentes en hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 10656.245,
+      "supportsConclusions": [
+        "C5"
+      ]
+    },
+    {
+      "id": "zagra-renta-2024-1891301001-hogar",
+      "title": "Renta neta media por hogar",
+      "value": "25.525,424",
+      "unit": "euros por hogar y año",
+      "topic": "Ejes de desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1891301001; dato2; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1891301001",
+      "denominator": "Hogares de la sección censal",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 25525.424,
+      "supportsConclusions": [
+        "C5"
+      ]
+    },
+    {
+      "id": "zagra-renta-2024-1891301001-umbral",
+      "title": "Población con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "37,015",
+      "unit": "%",
+      "topic": "Ejes de desigualdad",
+      "period": "2024",
+      "source": "[RC2024] INE · Atlas de Distribución de Renta de los Hogares 2024",
+      "page": "CUSEC 1891301001; dato4; https://ine.es/servergis2/rest/services/ws/ADRH_atlas_de_distribucion_de_renta_de_los_hogares/MapServer/2",
+      "scale": "Sección censal 1891301001",
+      "denominator": "Población de la sección censal; ingresos por unidad de consumo y umbral nacional",
+      "temporalContext": "current",
+      "caution": "Dato agregado de sección; no es renta individual, de vivienda ni de calle.",
+      "chartValue": 37.015,
+      "supportsConclusions": [
+        "C5"
+      ]
+    },
+    {
+      "id": "zagra-territorial-18913-population2025",
+      "title": "Población total",
+      "value": "843",
+      "unit": "personas",
+      "period": "2025",
+      "source": "INE · tabla 69181; referentes provincial y autonómico: tabla 68519",
+      "page": "CUMUN 18913; categoría Población total; sexo Total salvo Hombres/Mujeres; https://www.ine.es/jaxiT3/Tabla.htm?t=69181",
+      "topic": "Territorio · población",
+      "scale": "Municipio de Zagra",
+      "denominator": "residentes",
+      "temporalContext": "current",
+      "caution": "Dato agregado del ámbito indicado; no se atribuye a personas, viviendas o calles. Las referencias corresponden a igual definición, unidad y periodo. Los recuentos de territorios de distinto tamaño no son medidas de riesgo.",
+      "supportsConclusions": [
+        "C1"
+      ],
+      "chartValue": 843,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 945797
+        },
+        {
+          "label": "Andalucía",
+          "value": 8676713
+        }
+      ]
+    },
+    {
+      "id": "zagra-territorial-18913-men2025",
+      "title": "Hombres",
+      "value": "420",
+      "unit": "personas",
+      "period": "2025",
+      "source": "INE · tabla 69181; referentes provincial y autonómico: tabla 68519",
+      "page": "CUMUN 18913; categoría Hombres; sexo Total salvo Hombres/Mujeres; https://www.ine.es/jaxiT3/Tabla.htm?t=69181",
+      "topic": "Territorio · población",
+      "scale": "Municipio de Zagra",
+      "denominator": "residentes",
+      "temporalContext": "current",
+      "caution": "Dato agregado del ámbito indicado; no se atribuye a personas, viviendas o calles. Las referencias corresponden a igual definición, unidad y periodo. Los recuentos de territorios de distinto tamaño no son medidas de riesgo.",
+      "supportsConclusions": [
+        "C1"
+      ],
+      "chartValue": 420,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 464948
+        },
+        {
+          "label": "Andalucía",
+          "value": 4269107
+        }
+      ]
+    },
+    {
+      "id": "zagra-territorial-18913-women2025",
+      "title": "Mujeres",
+      "value": "423",
+      "unit": "personas",
+      "period": "2025",
+      "source": "INE · tabla 69181; referentes provincial y autonómico: tabla 68519",
+      "page": "CUMUN 18913; categoría Mujeres; sexo Total salvo Hombres/Mujeres; https://www.ine.es/jaxiT3/Tabla.htm?t=69181",
+      "topic": "Territorio · población",
+      "scale": "Municipio de Zagra",
+      "denominator": "residentes",
+      "temporalContext": "current",
+      "caution": "Dato agregado del ámbito indicado; no se atribuye a personas, viviendas o calles. Las referencias corresponden a igual definición, unidad y periodo. Los recuentos de territorios de distinto tamaño no son medidas de riesgo.",
+      "supportsConclusions": [
+        "C1"
+      ],
+      "chartValue": 423,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 480849
+        },
+        {
+          "label": "Andalucía",
+          "value": 4407606
+        }
+      ]
+    },
+    {
+      "id": "zagra-territorial-18913-under15Pct2025",
+      "title": "Población menor de 15 años",
+      "value": "10,20",
+      "unit": "%",
+      "period": "2025",
+      "source": "INE · tabla 69181; referentes provincial y autonómico: tabla 68519",
+      "page": "CUMUN 18913; categoría Población menor de 15 años; sexo Total salvo Hombres/Mujeres; https://www.ine.es/jaxiT3/Tabla.htm?t=69181",
+      "topic": "Territorio · población",
+      "scale": "Municipio de Zagra",
+      "denominator": "843 personas",
+      "temporalContext": "current",
+      "caution": "Dato agregado del ámbito indicado; no se atribuye a personas, viviendas o calles. Las referencias corresponden a igual definición, unidad y periodo. Los recuentos de territorios de distinto tamaño no son medidas de riesgo.",
+      "supportsConclusions": [
+        "C1"
+      ],
+      "chartValue": 10.2,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 13.39
+        },
+        {
+          "label": "Andalucía",
+          "value": 13.72
+        }
+      ]
+    },
+    {
+      "id": "zagra-territorial-18913-age15to29Pct2025",
+      "title": "Población de 15 a 29 años",
+      "value": "18,39",
+      "unit": "%",
+      "period": "2025",
+      "source": "INE · tabla 69181; referentes provincial y autonómico: tabla 68519",
+      "page": "CUMUN 18913; categoría Población de 15 a 29 años; sexo Total salvo Hombres/Mujeres; https://www.ine.es/jaxiT3/Tabla.htm?t=69181",
+      "topic": "Territorio · población",
+      "scale": "Municipio de Zagra",
+      "denominator": "843 personas",
+      "temporalContext": "current",
+      "caution": "Dato agregado del ámbito indicado; no se atribuye a personas, viviendas o calles. Las referencias corresponden a igual definición, unidad y periodo. Los recuentos de territorios de distinto tamaño no son medidas de riesgo.",
+      "supportsConclusions": [
+        "C1"
+      ],
+      "chartValue": 18.39,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 17
+        },
+        {
+          "label": "Andalucía",
+          "value": 16.86
+        }
+      ]
+    },
+    {
+      "id": "zagra-territorial-18913-age65plusPct2025",
+      "title": "Población de 65 o más años",
+      "value": "23,49",
+      "unit": "%",
+      "period": "2025",
+      "source": "INE · tabla 69181; referentes provincial y autonómico: tabla 68519",
+      "page": "CUMUN 18913; categoría Población de 65 o más años; sexo Total salvo Hombres/Mujeres; https://www.ine.es/jaxiT3/Tabla.htm?t=69181",
+      "topic": "Territorio · población",
+      "scale": "Municipio de Zagra",
+      "denominator": "843 personas",
+      "temporalContext": "current",
+      "caution": "Dato agregado del ámbito indicado; no se atribuye a personas, viviendas o calles. Las referencias corresponden a igual definición, unidad y periodo. Los recuentos de territorios de distinto tamaño no son medidas de riesgo.",
+      "supportsConclusions": [
+        "C1"
+      ],
+      "chartValue": 23.49,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 19.95
+        },
+        {
+          "label": "Andalucía",
+          "value": 19.13
+        }
+      ]
+    },
+    {
+      "id": "zagra-territorial-18913-age80plusPct2025",
+      "title": "Población de 80 o más años",
+      "value": "7,71",
+      "unit": "%",
+      "period": "2025",
+      "source": "INE · tabla 69181; referentes provincial y autonómico: tabla 68519",
+      "page": "CUMUN 18913; categoría Población de 80 o más años; sexo Total salvo Hombres/Mujeres; https://www.ine.es/jaxiT3/Tabla.htm?t=69181",
+      "topic": "Territorio · población",
+      "scale": "Municipio de Zagra",
+      "denominator": "843 personas",
+      "temporalContext": "current",
+      "caution": "Dato agregado del ámbito indicado; no se atribuye a personas, viviendas o calles. Las referencias corresponden a igual definición, unidad y periodo. Los recuentos de territorios de distinto tamaño no son medidas de riesgo.",
+      "supportsConclusions": [
+        "C1"
+      ],
+      "chartValue": 7.71,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 5.61
+        },
+        {
+          "label": "Andalucía",
+          "value": 5.19
+        }
+      ]
+    },
+    {
+      "id": "zagra-territorial-18913-bornAbroadPct2025",
+      "title": "Población nacida en el extranjero",
+      "value": "13,52",
+      "unit": "%",
+      "period": "2025",
+      "source": "INE · tabla 69179; referentes provincial y autonómico: tabla 68520",
+      "page": "CUMUN 18913; categoría Población nacida en el extranjero; sexo Total salvo Hombres/Mujeres; https://www.ine.es/jaxiT3/Tabla.htm?t=69179",
+      "topic": "Territorio · población",
+      "scale": "Municipio de Zagra",
+      "denominator": "843 personas",
+      "temporalContext": "current",
+      "caution": "Dato agregado del ámbito indicado; no se atribuye a personas, viviendas o calles. Las referencias corresponden a igual definición, unidad y periodo. Los recuentos de territorios de distinto tamaño no son medidas de riesgo.",
+      "supportsConclusions": [
+        "C6"
+      ],
+      "chartValue": 13.52,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 12.25
+        },
+        {
+          "label": "Andalucía",
+          "value": 13.13
+        }
+      ]
+    },
+    {
+      "id": "zagra-territorial-18913-foreignNationalityPct2025",
+      "title": "Población de nacionalidad extranjera",
+      "value": "13,40",
+      "unit": "%",
+      "period": "2025",
+      "source": "INE · tabla 69178; referentes provincial y autonómico: tabla 68519",
+      "page": "CUMUN 18913; categoría Población de nacionalidad extranjera; sexo Total salvo Hombres/Mujeres; https://www.ine.es/jaxiT3/Tabla.htm?t=69178",
+      "topic": "Territorio · población",
+      "scale": "Municipio de Zagra",
+      "denominator": "843 personas",
+      "temporalContext": "current",
+      "caution": "Dato agregado del ámbito indicado; no se atribuye a personas, viviendas o calles. Las referencias corresponden a igual definición, unidad y periodo. Los recuentos de territorios de distinto tamaño no son medidas de riesgo.",
+      "supportsConclusions": [
+        "C6"
+      ],
+      "chartValue": 13.4,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 9.12
+        },
+        {
+          "label": "Andalucía",
+          "value": 10.38
+        }
+      ]
+    },
+    {
+      "id": "zagra-territorial-18913-primaryOrLessPct2024",
+      "title": "Educación primaria o inferior (15 o más años)",
+      "value": "28,20",
+      "unit": "%",
+      "period": "2024",
+      "source": "INE · tabla 66721; referentes provincial y autonómico: tabla 66600",
+      "page": "CUMUN 18913; categoría Educación primaria o inferior (15 o más años); sexo Total salvo Hombres/Mujeres; https://www.ine.es/jaxiT3/Tabla.htm?t=66721",
+      "topic": "Territorio · condiciones de vida",
+      "scale": "Municipio de Zagra",
+      "denominator": "798 personas",
+      "temporalContext": "current",
+      "caution": "Dato agregado del ámbito indicado; no se atribuye a personas, viviendas o calles. Las referencias corresponden a igual definición, unidad y periodo. Los recuentos de territorios de distinto tamaño no son medidas de riesgo.",
+      "supportsConclusions": [
+        "C5"
+      ],
+      "chartValue": 28.2,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 15.25
+        },
+        {
+          "label": "Andalucía",
+          "value": 17.16
+        }
+      ]
+    },
+    {
+      "id": "zagra-territorial-18913-higherEducationPct2024",
+      "title": "Educación superior (15 o más años)",
+      "value": "14,41",
+      "unit": "%",
+      "period": "2024",
+      "source": "INE · tabla 66721; referentes provincial y autonómico: tabla 66600",
+      "page": "CUMUN 18913; categoría Educación superior (15 o más años); sexo Total salvo Hombres/Mujeres; https://www.ine.es/jaxiT3/Tabla.htm?t=66721",
+      "topic": "Territorio · condiciones de vida",
+      "scale": "Municipio de Zagra",
+      "denominator": "798 personas",
+      "temporalContext": "current",
+      "caution": "Dato agregado del ámbito indicado; no se atribuye a personas, viviendas o calles. Las referencias corresponden a igual definición, unidad y periodo. Los recuentos de territorios de distinto tamaño no son medidas de riesgo.",
+      "supportsConclusions": [
+        "C5"
+      ],
+      "chartValue": 14.41,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 32.27
+        },
+        {
+          "label": "Andalucía",
+          "value": 28.61
+        }
+      ]
+    },
+    {
+      "id": "zagra-territorial-18913-employed2024",
+      "title": "Personas ocupadas (16 o más años)",
+      "value": "309",
+      "unit": "personas",
+      "period": "2024",
+      "source": "INE · tabla 66723; referentes provincial y autonómico: tabla 67127",
+      "page": "CUMUN 18913; categoría Personas ocupadas (16 o más años); sexo Total salvo Hombres/Mujeres; https://www.ine.es/jaxiT3/Tabla.htm?t=66723",
+      "topic": "Territorio · condiciones de vida",
+      "scale": "Municipio de Zagra",
+      "denominator": "788 personas",
+      "temporalContext": "current",
+      "caution": "Dato agregado del ámbito indicado; no se atribuye a personas, viviendas o calles. Las referencias corresponden a igual definición, unidad y periodo. Los recuentos de territorios de distinto tamaño no son medidas de riesgo.",
+      "supportsConclusions": [
+        "C5"
+      ],
+      "chartValue": 309,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 362623
+        },
+        {
+          "label": "Andalucía",
+          "value": 3340313
+        }
+      ]
+    },
+    {
+      "id": "zagra-territorial-18913-unemployed2024",
+      "title": "Personas paradas (16 o más años)",
+      "value": "60",
+      "unit": "personas",
+      "period": "2024",
+      "source": "INE · tabla 66723; referentes provincial y autonómico: tabla 67127",
+      "page": "CUMUN 18913; categoría Personas paradas (16 o más años); sexo Total salvo Hombres/Mujeres; https://www.ine.es/jaxiT3/Tabla.htm?t=66723",
+      "topic": "Territorio · condiciones de vida",
+      "scale": "Municipio de Zagra",
+      "denominator": "788 personas",
+      "temporalContext": "current",
+      "caution": "Dato agregado del ámbito indicado; no se atribuye a personas, viviendas o calles. Las referencias corresponden a igual definición, unidad y periodo. Los recuentos de territorios de distinto tamaño no son medidas de riesgo. Actividad censal de 2024: no equivale a paro registrado ni a tasa de la EPA.",
+      "supportsConclusions": [
+        "C5"
+      ],
+      "chartValue": 60,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 74863
+        },
+        {
+          "label": "Andalucía",
+          "value": 690147
+        }
+      ]
+    },
+    {
+      "id": "zagra-territorial-18913-unemployedPct16plus2024",
+      "title": "Personas paradas sobre población de 16 o más años",
+      "value": "7,61",
+      "unit": "%",
+      "period": "2024",
+      "source": "INE · tabla 66723; referentes provincial y autonómico: tabla 67127",
+      "page": "CUMUN 18913; categoría Personas paradas sobre población de 16 o más años; sexo Total salvo Hombres/Mujeres; https://www.ine.es/jaxiT3/Tabla.htm?t=66723",
+      "topic": "Territorio · condiciones de vida",
+      "scale": "Municipio de Zagra",
+      "denominator": "788 personas",
+      "temporalContext": "current",
+      "caution": "Dato agregado del ámbito indicado; no se atribuye a personas, viviendas o calles. Las referencias corresponden a igual definición, unidad y periodo. Los recuentos de territorios de distinto tamaño no son medidas de riesgo. Actividad censal de 2024: no equivale a paro registrado ni a tasa de la EPA.",
+      "supportsConclusions": [
+        "C5"
+      ],
+      "chartValue": 7.61,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 9.35
+        },
+        {
+          "label": "Andalucía",
+          "value": 9.44
+        }
+      ]
+    },
+    {
+      "id": "zagra-territorial-18913-unemployedPctActive2024",
+      "title": "Personas paradas sobre ocupadas más paradas",
+      "value": "16,26",
+      "unit": "%",
+      "period": "2024",
+      "source": "INE · tabla 66723; referentes provincial y autonómico: tabla 67127",
+      "page": "CUMUN 18913; categoría Personas paradas sobre ocupadas más paradas; sexo Total salvo Hombres/Mujeres; https://www.ine.es/jaxiT3/Tabla.htm?t=66723",
+      "topic": "Territorio · condiciones de vida",
+      "scale": "Municipio de Zagra",
+      "denominator": "369 personas ocupadas más paradas",
+      "temporalContext": "current",
+      "caution": "Dato agregado del ámbito indicado; no se atribuye a personas, viviendas o calles. Las referencias corresponden a igual definición, unidad y periodo. Los recuentos de territorios de distinto tamaño no son medidas de riesgo. Actividad censal de 2024: no equivale a paro registrado ni a tasa de la EPA.",
+      "supportsConclusions": [
+        "C5"
+      ],
+      "chartValue": 16.26,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 17.11
+        },
+        {
+          "label": "Andalucía",
+          "value": 17.12
+        }
+      ]
+    },
+    {
+      "id": "zagra-territorial-18913-incomePerson2024",
+      "title": "Renta neta media por persona",
+      "value": "10.656",
+      "unit": "€/persona/año",
+      "period": "2024",
+      "source": "INE · tabla 31025; referentes provincial y autonómico: tabla 53689",
+      "page": "CUMUN 18913; categoría Renta neta media por persona; sexo Total salvo Hombres/Mujeres; https://www.ine.es/jaxiT3/Tabla.htm?t=31025",
+      "topic": "Territorio · condiciones de vida",
+      "scale": "Municipio de Zagra",
+      "denominator": "personas del ámbito",
+      "temporalContext": "current",
+      "caution": "Dato agregado del ámbito indicado; no se atribuye a personas, viviendas o calles. Las referencias corresponden a igual definición, unidad y periodo. Los recuentos de territorios de distinto tamaño no son medidas de riesgo.",
+      "supportsConclusions": [
+        "C5"
+      ],
+      "chartValue": 10656,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 13509
+        },
+        {
+          "label": "Andalucía",
+          "value": 13342
+        }
+      ]
+    },
+    {
+      "id": "zagra-territorial-18913-incomeHousehold2024",
+      "title": "Renta neta media por hogar",
+      "value": "25.525",
+      "unit": "€/hogar/año",
+      "period": "2024",
+      "source": "INE · tabla 31025; referentes provincial y autonómico: tabla 53689",
+      "page": "CUMUN 18913; categoría Renta neta media por hogar; sexo Total salvo Hombres/Mujeres; https://www.ine.es/jaxiT3/Tabla.htm?t=31025",
+      "topic": "Territorio · condiciones de vida",
+      "scale": "Municipio de Zagra",
+      "denominator": "hogares del ámbito",
+      "temporalContext": "current",
+      "caution": "Dato agregado del ámbito indicado; no se atribuye a personas, viviendas o calles. Las referencias corresponden a igual definición, unidad y periodo. Los recuentos de territorios de distinto tamaño no son medidas de riesgo.",
+      "supportsConclusions": [
+        "C5"
+      ],
+      "chartValue": 25525,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 33062
+        },
+        {
+          "label": "Andalucía",
+          "value": 34302
+        }
+      ]
+    },
+    {
+      "id": "zagra-territorial-18913-medianConsumption2024",
+      "title": "Mediana de renta por unidad de consumo",
+      "value": "15.050",
+      "unit": "€/unidad de consumo/año",
+      "period": "2024",
+      "source": "INE · tabla 31025; referentes provincial y autonómico: tabla 53689",
+      "page": "CUMUN 18913; categoría Mediana de renta por unidad de consumo; sexo Total salvo Hombres/Mujeres; https://www.ine.es/jaxiT3/Tabla.htm?t=31025",
+      "topic": "Territorio · condiciones de vida",
+      "scale": "Municipio de Zagra",
+      "denominator": "unidades de consumo del ámbito",
+      "temporalContext": "current",
+      "caution": "Dato agregado del ámbito indicado; no se atribuye a personas, viviendas o calles. Las referencias corresponden a igual definición, unidad y periodo. Los recuentos de territorios de distinto tamaño no son medidas de riesgo.",
+      "supportsConclusions": [
+        "C5"
+      ],
+      "chartValue": 15050,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 17150
+        },
+        {
+          "label": "Andalucía",
+          "value": 17150
+        }
+      ]
+    },
+    {
+      "id": "zagra-territorial-18913-below60MedianPct2024",
+      "title": "Población bajo el 60 % de la mediana nacional de ingresos equivalentes",
+      "value": "37,00",
+      "unit": "%",
+      "period": "2024",
+      "source": "INE · tabla 31030; referentes provincial y autonómico: tabla 53694",
+      "page": "CUMUN 18913; categoría Población bajo el 60 % de la mediana nacional de ingresos equivalentes; sexo Total salvo Hombres/Mujeres; https://www.ine.es/jaxiT3/Tabla.htm?t=31030",
+      "topic": "Territorio · condiciones de vida",
+      "scale": "Municipio de Zagra",
+      "denominator": "población residente con ingresos equivalentes del Atlas",
+      "temporalContext": "current",
+      "caution": "Dato agregado del ámbito indicado; no se atribuye a personas, viviendas o calles. Las referencias corresponden a igual definición, unidad y periodo. Los recuentos de territorios de distinto tamaño no son medidas de riesgo.",
+      "supportsConclusions": [
+        "C5"
+      ],
+      "chartValue": 37,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 27.8
+        },
+        {
+          "label": "Andalucía",
+          "value": 26.2
+        }
+      ]
+    },
+    {
+      "id": "zagra-territorial-18913-singleHouseholdPct2024",
+      "title": "Hogares unipersonales",
+      "value": "33,40",
+      "unit": "%",
+      "period": "2024",
+      "source": "INE · tabla 31033; referentes provincial y autonómico: tabla 53776",
+      "page": "CUMUN 18913; categoría Hogares unipersonales; sexo Total salvo Hombres/Mujeres; https://www.ine.es/jaxiT3/Tabla.htm?t=31033",
+      "topic": "Territorio · condiciones de vida",
+      "scale": "Municipio de Zagra",
+      "denominator": "hogares del ámbito",
+      "temporalContext": "current",
+      "caution": "Dato agregado del ámbito indicado; no se atribuye a personas, viviendas o calles. Las referencias corresponden a igual definición, unidad y periodo. Los recuentos de territorios de distinto tamaño no son medidas de riesgo.",
+      "supportsConclusions": [
+        "C1"
+      ],
+      "chartValue": 33.4,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 31.8
+        },
+        {
+          "label": "Andalucía",
+          "value": 28.1
+        }
+      ]
+    },
+    {
+      "id": "zagra-territorial-18913-householdSize2024",
+      "title": "Tamaño medio del hogar",
+      "value": "2,4",
+      "unit": "personas/hogar",
+      "period": "2024",
+      "source": "INE · tabla 31033; referentes provincial y autonómico: tabla 53776",
+      "page": "CUMUN 18913; categoría Tamaño medio del hogar; sexo Total salvo Hombres/Mujeres; https://www.ine.es/jaxiT3/Tabla.htm?t=31033",
+      "topic": "Territorio · condiciones de vida",
+      "scale": "Municipio de Zagra",
+      "denominator": "hogares del ámbito",
+      "temporalContext": "current",
+      "caution": "Dato agregado del ámbito indicado; no se atribuye a personas, viviendas o calles. Las referencias corresponden a igual definición, unidad y periodo. Los recuentos de territorios de distinto tamaño no son medidas de riesgo.",
+      "supportsConclusions": [
+        "C1"
+      ],
+      "chartValue": 2.4,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 2.4
+        },
+        {
+          "label": "Andalucía",
+          "value": 2.5
+        }
+      ]
+    },
+    {
+      "id": "zagra-territorial-18913-under18Pct2024",
+      "title": "Población menor de 18 años",
+      "value": "13,80",
+      "unit": "%",
+      "period": "2024",
+      "source": "INE · tabla 31033; referentes provincial y autonómico: tabla 53776",
+      "page": "CUMUN 18913; categoría Población menor de 18 años; sexo Total salvo Hombres/Mujeres; https://www.ine.es/jaxiT3/Tabla.htm?t=31033",
+      "topic": "Territorio · condiciones de vida",
+      "scale": "Municipio de Zagra",
+      "denominator": "población del Atlas en 2024",
+      "temporalContext": "current",
+      "caution": "Dato agregado del ámbito indicado; no se atribuye a personas, viviendas o calles. Las referencias corresponden a igual definición, unidad y periodo. Los recuentos de territorios de distinto tamaño no son medidas de riesgo.",
+      "supportsConclusions": [
+        "C1"
+      ],
+      "chartValue": 13.8,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 16.8
+        },
+        {
+          "label": "Andalucía",
+          "value": 17.3
+        }
+      ]
+    },
+    {
+      "id": "ts-adrh-renta-mediana-uc",
+      "title": "Mediana de la renta por unidad de consumo",
+      "value": "15.050",
+      "unit": "euros",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Indicadores de renta media y mediana",
+      "page": "tabla 31025 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4). La mediana se publica redondeada: coincidencias entre ámbitos no implican igualdad exacta.",
+      "topic": "Ejes de desigualdad",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 15050,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 17150
+        },
+        {
+          "label": "Andalucía",
+          "value": 17150
+        },
+        {
+          "label": "España",
+          "value": 19950
+        }
+      ]
+    },
+    {
+      "id": "ts-adrh-bajo-60-mediana-mujeres",
+      "title": "Mujeres con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "36",
+      "unit": "%",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Porcentaje de población con ingresos por unidad de consumo por debajo o por encima de determinados umbrales relativos, por sexo",
+      "page": "tabla 31030 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 36,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 28.3
+        },
+        {
+          "label": "Andalucía",
+          "value": 27
+        },
+        {
+          "label": "España",
+          "value": 20.8
+        }
+      ]
+    },
+    {
+      "id": "ts-adrh-bajo-60-mediana-hombres",
+      "title": "Hombres con ingresos por unidad de consumo por debajo del 60 % de la mediana",
+      "value": "38,3",
+      "unit": "%",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Porcentaje de población con ingresos por unidad de consumo por debajo o por encima de determinados umbrales relativos, por sexo",
+      "page": "tabla 31030 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 38.3,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 27.2
+        },
+        {
+          "label": "Andalucía",
+          "value": 25.4
+        },
+        {
+          "label": "España",
+          "value": 19.6
+        }
+      ]
+    },
+    {
+      "id": "ts-adrh-gini",
+      "title": "Índice de Gini",
+      "value": "26,9",
+      "unit": "índice",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Índice de Gini y distribución de la renta P80/P20",
+      "page": "tabla 37698 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 26.9,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 32
+        },
+        {
+          "label": "Andalucía",
+          "value": 31
+        },
+        {
+          "label": "España",
+          "value": 31.9
+        }
+      ]
+    },
+    {
+      "id": "ts-adrh-p80-p20",
+      "title": "Distribución de la renta P80/P20",
+      "value": "2,1",
+      "unit": "ratio",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Índice de Gini y distribución de la renta P80/P20",
+      "page": "tabla 37698 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Eje de renta, no índice de privación múltiple (Art. 17 quater, 4).",
+      "topic": "Ejes de desigualdad",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 2.1,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 2.7
+        },
+        {
+          "label": "Andalucía",
+          "value": 2.5
+        },
+        {
+          "label": "España",
+          "value": 2.6
+        }
+      ]
+    },
+    {
+      "id": "ts-adrh-fuente-salario",
+      "title": "Peso del salario en la renta",
+      "value": "36,8",
+      "unit": "%",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Distribución por fuente de ingresos",
+      "page": "tabla 31026 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 36.8,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 55.1
+        },
+        {
+          "label": "Andalucía",
+          "value": 57.3
+        },
+        {
+          "label": "España",
+          "value": 60
+        }
+      ]
+    },
+    {
+      "id": "ts-adrh-fuente-pensiones",
+      "title": "Peso de las pensiones en la renta",
+      "value": "26,6",
+      "unit": "%",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Distribución por fuente de ingresos",
+      "page": "tabla 31026 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 26.6,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 22
+        },
+        {
+          "label": "Andalucía",
+          "value": 20.8
+        },
+        {
+          "label": "España",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "id": "ts-adrh-fuente-desempleo",
+      "title": "Peso de las prestaciones por desempleo en la renta",
+      "value": "7,7",
+      "unit": "%",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Distribución por fuente de ingresos",
+      "page": "tabla 31026 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 7.7,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 2.8
+        },
+        {
+          "label": "Andalucía",
+          "value": 2.8
+        },
+        {
+          "label": "España",
+          "value": 1.9
+        }
+      ]
+    },
+    {
+      "id": "ts-adrh-fuente-otras-prestaciones",
+      "title": "Peso de otras prestaciones en la renta",
+      "value": "9,7",
+      "unit": "%",
+      "source": "INE · Atlas de Distribución de Renta de los Hogares (INE) · Distribución por fuente de ingresos",
+      "page": "tabla 31026 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "El dato de sección es agregado; no se atribuye a calles, viviendas ni personas.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 9.7,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 6.6
+        },
+        {
+          "label": "Andalucía",
+          "value": 6.1
+        },
+        {
+          "label": "España",
+          "value": 4.5
+        }
+      ]
+    },
+    {
+      "id": "ts-ieca-tasa-desempleo-registrado",
+      "title": "Tasa municipal de desempleo registrado",
+      "value": "11,9",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Tasa municipal de desempleo según sexo. Media anual",
+      "page": "consulta 120971 · consultado 2026-11-18",
+      "period": "2025",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta. Los comparadores provincial y andaluz se publican por grado de urbanización: se usa el del propio municipio.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 11.9,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 17.2
+        },
+        {
+          "label": "Andalucía",
+          "value": 16.3
+        }
+      ]
+    },
+    {
+      "id": "ts-ieca-tasa-desempleo-registrado-mujeres",
+      "title": "Tasa municipal de desempleo registrado (mujeres)",
+      "value": "17,1",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Tasa municipal de desempleo según sexo. Media anual",
+      "page": "consulta 120971 · consultado 2026-11-18",
+      "period": "2025",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 17.1,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 22
+        },
+        {
+          "label": "Andalucía",
+          "value": 22
+        }
+      ]
+    },
+    {
+      "id": "ts-ieca-tasa-desempleo-registrado-hombres",
+      "title": "Tasa municipal de desempleo registrado (hombres)",
+      "value": "7,6",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Tasa municipal de desempleo según sexo. Media anual",
+      "page": "consulta 120971 · consultado 2026-11-18",
+      "period": "2025",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 7.6,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 12.9
+        },
+        {
+          "label": "Andalucía",
+          "value": 11.1
+        }
+      ]
+    },
+    {
+      "id": "ts-ieca-paro-registrado",
+      "title": "Paro registrado",
+      "value": "34",
+      "unit": "personas",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Paro registrado por sexo",
+      "page": "consulta 37015 · consultado 2026-11-18",
+      "period": "2025",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 34
+    },
+    {
+      "id": "ts-ieca-afiliaciones-residencia",
+      "title": "Afiliaciones a la Seguridad Social por lugar de residencia",
+      "value": "373",
+      "unit": "afiliaciones",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Afiliaciones según municipio de residencia, por régimen y sexo",
+      "page": "consulta 49483 · consultado 2026-11-18",
+      "period": "2025",
+      "caution": "Cuenta afiliaciones, no personas: una persona puede tener más de una.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 373
+    },
+    {
+      "id": "ts-ieca-pensionistas-contributivos",
+      "title": "Pensionistas de pensiones contributivas",
+      "value": "240",
+      "unit": "personas",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Número de pensionistas y pensión media según grupos de edad y sexo",
+      "page": "consulta 46121 · consultado 2026-11-18",
+      "period": "2025",
+      "caution": "",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 240
+    },
+    {
+      "id": "ts-ieca-pension-media",
+      "title": "Pensión contributiva media",
+      "value": "955,5",
+      "unit": "euros/mes",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Número de pensionistas y pensión media según grupos de edad y sexo",
+      "page": "consulta 46121 · consultado 2026-11-18",
+      "period": "2025",
+      "caution": "",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 955.5,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 1287.6
+        },
+        {
+          "label": "Andalucía",
+          "value": 1312.4
+        }
+      ]
+    },
+    {
+      "id": "ts-ieca-grado-urbanizacion",
+      "title": "Grado de urbanización",
+      "value": "Zona rural",
+      "unit": "categoría",
+      "source": "IECA · Clasificación del grado de urbanización · Porcentaje de población según tipología de celda y grado de urbanización por municipio",
+      "page": "consulta 19824 · consultado 2026-11-18",
+      "period": "2024",
+      "caution": "Clasificación, no medida de salud ni de privación.",
+      "topic": "Contexto y población",
+      "scale": "Municipio",
+      "temporalContext": "current"
+    },
+    {
+      "id": "ts-ieca-paro-registrado-mujeres",
+      "title": "Paro registrado (mujeres)",
+      "value": "21",
+      "unit": "personas",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Paro registrado por sexo",
+      "page": "consulta 37015 · consultado 2026-11-18",
+      "period": "2025",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 21
+    },
+    {
+      "id": "ts-ieca-paro-registrado-hombres",
+      "title": "Paro registrado (hombres)",
+      "value": "13",
+      "unit": "personas",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Paro registrado por sexo",
+      "page": "consulta 37015 · consultado 2026-11-18",
+      "period": "2025",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 13
+    },
+    {
+      "id": "ts-ieca-paro-larga-duracion",
+      "title": "Paro registrado de más de un año",
+      "value": "56,0",
+      "unit": "%",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Paro registrado de larga duración",
+      "page": "consulta 117866 · consultado 2026-11-18",
+      "period": "2025",
+      "caution": "Registro administrativo: cuenta personas registradas, no la situación declarada en encuesta. El denominador es el paro registrado, no la población.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 56,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 41.9
+        },
+        {
+          "label": "Andalucía",
+          "value": 43.8
+        }
+      ]
+    },
+    {
+      "id": "ts-ieca-pension-media-mujeres",
+      "title": "Pensión contributiva media (mujeres)",
+      "value": "927,2",
+      "unit": "euros/mes",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Número de pensionistas y pensión media según grupos de edad y sexo",
+      "page": "consulta 46121 · consultado 2026-11-18",
+      "period": "2025",
+      "caution": "",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 927.2,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 1171.8
+        },
+        {
+          "label": "Andalucía",
+          "value": 1165.2
+        }
+      ]
+    },
+    {
+      "id": "ts-ieca-pension-media-hombres",
+      "title": "Pensión contributiva media (hombres)",
+      "value": "987,7",
+      "unit": "euros/mes",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Número de pensionistas y pensión media según grupos de edad y sexo",
+      "page": "consulta 46121 · consultado 2026-11-18",
+      "period": "2025",
+      "caution": "",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 987.7,
+      "comparisons": [
+        {
+          "label": "Provincia de Granada",
+          "value": 1409.6
+        },
+        {
+          "label": "Andalucía",
+          "value": 1455.1
+        }
+      ]
+    },
+    {
+      "id": "ts-ieca-viviendas-no-principales",
+      "title": "Viviendas familiares no principales",
+      "value": "211",
+      "unit": "viviendas",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Viviendas familiares convencionales según tipo de vivienda (principal o no principal)",
+      "page": "consulta 108129 · consultado 2026-11-18",
+      "period": "2021",
+      "caution": "Dato censal de 2021; no se actualiza cada año.",
+      "topic": "Condiciones de vida",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 211
+    },
+    {
+      "id": "ts-ieca-centros-atencion-primaria",
+      "title": "Centros de atención primaria",
+      "value": "1",
+      "unit": "centros",
+      "source": "IECA · Sistema de Información Multiterritorial de Andalucía (SIMA) · Recursos de atención primaria",
+      "page": "consulta 40161 · consultado 2026-11-18",
+      "period": "2025",
+      "caution": "Cuenta centros, no profesionales ni horas de atención.",
+      "topic": "Servicios",
+      "scale": "Municipio",
+      "temporalContext": "current",
+      "chartValue": 1
+    }
+  ],
+  "findings": [
+    "C1. La composición por edades hace pertinentes los cuidados y los apoyos en la priorización. En 2025 el 23,5 % tiene 65 o más años, frente al 20,0 % provincial y al 19,1 % andaluz; el 7,7 % tiene 80 o más. En 2024 el 33,4 % de los hogares es unipersonal. Estas cifras no identifican dependencia o soledad no deseada, pero ayudan a concretar a quién escuchar y qué apoyos valorar [1; T69181, T31033, T68519, T53776].",
+    "C2. El bienestar emocional cuenta con un respaldo participativo sostenido. El 84,8 % de las 158 papeletas completas de 2026 lo seleccionó; en 2017 se priorizaron soledad, salud mental y sobrecarga de cuidadoras. El antecedente de mortalidad por suicidio corresponde a un análisis histórico con datos hasta 2012 y no mide riesgo actual ni explica las preferencias de 2026 [4, p. 30; 5, 6].",
+    "C3. La actividad física y la alimentación son asuntos con continuidad en las preferencias locales. En 2026 obtienen el 74,7 % y el 71,5 % de selecciones; sueño y descanso alcanza el 65,8 %. El sedentarismo, la obesidad y la alimentación ya aparecían en 2017. No se dispone de una medición reciente de hábitos en Zagra; los porcentajes de otros ámbitos del Informe no se atribuyen al municipio [4, pp. 35-44; 5, 6].",
+    "C4. La evidencia sanitaria principal no permite describir la evolución posterior a 2015. El Informe publica diabetes de 10,36 %, frente a 7,01 % en el Distrito, e hipertensión de 27,56 %, frente a 12,32 %. Son antecedentes relevantes, pero su actualización es necesaria para concretar objetivos e indicadores sanitarios del nuevo Plan [4, p. 34; 14].",
+    "C5. Los ingresos sitúan la accesibilidad económica entre los criterios para valorar actuaciones. En 2024 la renta por persona es de 10.656 euros y el 37,0 % de la población se encuentra bajo el 60 % de la mediana nacional, frente al 27,8 % provincial y el 26,2 % andaluz. La sección única no permite localizar esas situaciones dentro del municipio ni asignarlas a personas concretas [T31025, T31030, T53689, T53694].",
+    "C6. La población tiene diversidad de nacionalidades que debe considerarse en la participación. En 2025 hay 113 personas de nacionalidad extranjera, el 13,4 % del municipio; la fuente municipal señala que el 77,0 % de ellas tiene nacionalidad marroquí. La consulta de 2026 no recoge origen: no permite afirmar ni descartar participación por esa característica, ni deducir necesidades individuales [1, 5; T69178].",
+    "C7. Los tres activos registrados ofrecen posibilidades de colaboración que deben concretarse. La Asociación de Mujeres ZAHRA, el complejo deportivo municipal y el Punto Vuela cuentan con validación declarada a 21/10/2026. Sus actividades tienen afinidad con algunas preferencias de la consulta, pero la ficha no acredita utilización, cobertura o compromiso para el Plan [7].",
+    "C8. El proceso dispone de antecedentes y de una consulta reciente para preparar la selección de líneas. Los talleres y propuestas de 2017 y las preferencias de 2026 proceden de métodos distintos. La consulta reciente no equivale por sí sola a una selección acordada de líneas, objetivos y actuaciones. La continuidad debe concretarse con el Grupo Motor actual [5, 6, 8-13].",
+    "C9. La renta de Zagra procede del salario en menor medida, y de pensiones y prestaciones en mayor medida, que en la provincia. En 2024 el salario aporta el 36,8 % de la renta, frente al 55,1 % provincial; las pensiones, el 26,6 %, frente al 22 %; las prestaciones por desempleo, el 7,7 %, frente al 2,8 %, y otras prestaciones, el 9,7 %, frente al 6,6 %. La pensión contributiva media de 2025 es de 955,5 euros al mes, frente a 1.287,6 en la provincia y 1.312,4 en Andalucía: 927,2 euros en las mujeres y 987,7 en los hombres. El índice de Gini, 26,9, es inferior a los tres referentes; con el 37 % de la población bajo el 60 % de la mediana, los ingresos bajos están extendidos en el municipio [T31026, B46121, T37698, T31030].",
+    "C10. La proporción de población ocupada es baja y el desempleo, aunque menor que en su entorno, es mayoritariamente de larga duración. En 2024 el 39,2 % de la población de 16 o más años está ocupada, frente al 45,3 % provincial. En 2025 la tasa de desempleo registrado es del 11,9 %, inferior al 17,2 % y al 16,3 % de los municipios rurales de la provincia y de Andalucía; es del 17,1 % en las mujeres y del 7,6 % en los hombres. De las 34 personas en paro registrado en media anual, el 56,0 % lleva más de un año. Son pocas personas, y los porcentajes se calculan sobre pocos casos [T66723, B120971, B37015, B117866].",
+    "C11. El nivel educativo de la población adulta es el eje de desigualdad en el que Zagra se aparta más de la provincia. En 2024 el 28,2 % de la población de 15 o más años tiene educación primaria o inferior, frente al 15,2 % provincial, y el 14,4 % tiene educación superior, frente al 32,3 %. Debe tenerse en cuenta al preparar información comprensible y vías de participación accesibles, sin atribuir capacidades individuales a partir de datos agregados [T66721].",
+    "C12. El municipio dispone de un centro de atención primaria en 2025, y la estadística del IECA no registra ningún centro de servicios sociales situado en él. En una población en la que el 23,5 % tiene 65 o más años, el acceso a los servicios sociales de los que depende la población debe contrastarse al valorar cuidados y apoyos [B40161, B58270, T31033]."
+  ],
+  "limitations": [
+    "Pendiente de revisión técnica humana y aceptación de autoría responsable.",
+    "Las fuentes sanitarias y participativas conservan sus fechas, métodos y poblaciones.",
+    "No hay resultados sanitarios por sección censal ni correspondencia sección-barrio verificada.",
+    "Los datos de una sección no se atribuyen a personas, viviendas o calles.",
+    "Las figuras se conservan en el PDF original; su reproducción íntegra en cada vista de COMPÁS requiere cotejo.",
+    "El paro censal no equivale a paro registrado ni a tasa de la EPA.",
+    "La evidencia sanitaria principal de Zagra es histórica, de 2008-2015.",
+    "Revisión 0.4.0 generada por el Actualizador de perfiles el 18/11/2026 con la estadística territorial descargada el 2026-11-18. Los archivos originales adjuntos (Zagra_PSL_v0_3_1_2026-11-17.pdf, Zagra_PSL_v0_3_1_2026-11-17.json) no contienen estos cambios.",
+    "Revisión 0.4.1 generada por el Actualizador de perfiles el 18/11/2026 con la estadística territorial descargada el 2026-11-18. Los archivos originales adjuntos (Zagra_PSL_v0_3_1_2026-11-17.pdf, Zagra_PSL_v0_3_1_2026-11-17.json) no contienen estos cambios.",
+    "Revisión 0.4.2 generada por el Actualizador de perfiles el 18/11/2026. Los archivos originales adjuntos (Zagra_PSL_v0_3_1_2026-11-17.pdf, Zagra_PSL_v0_3_1_2026-11-17.json) no contienen estos cambios."
+  ],
+  "areas": [
+    {
+      "id": "R1",
+      "title": "R1. Bienestar emocional y relaciones. Considerar el bienestar emocional y las relaciones de apoyo entre los asuntos prioritarios, por su respaldo en la consulta y los antecedentes. Concretar necesidades con la comunidad y distinguirlas de los resultados sanitarios históricos.",
+      "rationale": "Abordar · Deriva de C2, C8"
+    },
+    {
+      "id": "R2",
+      "title": "R2. Actividad física, alimentación y descanso. Valorar propuestas de actividad física, alimentación y descanso adaptadas a distintas edades y capacidades, con participación de residentes y recursos locales. Las preferencias aportan un fundamento para deliberar, sin presumir hábitos o enfermedad en cada participante.",
+      "rationale": "Abordar · Deriva de C3, C7"
+    },
+    {
+      "id": "R3",
+      "title": "R3. Cuidados y participación de mayores. Valorar apoyos para los cuidados, las relaciones y la participación de personas mayores. Precisar con ellas las necesidades, los desplazamientos y los apoyos disponibles, sin identificar vivir solo con dependencia o soledad no deseada.",
+      "rationale": "Abordar · Deriva de C1, C7, C9, C12"
+    },
+    {
+      "id": "R4",
+      "title": "R4. Apoyo a cuidadoras y cuidadores. Examinar con personas cuidadoras y servicios locales qué necesidades y apoyos existen actualmente, tomando la sobrecarga señalada en 2017 como antecedente y no como medida actual. Concretar su posible inclusión en las propuestas del Plan.",
+      "rationale": "Contrastar · Deriva de C1, C2, C9"
+    },
+    {
+      "id": "R5",
+      "title": "R5. Participación inclusiva. Incorporar vías accesibles para residentes de distintas edades y nacionalidades, incluyendo población de nacionalidad marroquí y otros orígenes. Escuchar sus prioridades sin presumir ausencia en consultas anteriores ni asignar necesidades por nacionalidad.",
+      "rationale": "Contrastar · Deriva de C6, C8, C11"
+    },
+    {
+      "id": "R6",
+      "title": "R6. Equidad y accesibilidad. Aplicar criterios de accesibilidad económica, horaria y de comprensión de la información al elegir actuaciones. Contrastar costes, desplazamientos y apoyos con residentes; la renta de una sección no identifica las barreras de cada persona. Este criterio corresponde a la línea estratégica 2 de la Estrategia de Salud de Andalucía 2030: fortalecer la equidad, reducir las desigualdades en salud y fomentar la participación [ESA2030, p. 74].",
+      "rationale": "Abordar · Deriva de C1, C5, C9, C10, C11"
+    },
+    {
+      "id": "R7",
+      "title": "R7. Colaboración con los activos. Concretar con la Asociación de Mujeres ZAHRA, el complejo deportivo y el Punto Vuela qué contribución pueden realizar a las propuestas priorizadas, sus destinatarios y condiciones de acceso. Identificar otros recursos reconocidos por la comunidad sin confundirlos con fichas ya validadas.",
+      "rationale": "Contrastar · Deriva de C3, C7, C8"
+    },
+    {
+      "id": "R8",
+      "title": "R8. Actualización sanitaria para el Plan. Solicitar la actualización municipal de los indicadores sanitarios que deban servir de base a objetivos y seguimiento. Mientras no esté disponible, mantener las cifras históricas identificadas por su año y no utilizarlas como valor actual de partida.",
+      "rationale": "Conocer · Deriva de C4"
+    }
+  ],
+  "bindings": [
+    {
+      "target": "LECTURA",
+      "ref": {
+        "indicatorId": "adrh-edad-media",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "46,4"
+    },
+    {
+      "target": "LECTURA",
+      "ref": {
+        "indicatorId": "adrh-edad-media",
+        "level": "municipio"
+      },
+      "field": "period",
+      "literal": "2024"
+    },
+    {
+      "target": "LECTURA",
+      "ref": {
+        "indicatorId": "adrh-pob-65",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "23,5"
+    },
+    {
+      "target": "LECTURA",
+      "ref": {
+        "indicatorId": "adrh-renta-neta-persona",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "10.656"
+    },
+    {
+      "target": "LECTURA",
+      "ref": {
+        "indicatorId": "adrh-bajo-60-mediana",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "37"
+    },
+    {
+      "target": "LECTURA",
+      "ref": {
+        "indicatorId": "adrh-gini",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "26,9"
+    },
+    {
+      "target": "LECTURA",
+      "ref": {
+        "indicatorId": "adrh-fuente-salario",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "36,8"
+    },
+    {
+      "target": "LECTURA",
+      "ref": {
+        "indicatorId": "censo-estudios-primaria",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "28,2"
+    },
+    {
+      "target": "LECTURA",
+      "ref": {
+        "indicatorId": "censo-estudios-primaria",
+        "level": "provincia"
+      },
+      "field": "value",
+      "literal": "15,2"
+    },
+    {
+      "target": "C9",
+      "ref": {
+        "indicatorId": "adrh-fuente-salario",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "36,8"
+    },
+    {
+      "target": "C9",
+      "ref": {
+        "indicatorId": "adrh-fuente-salario",
+        "level": "provincia"
+      },
+      "field": "value",
+      "literal": "55,1"
+    },
+    {
+      "target": "C9",
+      "ref": {
+        "indicatorId": "adrh-fuente-pensiones",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "26,6"
+    },
+    {
+      "target": "C9",
+      "ref": {
+        "indicatorId": "adrh-fuente-pensiones",
+        "level": "provincia"
+      },
+      "field": "value",
+      "literal": "22"
+    },
+    {
+      "target": "C9",
+      "ref": {
+        "indicatorId": "adrh-fuente-desempleo",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "7,7"
+    },
+    {
+      "target": "C9",
+      "ref": {
+        "indicatorId": "adrh-fuente-desempleo",
+        "level": "provincia"
+      },
+      "field": "value",
+      "literal": "2,8"
+    },
+    {
+      "target": "C9",
+      "ref": {
+        "indicatorId": "adrh-fuente-otras-prestaciones",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "9,7"
+    },
+    {
+      "target": "C9",
+      "ref": {
+        "indicatorId": "adrh-fuente-otras-prestaciones",
+        "level": "provincia"
+      },
+      "field": "value",
+      "literal": "6,6"
+    },
+    {
+      "target": "C9",
+      "ref": {
+        "indicatorId": "adrh-fuente-salario",
+        "level": "municipio"
+      },
+      "field": "period",
+      "literal": "2024"
+    },
+    {
+      "target": "C9",
+      "ref": {
+        "indicatorId": "ieca-pension-media",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "955,5"
+    },
+    {
+      "target": "C9",
+      "ref": {
+        "indicatorId": "ieca-pension-media",
+        "level": "provincia"
+      },
+      "field": "value",
+      "literal": "1.287,6"
+    },
+    {
+      "target": "C9",
+      "ref": {
+        "indicatorId": "ieca-pension-media",
+        "level": "andalucia"
+      },
+      "field": "value",
+      "literal": "1.312,4"
+    },
+    {
+      "target": "C9",
+      "ref": {
+        "indicatorId": "ieca-pension-media",
+        "level": "municipio"
+      },
+      "field": "period",
+      "literal": "2025"
+    },
+    {
+      "target": "C9",
+      "ref": {
+        "indicatorId": "ieca-pension-media-mujeres",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "927,2"
+    },
+    {
+      "target": "C9",
+      "ref": {
+        "indicatorId": "ieca-pension-media-hombres",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "987,7"
+    },
+    {
+      "target": "C9",
+      "ref": {
+        "indicatorId": "adrh-gini",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "26,9"
+    },
+    {
+      "target": "C9",
+      "ref": {
+        "indicatorId": "adrh-bajo-60-mediana",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "37"
+    },
+    {
+      "target": "C10",
+      "ref": {
+        "indicatorId": "censo-ocupados",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "39,2"
+    },
+    {
+      "target": "C10",
+      "ref": {
+        "indicatorId": "censo-ocupados",
+        "level": "provincia"
+      },
+      "field": "value",
+      "literal": "45,3"
+    },
+    {
+      "target": "C10",
+      "ref": {
+        "indicatorId": "censo-ocupados",
+        "level": "municipio"
+      },
+      "field": "period",
+      "literal": "2024"
+    },
+    {
+      "target": "C10",
+      "ref": {
+        "indicatorId": "ieca-tasa-desempleo-registrado",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "11,9"
+    },
+    {
+      "target": "C10",
+      "ref": {
+        "indicatorId": "ieca-tasa-desempleo-registrado",
+        "level": "provincia"
+      },
+      "field": "value",
+      "literal": "17,2"
+    },
+    {
+      "target": "C10",
+      "ref": {
+        "indicatorId": "ieca-tasa-desempleo-registrado",
+        "level": "andalucia"
+      },
+      "field": "value",
+      "literal": "16,3"
+    },
+    {
+      "target": "C10",
+      "ref": {
+        "indicatorId": "ieca-tasa-desempleo-registrado",
+        "level": "municipio"
+      },
+      "field": "period",
+      "literal": "2025"
+    },
+    {
+      "target": "C10",
+      "ref": {
+        "indicatorId": "ieca-tasa-desempleo-registrado-mujeres",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "17,1"
+    },
+    {
+      "target": "C10",
+      "ref": {
+        "indicatorId": "ieca-tasa-desempleo-registrado-hombres",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "7,6"
+    },
+    {
+      "target": "C10",
+      "ref": {
+        "indicatorId": "ieca-paro-registrado",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "34"
+    },
+    {
+      "target": "C10",
+      "ref": {
+        "indicatorId": "ieca-paro-larga-duracion",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "56,0"
+    },
+    {
+      "target": "C11",
+      "ref": {
+        "indicatorId": "censo-estudios-primaria",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "28,2"
+    },
+    {
+      "target": "C11",
+      "ref": {
+        "indicatorId": "censo-estudios-primaria",
+        "level": "provincia"
+      },
+      "field": "value",
+      "literal": "15,2"
+    },
+    {
+      "target": "C11",
+      "ref": {
+        "indicatorId": "censo-estudios-superiores",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "14,4"
+    },
+    {
+      "target": "C11",
+      "ref": {
+        "indicatorId": "censo-estudios-superiores",
+        "level": "provincia"
+      },
+      "field": "value",
+      "literal": "32,3"
+    },
+    {
+      "target": "C11",
+      "ref": {
+        "indicatorId": "censo-estudios-primaria",
+        "level": "municipio"
+      },
+      "field": "period",
+      "literal": "2024"
+    },
+    {
+      "target": "C12",
+      "ref": {
+        "indicatorId": "ieca-centros-atencion-primaria",
+        "level": "municipio"
+      },
+      "field": "period",
+      "literal": "2025"
+    },
+    {
+      "target": "C12",
+      "ref": {
+        "indicatorId": "adrh-pob-65",
+        "level": "municipio"
+      },
+      "field": "value",
+      "literal": "23,5"
+    }
+  ],
+  "conditions": [
+    {
+      "target": "LECTURA",
+      "statement": "la edad media de Zagra supera a la provincial",
+      "left": {
+        "indicatorId": "adrh-edad-media",
+        "level": "municipio"
+      },
+      "op": ">",
+      "right": {
+        "indicatorId": "adrh-edad-media",
+        "level": "provincia"
+      }
+    },
+    {
+      "target": "LECTURA",
+      "statement": "la renta por persona de Zagra es inferior a la provincial",
+      "left": {
+        "indicatorId": "adrh-renta-neta-persona",
+        "level": "municipio"
+      },
+      "op": "<",
+      "right": {
+        "indicatorId": "adrh-renta-neta-persona",
+        "level": "provincia"
+      }
+    },
+    {
+      "target": "LECTURA",
+      "statement": "el índice de Gini municipal es inferior al provincial",
+      "left": {
+        "indicatorId": "adrh-gini",
+        "level": "municipio"
+      },
+      "op": "<",
+      "right": {
+        "indicatorId": "adrh-gini",
+        "level": "provincia"
+      }
+    },
+    {
+      "target": "LECTURA",
+      "statement": "la proporción con primaria o inferior supera a la provincial",
+      "left": {
+        "indicatorId": "censo-estudios-primaria",
+        "level": "municipio"
+      },
+      "op": ">",
+      "right": {
+        "indicatorId": "censo-estudios-primaria",
+        "level": "provincia"
+      }
+    },
+    {
+      "target": "C9",
+      "statement": "el peso del salario en la renta es menor que en la provincia",
+      "left": {
+        "indicatorId": "adrh-fuente-salario",
+        "level": "municipio"
+      },
+      "op": "<",
+      "right": {
+        "indicatorId": "adrh-fuente-salario",
+        "level": "provincia"
+      }
+    },
+    {
+      "target": "C9",
+      "statement": "el peso de las pensiones en la renta es mayor que en la provincia",
+      "left": {
+        "indicatorId": "adrh-fuente-pensiones",
+        "level": "municipio"
+      },
+      "op": ">",
+      "right": {
+        "indicatorId": "adrh-fuente-pensiones",
+        "level": "provincia"
+      }
+    },
+    {
+      "target": "C9",
+      "statement": "el peso de las prestaciones por desempleo es mayor que en la provincia",
+      "left": {
+        "indicatorId": "adrh-fuente-desempleo",
+        "level": "municipio"
+      },
+      "op": ">",
+      "right": {
+        "indicatorId": "adrh-fuente-desempleo",
+        "level": "provincia"
+      }
+    },
+    {
+      "target": "C9",
+      "statement": "el peso de otras prestaciones es mayor que en la provincia",
+      "left": {
+        "indicatorId": "adrh-fuente-otras-prestaciones",
+        "level": "municipio"
+      },
+      "op": ">",
+      "right": {
+        "indicatorId": "adrh-fuente-otras-prestaciones",
+        "level": "provincia"
+      }
+    },
+    {
+      "target": "C9",
+      "statement": "la pensión contributiva media es inferior a la provincial",
+      "left": {
+        "indicatorId": "ieca-pension-media",
+        "level": "municipio"
+      },
+      "op": "<",
+      "right": {
+        "indicatorId": "ieca-pension-media",
+        "level": "provincia"
+      }
+    },
+    {
+      "target": "C9",
+      "statement": "el índice de Gini municipal es inferior al provincial",
+      "left": {
+        "indicatorId": "adrh-gini",
+        "level": "municipio"
+      },
+      "op": "<",
+      "right": {
+        "indicatorId": "adrh-gini",
+        "level": "provincia"
+      }
+    },
+    {
+      "target": "C9",
+      "statement": "el índice de Gini municipal es inferior al andaluz",
+      "left": {
+        "indicatorId": "adrh-gini",
+        "level": "municipio"
+      },
+      "op": "<",
+      "right": {
+        "indicatorId": "adrh-gini",
+        "level": "andalucia"
+      }
+    },
+    {
+      "target": "C9",
+      "statement": "el índice de Gini municipal es inferior al español",
+      "left": {
+        "indicatorId": "adrh-gini",
+        "level": "municipio"
+      },
+      "op": "<",
+      "right": {
+        "indicatorId": "adrh-gini",
+        "level": "espana"
+      }
+    },
+    {
+      "target": "C10",
+      "statement": "la proporción de ocupadas es inferior a la provincial",
+      "left": {
+        "indicatorId": "censo-ocupados",
+        "level": "municipio"
+      },
+      "op": "<",
+      "right": {
+        "indicatorId": "censo-ocupados",
+        "level": "provincia"
+      }
+    },
+    {
+      "target": "C10",
+      "statement": "la tasa de desempleo registrado es inferior a la provincial",
+      "left": {
+        "indicatorId": "ieca-tasa-desempleo-registrado",
+        "level": "municipio"
+      },
+      "op": "<",
+      "right": {
+        "indicatorId": "ieca-tasa-desempleo-registrado",
+        "level": "provincia"
+      }
+    },
+    {
+      "target": "C10",
+      "statement": "más de la mitad del paro registrado es de larga duración",
+      "left": {
+        "indicatorId": "ieca-paro-larga-duracion",
+        "level": "municipio"
+      },
+      "op": ">",
+      "right": {
+        "value": 50
+      }
+    },
+    {
+      "target": "C10",
+      "statement": "la tasa de desempleo registrado de las mujeres supera a la de los hombres",
+      "left": {
+        "indicatorId": "ieca-tasa-desempleo-registrado-mujeres",
+        "level": "municipio"
+      },
+      "op": ">",
+      "right": {
+        "indicatorId": "ieca-tasa-desempleo-registrado-hombres",
+        "level": "municipio"
+      }
+    },
+    {
+      "target": "C11",
+      "statement": "la proporción con primaria o inferior supera a la provincial",
+      "left": {
+        "indicatorId": "censo-estudios-primaria",
+        "level": "municipio"
+      },
+      "op": ">",
+      "right": {
+        "indicatorId": "censo-estudios-primaria",
+        "level": "provincia"
+      }
+    },
+    {
+      "target": "C11",
+      "statement": "la proporción con educación superior es inferior a la provincial",
+      "left": {
+        "indicatorId": "censo-estudios-superiores",
+        "level": "municipio"
+      },
+      "op": "<",
+      "right": {
+        "indicatorId": "censo-estudios-superiores",
+        "level": "provincia"
+      }
+    },
+    {
+      "target": "C12",
+      "statement": "consta un centro de atención primaria en el municipio",
+      "left": {
+        "indicatorId": "ieca-centros-atencion-primaria",
+        "level": "municipio"
+      },
+      "op": ">=",
+      "right": {
+        "value": 1
+      }
+    }
+  ]
+}
