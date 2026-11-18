@@ -28,8 +28,8 @@ test('Alcaldesa primero y preguntas corregidas sin perder las seis voces',()=>{
  assert.ok(g.includes('valoración sintética'));assert.ok(g.includes('indicadores de morbimortalidad'));assert.ok(g.includes('qué conocimiento y qué perspectiva'));
  const s=read('alfacar/index.html');assert.equal((s.match(/class="cq-seat cq-/g)||[]).length,6);
 });
-test('Alfacar 0.9.0: el Paso al Plan de Acción no le atribuye actuaciones, responsables, recursos ni plazos',()=>{
- const f=manifest.alfacar;assert.equal(f.version,'0.9.0');const t=JSON.parse(read(f.json)).text;
+test('Alfacar 0.9.1: el Paso al Plan de Acción no le atribuye actuaciones, responsables, recursos ni plazos',()=>{
+ const f=manifest.alfacar;assert.equal(f.version,'0.9.1');const t=JSON.parse(read(f.json)).text;
  const s=t.slice(t.indexOf('6. Paso al Plan de Acción'),t.indexOf('7. Autoría'));
  assert.match(s,/Plan de Acción, que fijará las líneas estratégicas, los objetivos y los indicadores/);assert.match(s,/agendas anuales de implantación/);
  assert.doesNotMatch(s,/actuaciones, responsables, recursos y plazos/);assert.doesNotMatch(s,/líneas de actuación/);
