@@ -10,10 +10,11 @@
     "jsonSha256": "a0da4b48dcc691da52766d6f4a57d1f51da97dbe2c3684c2ee54a18a9640176e",
     "pdfSha256": "7044697051b4b1d9d87c75b55935b485123aef86b879876e03d44477a49dc6ae",
     "results": 138,
-    "firebaseCurrentVersion": "0.8.2",
-    "firebaseLatestVersion": "0.8.2",
-    "firebaseVerifiedOn": "2026-11-17",
-    "firebaseLatestIsCurrent": true
+    "firebaseCurrentVersion": "0.9.2",
+    "firebaseLatestVersion": "0.9.2",
+    "firebaseVerifiedOn": "2026-11-19",
+    "firebaseLatestIsCurrent": true,
+    "firebaseNote": "La 0.9.2 (18/11/2026) se generó en COMPÁS con el Actualizador de perfiles y no tiene PDF ni JSON propios; conserva como adjuntos los de la 0.8.2. Texto exportado: materiales/perfiles-2026/alfacar/Alfacar_PSL_v0_9_2_2026-11-18.html"
   },
   "atarfe": {
     "municipality": "Atarfe",
