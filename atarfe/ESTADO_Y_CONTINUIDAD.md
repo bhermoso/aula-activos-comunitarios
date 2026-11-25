@@ -1,3 +1,12 @@
+## Perfil 0.10.0 validado y sesión del Grupo Motor · 25/11/2026
+
+La revisión 0.10.0 del Perfil (24/11/2026) es la vigente en COMPÁS y quedó validada técnicamente el 24/11/2026. El equipo técnico eligió 9 de las 12 conclusiones (C6, C7 y C11 fuera de la versión institucional) y las 8 recomendaciones. Textos copiados de Firebase `compas-98dd7` y comprobados por SHA-256 contra el registro de COMPÁS.
+
+- `index.html`: estado, resumen (extracto literal de la lectura de conjunto sin las frases que citan conclusiones descartadas), conclusiones elegidas y recomendaciones de la 0.10.0; el catálogo de líneas con sus recuentos actuales en COMPÁS (bienestar emocional y salud mental ya no está «en construcción»).
+- `presentacion-perfil.html`: rehecha para la sesión del 26/11 (priorización y Plan de Acción). Recorrido, datos del Perfil, conclusiones elegidas, recomendaciones con su tipo y su «Permite al Grupo Motor…», y estructura del Plan de Acción: líneas, objetivos, indicadores y herramientas (recogida y seguimiento de cada indicador). Comparadores de las tablas con los valores publicados (p. ej., 65 o más en la provincia, 19,95 %, antes 19,9). Las recomendaciones se presentan sin «Deriva de», porque R2, R6 y R7 citan conclusiones descartadas.
+- `presentacion-perfil-antecedente-20261125.html`: la presentación anterior (revisión 0.7.1), conservada.
+- No hay PDF de la 0.10.0: el último PDF original es la 0.7.1 y se enlaza como antecedente. El Perfil completo se consulta en COMPÁS.
+
 ## Armonización de presentaciones · 14/11/2026
 
 Actualizada la demografía de la presentación de Atarfe con fuente IECA/SIMA: población, edad media y proporción de mayores de 65 años de 2025; variación 2014–2024; movimientos de 2024. Saldo natural: 158 − 107 = +51. Saldo migratorio: 1484 − 1077 = +407. La diapositiva de movimientos usa el mismo formato en los cuatro municipios y distingue movimientos anuales de variación decenal. Fuente: https://www.juntadeandalucia.es/institutodeestadisticaycartografia/sima/ficha.htm?mun=18022, consulta 14/11/2026.

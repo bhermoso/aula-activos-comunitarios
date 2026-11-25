@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#173d35">
-<meta name="description" content="Atarfe: recorrido del proceso, resultados del Perfil de Salud Local y propuesta de priorización para el Grupo Motor (26/11/2026, 11:00).">
+<meta name="description" content="Atarfe: recorrido del proceso, datos, conclusiones y recomendaciones del Perfil de Salud Local (revisión 0.10.0) y estructura del Plan de Acción para el Grupo Motor (26/11/2026, 11:00).">
 <title>Atarfe · Perfil de Salud Local · Presentación</title>
 <style>
 :root{--deep:#173d35;--mid:#25694f;--sage:#e8f0e6;--sand:#f7f0e3;--line:#c9d9cd;--ink:#183a30;--muted:#466459;--accent:#b7791f}
@@ -38,8 +38,8 @@ ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f514
 .cover{background:linear-gradient(135deg,#173d35 0%,#25694f 100%);color:#fff;justify-content:center}
 .cover h1{color:#fff;font-size:88px}.cover .lead{color:#dcefe2;font-size:32px}.cover .meta{color:#bfe3c9}
 .cover .src{color:#bfd9c7;border-color:#3f7a62}
-.timeline{display:grid;grid-template-columns:repeat(7,1fr);gap:12px;flex:1;align-content:center}
-.tl{border-top:6px solid var(--mid);padding-top:14px}.tl b{font:700 32px Georgia,serif;color:var(--deep);display:block}.tl span{font-size:24px;color:#35564b;line-height:1.35;display:block;margin-top:6px}
+.timeline{display:grid;grid-template-columns:repeat(8,1fr);gap:12px;flex:1;align-content:center}
+.tl{border-top:6px solid var(--mid);padding-top:14px}.tl b{font:700 28px Georgia,serif;color:var(--deep);display:block}.tl span{font-size:22px;color:#35564b;line-height:1.35;display:block;margin-top:6px}
 .tl.now{border-color:var(--accent)}
 .bars{display:flex;flex-direction:column;gap:10px}
 .brow{display:grid;grid-template-columns:420px 1fr 100px;align-items:center;gap:16px;font-size:23px}
@@ -76,15 +76,15 @@ ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f514
 </head>
 <body>
 <div id="deck">
-<div class="bar"><span class="brand">ATARFE · PERFIL DE SALUD LOCAL · GRUPO MOTOR</span><span class="workshop-source-note">Preparación revisada el 16/11/2026. Síntesis del perfil identificado, no aprobación institucional. <a href="presentacion-perfil-antecedente-20261114.html">Consultar el material anterior</a>.</span><a href="../materiales/perfiles-2026/atarfe/Atarfe_PSL_v0_7_1_2026-11-17.pdf">Perfil completo ↗</a><a href="index.html">← Espacio de Atarfe</a></div>
+<div class="bar"><span class="brand">ATARFE · PERFIL DE SALUD LOCAL · GRUPO MOTOR</span><span class="workshop-source-note">Revisada el 25/11/2026 con el Perfil 0.10.0, validado técnicamente el 24/11/2026. <a href="presentacion-perfil-antecedente-20261125.html">Presentación anterior (revisión 0.7.1)</a>.</span><a href="https://bhermoso.github.io/compas-ng-renovado/?fase=psl" target="_blank" rel="noopener">Perfil en COMPÁS ↗</a><a href="index.html">← Espacio de Atarfe</a></div>
 <div class="stage" id="stage"><div class="frame" id="frame">
 
 <section class="slide cover">
 <span class="meta">Atarfe · Grupo Motor · 26 de noviembre de 2026 · 11:00</span>
 <h1>Lo que sabemos<br>de la salud de Atarfe</h1>
-<p class="lead">Recorrido del proceso de acción local en salud, principales resultados del Perfil de Salud Local y propuesta para priorizar.</p>
-<p class="src">Perfil de Salud Local de Atarfe · revisión 0.7.1 de 17 de noviembre de 2026, pendiente de validación técnica</p>
-<aside class="workshop-reference"><strong>Presentación del Perfil de Salud Local y priorización · 26 de noviembre de 2026 · 11:00</strong><p>Revisión 0.7.1 · 17/11/2026 · En revisión técnica. Vigente en COMPÁS.</p><a href="../materiales/perfiles-2026/atarfe/Atarfe_PSL_v0_7_1_2026-11-17.pdf">PDF</a> · <a href="../materiales/perfiles-2026/atarfe/Atarfe_PSL_v0_7_1_2026-11-17.json" download>JSON</a></aside></section>
+<p class="lead">Recorrido del proceso, principales datos del Perfil de Salud Local, conclusiones y recomendaciones, y estructura del Plan de Acción.</p>
+<p class="src">Perfil de Salud Local de Atarfe · revisión 0.10.0 de 24 de noviembre de 2026, validada técnicamente</p>
+<aside class="workshop-reference"><strong>Priorización y Plan de Acción · 26 de noviembre de 2026 · 11:00</strong><p>Perfil vigente en COMPÁS: revisión 0.10.0 · 24/11/2026 · Validada técnicamente.</p><a href="https://bhermoso.github.io/compas-ng-renovado/?fase=psl" target="_blank" rel="noopener">Consultar en COMPÁS</a> · <a href="../materiales/perfiles-2026/atarfe/Atarfe_PSL_v0_7_1_2026-11-17.pdf">Último PDF original (revisión 0.7.1)</a></aside></section>
 
 <section class="slide">
 <span class="meta">01 · De dónde venimos</span>
@@ -96,21 +96,32 @@ ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f514
 <div class="tl"><b>Nov. 2025</b><span>Epidemiología del Distrito entrega el Informe de Salud de Atarfe</span></div>
 <div class="tl"><b>27 feb. 2026</b><span>Taller de impulso: Ayuntamiento, centro de salud, salud mental comunitaria, asociaciones y ciudadanía</span></div>
 <div class="tl"><b>Mar.–abr. 2026</b><span>Monitor de bienestar socioemocional: 910 respuestas. Reunión de resultados</span></div>
-<div class="tl now"><b>Nov. 2026</b><span>Perfil de Salud Local: borrador para validar</span></div>
+<div class="tl"><b>24 nov. 2026</b><span>Perfil de Salud Local validado técnicamente</span></div>
+<div class="tl now"><b>26 nov. 2026</b><span>Grupo Motor: priorización y Plan de Acción</span></div>
 </div>
-<p class="src">Fuentes: certificado del acuerdo plenario (28/11/2024); formulario de adhesión (12/03/2025); documentos del proyecto de encuesta (2025); Informe de Salud (21/11/2025); guion del taller de impulso (27/02/2026); export del Monitor (05/11/2026). El Grupo Motor está constituido; no hay actas de las reuniones.</p>
+<p class="src">Fuentes: certificado del acuerdo plenario (28/11/2024); formulario de adhesión (12/03/2025); documentos del proyecto de encuesta (2025); Informe de Salud (21/11/2025); guion del taller de impulso (27/02/2026); export del Monitor (05/11/2026); Perfil de Salud Local, revisión 0.10.0 (24/11/2026). El Grupo Motor está constituido; no hay actas de las reuniones.</p>
 </section>
 
 <section class="slide">
 <span class="meta">02 · Atarfe hoy</span>
-<h2>Población y composición por edad</h2>
-<div class="grid g4"><div class="card"><span class="big">20.952</span><p>habitantes en 2025.</p></div><div class="card"><span class="big">39,4</span><p>años de edad media en 2025.</p></div><div class="card"><span class="big">13,4<small> %</small></span><p>de la población tiene 65 años o más (2025).</p></div><div class="card"><span class="big">+16,4<small> %</small></span><p>variación de población entre 2014 y 2024.</p></div></div>
+<h2>Un municipio joven y en crecimiento</h2>
+<div class="grid g4"><div class="card"><span class="big">20.952</span><p>habitantes en 2025.</p></div><div class="card"><span class="big">38,8</span><p>años de edad media en 2024, frente a 43,4 en la provincia.</p></div><div class="card"><span class="big">22<small> %</small></span><p>de la población tiene menos de 18 años (2024).</p></div><div class="card"><span class="big">+16,4<small> %</small></span><p>variación de población entre 2014 y 2024.</p></div></div>
 <div class="grid g2">
-<div class="card soft"><h3>Composición de la población</h3><p>1.525 residentes tienen nacionalidad extranjera en 2025. Marruecos representa el 26,2 % de ese grupo. Los movimientos migratorios de 2024 se presentan por separado.</p></div>
-<div class="card sand"><h3>Renta y empleo</h3><p>Renta bruta media declarada de 24.452 € (IRPF 2024) y tasa de desempleo del 18,5 % (2025); el 62,2 % de las personas en paro son mujeres. Por sección censal, la renta neta por persona va de 9.290 € (sección 01004) a 12.864 € (02003) en 2024.</p></div>
+<div class="card soft"><h3>Composición de la población</h3><p>En 2025 el 17,9 % tiene menos de 15 años y el 13,4 %, 65 o más, frente al 20,0 % de la provincia. 1.525 residentes tienen nacionalidad extranjera; Marruecos representa el 26,2 % de ese grupo.</p></div>
+<div class="card sand"><h3>Renta y empleo</h3><p>Renta neta media de 11.730 € por persona en 2024, frente a 13.509 € en la provincia. Tasa de desempleo registrado del 18,5 % en 2025. Por sección censal, la renta por persona va de 9.290 € (01004) a 12.864 € (02003).</p></div>
 </div>
-<p class="src">Población y edad: <a href="https://www.juntadeandalucia.es/institutodeestadisticaycartografia/sima/ficha.htm?mun=18022" target="_blank" rel="noopener">IECA · SIMA, ficha municipal</a>, 2025, consulta 14/11/2026. Otras fuentes: INE, Padrón 2025 (tabla 68535); Informe de Salud de Atarfe (21/11/2025), tabla 1 e introducción; IECA, SIMA, ficha de Atarfe (IRPF 2024, mercado de trabajo 2025); INE, Atlas de Distribución de Renta, tabla 31025 (2024).</p>
-</section><section class="slide demographic-movements"><span class="meta">Atarfe · Movimientos de población · 2024</span><h2>Saldo natural y saldo migratorio</h2><div class="grid g2"><div class="card soft"><h3>Saldo natural</h3><span class="big">+51</span><p>158 nacimientos − 107 defunciones</p></div><div class="card soft"><h3>Saldo migratorio</h3><span class="big">+407</span><p>1.484 inmigraciones − 1.077 emigraciones</p></div></div><p class="lead">Ambos saldos corresponden a 2024. Los movimientos migratorios registran cambios de residencia con entrada o salida del municipio.</p><p class="lead">Son datos anuales. El cambio de población de 2014 a 2024 se presenta por separado y no se explica únicamente con estos saldos de un año.</p><p class="src">Fuente: <a href="https://www.juntadeandalucia.es/institutodeestadisticaycartografia/sima/ficha.htm?mun=18022" target="_blank" rel="noopener">IECA · SIMA, ficha municipal de Atarfe</a>, consulta 14/11/2026. Cálculos: nacimientos menos defunciones e inmigraciones menos emigraciones.</p></section>
+<p class="src">Fuente: Perfil de Salud Local de Atarfe, revisión 0.10.0 (INE, tablas 68535, 69181, 68519, 31033, 53776, 31025 y 53689; IECA · SIMA, mercado de trabajo, B120971). Nacionalidad extranjera: <a href="https://www.juntadeandalucia.es/institutodeestadisticaycartografia/sima/ficha.htm?mun=18022" target="_blank" rel="noopener">IECA · SIMA, ficha municipal</a>, 2025, consulta 14/11/2026.</p>
+</section>
+
+<section class="slide demographic-movements"><span class="meta">Atarfe · Movimientos de población · 2024</span><h2>Saldo natural y saldo migratorio</h2><div class="grid g2"><div class="card soft"><h3>Saldo natural</h3><span class="big">+51</span><p>158 nacimientos − 107 defunciones</p></div><div class="card soft"><h3>Saldo migratorio</h3><span class="big">+407</span><p>1.484 inmigraciones − 1.077 emigraciones</p></div></div><p class="lead">Ambos saldos corresponden a 2024. Los movimientos migratorios registran cambios de residencia con entrada o salida del municipio.</p><p class="lead">Son datos anuales. El cambio de población de 2014 a 2024 se presenta por separado y no se explica únicamente con estos saldos de un año.</p><p class="src">Fuente: <a href="https://www.juntadeandalucia.es/institutodeestadisticaycartografia/sima/ficha.htm?mun=18022" target="_blank" rel="noopener">IECA · SIMA, ficha municipal de Atarfe</a>, consulta 14/11/2026. Cálculos: nacimientos menos defunciones e inmigraciones menos emigraciones.</p></section>
+
+<section class="slide profile-update"><p class="eyebrow">Perfil de Salud Local · revisión 0.10.0</p><h2>Población y condiciones de vida</h2><table><thead><tr><th>Indicador</th><th>Atarfe</th><th>Provincia de Granada</th><th>Andalucía</th><th>Año</th></tr></thead><tbody><tr><td>Población de 65 o más años (%)</td><td>13,40</td><td>19,95</td><td>19,13</td><td>2025</td></tr><tr><td>Población de 80 o más años (%)</td><td>3,10</td><td>5,61</td><td>5,19</td><td>2025</td></tr><tr><td>Población nacida en el extranjero (%)</td><td>10,56</td><td>12,25</td><td>13,13</td><td>2025</td></tr><tr><td>Estudios primarios o inferiores · 15 o más (%)</td><td>12,30</td><td>15,25</td><td>17,16</td><td>2024</td></tr><tr><td>Educación superior · 15 o más (%)</td><td>28,52</td><td>32,27</td><td>28,61</td><td>2024</td></tr></tbody></table><p class="src">INE · tablas 69181, 68519, 69179, 68520, 66721 y 66600. Mismo periodo, definición y base en cada fila. Datos agregados; no se atribuyen a personas o calles. Fuentes y denominadores completos en el Perfil.</p></section>
+
+<section class="slide profile-update"><p class="eyebrow">Perfil de Salud Local · revisión 0.10.0</p><h2>Ingresos y hogares</h2><table><thead><tr><th>Indicador</th><th>Atarfe</th><th>Provincia de Granada</th><th>Andalucía</th><th>Año</th></tr></thead><tbody><tr><td>Renta neta media por persona (€/año)</td><td>11.730</td><td>13.509</td><td>13.342</td><td>2024</td></tr><tr><td>Ingresos bajo el 60 % de la mediana nacional (%)</td><td>30,00</td><td>27,8</td><td>26,2</td><td>2024</td></tr><tr><td>Hogares unipersonales (%)</td><td>26,20</td><td>31,8</td><td>28,1</td><td>2024</td></tr><tr><td>Tamaño medio del hogar (personas)</td><td>2,6</td><td>2,4</td><td>2,5</td><td>2024</td></tr></tbody></table><p class="src">INE · Atlas de Distribución de Renta de los Hogares, tablas 31025, 53689, 31030, 53694, 31033 y 53776. Mismo periodo, definición y base en cada fila. Datos agregados; no se atribuyen a personas o calles.</p></section>
+
+<section class="slide profile-update"><p class="eyebrow">Perfil de Salud Local · revisión 0.10.0 · C4</p><h2>Mujeres: condiciones económicas y ansiedad registrada</h2><table><thead><tr><th>Indicador</th><th>Mujeres</th><th>Hombres</th><th>Año</th></tr></thead><tbody><tr><td>Tasa de desempleo registrado (%)</td><td>23,7</td><td>13,5</td><td>2025</td></tr><tr><td>Pensión contributiva media (€/mes)</td><td>1.064,4</td><td>1.353,2</td><td>2025</td></tr><tr><td>Ingresos inferiores al 60 % de la mediana (%)</td><td>31,4</td><td>28,7</td><td>2024</td></tr><tr><td>Trastorno de ansiedad registrado (por 10.000)</td><td>1.522,92</td><td>726,08</td><td>2024</td></tr></tbody></table><p class="intro">Es una relación observada en el municipio en el mismo ciclo (grado 1): describe coexistencia, y los datos no permiten afirmar que una cosa explique la otra.</p><p class="src">IECA · SIMA, B120971 y B46121; INE, tabla 31030; Informe de Salud de Atarfe (21/11/2025), tabla 6. Las mujeres son el 62,2 % de las personas en paro registrado.</p></section>
+
+<section class="slide profile-update"><p class="eyebrow">Perfil de Salud Local · revisión 0.10.0 · C8 y C9</p><h2>Diferencias entre secciones censales</h2><table><thead><tr><th>Indicador</th><th>Sección 01004</th><th>Referencia en el municipio</th><th>Año</th></tr></thead><tbody><tr><td>Renta neta media por persona (€)</td><td>9.290</td><td>12.864 (02003)</td><td>2024</td></tr><tr><td>Ingresos inferiores al 60 % de la mediana (%)</td><td>47</td><td>22,4 (01008)</td><td>2024</td></tr><tr><td>Tasa de desempleo registrado (%)</td><td>35,4</td><td>—</td><td>2024</td></tr><tr><td>Primaria o inferior · 15 o más (%)</td><td>21,1</td><td>12,30 (municipio)</td><td>2024</td></tr></tbody></table><p class="intro">Viven solas entre 40,3 y 50,9 de cada cien personas de 65 o más años, según la sección; los valores más altos corresponden a 01006 y 01009 (2024).</p><p class="src">INE, tablas 31025, 31030 y 66721; IECA · SIMA, B119350 y B119351. Datos agregados por sección; no se atribuyen a personas, viviendas o calles.</p></section>
 
 <section class="slide">
 <span class="meta">03 · Informe de Salud · 2024</span>
@@ -133,7 +144,7 @@ ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f514
 <h2>Mortalidad y prevención</h2>
 <div class="grid g3">
 <div class="card"><span class="big">109</span><h3>Defunciones en 2023</h3><p>113 en 2022. Primeras causas: circulatorias (27) y tumores (24). Las respiratorias pasan de 11 a 15.</p></div>
-<div class="card"><span class="big">80,57<small> %</small></span><h3>Cribado de mama</h3><p>de las mujeres invitadas participa. En el de colon participa el 42,97 % de la población elegible.</p></div>
+<div class="card"><span class="big">80,57<small> %</small></span><h3>Cribado de mama</h3><p>de las mujeres invitadas participa. En el de colon participa el 42,97 % de la población elegible. El Informe no declara el periodo.</p></div>
 <div class="card"><span class="big">&gt;96<small> %</small></span><h3>Vacunación infantil</h3><p>en todos los indicadores de cobertura del informe.</p></div>
 </div>
 <div class="card sand"><p>Trastorno de ansiedad registrado: <b>1.522,92 por 10.000 mujeres</b> y 726,08 por 10.000 hombres, según el Informe de Salud.</p></div>
@@ -144,12 +155,12 @@ ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f514
 <span class="meta">05 · Monitor de bienestar socioemocional</span>
 <h2>910 personas respondieron</h2>
 <div class="grid g3">
-<div class="card soft"><span class="big">910</span><p>respuestas entre el 6 de marzo y el 26 de abril de 2026, en papel y por QR, en institutos y otros espacios del municipio. 811 completas.</p></div>
+<div class="card soft"><span class="big">910</span><p>respuestas entre el 6 de marzo y el 26 de abril de 2026, en papel y por QR, en institutos y otros espacios del municipio. 811 válidas.</p></div>
 <div class="card soft"><span class="big">13–88</span><p>años de edad. 145 respuestas de 13 a 15 años y 666 de 16 o más.</p></div>
-<div class="card soft"><span class="big">2 × </span><p>la muestra de referencia: para un diseño aleatorio de referencia de población de 15 o más años se calcularon 376 respuestas; no es un margen de error de este estudio voluntario; se reunieron 753.</p></div>
+<div class="card soft"><span class="big">517 · 294</span><p>respuestas válidas de mujeres y de hombres.</p></div>
 </div>
-<div class="card"><p>Un trabajo conjunto del Ayuntamiento de Atarfe y del Distrito Sanitario Granada-Metropolitano, con la ciudadanía respondiendo. La muestra no es aleatoria: responden más las mujeres (64,8 % frente al 50,4 % del padrón) y los jóvenes de 15 a 24 años, y menos los hombres de 25 a 64 y de 65 o más.</p></div>
-<p class="src">Fuente: Monitor de bienestar socioemocional Atarfe 2026 (IBSE, Bericat 2014), export de REDCap del 05/11/2026; INE, Padrón 2025; composición de la muestra calculada con SAM (COMPÁS).</p>
+<div class="card"><p>Un trabajo conjunto del Ayuntamiento de Atarfe y del Distrito Sanitario Granada-Metropolitano, con la ciudadanía respondiendo. La participación es voluntaria: los hombres de 25 a 44 años son el 7,4 % de las respuestas de 15 o más años y el 17,5 % de esa población; los de 65 o más, el 3,6 % y el 7,3 %.</p></div>
+<p class="src">Fuente: Monitor de bienestar socioemocional Atarfe 2026 (IBSE, Bericat 2014), export de REDCap del 05/11/2026; INE, Padrón 2025.</p>
 </section>
 
 <section class="slide">
@@ -196,8 +207,8 @@ ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f514
 <tr><td><b>Total</b></td><td class="n"><b>67,6</b></td><td class="n"><b>63,3</b></td><td class="n"><b>59,4</b></td><td class="n"><b>59,5</b></td><td class="n"><b>63,3</b></td></tr>
 </tbody></table>
 <div class="grid g2">
-<div class="card soft"><p>La brecha entre mujeres y hombres se abre entre los 16 y los 24 años: 9 puntos.</p></div>
-<div class="card soft"><p>Entre las personas de 65 o más, el 11,1 % no se sintió feliz en ningún momento o casi ninguno.</p></div>
+<div class="card soft"><p>Control, el factor de energía y tranquilidad: 45,5 entre los 25 y los 44 años y 47,4 entre los 45 y los 64; 49,0 en las mujeres y 54,8 en los hombres.</p></div>
+<div class="card soft"><p>Entre los 16 y los 24 años, las mujeres puntúan 59,0 y los hombres 68,0.</p></div>
 </div>
 <p class="src">Monitor Atarfe 2026. * Hombres de 65 o más: 27 respuestas; leer con cautela.</p>
 </section>
@@ -206,8 +217,8 @@ ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f514
 <span class="meta">09 · Lo que dicen dos fuentes a la vez</span>
 <h2>Registros sanitarios y Monitor de bienestar</h2>
 <div class="grid g2">
-<div class="card"><span class="pill">Informe de Salud · 2024</span><h3>Trastorno de ansiedad registrado</h3><p>Más que en Granada (1.126,49 frente a 1.030,68 por 10.000) y el doble en mujeres que en hombres.</p></div>
-<div class="card"><span class="pill">Monitor · 2026</span><h3>Factor Control, el más bajo</h3><p>La mitad no se sintió tranquila; las mujeres puntúan por debajo de los hombres (49,0 frente a 54,8).</p></div>
+<div class="card"><span class="pill">Informe de Salud · 2024</span><h3>Trastorno de ansiedad registrado</h3><p>Más que en Granada (1.126,49 frente a 1.030,68 por 10.000), y en las mujeres más del doble que en los hombres (1.522,92 frente a 726,08).</p></div>
+<div class="card"><span class="pill">Monitor · 2026</span><h3>Factor Control, el más bajo</h3><p>El 50,7 % se sintió tranquilo solo en algún momento o en ninguno; las mujeres puntúan por debajo de los hombres (49,0 frente a 54,8).</p></div>
 </div>
 <div class="card sand"><p>El Informe de Salud recoge diagnósticos registrados. El Monitor describe las respuestas de quienes participaron en 2026. Cada fuente conserva su población, su fecha y su unidad.</p></div>
 <p class="src">Fuentes: Informe de Salud, tabla 6; Monitor Atarfe 2026. La comparación con la Encuesta Andaluza de Salud (Granada, 78,4) no puede leerse como diferencia de bienestar: cambian el modo de respuesta y la selección.</p>
@@ -221,30 +232,82 @@ ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f514
 <div class="card"><span class="pill">Mayores</span><h3>Centro de Participación Activa</h3><p>Talleres de coro, senderismo y gimnasia mental.</p></div>
 <div class="card"><span class="pill">Jóvenes</span><h3>Espacio Joven</h3><p>Información, ocio, formación y voluntariado.</p></div>
 </div>
-<div class="card soft"><p>Y recursos para toda la población: biblioteca, Centro Cívico, Centro Cultural Medina Elvira, piscina cubierta, club de senderismo Castillejo, Punto Vuela, radio municipal, asociación y talleres artísticos. Solo la educación de personas adultas y los talleres artísticos declaran a las personas de 30 a 64 años entre sus destinatarios; <b>ninguno se dirige en particular a la edad de trabajar</b>, la de bienestar más bajo. El antecedente del 5/11 declara validados 17 registros; la tabla del 9/11 contiene 20. Faltan tres identificadores y el cotejo actual de sus fichas. No se extiende automáticamente la declaración a los añadidos.</p></div>
-<p class="src">Fuente: Localiza Salud, tabla de 20 registros (9/11/2026); 11 declaran la temática de bienestar emocional. El Centro de Participación Activa figura dos veces (posible duplicado).</p>
+<div class="card soft"><p>Y recursos para toda la población: biblioteca, Centro Cívico, Centro Cultural Medina Elvira, piscina cubierta, club de senderismo Castillejo, Punto Vuela, radio municipal, asociación y talleres artísticos. Once declaran la temática de bienestar emocional. Cinco incluyen a las personas adultas entre sus destinatarios, siempre junto a otros grupos: <b>ninguno se dirige solo a la población en edad de trabajar</b>. Las fichas no informan de uso, de cobertura ni de compromisos con el Plan.</p></div>
+<p class="src">Fuente: Localiza Salud, 20 recursos cargados en el expediente de Atarfe en COMPÁS, con validación declarada el 24/11/2026 (Perfil 0.10.0, C10).</p>
 </section>
 
-<section class="slide profile-update"><p class="eyebrow">Perfil actualizado · 16 noviembre 2026</p><h2>Población y condiciones de vida</h2><table><thead><tr><th>Indicador</th><th>Atarfe</th><th>Provincia de Granada</th><th>Andalucía</th><th>Año</th></tr></thead><tbody><tr><td>Población de 65 o más años (%)</td><td>13,40</td><td>19,9</td><td>19,1</td><td>2025</td></tr><tr><td>Población de 80 o más años (%)</td><td>3,10</td><td>5,6</td><td>5,2</td><td>2025</td></tr><tr><td>Población nacida en el extranjero (%)</td><td>10,56</td><td>12,2</td><td>13,1</td><td>2025</td></tr><tr><td>Estudios primarios o inferiores · 15 o más (%)</td><td>12,30</td><td>15,2</td><td>17,2</td><td>2024</td></tr><tr><td>Educación superior · 15 o más (%)</td><td>28,52</td><td>32,3</td><td>28,6</td><td>2024</td></tr></tbody></table><p class="src">INE · Censo anual de población y Atlas de Distribución de Renta. Mismo periodo, definición y base en cada fila. Datos agregados; no se atribuyen a personas o calles. Fuentes y denominadores completos en el Perfil.</p></section><section class="slide profile-update"><p class="eyebrow">Perfil actualizado · 16 noviembre 2026</p><h2>Ingresos y hogares</h2><table><thead><tr><th>Indicador</th><th>Atarfe</th><th>Provincia de Granada</th><th>Andalucía</th><th>Año</th></tr></thead><tbody><tr><td>Renta neta media por persona (€/año)</td><td>11.730</td><td>13.509,0</td><td>13.342,0</td><td>2024</td></tr><tr><td>Ingresos bajo el 60 % de la mediana nacional (%)</td><td>30,00</td><td>27,8</td><td>26,2</td><td>2024</td></tr><tr><td>Hogares unipersonales (%)</td><td>26,20</td><td>31,8</td><td>28,1</td><td>2024</td></tr><tr><td>Tamaño medio del hogar (personas)</td><td>2,6</td><td>2,4</td><td>2,5</td><td>2024</td></tr></tbody></table><p class="src">INE · Censo anual de población y Atlas de Distribución de Renta. Mismo periodo, definición y base en cada fila. Datos agregados; no se atribuyen a personas o calles. Fuentes y denominadores completos en el Perfil.</p></section><section class="slide profile-update"><p class="eyebrow">Perfil actualizado · 16 noviembre 2026</p><h2>Conclusiones para la priorización</h2><ul><li>C1. La juventud de la población y las diferencias entre secciones justifican considerar tanto las necesidades de infancia y adolescencia como la equidad territorial.</li><li>C2. El Informe de Salud identifica asuntos concretos para la prevención.</li><li>C3. El malestar emocional es relevante para la deliberación por la información sanitaria y la experiencia recogida en el Monitor.</li></ul><p class="src">Perfil de referencia 0.7.1 · 17/11/2026. Síntesis para deliberar; las recomendaciones no son líneas aprobadas.</p><p class="profile-files"><a href="../materiales/perfiles-2026/atarfe/Atarfe_PSL_v0_7_1_2026-11-17.pdf">PDF completo</a> · <a href="../materiales/perfiles-2026/atarfe/Atarfe_PSL_v0_7_1_2026-11-17.json" download>JSON de la misma revisión</a></p></section><section class="slide profile-update"><p class="eyebrow">Perfil actualizado · 16 noviembre 2026</p><h2>Conclusiones para la priorización</h2><ul><li>C4. En quienes respondieron al Monitor, las puntuaciones más bajas aparecen en la edad de trabajar y existen diferencias por sexo.</li><li>C5. Las relaciones sociales son una dimensión relevante del bienestar y de las posibles respuestas comunitarias.</li><li>C6. El Monitor ofrece una aportación amplia, pero voluntaria.</li></ul><p class="src">Perfil de referencia 0.7.1 · 17/11/2026. Síntesis para deliberar; las recomendaciones no son líneas aprobadas.</p><p class="profile-files"><a href="../materiales/perfiles-2026/atarfe/Atarfe_PSL_v0_7_1_2026-11-17.pdf">PDF completo</a> · <a href="../materiales/perfiles-2026/atarfe/Atarfe_PSL_v0_7_1_2026-11-17.json" download>JSON de la misma revisión</a></p></section><section class="slide profile-update"><p class="eyebrow">Perfil actualizado · 16 noviembre 2026</p><h2>Conclusiones para la priorización</h2><ul><li>C7. El inventario dispone de recursos que pueden contribuir a las propuestas, aunque su registro no acredita uso o cobertura.</li><li>C8. La participación en prevención ofrece un ámbito concreto de trabajo comunitario.</li></ul><p class="src">Perfil de referencia 0.7.1 · 17/11/2026. Síntesis para deliberar; las recomendaciones no son líneas aprobadas.</p><p class="profile-files"><a href="../materiales/perfiles-2026/atarfe/Atarfe_PSL_v0_7_1_2026-11-17.pdf">PDF completo</a> · <a href="../materiales/perfiles-2026/atarfe/Atarfe_PSL_v0_7_1_2026-11-17.json" download>JSON de la misma revisión</a></p></section><section class="slide profile-update"><p class="eyebrow">Perfil actualizado · 16 noviembre 2026</p><h2>Recomendaciones para avanzar</h2><ul><li>R1. Bienestar emocional<span class="recommendation-ref">Abordar · Deriva de C3, C4, C5</span></li><li>R2. Mujeres y población en edad de trabajar<span class="recommendation-ref">Contrastar · Deriva de C3, C4, C6</span></li><li>R3. Relaciones y apoyo social<span class="recommendation-ref">Abordar · Deriva de C5, C7</span></li></ul><p class="intro">Propuestas para valorar líneas y preparar el Plan de Acción. El texto completo y su fundamento se conservan en el Perfil.</p><p class="src">Perfil de referencia 0.7.1 · 17/11/2026. Síntesis para deliberar; las recomendaciones no son líneas aprobadas.</p><p class="profile-files"><a href="../materiales/perfiles-2026/atarfe/Atarfe_PSL_v0_7_1_2026-11-17.pdf">PDF completo</a> · <a href="../materiales/perfiles-2026/atarfe/Atarfe_PSL_v0_7_1_2026-11-17.json" download>JSON de la misma revisión</a></p></section><section class="slide profile-update"><p class="eyebrow">Perfil actualizado · 16 noviembre 2026</p><h2>Recomendaciones para avanzar</h2><ul><li>R4. Hábitos saludables y salud respiratoria<span class="recommendation-ref">Abordar · Deriva de C2, C7</span></li><li>R5. Participación en programas preventivos<span class="recommendation-ref">Abordar · Deriva de C8</span></li><li>R6. Equidad territorial<span class="recommendation-ref">Abordar · Deriva de C1, C7</span></li></ul><p class="intro">Propuestas para valorar líneas y preparar el Plan de Acción. El texto completo y su fundamento se conservan en el Perfil.</p><p class="src">Perfil de referencia 0.7.1 · 17/11/2026. Síntesis para deliberar; las recomendaciones no son líneas aprobadas.</p><p class="profile-files"><a href="../materiales/perfiles-2026/atarfe/Atarfe_PSL_v0_7_1_2026-11-17.pdf">PDF completo</a> · <a href="../materiales/perfiles-2026/atarfe/Atarfe_PSL_v0_7_1_2026-11-17.json" download>JSON de la misma revisión</a></p></section><section class="slide profile-update"><p class="eyebrow">Perfil actualizado · 16 noviembre 2026</p><h2>Recomendaciones para avanzar</h2><ul><li>R7. Voces menos representadas<span class="recommendation-ref">Contrastar · Deriva de C1, C4, C6</span></li><li>R8. Colaboración con activos comunitarios<span class="recommendation-ref">Contrastar · Deriva de C5, C7</span></li></ul><p class="intro">Propuestas para valorar líneas y preparar el Plan de Acción. El texto completo y su fundamento se conservan en el Perfil.</p><p class="src">Perfil de referencia 0.7.1 · 17/11/2026. Síntesis para deliberar; las recomendaciones no son líneas aprobadas.</p><p class="profile-files"><a href="../materiales/perfiles-2026/atarfe/Atarfe_PSL_v0_7_1_2026-11-17.pdf">PDF completo</a> · <a href="../materiales/perfiles-2026/atarfe/Atarfe_PSL_v0_7_1_2026-11-17.json" download>JSON de la misma revisión</a></p></section>
+<section class="slide profile-update"><p class="eyebrow">Perfil de Salud Local · revisión 0.10.0</p><h2>Conclusiones</h2><ul><li>C1. Atarfe es un municipio joven que ha crecido en el último decenio.</li><li>C2. El asma, la obesidad y la litiasis urinaria superan en Atarfe los registros de la provincia.</li><li>C3. Los diagnósticos de ansiedad superan los de la provincia, y en las mujeres duplican a los de los hombres.</li></ul><p class="src">Numeración del Perfil. El equipo técnico eligió nueve de sus doce conclusiones para la versión institucional; C6, C7 y C11 no forman parte de ella. Texto completo y fuentes en COMPÁS.</p></section>
 
+<section class="slide profile-update"><p class="eyebrow">Perfil de Salud Local · revisión 0.10.0</p><h2>Conclusiones</h2><ul><li>C4. Las condiciones económicas de las mujeres son menos favorables que las de los hombres, y en el mismo periodo el Informe registra en ellas más del doble de diagnósticos de ansiedad (C3).</li><li>C5. En el Monitor de 2026, el factor más bajo es el de energía y tranquilidad, sobre todo en las mujeres y en la edad de trabajar.</li><li>C8. Las condiciones económicas varían mucho entre las doce secciones, y la 01004 reúne las menos favorables.</li></ul><p class="src">Numeración del Perfil. El equipo técnico eligió nueve de sus doce conclusiones para la versión institucional; C6, C7 y C11 no forman parte de ella. Texto completo y fuentes en COMPÁS.</p></section>
 
+<section class="slide profile-update"><p class="eyebrow">Perfil de Salud Local · revisión 0.10.0</p><h2>Conclusiones</h2><ul><li>C9. Vivir solo y sentirse solo aparecen en fuentes distintas y no son lo mismo.</li><li>C10. Atarfe tiene veinte recursos registrados en Localiza Salud, once de ellos con la temática de bienestar emocional, y ninguno dirigido solo a la población en edad de trabajar.</li><li>C12. El Informe publica la participación en dos cribados sin declarar su periodo.</li></ul><p class="src">Numeración del Perfil. El equipo técnico eligió nueve de sus doce conclusiones para la versión institucional; C6, C7 y C11 no forman parte de ella. Texto completo y fuentes en COMPÁS.</p></section>
 
-<section class="slide"><p class="eyebrow">Trabajo del Grupo Motor</p><h2>Priorizamos líneas estratégicas, con una decisión explícita</h2><ul><li>Presentar el Perfil y recoger desacuerdos o preguntas.</li><li>Contrastar qué problemas y capacidades justifican cada línea candidata.</li><li>Abrir el Plan de Acción de COMPÁS, seleccionar Atarfe y comprobar las líneas disponibles.</li><li>Revisar su encaje, objetivos e indicadores antes de incorporar una línea.</li><li>Registrar propuestas, acuerdos y pendientes; una línea no queda aprobada por aparecer en esta presentación.</li></ul><p class="src">Referencia: Perfil de Salud Local de Atarfe · revisión 0.7.1 · 17/11/2026. Síntesis adaptada para el taller. Los resultados sanitarios conservan la fuente y el periodo del Informe; el diálogo se centra en las actuaciones comunitarias.</p><p><a href="../materiales/perfiles-2026/atarfe/Atarfe_PSL_v0_7_1_2026-11-17.pdf" target="_blank" rel="noopener">PDF de referencia</a> · <a href="../materiales/perfiles-2026/atarfe/Atarfe_PSL_v0_7_1_2026-11-17.json" download>JSON de la misma revisión</a> · <a href="https://bhermoso.github.io/compas-ng-renovado/" target="_blank" rel="noopener">Consultar en COMPÁS</a></p></section>
+<section class="slide profile-update"><p class="eyebrow">Perfil de Salud Local · revisión 0.10.0</p><h2>Recomendaciones</h2><ul><li><b>R1. Bienestar emocional · Abordar.</b> Tratar el bienestar emocional como asunto del Plan, atendiendo a que en las mujeres coexisten más desempleo, pensiones más bajas, más ingresos bajos y más diagnósticos de ansiedad (relación observada en el municipio, grado 1), y a que el Monitor sitúa la puntuación más baja en la energía y la tranquilidad.<span class="recommendation-ref">Permite al Grupo Motor decidir si el bienestar emocional entra en la priorización y si se trabaja con perspectiva de género.</span></li><li><b>R2. Mujeres y población en edad de trabajar · Contrastar.</b> Comprobar con mujeres y con personas de 25 a 64 años qué hay detrás de sus puntuaciones más bajas en el Monitor: horarios, cargas de cuidado, empleo y apoyos.<span class="recommendation-ref">Permite al Grupo Motor decidir si las propuestas de bienestar se dirigen a la edad de trabajar, que ningún recurso registrado atiende de forma específica.</span></li></ul><p class="src">Las recomendaciones son propuestas del Perfil para la deliberación, no prioridades adoptadas. Conocer, Contrastar y Abordar indican el tipo de paso que propone cada una.</p></section>
 
-<section class="slide"><p class="eyebrow">Trabajo del Grupo Motor</p><h2>Bienestar emocional: una candidatura para deliberar</h2><ul><li>El Informe y el Monitor aportan información sanitaria y experiencias de bienestar desde fuentes diferentes.</li><li>El Grupo Motor puede valorar bienestar emocional junto a otras candidaturas, sin darlo por seleccionado.</li><li>El Monitor describe a participantes; repetirlo no asegura por sí solo estimar cambios poblacionales.</li><li>Comprobar en COMPÁS los objetivos e indicadores disponibles y qué base de seguimiento sería adecuada.</li></ul><p class="src">Referencia: Perfil de Salud Local de Atarfe · revisión 0.7.1 · 17/11/2026. Síntesis adaptada para el taller. Los resultados sanitarios conservan la fuente y el periodo del Informe; el diálogo se centra en las actuaciones comunitarias.</p><p><a href="../materiales/perfiles-2026/atarfe/Atarfe_PSL_v0_7_1_2026-11-17.pdf" target="_blank" rel="noopener">PDF de referencia</a> · <a href="../materiales/perfiles-2026/atarfe/Atarfe_PSL_v0_7_1_2026-11-17.json" download>JSON de la misma revisión</a> · <a href="https://bhermoso.github.io/compas-ng-renovado/" target="_blank" rel="noopener">Consultar en COMPÁS</a></p></section>
+<section class="slide profile-update"><p class="eyebrow">Perfil de Salud Local · revisión 0.10.0</p><h2>Recomendaciones</h2><ul><li><b>R3. Relaciones y apoyo social · Contrastar.</b> Comprobar con participantes de distintas edades y con los recursos locales qué relaciones y apoyos echan en falta quienes se sienten solos, sin reducir la soledad a las personas mayores, y qué hay detrás de que en algunas secciones vivan solas 50,9 de cada cien personas de 65 o más años.<span class="recommendation-ref">Permite al Grupo Motor decidir si las relaciones y el apoyo social entran en la priorización.</span></li><li><b>R4. Asma, obesidad y litiasis urinaria · Conocer.</b> Conocer con el centro de salud y la Unidad de Prevención, Promoción y Vigilancia de la Salud del Distrito la distribución por edad del asma, la obesidad y la litiasis urinaria, y los hábitos y exposiciones que el expediente no recoge, como el tabaco, la alimentación o la actividad física.<span class="recommendation-ref">Permite al Grupo Motor decidir con datos locales si estos problemas entran en la priorización.</span></li></ul><p class="src">Las recomendaciones son propuestas del Perfil para la deliberación, no prioridades adoptadas. Conocer, Contrastar y Abordar indican el tipo de paso que propone cada una.</p></section>
+
+<section class="slide profile-update"><p class="eyebrow">Perfil de Salud Local · revisión 0.10.0</p><h2>Recomendaciones</h2><ul><li><b>R5. Programas preventivos · Contrastar.</b> Contrastar con el equipo sanitario el periodo y la población de referencia de los cribados de colon y mama, y qué puede aportar el municipio, con información o acompañamiento, a la participación.<span class="recommendation-ref">Permite al Grupo Motor saber si hay una contribución local posible antes de priorizar.</span></li><li><b>R6. Equidad territorial · Contrastar.</b> Comprobar con residentes y profesionales las barreras de coste, horario, distancia y comprensión de la información, con atención a la sección 01004 y a las mujeres, y precisar la correspondencia de las secciones con calles y zonas de uso cotidiano. Este criterio corresponde a la línea estratégica 2 de la Estrategia de Salud de Andalucía 2030: fortalecer la equidad, reducir las desigualdades en salud y fomentar la participación [ESA2030, p. 74].<span class="recommendation-ref">Permite al Grupo Motor fijar criterios de equidad comunes a las líneas que elija.</span></li></ul><p class="src">Las recomendaciones son propuestas del Perfil para la deliberación, no prioridades adoptadas. Conocer, Contrastar y Abordar indican el tipo de paso que propone cada una.</p></section>
+
+<section class="slide profile-update"><p class="eyebrow">Perfil de Salud Local · revisión 0.10.0</p><h2>Recomendaciones</h2><ul><li><b>R7. Voces menos representadas · Contrastar.</b> Incorporar a la deliberación a los grupos poco representados en el Monitor, en particular los hombres de 25 a 44 y de 65 o más años, y escuchar a adolescentes y jóvenes en sus propios espacios, en un municipio en el que el 22 % de la población tiene menos de 18 años.<span class="recommendation-ref">Permite al Grupo Motor saber si los resultados del Monitor valen para quienes no respondieron.</span></li><li><b>R8. Colaboración con los activos · Contrastar.</b> Concretar con los responsables de los recursos de Localiza Salud qué pueden aportar a cada asunto que se priorice, a quién llegan y en qué condiciones; completar el identificador de los tres recursos que no lo tienen.<span class="recommendation-ref">Permite al Grupo Motor planificar con capacidades confirmadas.</span></li></ul><p class="src">Las recomendaciones son propuestas del Perfil para la deliberación, no prioridades adoptadas. Conocer, Contrastar y Abordar indican el tipo de paso que propone cada una.</p></section>
 
 <section class="slide">
-<span class="meta">15 · Próximos pasos</span>
+<span class="meta">11 · Trabajo del Grupo Motor</span>
+<h2>Del Perfil a las prioridades</h2>
+<div class="chain">
+<div class="here"><b>Perfil</b>Conclusiones y recomendaciones elegidas por el equipo técnico</div>
+<div class="here"><b>Prioridades</b>El Grupo Motor decide qué recomendaciones se convierten en prioridad y por qué</div>
+<div><b>Plan de Acción</b>Líneas, objetivos, indicadores y herramientas</div>
+<div><b>Agendas anuales</b>Actuaciones, con responsable, plazo y recursos</div>
+</div>
+<ul class="clean">
+<li>Recoger preguntas y desacuerdos sobre el Perfil.</li>
+<li>Elegir las prioridades y dejar escrito el motivo de cada una, y cómo influye en la decisión lo que aportan la ciudadanía y el Monitor.</li>
+<li>Registrar la selección en COMPÁS, en nombre del Grupo Motor. Una prioridad no queda adoptada por aparecer en esta presentación.</li>
+</ul>
+<p class="src">El Perfil concluye y recomienda; las prioridades son del Grupo Motor; las líneas, objetivos e indicadores, del Plan de Acción; las actuaciones, de las agendas anuales.</p>
+</section>
+
+<section class="slide">
+<span class="meta">12 · Plan de Acción en COMPÁS</span>
+<h2>Tres líneas del catálogo, con sus objetivos e indicadores</h2>
+<div class="grid g3">
+<div class="card soft"><span class="pill">Línea estratégica</span><h3>Bienestar emocional y salud mental</h3><p>7 objetivos generales · 17 objetivos específicos e indicadores.</p></div>
+<div class="card soft"><span class="pill">Línea estratégica</span><h3>Envejecimiento saludable</h3><p>4 objetivos generales · 18 objetivos específicos e indicadores.</p></div>
+<div class="card soft"><span class="pill">Línea estratégica</span><h3>Prevención y abordaje de las adicciones</h3><p>6 objetivos generales · 12 objetivos específicos e indicadores.</p></div>
+</div>
+<div class="card sand"><p>Son material para deliberar, no líneas adoptadas. El Grupo Motor decide qué líneas entran en el Plan Local de Salud 2027–2030 y cómo se adaptan a Atarfe: qué objetivos se seleccionan, se reformulan o se añaden, y con qué indicadores se siguen.</p></div>
+<p class="src">Catálogo RELAS de Plan de Acción de COMPÁS, consultado el 25/11/2026.</p>
+</section>
+
+<section class="slide">
+<span class="meta">13 · Estructura del Plan de Acción</span>
+<h2>Líneas, objetivos, indicadores y herramientas</h2>
+<div class="chain">
+<div><b>Línea</b>Estratégica, del catálogo o propia, ligada a una prioridad</div>
+<div><b>Objetivos</b>Generales y específicos de cada línea</div>
+<div><b>Indicadores</b>Población, unidad, situación inicial y, cuando haya base, meta</div>
+<div class="here"><b>Herramientas</b>Recogida y seguimiento de cada indicador</div>
+</div>
+<ul class="clean">
+<li>En COMPÁS, cada recomendación elegida del Perfil puede enlazarse con la prioridad, el objetivo y el indicador que la desarrollan, con su situación inicial tomada del Perfil.</li>
+<li>Lo que no se complete hoy queda como pendiente, con quien lo aportará.</li>
+</ul>
+<p><a class="cta" href="https://bhermoso.github.io/compas-ng-renovado/?fase=plan" target="_blank" rel="noopener">Abrir el Plan de Acción en COMPÁS ↗</a></p>
+<p class="src">Seleccionar el ámbito Atarfe al abrir COMPÁS.</p>
+</section>
+
+<section class="slide">
+<span class="meta">14 · Próximos pasos</span>
 <h2>Del Perfil al Plan Local de Salud 2027–2030</h2>
 <div class="chain">
-<div class="here"><b>1 · Compartir</b>Presentar el perfil y escuchar las aportaciones para la acción</div>
-<div><b>2 · Priorizar</b>Líneas estratégicas por el Grupo Motor</div>
-<div><b>3 · Planificar</b>Plan de Acción: líneas, objetivos e indicadores</div>
+<div class="here"><b>1 · Compartir</b>Presentar el Perfil y escuchar las aportaciones para la acción</div>
+<div class="here"><b>2 · Priorizar</b>El Grupo Motor elige y motiva sus prioridades</div>
+<div class="here"><b>3 · Planificar</b>Plan de Acción: líneas, objetivos, indicadores y herramientas</div>
 <div><b>4 · Mapear</b>Activos de las líneas incluidas en el Plan de Acción</div>
 </div>
 <div class="grid g2">
-<div class="card"><h3>Qué queda documentado hoy</h3><p>Adhesión, Informe de Salud, taller de impulso, Monitor y borrador de Perfil.</p></div>
-<div class="card sand"><h3>Qué hay que acordar</h3><p>Método y calendario de priorización, quién coordina el mapeo de activos y cómo se recogen las actas del Grupo Motor.</p></div>
+<div class="card"><h3>Qué queda documentado hoy</h3><p>Adhesión, Informe de Salud, taller de impulso, Monitor, 20 recursos de Localiza Salud y Perfil de Salud Local validado técnicamente.</p></div>
+<div class="card sand"><h3>Qué hay que acordar</h3><p>Prioridades y su motivación, líneas del Plan de Acción, quién coordina el mapeo de activos de cada línea y cómo se recogen las actas del Grupo Motor.</p></div>
 </div>
 <p class="src">Secuencia de trabajo propuesta. Las fechas y responsables los acuerda el Grupo Motor.</p>
 </section>
@@ -259,9 +322,10 @@ ul.clean{margin:0;padding-left:28px;font-size:25px;line-height:1.45;color:#2f514
 <p style="margin:0 0 10px;font-size:23px">Distrito Sanitario Granada-Metropolitano</p>
 <p style="margin:0;font-size:21px"><a href="mailto:blasr.hermoso.sspa@juntadeandalucia.es" style="color:#dcefe2">blasr.hermoso.sspa@juntadeandalucia.es</a> · <a href="tel:+34608176892" style="color:#dcefe2">608 176 892</a></p>
 </div>
-<p class="src">Fuentes principales: Informe de Salud de Atarfe (2025); Monitor de bienestar socioemocional Atarfe 2026; INE, Padrón 2025; Localiza Salud; Perfil de Salud Local de Atarfe (borrador).</p>
+<p class="src">Fuentes principales: Informe de Salud de Atarfe (2025); Monitor de bienestar socioemocional Atarfe 2026; INE; IECA; Localiza Salud; Perfil de Salud Local de Atarfe, revisión 0.10.0 (24/11/2026).</p>
 </section>
 </div></div>
+
 <div class="foot"><div><button id="prev" type="button">← Anterior</button> <span id="counter">1 / 1</span> <button id="next" type="button">Siguiente →</button></div><span class="hint">Flechas ← → · Espacio · Inicio/Fin · F pantalla completa</span><button id="fs" type="button">⛶ Presentar</button></div>
 </div>
 <script>
